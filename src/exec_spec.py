@@ -73,7 +73,7 @@ class ExecSpec:
     def test_command(self):
         trace_path = "/root/trace.py"
         changed_files_pattern = "({})".format("|".join(re.escape(x) for x in self.coverage_files))
-        trace_pattern = f"python3 {trace_path} --count -C coverage.cover --include-pattern '/testbed/{changed_files_pattern}'"
+        trace_pattern = f"python3 {trace_path} --timing --trace --count -C coverage.cover --include-pattern '/testbed/{changed_files_pattern}'"
 
         if self.exec_mode == "reproduction_script":
             reproduction_script_path = f"/testbed/{self.reproduction_script_name}"

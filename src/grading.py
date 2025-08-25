@@ -72,7 +72,7 @@ def get_logs_eval(
         raw_content = f.read()
         # remove installation logs
     # NOTE: does not work when not computing coverage
-    content = re.split(r"\n\+ python3 [^\n]*trace.py --count -C coverage.cover [^\n]*\n", raw_content, flags=re.MULTILINE)[1]
+    content = re.split(r"\n\+ python3 [^\n]*trace.py --timing --trace --count -C coverage.cover [^\n]*\n", raw_content, flags=re.MULTILINE)[1]
     # remove coverage dumps
     content = content.split("\n+ cat coverage.cover")[0]
     # TODO fix constant here
