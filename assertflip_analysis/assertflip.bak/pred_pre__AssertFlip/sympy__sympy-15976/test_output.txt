@@ -1,0 +1,803 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 701441853569d370506514083b995d11f9a130bd
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 701441853569d370506514083b995d11f9a130bd
+Merge: 45cb1f91aa 5456ef4925
+Author: Oscar Gustafsson <oscar.gustafsson@gmail.com>
+Date:   Sat Feb 16 10:42:35 2019 +0100
+
+    Merge pull request #15891 from oscargus/boldmatrixsymbol
+    
+    Option to make MatrixSymbol print in bold for LaTeX, pretty, and MathML printers
+
+diff --cc sympy/printing/pretty/tests/test_pretty.py
+index 371db39bce,b40e2a5894..b5987b2cd1
+--- a/sympy/printing/pretty/tests/test_pretty.py
++++ b/sympy/printing/pretty/tests/test_pretty.py
+@@@ -13,37 -18,29 +18,29 @@@ from sympy.core.trace import T
+  from sympy.functions import (Abs, Chi, Ci, Ei, KroneckerDelta,
+      Piecewise, Shi, Si, atan2, beta, binomial, catalan, ceiling, cos,
+      euler, exp, expint, factorial, factorial2, floor, gamma, hyper, log,
+ -    meijerg, sin, sqrt, subfactorial, tan, uppergamma,
+ +    meijerg, sin, sqrt, subfactorial, tan, uppergamma, lerchphi,
+      elliptic_k, elliptic_f, elliptic_e, elliptic_pi, DiracDelta)
+  
+- from sympy.codegen.ast import (Assignment, AddAugmentedAssignment,
+-     SubAugmentedAssignment, MulAugmentedAssignment, DivAugmentedAssignment, ModAugmentedAssignment)
+- 
+  from sympy.matrices import Adjoint, Inverse, MatrixSymbol, Transpose, KroneckerProduct
+  
+- from sympy.printing.pretty import pretty as xpretty
+- from sympy.printing.pretty import pprint
+- from sympy.printing.pretty.pretty_symbology import put_accent_in_middle_of_string
++ from sympy.physics import mechanics
++ from sympy.physics.units import joule, degree
++ from sympy.printing.pretty import pprint, pretty as xpretty
++ from sympy.printing.pretty.pretty_symbology import center_accent
+  
+- from sympy.physics.units import joule, degree, radian
++ from sympy.sets import ImageSet
++ from sympy.sets.setexpr import SetExpr
+  from sympy.tensor.array import (ImmutableDenseNDimArray, ImmutableSparseNDimArray,
+                                  MutableDenseNDimArray, MutableSparseNDimArray, tensorproduct)
++ from sympy.tensor.functions import TensorProduct
++ from sympy.tensor.tensor import (TensorIndexType, tensor_indices, tensorhead,
++         TensorElement)
+  
+  from sympy.utilities.pytest import raises, XFAIL
+- from sympy.core.trace import Tr
+- 
+- from sympy.core.compatibility import u_decode as u
+- from sympy.core.compatibility import range
+  
+  from sympy.vector import CoordSys3D, Gradient, Curl, Divergence, Dot, Cross
+- from sympy.tensor.functions import TensorProduct
+  
+- from sympy.sets.setexpr import SetExpr
+- from sympy.sets import ImageSet
+  
+- from sympy.tensor.tensor import (TensorIndexType, tensor_indices, tensorhead,
+-         TensorElement)
+  
+  import sympy as sym
+  class lowergamma(sym.lowergamma):
++ git diff 701441853569d370506514083b995d11f9a130bd
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.4.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.4.dev0
+    Uninstalling sympy-1.4.dev0:
+      Successfully uninstalled sympy-1.4.dev0
+  DEPRECATION: Legacy editable install of sympy==1.4.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:13: trailing whitespace.
+    
+<stdin>:16: trailing whitespace.
+    
+<stdin>:19: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-15976.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-15976.py cleanly.
+warning: 3 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/printing/mathml\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-15976.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/printing/mathml\\.py)']
+0.24 mathml.py(1): """
+0.24 mathml.py(5): from __future__ import print_function, division
+0.24 mathml.py(7): from sympy import sympify, S, Mul
+0.24 mathml.py(8): from sympy.core.function import _coeff_isneg
+0.24 mathml.py(9): from sympy.core.compatibility import range
+0.24 mathml.py(10): from sympy.printing.conventions import split_super_sub, requires_partial
+0.24 mathml.py(11): from sympy.printing.pretty.pretty_symbology import greek_unicode
+0.24 mathml.py(12): from sympy.printing.printer import Printer
+0.24 mathml.py(15): class MathMLPrinterBase(Printer):
+0.24 mathml.py(15): class MathMLPrinterBase(Printer):
+0.24 mathml.py(16):     """Contains common code required for MathMLContentPrinter and
+0.24 mathml.py(21):         "order": None,
+0.24 mathml.py(22):         "encoding": "utf-8",
+0.24 mathml.py(23):         "fold_frac_powers": False,
+0.24 mathml.py(24):         "fold_func_brackets": False,
+0.24 mathml.py(25):         "fold_short_frac": None,
+0.24 mathml.py(26):         "inv_trig_style": "abbreviated",
+0.24 mathml.py(27):         "ln_notation": False,
+0.24 mathml.py(28):         "long_frac_ratio": None,
+0.24 mathml.py(29):         "mat_delim": "[",
+0.24 mathml.py(30):         "mat_symbol_style": "plain",
+0.24 mathml.py(31):         "mul_symbol": None,
+0.24 mathml.py(32):         "root_notation": True,
+0.24 mathml.py(33):         "symbol_names": {},
+0.24 mathml.py(20):     _default_settings = {
+0.24 mathml.py(36):     def __init__(self, settings=None):
+0.24 mathml.py(57):     def doprint(self, expr):
+0.24 mathml.py(67):     def apply_patch(self):
+0.24 mathml.py(113):     def restore_patch(self):
+0.24 mathml.py(119): class MathMLContentPrinter(MathMLPrinterBase):
+0.24 mathml.py(119): class MathMLContentPrinter(MathMLPrinterBase):
+0.24 mathml.py(120):     """Prints an expression to the Content MathML markup language.
+0.24 mathml.py(124):     printmethod = "_mathml_content"
+0.24 mathml.py(126):     def mathml_tag(self, e):
+0.24 mathml.py(169):     def _print_Mul(self, expr):
+0.24 mathml.py(204):     def _print_Add(self, expr, order=None):
+0.24 mathml.py(232):     def _print_MatrixBase(self, m):
+0.24 mathml.py(241):     def _print_Rational(self, e):
+0.24 mathml.py(259):     def _print_Limit(self, e):
+0.24 mathml.py(273):     def _print_ImaginaryUnit(self, e):
+0.24 mathml.py(276):     def _print_EulerGamma(self, e):
+0.24 mathml.py(279):     def _print_GoldenRatio(self, e):
+0.24 mathml.py(286):     def _print_Exp1(self, e):
+0.24 mathml.py(289):     def _print_Pi(self, e):
+0.24 mathml.py(292):     def _print_Infinity(self, e):
+0.24 mathml.py(295):     def _print_Negative_Infinity(self, e):
+0.24 mathml.py(301):     def _print_Integral(self, e):
+0.24 mathml.py(330):     def _print_Sum(self, e):
+0.24 mathml.py(335):     def _print_Symbol(self, sym):
+0.24 mathml.py(391):     _print_MatrixSymbol = _print_Symbol
+0.24 mathml.py(392):     _print_RandomSymbol = _print_Symbol
+0.24 mathml.py(394):     def _print_Pow(self, e):
+0.24 mathml.py(415):     def _print_Number(self, e):
+0.24 mathml.py(420):     def _print_Derivative(self, e):
+0.24 mathml.py(435):     def _print_Function(self, e):
+0.24 mathml.py(442):     def _print_Basic(self, e):
+0.24 mathml.py(448):     def _print_AssocOp(self, e):
+0.24 mathml.py(456):     def _print_Relational(self, e):
+0.24 mathml.py(463):     def _print_list(self, seq):
+0.24 mathml.py(471):     def _print_int(self, p):
+0.24 mathml.py(477): class MathMLPresentationPrinter(MathMLPrinterBase):
+0.24 mathml.py(477): class MathMLPresentationPrinter(MathMLPrinterBase):
+0.24 mathml.py(478):     """Prints an expression to the Presentation MathML markup language.
+0.24 mathml.py(482):     printmethod = "_mathml_presentation"
+0.24 mathml.py(484):     def mathml_tag(self, e):
+0.24 mathml.py(523):     def _print_Mul(self, expr):
+0.24 mathml.py(570):     def _print_Add(self, expr, order=None):
+0.24 mathml.py(590):     def _print_MatrixBase(self, m):
+0.24 mathml.py(603):     def _print_Rational(self, e):
+0.24 mathml.py(618):     def _print_Limit(self, e):
+0.24 mathml.py(640):     def _print_ImaginaryUnit(self, e):
+0.24 mathml.py(645):     def _print_GoldenRatio(self, e):
+0.24 mathml.py(652):     def _print_Exp1(self, e):
+0.24 mathml.py(657):     def _print_Pi(self, e):
+0.24 mathml.py(662):     def _print_Infinity(self, e):
+0.24 mathml.py(667):     def _print_Negative_Infinity(self, e):
+0.24 mathml.py(676):     def _print_Integral(self, e):
+0.24 mathml.py(714):     def _print_Sum(self, e):
+0.24 mathml.py(745):     def _print_Symbol(self, sym, style='plain'):
+0.24 mathml.py(804):     def _print_MatrixSymbol(self, sym):
+0.24 mathml.py(807):     _print_RandomSymbol = _print_Symbol
+0.24 mathml.py(809):     def _print_Pow(self, e):
+0.24 mathml.py(836):     def _print_Number(self, e):
+0.24 mathml.py(841):     def _print_Derivative(self, e):
+0.24 mathml.py(876):     def _print_Function(self, e):
+0.24 mathml.py(887):     def _print_Basic(self, e):
+0.24 mathml.py(898):     def _print_AssocOp(self, e):
+0.24 mathml.py(907):     def _print_Relational(self, e):
+0.24 mathml.py(916):     def _print_int(self, p):
+0.24 mathml.py(922): def mathml(expr, printer='content', **settings):
+0.24 mathml.py(932): def print_mathml(expr, printer='content', **settings):
+0.24 mathml.py(969): MathMLPrinter = MathMLContentPrinter
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        52218640
+hash randomization: on (PYTHONHASHSEED=1224527302)
+
+sympy/polys/tests/test_coverup_sympy__sympy-15976.py[1] 
+test_mathml_symbol_with_number 0.65 mathml.py(926):     if printer == 'presentation':
+0.65 mathml.py(927):         return MathMLPresentationPrinter(settings).doprint(expr)
+0.65 mathml.py(37):         Printer.__init__(self, settings)
+0.65 mathml.py(38):         from xml.dom.minidom import Document,Text
+0.65 mathml.py(40):         self.dom = Document()
+0.65 mathml.py(44):         class RawText(Text):
+0.65 mathml.py(44):         class RawText(Text):
+0.65 mathml.py(45):             def writexml(self, writer, indent='', addindent='', newl=''):
+0.65 mathml.py(49):         def createRawTextNode(data):
+0.65 mathml.py(55):         self.dom.createTextNode = createRawTextNode
+0.65 mathml.py(61):         mathML = Printer._print(self, expr)
+0.65 mathml.py(571):         mrow = self.dom.createElement('mrow')
+0.65 mathml.py(572):         args = self._as_ordered_terms(expr, order=order)
+0.65 mathml.py(573):         mrow.appendChild(self._print(args[0]))
+0.65 mathml.py(811):         if e.exp.is_negative or len(str(e.base)) > 1:
+0.65 mathml.py(812):             mrow = self.dom.createElement('mrow')
+0.65 mathml.py(813):             x = self.dom.createElement('mfenced')
+0.65 mathml.py(814):             x.appendChild(self._print(e.base))
+0.65 mathml.py(746):         x = self.dom.createElement('mi')
+0.65 mathml.py(748):         if style == 'bold':
+0.65 mathml.py(751):         def join(items):
+0.65 mathml.py(769):         def translate(s):
+0.65 mathml.py(775):         name, supers, subs = split_super_sub(sym.name)
+0.65 mathml.py(776):         name = translate(name)
+0.65 mathml.py(770):             if s in greek_unicode:
+0.65 mathml.py(773):                 return s
+0.65 mathml.py(777):         supers = [translate(sup) for sup in supers]
+0.65 mathml.py(777):         supers = [translate(sup) for sup in supers]
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(770):             if s in greek_unicode:
+0.65 mathml.py(773):                 return s
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(780):         mname = self.dom.createElement('mi')
+0.65 mathml.py(781):         mname.appendChild(self.dom.createTextNode(name))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(782):         if len(supers) == 0:
+0.65 mathml.py(783):             if len(subs) == 0:
+0.65 mathml.py(786):                 msub = self.dom.createElement('msub')
+0.65 mathml.py(787):                 msub.appendChild(mname)
+0.65 mathml.py(788):                 msub.appendChild(join(subs))
+0.65 mathml.py(752):             if len(items) > 1:
+0.65 mathml.py(764):                 mi = self.dom.createElement('mi')
+0.65 mathml.py(765):                 mi.appendChild(self.dom.createTextNode(items[0]))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(766):                 return mi
+0.65 mathml.py(789):                 x.appendChild(msub)
+0.65 mathml.py(802):         return x
+0.65 mathml.py(815):             mrow.appendChild(x)
+0.65 mathml.py(816):             x = self.dom.createElement('msup')
+0.65 mathml.py(817):             x.appendChild(mrow)
+0.65 mathml.py(818):             x.appendChild(self._print(e.exp))
+0.65 mathml.py(604):         if e.q == 1:
+0.65 mathml.py(606):             x = self.dom.createElement('mn')
+0.65 mathml.py(607):             x.appendChild(self.dom.createTextNode(str(e.p)))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(608):             return x
+0.65 mathml.py(819):             return x
+0.65 mathml.py(574):         for arg in args[1:]:
+0.65 mathml.py(575):             if _coeff_isneg(arg):
+0.65 mathml.py(582):                 x = self.dom.createElement('mo')
+0.65 mathml.py(583):                 x.appendChild(self.dom.createTextNode('+'))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(584):                 y = self._print(arg)
+0.65 mathml.py(525):         def multiply(expr, mrow):
+0.65 mathml.py(559):         mrow = self.dom.createElement('mrow')
+0.65 mathml.py(560):         if _coeff_isneg(expr):
+0.65 mathml.py(566):             mrow = multiply(expr, mrow)
+0.65 mathml.py(526):             from sympy.simplify import fraction
+0.65 mathml.py(527):             numer, denom = fraction(expr)
+0.65 mathml.py(529):             if denom is not S.One:
+0.65 mathml.py(537):             coeff, terms = expr.as_coeff_mul()
+0.65 mathml.py(538):             if coeff is S.One and len(terms) == 1:
+0.65 mathml.py(541):             if self.order != 'old':
+0.65 mathml.py(542):                 terms = Mul._from_args(terms).as_ordered_factors()
+0.65 mathml.py(544):             if(coeff != 1):
+0.65 mathml.py(550):             for term in terms:
+0.65 mathml.py(551):                 x = self._print(term)
+0.65 mathml.py(746):         x = self.dom.createElement('mi')
+0.65 mathml.py(748):         if style == 'bold':
+0.65 mathml.py(751):         def join(items):
+0.65 mathml.py(769):         def translate(s):
+0.65 mathml.py(775):         name, supers, subs = split_super_sub(sym.name)
+0.65 mathml.py(776):         name = translate(name)
+0.65 mathml.py(770):             if s in greek_unicode:
+0.65 mathml.py(773):                 return s
+0.65 mathml.py(777):         supers = [translate(sup) for sup in supers]
+0.65 mathml.py(777):         supers = [translate(sup) for sup in supers]
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(770):             if s in greek_unicode:
+0.65 mathml.py(773):                 return s
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(780):         mname = self.dom.createElement('mi')
+0.65 mathml.py(781):         mname.appendChild(self.dom.createTextNode(name))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(782):         if len(supers) == 0:
+0.65 mathml.py(783):             if len(subs) == 0:
+0.65 mathml.py(786):                 msub = self.dom.createElement('msub')
+0.65 mathml.py(787):                 msub.appendChild(mname)
+0.65 mathml.py(788):                 msub.appendChild(join(subs))
+0.65 mathml.py(752):             if len(items) > 1:
+0.65 mathml.py(764):                 mi = self.dom.createElement('mi')
+0.65 mathml.py(765):                 mi.appendChild(self.dom.createTextNode(items[0]))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(766):                 return mi
+0.65 mathml.py(789):                 x.appendChild(msub)
+0.65 mathml.py(802):         return x
+0.65 mathml.py(552):                 mrow.appendChild(x)
+0.65 mathml.py(553):                 if not term == terms[-1]:
+0.65 mathml.py(554):                     y = self.dom.createElement('mo')
+0.65 mathml.py(555):                     y.appendChild(self.dom.createTextNode(self.mathml_tag(expr)))
+0.65 mathml.py(487):             'Mul': '&InvisibleTimes;',
+0.65 mathml.py(488):             'Number': 'mn',
+0.65 mathml.py(489):             'Limit' : '&#x2192;',
+0.65 mathml.py(490):             'Derivative': '&dd;',
+0.65 mathml.py(491):             'int': 'mn',
+0.65 mathml.py(492):             'Symbol': 'mi',
+0.65 mathml.py(493):             'Integral': '&int;',
+0.65 mathml.py(494):             'Sum': '&#x2211;',
+0.65 mathml.py(495):             'sin': 'sin',
+0.65 mathml.py(496):             'cos': 'cos',
+0.65 mathml.py(497):             'tan': 'tan',
+0.65 mathml.py(498):             'cot': 'cot',
+0.65 mathml.py(499):             'asin': 'arcsin',
+0.65 mathml.py(500):             'asinh': 'arcsinh',
+0.65 mathml.py(501):             'acos': 'arccos',
+0.65 mathml.py(502):             'acosh': 'arccosh',
+0.65 mathml.py(503):             'atan': 'arctan',
+0.65 mathml.py(504):             'atanh': 'arctanh',
+0.65 mathml.py(505):             'acot': 'arccot',
+0.65 mathml.py(506):             'atan2': 'arctan',
+0.65 mathml.py(507):             'Equality': '=',
+0.65 mathml.py(508):             'Unequality': '&#x2260;',
+0.65 mathml.py(509):             'GreaterThan': '&#x2265;',
+0.65 mathml.py(510):             'LessThan': '&#x2264;',
+0.65 mathml.py(511):             'StrictGreaterThan': '>',
+0.65 mathml.py(512):             'StrictLessThan': '<',
+0.65 mathml.py(486):         translate = {
+0.65 mathml.py(515):         for cls in e.__class__.__mro__:
+0.65 mathml.py(516):             n = cls.__name__
+0.65 mathml.py(517):             if n in translate:
+0.65 mathml.py(518):                 return translate[n]
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(556):                     mrow.appendChild(y)
+0.65 mathml.py(550):             for term in terms:
+0.65 mathml.py(551):                 x = self._print(term)
+0.65 mathml.py(746):         x = self.dom.createElement('mi')
+0.65 mathml.py(748):         if style == 'bold':
+0.65 mathml.py(751):         def join(items):
+0.65 mathml.py(769):         def translate(s):
+0.65 mathml.py(775):         name, supers, subs = split_super_sub(sym.name)
+0.65 mathml.py(776):         name = translate(name)
+0.65 mathml.py(770):             if s in greek_unicode:
+0.65 mathml.py(773):                 return s
+0.65 mathml.py(777):         supers = [translate(sup) for sup in supers]
+0.65 mathml.py(777):         supers = [translate(sup) for sup in supers]
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(778):         subs = [translate(sub) for sub in subs]
+0.65 mathml.py(780):         mname = self.dom.createElement('mi')
+0.65 mathml.py(781):         mname.appendChild(self.dom.createTextNode(name))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(782):         if len(supers) == 0:
+0.65 mathml.py(783):             if len(subs) == 0:
+0.65 mathml.py(784):                 x.appendChild(self.dom.createTextNode(name))
+0.65 mathml.py(50):             r = RawText()
+0.65 mathml.py(51):             r.data = data
+0.65 mathml.py(52):             r.ownerDocument = self.dom
+0.65 mathml.py(53):             return r
+0.65 mathml.py(802):         return x
+0.65 mathml.py(552):                 mrow.appendChild(x)
+0.65 mathml.py(553):                 if not term == terms[-1]:
+0.65 mathml.py(550):             for term in terms:
+0.65 mathml.py(557):             return mrow
+0.65 mathml.py(568):         return mrow
+0.65 mathml.py(585):             mrow.appendChild(x)
+0.65 mathml.py(586):             mrow.appendChild(y)
+0.65 mathml.py(574):         for arg in args[1:]:
+0.65 mathml.py(588):         return mrow
+0.65 mathml.py(62):         unistr = mathML.toxml()
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(46):                 if self.data:
+0.65 mathml.py(47):                     writer.write(u'{}{}{}'.format(indent, self.data, newl))
+0.65 mathml.py(63):         xmlbstr = unistr.encode('ascii', 'xmlcharrefreplace')
+0.65 mathml.py(64):         res = xmlbstr.decode()
+0.65 mathml.py(65):         return res
+F                                          [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-15976.py:test_mathml_symbol_with_number 
+Traceback (most recent call last):
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-15976.py", line 16, in test_mathml_symbol_with_number
+    assert '<mi>x2</mi>' in mathml_output
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.02 seconds ==============
+DO *NOT* COMMIT!
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/printing/mathml\\.py)']
+0.37 mathml.py(1): """
+0.37 mathml.py(5): from __future__ import print_function, division
+0.37 mathml.py(7): from sympy import sympify, S, Mul
+0.37 mathml.py(8): from sympy.core.function import _coeff_isneg
+0.37 mathml.py(9): from sympy.core.compatibility import range
+0.37 mathml.py(10): from sympy.printing.conventions import split_super_sub, requires_partial
+0.37 mathml.py(11): from sympy.printing.pretty.pretty_symbology import greek_unicode
+0.37 mathml.py(12): from sympy.printing.printer import Printer
+0.37 mathml.py(15): class MathMLPrinterBase(Printer):
+0.37 mathml.py(15): class MathMLPrinterBase(Printer):
+0.37 mathml.py(16):     """Contains common code required for MathMLContentPrinter and
+0.37 mathml.py(21):         "order": None,
+0.37 mathml.py(22):         "encoding": "utf-8",
+0.37 mathml.py(23):         "fold_frac_powers": False,
+0.37 mathml.py(24):         "fold_func_brackets": False,
+0.37 mathml.py(25):         "fold_short_frac": None,
+0.37 mathml.py(26):         "inv_trig_style": "abbreviated",
+0.37 mathml.py(27):         "ln_notation": False,
+0.37 mathml.py(28):         "long_frac_ratio": None,
+0.37 mathml.py(29):         "mat_delim": "[",
+0.37 mathml.py(30):         "mat_symbol_style": "plain",
+0.37 mathml.py(31):         "mul_symbol": None,
+0.37 mathml.py(32):         "root_notation": True,
+0.37 mathml.py(33):         "symbol_names": {},
+0.37 mathml.py(20):     _default_settings = {
+0.37 mathml.py(36):     def __init__(self, settings=None):
+0.37 mathml.py(57):     def doprint(self, expr):
+0.37 mathml.py(67):     def apply_patch(self):
+0.37 mathml.py(113):     def restore_patch(self):
+0.37 mathml.py(119): class MathMLContentPrinter(MathMLPrinterBase):
+0.37 mathml.py(119): class MathMLContentPrinter(MathMLPrinterBase):
+0.37 mathml.py(120):     """Prints an expression to the Content MathML markup language.
+0.37 mathml.py(124):     printmethod = "_mathml_content"
+0.37 mathml.py(126):     def mathml_tag(self, e):
+0.37 mathml.py(169):     def _print_Mul(self, expr):
+0.37 mathml.py(204):     def _print_Add(self, expr, order=None):
+0.37 mathml.py(232):     def _print_MatrixBase(self, m):
+0.37 mathml.py(241):     def _print_Rational(self, e):
+0.37 mathml.py(259):     def _print_Limit(self, e):
+0.37 mathml.py(273):     def _print_ImaginaryUnit(self, e):
+0.37 mathml.py(276):     def _print_EulerGamma(self, e):
+0.37 mathml.py(279):     def _print_GoldenRatio(self, e):
+0.37 mathml.py(286):     def _print_Exp1(self, e):
+0.37 mathml.py(289):     def _print_Pi(self, e):
+0.37 mathml.py(292):     def _print_Infinity(self, e):
+0.37 mathml.py(295):     def _print_Negative_Infinity(self, e):
+0.37 mathml.py(301):     def _print_Integral(self, e):
+0.37 mathml.py(330):     def _print_Sum(self, e):
+0.37 mathml.py(335):     def _print_Symbol(self, sym):
+0.37 mathml.py(391):     _print_MatrixSymbol = _print_Symbol
+0.37 mathml.py(392):     _print_RandomSymbol = _print_Symbol
+0.37 mathml.py(394):     def _print_Pow(self, e):
+0.37 mathml.py(415):     def _print_Number(self, e):
+0.37 mathml.py(420):     def _print_Derivative(self, e):
+0.37 mathml.py(435):     def _print_Function(self, e):
+0.37 mathml.py(442):     def _print_Basic(self, e):
+0.37 mathml.py(448):     def _print_AssocOp(self, e):
+0.37 mathml.py(456):     def _print_Relational(self, e):
+0.37 mathml.py(463):     def _print_list(self, seq):
+0.37 mathml.py(471):     def _print_int(self, p):
+0.37 mathml.py(477): class MathMLPresentationPrinter(MathMLPrinterBase):
+0.37 mathml.py(477): class MathMLPresentationPrinter(MathMLPrinterBase):
+0.37 mathml.py(478):     """Prints an expression to the Presentation MathML markup language.
+0.37 mathml.py(482):     printmethod = "_mathml_presentation"
+0.37 mathml.py(484):     def mathml_tag(self, e):
+0.37 mathml.py(523):     def _print_Mul(self, expr):
+0.37 mathml.py(570):     def _print_Add(self, expr, order=None):
+0.37 mathml.py(590):     def _print_MatrixBase(self, m):
+0.37 mathml.py(603):     def _print_Rational(self, e):
+0.37 mathml.py(618):     def _print_Limit(self, e):
+0.37 mathml.py(640):     def _print_ImaginaryUnit(self, e):
+0.37 mathml.py(645):     def _print_GoldenRatio(self, e):
+0.37 mathml.py(652):     def _print_Exp1(self, e):
+0.37 mathml.py(657):     def _print_Pi(self, e):
+0.37 mathml.py(662):     def _print_Infinity(self, e):
+0.37 mathml.py(667):     def _print_Negative_Infinity(self, e):
+0.37 mathml.py(676):     def _print_Integral(self, e):
+0.37 mathml.py(714):     def _print_Sum(self, e):
+0.37 mathml.py(745):     def _print_Symbol(self, sym, style='plain'):
+0.37 mathml.py(804):     def _print_MatrixSymbol(self, sym):
+0.37 mathml.py(807):     _print_RandomSymbol = _print_Symbol
+0.37 mathml.py(809):     def _print_Pow(self, e):
+0.37 mathml.py(836):     def _print_Number(self, e):
+0.37 mathml.py(841):     def _print_Derivative(self, e):
+0.37 mathml.py(876):     def _print_Function(self, e):
+0.37 mathml.py(887):     def _print_Basic(self, e):
+0.37 mathml.py(898):     def _print_AssocOp(self, e):
+0.37 mathml.py(907):     def _print_Relational(self, e):
+0.37 mathml.py(916):     def _print_int(self, p):
+0.37 mathml.py(922): def mathml(expr, printer='content', **settings):
+0.37 mathml.py(932): def print_mathml(expr, printer='content', **settings):
+0.37 mathml.py(969): MathMLPrinter = MathMLContentPrinter
++ cat coverage.cover
+{"/testbed/sympy/printing/mathml.py": {"5": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 2, "119": 2, "477": 2, "922": 1, "932": 1, "969": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "20": 1, "36": 1, "57": 1, "67": 1, "113": 1, "37": 1, "38": 1, "40": 1, "44": 2, "49": 1, "55": 1, "45": 1, "46": 8, "47": 8, "50": 9, "51": 9, "52": 9, "53": 9, "61": 1, "62": 1, "63": 1, "64": 1, "65": 1, "75": 0, "77": 0, "105": 0, "106": 0, "108": 0, "110": 0, "111": 0, "81": 0, "83": 0, "84": 0, "85": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "95": 0, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "102": 0, "104": 0, "109": 0, "114": 0, "115": 0, "116": 0, "124": 1, "126": 1, "169": 1, "204": 1, "232": 1, "241": 1, "259": 1, "273": 1, "276": 1, "279": 1, "286": 1, "289": 1, "292": 1, "295": 1, "301": 1, "330": 1, "335": 1, "391": 1, "392": 1, "394": 1, "415": 1, "420": 1, "435": 1, "442": 1, "448": 1, "456": 1, "463": 1, "471": 1, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "141": 0, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "150": 0, "151": 0, "152": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "128": 0, "161": 0, "162": 0, "163": 0, "164": 0, "166": 0, "167": 0, "171": 0, "172": 0, "173": 0, "174": 0, "175": 0, "177": 0, "178": 0, "180": 0, "181": 0, "182": 0, "183": 0, "184": 0, "185": 0, "187": 0, "188": 0, "191": 0, "193": 0, "194": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 0, "211": 0, "212": 0, "213": 0, "214": 0, "216": 0, "217": 0, "218": 0, "220": 0, "221": 0, "222": 0, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "242": 0, "244": 0, "245": 0, "246": 0, "247": 0, "248": 0, "250": 0, "251": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "260": 0, "261": 0, "263": 0, "264": 0, "265": 0, "266": 0, "268": 0, "269": 0, "270": 0, "271": 0, "274": 0, "277": 0, "282": 0, "283": 0, "284": 0, "287": 0, "290": 0, "293": 0, "296": 0, "297": 0, "298": 0, "299": 0, "302": 0, "326": 0, "327": 0, "328": 0, "303": 0, "304": 0, "305": 0, "306": 0, "307": 0, "309": 0, "310": 0, "311": 0, "312": 0, "313": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "323": 0, "324": 0, "333": 0, "336": 0, "338": 0, "356": 0, "362": 0, "363": 0, "364": 0, "365": 0, "367": 0, "368": 0, "369": 0, "370": 0, "371": 0, "373": 0, "374": 0, "375": 0, "376": 0, "378": 0, "379": 0, "380": 0, "381": 0, "382": 0, "384": 0, "385": 0, "386": 0, "387": 0, "388": 0, "389": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "347": 0, "348": 0, "349": 0, "351": 0, "352": 0, "353": 0, "357": 0, "358": 0, "360": 0, "396": 0, "397": 0, "398": 0, "399": 0, "400": 0, "401": 0, "402": 0, "403": 0, "404": 0, "405": 0, "406": 0, "408": 0, "409": 0, "410": 0, "411": 0, "412": 0, "413": 0, "416": 0, "417": 0, "418": 0, "421": 0, "422": 0, "423": 0, "424": 0, "425": 0, "427": 0, "428": 0, "429": 0, "431": 0, "432": 0, "433": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "443": 0, "444": 0, "445": 0, "446": 0, "449": 0, "450": 0, "451": 0, "452": 0, "453": 0, "454": 0, "457": 0, "458": 0, "459": 0, "460": 0, "461": 0, "466": 0, "467": 0, "468": 0, "469": 0, "472": 0, "473": 0, "474": 0, "482": 1, "484": 1, "523": 1, "570": 1, "590": 1, "603": 1, "618": 1, "640": 1, "645": 1, "652": 1, "657": 1, "662": 1, "667": 1, "676": 1, "714": 1, "745": 1, "804": 1, "807": 1, "809": 1, "836": 1, "841": 1, "876": 1, "887": 1, "898": 1, "907": 1, "916": 1, "487": 1, "488": 1, "489": 1, "490": 1, "491": 1, "492": 1, "493": 1, "494": 1, "495": 1, "496": 1, "497": 1, "498": 1, "499": 1, "500": 1, "501": 1, "502": 1, "503": 1, "504": 1, "505": 1, "506": 1, "507": 1, "508": 1, "509": 1, "510": 1, "511": 1, "512": 1, "486": 1, "515": 1, "516": 1, "517": 1, "518": 1, "520": 0, "521": 0, "525": 1, "559": 1, "560": 1, "561": 0, "562": 0, "563": 0, "564": 0, "566": 1, "568": 1, "526": 1, "527": 1, "529": 1, "530": 0, "531": 0, "532": 0, "533": 0, "534": 0, "535": 0, "537": 1, "538": 1, "539": 0, "541": 1, "542": 1, "544": 1, "545": 0, "546": 0, "547": 0, "548": 0, "549": 0, "550": 3, "551": 2, "552": 2, "553": 2, "554": 1, "555": 1, "556": 1, "557": 1, "571": 1, "572": 1, "573": 1, "574": 2, "575": 1, "577": 0, "578": 0, "579": 0, "582": 1, "583": 1, "584": 1, "585": 1, "586": 1, "588": 1, "591": 0, "592": 0, "593": 0, "594": 0, "595": 0, "596": 0, "597": 0, "598": 0, "599": 0, "600": 0, "601": 0, "604": 1, "606": 1, "607": 1, "608": 1, "609": 0, "610": 0, "611": 0, "612": 0, "613": 0, "614": 0, "615": 0, "616": 0, "619": 0, "620": 0, "621": 0, "622": 0, "624": 0, "625": 0, "626": 0, "627": 0, "628": 0, "629": 0, "630": 0, "631": 0, "633": 0, "634": 0, "635": 0, "636": 0, "638": 0, "641": 0, "642": 0, "643": 0, "648": 0, "649": 0, "650": 0, "653": 0, "654": 0, "655": 0, "658": 0, "659": 0, "660": 0, "663": 0, "664": 0, "665": 0, "668": 0, "669": 0, "670": 0, "671": 0, "672": 0, "673": 0, "674": 0, "677": 0, "678": 0, "679": 0, "680": 0, "681": 0, "682": 0, "683": 0, "684": 0, "685": 0, "686": 0, "687": 0, "688": 0, "689": 0, "690": 0, "691": 0, "693": 0, "694": 0, "695": 0, "696": 0, "697": 0, "698": 0, "700": 0, "702": 0, "703": 0, "704": 0, "706": 0, "707": 0, "708": 0, "710": 0, "711": 0, "712": 0, "715": 0, "716": 0, "717": 0, "718": 0, "719": 0, "720": 0, "722": 0, "723": 0, "724": 0, "725": 0, "726": 0, "727": 0, "728": 0, "730": 0, "731": 0, "732": 0, "734": 0, "735": 0, "736": 0, "737": 0, "739": 0, "740": 0, "741": 0, "743": 0, "746": 3, "748": 3, "749": 0, "751": 3, "769": 3, "775": 3, "776": 3, "777": 6, "778": 8, "780": 3, "781": 3, "782": 3, "783": 3, "784": 1, "786": 2, "787": 2, "788": 2, "789": 2, "791": 0, "792": 0, "793": 0, "794": 0, "795": 0, "797": 0, "798": 0, "799": 0, "800": 0, "801": 0, "802": 3, "752": 2, "753": 0, "754": 0, "755": 0, "756": 0, "757": 0, "758": 0, "759": 0, "760": 0, "761": 0, "762": 0, "764": 2, "765": 2, "766": 2, "770": 5, "771": 0, "773": 5, "805": 0, "811": 1, "812": 1, "813": 1, "814": 1, "815": 1, "816": 1, "817": 1, "818": 1, "819": 1, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "826": 0, "827": 0, "828": 0, "829": 0, "831": 0, "832": 0, "833": 0, "834": 0, "837": 0, "838": 0, "839": 0, "842": 0, "843": 0, "844": 0, "845": 0, "846": 0, "847": 0, "849": 0, "850": 0, "851": 0, "853": 0, "854": 0, "855": 0, "856": 0, "857": 0, "859": 0, "860": 0, "861": 0, "862": 0, "863": 0, "864": 0, "866": 0, "867": 0, "868": 0, "869": 0, "870": 0, "871": 0, "872": 0, "874": 0, "877": 0, "878": 0, "879": 0, "880": 0, "881": 0, "882": 0, "883": 0, "884": 0, "885": 0, "888": 0, "889": 0, "890": 0, "891": 0, "892": 0, "893": 0, "894": 0, "895": 0, "896": 0, "899": 0, "900": 0, "901": 0, "902": 0, "903": 0, "904": 0, "905": 0, "908": 0, "909": 0, "910": 0, "911": 0, "912": 0, "913": 0, "914": 0, "917": 0, "918": 0, "919": 0, "926": 1, "927": 1, "929": 0, "957": 0, "958": 0, "960": 0, "961": 0, "962": 0, "963": 0, "964": 0, "966": 0}}
+{"/testbed/sympy/printing/mathml.py": {"5": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 2, "119": 2, "477": 2, "922": 1, "932": 1, "969": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "20": 1, "36": 1, "57": 1, "67": 1, "113": 1, "37": 0, "38": 0, "40": 0, "44": 0, "49": 0, "55": 0, "45": 0, "46": 0, "47": 0, "50": 0, "51": 0, "52": 0, "53": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "75": 0, "77": 0, "105": 0, "106": 0, "108": 0, "110": 0, "111": 0, "81": 0, "83": 0, "84": 0, "85": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "95": 0, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "102": 0, "104": 0, "109": 0, "114": 0, "115": 0, "116": 0, "124": 1, "126": 1, "169": 1, "204": 1, "232": 1, "241": 1, "259": 1, "273": 1, "276": 1, "279": 1, "286": 1, "289": 1, "292": 1, "295": 1, "301": 1, "330": 1, "335": 1, "391": 1, "392": 1, "394": 1, "415": 1, "420": 1, "435": 1, "442": 1, "448": 1, "456": 1, "463": 1, "471": 1, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "141": 0, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "150": 0, "151": 0, "152": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "128": 0, "161": 0, "162": 0, "163": 0, "164": 0, "166": 0, "167": 0, "171": 0, "172": 0, "173": 0, "174": 0, "175": 0, "177": 0, "178": 0, "180": 0, "181": 0, "182": 0, "183": 0, "184": 0, "185": 0, "187": 0, "188": 0, "191": 0, "193": 0, "194": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 0, "211": 0, "212": 0, "213": 0, "214": 0, "216": 0, "217": 0, "218": 0, "220": 0, "221": 0, "222": 0, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "242": 0, "244": 0, "245": 0, "246": 0, "247": 0, "248": 0, "250": 0, "251": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "260": 0, "261": 0, "263": 0, "264": 0, "265": 0, "266": 0, "268": 0, "269": 0, "270": 0, "271": 0, "274": 0, "277": 0, "282": 0, "283": 0, "284": 0, "287": 0, "290": 0, "293": 0, "296": 0, "297": 0, "298": 0, "299": 0, "302": 0, "326": 0, "327": 0, "328": 0, "303": 0, "304": 0, "305": 0, "306": 0, "307": 0, "309": 0, "310": 0, "311": 0, "312": 0, "313": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "323": 0, "324": 0, "333": 0, "336": 0, "338": 0, "356": 0, "362": 0, "363": 0, "364": 0, "365": 0, "367": 0, "368": 0, "369": 0, "370": 0, "371": 0, "373": 0, "374": 0, "375": 0, "376": 0, "378": 0, "379": 0, "380": 0, "381": 0, "382": 0, "384": 0, "385": 0, "386": 0, "387": 0, "388": 0, "389": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "347": 0, "348": 0, "349": 0, "351": 0, "352": 0, "353": 0, "357": 0, "358": 0, "360": 0, "396": 0, "397": 0, "398": 0, "399": 0, "400": 0, "401": 0, "402": 0, "403": 0, "404": 0, "405": 0, "406": 0, "408": 0, "409": 0, "410": 0, "411": 0, "412": 0, "413": 0, "416": 0, "417": 0, "418": 0, "421": 0, "422": 0, "423": 0, "424": 0, "425": 0, "427": 0, "428": 0, "429": 0, "431": 0, "432": 0, "433": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "443": 0, "444": 0, "445": 0, "446": 0, "449": 0, "450": 0, "451": 0, "452": 0, "453": 0, "454": 0, "457": 0, "458": 0, "459": 0, "460": 0, "461": 0, "466": 0, "467": 0, "468": 0, "469": 0, "472": 0, "473": 0, "474": 0, "482": 1, "484": 1, "523": 1, "570": 1, "590": 1, "603": 1, "618": 1, "640": 1, "645": 1, "652": 1, "657": 1, "662": 1, "667": 1, "676": 1, "714": 1, "745": 1, "804": 1, "807": 1, "809": 1, "836": 1, "841": 1, "876": 1, "887": 1, "898": 1, "907": 1, "916": 1, "487": 0, "488": 0, "489": 0, "490": 0, "491": 0, "492": 0, "493": 0, "494": 0, "495": 0, "496": 0, "497": 0, "498": 0, "499": 0, "500": 0, "501": 0, "502": 0, "503": 0, "504": 0, "505": 0, "506": 0, "507": 0, "508": 0, "509": 0, "510": 0, "511": 0, "512": 0, "486": 0, "515": 0, "516": 0, "517": 0, "518": 0, "520": 0, "521": 0, "525": 0, "559": 0, "560": 0, "561": 0, "562": 0, "563": 0, "564": 0, "566": 0, "568": 0, "526": 0, "527": 0, "529": 0, "530": 0, "531": 0, "532": 0, "533": 0, "534": 0, "535": 0, "537": 0, "538": 0, "539": 0, "541": 0, "542": 0, "544": 0, "545": 0, "546": 0, "547": 0, "548": 0, "549": 0, "550": 0, "551": 0, "552": 0, "553": 0, "554": 0, "555": 0, "556": 0, "557": 0, "571": 0, "572": 0, "573": 0, "574": 0, "575": 0, "577": 0, "578": 0, "579": 0, "582": 0, "583": 0, "584": 0, "585": 0, "586": 0, "588": 0, "591": 0, "592": 0, "593": 0, "594": 0, "595": 0, "596": 0, "597": 0, "598": 0, "599": 0, "600": 0, "601": 0, "604": 0, "606": 0, "607": 0, "608": 0, "609": 0, "610": 0, "611": 0, "612": 0, "613": 0, "614": 0, "615": 0, "616": 0, "619": 0, "620": 0, "621": 0, "622": 0, "624": 0, "625": 0, "626": 0, "627": 0, "628": 0, "629": 0, "630": 0, "631": 0, "633": 0, "634": 0, "635": 0, "636": 0, "638": 0, "641": 0, "642": 0, "643": 0, "648": 0, "649": 0, "650": 0, "653": 0, "654": 0, "655": 0, "658": 0, "659": 0, "660": 0, "663": 0, "664": 0, "665": 0, "668": 0, "669": 0, "670": 0, "671": 0, "672": 0, "673": 0, "674": 0, "677": 0, "678": 0, "679": 0, "680": 0, "681": 0, "682": 0, "683": 0, "684": 0, "685": 0, "686": 0, "687": 0, "688": 0, "689": 0, "690": 0, "691": 0, "693": 0, "694": 0, "695": 0, "696": 0, "697": 0, "698": 0, "700": 0, "702": 0, "703": 0, "704": 0, "706": 0, "707": 0, "708": 0, "710": 0, "711": 0, "712": 0, "715": 0, "716": 0, "717": 0, "718": 0, "719": 0, "720": 0, "722": 0, "723": 0, "724": 0, "725": 0, "726": 0, "727": 0, "728": 0, "730": 0, "731": 0, "732": 0, "734": 0, "735": 0, "736": 0, "737": 0, "739": 0, "740": 0, "741": 0, "743": 0, "746": 0, "748": 0, "749": 0, "751": 0, "769": 0, "775": 0, "776": 0, "777": 0, "778": 0, "780": 0, "781": 0, "782": 0, "783": 0, "784": 0, "786": 0, "787": 0, "788": 0, "789": 0, "791": 0, "792": 0, "793": 0, "794": 0, "795": 0, "797": 0, "798": 0, "799": 0, "800": 0, "801": 0, "802": 0, "752": 0, "753": 0, "754": 0, "755": 0, "756": 0, "757": 0, "758": 0, "759": 0, "760": 0, "761": 0, "762": 0, "764": 0, "765": 0, "766": 0, "770": 0, "771": 0, "773": 0, "805": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "817": 0, "818": 0, "819": 0, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "826": 0, "827": 0, "828": 0, "829": 0, "831": 0, "832": 0, "833": 0, "834": 0, "837": 0, "838": 0, "839": 0, "842": 0, "843": 0, "844": 0, "845": 0, "846": 0, "847": 0, "849": 0, "850": 0, "851": 0, "853": 0, "854": 0, "855": 0, "856": 0, "857": 0, "859": 0, "860": 0, "861": 0, "862": 0, "863": 0, "864": 0, "866": 0, "867": 0, "868": 0, "869": 0, "870": 0, "871": 0, "872": 0, "874": 0, "877": 0, "878": 0, "879": 0, "880": 0, "881": 0, "882": 0, "883": 0, "884": 0, "885": 0, "888": 0, "889": 0, "890": 0, "891": 0, "892": 0, "893": 0, "894": 0, "895": 0, "896": 0, "899": 0, "900": 0, "901": 0, "902": 0, "903": 0, "904": 0, "905": 0, "908": 0, "909": 0, "910": 0, "911": 0, "912": 0, "913": 0, "914": 0, "917": 0, "918": 0, "919": 0, "926": 0, "927": 0, "929": 0, "957": 0, "958": 0, "960": 0, "961": 0, "962": 0, "963": 0, "964": 0, "966": 0}}
++ git checkout 701441853569d370506514083b995d11f9a130bd
+Note: switching to '701441853569d370506514083b995d11f9a130bd'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7014418535 Merge pull request #15891 from oscargus/boldmatrixsymbol
++ git apply /root/pre_state.patch
+error: unrecognized input

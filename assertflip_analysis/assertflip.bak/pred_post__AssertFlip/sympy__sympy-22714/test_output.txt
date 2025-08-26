@@ -1,0 +1,584 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 3ff4717b6aef6086e78f01cdfa06f64ae23aed7e
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 3ff4717b6aef6086e78f01cdfa06f64ae23aed7e
+Merge: c43550c31e 096a8d153a
+Author: Oscar Gustafsson <oscar.gustafsson@gmail.com>
+Date:   Sun Dec 19 19:58:20 2021 +0100
+
+    Merge pull request #22665 from oscargus/printingimprovements3
+    
+    Fixed printing of all(?) quantum states and more
+
++ git diff 3ff4717b6aef6086e78f01cdfa06f64ae23aed7e
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.10.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.10.dev0
+    Uninstalling sympy-1.10.dev0:
+      Successfully uninstalled sympy-1.10.dev0
+  DEPRECATION: Legacy editable install of sympy==1.10.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/geometry/point.py...
+Applied patch sympy/geometry/point.py cleanly.
++ git apply -v -
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-22714.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-22714.py cleanly.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/geometry/point\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-22714.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/geometry/point\\.py)']
+0.33 point.py(1): """Geometrical Points.
+0.33 point.py(20): import warnings
+0.33 point.py(22): from sympy.core import S, sympify, Expr
+0.33 point.py(23): from sympy.core.add import Add
+0.33 point.py(24): from sympy.core.containers import Tuple
+0.33 point.py(25): from sympy.core.numbers import Float
+0.33 point.py(26): from sympy.core.parameters import global_parameters
+0.33 point.py(27): from sympy.simplify import nsimplify, simplify
+0.33 point.py(28): from sympy.geometry.exceptions import GeometryError
+0.33 point.py(29): from sympy.functions.elementary.miscellaneous import sqrt
+0.33 point.py(30): from sympy.functions.elementary.complexes import im
+0.33 point.py(31): from sympy.functions.elementary.trigonometric import cos, sin
+0.33 point.py(32): from sympy.matrices import Matrix
+0.33 point.py(33): from sympy.matrices.expressions import Transpose
+0.33 point.py(34): from sympy.utilities.iterables import uniq, is_sequence
+0.33 point.py(35): from sympy.utilities.misc import filldedent, func_name, Undecidable
+0.33 point.py(37): from .entity import GeometryEntity
+0.35 point.py(39): from mpmath.libmp.libmpf import prec_to_dps
+0.35 point.py(42): class Point(GeometryEntity):
+0.35 point.py(42): class Point(GeometryEntity):
+0.35 point.py(43):     """A point in a n-dimensional Euclidean space.
+0.35 point.py(107):     is_Point = True
+0.35 point.py(109):     def __new__(cls, *args, **kwargs):
+0.35 point.py(181):     def __abs__(self):
+0.35 point.py(186):     def __add__(self, other):
+0.35 point.py(225):     def __contains__(self, item):
+0.35 point.py(228):     def __truediv__(self, divisor):
+0.35 point.py(234):     def __eq__(self, other):
+0.35 point.py(239):     def __getitem__(self, key):
+0.35 point.py(242):     def __hash__(self):
+0.35 point.py(245):     def __iter__(self):
+0.35 point.py(248):     def __len__(self):
+0.35 point.py(251):     def __mul__(self, factor):
+0.35 point.py(282):     def __rmul__(self, factor):
+0.35 point.py(286):     def __neg__(self):
+0.35 point.py(291):     def __sub__(self, other):
+0.35 point.py(296):     @classmethod
+0.35 point.py(297):     def _normalize_dimension(cls, *points, **kwargs):
+0.35 point.py(314):     @staticmethod
+0.35 point.py(315):     def affine_rank(*args):
+0.35 point.py(336):     @property
+0.35 point.py(337):     def ambient_dimension(self):
+0.35 point.py(341):     @classmethod
+0.35 point.py(342):     def are_coplanar(cls, *points):
+0.35 point.py(387):     def distance(self, other):
+0.35 point.py(439):     def dot(self, p):
+0.35 point.py(445):     def equals(self, other):
+0.35 point.py(452):     def _eval_evalf(self, prec=15, **options):
+0.35 point.py(484):     def intersection(self, other):
+0.35 point.py(525):     def is_collinear(self, *args):
+0.35 point.py(563):     def is_concyclic(self, *args):
+0.35 point.py(619):     @property
+0.35 point.py(620):     def is_nonzero(self):
+0.35 point.py(628):     def is_scalar_multiple(self, p):
+0.35 point.py(647):     @property
+0.35 point.py(648):     def is_zero(self):
+0.35 point.py(658):     @property
+0.35 point.py(659):     def length(self):
+0.35 point.py(673):     def midpoint(self, p):
+0.35 point.py(703):     @property
+0.35 point.py(704):     def origin(self):
+0.35 point.py(709):     @property
+0.35 point.py(710):     def orthogonal_direction(self):
+0.35 point.py(735):     @staticmethod
+0.35 point.py(736):     def project(a, b):
+0.35 point.py(774):     def taxicab_distance(self, p):
+0.35 point.py(807):     def canberra_distance(self, p):
+0.35 point.py(853):     @property
+0.35 point.py(854):     def unit(self):
+0.35 point.py(860): class Point2D(Point):
+0.35 point.py(860): class Point2D(Point):
+0.35 point.py(861):     """A point in a 2-dimensional Euclidean space.
+0.35 point.py(910):     _ambient_dimension = 2
+0.35 point.py(912):     def __new__(cls, *args, _nocheck=False, **kwargs):
+0.35 point.py(918):     def __contains__(self, item):
+0.35 point.py(921):     @property
+0.35 point.py(922):     def bounds(self):
+0.35 point.py(930):     def rotate(self, angle, pt=None):
+0.35 point.py(962):     def scale(self, x=1, y=1, pt=None):
+0.35 point.py(989):     def transform(self, matrix):
+0.35 point.py(1004):     def translate(self, x=0, y=0):
+0.35 point.py(1027):     @property
+0.35 point.py(1028):     def coordinates(self):
+0.35 point.py(1042):     @property
+0.35 point.py(1043):     def x(self):
+0.35 point.py(1057):     @property
+0.35 point.py(1058):     def y(self):
+0.35 point.py(1072): class Point3D(Point):
+0.35 point.py(1072): class Point3D(Point):
+0.35 point.py(1073):     """A point in a 3-dimensional Euclidean space.
+0.35 point.py(1117):     _ambient_dimension = 3
+0.35 point.py(1119):     def __new__(cls, *args, _nocheck=False, **kwargs):
+0.35 point.py(1125):     def __contains__(self, item):
+0.35 point.py(1128):     @staticmethod
+0.35 point.py(1129):     def are_collinear(*points):
+0.35 point.py(1164):     def direction_cosine(self, point):
+0.35 point.py(1191):     def direction_ratio(self, point):
+0.35 point.py(1215):     def intersection(self, other):
+0.35 point.py(1253):     def scale(self, x=1, y=1, z=1, pt=None):
+0.35 point.py(1280):     def transform(self, matrix):
+0.35 point.py(1295):     def translate(self, x=0, y=0, z=0):
+0.35 point.py(1318):     @property
+0.35 point.py(1319):     def coordinates(self):
+0.35 point.py(1333):     @property
+0.35 point.py(1334):     def x(self):
+0.35 point.py(1348):     @property
+0.35 point.py(1349):     def y(self):
+0.35 point.py(1363):     @property
+0.35 point.py(1364):     def z(self):
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        55778057
+hash randomization: on (PYTHONHASHSEED=1181124479)
+
+sympy/polys/tests/test_coverup_sympy__sympy-22714.py[1] 
+test_point2d_evaluate_false_bug 0.40 point.py(913):         if not _nocheck:
+0.40 point.py(914):             kwargs['dim'] = 2
+0.40 point.py(915):             args = Point(*args, **kwargs)
+0.40 point.py(110):         evaluate = kwargs.get('evaluate', global_parameters.evaluate)
+0.40 point.py(111):         on_morph = kwargs.get('on_morph', 'ignore')
+0.40 point.py(114):         coords = args[0] if len(args) == 1 else args
+0.40 point.py(117):         if isinstance(coords, Point):
+0.40 point.py(124):         if not is_sequence(coords):
+0.40 point.py(130):         if len(coords) == 0 and kwargs.get('dim', None):
+0.40 point.py(133):         coords = Tuple(*coords)
+0.40 point.py(134):         dim = kwargs.get('dim', len(coords))
+0.40 point.py(136):         if len(coords) < 2:
+0.40 point.py(140):         if len(coords) != dim:
+0.40 point.py(153):         if any(coords[dim:]):
+0.40 point.py(155):         if any(a.is_number and im(a).is_zero is False for a in coords):
+0.40 point.py(155):         if any(a.is_number and im(a).is_zero is False for a in coords):
+0.40 point.py(155):         if any(a.is_number and im(a).is_zero is False for a in coords):
+0.40 point.py(155):         if any(a.is_number and im(a).is_zero is False for a in coords):
+0.40 point.py(157):         if not all(isinstance(a, Expr) for a in coords):
+0.40 point.py(157):         if not all(isinstance(a, Expr) for a in coords):
+0.40 point.py(157):         if not all(isinstance(a, Expr) for a in coords):
+0.40 point.py(157):         if not all(isinstance(a, Expr) for a in coords):
+0.40 point.py(161):         coords = coords[:dim] + (S.Zero,)*(dim - len(coords))
+0.40 point.py(165):         if evaluate:
+0.40 point.py(171):         if len(coords) == 2:
+0.40 point.py(172):             kwargs['_nocheck'] = True
+0.40 point.py(173):             return Point2D(*coords, **kwargs)
+0.40 point.py(913):         if not _nocheck:
+0.40 point.py(916):         return GeometryEntity.__new__(cls, *args)
+0.40 point.py(916):         return GeometryEntity.__new__(cls, *args)
+0.40 point.py(246):         return self.args.__iter__()
+0.40 point.py(249):         return len(self.args)
+ok                                          [OK]
+
+
+================== tests finished: 1 passed, in 0.01 seconds ===================
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/geometry/point\\.py)']
+1.03 point.py(1): """Geometrical Points.
+1.03 point.py(20): import warnings
+1.03 point.py(22): from sympy.core import S, sympify, Expr
+1.03 point.py(23): from sympy.core.add import Add
+1.03 point.py(24): from sympy.core.containers import Tuple
+1.03 point.py(25): from sympy.core.numbers import Float
+1.03 point.py(26): from sympy.core.parameters import global_parameters
+1.03 point.py(27): from sympy.simplify import nsimplify, simplify
+1.03 point.py(28): from sympy.geometry.exceptions import GeometryError
+1.03 point.py(29): from sympy.functions.elementary.miscellaneous import sqrt
+1.03 point.py(30): from sympy.functions.elementary.complexes import im
+1.03 point.py(31): from sympy.functions.elementary.trigonometric import cos, sin
+1.03 point.py(32): from sympy.matrices import Matrix
+1.03 point.py(33): from sympy.matrices.expressions import Transpose
+1.03 point.py(34): from sympy.utilities.iterables import uniq, is_sequence
+1.03 point.py(35): from sympy.utilities.misc import filldedent, func_name, Undecidable
+1.03 point.py(37): from .entity import GeometryEntity
+1.07 point.py(39): from mpmath.libmp.libmpf import prec_to_dps
+1.07 point.py(42): class Point(GeometryEntity):
+1.07 point.py(42): class Point(GeometryEntity):
+1.07 point.py(43):     """A point in a n-dimensional Euclidean space.
+1.07 point.py(107):     is_Point = True
+1.07 point.py(109):     def __new__(cls, *args, **kwargs):
+1.07 point.py(181):     def __abs__(self):
+1.07 point.py(186):     def __add__(self, other):
+1.07 point.py(225):     def __contains__(self, item):
+1.07 point.py(228):     def __truediv__(self, divisor):
+1.07 point.py(234):     def __eq__(self, other):
+1.07 point.py(239):     def __getitem__(self, key):
+1.07 point.py(242):     def __hash__(self):
+1.07 point.py(245):     def __iter__(self):
+1.07 point.py(248):     def __len__(self):
+1.07 point.py(251):     def __mul__(self, factor):
+1.07 point.py(282):     def __rmul__(self, factor):
+1.07 point.py(286):     def __neg__(self):
+1.07 point.py(291):     def __sub__(self, other):
+1.07 point.py(296):     @classmethod
+1.07 point.py(297):     def _normalize_dimension(cls, *points, **kwargs):
+1.07 point.py(314):     @staticmethod
+1.07 point.py(315):     def affine_rank(*args):
+1.07 point.py(336):     @property
+1.07 point.py(337):     def ambient_dimension(self):
+1.07 point.py(341):     @classmethod
+1.07 point.py(342):     def are_coplanar(cls, *points):
+1.07 point.py(387):     def distance(self, other):
+1.07 point.py(439):     def dot(self, p):
+1.07 point.py(445):     def equals(self, other):
+1.07 point.py(452):     def _eval_evalf(self, prec=15, **options):
+1.07 point.py(484):     def intersection(self, other):
+1.07 point.py(525):     def is_collinear(self, *args):
+1.07 point.py(563):     def is_concyclic(self, *args):
+1.07 point.py(619):     @property
+1.07 point.py(620):     def is_nonzero(self):
+1.07 point.py(628):     def is_scalar_multiple(self, p):
+1.07 point.py(647):     @property
+1.07 point.py(648):     def is_zero(self):
+1.07 point.py(658):     @property
+1.07 point.py(659):     def length(self):
+1.07 point.py(673):     def midpoint(self, p):
+1.07 point.py(703):     @property
+1.07 point.py(704):     def origin(self):
+1.07 point.py(709):     @property
+1.07 point.py(710):     def orthogonal_direction(self):
+1.07 point.py(735):     @staticmethod
+1.07 point.py(736):     def project(a, b):
+1.07 point.py(774):     def taxicab_distance(self, p):
+1.07 point.py(807):     def canberra_distance(self, p):
+1.07 point.py(853):     @property
+1.07 point.py(854):     def unit(self):
+1.07 point.py(860): class Point2D(Point):
+1.07 point.py(860): class Point2D(Point):
+1.07 point.py(861):     """A point in a 2-dimensional Euclidean space.
+1.07 point.py(910):     _ambient_dimension = 2
+1.07 point.py(912):     def __new__(cls, *args, _nocheck=False, **kwargs):
+1.07 point.py(918):     def __contains__(self, item):
+1.07 point.py(921):     @property
+1.07 point.py(922):     def bounds(self):
+1.07 point.py(930):     def rotate(self, angle, pt=None):
+1.07 point.py(962):     def scale(self, x=1, y=1, pt=None):
+1.07 point.py(989):     def transform(self, matrix):
+1.07 point.py(1004):     def translate(self, x=0, y=0):
+1.07 point.py(1027):     @property
+1.07 point.py(1028):     def coordinates(self):
+1.07 point.py(1042):     @property
+1.07 point.py(1043):     def x(self):
+1.07 point.py(1057):     @property
+1.07 point.py(1058):     def y(self):
+1.07 point.py(1072): class Point3D(Point):
+1.07 point.py(1072): class Point3D(Point):
+1.07 point.py(1073):     """A point in a 3-dimensional Euclidean space.
+1.07 point.py(1117):     _ambient_dimension = 3
+1.07 point.py(1119):     def __new__(cls, *args, _nocheck=False, **kwargs):
+1.07 point.py(1125):     def __contains__(self, item):
+1.07 point.py(1128):     @staticmethod
+1.07 point.py(1129):     def are_collinear(*points):
+1.07 point.py(1164):     def direction_cosine(self, point):
+1.07 point.py(1191):     def direction_ratio(self, point):
+1.07 point.py(1215):     def intersection(self, other):
+1.07 point.py(1253):     def scale(self, x=1, y=1, z=1, pt=None):
+1.07 point.py(1280):     def transform(self, matrix):
+1.07 point.py(1295):     def translate(self, x=0, y=0, z=0):
+1.07 point.py(1318):     @property
+1.07 point.py(1319):     def coordinates(self):
+1.07 point.py(1333):     @property
+1.07 point.py(1334):     def x(self):
+1.07 point.py(1348):     @property
+1.07 point.py(1349):     def y(self):
+1.07 point.py(1363):     @property
+1.07 point.py(1364):     def z(self):
++ cat coverage.cover
+{"/testbed/sympy/geometry/point.py": {"20": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "37": 1, "39": 1, "42": 2, "860": 2, "1072": 2, "107": 1, "109": 1, "181": 1, "186": 1, "225": 1, "228": 1, "234": 1, "239": 1, "242": 1, "245": 1, "248": 1, "251": 1, "282": 1, "286": 1, "291": 1, "296": 1, "297": 1, "314": 1, "315": 1, "336": 1, "337": 1, "341": 1, "342": 1, "387": 1, "439": 1, "445": 1, "452": 1, "484": 1, "525": 1, "563": 1, "619": 1, "620": 1, "628": 1, "647": 1, "648": 1, "658": 1, "659": 1, "673": 1, "703": 1, "704": 1, "709": 1, "710": 1, "735": 1, "736": 1, "774": 1, "807": 1, "853": 1, "854": 1, "110": 1, "111": 1, "114": 1, "117": 1, "120": 0, "121": 0, "122": 0, "124": 1, "125": 0, "127": 0, "130": 1, "131": 0, "133": 1, "134": 1, "136": 1, "137": 0, "140": 1, "141": 0, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "150": 0, "153": 1, "154": 0, "155": 4, "156": 0, "157": 4, "158": 0, "161": 1, "165": 1, "166": 0, "168": 0, "171": 1, "172": 1, "173": 1, "174": 0, "175": 0, "176": 0, "179": 0, "167": 0, "183": 0, "184": 0, "217": 0, "218": 0, "219": 0, "220": 0, "222": 0, "223": 0, "226": 0, "230": 0, "231": 0, "232": 0, "235": 0, "236": 0, "237": 0, "240": 0, "243": 0, "246": 1, "249": 1, "278": 0, "279": 0, "280": 0, "284": 0, "288": 0, "289": 0, "294": 0, "302": 0, "304": 0, "306": 0, "307": 0, "308": 0, "309": 0, "310": 0, "311": 0, "312": 0, "323": 0, "324": 0, "327": 0, "328": 0, "329": 0, "331": 0, "333": 0, "334": 0, "339": 0, "377": 0, "378": 0, "380": 0, "382": 0, "383": 0, "384": 0, "385": 0, "426": 0, "427": 0, "428": 0, "429": 0, "430": 0, "431": 0, "432": 0, "433": 0, "434": 0, "435": 0, "436": 0, "437": 0, "441": 0, "442": 0, "443": 0, "448": 0, "449": 0, "450": 0, "480": 0, "481": 0, "482": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "519": 0, "520": 0, "521": 0, "522": 0, "523": 0, "558": 0, "559": 0, "560": 0, "561": 0, "601": 0, "602": 0, "603": 0, "604": 0, "605": 0, "606": 0, "607": 0, "613": 0, "614": 0, "615": 0, "616": 0, "617": 0, "623": 0, "624": 0, "625": 0, "626": 0, "632": 0, "634": 0, "635": 0, "636": 0, "637": 0, "638": 0, "639": 0, "640": 0, "644": 0, "645": 0, "651": 0, "652": 0, "653": 0, "654": 0, "655": 0, "656": 0, "671": 0, "700": 0, "701": 0, "707": 0, "725": 0, "727": 0, "728": 0, "729": 0, "730": 0, "733": 0, "769": 0, "770": 0, "771": 0, "772": 0, "804": 0, "805": 0, "848": 0, "849": 0, "850": 0, "851": 0, "857": 0, "910": 1, "912": 1, "918": 1, "921": 1, "922": 1, "930": 1, "962": 1, "989": 1, "1004": 1, "1027": 1, "1028": 1, "1042": 1, "1043": 1, "1057": 1, "1058": 1, "913": 2, "914": 1, "915": 1, "916": 2, "919": 0, "928": 0, "949": 0, "950": 0, "952": 0, "953": 0, "954": 0, "955": 0, "956": 0, "957": 0, "958": 0, "959": 0, "960": 0, "984": 0, "985": 0, "986": 0, "987": 0, "999": 0, "1000": 0, "1001": 0, "1002": 0, "1025": 0, "1040": 0, "1055": 0, "1070": 0, "1117": 1, "1119": 1, "1125": 1, "1128": 1, "1129": 1, "1164": 1, "1191": 1, "1215": 1, "1253": 1, "1280": 1, "1295": 1, "1318": 1, "1319": 1, "1333": 1, "1334": 1, "1348": 1, "1349": 1, "1363": 1, "1364": 1, "1120": 0, "1121": 0, "1122": 0, "1123": 0, "1126": 0, "1162": 0, "1186": 0, "1187": 0, "1188": 0, "1189": 0, "1213": 0, "1245": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1275": 0, "1276": 0, "1277": 0, "1278": 0, "1289": 0, "1290": 0, "1291": 0, "1292": 0, "1293": 0, "1316": 0, "1331": 0, "1346": 0, "1361": 0, "1376": 0}}
+{"/testbed/sympy/geometry/point.py": {"20": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "37": 1, "39": 1, "42": 2, "860": 2, "1072": 2, "107": 1, "109": 1, "181": 1, "186": 1, "225": 1, "228": 1, "234": 1, "239": 1, "242": 1, "245": 1, "248": 1, "251": 1, "282": 1, "286": 1, "291": 1, "296": 1, "297": 1, "314": 1, "315": 1, "336": 1, "337": 1, "341": 1, "342": 1, "387": 1, "439": 1, "445": 1, "452": 1, "484": 1, "525": 1, "563": 1, "619": 1, "620": 1, "628": 1, "647": 1, "648": 1, "658": 1, "659": 1, "673": 1, "703": 1, "704": 1, "709": 1, "710": 1, "735": 1, "736": 1, "774": 1, "807": 1, "853": 1, "854": 1, "110": 0, "111": 0, "114": 0, "117": 0, "120": 0, "121": 0, "122": 0, "124": 0, "125": 0, "127": 0, "130": 0, "131": 0, "133": 0, "134": 0, "136": 0, "137": 0, "140": 0, "141": 0, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "150": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "161": 0, "165": 0, "166": 0, "168": 0, "171": 0, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "179": 0, "167": 0, "183": 0, "184": 0, "217": 0, "218": 0, "219": 0, "220": 0, "222": 0, "223": 0, "226": 0, "230": 0, "231": 0, "232": 0, "235": 0, "236": 0, "237": 0, "240": 0, "243": 0, "246": 0, "249": 0, "278": 0, "279": 0, "280": 0, "284": 0, "288": 0, "289": 0, "294": 0, "302": 0, "304": 0, "306": 0, "307": 0, "308": 0, "309": 0, "310": 0, "311": 0, "312": 0, "323": 0, "324": 0, "327": 0, "328": 0, "329": 0, "331": 0, "333": 0, "334": 0, "339": 0, "377": 0, "378": 0, "380": 0, "382": 0, "383": 0, "384": 0, "385": 0, "426": 0, "427": 0, "428": 0, "429": 0, "430": 0, "431": 0, "432": 0, "433": 0, "434": 0, "435": 0, "436": 0, "437": 0, "441": 0, "442": 0, "443": 0, "448": 0, "449": 0, "450": 0, "480": 0, "481": 0, "482": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "519": 0, "520": 0, "521": 0, "522": 0, "523": 0, "558": 0, "559": 0, "560": 0, "561": 0, "601": 0, "602": 0, "603": 0, "604": 0, "605": 0, "606": 0, "607": 0, "613": 0, "614": 0, "615": 0, "616": 0, "617": 0, "623": 0, "624": 0, "625": 0, "626": 0, "632": 0, "634": 0, "635": 0, "636": 0, "637": 0, "638": 0, "639": 0, "640": 0, "644": 0, "645": 0, "651": 0, "652": 0, "653": 0, "654": 0, "655": 0, "656": 0, "671": 0, "700": 0, "701": 0, "707": 0, "725": 0, "727": 0, "728": 0, "729": 0, "730": 0, "733": 0, "769": 0, "770": 0, "771": 0, "772": 0, "804": 0, "805": 0, "848": 0, "849": 0, "850": 0, "851": 0, "857": 0, "910": 1, "912": 1, "918": 1, "921": 1, "922": 1, "930": 1, "962": 1, "989": 1, "1004": 1, "1027": 1, "1028": 1, "1042": 1, "1043": 1, "1057": 1, "1058": 1, "913": 0, "914": 0, "915": 0, "916": 0, "919": 0, "928": 0, "949": 0, "950": 0, "952": 0, "953": 0, "954": 0, "955": 0, "956": 0, "957": 0, "958": 0, "959": 0, "960": 0, "984": 0, "985": 0, "986": 0, "987": 0, "999": 0, "1000": 0, "1001": 0, "1002": 0, "1025": 0, "1040": 0, "1055": 0, "1070": 0, "1117": 1, "1119": 1, "1125": 1, "1128": 1, "1129": 1, "1164": 1, "1191": 1, "1215": 1, "1253": 1, "1280": 1, "1295": 1, "1318": 1, "1319": 1, "1333": 1, "1334": 1, "1348": 1, "1349": 1, "1363": 1, "1364": 1, "1120": 0, "1121": 0, "1122": 0, "1123": 0, "1126": 0, "1162": 0, "1186": 0, "1187": 0, "1188": 0, "1189": 0, "1213": 0, "1245": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1275": 0, "1276": 0, "1277": 0, "1278": 0, "1289": 0, "1290": 0, "1291": 0, "1292": 0, "1293": 0, "1316": 0, "1331": 0, "1346": 0, "1361": 0, "1376": 0}}
++ git checkout 3ff4717b6aef6086e78f01cdfa06f64ae23aed7e
+Note: switching to '3ff4717b6aef6086e78f01cdfa06f64ae23aed7e'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3ff4717b6a Merge pull request #22665 from oscargus/printingimprovements3
+M	sympy/geometry/point.py
++ git apply /root/pre_state.patch
+error: unrecognized input

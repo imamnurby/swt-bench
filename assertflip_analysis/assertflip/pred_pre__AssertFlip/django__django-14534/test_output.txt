@@ -1,0 +1,567 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 910ecd1b8df7678f45c3d507dde6bcb1faafa243
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 910ecd1b8df7678f45c3d507dde6bcb1faafa243
+Author: Jacob Walls <jacobtylerwalls@gmail.com>
+Date:   Mon Aug 2 11:07:58 2021 -0400
+
+    Fixed #29063 -- Fixed migrate crash when specifying a name of partially applied squashed migrations.
+
+diff --git a/django/core/management/commands/migrate.py b/django/core/management/commands/migrate.py
+index 55b8faf38b..34fcb9bc58 100644
+--- a/django/core/management/commands/migrate.py
++++ b/django/core/management/commands/migrate.py
+@@ -140,7 +140,16 @@ class Command(BaseCommand):
+                 except KeyError:
+                     raise CommandError("Cannot find a migration matching '%s' from app '%s'." % (
+                         migration_name, app_label))
+-                targets = [(app_label, migration.name)]
++                target = (app_label, migration.name)
++                # Partially applied squashed migrations are not included in the
++                # graph, use the last replacement instead.
++                if (
++                    target not in executor.loader.graph.nodes and
++                    target in executor.loader.replacements
++                ):
++                    incomplete_migration = executor.loader.replacements[target]
++                    target = incomplete_migration.replaces[-1]
++                targets = [target]
+             target_app_labels_only = False
+         elif options['app_label']:
+             targets = [key for key in executor.loader.graph.leaf_nodes() if key[0] == app_label]
+diff --git a/tests/migrations/test_commands.py b/tests/migrations/test_commands.py
+index b0cb0bb0b6..daeeaf8edb 100644
+--- a/tests/migrations/test_commands.py
++++ b/tests/migrations/test_commands.py
+@@ -951,6 +951,34 @@ class MigrateTests(MigrationTestBase):
+         )
+         # No changes were actually applied so there is nothing to rollback
+ 
++    def test_migrate_partially_applied_squashed_migration(self):
++        """
++        Migrating to a squashed migration specified by name should succeed
++        even if it is partially applied.
++        """
++        with self.temporary_migration_module(module='migrations.test_migrations'):
++            recorder = MigrationRecorder(connection)
++            try:
++                call_command('migrate', 'migrations', '0001_initial', verbosity=0)
++                call_command(
++                    'squashmigrations',
++                    'migrations',
++                    '0002',
++                    interactive=False,
++                    verbosity=0,
++                )
++                call_command(
++                    'migrate',
++                    'migrations',
++                    '0001_squashed_0002_second',
++                    verbosity=0,
++                )
++                applied_migrations = recorder.applied_migrations()
++                self.assertIn(('migrations', '0002_second'), applied_migrations)
++            finally:
++                # Unmigrate everything.
++                call_command('migrate', 'migrations', 'zero', verbosity=0)
++
+     @override_settings(MIGRATION_MODULES={'migrations': 'migrations.test_migrations'})
+     def test_migrate_inconsistent_history(self):
+         """
++ git diff 910ecd1b8df7678f45c3d507dde6bcb1faafa243
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210804075732) (3.8.1)
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210804075732) (2025.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210804075732) (0.5.3)
+Requirement already satisfied: typing-extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from asgiref>=3.3.2->Django==4.0.dev20210804075732) (4.13.2)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.0.dev20210804075732-0.editable-py3-none-any.whl size=26585 sha256=22a61fc381f8fca4ba3b46986d7b4dd4923554389c1a26619a1fdaf524042ab7
+  Stored in directory: /tmp/pip-ephem-wheel-cache-38fwixu7/wheels/b2/50/f1/218f2e9962a80d01a4b1297698978f9fb3b60056aa24343f24
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.0.dev20210804075732
+    Uninstalling Django-4.0.dev20210804075732:
+      Successfully uninstalled Django-4.0.dev20210804075732
+Successfully installed Django-4.0.dev20210804075732
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:20: trailing whitespace.
+        
+<stdin>:23: trailing whitespace.
+        
+<stdin>:26: trailing whitespace.
+        
+<stdin>:30: trailing whitespace.
+            
+Checking patch tests/test_coverup_django__django-14534.py...
+Applied patch tests/test_coverup_django__django-14534.py cleanly.
+warning: 4 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/forms/boundfield\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-14534
+test_id_for_label_uses_custom_id_format (test_coverup_django__django-14534.BoundWidgetIdForLabelTest) ... ['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/forms/boundfield\\.py)']
+0.16 /testbed/django/forms/boundfield.py(1): import re
+0.16 /testbed/django/forms/boundfield.py(3): from django.core.exceptions import ValidationError
+0.16 /testbed/django/forms/boundfield.py(4): from django.forms.utils import flatatt, pretty_name
+0.17 /testbed/django/forms/boundfield.py(5): from django.forms.widgets import Textarea, TextInput
+0.19 /testbed/django/forms/boundfield.py(6): from django.utils.functional import cached_property
+0.19 /testbed/django/forms/boundfield.py(7): from django.utils.html import conditional_escape, format_html, html_safe
+0.19 /testbed/django/forms/boundfield.py(8): from django.utils.safestring import mark_safe
+0.19 /testbed/django/forms/boundfield.py(9): from django.utils.translation import gettext_lazy as _
+0.19 /testbed/django/forms/boundfield.py(11): __all__ = ('BoundField',)
+0.19 /testbed/django/forms/boundfield.py(14): @html_safe
+0.19 /testbed/django/forms/boundfield.py(15): class BoundField:
+0.19 /testbed/django/forms/boundfield.py(14): @html_safe
+0.19 /testbed/django/forms/boundfield.py(16):     "A Field plus data"
+0.19 /testbed/django/forms/boundfield.py(17):     def __init__(self, form, field, name):
+0.19 /testbed/django/forms/boundfield.py(30):     def __str__(self):
+0.19 /testbed/django/forms/boundfield.py(36):     @cached_property
+0.19 /testbed/django/forms/boundfield.py(37):     def subwidgets(self):
+0.19 /testbed/django/forms/boundfield.py(53):     def __bool__(self):
+0.19 /testbed/django/forms/boundfield.py(57):     def __iter__(self):
+0.19 /testbed/django/forms/boundfield.py(60):     def __len__(self):
+0.19 /testbed/django/forms/boundfield.py(63):     def __getitem__(self, idx):
+0.19 /testbed/django/forms/boundfield.py(73):     @property
+0.19 /testbed/django/forms/boundfield.py(74):     def errors(self):
+0.19 /testbed/django/forms/boundfield.py(80):     def as_widget(self, widget=None, attrs=None, only_initial=False):
+0.19 /testbed/django/forms/boundfield.py(100):     def as_text(self, attrs=None, **kwargs):
+0.19 /testbed/django/forms/boundfield.py(106):     def as_textarea(self, attrs=None, **kwargs):
+0.19 /testbed/django/forms/boundfield.py(110):     def as_hidden(self, attrs=None, **kwargs):
+0.19 /testbed/django/forms/boundfield.py(116):     @property
+0.19 /testbed/django/forms/boundfield.py(117):     def data(self):
+0.19 /testbed/django/forms/boundfield.py(123):     def value(self):
+0.19 /testbed/django/forms/boundfield.py(133):     def _has_changed(self):
+0.19 /testbed/django/forms/boundfield.py(149):     def label_tag(self, contents=None, attrs=None, label_suffix=None):
+0.19 /testbed/django/forms/boundfield.py(186):     def css_classes(self, extra_classes=None):
+0.19 /testbed/django/forms/boundfield.py(199):     @property
+0.19 /testbed/django/forms/boundfield.py(200):     def is_hidden(self):
+0.19 /testbed/django/forms/boundfield.py(204):     @property
+0.19 /testbed/django/forms/boundfield.py(205):     def auto_id(self):
+0.19 /testbed/django/forms/boundfield.py(217):     @property
+0.19 /testbed/django/forms/boundfield.py(218):     def id_for_label(self):
+0.19 /testbed/django/forms/boundfield.py(228):     @cached_property
+0.19 /testbed/django/forms/boundfield.py(229):     def initial(self):
+0.19 /testbed/django/forms/boundfield.py(232):     def build_widget_attrs(self, attrs, widget=None):
+0.19 /testbed/django/forms/boundfield.py(241):     @property
+0.19 /testbed/django/forms/boundfield.py(242):     def widget_type(self):
+0.19 /testbed/django/forms/boundfield.py(246): @html_safe
+0.19 /testbed/django/forms/boundfield.py(247): class BoundWidget:
+0.19 /testbed/django/forms/boundfield.py(246): @html_safe
+0.19 /testbed/django/forms/boundfield.py(248):     """
+0.19 /testbed/django/forms/boundfield.py(260):     def __init__(self, parent_widget, data, renderer):
+0.19 /testbed/django/forms/boundfield.py(265):     def __str__(self):
+0.19 /testbed/django/forms/boundfield.py(268):     def tag(self, wrap_label=False):
+0.19 /testbed/django/forms/boundfield.py(272):     @property
+0.19 /testbed/django/forms/boundfield.py(273):     def template_name(self):
+0.19 /testbed/django/forms/boundfield.py(278):     @property
+0.19 /testbed/django/forms/boundfield.py(279):     def id_for_label(self):
+0.19 /testbed/django/forms/boundfield.py(282):     @property
+0.19 /testbed/django/forms/boundfield.py(283):     def choice_label(self):
+Testing against Django installed in '/testbed/django'
+Found 1 test(s).
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+0.58 /testbed/django/forms/boundfield.py(18):         self.form = form
+0.58 /testbed/django/forms/boundfield.py(19):         self.field = field
+0.58 /testbed/django/forms/boundfield.py(20):         self.name = name
+0.58 /testbed/django/forms/boundfield.py(21):         self.html_name = form.add_prefix(name)
+0.58 /testbed/django/forms/boundfield.py(22):         self.html_initial_name = form.add_initial_prefix(name)
+0.58 /testbed/django/forms/boundfield.py(23):         self.html_initial_id = form.add_initial_prefix(self.auto_id)
+0.58 /testbed/django/forms/boundfield.py(210):         auto_id = self.form.auto_id  # Boolean or string
+0.58 /testbed/django/forms/boundfield.py(211):         if auto_id and '%s' in str(auto_id):
+0.58 /testbed/django/forms/boundfield.py(212):             return auto_id % self.html_name
+0.58 /testbed/django/forms/boundfield.py(24):         if self.field.label is None:
+0.58 /testbed/django/forms/boundfield.py(25):             self.label = pretty_name(name)
+0.58 /testbed/django/forms/boundfield.py(28):         self.help_text = field.help_text or ''
+0.58 /testbed/django/forms/boundfield.py(78):         return self.form.errors.get(self.name, self.form.error_class())
+0.58 /testbed/django/forms/boundfield.py(202):         return self.field.widget.is_hidden
+0.58 /testbed/django/forms/boundfield.py(190):         if hasattr(extra_classes, 'split'):
+0.58 /testbed/django/forms/boundfield.py(192):         extra_classes = set(extra_classes or [])
+0.58 /testbed/django/forms/boundfield.py(193):         if self.errors and hasattr(self.form, 'error_css_class'):
+0.58 /testbed/django/forms/boundfield.py(78):         return self.form.errors.get(self.name, self.form.error_class())
+0.58 /testbed/django/forms/boundfield.py(195):         if self.field.required and hasattr(self.form, 'required_css_class'):
+0.58 /testbed/django/forms/boundfield.py(197):         return ' '.join(extra_classes)
+0.58 /testbed/django/forms/boundfield.py(159):         contents = contents or self.label
+0.58 /testbed/django/forms/boundfield.py(160):         if label_suffix is None:
+0.58 /testbed/django/forms/boundfield.py(161):             label_suffix = (self.field.label_suffix if self.field.label_suffix is not None
+0.58 /testbed/django/forms/boundfield.py(162):                             else self.form.label_suffix)
+0.58 /testbed/django/forms/boundfield.py(161):             label_suffix = (self.field.label_suffix if self.field.label_suffix is not None
+0.58 /testbed/django/forms/boundfield.py(166):         if label_suffix and contents and contents[-1] not in _(':?.!'):
+0.58 /testbed/django/forms/boundfield.py(167):             contents = format_html('{}{}', contents, label_suffix)
+0.58 /testbed/django/forms/boundfield.py(168):         widget = self.field.widget
+0.58 /testbed/django/forms/boundfield.py(169):         id_ = widget.attrs.get('id') or self.auto_id
+0.58 /testbed/django/forms/boundfield.py(210):         auto_id = self.form.auto_id  # Boolean or string
+0.58 /testbed/django/forms/boundfield.py(211):         if auto_id and '%s' in str(auto_id):
+0.58 /testbed/django/forms/boundfield.py(212):             return auto_id % self.html_name
+0.58 /testbed/django/forms/boundfield.py(170):         if id_:
+0.58 /testbed/django/forms/boundfield.py(171):             id_for_label = widget.id_for_label(id_)
+0.58 /testbed/django/forms/boundfield.py(172):             if id_for_label:
+0.58 /testbed/django/forms/boundfield.py(174):             if self.field.required and hasattr(self.form, 'required_css_class'):
+0.58 FAIL
+
+======================================================================
+FAIL: test_id_for_label_uses_custom_id_format (test_coverup_django__django-14534.BoundWidgetIdForLabelTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-14534.py", line 26, in test_id_for_label_uses_custom_id_format
+    self.assertTrue(id_for_label.startswith('custom_id_'))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.012s
+
+FAILED (failures=1)
+/testbed/django/forms/boundfield.py(180):             attrs = flatatt(attrs) if attrs else ''
+0.58 /testbed/django/forms/boundfield.py(181):             contents = format_html('<label{}>{}</label>', attrs, contents)
+0.58 /testbed/django/forms/boundfield.py(184):         return mark_safe(contents)
+0.58 /testbed/django/forms/boundfield.py(32):         if self.field.show_hidden_initial:
+0.58 /testbed/django/forms/boundfield.py(34):         return self.as_widget()
+0.58 /testbed/django/forms/boundfield.py(86):         widget = widget or self.field.widget
+0.58 /testbed/django/forms/boundfield.py(87):         if self.field.localize:
+0.58 /testbed/django/forms/boundfield.py(89):         attrs = attrs or {}
+0.58 /testbed/django/forms/boundfield.py(90):         attrs = self.build_widget_attrs(attrs, widget)
+0.58 /testbed/django/forms/boundfield.py(233):         widget = widget or self.field.widget
+0.58 /testbed/django/forms/boundfield.py(234):         attrs = dict(attrs)  # Copy attrs to avoid modifying the argument.
+0.58 /testbed/django/forms/boundfield.py(235):         if widget.use_required_attribute(self.initial) and self.field.required and self.form.use_required_attribute:
+0.58 /testbed/django/forms/boundfield.py(230):         return self.form.get_initial_for_field(self.field, self.name)
+0.58 /testbed/django/forms/boundfield.py(237):         if self.field.disabled:
+0.58 /testbed/django/forms/boundfield.py(239):         return attrs
+0.58 /testbed/django/forms/boundfield.py(91):         if self.auto_id and 'id' not in widget.attrs:
+0.58 /testbed/django/forms/boundfield.py(210):         auto_id = self.form.auto_id  # Boolean or string
+0.58 /testbed/django/forms/boundfield.py(211):         if auto_id and '%s' in str(auto_id):
+0.58 /testbed/django/forms/boundfield.py(212):             return auto_id % self.html_name
+0.58 /testbed/django/forms/boundfield.py(92):             attrs.setdefault('id', self.html_initial_id if only_initial else self.auto_id)
+0.58 /testbed/django/forms/boundfield.py(210):         auto_id = self.form.auto_id  # Boolean or string
+0.58 /testbed/django/forms/boundfield.py(211):         if auto_id and '%s' in str(auto_id):
+0.58 /testbed/django/forms/boundfield.py(212):             return auto_id % self.html_name
+0.58 /testbed/django/forms/boundfield.py(93):         return widget.render(
+0.58 /testbed/django/forms/boundfield.py(94):             name=self.html_initial_name if only_initial else self.html_name,
+0.58 /testbed/django/forms/boundfield.py(95):             value=self.value(),
+0.58 /testbed/django/forms/boundfield.py(128):         data = self.initial
+0.58 /testbed/django/forms/boundfield.py(129):         if self.form.is_bound:
+0.58 /testbed/django/forms/boundfield.py(131):         return self.field.prepare_value(data)
+0.58 /testbed/django/forms/boundfield.py(96):             attrs=attrs,
+0.58 /testbed/django/forms/boundfield.py(97):             renderer=self.form.renderer,
+0.58 /testbed/django/forms/boundfield.py(93):         return widget.render(
+0.59 /testbed/django/forms/boundfield.py(45):         id_ = self.field.widget.attrs.get('id') or self.auto_id
+0.59 /testbed/django/forms/boundfield.py(210):         auto_id = self.form.auto_id  # Boolean or string
+0.59 /testbed/django/forms/boundfield.py(211):         if auto_id and '%s' in str(auto_id):
+0.59 /testbed/django/forms/boundfield.py(212):             return auto_id % self.html_name
+0.59 /testbed/django/forms/boundfield.py(46):         attrs = {'id': id_} if id_ else {}
+0.59 /testbed/django/forms/boundfield.py(47):         attrs = self.build_widget_attrs(attrs)
+0.59 /testbed/django/forms/boundfield.py(233):         widget = widget or self.field.widget
+0.59 /testbed/django/forms/boundfield.py(234):         attrs = dict(attrs)  # Copy attrs to avoid modifying the argument.
+0.59 /testbed/django/forms/boundfield.py(235):         if widget.use_required_attribute(self.initial) and self.field.required and self.form.use_required_attribute:
+0.59 /testbed/django/forms/boundfield.py(237):         if self.field.disabled:
+0.59 /testbed/django/forms/boundfield.py(239):         return attrs
+0.59 /testbed/django/forms/boundfield.py(48):         return [
+0.59 /testbed/django/forms/boundfield.py(50):             for widget in self.field.widget.subwidgets(self.html_name, self.value(), attrs=attrs)
+0.59 /testbed/django/forms/boundfield.py(128):         data = self.initial
+0.59 /testbed/django/forms/boundfield.py(129):         if self.form.is_bound:
+0.59 /testbed/django/forms/boundfield.py(131):         return self.field.prepare_value(data)
+0.59 /testbed/django/forms/boundfield.py(48):         return [
+0.59 /testbed/django/forms/boundfield.py(48):         return [
+0.59 /testbed/django/forms/boundfield.py(50):             for widget in self.field.widget.subwidgets(self.html_name, self.value(), attrs=attrs)
+0.59 /testbed/django/forms/boundfield.py(49):             BoundWidget(self.field.widget, widget, self.form.renderer)
+0.59 /testbed/django/forms/boundfield.py(261):         self.parent_widget = parent_widget
+0.59 /testbed/django/forms/boundfield.py(262):         self.data = data
+0.59 /testbed/django/forms/boundfield.py(263):         self.renderer = renderer
+0.59 /testbed/django/forms/boundfield.py(48):         return [
+0.59 /testbed/django/forms/boundfield.py(50):             for widget in self.field.widget.subwidgets(self.html_name, self.value(), attrs=attrs)
+0.59 /testbed/django/forms/boundfield.py(49):             BoundWidget(self.field.widget, widget, self.form.renderer)
+0.59 /testbed/django/forms/boundfield.py(261):         self.parent_widget = parent_widget
+0.59 /testbed/django/forms/boundfield.py(262):         self.data = data
+0.59 /testbed/django/forms/boundfield.py(263):         self.renderer = renderer
+0.59 /testbed/django/forms/boundfield.py(48):         return [
+0.59 /testbed/django/forms/boundfield.py(280):         return 'id_%s_%s' % (self.data['name'], self.data['index'])
++ cat coverage.cover
+{"/testbed/django/forms/boundfield.py": {"1": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "11": 1, "14": 2, "15": 1, "246": 2, "247": 1, "17": 1, "30": 1, "36": 1, "37": 1, "53": 1, "57": 1, "60": 1, "63": 1, "73": 1, "74": 1, "80": 1, "100": 1, "106": 1, "110": 1, "116": 1, "117": 1, "123": 1, "133": 1, "149": 1, "186": 1, "199": 1, "200": 1, "204": 1, "205": 1, "217": 1, "218": 1, "228": 1, "229": 1, "232": 1, "241": 1, "242": 1, "18": 1, "19": 1, "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "27": 0, "28": 1, "32": 1, "33": 0, "34": 1, "45": 1, "46": 1, "47": 1, "48": 5, "50": 3, "49": 2, "55": 0, "58": 0, "61": 0, "66": 0, "67": 0, "68": 0, "69": 0, "71": 0, "78": 2, "86": 1, "87": 1, "88": 0, "89": 1, "90": 1, "91": 1, "92": 1, "93": 2, "94": 1, "95": 1, "96": 1, "97": 1, "104": 0, "108": 0, "114": 0, "121": 0, "128": 2, "129": 2, "130": 0, "131": 2, "134": 0, "135": 0, "136": 0, "137": 0, "138": 0, "140": 0, "141": 0, "142": 0, "144": 0, "146": 0, "147": 0, "159": 1, "160": 1, "161": 2, "162": 1, "166": 1, "167": 1, "168": 1, "169": 1, "170": 1, "171": 1, "172": 1, "173": 0, "174": 1, "175": 0, "176": 0, "177": 0, "179": 0, "180": 1, "181": 1, "183": 0, "184": 1, "190": 1, "191": 0, "192": 1, "193": 1, "194": 0, "195": 1, "196": 0, "197": 1, "202": 1, "210": 5, "211": 5, "212": 5, "213": 0, "214": 0, "215": 0, "224": 0, "225": 0, "226": 0, "230": 1, "233": 2, "234": 2, "235": 2, "236": 0, "237": 2, "238": 0, "239": 2, "243": 0, "260": 1, "265": 1, "268": 1, "272": 1, "273": 1, "278": 1, "279": 1, "282": 1, "283": 1, "261": 2, "262": 2, "263": 2, "266": 0, "269": 0, "270": 0, "274": 0, "275": 0, "276": 0, "280": 1, "284": 0}}
++ git checkout 910ecd1b8df7678f45c3d507dde6bcb1faafa243
+Note: switching to '910ecd1b8df7678f45c3d507dde6bcb1faafa243'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 910ecd1b8d Fixed #29063 -- Fixed migrate crash when specifying a name of partially applied squashed migrations.
++ git apply /root/pre_state.patch
+error: unrecognized input

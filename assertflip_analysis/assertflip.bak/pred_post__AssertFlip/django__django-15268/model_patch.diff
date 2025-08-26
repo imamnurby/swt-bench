@@ -1,0 +1,40 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15268.py
+new file mode 100644
+index e69de29..65aa106 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15268.py
+@@ -0,0 +1,34 @@
++from django.test import SimpleTestCase
++from django.db.migrations.optimizer import MigrationOptimizer
++from django.db.migrations.operations.models import AlterUniqueTogether, AlterIndexTogether
++
++class MigrationOptimizerTest(SimpleTestCase):
++    def test_optimize_redundant_operations(self):
++        # Setup: Create a list of redundant operations
++        operations = [
++            AlterUniqueTogether(name='mymodel', unique_together=set()),
++            AlterIndexTogether(name='mymodel', index_together=set()),
++            AlterUniqueTogether(name='mymodel', unique_together={("col",)}),
++            AlterIndexTogether(name='mymodel', index_together={("col",)}),
++        ]
++
++        # Initialize the MigrationOptimizer
++        optimizer = MigrationOptimizer()
++
++        # Mock app label
++        app_label = 'test_app'
++
++        # Call the optimize method
++        optimized_operations = optimizer.optimize(operations, app_label)
++
++        # Assertions to expose the bug
++        # The length of optimized_operations should be 2 after optimization
++        self.assertEqual(len(optimized_operations), 2)
++
++        # The first operation should be AlterUniqueTogether with unique_together={("col",)}
++        self.assertIsInstance(optimized_operations[0], AlterUniqueTogether)
++        self.assertEqual(optimized_operations[0].unique_together, {("col",)})
++
++        # The second operation should be AlterIndexTogether with index_together={("col",)}
++        self.assertIsInstance(optimized_operations[1], AlterIndexTogether)
++        self.assertEqual(optimized_operations[1].index_together, {("col",)})

@@ -1,0 +1,24 @@
+diff --git a/dev/null b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-14629.py
+new file mode 100644
+index e69de29..269cd4f 100644
+--- /dev/null
++++ b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-14629.py
+@@ -0,0 +1,18 @@
++import pytest
++from sklearn.datasets import make_multilabel_classification
++from sklearn.multioutput import MultiOutputClassifier
++from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
++from sklearn.model_selection import cross_val_predict
++
++def test_cross_val_predict_with_multioutputclassifier_predict_proba():
++    # Generate a multilabel classification dataset
++    X, Y = make_multilabel_classification(n_samples=100, n_features=20, n_classes=3, n_labels=2, random_state=42)
++
++    # Initialize a MultiOutputClassifier with LinearDiscriminantAnalysis
++    mo_lda = MultiOutputClassifier(LinearDiscriminantAnalysis())
++
++    # Expect the function to run without errors and return an array of prediction probabilities
++    pred_proba = cross_val_predict(mo_lda, X, Y, cv=5, method='predict_proba')
++    
++    # Check if the output is of the expected shape
++    assert pred_proba.shape == (100, 3, 2)

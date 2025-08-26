@@ -1,0 +1,22 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15103.py
+new file mode 100644
+index e69de29..8f0bc47 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15103.py
+@@ -0,0 +1,16 @@
++from django.test import SimpleTestCase
++from django.utils.html import json_script
++
++class JsonScriptTests(SimpleTestCase):
++    def test_json_script_without_element_id(self):
++        """
++        Test json_script function without providing element_id.
++        This should not raise any error and should work correctly.
++        """
++        sample_value = {"key": "value"}
++
++        try:
++            # Call json_script without element_id, expecting it to work without errors
++            result = json_script(sample_value)
++        except TypeError:
++            self.fail("json_script raised TypeError unexpectedly!")

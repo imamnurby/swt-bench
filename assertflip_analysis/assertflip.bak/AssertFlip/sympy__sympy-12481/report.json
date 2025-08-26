@@ -1,0 +1,40 @@
+{
+    "sympy__sympy-12481": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.7142857142857143,
+        "coverage_gold": 0.8571428571428571,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 0.7142857142857143,
+        "coverage_delta_gold": 0.8571428571428571,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_sympy__sympy-12481.py:test_permutation_non_disjoint_cycles_bug",
+                "test_permutation_non_disjoint_cycles_bug"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_args"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

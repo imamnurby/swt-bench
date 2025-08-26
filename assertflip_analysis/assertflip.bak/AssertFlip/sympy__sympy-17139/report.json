@@ -1,0 +1,73 @@
+{
+    "sympy__sympy-17139": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 1.0,
+        "coverage_delta_gold": 1.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_simplify_cos_complex_exponent"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_issue_6811",
+                "test_issue_5652",
+                "test_hypersimp",
+                "test_separatevars",
+                "test_issue_7001",
+                "test_simplify_rational",
+                "test_simplify_issue_1308",
+                "test_issue_9324_simplify",
+                "test_diff",
+                "test_issue_15965",
+                "test_nthroot",
+                "test_nsimplify",
+                "test_nc_simplify",
+                "test_posify",
+                "test_logcombine_1",
+                "test_separatevars_advanced_factor",
+                "test_as_content_primitive",
+                "test_simplify_fail1",
+                "test_issue_9398",
+                "test_issue_5950",
+                "test_issue_7971",
+                "test_simplify_ratio",
+                "test_nthroot1",
+                "test_logcombine_complex_coeff",
+                "test_signsimp",
+                "test_issue_9448",
+                "test_issue_from_PR1599",
+                "test_issue_4194",
+                "test_clear_coefficients",
+                "test_polymorphism",
+                "test_issue_3557",
+                "test_extract_minus_sign"
+            ],
+            "FAIL_TO_FAIL": [
+                "test__TR56",
+                "test_issue_17137"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

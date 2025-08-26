@@ -1,0 +1,44 @@
+{
+    "sympy__sympy-23262": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.5,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 0.5,
+        "coverage_delta_gold": 1.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_single_element_tuple_bug"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_mpmath_transl",
+                "test_issue_14911",
+                "test_bad_args",
+                "test_math_transl"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_issue_14941"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

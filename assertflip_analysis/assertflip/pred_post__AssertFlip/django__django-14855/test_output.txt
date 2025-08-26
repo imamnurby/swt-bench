@@ -1,0 +1,469 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 475cffd1d64c690cdad16ede4d5e81985738ceb4
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 475cffd1d64c690cdad16ede4d5e81985738ceb4
+Author: Steven Maude <StevenMaude@users.noreply.github.com>
+Date:   Fri Sep 17 19:19:26 2021 +0100
+
+    Fixed typo in docs/intro/reusable-apps.txt.
+
+diff --git a/docs/intro/reusable-apps.txt b/docs/intro/reusable-apps.txt
+index 5aeedae035..fe22569485 100644
+--- a/docs/intro/reusable-apps.txt
++++ b/docs/intro/reusable-apps.txt
+@@ -242,7 +242,7 @@ this. For a small app like polls, this process isn't too difficult.
+ #. Only Python modules and packages are included in the package by default. To
+    include additional files, we'll need to create a ``MANIFEST.in`` file. The
+    setuptools docs referred to in the previous step discuss this file in more
+-   details. To include the templates, the ``README.rst`` and our ``LICENSE``
++   detail. To include the templates, the ``README.rst`` and our ``LICENSE``
+    file, create a file ``django-polls/MANIFEST.in`` with the following
+    contents:
+ 
++ git diff 475cffd1d64c690cdad16ede4d5e81985738ceb4
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210917181926) (3.8.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210917181926) (0.5.3)
+Requirement already satisfied: backports.zoneinfo in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210917181926) (0.2.1)
+Requirement already satisfied: typing-extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from asgiref>=3.3.2->Django==4.0.dev20210917181926) (4.13.2)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.0.dev20210917181926-0.editable-py3-none-any.whl size=26700 sha256=2bb05285c03c34911ee997089fcd28aedd4775cf0e73614c2cc6a6205fe56043
+  Stored in directory: /tmp/pip-ephem-wheel-cache-i4ufgcoe/wheels/b2/50/f1/218f2e9962a80d01a4b1297698978f9fb3b60056aa24343f24
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.0.dev20210917181926
+    Uninstalling Django-4.0.dev20210917181926:
+      Successfully uninstalled Django-4.0.dev20210917181926
+Successfully installed Django-4.0.dev20210917181926
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch django/contrib/admin/helpers.py...
+Applied patch django/contrib/admin/helpers.py cleanly.
++ git apply -v -
+<stdin>:62: trailing whitespace.
+        
+<stdin>:70: trailing whitespace.
+        
+Checking patch tests/test_coverup_django__django-14855.py...
+Applied patch tests/test_coverup_django__django-14855.py cleanly.
+warning: 2 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/contrib/admin/helpers\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-14855
+test_get_admin_url_for_readonly_foreignkey (test_coverup_django__django-14855.AdminURLTest) ... ['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/contrib/admin/helpers\\.py)']
+Testing against Django installed in '/testbed/django'
+0.50 /testbed/django/contrib/admin/helpers.py(1): import json
+0.50 /testbed/django/contrib/admin/helpers.py(3): from django import forms
+0.50 /testbed/django/contrib/admin/helpers.py(4): from django.contrib.admin.utils import (
+0.50 /testbed/django/contrib/admin/helpers.py(8): from django.core.exceptions import ObjectDoesNotExist
+0.50 /testbed/django/contrib/admin/helpers.py(9): from django.db.models.fields.related import (
+0.50 /testbed/django/contrib/admin/helpers.py(12): from django.forms.utils import flatatt
+0.50 /testbed/django/contrib/admin/helpers.py(13): from django.template.defaultfilters import capfirst, linebreaksbr
+0.50 /testbed/django/contrib/admin/helpers.py(14): from django.urls import NoReverseMatch, reverse
+0.50 /testbed/django/contrib/admin/helpers.py(15): from django.utils.html import conditional_escape, format_html
+0.50 /testbed/django/contrib/admin/helpers.py(16): from django.utils.safestring import mark_safe
+0.50 /testbed/django/contrib/admin/helpers.py(17): from django.utils.translation import gettext, gettext_lazy as _
+0.50 /testbed/django/contrib/admin/helpers.py(19): ACTION_CHECKBOX_NAME = '_selected_action'
+0.50 /testbed/django/contrib/admin/helpers.py(22): class ActionForm(forms.Form):
+0.50 /testbed/django/contrib/admin/helpers.py(22): class ActionForm(forms.Form):
+0.50 /testbed/django/contrib/admin/helpers.py(23):     action = forms.ChoiceField(label=_('Action:'))
+0.50 /testbed/django/contrib/admin/helpers.py(24):     select_across = forms.BooleanField(
+0.50 /testbed/django/contrib/admin/helpers.py(25):         label='',
+0.50 /testbed/django/contrib/admin/helpers.py(26):         required=False,
+0.50 /testbed/django/contrib/admin/helpers.py(27):         initial=0,
+0.50 /testbed/django/contrib/admin/helpers.py(28):         widget=forms.HiddenInput({'class': 'select-across'}),
+0.50 /testbed/django/contrib/admin/helpers.py(24):     select_across = forms.BooleanField(
+0.50 /testbed/django/contrib/admin/helpers.py(32): checkbox = forms.CheckboxInput({'class': 'action-select'}, lambda value: False)
+0.50 /testbed/django/contrib/admin/helpers.py(35): class AdminForm:
+0.50 /testbed/django/contrib/admin/helpers.py(35): class AdminForm:
+0.50 /testbed/django/contrib/admin/helpers.py(36):     def __init__(self, form, fieldsets, prepopulated_fields, readonly_fields=None, model_admin=None):
+0.50 /testbed/django/contrib/admin/helpers.py(47):     def __repr__(self):
+0.50 /testbed/django/contrib/admin/helpers.py(54):     def __iter__(self):
+0.50 /testbed/django/contrib/admin/helpers.py(63):     @property
+0.50 /testbed/django/contrib/admin/helpers.py(64):     def errors(self):
+0.50 /testbed/django/contrib/admin/helpers.py(67):     @property
+0.50 /testbed/django/contrib/admin/helpers.py(68):     def non_field_errors(self):
+0.50 /testbed/django/contrib/admin/helpers.py(71):     @property
+0.50 /testbed/django/contrib/admin/helpers.py(72):     def media(self):
+0.50 /testbed/django/contrib/admin/helpers.py(79): class Fieldset:
+0.50 /testbed/django/contrib/admin/helpers.py(79): class Fieldset:
+0.50 /testbed/django/contrib/admin/helpers.py(80):     def __init__(self, form, name=None, readonly_fields=(), fields=(), classes=(),
+0.50 /testbed/django/contrib/admin/helpers.py(89):     @property
+0.50 /testbed/django/contrib/admin/helpers.py(90):     def media(self):
+0.50 /testbed/django/contrib/admin/helpers.py(95):     def __iter__(self):
+0.50 /testbed/django/contrib/admin/helpers.py(100): class Fieldline:
+0.50 /testbed/django/contrib/admin/helpers.py(100): class Fieldline:
+0.50 /testbed/django/contrib/admin/helpers.py(101):     def __init__(self, form, field, readonly_fields=None, model_admin=None):
+0.50 /testbed/django/contrib/admin/helpers.py(116):     def __iter__(self):
+0.50 /testbed/django/contrib/admin/helpers.py(123):     def errors(self):
+0.50 /testbed/django/contrib/admin/helpers.py(131): class AdminField:
+0.50 /testbed/django/contrib/admin/helpers.py(131): class AdminField:
+0.50 /testbed/django/contrib/admin/helpers.py(132):     def __init__(self, form, field, is_first):
+0.50 /testbed/django/contrib/admin/helpers.py(138):     def label_tag(self):
+0.50 /testbed/django/contrib/admin/helpers.py(156):     def errors(self):
+0.50 /testbed/django/contrib/admin/helpers.py(160): class AdminReadonlyField:
+0.50 /testbed/django/contrib/admin/helpers.py(160): class AdminReadonlyField:
+0.50 /testbed/django/contrib/admin/helpers.py(161):     def __init__(self, form, field, is_first, model_admin=None):
+0.50 /testbed/django/contrib/admin/helpers.py(199):     def label_tag(self):
+0.50 /testbed/django/contrib/admin/helpers.py(206):     def get_admin_url(self, remote_field, remote_obj):
+0.50 /testbed/django/contrib/admin/helpers.py(221):     def contents(self):
+0.50 /testbed/django/contrib/admin/helpers.py(257): class InlineAdminFormSet:
+0.50 /testbed/django/contrib/admin/helpers.py(257): class InlineAdminFormSet:
+0.50 /testbed/django/contrib/admin/helpers.py(258):     """
+0.50 /testbed/django/contrib/admin/helpers.py(261):     def __init__(self, inline, formset, fieldsets, prepopulated_fields=None,
+0.50 /testbed/django/contrib/admin/helpers.py(281):     def __iter__(self):
+0.50 /testbed/django/contrib/admin/helpers.py(306):     def fields(self):
+0.50 /testbed/django/contrib/admin/helpers.py(344):     def inline_formset_data(self):
+0.50 /testbed/django/contrib/admin/helpers.py(357):     @property
+0.50 /testbed/django/contrib/admin/helpers.py(358):     def forms(self):
+0.50 /testbed/django/contrib/admin/helpers.py(361):     @property
+0.50 /testbed/django/contrib/admin/helpers.py(362):     def non_form_errors(self):
+0.50 /testbed/django/contrib/admin/helpers.py(365):     @property
+0.50 /testbed/django/contrib/admin/helpers.py(366):     def media(self):
+0.50 /testbed/django/contrib/admin/helpers.py(373): class InlineAdminForm(AdminForm):
+0.50 /testbed/django/contrib/admin/helpers.py(373): class InlineAdminForm(AdminForm):
+0.50 /testbed/django/contrib/admin/helpers.py(374):     """
+0.50 /testbed/django/contrib/admin/helpers.py(377):     def __init__(self, formset, form, fieldsets, prepopulated_fields, original,
+0.50 /testbed/django/contrib/admin/helpers.py(386):     def __iter__(self):
+0.50 /testbed/django/contrib/admin/helpers.py(393):     def needs_explicit_pk_field(self):
+0.50 /testbed/django/contrib/admin/helpers.py(404):     def pk_field(self):
+0.50 /testbed/django/contrib/admin/helpers.py(407):     def fk_field(self):
+0.50 /testbed/django/contrib/admin/helpers.py(414):     def deletion_field(self):
+0.50 /testbed/django/contrib/admin/helpers.py(418):     def ordering_field(self):
+0.50 /testbed/django/contrib/admin/helpers.py(423): class InlineFieldset(Fieldset):
+0.50 /testbed/django/contrib/admin/helpers.py(423): class InlineFieldset(Fieldset):
+0.50 /testbed/django/contrib/admin/helpers.py(424):     def __init__(self, formset, *args, **kwargs):
+0.50 /testbed/django/contrib/admin/helpers.py(428):     def __iter__(self):
+0.50 /testbed/django/contrib/admin/helpers.py(435): class AdminErrorList(forms.utils.ErrorList):
+0.50 /testbed/django/contrib/admin/helpers.py(435): class AdminErrorList(forms.utils.ErrorList):
+0.50 /testbed/django/contrib/admin/helpers.py(436):     """Store errors for the form/formsets in an add/change view."""
+0.50 /testbed/django/contrib/admin/helpers.py(437):     def __init__(self, form, inline_formsets):
+Found 1 test(s).
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+0.64 /testbed/django/contrib/admin/helpers.py(165):         if callable(field):
+0.64 /testbed/django/contrib/admin/helpers.py(168):             class_name = field
+0.64 /testbed/django/contrib/admin/helpers.py(170):         if form._meta.labels and class_name in form._meta.labels:
+0.64 /testbed/django/contrib/admin/helpers.py(173):             label = label_for_field(field, form._meta.model, model_admin, form=form)
+0.64 /testbed/django/contrib/admin/helpers.py(175):         if form._meta.help_texts and class_name in form._meta.help_texts:
+0.64 /testbed/django/contrib/admin/helpers.py(178):             help_text = help_text_for_field(class_name, form._meta.model)
+0.64 /testbed/django/contrib/admin/helpers.py(180):         if field in form.fields:
+0.64 /testbed/django/contrib/admin/helpers.py(181):             is_hidden = form.fields[field].widget.is_hidden
+0.64 /testbed/django/contrib/admin/helpers.py(186):             'name': class_name,
+0.64 /testbed/django/contrib/admin/helpers.py(187):             'label': label,
+0.64 /testbed/django/contrib/admin/helpers.py(188):             'help_text': help_text,
+0.64 /testbed/django/contrib/admin/helpers.py(189):             'field': field,
+0.64 /testbed/django/contrib/admin/helpers.py(190):             'is_hidden': is_hidden,
+0.64 /testbed/django/contrib/admin/helpers.py(185):         self.field = {
+0.64 /testbed/django/contrib/admin/helpers.py(192):         self.form = form
+0.64 /testbed/django/contrib/admin/helpers.py(193):         self.model_admin = model_admin
+0.64 /testbed/django/contrib/admin/helpers.py(194):         self.is_first = is_first
+0.64 /testbed/django/contrib/admin/helpers.py(195):         self.is_checkbox = False
+0.64 /testbed/django/contrib/admin/helpers.py(196):         self.is_readonly = True
+0.64 /testbed/django/contrib/admin/helpers.py(197):         self.empty_value_display = model_admin.get_empty_value_display()
+FAIL
+
+======================================================================
+FAIL: test_get_admin_url_for_readonly_foreignkey (test_coverup_django__django-14855.AdminURLTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-14855.py", line 66, in test_get_admin_url_for_readonly_foreignkey
+    self.assertTrue(url.startswith('/custom-admin/'))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
++ cat coverage.cover
+{"/testbed/django/contrib/admin/helpers.py": {"1": 1, "3": 1, "4": 1, "8": 1, "9": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "19": 1, "22": 2, "32": 1, "35": 2, "79": 2, "100": 2, "131": 2, "160": 2, "257": 2, "373": 2, "423": 2, "435": 2, "23": 1, "24": 2, "25": 1, "26": 1, "27": 1, "28": 1, "36": 1, "47": 1, "54": 1, "63": 1, "64": 1, "67": 1, "68": 1, "71": 1, "72": 1, "37": 0, "38": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "39": 0, "40": 0, "49": 0, "48": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 0, "65": 0, "69": 0, "73": 0, "74": 0, "75": 0, "76": 0, "80": 1, "89": 1, "90": 1, "95": 1, "82": 0, "83": 0, "84": 0, "85": 0, "86": 0, "87": 0, "91": 0, "92": 0, "93": 0, "96": 0, "97": 0, "101": 1, "116": 1, "123": 1, "102": 0, "103": 0, "104": 0, "106": 0, "107": 0, "109": 0, "111": 0, "112": 0, "113": 0, "114": 0, "108": 0, "117": 0, "118": 0, "119": 0, "121": 0, "124": 0, "125": 0, "126": 0, "127": 0, "132": 1, "138": 1, "156": 1, "133": 0, "134": 0, "135": 0, "136": 0, "139": 0, "140": 0, "141": 0, "142": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "151": 0, "152": 0, "153": 0, "157": 0, "161": 1, "199": 1, "206": 1, "221": 1, "165": 1, "166": 0, "168": 1, "170": 1, "171": 0, "173": 1, "175": 1, "176": 0, "178": 1, "180": 1, "181": 1, "183": 0, "186": 1, "187": 1, "188": 1, "189": 1, "190": 1, "185": 1, "192": 1, "193": 1, "194": 1, "195": 1, "196": 1, "197": 1, "200": 0, "201": 0, "202": 0, "203": 0, "204": 0, "207": 0, "208": 0, "209": 0, "211": 0, "212": 0, "213": 0, "214": 0, "215": 0, "217": 0, "218": 0, "219": 0, "222": 0, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "229": 0, "230": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "239": 0, "240": 0, "242": 0, "244": 0, "245": 0, "247": 0, "246": 0, "248": 0, "250": 0, "252": 0, "253": 0, "254": 0, "261": 1, "281": 1, "306": 1, "344": 1, "357": 1, "358": 1, "361": 1, "362": 1, "365": 1, "366": 1, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "271": 0, "272": 0, "273": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "279": 0, "282": 0, "283": 0, "285": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "292": 0, "294": 0, "295": 0, "296": 0, "297": 0, "299": 0, "300": 0, "301": 0, "302": 0, "303": 0, "307": 0, "308": 0, "309": 0, "310": 0, "311": 0, "312": 0, "313": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "320": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "327": 0, "328": 0, "329": 0, "319": 0, "332": 0, "333": 0, "334": 0, "335": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "336": 0, "345": 0, "346": 0, "347": 0, "349": 0, "350": 0, "351": 0, "353": 0, "348": 0, "359": 0, "363": 0, "367": 0, "368": 0, "369": 0, "370": 0, "377": 1, "386": 1, "393": 1, "404": 1, "407": 1, "414": 1, "418": 1, "379": 0, "380": 0, "381": 0, "382": 0, "383": 0, "384": 0, "387": 0, "388": 0, "389": 0, "390": 0, "396": 0, "400": 0, "401": 0, "394": 0, "405": 0, "408": 0, "409": 0, "410": 0, "412": 0, "415": 0, "416": 0, "419": 0, "420": 0, "424": 1, "428": 1, "425": 0, "426": 0, "429": 0, "430": 0, "431": 0, "432": 0, "437": 1, "438": 0, "440": 0, "441": 0, "442": 0, "443": 0, "444": 0, "445": 0}}
++ git checkout 475cffd1d64c690cdad16ede4d5e81985738ceb4
+Note: switching to '475cffd1d64c690cdad16ede4d5e81985738ceb4'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 475cffd1d6 Fixed typo in docs/intro/reusable-apps.txt.
+M	django/contrib/admin/helpers.py
++ git apply /root/pre_state.patch
+error: unrecognized input

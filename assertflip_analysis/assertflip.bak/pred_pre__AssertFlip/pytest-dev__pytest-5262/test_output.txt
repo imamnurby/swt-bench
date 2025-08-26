@@ -1,0 +1,1120 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
+Merge: 6a43c8cd9 6718a2f02
+Author: Daniel Hahler <git@thequod.de>
+Date:   Tue May 14 23:57:09 2019 +0200
+
+    Merge pull request #5261 from blueyed/fix-py37-freeze-remove-no-use-pep517
+    
+    ci: tox: fix py37-freeze
+
++ git diff 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: py>=1.5.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (1.11.0)
+Requirement already satisfied: six>=1.10.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (1.16.0)
+Requirement already satisfied: setuptools in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (68.0.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (23.1.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (10.1.0)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (1.4.1)
+Requirement already satisfied: pluggy!=0.10,<1.0,>=0.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (0.11.0)
+Requirement already satisfied: wcwidth in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (0.2.6)
+Building wheels for collected packages: pytest
+  Building editable for pytest (pyproject.toml): started
+  Building editable for pytest (pyproject.toml): finished with status 'done'
+  Created wheel for pytest: filename=pytest-4.5.1.dev3+g58e6a09db-0.editable-py2.py3-none-any.whl size=4863 sha256=9e8a58aedb48d92548557e4478570f8ab1ee9066d130e34370868d7eef62adfd
+  Stored in directory: /tmp/pip-ephem-wheel-cache-3a_f6mbd/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built pytest
+Installing collected packages: pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 4.5.1.dev3+g58e6a09db
+    Uninstalling pytest-4.5.1.dev3+g58e6a09db:
+      Successfully uninstalled pytest-4.5.1.dev3+g58e6a09db
+Successfully installed pytest-4.5.1.dev3+g58e6a09db
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch testing/test_coverup_pytest-dev__pytest-5262.py...
+Applied patch testing/test_coverup_pytest-dev__pytest-5262.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(src/_pytest/capture\.py)' -m pytest -rA testing/test_coverup_pytest-dev__pytest-5262.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(src/_pytest/capture\\.py)']
+0.14 capture.py(1): """
+0.14 capture.py(5): from __future__ import absolute_import
+0.14 capture.py(6): from __future__ import division
+0.14 capture.py(7): from __future__ import print_function
+0.14 capture.py(9): import collections
+0.14 capture.py(10): import contextlib
+0.14 capture.py(11): import io
+0.14 capture.py(12): import os
+0.14 capture.py(13): import sys
+0.14 capture.py(14): from io import UnsupportedOperation
+0.14 capture.py(15): from tempfile import TemporaryFile
+0.14 capture.py(17): import six
+0.14 capture.py(19): import pytest
+0.14 capture.py(20): from _pytest.compat import _PY3
+0.14 capture.py(21): from _pytest.compat import CaptureIO
+0.14 capture.py(23): patchsysdict = {0: "stdin", 1: "stdout", 2: "stderr"}
+0.14 capture.py(26): def pytest_addoption(parser):
+0.14 capture.py(45): @pytest.hookimpl(hookwrapper=True)
+0.14 capture.py(46): def pytest_load_initial_conftests(early_config, parser, args):
+0.14 capture.py(69): class CaptureManager(object):
+0.14 capture.py(69): class CaptureManager(object):
+0.14 capture.py(70):     """
+0.14 capture.py(82):     def __init__(self, method):
+0.14 capture.py(87):     def __repr__(self):
+0.14 capture.py(94):     def _getcapture(self, method):
+0.14 capture.py(103):     def is_capturing(self):
+0.14 capture.py(115):     def is_globally_capturing(self):
+0.14 capture.py(118):     def start_global_capturing(self):
+0.14 capture.py(123):     def stop_global_capturing(self):
+0.14 capture.py(129):     def resume_global_capture(self):
+0.14 capture.py(135):     def suspend_global_capture(self, in_=False):
+0.14 capture.py(140):     def suspend(self, in_=False):
+0.14 capture.py(145):     def resume(self):
+0.14 capture.py(149):     def read_global_capture(self):
+0.14 capture.py(154):     def activate_fixture(self, item):
+0.14 capture.py(162):     def deactivate_fixture(self, item):
+0.14 capture.py(168):     def suspend_fixture(self, item):
+0.14 capture.py(173):     def resume_fixture(self, item):
+0.14 capture.py(180):     @contextlib.contextmanager
+0.14 capture.py(181):     def global_and_fixture_disabled(self):
+0.14 capture.py(189):     @contextlib.contextmanager
+0.14 capture.py(190):     def item_capture(self, when, item):
+0.14 capture.py(205):     @pytest.hookimpl(hookwrapper=True)
+0.14 capture.py(206):     def pytest_make_collect_report(self, collector):
+0.14 capture.py(220):     @pytest.hookimpl(hookwrapper=True)
+0.14 capture.py(221):     def pytest_runtest_protocol(self, item):
+0.14 capture.py(226):     @pytest.hookimpl(hookwrapper=True)
+0.14 capture.py(227):     def pytest_runtest_setup(self, item):
+0.14 capture.py(231):     @pytest.hookimpl(hookwrapper=True)
+0.14 capture.py(232):     def pytest_runtest_call(self, item):
+0.14 capture.py(236):     @pytest.hookimpl(hookwrapper=True)
+0.14 capture.py(237):     def pytest_runtest_teardown(self, item):
+0.14 capture.py(241):     @pytest.hookimpl(tryfirst=True)
+0.14 capture.py(242):     def pytest_keyboard_interrupt(self, excinfo):
+0.14 capture.py(245):     @pytest.hookimpl(tryfirst=True)
+0.14 capture.py(246):     def pytest_internalerror(self, excinfo):
+0.14 capture.py(250): capture_fixtures = {"capfd", "capfdbinary", "capsys", "capsysbinary"}
+0.14 capture.py(253): def _ensure_only_one_capture_fixture(request, name):
+0.14 capture.py(263): @pytest.fixture
+0.14 capture.py(264): def capsys(request):
+0.14 capture.py(276): @pytest.fixture
+0.14 capture.py(277): def capsysbinary(request):
+0.14 capture.py(293): @pytest.fixture
+0.14 capture.py(294): def capfd(request):
+0.14 capture.py(310): @pytest.fixture
+0.14 capture.py(311): def capfdbinary(request):
+0.14 capture.py(327): @contextlib.contextmanager
+0.14 capture.py(328): def _install_capture_fixture_on_item(request, capture_class):
+0.14 capture.py(347): class CaptureFixture(object):
+0.14 capture.py(347): class CaptureFixture(object):
+0.14 capture.py(348):     """
+0.14 capture.py(353):     def __init__(self, captureclass, request):
+0.14 capture.py(360):     def _start(self):
+0.14 capture.py(368):     def close(self):
+0.14 capture.py(376):     def readouterr(self):
+0.14 capture.py(390):     def _suspend(self):
+0.14 capture.py(394):     def _resume(self):
+0.14 capture.py(398):     @contextlib.contextmanager
+0.14 capture.py(399):     def disabled(self):
+0.14 capture.py(406): def safe_text_dupfile(f, mode, default_encoding="UTF8"):
+0.14 capture.py(425): class EncodedFile(object):
+0.14 capture.py(425): class EncodedFile(object):
+0.14 capture.py(426):     errors = "strict"  # possibly needed by py3 code (issue555)
+0.14 capture.py(428):     def __init__(self, buffer, encoding):
+0.14 capture.py(432):     def write(self, obj):
+0.14 capture.py(441):     def writelines(self, linelist):
+0.14 capture.py(445):     @property
+0.14 capture.py(446):     def name(self):
+0.14 capture.py(450):     def __getattr__(self, name):
+0.14 capture.py(454): CaptureResult = collections.namedtuple("CaptureResult", ["out", "err"])
+0.14 capture.py(457): class MultiCapture(object):
+0.14 capture.py(457): class MultiCapture(object):
+0.14 capture.py(458):     out = err = in_ = None
+0.14 capture.py(459):     _state = None
+0.14 capture.py(461):     def __init__(self, out=True, err=True, in_=True, Capture=None):
+0.14 capture.py(469):     def __repr__(self):
+0.14 capture.py(478):     def start_capturing(self):
+0.14 capture.py(487):     def pop_outerr_to_orig(self):
+0.14 capture.py(496):     def suspend_capturing(self, in_=False):
+0.14 capture.py(506):     def resume_capturing(self):
+0.14 capture.py(516):     def stop_capturing(self):
+0.14 capture.py(528):     def readouterr(self):
+0.14 capture.py(536): class NoCapture(object):
+0.14 capture.py(536): class NoCapture(object):
+0.14 capture.py(537):     EMPTY_BUFFER = None
+0.14 capture.py(538):     __init__ = start = done = suspend = resume = lambda *args: None
+0.14 capture.py(541): class FDCaptureBinary(object):
+0.14 capture.py(541): class FDCaptureBinary(object):
+0.14 capture.py(542):     """Capture IO to/from a given os-level filedescriptor.
+0.14 capture.py(547):     EMPTY_BUFFER = b""
+0.14 capture.py(548):     _state = None
+0.14 capture.py(550):     def __init__(self, targetfd, tmpfile=None):
+0.14 capture.py(574):     def __repr__(self):
+0.14 capture.py(581):     def start(self):
+0.14 capture.py(591):     def snap(self):
+0.14 capture.py(598):     def done(self):
+0.14 capture.py(608):     def suspend(self):
+0.14 capture.py(613):     def resume(self):
+0.14 capture.py(618):     def writeorg(self, data):
+0.14 capture.py(625): class FDCapture(FDCaptureBinary):
+0.14 capture.py(625): class FDCapture(FDCaptureBinary):
+0.14 capture.py(626):     """Capture IO to/from a given os-level filedescriptor.
+0.14 capture.py(631):     EMPTY_BUFFER = str()
+0.14 capture.py(633):     def snap(self):
+0.14 capture.py(641): class SysCapture(object):
+0.14 capture.py(641): class SysCapture(object):
+0.14 capture.py(643):     EMPTY_BUFFER = str()
+0.14 capture.py(644):     _state = None
+0.14 capture.py(646):     def __init__(self, fd, tmpfile=None):
+0.14 capture.py(657):     def __repr__(self):
+0.14 capture.py(665):     def start(self):
+0.14 capture.py(669):     def snap(self):
+0.14 capture.py(675):     def done(self):
+0.14 capture.py(681):     def suspend(self):
+0.14 capture.py(685):     def resume(self):
+0.14 capture.py(689):     def writeorg(self, data):
+0.14 capture.py(694): class SysCaptureBinary(SysCapture):
+0.14 capture.py(694): class SysCaptureBinary(SysCapture):
+0.14 capture.py(695):     EMPTY_BUFFER = b""
+0.14 capture.py(697):     def snap(self):
+0.14 capture.py(704): class DontReadFromInput(six.Iterator):
+0.14 capture.py(704): class DontReadFromInput(six.Iterator):
+0.14 capture.py(705):     """Temporary stub class.  Ideally when stdin is accessed, the
+0.14 capture.py(712):     encoding = None
+0.14 capture.py(714):     def read(self, *args):
+0.14 capture.py(717):     readline = read
+0.14 capture.py(718):     readlines = read
+0.14 capture.py(719):     __next__ = read
+0.14 capture.py(721):     def __iter__(self):
+0.14 capture.py(724):     def fileno(self):
+0.14 capture.py(727):     def isatty(self):
+0.14 capture.py(730):     def close(self):
+0.14 capture.py(733):     @property
+0.14 capture.py(734):     def buffer(self):
+0.14 capture.py(741): def _colorama_workaround():
+0.14 capture.py(757): def _readline_workaround():
+0.14 capture.py(782): def _py36_windowsconsoleio_workaround(stream):
+0.14 capture.py(836): def _attempt_to_close_capture_file(f):
+0.14 capture.py(27):     group = parser.getgroup("general")
+0.14 capture.py(28):     group._addoption(
+0.14 capture.py(29):         "--capture",
+0.14 capture.py(30):         action="store",
+0.14 capture.py(31):         default="fd" if hasattr(os, "dup") else "sys",
+0.14 capture.py(32):         metavar="method",
+0.14 capture.py(33):         choices=["fd", "sys", "no"],
+0.14 capture.py(34):         help="per-test capturing method: one of fd|sys|no.",
+0.14 capture.py(28):     group._addoption(
+0.14 capture.py(36):     group._addoption(
+0.14 capture.py(37):         "-s",
+0.14 capture.py(38):         action="store_const",
+0.14 capture.py(39):         const="no",
+0.14 capture.py(40):         dest="capture",
+0.14 capture.py(41):         help="shortcut for --capture=no.",
+0.14 capture.py(36):     group._addoption(
+0.30 capture.py(47):     ns = early_config.known_args_namespace
+0.30 capture.py(48):     if ns.capture == "fd":
+0.30 capture.py(49):         _py36_windowsconsoleio_workaround(sys.stdout)
+0.30 capture.py(804):     if not sys.platform.startswith("win32") or sys.version_info[:2] < (3, 6):
+0.30 capture.py(805):         return
+0.30 capture.py(50):     _colorama_workaround()
+0.30 capture.py(750):     if sys.platform.startswith("win32"):
+0.30 capture.py(51):     _readline_workaround()
+0.30 capture.py(775):     if sys.platform.startswith("win32"):
+0.30 capture.py(52):     pluginmanager = early_config.pluginmanager
+0.30 capture.py(53):     capman = CaptureManager(ns.capture)
+0.30 capture.py(83):         self._method = method
+0.30 capture.py(84):         self._global_capturing = None
+0.30 capture.py(85):         self._current_item = None
+0.30 capture.py(54):     pluginmanager.register(capman, "capturemanager")
+0.30 capture.py(57):     early_config.add_cleanup(capman.stop_global_capturing)
+0.30 capture.py(60):     capman.start_global_capturing()
+0.30 capture.py(119):         assert self._global_capturing is None
+0.30 capture.py(120):         self._global_capturing = self._getcapture(self._method)
+0.30 capture.py(95):         if method == "fd":
+0.30 capture.py(96):             return MultiCapture(out=True, err=True, Capture=FDCapture)
+0.30 capture.py(462):         if in_:
+0.30 capture.py(463):             self.in_ = Capture(0)
+0.30 capture.py(551):         self.targetfd = targetfd
+0.30 capture.py(552):         try:
+0.30 capture.py(553):             self.targetfd_save = os.dup(self.targetfd)
+0.30 capture.py(558):             if targetfd == 0:
+0.30 capture.py(559):                 assert not tmpfile, "cannot set tmpfile with stdin"
+0.30 capture.py(560):                 tmpfile = open(os.devnull, "r")
+0.30 capture.py(561):                 self.syscapture = SysCapture(targetfd)
+0.30 capture.py(647):         name = patchsysdict[fd]
+0.30 capture.py(648):         self._old = getattr(sys, name)
+0.30 capture.py(649):         self.name = name
+0.30 capture.py(650):         if tmpfile is None:
+0.30 capture.py(651):             if name == "stdin":
+0.30 capture.py(652):                 tmpfile = DontReadFromInput()
+0.30 capture.py(655):         self.tmpfile = tmpfile
+0.30 capture.py(571):             self.tmpfile = tmpfile
+0.30 capture.py(572):             self.tmpfile_fd = tmpfile.fileno()
+0.30 capture.py(464):         if out:
+0.30 capture.py(465):             self.out = Capture(1)
+0.30 capture.py(551):         self.targetfd = targetfd
+0.30 capture.py(552):         try:
+0.30 capture.py(553):             self.targetfd_save = os.dup(self.targetfd)
+0.30 capture.py(558):             if targetfd == 0:
+0.30 capture.py(563):                 if tmpfile is None:
+0.30 capture.py(564):                     f = TemporaryFile()
+0.30 capture.py(565):                     with f:
+0.30 capture.py(566):                         tmpfile = safe_text_dupfile(f, mode="wb+")
+0.30 capture.py(410):     encoding = getattr(f, "encoding", None)
+0.30 capture.py(411):     try:
+0.30 capture.py(412):         fd = f.fileno()
+0.30 capture.py(418):         newfd = os.dup(fd)
+0.30 capture.py(419):         if "b" not in mode:
+0.30 capture.py(421):         f = os.fdopen(newfd, mode, 0)  # no buffering
+0.30 capture.py(422):     return EncodedFile(f, encoding or default_encoding)
+0.30 capture.py(429):         self.buffer = buffer
+0.30 capture.py(430):         self.encoding = encoding
+0.30 capture.py(567):                 if targetfd in patchsysdict:
+0.30 capture.py(568):                     self.syscapture = SysCapture(targetfd, tmpfile)
+0.30 capture.py(647):         name = patchsysdict[fd]
+0.30 capture.py(648):         self._old = getattr(sys, name)
+0.30 capture.py(649):         self.name = name
+0.30 capture.py(650):         if tmpfile is None:
+0.30 capture.py(655):         self.tmpfile = tmpfile
+0.30 capture.py(571):             self.tmpfile = tmpfile
+0.30 capture.py(572):             self.tmpfile_fd = tmpfile.fileno()
+0.30 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 capture.py(466):         if err:
+0.30 capture.py(467):             self.err = Capture(2)
+0.30 capture.py(551):         self.targetfd = targetfd
+0.30 capture.py(552):         try:
+0.30 capture.py(553):             self.targetfd_save = os.dup(self.targetfd)
+0.30 capture.py(558):             if targetfd == 0:
+0.30 capture.py(563):                 if tmpfile is None:
+0.30 capture.py(564):                     f = TemporaryFile()
+0.30 capture.py(565):                     with f:
+0.30 capture.py(566):                         tmpfile = safe_text_dupfile(f, mode="wb+")
+0.30 capture.py(410):     encoding = getattr(f, "encoding", None)
+0.30 capture.py(411):     try:
+0.30 capture.py(412):         fd = f.fileno()
+0.30 capture.py(418):         newfd = os.dup(fd)
+0.30 capture.py(419):         if "b" not in mode:
+0.30 capture.py(421):         f = os.fdopen(newfd, mode, 0)  # no buffering
+0.30 capture.py(422):     return EncodedFile(f, encoding or default_encoding)
+0.30 capture.py(429):         self.buffer = buffer
+0.30 capture.py(430):         self.encoding = encoding
+0.30 capture.py(567):                 if targetfd in patchsysdict:
+0.30 capture.py(568):                     self.syscapture = SysCapture(targetfd, tmpfile)
+0.30 capture.py(647):         name = patchsysdict[fd]
+0.30 capture.py(648):         self._old = getattr(sys, name)
+0.30 capture.py(649):         self.name = name
+0.30 capture.py(650):         if tmpfile is None:
+0.30 capture.py(655):         self.tmpfile = tmpfile
+0.30 capture.py(571):             self.tmpfile = tmpfile
+0.30 capture.py(572):             self.tmpfile_fd = tmpfile.fileno()
+0.30 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 capture.py(121):         self._global_capturing.start_capturing()
+0.30 capture.py(479):         self._state = "started"
+0.30 capture.py(480):         if self.in_:
+0.30 capture.py(481):             self.in_.start()
+0.30 capture.py(583):         try:
+0.30 capture.py(584):             os.fstat(self.targetfd_save)
+0.30 capture.py(587):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.30 capture.py(588):         self.syscapture.start()
+0.30 capture.py(666):         setattr(sys, self.name, self.tmpfile)
+0.30 capture.py(667):         self._state = "started"
+0.30 capture.py(589):         self._state = "started"
+0.30 capture.py(482):         if self.out:
+0.30 capture.py(483):             self.out.start()
+0.30 capture.py(583):         try:
+0.30 capture.py(584):             os.fstat(self.targetfd_save)
+0.30 capture.py(587):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.30 capture.py(588):         self.syscapture.start()
+0.30 capture.py(666):         setattr(sys, self.name, self.tmpfile)
+0.31 capture.py(683):         self._state = "suspended"
+0.31 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.31 capture.py(611):         self._state = "suspended"
+0.31 capture.py(500):         if self.err:
+0.31 capture.py(501):             self.err.suspend()
+0.31 capture.py(609):         self.syscapture.suspend()
+0.31 capture.py(682):         setattr(sys, self.name, self._old)
+0.31 capture.py(683):         self._state = "suspended"
+0.31 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.31 capture.py(611):         self._state = "suspended"
+0.31 capture.py(502):         if in_ and self.in_:
+0.31 capture.py(63):     if outcome.excinfo is not None:
+============================= test session starts ==============================
+platform linux -- Python 3.9.23, pytest-4.5.1.dev3+g58e6a09db, py-1.11.0, pluggy-0.11.0
+rootdir: /testbed, inifile: tox.ini
+0.33 capture.py(207):         if isinstance(collector, pytest.File):
+0.33 capture.py(218):             yield
+0.33 capture.py(207):         if isinstance(collector, pytest.File):
+0.33 capture.py(208):             self.resume_global_capture()
+0.33 capture.py(132):         if self._global_capturing is not None:
+0.33 capture.py(133):             self._global_capturing.resume_capturing()
+0.33 capture.py(507):         self._state = "resumed"
+0.33 capture.py(508):         if self.out:
+0.33 capture.py(509):             self.out.resume()
+0.33 capture.py(614):         self.syscapture.resume()
+0.33 capture.py(686):         setattr(sys, self.name, self.tmpfile)
+0.33 capture.py(683):         self._state = "suspended"
+0.33 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.33 capture.py(611):         self._state = "suspended"
+0.33 capture.py(500):         if self.err:
+0.33 capture.py(501):             self.err.suspend()
+0.33 capture.py(609):         self.syscapture.suspend()
+0.33 capture.py(682):         setattr(sys, self.name, self._old)
+0.33 capture.py(683):         self._state = "suspended"
+0.33 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.33 capture.py(611):         self._state = "suspended"
+0.33 capture.py(502):         if in_ and self.in_:
+0.33 capture.py(211):             out, err = self.read_global_capture()
+0.33 capture.py(150):         return self._global_capturing.readouterr()
+0.33 capture.py(530):         return CaptureResult(
+0.33 capture.py(531):             self.out.snap() if self.out is not None else "",
+0.33 capture.py(634):         res = super(FDCapture, self).snap()
+0.33 capture.py(592):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(593):         res = self.tmpfile.read()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(594):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(595):         self.tmpfile.truncate()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(596):         return res
+0.33 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.33 capture.py(636):         if enc and isinstance(res, bytes):
+0.33 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.33 capture.py(638):         return res
+0.33 capture.py(532):             self.err.snap() if self.err is not None else "",
+0.33 capture.py(634):         res = super(FDCapture, self).snap()
+0.33 capture.py(592):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(593):         res = self.tmpfile.read()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(594):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(595):         self.tmpfile.truncate()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(596):         return res
+0.33 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.33 capture.py(636):         if enc and isinstance(res, bytes):
+0.33 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.33 capture.py(638):         return res
+0.33 capture.py(530):         return CaptureResult(
+0.33 capture.py(212):             rep = outcome.get_result()
+0.33 capture.py(213):             if out:
+0.33 capture.py(214):                 rep.sections.append(("Captured stdout", out))
+0.33 capture.py(215):             if err:
+collected 1 item
+0.33 capture.py(222):         self._current_item = item
+0.33 capture.py(223):         yield
+
+testing/test_coverup_pytest-dev__pytest-5262.py 0.33 capture.py(228):         with self.item_capture("setup", item):
+0.33 capture.py(191):         self.resume_global_capture()
+0.33 capture.py(132):         if self._global_capturing is not None:
+0.33 capture.py(133):             self._global_capturing.resume_capturing()
+0.33 capture.py(507):         self._state = "resumed"
+0.33 capture.py(508):         if self.out:
+0.33 capture.py(509):             self.out.resume()
+0.33 capture.py(614):         self.syscapture.resume()
+0.33 capture.py(686):         setattr(sys, self.name, self.tmpfile)
+0.33 capture.py(683):         self._state = "suspended"
+0.33 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.33 capture.py(611):         self._state = "suspended"
+0.33 capture.py(500):         if self.err:
+0.33 capture.py(501):             self.err.suspend()
+0.33 capture.py(609):         self.syscapture.suspend()
+0.33 capture.py(682):         setattr(sys, self.name, self._old)
+0.33 capture.py(683):         self._state = "suspended"
+0.33 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.33 capture.py(611):         self._state = "suspended"
+0.33 capture.py(502):         if in_ and self.in_:
+0.33 capture.py(199):         out, err = self.read_global_capture()
+0.33 capture.py(150):         return self._global_capturing.readouterr()
+0.33 capture.py(530):         return CaptureResult(
+0.33 capture.py(531):             self.out.snap() if self.out is not None else "",
+0.33 capture.py(634):         res = super(FDCapture, self).snap()
+0.33 capture.py(592):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(593):         res = self.tmpfile.read()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(594):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(595):         self.tmpfile.truncate()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(596):         return res
+0.33 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.33 capture.py(636):         if enc and isinstance(res, bytes):
+0.33 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.33 capture.py(638):         return res
+0.33 capture.py(532):             self.err.snap() if self.err is not None else "",
+0.33 capture.py(634):         res = super(FDCapture, self).snap()
+0.33 capture.py(592):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(593):         res = self.tmpfile.read()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(594):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(595):         self.tmpfile.truncate()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(596):         return res
+0.33 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.33 capture.py(636):         if enc and isinstance(res, bytes):
+0.33 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.33 capture.py(638):         return res
+0.33 capture.py(530):         return CaptureResult(
+0.33 capture.py(200):         item.add_report_section(when, "stdout", out)
+0.33 capture.py(201):         item.add_report_section(when, "stderr", err)
+0.33 capture.py(233):         with self.item_capture("call", item):
+0.33 capture.py(191):         self.resume_global_capture()
+0.33 capture.py(132):         if self._global_capturing is not None:
+0.33 capture.py(133):             self._global_capturing.resume_capturing()
+0.33 capture.py(507):         self._state = "resumed"
+0.33 capture.py(508):         if self.out:
+0.33 capture.py(509):             self.out.resume()
+0.33 capture.py(614):         self.syscapture.resume()
+0.33 capture.py(686):         setattr(sys, self.name, self.tmpfile)
+0.33 capture.py(683):         self._state = "suspended"
+0.33 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.33 capture.py(611):         self._state = "suspended"
+0.33 capture.py(500):         if self.err:
+0.33 capture.py(501):             self.err.suspend()
+0.33 capture.py(609):         self.syscapture.suspend()
+0.33 capture.py(682):         setattr(sys, self.name, self._old)
+0.33 capture.py(683):         self._state = "suspended"
+0.33 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.33 capture.py(611):         self._state = "suspended"
+0.33 capture.py(502):         if in_ and self.in_:
+0.33 capture.py(199):         out, err = self.read_global_capture()
+0.33 capture.py(150):         return self._global_capturing.readouterr()
+0.33 capture.py(530):         return CaptureResult(
+0.33 capture.py(531):             self.out.snap() if self.out is not None else "",
+0.33 capture.py(634):         res = super(FDCapture, self).snap()
+0.33 capture.py(592):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(593):         res = self.tmpfile.read()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(594):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(595):         self.tmpfile.truncate()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(596):         return res
+0.33 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.33 capture.py(636):         if enc and isinstance(res, bytes):
+0.33 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.33 capture.py(638):         return res
+0.33 capture.py(532):             self.err.snap() if self.err is not None else "",
+0.33 capture.py(634):         res = super(FDCapture, self).snap()
+0.33 capture.py(592):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(593):         res = self.tmpfile.read()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(594):         self.tmpfile.seek(0)
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(595):         self.tmpfile.truncate()
+0.33 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.33 capture.py(596):         return res
+0.33 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.33 capture.py(636):         if enc and isinstance(res, bytes):
+0.33 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.33 capture.py(638):         return res
+0.33 capture.py(530):         return CaptureResult(
+0.33 capture.py(200):         item.add_report_section(when, "stdout", out)
+0.33 capture.py(201):         item.add_report_section(when, "stderr", err)
+F0.38 capture.py(238):         with self.item_capture("teardown", item):
+0.38 capture.py(191):         self.resume_global_capture()
+0.38 capture.py(132):         if self._global_capturing is not None:
+0.38 capture.py(133):             self._global_capturing.resume_capturing()
+0.38 capture.py(507):         self._state = "resumed"
+0.38 capture.py(508):         if self.out:
+0.38 capture.py(509):             self.out.resume()
+0.38 capture.py(614):         self.syscapture.resume()
+0.38 capture.py(686):         setattr(sys, self.name, self.tmpfile)
+0.38 capture.py(683):         self._state = "suspended"
+0.38 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.38 capture.py(611):         self._state = "suspended"
+0.38 capture.py(500):         if self.err:
+0.38 capture.py(501):             self.err.suspend()
+0.38 capture.py(609):         self.syscapture.suspend()
+0.38 capture.py(682):         setattr(sys, self.name, self._old)
+0.38 capture.py(683):         self._state = "suspended"
+0.38 capture.py(610):         os.dup2(self.targetfd_save, self.targetfd)
+0.38 capture.py(611):         self._state = "suspended"
+0.38 capture.py(502):         if in_ and self.in_:
+0.38 capture.py(199):         out, err = self.read_global_capture()
+0.38 capture.py(150):         return self._global_capturing.readouterr()
+0.38 capture.py(530):         return CaptureResult(
+0.38 capture.py(531):             self.out.snap() if self.out is not None else "",
+0.38 capture.py(634):         res = super(FDCapture, self).snap()
+0.38 capture.py(592):         self.tmpfile.seek(0)
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(593):         res = self.tmpfile.read()
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(594):         self.tmpfile.seek(0)
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(595):         self.tmpfile.truncate()
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(596):         return res
+0.38 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.38 capture.py(636):         if enc and isinstance(res, bytes):
+0.38 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.38 capture.py(638):         return res
+0.38 capture.py(532):             self.err.snap() if self.err is not None else "",
+0.38 capture.py(634):         res = super(FDCapture, self).snap()
+0.38 capture.py(592):         self.tmpfile.seek(0)
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(593):         res = self.tmpfile.read()
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(594):         self.tmpfile.seek(0)
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(595):         self.tmpfile.truncate()
+0.38 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.38 capture.py(596):         return res
+0.38 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.38 capture.py(636):         if enc and isinstance(res, bytes):
+0.38 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.38 capture.py(638):         return res
+0.38 capture.py(530):         return CaptureResult(
+0.38 capture.py(200):         item.add_report_section(when, "stdout", out)
+0.38 capture.py(201):         item.add_report_section(when, "stderr", err)
+                        [100%]0.38 capture.py(224):         self._current_item = None
+
+
+=================================== FAILURES ===================================
+________________________ test_encoded_file_write_bytes _________________________
+
+    def test_encoded_file_write_bytes():
+        # Create a mock buffer to simulate the file
+        class MockBuffer:
+            def write(self, obj):
+                # Simulate writing to a buffer
+                pass
+    
+        # Create an instance of EncodedFile with a mock buffer
+        buffer = MockBuffer()
+        encoded_file = EncodedFile(buffer, 'utf-8')
+    
+        # Attempt to write bytes to the EncodedFile
+        # This should raise an exception due to the bug
+        with pytest.raises(TypeError, match="write() argument must be str, not bytes"):
+>           encoded_file.write(b"test bytes")
+
+testing/test_coverup_pytest-dev__pytest-5262.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_pytest.capture.EncodedFile object at 0x7fab519438e0>
+obj = b'test bytes'
+
+    def write(self, obj):
+        if isinstance(obj, six.text_type):
+            obj = obj.encode(self.encoding, "replace")
+        elif _PY3:
+>           raise TypeError(
+                "write() argument must be str, not {}".format(type(obj).__name__)
+            )
+E           TypeError: write() argument must be str, not bytes
+
+src/_pytest/capture.py:436: TypeError
+
+During handling of the above exception, another exception occurred:
+
+    def test_encoded_file_write_bytes():
+        # Create a mock buffer to simulate the file
+        class MockBuffer:
+            def write(self, obj):
+                # Simulate writing to a buffer
+                pass
+    
+        # Create an instance of EncodedFile with a mock buffer
+        buffer = MockBuffer()
+        encoded_file = EncodedFile(buffer, 'utf-8')
+    
+        # Attempt to write bytes to the EncodedFile
+        # This should raise an exception due to the bug
+        with pytest.raises(TypeError, match="write() argument must be str, not bytes"):
+>           encoded_file.write(b"test bytes")
+E           AssertionError: Pattern 'write() argument must be str, not bytes' not found in 'write() argument must be str, not bytes'
+
+testing/test_coverup_pytest-dev__pytest-5262.py:19: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+0.33 capture.py(687):         self._state = "resumed"
+0.33 capture.py(615):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.33 capture.py(616):         self._state = "resumed"
+0.33 capture.py(510):         if self.err:
+0.33 capture.py(511):             self.err.resume()
+0.33 capture.py(614):         self.syscapture.resume()
+0.33 capture.py(686):         setattr(sys, self.name, self.tmpfile)
+0.33 capture.py(687):         self._state = "resumed"
+0.33 capture.py(615):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.33 capture.py(616):         self._state = "resumed"
+0.33 capture.py(512):         if hasattr(self, "_in_suspended"):
+0.33 capture.py(192):         self.activate_fixture(item)
+0.33 capture.py(158):         fixture = getattr(item, "_capture_fixture", None)
+0.33 capture.py(159):         if fixture is not None:
+0.33 capture.py(193):         try:
+0.33 capture.py(194):             yield
+0.33 capture.py(229):             yield
+0.33 capture.py(196):             self.deactivate_fixture(item)
+0.33 capture.py(164):         fixture = getattr(item, "_capture_fixture", None)
+0.33 capture.py(165):         if fixture is not None:
+0.33 capture.py(197):             self.suspend_global_capture(in_=False)
+0.33 capture.py(136):         cap = getattr(self, "_global_capturing", None)
+0.33 capture.py(137):         if cap is not None:
+0.33 capture.py(138):             cap.suspend_capturing(in_=in_)
+0.33 capture.py(497):         self._state = "suspended"
+0.33 capture.py(498):         if self.out:
+0.33 capture.py(499):             self.out.suspend()
+0.33 capture.py(609):         self.syscapture.suspend()
+0.33 capture.py(682):         setattr(sys, self.name, self._old)
+----------------------------- Captured stdout call -----------------------------
+0.33 capture.py(687):         self._state = "resumed"
+0.33 capture.py(615):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.33 capture.py(616):         self._state = "resumed"
+0.33 capture.py(510):         if self.err:
+0.33 capture.py(511):             self.err.resume()
+0.33 capture.py(614):         self.syscapture.resume()
+0.33 capture.py(686):         setattr(sys, self.name, self.tmpfile)
+0.33 capture.py(687):         self._state = "resumed"
+0.33 capture.py(615):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.33 capture.py(616):         self._state = "resumed"
+0.33 capture.py(512):         if hasattr(self, "_in_suspended"):
+0.33 capture.py(192):         self.activate_fixture(item)
+0.33 capture.py(158):         fixture = getattr(item, "_capture_fixture", None)
+0.33 capture.py(159):         if fixture is not None:
+0.33 capture.py(193):         try:
+0.33 capture.py(194):             yield
+0.33 capture.py(234):             yield
+0.33 capture.py(429):         self.buffer = buffer
+0.33 capture.py(430):         self.encoding = encoding
+0.33 capture.py(433):         if isinstance(obj, six.text_type):
+0.33 capture.py(435):         elif _PY3:
+0.33 capture.py(436):             raise TypeError(
+0.33 capture.py(437):                 "write() argument must be str, not {}".format(type(obj).__name__)
+0.33 capture.py(436):             raise TypeError(
+0.33 capture.py(196):             self.deactivate_fixture(item)
+0.33 capture.py(164):         fixture = getattr(item, "_capture_fixture", None)
+0.33 capture.py(165):         if fixture is not None:
+0.33 capture.py(197):             self.suspend_global_capture(in_=False)
+0.33 capture.py(136):         cap = getattr(self, "_global_capturing", None)
+0.33 capture.py(137):         if cap is not None:
+0.33 capture.py(138):             cap.suspend_capturing(in_=in_)
+0.33 capture.py(497):         self._state = "suspended"
+0.33 capture.py(498):         if self.out:
+0.33 capture.py(499):             self.out.suspend()
+0.33 capture.py(609):         self.syscapture.suspend()
+0.33 capture.py(682):         setattr(sys, self.name, self._old)
+--------------------------- Captured stdout teardown ---------------------------
+0.38 capture.py(687):         self._state = "resumed"
+0.38 capture.py(615):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.38 capture.py(616):         self._state = "resumed"
+0.38 capture.py(510):         if self.err:
+0.38 capture.py(511):             self.err.resume()
+0.38 capture.py(614):         self.syscapture.resume()
+0.38 capture.py(686):         setattr(sys, self.name, self.tmpfile)
+0.38 capture.py(687):         self._state = "resumed"
+0.38 capture.py(615):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.38 capture.py(616):         self._state = "resumed"
+0.38 capture.py(512):         if hasattr(self, "_in_suspended"):
+0.38 capture.py(192):         self.activate_fixture(item)
+0.38 capture.py(158):         fixture = getattr(item, "_capture_fixture", None)
+0.38 capture.py(159):         if fixture is not None:
+0.38 capture.py(193):         try:
+0.38 capture.py(194):             yield
+0.38 capture.py(239):             yield
+0.38 capture.py(196):             self.deactivate_fixture(item)
+0.38 capture.py(164):         fixture = getattr(item, "_capture_fixture", None)
+0.38 capture.py(165):         if fixture is not None:
+0.38 capture.py(197):             self.suspend_global_capture(in_=False)
+0.38 capture.py(136):         cap = getattr(self, "_global_capturing", None)
+0.38 capture.py(137):         if cap is not None:
+0.38 capture.py(138):             cap.suspend_capturing(in_=in_)
+0.38 capture.py(497):         self._state = "suspended"
+0.38 capture.py(498):         if self.out:
+0.38 capture.py(499):             self.out.suspend()
+0.38 capture.py(609):         self.syscapture.suspend()
+0.38 capture.py(682):         setattr(sys, self.name, self._old)
+=========================== short test summary info ============================
+FAILED testing/test_coverup_pytest-dev__pytest-5262.py::test_encoded_file_write_bytes
+=========================== 1 failed in 0.06 seconds ===========================
+0.39 capture.py(124):         if self._global_capturing is not None:
+0.39 capture.py(125):             self._global_capturing.pop_outerr_to_orig()
+0.39 capture.py(489):         out, err = self.readouterr()
+0.39 capture.py(530):         return CaptureResult(
+0.39 capture.py(531):             self.out.snap() if self.out is not None else "",
+0.39 capture.py(634):         res = super(FDCapture, self).snap()
+0.39 capture.py(592):         self.tmpfile.seek(0)
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(593):         res = self.tmpfile.read()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(594):         self.tmpfile.seek(0)
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(595):         self.tmpfile.truncate()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(596):         return res
+0.39 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.39 capture.py(636):         if enc and isinstance(res, bytes):
+0.39 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.39 capture.py(638):         return res
+0.39 capture.py(532):             self.err.snap() if self.err is not None else "",
+0.39 capture.py(634):         res = super(FDCapture, self).snap()
+0.39 capture.py(592):         self.tmpfile.seek(0)
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(593):         res = self.tmpfile.read()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(594):         self.tmpfile.seek(0)
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(595):         self.tmpfile.truncate()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(596):         return res
+0.39 capture.py(635):         enc = getattr(self.tmpfile, "encoding", None)
+0.39 capture.py(636):         if enc and isinstance(res, bytes):
+0.39 capture.py(637):             res = six.text_type(res, enc, "replace")
+0.39 capture.py(638):         return res
+0.39 capture.py(530):         return CaptureResult(
+0.39 capture.py(490):         if out:
+0.39 capture.py(492):         if err:
+0.39 capture.py(494):         return out, err
+0.39 capture.py(126):             self._global_capturing.stop_capturing()
+0.39 capture.py(518):         if self._state == "stopped":
+0.39 capture.py(520):         self._state = "stopped"
+0.39 capture.py(521):         if self.out:
+0.39 capture.py(522):             self.out.done()
+0.39 capture.py(601):         targetfd_save = self.__dict__.pop("targetfd_save")
+0.39 capture.py(602):         os.dup2(targetfd_save, self.targetfd)
+0.39 capture.py(603):         os.close(targetfd_save)
+0.39 capture.py(604):         self.syscapture.done()
+0.39 capture.py(676):         setattr(sys, self.name, self._old)
+0.39 capture.py(677):         del self._old
+0.39 capture.py(678):         _attempt_to_close_capture_file(self.tmpfile)
+0.39 capture.py(838):     if six.PY2:
+0.39 capture.py(844):         f.close()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(679):         self._state = "done"
+0.39 capture.py(605):         _attempt_to_close_capture_file(self.tmpfile)
+0.39 capture.py(838):     if six.PY2:
+0.39 capture.py(844):         f.close()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(606):         self._state = "done"
+0.39 capture.py(523):         if self.err:
+0.39 capture.py(524):             self.err.done()
+0.39 capture.py(601):         targetfd_save = self.__dict__.pop("targetfd_save")
+0.39 capture.py(602):         os.dup2(targetfd_save, self.targetfd)
+0.39 capture.py(603):         os.close(targetfd_save)
+0.39 capture.py(604):         self.syscapture.done()
+0.39 capture.py(676):         setattr(sys, self.name, self._old)
+0.39 capture.py(677):         del self._old
+0.39 capture.py(678):         _attempt_to_close_capture_file(self.tmpfile)
+0.39 capture.py(838):     if six.PY2:
+0.39 capture.py(844):         f.close()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(679):         self._state = "done"
+0.39 capture.py(605):         _attempt_to_close_capture_file(self.tmpfile)
+0.39 capture.py(838):     if six.PY2:
+0.39 capture.py(844):         f.close()
+0.39 capture.py(451):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.39 capture.py(606):         self._state = "done"
+0.39 capture.py(525):         if self.in_:
+0.39 capture.py(526):             self.in_.done()
+0.39 capture.py(601):         targetfd_save = self.__dict__.pop("targetfd_save")
+0.39 capture.py(602):         os.dup2(targetfd_save, self.targetfd)
+0.39 capture.py(603):         os.close(targetfd_save)
+0.39 capture.py(604):         self.syscapture.done()
+0.39 capture.py(676):         setattr(sys, self.name, self._old)
+0.39 capture.py(677):         del self._old
+0.39 capture.py(678):         _attempt_to_close_capture_file(self.tmpfile)
+0.39 capture.py(838):     if six.PY2:
+0.39 capture.py(844):         f.close()
+0.39 capture.py(731):         pass
+0.39 capture.py(679):         self._state = "done"
+0.39 capture.py(605):         _attempt_to_close_capture_file(self.tmpfile)
+0.39 capture.py(838):     if six.PY2:
+0.39 capture.py(844):         f.close()
+0.39 capture.py(606):         self._state = "done"
+0.39 capture.py(127):             self._global_capturing = None
++ cat coverage.cover
+{"/testbed/src/_pytest/capture.py": {"5": 1, "6": 1, "7": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "17": 1, "19": 1, "20": 1, "21": 1, "23": 1, "26": 1, "45": 1, "46": 1, "69": 2, "250": 1, "253": 1, "263": 1, "264": 1, "276": 1, "277": 1, "293": 1, "294": 1, "310": 1, "311": 1, "327": 1, "328": 1, "347": 2, "406": 1, "425": 2, "454": 1, "457": 2, "536": 2, "541": 2, "625": 2, "641": 2, "694": 2, "704": 2, "741": 1, "757": 1, "782": 1, "836": 1, "27": 1, "28": 2, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "36": 2, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "53": 1, "54": 1, "57": 1, "60": 1, "61": 1, "62": 1, "63": 1, "64": 0, "65": 0, "66": 0, "82": 1, "87": 1, "94": 1, "103": 1, "115": 1, "118": 1, "123": 1, "129": 1, "135": 1, "140": 1, "145": 1, "149": 1, "154": 1, "162": 1, "168": 1, "173": 1, "180": 1, "181": 1, "189": 1, "190": 1, "205": 1, "206": 1, "220": 1, "221": 1, "226": 1, "227": 1, "231": 1, "232": 1, "236": 1, "237": 1, "241": 1, "242": 1, "245": 1, "246": 1, "83": 1, "84": 1, "85": 1, "88": 0, "89": 0, "90": 0, "91": 0, "95": 1, "96": 1, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "104": 0, "105": 0, "106": 0, "107": 0, "109": 0, "108": 0, "111": 0, "116": 0, "119": 1, "120": 1, "121": 1, "124": 1, "125": 1, "126": 1, "127": 1, "132": 4, "133": 4, "136": 5, "137": 5, "138": 5, "142": 0, "143": 0, "146": 0, "147": 0, "150": 4, "158": 3, "159": 3, "160": 0, "164": 3, "165": 3, "166": 0, "169": 0, "170": 0, "171": 0, "174": 0, "175": 0, "176": 0, "183": 0, "184": 0, "185": 0, "187": 0, "191": 3, "192": 3, "193": 3, "194": 3, "196": 3, "197": 3, "199": 3, "200": 3, "201": 3, "207": 2, "208": 1, "209": 1, "210": 1, "211": 1, "212": 1, "213": 1, "214": 1, "215": 1, "216": 0, "218": 1, "222": 1, "223": 1, "224": 1, "228": 1, "229": 1, "233": 1, "234": 1, "238": 1, "239": 1, "243": 0, "247": 0, "254": 0, "255": 0, "256": 0, "257": 0, "258": 0, "259": 0, "271": 0, "272": 0, "273": 0, "284": 0, "287": 0, "288": 0, "289": 0, "290": 0, "301": 0, "302": 0, "303": 0, "304": 0, "306": 0, "307": 0, "318": 0, "319": 0, "320": 0, "321": 0, "323": 0, "324": 0, "336": 0, "337": 0, "341": 0, "342": 0, "343": 0, "344": 0, "353": 1, "360": 1, "368": 1, "376": 1, "390": 1, "394": 1, "398": 1, "399": 1, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "362": 0, "363": 0, "364": 0, "366": 0, "369": 0, "370": 0, "371": 0, "372": 0, "373": 0, "374": 0, "381": 0, "382": 0, "383": 0, "384": 0, "385": 0, "386": 0, "387": 0, "388": 0, "392": 0, "396": 0, "401": 0, "402": 0, "403": 0, "410": 2, "411": 2, "412": 2, "413": 0, "414": 0, "416": 0, "418": 2, "419": 2, "420": 0, "421": 2, "422": 2, "426": 1, "428": 1, "432": 1, "441": 1, "445": 1, "446": 1, "450": 1, "429": 3, "430": 3, "433": 1, "434": 0, "435": 1, "436": 2, "437": 1, "439": 0, "442": 0, "443": 0, "448": 0, "451": 46, "458": 1, "459": 1, "461": 1, "469": 1, "478": 1, "487": 1, "496": 1, "506": 1, "516": 1, "528": 1, "462": 1, "463": 1, "464": 1, "465": 1, "466": 1, "467": 1, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "479": 1, "480": 1, "481": 1, "482": 1, "483": 1, "484": 1, "485": 1, "489": 1, "490": 1, "491": 0, "492": 1, "493": 0, "494": 1, "497": 5, "498": 5, "499": 5, "500": 5, "501": 5, "502": 5, "503": 0, "504": 0, "507": 4, "508": 4, "509": 4, "510": 4, "511": 4, "512": 4, "513": 0, "514": 0, "518": 1, "519": 0, "520": 1, "521": 1, "522": 1, "523": 1, "524": 1, "525": 1, "526": 1, "530": 10, "531": 5, "532": 5, "537": 1, "538": 1, "547": 1, "548": 1, "550": 1, "574": 1, "581": 1, "591": 1, "598": 1, "608": 1, "613": 1, "618": 1, "551": 3, "552": 3, "553": 3, "554": 0, "555": 0, "556": 0, "558": 3, "559": 1, "560": 1, "561": 1, "563": 2, "564": 2, "565": 2, "566": 2, "567": 2, "568": 2, "570": 0, "571": 3, "572": 3, "575": 0, "576": 0, "577": 0, "578": 0, "583": 3, "584": 3, "585": 0, "586": 0, "587": 3, "588": 3, "589": 3, "592": 10, "593": 10, "594": 10, "595": 10, "596": 10, "601": 3, "602": 3, "603": 3, "604": 3, "605": 3, "606": 3, "609": 10, "610": 10, "611": 10, "614": 8, "615": 8, "616": 8, "620": 0, "621": 0, "622": 0, "631": 1, "633": 1, "634": 10, "635": 10, "636": 10, "637": 10, "638": 10, "643": 1, "644": 1, "646": 1, "657": 1, "665": 1, "669": 1, "675": 1, "681": 1, "685": 1, "689": 1, "647": 3, "648": 3, "649": 3, "650": 3, "651": 1, "652": 1, "654": 0, "655": 3, "658": 0, "659": 0, "660": 0, "661": 0, "662": 0, "666": 3, "667": 3, "670": 0, "671": 0, "672": 0, "673": 0, "676": 3, "677": 3, "678": 3, "679": 3, "682": 10, "683": 10, "686": 8, "687": 8, "690": 0, "691": 0, "695": 1, "697": 1, "698": 0, "699": 0, "700": 0, "701": 0, "712": 1, "714": 1, "717": 1, "718": 1, "719": 1, "721": 1, "724": 1, "727": 1, "730": 1, "733": 1, "734": 1, "715": 0, "722": 0, "725": 0, "728": 0, "731": 1, "735": 0, "736": 0, "738": 0, "750": 1, "751": 0, "752": 0, "753": 0, "754": 0, "775": 1, "776": 0, "777": 0, "778": 0, "779": 0, "804": 1, "805": 1, "808": 0, "809": 0, "811": 0, "812": 0, "814": 0, "815": 0, "817": 0, "831": 0, "832": 0, "833": 0, "818": 0, "819": 0, "821": 0, "823": 0, "824": 0, "825": 0, "826": 0, "827": 0, "828": 0, "838": 6, "839": 0, "840": 0, "841": 0, "842": 0, "844": 6}}
++ git checkout 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
+Note: switching to '58e6a09db49f34886ff13f3b7520dd0bcd7063cd'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 58e6a09db Merge pull request #5261 from blueyed/fix-py37-freeze-remove-no-use-pep517
++ git apply /root/pre_state.patch
+error: unrecognized input

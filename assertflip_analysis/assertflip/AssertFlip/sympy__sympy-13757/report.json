@@ -1,0 +1,78 @@
+{
+    "sympy__sympy-13757": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 1.0,
+        "coverage_delta_pred": 0.0,
+        "coverage_delta_gold": 0.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_sympy__sympy-13757.py:test_multiply_expression_by_poly",
+                "test_multiply_expression_by_poly"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_interface",
+                "test_issue_5168",
+                "test_symbol",
+                "test_power",
+                "test_match_exclude",
+                "test_issue_3883",
+                "test_derivative2",
+                "test_issue_4700",
+                "test_derivative_bug1",
+                "test_issue_3539",
+                "test_match_wild_wild",
+                "test__combine_inverse",
+                "test_add",
+                "test_match_bug5",
+                "test_issue_4319",
+                "test_match_polynomial",
+                "test_exclude",
+                "test_issue_3778",
+                "test_issue_4559",
+                "test_issue_3773",
+                "test_match_bug4",
+                "test_match_bug2",
+                "test_keep_coeff",
+                "test_gh_issue_2711",
+                "test_floats",
+                "test_match_bug3",
+                "test_mul_noncommutative",
+                "test_issue_6103",
+                "test_match_bug6",
+                "test_derivative1",
+                "test_complex",
+                "test_functions"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_issue_9585",
+                "test_factor",
+                "test_match_deriv_bug1",
+                "test_issue_4418",
+                "test_Derivative_bug1",
+                "test_issue_13079"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

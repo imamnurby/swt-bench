@@ -1,0 +1,2296 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD f35d2a6cc726f97d0e859ca7a0e1729f7da8a6c8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   tox.ini
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit f35d2a6cc726f97d0e859ca7a0e1729f7da8a6c8
+Author: Adam Turner <9087854+AA-Turner@users.noreply.github.com>
+Date:   Fri Sep 9 05:08:48 2022 +0100
+
+    Remove Pygments compatability code (#10812)
+
+diff --git a/setup.py b/setup.py
+index 95f29c9c2..4c65723aa 100644
+--- a/setup.py
++++ b/setup.py
+@@ -87,7 +87,7 @@ setup(
+         'sphinxcontrib-serializinghtml>=1.1.5',
+         'sphinxcontrib-qthelp',
+         'Jinja2>=3.0',
+-        'Pygments>=2.8',
++        'Pygments>=2.12',
+         'docutils>=0.14,<0.20',
+         'snowballstemmer>=2.0',
+         'babel>=2.9',
+diff --git a/sphinx/highlighting.py b/sphinx/highlighting.py
+index bb020850f..4a737eb40 100644
+--- a/sphinx/highlighting.py
++++ b/sphinx/highlighting.py
+@@ -2,17 +2,15 @@
+ 
+ from functools import partial
+ from importlib import import_module
+-from typing import Any, Dict, Optional
++from typing import Any, Dict, Optional, Type, Union
+ 
+-from packaging import version
+-from pygments import __version__ as pygmentsversion
+ from pygments import highlight
+ from pygments.filters import ErrorToken
+ from pygments.formatter import Formatter
+ from pygments.formatters import HtmlFormatter, LatexFormatter
+ from pygments.lexer import Lexer
+-from pygments.lexers import (CLexer, Python3Lexer, PythonConsoleLexer, PythonLexer, RstLexer,
+-                             TextLexer, get_lexer_by_name, guess_lexer)
++from pygments.lexers import (CLexer, PythonConsoleLexer, PythonLexer, RstLexer, TextLexer,
++                             get_lexer_by_name, guess_lexer)
+ from pygments.style import Style
+ from pygments.styles import get_style_by_name
+ from pygments.util import ClassNotFound
+@@ -24,12 +22,10 @@ from sphinx.util import logging, texescape
+ logger = logging.getLogger(__name__)
+ 
+ lexers: Dict[str, Lexer] = {}
+-lexer_classes: Dict[str, Lexer] = {
++lexer_classes: Dict[str, Union[Type[Lexer], 'partial[Lexer]']] = {
+     'none': partial(TextLexer, stripnl=False),
+     'python': partial(PythonLexer, stripnl=False),
+-    'python3': partial(Python3Lexer, stripnl=False),
+     'pycon': partial(PythonConsoleLexer, stripnl=False),
+-    'pycon3': partial(PythonConsoleLexer, python3=True, stripnl=False),
+     'rest': partial(RstLexer, stripnl=False),
+     'c': partial(CLexer, stripnl=False),
+ }
+@@ -76,20 +72,6 @@ _LATEX_ADD_STYLES = r'''
+ \protected\def\PYG#1#2{\PYG@reset\PYG@toks#1+\relax+{\PYG@do{#2}}}
+ \makeatother
+ '''
+-# fix extra space between lines when Pygments highlighting uses \fcolorbox
+-# add a {..} to limit \fboxsep scope, and force \fcolorbox use correct value
+-# cf pygments #1708 which makes this unneeded for Pygments > 2.7.4
+-_LATEX_ADD_STYLES_FIXPYG = r'''
+-\makeatletter
+-% fix for Pygments <= 2.7.4
+-\let\spx@original@fcolorbox\fcolorbox
+-\def\spx@fixpyg@fcolorbox{\fboxsep-\fboxrule\spx@original@fcolorbox}
+-\protected\def\PYG#1#2{\PYG@reset\PYG@toks#1+\relax+%
+-             {\let\fcolorbox\spx@fixpyg@fcolorbox\PYG@do{#2}}}
+-\makeatother
+-'''
+-if version.parse(pygmentsversion).release <= (2, 7, 4):
+-    _LATEX_ADD_STYLES += _LATEX_ADD_STYLES_FIXPYG
+ 
+ 
+ class PygmentsBridge:
+@@ -132,17 +114,12 @@ class PygmentsBridge:
+             opts = {}
+ 
+         # find out which lexer to use
+-        if lang in ('py', 'python'):
++        if lang in {'py', 'python', 'py3', 'python3', 'default'}:
+             if source.startswith('>>>'):
+                 # interactive session
+                 lang = 'pycon'
+             else:
+                 lang = 'python'
+-        elif lang in ('py3', 'python3', 'default'):
+-            if source.startswith('>>>'):
+-                lang = 'pycon3'
+-            else:
+-                lang = 'python3'
+ 
+         if lang in lexers:
+             # just return custom lexers here (without installing raiseonerror filter)
+diff --git a/sphinx/writers/latex.py b/sphinx/writers/latex.py
+index e0b4ec03b..43f3910dd 100644
+--- a/sphinx/writers/latex.py
++++ b/sphinx/writers/latex.py
+@@ -1708,15 +1708,10 @@ class LaTeXTranslator(SphinxTranslator):
+ 
+         opts = self.config.highlight_options.get(lang, {})
+         hlcode = self.highlighter.highlight_block(
+-            node.astext(), lang, opts=opts, location=node)
+-        # TODO: Use nowrap option once LaTeX formatter supports it
+-        # https://github.com/pygments/pygments/pull/1343
+-        hlcode = hlcode.replace(r'\begin{Verbatim}[commandchars=\\\{\}]',
+-                                r'\sphinxcode{\sphinxupquote{%')
+-        # get consistent trailer
+-        hlcode = hlcode.rstrip()[:-15]  # strip \n\end{Verbatim}
+-        self.body.append(hlcode)
+-        self.body.append('%' + CR + '}}')
++            node.astext(), lang, opts=opts, location=node, nowrap=True)
++        self.body.append(r'\sphinxcode{\sphinxupquote{%' + CR
++                         + hlcode.rstrip() + '%' + CR  # NoQA: W503
++                         + '}}')  # NoQA: W503
+         raise nodes.SkipNode
+ 
+     def depart_literal(self, node: Element) -> None:
+diff --git a/tests/test_build_html.py b/tests/test_build_html.py
+index 2b74690a1..8fd83b438 100644
+--- a/tests/test_build_html.py
++++ b/tests/test_build_html.py
+@@ -6,10 +6,8 @@ from itertools import chain, cycle
+ from unittest.mock import ANY, call, patch
+ 
+ import docutils
+-import pygments
+ import pytest
+ from html5lib import HTMLParser
+-from packaging import version
+ 
+ from sphinx.builders.html import validate_html_extra_path, validate_html_static_path
+ from sphinx.errors import ConfigError
+@@ -23,9 +21,6 @@ else:
+     FIGURE_CAPTION = ".//figure/figcaption/p"
+ 
+ 
+-PYGMENTS_VERSION = version.parse(pygments.__version__).release
+-
+-
+ ENV_WARNINGS = """\
+ %(root)s/autodoc_fodder.py:docstring of autodoc_fodder.MarkupError:\\d+: \
+ WARNING: Explicit markup ends without a blank line; unexpected unindent.
+@@ -1631,13 +1626,10 @@ def test_html_codeblock_linenos_style_table(app):
+     app.build()
+     content = (app.outdir / 'index.html').read_text(encoding='utf8')
+ 
+-    if PYGMENTS_VERSION >= (2, 8):
+-        assert ('<div class="linenodiv"><pre><span class="normal">1</span>\n'
+-                '<span class="normal">2</span>\n'
+-                '<span class="normal">3</span>\n'
+-                '<span class="normal">4</span></pre></div>') in content
+-    else:
+-        assert '<div class="linenodiv"><pre>1\n2\n3\n4</pre></div>' in content
++    assert ('<div class="linenodiv"><pre><span class="normal">1</span>\n'
++            '<span class="normal">2</span>\n'
++            '<span class="normal">3</span>\n'
++            '<span class="normal">4</span></pre></div>') in content
+ 
+ 
+ @pytest.mark.sphinx('html', testroot='reST-code-block',
+@@ -1646,10 +1638,7 @@ def test_html_codeblock_linenos_style_inline(app):
+     app.build()
+     content = (app.outdir / 'index.html').read_text(encoding='utf8')
+ 
+-    if PYGMENTS_VERSION > (2, 7):
+-        assert '<span class="linenos">1</span>' in content
+-    else:
+-        assert '<span class="lineno">1 </span>' in content
++    assert '<span class="linenos">1</span>' in content
+ 
+ 
+ @pytest.mark.sphinx('html', testroot='highlight_options')
+diff --git a/tests/test_intl.py b/tests/test_intl.py
+index 1366b0a06..796d95bcc 100644
+--- a/tests/test_intl.py
++++ b/tests/test_intl.py
+@@ -7,7 +7,6 @@ import os
+ import re
+ 
+ import docutils
+-import pygments
+ import pytest
+ from babel.messages import mofile, pofile
+ from babel.messages.catalog import Catalog
+@@ -25,8 +24,6 @@ sphinx_intl = pytest.mark.sphinx(
+     },
+ )
+ 
+-pygments_version = tuple(int(v) for v in pygments.__version__.split('.'))
+-
+ 
+ def read_po(pathname):
+     with pathname.open(encoding='utf-8') as f:
+@@ -1099,13 +1096,9 @@ def test_additional_targets_should_not_be_translated(app):
+     assert_count(expected_expr, result, 1)
+ 
+     # C code block with lang should not be translated but be *C* highlighted
+-    if pygments_version < (2, 10, 0):
+-        expected_expr = ("""<span class="cp">#include</span> """
+-                         """<span class="cpf">&lt;stdio.h&gt;</span>""")
+-    else:
+-        expected_expr = ("""<span class="cp">#include</span>"""
+-                         """<span class="w"> </span>"""
+-                         """<span class="cpf">&lt;stdio.h&gt;</span>""")
++    expected_expr = ("""<span class="cp">#include</span>"""
++                     """<span class="w"> </span>"""
++                     """<span class="cpf">&lt;stdio.h&gt;</span>""")
+     assert_count(expected_expr, result, 1)
+ 
+     # literal block in list item should not be translated
+@@ -1182,13 +1175,9 @@ def test_additional_targets_should_be_translated(app):
+     assert_count(expected_expr, result, 1)
+ 
+     # C code block with lang should be translated and be *C* highlighted
+-    if pygments_version < (2, 10, 0):
+-        expected_expr = ("""<span class="cp">#include</span> """
+-                         """<span class="cpf">&lt;STDIO.H&gt;</span>""")
+-    else:
+-        expected_expr = ("""<span class="cp">#include</span>"""
+-                         """<span class="w"> </span>"""
+-                         """<span class="cpf">&lt;STDIO.H&gt;</span>""")
++    expected_expr = ("""<span class="cp">#include</span>"""
++                     """<span class="w"> </span>"""
++                     """<span class="cpf">&lt;STDIO.H&gt;</span>""")
+     assert_count(expected_expr, result, 1)
+ 
+     # literal block in list item should be translated
++ git diff f35d2a6cc726f97d0e859ca7a0e1729f7da8a6c8
+diff --git a/tox.ini b/tox.ini
+index 7ca990b56..a0708b02c 100644
+--- a/tox.ini
++++ b/tox.ini
+@@ -30,7 +30,7 @@ setenv =
+     PYTHONWARNINGS = all
+     PYTEST_ADDOPTS = {env:PYTEST_ADDOPTS:} --color yes
+ commands=
+-    python -X dev -X warn_default_encoding -m pytest --durations 25 {posargs}
++    python -X dev -X warn_default_encoding -m pytest -rA --durations 25 {posargs}
+ 
+ [testenv:du-latest]
+ commands =
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e '.[test]'
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: sphinxcontrib-applehelp in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.0.0)
+Requirement already satisfied: sphinxcontrib-jsmath in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (1.0.1)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.1.0)
+Requirement already satisfied: sphinxcontrib-serializinghtml>=1.1.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.0.0)
+Requirement already satisfied: sphinxcontrib-qthelp in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.0.0)
+Requirement already satisfied: Jinja2>=3.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (3.1.6)
+Requirement already satisfied: Pygments>=2.12 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.19.2)
+Requirement already satisfied: docutils<0.20,>=0.14 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (0.19)
+Requirement already satisfied: snowballstemmer>=2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (3.0.1)
+Requirement already satisfied: babel>=2.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.17.0)
+Requirement already satisfied: alabaster<0.8,>=0.7 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (0.7.16)
+Requirement already satisfied: imagesize>=1.3 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (1.4.1)
+Requirement already satisfied: requests>=2.5.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (2.32.5)
+Requirement already satisfied: packaging>=21.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (25.0)
+Requirement already satisfied: importlib-metadata>=4.8 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (8.7.0)
+Requirement already satisfied: pytest>=4.6 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (8.4.1)
+Requirement already satisfied: html5lib in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (1.1)
+Requirement already satisfied: cython in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==5.2.0.dev20250825) (3.1.3)
+Requirement already satisfied: zipp>=3.20 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from importlib-metadata>=4.8->Sphinx==5.2.0.dev20250825) (3.23.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Jinja2>=3.0->Sphinx==5.2.0.dev20250825) (3.0.2)
+Requirement already satisfied: exceptiongroup>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==5.2.0.dev20250825) (1.3.0)
+Requirement already satisfied: iniconfig>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==5.2.0.dev20250825) (2.1.0)
+Requirement already satisfied: pluggy<2,>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==5.2.0.dev20250825) (1.6.0)
+Requirement already satisfied: tomli>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==5.2.0.dev20250825) (2.2.1)
+Requirement already satisfied: typing-extensions>=4.6.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from exceptiongroup>=1->pytest>=4.6->Sphinx==5.2.0.dev20250825) (4.14.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==5.2.0.dev20250825) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==5.2.0.dev20250825) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==5.2.0.dev20250825) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==5.2.0.dev20250825) (2025.8.3)
+Requirement already satisfied: six>=1.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from html5lib->Sphinx==5.2.0.dev20250825) (1.17.0)
+Requirement already satisfied: webencodings in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from html5lib->Sphinx==5.2.0.dev20250825) (0.5.1)
+Installing collected packages: Sphinx
+  Attempting uninstall: Sphinx
+    Found existing installation: Sphinx 5.2.0.dev20250825
+    Uninstalling Sphinx-5.2.0.dev20250825:
+      Successfully uninstalled Sphinx-5.2.0.dev20250825
+  DEPRECATION: Legacy editable install of Sphinx[test]==5.2.0.dev20250825 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for Sphinx
+Successfully installed Sphinx
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sphinx/directives/other.py...
+Checking patch sphinx/environment/adapters/toctree.py...
+Checking patch sphinx/environment/collectors/toctree.py...
+Applied patch sphinx/directives/other.py cleanly.
+Applied patch sphinx/environment/adapters/toctree.py cleanly.
+Applied patch sphinx/environment/collectors/toctree.py cleanly.
++ git apply -v -
+<stdin>:37: trailing whitespace.
+   genindex 
+Checking patch tests/test_coverup_sphinx-doc__sphinx-10673.py...
+Applied patch tests/test_coverup_sphinx-doc__sphinx-10673.py cleanly.
+warning: 1 line adds whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sphinx/environment/adapters/toctree\.py|sphinx/environment/collectors/toctree\.py|sphinx/directives/other\.py)' -m tox -epy39 -v -- tests/test_coverup_sphinx-doc__sphinx-10673.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/environment/adapters/toctree\\.py|sphinx/environment/collectors/toctree\\.py|sphinx/directives/other\\.py)']
+.pkg: find interpreter for spec PythonSpec(major=3, minor=9, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, minor=6, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/environment/adapters/toctree\\.py|sphinx/environment/collectors/toctree\\.py|sphinx/directives/other\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/environment/adapters/toctree\\.py|sphinx/environment/collectors/toctree\\.py|sphinx/directives/other\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/environment/adapters/toctree\\.py|sphinx/environment/collectors/toctree\\.py|sphinx/directives/other\\.py)']
+.pkg: find interpreter for spec PythonSpec(major=3, minor=7, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, minor=8, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/usr/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, minor=10, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/environment/adapters/toctree\\.py|sphinx/environment/collectors/toctree\\.py|sphinx/directives/other\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/environment/adapters/toctree\\.py|sphinx/environment/collectors/toctree\\.py|sphinx/directives/other\\.py)']
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+py39: create virtual environment via CPython3Posix(dest=/testbed/.tox/py39, clear=False, no_vcs_ignore=False, global=False)
+py39: add seed packages via FromAppData(download=False, pip=bundle, setuptools=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+py39: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+.pkg: create virtual environment via CPython3Posix(dest=/testbed/.tox/.pkg, clear=False, no_vcs_ignore=False, global=False)
+.pkg: add seed packages via FromAppData(download=False, pip=bundle, setuptools=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+.pkg: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+.pkg: install_requires> python -I -m pip install 'setuptools>=40.8.0'
+.pkg: exit 0 (0.69 seconds) /testbed> python -I -m pip install 'setuptools>=40.8.0' pid=130
+.pkg: _optional_hooks> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__
+.pkg: exit None (0.17 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__ pid=135
+.pkg: get_requires_for_build_editable> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__
+.pkg: exit None (0.44 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__ pid=138
+.pkg: build_editable> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__
+.pkg: exit None (0.67 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__ pid=142
+py39: install_package_deps> python -I -m pip install 'Jinja2>=3.0' 'Pygments>=2.12' 'alabaster<0.8,>=0.7' 'babel>=2.9' 'colorama>=0.4.5; sys_platform == "win32"' cython 'docutils<0.20,>=0.14' html5lib 'imagesize>=1.3' 'importlib-metadata>=4.8; python_version < "3.10"' 'packaging>=21.0' 'pytest>=4.6' 'requests>=2.5.0' 'snowballstemmer>=2.0' sphinxcontrib-applehelp sphinxcontrib-devhelp 'sphinxcontrib-htmlhelp>=2.0.0' sphinxcontrib-jsmath sphinxcontrib-qthelp 'sphinxcontrib-serializinghtml>=1.1.5' 'typed_ast; python_version < "3.8"'
+py39: exit 0 (0.69 seconds) /testbed> python -I -m pip install 'Jinja2>=3.0' 'Pygments>=2.12' 'alabaster<0.8,>=0.7' 'babel>=2.9' 'colorama>=0.4.5; sys_platform == "win32"' cython 'docutils<0.20,>=0.14' html5lib 'imagesize>=1.3' 'importlib-metadata>=4.8; python_version < "3.10"' 'packaging>=21.0' 'pytest>=4.6' 'requests>=2.5.0' 'snowballstemmer>=2.0' sphinxcontrib-applehelp sphinxcontrib-devhelp 'sphinxcontrib-htmlhelp>=2.0.0' sphinxcontrib-jsmath sphinxcontrib-qthelp 'sphinxcontrib-serializinghtml>=1.1.5' 'typed_ast; python_version < "3.8"' pid=146
+py39: install_package> python -I -m pip install --force-reinstall --no-deps /testbed/.tox/.tmp/package/1/sphinx-5.2.0.dev20250825-0.editable-py3-none-any.whl
+py39: exit 0 (0.65 seconds) /testbed> python -I -m pip install --force-reinstall --no-deps /testbed/.tox/.tmp/package/1/sphinx-5.2.0.dev20250825-0.editable-py3-none-any.whl pid=151
+py39: commands[0]> python -X dev -X warn_default_encoding -m pytest -rA --durations 25 tests/test_coverup_sphinx-doc__sphinx-10673.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/environment/adapters/toctree\\.py|sphinx/environment/collectors/toctree\\.py|sphinx/directives/other\\.py)']
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.9.23, pytest-8.4.1, pluggy-1.6.0
+cachedir: .tox/py39/.pytest_cache
+libraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19
+base tempdir: /tmp/pytest-of-root/pytest-0
+rootdir: /testbed
+configfile: setup.cfg
+collected 1 item
+
+tests/test_coverup_sphinx-doc__sphinx-10673.py [32m.[0m[32m                         [100%][0m
+
+==================================== PASSES ====================================
+[32m[1m______________________ test_toctree_nonexisting_documents ______________________[0m
+---------------------------- Captured stdout setup -----------------------------
+[01mRunning Sphinx v5.2.0+/f35d2a6cc[39;49;00m
+0.98 other.py(1): import re
+0.98 other.py(2): from typing import TYPE_CHECKING, Any, Dict, List, cast
+0.98 other.py(4): from docutils import nodes
+0.98 other.py(5): from docutils.nodes import Element, Node
+0.98 other.py(6): from docutils.parsers.rst import directives
+0.98 other.py(7): from docutils.parsers.rst.directives.admonitions import BaseAdmonition
+0.98 other.py(8): from docutils.parsers.rst.directives.misc import Class
+0.98 other.py(9): from docutils.parsers.rst.directives.misc import Include as BaseInclude
+0.98 other.py(11): from sphinx import addnodes
+0.98 other.py(12): from sphinx.domains.changeset import VersionChange  # NOQA  # for compatibility
+0.98 other.py(13): from sphinx.locale import _, __
+0.98 other.py(14): from sphinx.util import docname_join, logging, url_re
+0.98 other.py(15): from sphinx.util.docutils import SphinxDirective
+0.98 other.py(16): from sphinx.util.matching import Matcher, patfilter
+0.98 other.py(17): from sphinx.util.nodes import explicit_title_re
+0.98 other.py(18): from sphinx.util.typing import OptionSpec
+0.98 other.py(20): if TYPE_CHECKING:
+0.98 other.py(24): glob_re = re.compile(r'.*[*?\[].*')
+0.98 other.py(25): logger = logging.getLogger(__name__)
+0.98 other.py(28): def int_or_nothing(argument: str) -> int:
+0.98 other.py(34): class TocTree(SphinxDirective):
+0.98 other.py(34): class TocTree(SphinxDirective):
+0.98 other.py(35):     """
+0.98 other.py(39):     has_content = True
+0.98 other.py(40):     required_arguments = 0
+0.98 other.py(41):     optional_arguments = 0
+0.98 other.py(42):     final_argument_whitespace = False
+0.98 other.py(44):         'maxdepth': int,
+0.98 other.py(45):         'name': directives.unchanged,
+0.98 other.py(46):         'caption': directives.unchanged_required,
+0.98 other.py(47):         'glob': directives.flag,
+0.98 other.py(48):         'hidden': directives.flag,
+0.98 other.py(49):         'includehidden': directives.flag,
+0.98 other.py(50):         'numbered': int_or_nothing,
+0.98 other.py(51):         'titlesonly': directives.flag,
+0.98 other.py(52):         'reversed': directives.flag,
+0.98 other.py(43):     option_spec = {
+0.98 other.py(55):     def run(self) -> List[Node]:
+0.98 other.py(79):     def parse_content(self, toctree: addnodes.toctree) -> List[Node]:
+0.98 other.py(154): class Author(SphinxDirective):
+0.98 other.py(154): class Author(SphinxDirective):
+0.98 other.py(155):     """
+0.98 other.py(159):     has_content = False
+0.98 other.py(160):     required_arguments = 1
+0.98 other.py(161):     optional_arguments = 0
+0.98 other.py(162):     final_argument_whitespace = True
+0.98 other.py(163):     option_spec: OptionSpec = {}
+0.98 other.py(165):     def run(self) -> List[Node]:
+0.98 other.py(188): class SeeAlso(BaseAdmonition):
+0.98 other.py(188): class SeeAlso(BaseAdmonition):
+0.98 other.py(189):     """
+0.98 other.py(192):     node_class = addnodes.seealso
+0.98 other.py(195): class TabularColumns(SphinxDirective):
+0.98 other.py(195): class TabularColumns(SphinxDirective):
+0.98 other.py(196):     """
+0.98 other.py(199):     has_content = False
+0.98 other.py(200):     required_arguments = 1
+0.98 other.py(201):     optional_arguments = 0
+0.98 other.py(202):     final_argument_whitespace = True
+0.98 other.py(203):     option_spec: OptionSpec = {}
+0.98 other.py(205):     def run(self) -> List[Node]:
+0.98 other.py(212): class Centered(SphinxDirective):
+0.98 other.py(212): class Centered(SphinxDirective):
+0.98 other.py(213):     """
+0.98 other.py(216):     has_content = False
+0.98 other.py(217):     required_arguments = 1
+0.98 other.py(218):     optional_arguments = 0
+0.98 other.py(219):     final_argument_whitespace = True
+0.98 other.py(220):     option_spec: OptionSpec = {}
+0.98 other.py(222):     def run(self) -> List[Node]:
+0.98 other.py(234): class Acks(SphinxDirective):
+0.98 other.py(234): class Acks(SphinxDirective):
+0.98 other.py(235):     """
+0.98 other.py(238):     has_content = True
+0.98 other.py(239):     required_arguments = 0
+0.98 other.py(240):     optional_arguments = 0
+0.98 other.py(241):     final_argument_whitespace = False
+0.98 other.py(242):     option_spec: OptionSpec = {}
+0.98 other.py(244):     def run(self) -> List[Node]:
+0.98 other.py(256): class HList(SphinxDirective):
+0.98 other.py(256): class HList(SphinxDirective):
+0.98 other.py(257):     """
+0.98 other.py(260):     has_content = True
+0.98 other.py(261):     required_arguments = 0
+0.98 other.py(262):     optional_arguments = 0
+0.98 other.py(263):     final_argument_whitespace = False
+0.98 other.py(265):         'columns': int,
+0.98 other.py(264):     option_spec: OptionSpec = {
+0.98 other.py(268):     def run(self) -> List[Node]:
+0.98 other.py(293): class Only(SphinxDirective):
+0.98 other.py(293): class Only(SphinxDirective):
+0.98 other.py(294):     """
+0.98 other.py(297):     has_content = True
+0.98 other.py(298):     required_arguments = 1
+0.98 other.py(299):     optional_arguments = 0
+0.98 other.py(300):     final_argument_whitespace = True
+0.98 other.py(301):     option_spec: OptionSpec = {}
+0.98 other.py(303):     def run(self) -> List[Node]:
+0.98 other.py(351): class Include(BaseInclude, SphinxDirective):
+0.98 other.py(351): class Include(BaseInclude, SphinxDirective):
+0.98 other.py(352):     """
+0.98 other.py(357):     def run(self) -> List[Node]:
+0.99 other.py(368): def setup(app: "Sphinx") -> Dict[str, Any]:
+0.99 other.py(369):     directives.register_directive('toctree', TocTree)
+0.99 other.py(370):     directives.register_directive('sectionauthor', Author)
+0.99 other.py(371):     directives.register_directive('moduleauthor', Author)
+0.99 other.py(372):     directives.register_directive('codeauthor', Author)
+0.99 other.py(373):     directives.register_directive('seealso', SeeAlso)
+0.99 other.py(374):     directives.register_directive('tabularcolumns', TabularColumns)
+0.99 other.py(375):     directives.register_directive('centered', Centered)
+0.99 other.py(376):     directives.register_directive('acks', Acks)
+0.99 other.py(377):     directives.register_directive('hlist', HList)
+0.99 other.py(378):     directives.register_directive('only', Only)
+0.99 other.py(379):     directives.register_directive('include', Include)
+0.99 other.py(383):     directives.register_directive('cssclass', Class)
+0.99 other.py(385):     directives.register_directive('rst-class', Class)
+0.99 other.py(388):         'version': 'builtin',
+0.99 other.py(389):         'parallel_read_safe': True,
+0.99 other.py(390):         'parallel_write_safe': True,
+0.99 other.py(387):     return {
+1.03 toctree.py(1): """Toctree collector for sphinx.environment."""
+1.03 toctree.py(3): from typing import Any, Dict, List, Optional, Set, Tuple, Type, TypeVar, cast
+1.03 toctree.py(5): from docutils import nodes
+1.03 toctree.py(6): from docutils.nodes import Element, Node
+1.03 toctree.py(8): from sphinx import addnodes
+1.03 toctree.py(9): from sphinx.application import Sphinx
+1.03 toctree.py(10): from sphinx.environment import BuildEnvironment
+1.03 toctree.py(11): from sphinx.environment.adapters.toctree import TocTree
+1.03 toctree.py(12): from sphinx.environment.collectors import EnvironmentCollector
+1.03 toctree.py(13): from sphinx.locale import __
+1.03 toctree.py(14): from sphinx.transforms import SphinxContentsFilter
+1.03 toctree.py(15): from sphinx.util import logging, url_re
+1.03 toctree.py(17): N = TypeVar('N')
+1.03 toctree.py(19): logger = logging.getLogger(__name__)
+1.03 toctree.py(22): class TocTreeCollector(EnvironmentCollector):
+1.03 toctree.py(22): class TocTreeCollector(EnvironmentCollector):
+1.03 toctree.py(23):     def clear_doc(self, app: Sphinx, env: BuildEnvironment, docname: str) -> None:
+1.03 toctree.py(37):     def merge_other(self, app: Sphinx, env: BuildEnvironment, docnames: Set[str],
+1.03 toctree.py(38):                     other: BuildEnvironment) -> None:
+1.03 toctree.py(37):     def merge_other(self, app: Sphinx, env: BuildEnvironment, docnames: Set[str],
+1.03 toctree.py(52):     def process_doc(self, app: Sphinx, doctree: nodes.document) -> None:
+1.03 toctree.py(123):     def get_updated_docs(self, app: Sphinx, env: BuildEnvironment) -> List[str]:
+1.03 toctree.py(126):     def assign_section_numbers(self, env: BuildEnvironment) -> List[str]:
+1.03 toctree.py(202):     def assign_figure_numbers(self, env: BuildEnvironment) -> List[str]:
+1.03 toctree.py(291): def setup(app: Sphinx) -> Dict[str, Any]:
+1.03 toctree.py(292):     app.add_env_collector(TocTreeCollector)
+1.03 toctree.py(295):         'version': 'builtin',
+1.03 toctree.py(296):         'parallel_read_safe': True,
+1.03 toctree.py(297):         'parallel_write_safe': True,
+1.03 toctree.py(294):     return {
+----------------------------- Captured stdout call -----------------------------
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mindex[39;49;00m                                                1.05 toctree.py(24):         env.tocs.pop(docname, None)
+1.05 toctree.py(25):         env.toc_secnumbers.pop(docname, None)
+1.05 toctree.py(26):         env.toc_fignumbers.pop(docname, None)
+1.05 toctree.py(27):         env.toc_num_entries.pop(docname, None)
+1.05 toctree.py(28):         env.toctree_includes.pop(docname, None)
+1.05 toctree.py(29):         env.glob_toctrees.discard(docname)
+1.05 toctree.py(30):         env.numbered_toctrees.discard(docname)
+1.05 toctree.py(32):         for subfn, fnset in list(env.files_to_rebuild.items()):
+1.10 other.py(56):         subnode = addnodes.toctree()
+1.10 other.py(57):         subnode['parent'] = self.env.docname
+1.10 other.py(61):         subnode['entries'] = []
+1.10 other.py(62):         subnode['includefiles'] = []
+1.10 other.py(63):         subnode['maxdepth'] = self.options.get('maxdepth', -1)
+1.10 other.py(64):         subnode['caption'] = self.options.get('caption')
+1.10 other.py(65):         subnode['glob'] = 'glob' in self.options
+1.10 other.py(66):         subnode['hidden'] = 'hidden' in self.options
+1.10 other.py(67):         subnode['includehidden'] = 'includehidden' in self.options
+1.10 other.py(68):         subnode['numbered'] = self.options.get('numbered', 0)
+1.10 other.py(69):         subnode['titlesonly'] = 'titlesonly' in self.options
+1.10 other.py(70):         self.set_source_info(subnode)
+1.10 other.py(71):         wrappernode = nodes.compound(classes=['toctree-wrapper'])
+1.10 other.py(72):         wrappernode.append(subnode)
+1.10 other.py(73):         self.add_name(wrappernode)
+1.10 other.py(75):         ret = self.parse_content(subnode)
+1.10 other.py(80):         generated_docnames = frozenset(self.env.domains['std'].initial_data['labels'].keys())
+1.10 other.py(81):         suffixes = self.config.source_suffix
+1.10 other.py(84):         all_docnames = self.env.found_docs.copy() | generated_docnames
+1.10 other.py(85):         all_docnames.remove(self.env.docname)  # remove current document
+1.10 other.py(87):         ret: List[Node] = []
+1.10 other.py(88):         excluded = Matcher(self.config.exclude_patterns)
+1.10 other.py(89):         for entry in self.content:
+1.10 other.py(90):             if not entry:
+1.10 other.py(93):             explicit = explicit_title_re.match(entry)
+1.10 other.py(94):             if (toctree['glob'] and glob_re.match(entry) and
+1.10 other.py(109):                 if explicit:
+1.10 other.py(114):                     ref = docname = entry
+1.10 other.py(115):                     title = None
+1.10 other.py(117):                 for suffix in suffixes:
+1.10 other.py(118):                     if docname.endswith(suffix):
+1.10 other.py(117):                 for suffix in suffixes:
+1.10 other.py(122):                 docname = docname_join(self.env.docname, docname)
+1.10 other.py(123):                 if url_re.match(ref) or ref == 'self':
+1.10 other.py(125):                 elif docname not in self.env.found_docs | generated_docnames:
+1.10 other.py(137):                     if docname in all_docnames:
+1.10 other.py(138):                         all_docnames.remove(docname)
+1.10 other.py(143):                     toctree['entries'].append((title, docname))
+1.10 other.py(144):                     toctree['includefiles'].append(docname)
+1.10 other.py(89):         for entry in self.content:
+1.10 other.py(90):             if not entry:
+1.10 other.py(93):             explicit = explicit_title_re.match(entry)
+1.10 other.py(94):             if (toctree['glob'] and glob_re.match(entry) and
+1.10 other.py(109):                 if explicit:
+1.10 other.py(114):                     ref = docname = entry
+1.10 other.py(115):                     title = None
+1.10 other.py(117):                 for suffix in suffixes:
+1.10 other.py(118):                     if docname.endswith(suffix):
+1.10 other.py(117):                 for suffix in suffixes:
+1.10 other.py(122):                 docname = docname_join(self.env.docname, docname)
+1.10 other.py(123):                 if url_re.match(ref) or ref == 'self':
+1.10 other.py(125):                 elif docname not in self.env.found_docs | generated_docnames:
+1.10 other.py(137):                     if docname in all_docnames:
+1.10 other.py(138):                         all_docnames.remove(docname)
+1.10 other.py(143):                     toctree['entries'].append((title, docname))
+1.10 other.py(144):                     toctree['includefiles'].append(docname)
+1.10 other.py(89):         for entry in self.content:
+1.10 other.py(90):             if not entry:
+1.10 other.py(93):             explicit = explicit_title_re.match(entry)
+1.10 other.py(94):             if (toctree['glob'] and glob_re.match(entry) and
+1.10 other.py(109):                 if explicit:
+1.10 other.py(114):                     ref = docname = entry
+1.10 other.py(115):                     title = None
+1.10 other.py(117):                 for suffix in suffixes:
+1.10 other.py(118):                     if docname.endswith(suffix):
+1.10 other.py(117):                 for suffix in suffixes:
+1.10 other.py(122):                 docname = docname_join(self.env.docname, docname)
+1.10 other.py(123):                 if url_re.match(ref) or ref == 'self':
+1.10 other.py(125):                 elif docname not in self.env.found_docs | generated_docnames:
+1.10 other.py(137):                     if docname in all_docnames:
+1.10 other.py(138):                         all_docnames.remove(docname)
+1.10 other.py(143):                     toctree['entries'].append((title, docname))
+1.10 other.py(144):                     toctree['includefiles'].append(docname)
+1.10 other.py(89):         for entry in self.content:
+1.10 other.py(147):         if 'reversed' in self.options:
+1.10 other.py(151):         return ret
+1.10 other.py(76):         ret.append(wrappernode)
+1.10 other.py(77):         return ret
+1.10 toctree.py(54):         docname = app.env.docname
+1.10 toctree.py(55):         numentries = [0]  # nonlocal again...
+1.10 toctree.py(57):         def traverse_in_section(node: Element, cls: Type[N]) -> List[N]:
+1.10 toctree.py(69):         def build_toc(node: Element, depth: int = 1) -> Optional[nodes.bullet_list]:
+1.10 toctree.py(116):         toc = build_toc(doctree)
+1.10 toctree.py(70):             entries: List[Element] = []
+1.10 toctree.py(71):             for sectionnode in node:
+1.10 toctree.py(75):                 if isinstance(sectionnode, nodes.section):
+1.10 toctree.py(100):                 elif isinstance(sectionnode, addnodes.only):
+1.10 toctree.py(106):                 elif isinstance(sectionnode, nodes.Element):
+1.10 toctree.py(107):                     for toctreenode in traverse_in_section(sectionnode,
+1.10 toctree.py(108):                                                            addnodes.toctree):
+1.10 toctree.py(107):                     for toctreenode in traverse_in_section(sectionnode,
+1.10 toctree.py(59):             result: List[N] = []
+1.10 toctree.py(60):             if isinstance(node, cls):
+1.10 toctree.py(62):             for child in node.children:
+1.10 toctree.py(63):                 if isinstance(child, nodes.section):
+1.10 toctree.py(65):                 elif isinstance(child, nodes.Element):
+1.10 toctree.py(66):                     result.extend(traverse_in_section(child, cls))
+1.10 toctree.py(59):             result: List[N] = []
+1.10 toctree.py(60):             if isinstance(node, cls):
+1.10 toctree.py(61):                 result.append(node)
+1.10 toctree.py(62):             for child in node.children:
+1.10 toctree.py(67):             return result
+1.10 toctree.py(62):             for child in node.children:
+1.10 toctree.py(67):             return result
+1.10 toctree.py(109):                         item = toctreenode.copy()
+1.10 toctree.py(110):                         entries.append(item)
+1.10 toctree.py(112):                         TocTree(app.env).note(docname, toctreenode)
+1.10 toctree.py(24):         self.env = env
+1.10 toctree.py(30):         if toctreenode['glob']:
+1.10 toctree.py(32):         if toctreenode.get('numbered'):
+1.10 toctree.py(34):         includefiles = toctreenode['includefiles']
+1.10 toctree.py(35):         for includefile in includefiles:
+1.10 toctree.py(38):             self.env.files_to_rebuild.setdefault(includefile, set()).add(docname)
+1.10 toctree.py(35):         for includefile in includefiles:
+1.10 toctree.py(38):             self.env.files_to_rebuild.setdefault(includefile, set()).add(docname)
+1.10 toctree.py(35):         for includefile in includefiles:
+1.10 toctree.py(38):             self.env.files_to_rebuild.setdefault(includefile, set()).add(docname)
+1.10 toctree.py(35):         for includefile in includefiles:
+1.10 toctree.py(39):         self.env.toctree_includes.setdefault(docname, []).extend(includefiles)
+1.10 toctree.py(107):                     for toctreenode in traverse_in_section(sectionnode,
+1.10 toctree.py(71):             for sectionnode in node:
+1.10 toctree.py(113):             if entries:
+1.10 toctree.py(114):                 return nodes.bullet_list('', *entries)
+1.10 toctree.py(117):         if toc:
+1.10 toctree.py(118):             app.env.tocs[docname] = toc
+1.10 toctree.py(121):         app.env.toc_num_entries[docname] = numentries[0]
+
+[01mlooking for now-outdated files... [39;49;00m1.11 toctree.py(124):         return self.assign_section_numbers(env) + self.assign_figure_numbers(env)
+1.11 toctree.py(129):         rewrite_needed = []
+1.11 toctree.py(131):         assigned: Set[str] = set()
+1.11 toctree.py(132):         old_secnumbers = env.toc_secnumbers
+1.11 toctree.py(133):         env.toc_secnumbers = {}
+1.11 toctree.py(135):         def _walk_toc(
+1.11 toctree.py(136):             node: Element, secnums: Dict, depth: int, titlenode: Optional[nodes.title] = None
+1.11 toctree.py(137):         ) -> None:
+1.11 toctree.py(135):         def _walk_toc(
+1.11 toctree.py(171):         def _walk_toctree(toctreenode: addnodes.toctree, depth: int) -> None:
+1.11 toctree.py(190):         for docname in env.numbered_toctrees:
+1.11 toctree.py(200):         return rewrite_needed
+1.11 toctree.py(204):         generated_docnames = frozenset(env.domains['std'].initial_data['labels'].keys())
+1.11 toctree.py(206):         rewrite_needed = []
+1.11 toctree.py(208):         assigned: Set[str] = set()
+1.11 toctree.py(209):         old_fignumbers = env.toc_fignumbers
+1.11 toctree.py(210):         env.toc_fignumbers = {}
+1.11 toctree.py(211):         fignum_counter: Dict[str, Dict[Tuple[int, ...], int]] = {}
+1.11 toctree.py(213):         def get_figtype(node: Node) -> Optional[str]:
+1.11 toctree.py(225):         def get_section_number(docname: str, section: nodes.section) -> Tuple[int, ...]:
+1.11 toctree.py(235):         def get_next_fignumber(figtype: str, secnum: Tuple[int, ...]) -> Tuple[int, ...]:
+1.11 toctree.py(242):         def register_fignumber(docname: str, secnum: Tuple[int, ...],
+1.11 toctree.py(243):                                figtype: str, fignode: Element) -> None:
+1.11 toctree.py(242):         def register_fignumber(docname: str, secnum: Tuple[int, ...],
+1.11 toctree.py(250):         def _walk_doctree(docname: str, doctree: Element, secnum: Tuple[int, ...]) -> None:
+1.11 toctree.py(276):         def _walk_doc(docname: str, secnum: Tuple[int, ...]) -> None:
+1.11 toctree.py(282):         if env.config.numfig:
+1.11 toctree.py(288):         return rewrite_needed
+none found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mindex[39;49;00m                                                 1.11 toctree.py(24):         self.env = env
+1.11 toctree.py(55):         if toctree.get('hidden', False) and not includehidden:
+1.11 toctree.py(57):         generated_docnames: Dict[str, Tuple[str, str, str]] = self.env.domains['std'].initial_data['labels'].copy()  # NoQA: E501
+1.11 toctree.py(77):         toctree_ancestors = self.get_toctree_ancestors(docname)
+1.11 toctree.py(273):         parent = {}
+1.11 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.11 toctree.py(275):             for child in children:
+1.11 toctree.py(276):                 parent[child] = p
+1.11 toctree.py(275):             for child in children:
+1.11 toctree.py(276):                 parent[child] = p
+1.11 toctree.py(275):             for child in children:
+1.11 toctree.py(276):                 parent[child] = p
+1.11 toctree.py(275):             for child in children:
+1.11 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.11 toctree.py(277):         ancestors: List[str] = []
+1.11 toctree.py(278):         d = docname
+1.11 toctree.py(279):         while d in parent and d not in ancestors:
+1.11 toctree.py(282):         return ancestors
+1.11 toctree.py(78):         included = Matcher(self.env.config.include_patterns)
+1.11 toctree.py(79):         excluded = Matcher(self.env.config.exclude_patterns)
+1.11 toctree.py(81):         def _toctree_add_classes(node: Element, depth: int) -> None:
+1.11 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.11 toctree.py(112):                                   separate: bool = False, subtree: bool = False
+1.11 toctree.py(113):                                   ) -> List[Element]:
+1.11 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.11 toctree.py(229):         maxdepth = maxdepth or toctree.get('maxdepth', -1)
+1.11 toctree.py(230):         if not titles_only and toctree.get('titlesonly', False):
+1.11 toctree.py(232):         if not includehidden and toctree.get('includehidden', False):
+1.11 toctree.py(238):         tocentries = _entries_from_toctree(toctree, [], separate=False)
+1.11 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.11 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.11 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.11 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.11 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.11 toctree.py(116):             entries: List[Element] = []
+1.11 toctree.py(117):             for (title, ref) in refs:
+1.11 toctree.py(118):                 try:
+1.11 toctree.py(119):                     refdoc = None
+1.11 toctree.py(120):                     if url_re.match(ref):
+1.11 toctree.py(129):                     elif ref == 'self':
+1.11 toctree.py(143):                     elif ref in generated_docnames:
+1.11 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.11 toctree.py(145):                         if not title:
+1.11 toctree.py(146):                             title = sectionname
+1.11 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.11 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.11 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.11 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.11 toctree.py(150):                         item = nodes.list_item('', para)
+1.11 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.11 toctree.py(172):                     if not toc.children:
+1.11 toctree.py(190):                     if titles_only:
+1.11 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.11 toctree.py(218):                     if separate:
+1.11 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.11 toctree.py(222):                         entries.extend(children)
+1.11 toctree.py(117):             for (title, ref) in refs:
+1.11 toctree.py(118):                 try:
+1.11 toctree.py(119):                     refdoc = None
+1.11 toctree.py(120):                     if url_re.match(ref):
+1.11 toctree.py(129):                     elif ref == 'self':
+1.11 toctree.py(143):                     elif ref in generated_docnames:
+1.11 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.11 toctree.py(145):                         if not title:
+1.11 toctree.py(146):                             title = sectionname
+1.11 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.11 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.11 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.11 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.11 toctree.py(150):                         item = nodes.list_item('', para)
+1.11 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.11 toctree.py(172):                     if not toc.children:
+1.11 toctree.py(190):                     if titles_only:
+1.11 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.11 toctree.py(218):                     if separate:
+1.11 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.11 toctree.py(222):                         entries.extend(children)
+1.11 toctree.py(117):             for (title, ref) in refs:
+1.11 toctree.py(118):                 try:
+1.11 toctree.py(119):                     refdoc = None
+1.11 toctree.py(120):                     if url_re.match(ref):
+1.11 toctree.py(129):                     elif ref == 'self':
+1.11 toctree.py(143):                     elif ref in generated_docnames:
+1.11 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.11 toctree.py(145):                         if not title:
+1.11 toctree.py(146):                             title = sectionname
+1.11 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.11 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.11 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.11 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.11 toctree.py(150):                         item = nodes.list_item('', para)
+1.11 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.11 toctree.py(172):                     if not toc.children:
+1.11 toctree.py(190):                     if titles_only:
+1.11 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.11 toctree.py(218):                     if separate:
+1.11 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.11 toctree.py(222):                         entries.extend(children)
+1.11 toctree.py(117):             for (title, ref) in refs:
+1.11 toctree.py(223):             if not subtree and not separate:
+1.11 toctree.py(224):                 ret = nodes.bullet_list()
+1.11 toctree.py(225):                 ret += entries
+1.11 toctree.py(226):                 return [ret]
+1.11 toctree.py(239):         if not tocentries:
+1.11 toctree.py(242):         newnode = addnodes.compact_paragraph('', '')
+1.11 toctree.py(243):         caption = toctree.attributes.get('caption')
+1.11 toctree.py(244):         if caption:
+1.11 toctree.py(245):             caption_node = nodes.title(caption, '', *[nodes.Text(caption)])
+1.11 toctree.py(246):             caption_node.line = toctree.line
+1.11 toctree.py(247):             caption_node.source = toctree.source
+1.11 toctree.py(248):             caption_node.rawsource = toctree['rawcaption']
+1.11 toctree.py(249):             if hasattr(toctree, 'uid'):
+1.11 toctree.py(253):             newnode += caption_node
+1.11 toctree.py(254):         newnode.extend(tocentries)
+1.11 toctree.py(255):         newnode['toctree'] = True
+1.11 toctree.py(258):         _toctree_add_classes(newnode, 1)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(91):                     _toctree_add_classes(subnode, depth + 1)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.11 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.11 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.11 toctree.py(95):                     if subnode['refuri'] == docname:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.11 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.11 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.11 toctree.py(95):                     if subnode['refuri'] == docname:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.11 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.11 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(85):                                         nodes.list_item)):
+1.11 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.11 toctree.py(95):                     if subnode['refuri'] == docname:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(83):             for subnode in node.children:
+1.11 toctree.py(259):         self._toctree_prune(newnode, 1, maxdepth if prune else 0, collapse)
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(295):                 if maxdepth > 0 and depth > maxdepth:
+1.11 toctree.py(299):                     if (collapse and depth > 1 and
+1.11 toctree.py(304):                         self._toctree_prune(subnode, depth + 1, maxdepth,  collapse)
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.11 toctree.py(287):         for subnode in node.children[:]:
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(289):                                     nodes.list_item)):
+1.11 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.11 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.12 toctree.py(287):         for subnode in node.children[:]:
+1.12 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.12 toctree.py(289):                                     nodes.list_item)):
+1.12 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.12 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.12 toctree.py(287):         for subnode in node.children[:]:
+1.12 toctree.py(287):         for subnode in node.children[:]:
+1.12 toctree.py(287):         for subnode in node.children[:]:
+1.12 toctree.py(287):         for subnode in node.children[:]:
+1.12 toctree.py(261):         if isinstance(newnode[-1], nodes.Element) and len(newnode[-1]) == 0:  # No titles found
+1.12 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.12 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.12 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.12 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.12 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.12 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.12 toctree.py(270):         return newnode
+1.12 toctree.py(24):         self.env = env
+1.12 toctree.py(308):         tocdepth = self.env.metadata[docname].get('tocdepth', 0)
+1.12 toctree.py(309):         try:
+1.12 toctree.py(310):             toc = self.env.tocs[docname].deepcopy()
+1.12 toctree.py(311):             self._toctree_prune(toc, 2, tocdepth)
+1.12 toctree.py(287):         for subnode in node.children[:]:
+1.12 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.12 toctree.py(289):                                     nodes.list_item)):
+1.12 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.12 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.12 toctree.py(287):         for subnode in node.children[:]:
+1.12 toctree.py(316):         process_only_nodes(toc, builder.tags)
+1.12 toctree.py(317):         for node in toc.findall(nodes.reference):
+1.12 toctree.py(319):         return toc
+1.24 toctree.py(24):         self.env = env
+1.24 toctree.py(324):         doctree = self.env.get_doctree(self.env.config.root_doc)
+1.24 toctree.py(325):         toctrees: List[Element] = []
+1.24 toctree.py(326):         if 'includehidden' not in kwargs:
+1.24 toctree.py(328):         if 'maxdepth' not in kwargs or not kwargs['maxdepth']:
+1.24 toctree.py(329):             kwargs['maxdepth'] = 0
+1.24 toctree.py(332):         kwargs['collapse'] = collapse
+1.24 toctree.py(333):         for toctreenode in doctree.findall(addnodes.toctree):
+1.24 toctree.py(334):             toctree = self.resolve(docname, builder, toctreenode, prune=True, **kwargs)
+1.24 toctree.py(55):         if toctree.get('hidden', False) and not includehidden:
+1.24 toctree.py(57):         generated_docnames: Dict[str, Tuple[str, str, str]] = self.env.domains['std'].initial_data['labels'].copy()  # NoQA: E501
+1.24 toctree.py(77):         toctree_ancestors = self.get_toctree_ancestors(docname)
+1.24 toctree.py(273):         parent = {}
+1.24 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.24 toctree.py(275):             for child in children:
+1.24 toctree.py(276):                 parent[child] = p
+1.24 toctree.py(275):             for child in children:
+1.24 toctree.py(276):                 parent[child] = p
+1.24 toctree.py(275):             for child in children:
+1.24 toctree.py(276):                 parent[child] = p
+1.24 toctree.py(275):             for child in children:
+1.24 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.24 toctree.py(277):         ancestors: List[str] = []
+1.24 toctree.py(278):         d = docname
+1.24 toctree.py(279):         while d in parent and d not in ancestors:
+1.24 toctree.py(282):         return ancestors
+1.24 toctree.py(78):         included = Matcher(self.env.config.include_patterns)
+1.24 toctree.py(79):         excluded = Matcher(self.env.config.exclude_patterns)
+1.24 toctree.py(81):         def _toctree_add_classes(node: Element, depth: int) -> None:
+1.24 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.24 toctree.py(112):                                   separate: bool = False, subtree: bool = False
+1.24 toctree.py(113):                                   ) -> List[Element]:
+1.24 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.24 toctree.py(229):         maxdepth = maxdepth or toctree.get('maxdepth', -1)
+1.24 toctree.py(230):         if not titles_only and toctree.get('titlesonly', False):
+1.24 toctree.py(232):         if not includehidden and toctree.get('includehidden', False):
+1.24 toctree.py(238):         tocentries = _entries_from_toctree(toctree, [], separate=False)
+1.24 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.24 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.24 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.24 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.24 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.24 toctree.py(116):             entries: List[Element] = []
+1.24 toctree.py(117):             for (title, ref) in refs:
+1.24 toctree.py(118):                 try:
+1.24 toctree.py(119):                     refdoc = None
+1.24 toctree.py(120):                     if url_re.match(ref):
+1.24 toctree.py(129):                     elif ref == 'self':
+1.24 toctree.py(143):                     elif ref in generated_docnames:
+1.24 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.24 toctree.py(145):                         if not title:
+1.24 toctree.py(146):                             title = sectionname
+1.24 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.24 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.24 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.24 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.24 toctree.py(150):                         item = nodes.list_item('', para)
+1.24 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.24 toctree.py(172):                     if not toc.children:
+1.24 toctree.py(190):                     if titles_only:
+1.24 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.24 toctree.py(218):                     if separate:
+1.24 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.24 toctree.py(222):                         entries.extend(children)
+1.24 toctree.py(117):             for (title, ref) in refs:
+1.24 toctree.py(118):                 try:
+1.24 toctree.py(119):                     refdoc = None
+1.24 toctree.py(120):                     if url_re.match(ref):
+1.24 toctree.py(129):                     elif ref == 'self':
+1.24 toctree.py(143):                     elif ref in generated_docnames:
+1.24 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.24 toctree.py(145):                         if not title:
+1.24 toctree.py(146):                             title = sectionname
+1.24 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.24 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.24 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.24 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.24 toctree.py(150):                         item = nodes.list_item('', para)
+1.24 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.24 toctree.py(172):                     if not toc.children:
+1.24 toctree.py(190):                     if titles_only:
+1.24 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.24 toctree.py(218):                     if separate:
+1.24 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.24 toctree.py(222):                         entries.extend(children)
+1.24 toctree.py(117):             for (title, ref) in refs:
+1.24 toctree.py(118):                 try:
+1.24 toctree.py(119):                     refdoc = None
+1.24 toctree.py(120):                     if url_re.match(ref):
+1.24 toctree.py(129):                     elif ref == 'self':
+1.24 toctree.py(143):                     elif ref in generated_docnames:
+1.24 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.24 toctree.py(145):                         if not title:
+1.24 toctree.py(146):                             title = sectionname
+1.24 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.24 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.24 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.24 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.24 toctree.py(150):                         item = nodes.list_item('', para)
+1.24 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.24 toctree.py(172):                     if not toc.children:
+1.24 toctree.py(190):                     if titles_only:
+1.24 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.24 toctree.py(218):                     if separate:
+1.24 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.24 toctree.py(222):                         entries.extend(children)
+1.24 toctree.py(117):             for (title, ref) in refs:
+1.24 toctree.py(223):             if not subtree and not separate:
+1.24 toctree.py(224):                 ret = nodes.bullet_list()
+1.24 toctree.py(225):                 ret += entries
+1.24 toctree.py(226):                 return [ret]
+1.24 toctree.py(239):         if not tocentries:
+1.24 toctree.py(242):         newnode = addnodes.compact_paragraph('', '')
+1.24 toctree.py(243):         caption = toctree.attributes.get('caption')
+1.24 toctree.py(244):         if caption:
+1.24 toctree.py(245):             caption_node = nodes.title(caption, '', *[nodes.Text(caption)])
+1.24 toctree.py(246):             caption_node.line = toctree.line
+1.24 toctree.py(247):             caption_node.source = toctree.source
+1.24 toctree.py(248):             caption_node.rawsource = toctree['rawcaption']
+1.24 toctree.py(249):             if hasattr(toctree, 'uid'):
+1.24 toctree.py(253):             newnode += caption_node
+1.24 toctree.py(254):         newnode.extend(tocentries)
+1.24 toctree.py(255):         newnode['toctree'] = True
+1.24 toctree.py(258):         _toctree_add_classes(newnode, 1)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(91):                     _toctree_add_classes(subnode, depth + 1)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.24 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.24 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.24 toctree.py(95):                     if subnode['refuri'] == docname:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.24 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.24 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.24 toctree.py(95):                     if subnode['refuri'] == docname:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.24 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.24 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(85):                                         nodes.list_item)):
+1.24 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.24 toctree.py(95):                     if subnode['refuri'] == docname:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(83):             for subnode in node.children:
+1.24 toctree.py(259):         self._toctree_prune(newnode, 1, maxdepth if prune else 0, collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(295):                 if maxdepth > 0 and depth > maxdepth:
+1.24 toctree.py(299):                     if (collapse and depth > 1 and
+1.24 toctree.py(304):                         self._toctree_prune(subnode, depth + 1, maxdepth,  collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(289):                                     nodes.list_item)):
+1.24 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.24 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(287):         for subnode in node.children[:]:
+1.24 toctree.py(261):         if isinstance(newnode[-1], nodes.Element) and len(newnode[-1]) == 0:  # No titles found
+1.24 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.24 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.24 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.24 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.24 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.24 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.24 toctree.py(270):         return newnode
+1.24 toctree.py(335):             if toctree:
+1.24 toctree.py(336):                 toctrees.append(toctree)
+1.24 toctree.py(333):         for toctreenode in doctree.findall(addnodes.toctree):
+1.24 toctree.py(337):         if not toctrees:
+1.24 toctree.py(339):         result = toctrees[0]
+1.24 toctree.py(340):         for toctree in toctrees[1:]:
+1.24 toctree.py(342):         return result
+
+[01mgenerating indices... [39;49;00mgenindex 1.29 toctree.py(24):         self.env = env
+1.29 toctree.py(324):         doctree = self.env.get_doctree(self.env.config.root_doc)
+1.29 toctree.py(325):         toctrees: List[Element] = []
+1.29 toctree.py(326):         if 'includehidden' not in kwargs:
+1.29 toctree.py(328):         if 'maxdepth' not in kwargs or not kwargs['maxdepth']:
+1.29 toctree.py(329):             kwargs['maxdepth'] = 0
+1.29 toctree.py(332):         kwargs['collapse'] = collapse
+1.29 toctree.py(333):         for toctreenode in doctree.findall(addnodes.toctree):
+1.29 toctree.py(334):             toctree = self.resolve(docname, builder, toctreenode, prune=True, **kwargs)
+1.29 toctree.py(55):         if toctree.get('hidden', False) and not includehidden:
+1.29 toctree.py(57):         generated_docnames: Dict[str, Tuple[str, str, str]] = self.env.domains['std'].initial_data['labels'].copy()  # NoQA: E501
+1.29 toctree.py(77):         toctree_ancestors = self.get_toctree_ancestors(docname)
+1.29 toctree.py(273):         parent = {}
+1.29 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.29 toctree.py(275):             for child in children:
+1.29 toctree.py(276):                 parent[child] = p
+1.29 toctree.py(275):             for child in children:
+1.29 toctree.py(276):                 parent[child] = p
+1.29 toctree.py(275):             for child in children:
+1.29 toctree.py(276):                 parent[child] = p
+1.29 toctree.py(275):             for child in children:
+1.29 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.29 toctree.py(277):         ancestors: List[str] = []
+1.29 toctree.py(278):         d = docname
+1.29 toctree.py(279):         while d in parent and d not in ancestors:
+1.29 toctree.py(280):             ancestors.append(d)
+1.29 toctree.py(281):             d = parent[d]
+1.29 toctree.py(279):         while d in parent and d not in ancestors:
+1.29 toctree.py(282):         return ancestors
+1.29 toctree.py(78):         included = Matcher(self.env.config.include_patterns)
+1.29 toctree.py(79):         excluded = Matcher(self.env.config.exclude_patterns)
+1.29 toctree.py(81):         def _toctree_add_classes(node: Element, depth: int) -> None:
+1.29 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.29 toctree.py(112):                                   separate: bool = False, subtree: bool = False
+1.29 toctree.py(113):                                   ) -> List[Element]:
+1.29 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.29 toctree.py(229):         maxdepth = maxdepth or toctree.get('maxdepth', -1)
+1.29 toctree.py(230):         if not titles_only and toctree.get('titlesonly', False):
+1.29 toctree.py(232):         if not includehidden and toctree.get('includehidden', False):
+1.29 toctree.py(238):         tocentries = _entries_from_toctree(toctree, [], separate=False)
+1.29 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.29 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.29 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.29 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.29 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.29 toctree.py(116):             entries: List[Element] = []
+1.29 toctree.py(117):             for (title, ref) in refs:
+1.29 toctree.py(118):                 try:
+1.29 toctree.py(119):                     refdoc = None
+1.29 toctree.py(120):                     if url_re.match(ref):
+1.29 toctree.py(129):                     elif ref == 'self':
+1.29 toctree.py(143):                     elif ref in generated_docnames:
+1.29 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.29 toctree.py(145):                         if not title:
+1.29 toctree.py(146):                             title = sectionname
+1.29 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.29 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.29 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.29 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.29 toctree.py(150):                         item = nodes.list_item('', para)
+1.29 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.29 toctree.py(172):                     if not toc.children:
+1.29 toctree.py(190):                     if titles_only:
+1.29 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.29 toctree.py(218):                     if separate:
+1.29 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.29 toctree.py(222):                         entries.extend(children)
+1.29 toctree.py(117):             for (title, ref) in refs:
+1.29 toctree.py(118):                 try:
+1.29 toctree.py(119):                     refdoc = None
+1.29 toctree.py(120):                     if url_re.match(ref):
+1.29 toctree.py(129):                     elif ref == 'self':
+1.29 toctree.py(143):                     elif ref in generated_docnames:
+1.29 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.29 toctree.py(145):                         if not title:
+1.29 toctree.py(146):                             title = sectionname
+1.29 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.29 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.29 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.29 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.29 toctree.py(150):                         item = nodes.list_item('', para)
+1.29 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.29 toctree.py(172):                     if not toc.children:
+1.29 toctree.py(190):                     if titles_only:
+1.29 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.29 toctree.py(218):                     if separate:
+1.29 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.29 toctree.py(222):                         entries.extend(children)
+1.29 toctree.py(117):             for (title, ref) in refs:
+1.29 toctree.py(118):                 try:
+1.29 toctree.py(119):                     refdoc = None
+1.29 toctree.py(120):                     if url_re.match(ref):
+1.29 toctree.py(129):                     elif ref == 'self':
+1.29 toctree.py(143):                     elif ref in generated_docnames:
+1.29 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.29 toctree.py(145):                         if not title:
+1.29 toctree.py(146):                             title = sectionname
+1.29 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.29 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.29 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.29 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.29 toctree.py(150):                         item = nodes.list_item('', para)
+1.29 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.29 toctree.py(172):                     if not toc.children:
+1.29 toctree.py(190):                     if titles_only:
+1.29 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.29 toctree.py(218):                     if separate:
+1.29 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.29 toctree.py(222):                         entries.extend(children)
+1.29 toctree.py(117):             for (title, ref) in refs:
+1.29 toctree.py(223):             if not subtree and not separate:
+1.29 toctree.py(224):                 ret = nodes.bullet_list()
+1.29 toctree.py(225):                 ret += entries
+1.29 toctree.py(226):                 return [ret]
+1.29 toctree.py(239):         if not tocentries:
+1.29 toctree.py(242):         newnode = addnodes.compact_paragraph('', '')
+1.29 toctree.py(243):         caption = toctree.attributes.get('caption')
+1.29 toctree.py(244):         if caption:
+1.29 toctree.py(245):             caption_node = nodes.title(caption, '', *[nodes.Text(caption)])
+1.29 toctree.py(246):             caption_node.line = toctree.line
+1.29 toctree.py(247):             caption_node.source = toctree.source
+1.29 toctree.py(248):             caption_node.rawsource = toctree['rawcaption']
+1.29 toctree.py(249):             if hasattr(toctree, 'uid'):
+1.29 toctree.py(253):             newnode += caption_node
+1.29 toctree.py(254):         newnode.extend(tocentries)
+1.29 toctree.py(255):         newnode['toctree'] = True
+1.29 toctree.py(258):         _toctree_add_classes(newnode, 1)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(91):                     _toctree_add_classes(subnode, depth + 1)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.29 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.29 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.29 toctree.py(95):                     if subnode['refuri'] == docname:
+1.29 toctree.py(96):                         if not subnode['anchorname']:
+1.29 toctree.py(99):                             branchnode: Element = subnode
+1.29 toctree.py(100):                             while branchnode:
+1.29 toctree.py(101):                                 branchnode['classes'].append('current')
+1.29 toctree.py(102):                                 branchnode = branchnode.parent
+1.29 toctree.py(100):                             while branchnode:
+1.29 toctree.py(101):                                 branchnode['classes'].append('current')
+1.29 toctree.py(102):                                 branchnode = branchnode.parent
+1.29 toctree.py(100):                             while branchnode:
+1.29 toctree.py(101):                                 branchnode['classes'].append('current')
+1.29 toctree.py(102):                                 branchnode = branchnode.parent
+1.29 toctree.py(100):                             while branchnode:
+1.29 toctree.py(101):                                 branchnode['classes'].append('current')
+1.29 toctree.py(102):                                 branchnode = branchnode.parent
+1.29 toctree.py(100):                             while branchnode:
+1.29 toctree.py(101):                                 branchnode['classes'].append('current')
+1.29 toctree.py(102):                                 branchnode = branchnode.parent
+1.29 toctree.py(100):                             while branchnode:
+1.29 toctree.py(104):                         if subnode.parent.parent.get('iscurrent'):
+1.29 toctree.py(107):                         while subnode:
+1.29 toctree.py(108):                             subnode['iscurrent'] = True
+1.29 toctree.py(109):                             subnode = subnode.parent
+1.29 toctree.py(107):                         while subnode:
+1.29 toctree.py(108):                             subnode['iscurrent'] = True
+1.29 toctree.py(109):                             subnode = subnode.parent
+1.29 toctree.py(107):                         while subnode:
+1.29 toctree.py(108):                             subnode['iscurrent'] = True
+1.29 toctree.py(109):                             subnode = subnode.parent
+1.29 toctree.py(107):                         while subnode:
+1.29 toctree.py(108):                             subnode['iscurrent'] = True
+1.29 toctree.py(109):                             subnode = subnode.parent
+1.29 toctree.py(107):                         while subnode:
+1.29 toctree.py(108):                             subnode['iscurrent'] = True
+1.29 toctree.py(109):                             subnode = subnode.parent
+1.29 toctree.py(107):                         while subnode:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.29 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.29 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.29 toctree.py(95):                     if subnode['refuri'] == docname:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.29 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.29 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(85):                                         nodes.list_item)):
+1.29 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.29 toctree.py(95):                     if subnode['refuri'] == docname:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(83):             for subnode in node.children:
+1.29 toctree.py(259):         self._toctree_prune(newnode, 1, maxdepth if prune else 0, collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(295):                 if maxdepth > 0 and depth > maxdepth:
+1.29 toctree.py(299):                     if (collapse and depth > 1 and
+1.29 toctree.py(304):                         self._toctree_prune(subnode, depth + 1, maxdepth,  collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(289):                                     nodes.list_item)):
+1.29 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.29 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(287):         for subnode in node.children[:]:
+1.29 toctree.py(261):         if isinstance(newnode[-1], nodes.Element) and len(newnode[-1]) == 0:  # No titles found
+1.29 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.29 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.29 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.29 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.29 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.29 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.29 toctree.py(270):         return newnode
+1.29 toctree.py(335):             if toctree:
+1.29 toctree.py(336):                 toctrees.append(toctree)
+1.29 toctree.py(333):         for toctreenode in doctree.findall(addnodes.toctree):
+1.29 toctree.py(337):         if not toctrees:
+1.29 toctree.py(339):         result = toctrees[0]
+1.29 toctree.py(340):         for toctree in toctrees[1:]:
+1.29 toctree.py(342):         return result
+done
+[01mwriting additional pages... [39;49;00msearch 1.31 toctree.py(24):         self.env = env
+1.31 toctree.py(324):         doctree = self.env.get_doctree(self.env.config.root_doc)
+1.31 toctree.py(325):         toctrees: List[Element] = []
+1.31 toctree.py(326):         if 'includehidden' not in kwargs:
+1.31 toctree.py(328):         if 'maxdepth' not in kwargs or not kwargs['maxdepth']:
+1.31 toctree.py(329):             kwargs['maxdepth'] = 0
+1.31 toctree.py(332):         kwargs['collapse'] = collapse
+1.31 toctree.py(333):         for toctreenode in doctree.findall(addnodes.toctree):
+1.31 toctree.py(334):             toctree = self.resolve(docname, builder, toctreenode, prune=True, **kwargs)
+1.31 toctree.py(55):         if toctree.get('hidden', False) and not includehidden:
+1.31 toctree.py(57):         generated_docnames: Dict[str, Tuple[str, str, str]] = self.env.domains['std'].initial_data['labels'].copy()  # NoQA: E501
+1.31 toctree.py(77):         toctree_ancestors = self.get_toctree_ancestors(docname)
+1.31 toctree.py(273):         parent = {}
+1.31 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.31 toctree.py(275):             for child in children:
+1.31 toctree.py(276):                 parent[child] = p
+1.31 toctree.py(275):             for child in children:
+1.31 toctree.py(276):                 parent[child] = p
+1.31 toctree.py(275):             for child in children:
+1.31 toctree.py(276):                 parent[child] = p
+1.31 toctree.py(275):             for child in children:
+1.31 toctree.py(274):         for p, children in self.env.toctree_includes.items():
+1.31 toctree.py(277):         ancestors: List[str] = []
+1.31 toctree.py(278):         d = docname
+1.31 toctree.py(279):         while d in parent and d not in ancestors:
+1.31 toctree.py(280):             ancestors.append(d)
+1.31 toctree.py(281):             d = parent[d]
+1.31 toctree.py(279):         while d in parent and d not in ancestors:
+1.31 toctree.py(282):         return ancestors
+1.31 toctree.py(78):         included = Matcher(self.env.config.include_patterns)
+1.31 toctree.py(79):         excluded = Matcher(self.env.config.exclude_patterns)
+1.31 toctree.py(81):         def _toctree_add_classes(node: Element, depth: int) -> None:
+1.31 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.31 toctree.py(112):                                   separate: bool = False, subtree: bool = False
+1.31 toctree.py(113):                                   ) -> List[Element]:
+1.31 toctree.py(111):         def _entries_from_toctree(toctreenode: addnodes.toctree, parents: List[str],
+1.31 toctree.py(229):         maxdepth = maxdepth or toctree.get('maxdepth', -1)
+1.31 toctree.py(230):         if not titles_only and toctree.get('titlesonly', False):
+1.31 toctree.py(232):         if not includehidden and toctree.get('includehidden', False):
+1.31 toctree.py(238):         tocentries = _entries_from_toctree(toctree, [], separate=False)
+1.31 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.31 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.31 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.31 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.31 toctree.py(115):             refs = [(e[0], e[1]) for e in toctreenode['entries']]
+1.31 toctree.py(116):             entries: List[Element] = []
+1.31 toctree.py(117):             for (title, ref) in refs:
+1.31 toctree.py(118):                 try:
+1.31 toctree.py(119):                     refdoc = None
+1.31 toctree.py(120):                     if url_re.match(ref):
+1.31 toctree.py(129):                     elif ref == 'self':
+1.31 toctree.py(143):                     elif ref in generated_docnames:
+1.31 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.31 toctree.py(145):                         if not title:
+1.31 toctree.py(146):                             title = sectionname
+1.31 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.31 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.31 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.31 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.31 toctree.py(150):                         item = nodes.list_item('', para)
+1.31 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.31 toctree.py(172):                     if not toc.children:
+1.31 toctree.py(190):                     if titles_only:
+1.31 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.31 toctree.py(218):                     if separate:
+1.31 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.31 toctree.py(222):                         entries.extend(children)
+1.31 toctree.py(117):             for (title, ref) in refs:
+1.31 toctree.py(118):                 try:
+1.31 toctree.py(119):                     refdoc = None
+1.31 toctree.py(120):                     if url_re.match(ref):
+1.31 toctree.py(129):                     elif ref == 'self':
+1.31 toctree.py(143):                     elif ref in generated_docnames:
+1.31 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.31 toctree.py(145):                         if not title:
+1.31 toctree.py(146):                             title = sectionname
+1.31 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.31 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.31 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.31 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.31 toctree.py(150):                         item = nodes.list_item('', para)
+1.31 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.31 toctree.py(172):                     if not toc.children:
+1.31 toctree.py(190):                     if titles_only:
+1.31 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.31 toctree.py(218):                     if separate:
+1.31 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.31 toctree.py(222):                         entries.extend(children)
+1.31 toctree.py(117):             for (title, ref) in refs:
+1.31 toctree.py(118):                 try:
+1.31 toctree.py(119):                     refdoc = None
+1.31 toctree.py(120):                     if url_re.match(ref):
+1.31 toctree.py(129):                     elif ref == 'self':
+1.31 toctree.py(143):                     elif ref in generated_docnames:
+1.31 toctree.py(144):                         docname, _, sectionname = generated_docnames[ref]
+1.31 toctree.py(145):                         if not title:
+1.31 toctree.py(146):                             title = sectionname
+1.31 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.31 toctree.py(148):                                                     refuri=docname, anchorname='')
+1.31 toctree.py(147):                         reference = nodes.reference('', title, internal=True,
+1.31 toctree.py(149):                         para = addnodes.compact_paragraph('', '', reference)
+1.31 toctree.py(150):                         item = nodes.list_item('', para)
+1.31 toctree.py(152):                         toc = nodes.bullet_list('', item)
+1.31 toctree.py(172):                     if not toc.children:
+1.31 toctree.py(190):                     if titles_only:
+1.31 toctree.py(208):                     for subtocnode in list(toc.findall(addnodes.toctree)):
+1.31 toctree.py(218):                     if separate:
+1.31 toctree.py(221):                         children = cast(Iterable[nodes.Element], toc)
+1.31 toctree.py(222):                         entries.extend(children)
+1.31 toctree.py(117):             for (title, ref) in refs:
+1.31 toctree.py(223):             if not subtree and not separate:
+1.31 toctree.py(224):                 ret = nodes.bullet_list()
+1.31 toctree.py(225):                 ret += entries
+1.31 toctree.py(226):                 return [ret]
+1.31 toctree.py(239):         if not tocentries:
+1.31 toctree.py(242):         newnode = addnodes.compact_paragraph('', '')
+1.31 toctree.py(243):         caption = toctree.attributes.get('caption')
+1.31 toctree.py(244):         if caption:
+1.31 toctree.py(245):             caption_node = nodes.title(caption, '', *[nodes.Text(caption)])
+1.31 toctree.py(246):             caption_node.line = toctree.line
+1.31 toctree.py(247):             caption_node.source = toctree.source
+1.31 toctree.py(248):             caption_node.rawsource = toctree['rawcaption']
+1.31 toctree.py(249):             if hasattr(toctree, 'uid'):
+1.31 toctree.py(253):             newnode += caption_node
+1.31 toctree.py(254):         newnode.extend(tocentries)
+1.31 toctree.py(255):         newnode['toctree'] = True
+1.31 toctree.py(258):         _toctree_add_classes(newnode, 1)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(91):                     _toctree_add_classes(subnode, depth + 1)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.31 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.31 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.31 toctree.py(95):                     if subnode['refuri'] == docname:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.31 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.31 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.31 toctree.py(95):                     if subnode['refuri'] == docname:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.31 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(87):                     subnode['classes'].append('toctree-l%d' % (depth - 1))
+1.31 toctree.py(88):                     _toctree_add_classes(subnode, depth)
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(85):                                         nodes.list_item)):
+1.31 toctree.py(84):                 if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(89):                 elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(92):                 elif isinstance(subnode, nodes.reference):
+1.31 toctree.py(95):                     if subnode['refuri'] == docname:
+1.31 toctree.py(96):                         if not subnode['anchorname']:
+1.31 toctree.py(99):                             branchnode: Element = subnode
+1.31 toctree.py(100):                             while branchnode:
+1.31 toctree.py(101):                                 branchnode['classes'].append('current')
+1.31 toctree.py(102):                                 branchnode = branchnode.parent
+1.31 toctree.py(100):                             while branchnode:
+1.31 toctree.py(101):                                 branchnode['classes'].append('current')
+1.31 toctree.py(102):                                 branchnode = branchnode.parent
+1.31 toctree.py(100):                             while branchnode:
+1.31 toctree.py(101):                                 branchnode['classes'].append('current')
+1.31 toctree.py(102):                                 branchnode = branchnode.parent
+1.31 toctree.py(100):                             while branchnode:
+1.31 toctree.py(101):                                 branchnode['classes'].append('current')
+1.31 toctree.py(102):                                 branchnode = branchnode.parent
+1.31 toctree.py(100):                             while branchnode:
+1.31 toctree.py(101):                                 branchnode['classes'].append('current')
+1.31 toctree.py(102):                                 branchnode = branchnode.parent
+1.31 toctree.py(100):                             while branchnode:
+1.31 toctree.py(104):                         if subnode.parent.parent.get('iscurrent'):
+1.31 toctree.py(107):                         while subnode:
+1.31 toctree.py(108):                             subnode['iscurrent'] = True
+1.31 toctree.py(109):                             subnode = subnode.parent
+1.31 toctree.py(107):                         while subnode:
+1.31 toctree.py(108):                             subnode['iscurrent'] = True
+1.31 toctree.py(109):                             subnode = subnode.parent
+1.31 toctree.py(107):                         while subnode:
+1.31 toctree.py(108):                             subnode['iscurrent'] = True
+1.31 toctree.py(109):                             subnode = subnode.parent
+1.31 toctree.py(107):                         while subnode:
+1.31 toctree.py(108):                             subnode['iscurrent'] = True
+1.31 toctree.py(109):                             subnode = subnode.parent
+1.31 toctree.py(107):                         while subnode:
+1.31 toctree.py(108):                             subnode['iscurrent'] = True
+1.31 toctree.py(109):                             subnode = subnode.parent
+1.31 toctree.py(107):                         while subnode:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(83):             for subnode in node.children:
+1.31 toctree.py(259):         self._toctree_prune(newnode, 1, maxdepth if prune else 0, collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(295):                 if maxdepth > 0 and depth > maxdepth:
+1.31 toctree.py(299):                     if (collapse and depth > 1 and
+1.31 toctree.py(304):                         self._toctree_prune(subnode, depth + 1, maxdepth,  collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(291):                 self._toctree_prune(subnode, depth, maxdepth, collapse)
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(289):                                     nodes.list_item)):
+1.31 toctree.py(288):             if isinstance(subnode, (addnodes.compact_paragraph,
+1.31 toctree.py(292):             elif isinstance(subnode, nodes.bullet_list):
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(287):         for subnode in node.children[:]:
+1.31 toctree.py(261):         if isinstance(newnode[-1], nodes.Element) and len(newnode[-1]) == 0:  # No titles found
+1.31 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.31 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.31 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.31 toctree.py(267):             if not url_re.match(refnode['refuri']):
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(269):                     docname, refnode['refuri']) + refnode['anchorname']
+1.31 toctree.py(268):                 refnode['refuri'] = builder.get_relative_uri(
+1.31 toctree.py(266):         for refnode in newnode.findall(nodes.reference):
+1.31 toctree.py(270):         return newnode
+1.31 toctree.py(335):             if toctree:
+1.31 toctree.py(336):                 toctrees.append(toctree)
+1.31 toctree.py(333):         for toctreenode in doctree.findall(addnodes.toctree):
+1.31 toctree.py(337):         if not toctrees:
+1.31 toctree.py(339):         result = toctrees[0]
+1.31 toctree.py(340):         for toctree in toctrees[1:]:
+1.31 toctree.py(342):         return result
+done
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in ../tmp/pytest-of-root/pytest-0/test_toctree_nonexisting_docum0/out.
+============================= slowest 25 durations =============================
+0.54s setup    tests/test_coverup_sphinx-doc__sphinx-10673.py::test_toctree_nonexisting_documents
+0.33s call     tests/test_coverup_sphinx-doc__sphinx-10673.py::test_toctree_nonexisting_documents
+
+(1 durations < 0.005s hidden.  Use -vv to show these durations.)
+[36m[1m=========================== short test summary info ============================[0m
+[32mPASSED[0m tests/test_coverup_sphinx-doc__sphinx-10673.py::[1mtest_toctree_nonexisting_documents[0m
+[32m============================== [32m[1m1 passed[0m[32m in 0.95s[0m[32m ===============================[0m
+py39: exit 0 (1.68 seconds) /testbed> python -X dev -X warn_default_encoding -m pytest -rA --durations 25 tests/test_coverup_sphinx-doc__sphinx-10673.py pid=158
+  py39: OK (5.74=setup[4.06]+cmd[1.68] seconds)
+  congratulations :) (7.41 seconds)
++ cat coverage.cover
+{"/testbed/sphinx/environment/adapters/toctree.py": {"3": 1, "5": 1, "6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "14": 1, "15": 0, "16": 0, "19": 1, "22": 2, "23": 1, "26": 1, "41": 2, "42": 1, "43": 1, "272": 1, "284": 2, "285": 1, "306": 1, "321": 2, "322": 1, "24": 6, "30": 1, "31": 0, "32": 1, "33": 0, "34": 1, "35": 4, "38": 3, "39": 1, "55": 4, "56": 0, "57": 4, "77": 4, "78": 4, "79": 4, "81": 4, "111": 8, "112": 4, "113": 4, "229": 4, "230": 4, "231": 0, "232": 4, "233": 0, "238": 4, "239": 4, "240": 0, "242": 4, "243": 4, "244": 4, "245": 4, "246": 4, "247": 4, "248": 4, "249": 4, "251": 0, "252": 0, "253": 4, "254": 4, "255": 4, "258": 4, "259": 4, "261": 4, "262": 0, "266": 16, "267": 12, "268": 36, "269": 24, "270": 4, "83": 76, "84": 88, "85": 44, "87": 24, "88": 24, "89": 20, "91": 4, "92": 16, "95": 12, "96": 2, "99": 2, "100": 12, "101": 10, "102": 10, "104": 2, "106": 0, "107": 12, "108": 10, "109": 10, "115": 20, "116": 4, "117": 16, "118": 12, "119": 12, "120": 12, "121": 0, "122": 0, "123": 0, "125": 0, "124": 0, "126": 0, "127": 0, "128": 0, "129": 12, "132": 0, "133": 0, "134": 0, "135": 0, "138": 0, "136": 0, "137": 0, "139": 0, "140": 0, "142": 0, "143": 12, "144": 12, "145": 12, "146": 12, "147": 24, "148": 12, "149": 12, "150": 12, "152": 12, "154": 0, "155": 0, "157": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "170": 0, "171": 0, "172": 12, "174": 0, "176": 0, "177": 0, "179": 0, "180": 0, "181": 0, "182": 0, "184": 0, "186": 0, "190": 12, "195": 0, "199": 0, "201": 0, "202": 0, "203": 0, "204": 0, "206": 0, "208": 12, "209": 0, "210": 0, "211": 0, "212": 0, "213": 0, "214": 0, "215": 0, "216": 0, "217": 0, "218": 12, "219": 0, "221": 12, "222": 12, "223": 4, "224": 4, "225": 4, "226": 4, "227": 0, "273": 4, "274": 8, "275": 16, "276": 12, "277": 4, "278": 4, "279": 6, "280": 2, "281": 2, "282": 4, "287": 78, "288": 90, "289": 45, "291": 24, "292": 21, "295": 4, "296": 0, "299": 4, "300": 0, "301": 0, "304": 4, "308": 1, "309": 1, "310": 1, "311": 1, "312": 0, "315": 0, "316": 1, "317": 1, "318": 0, "319": 1, "324": 3, "325": 3, "326": 3, "327": 0, "328": 3, "329": 3, "331": 0, "332": 3, "333": 6, "334": 3, "335": 3, "336": 3, "337": 3, "338": 0, "339": 3, "340": 3, "341": 0, "342": 3}}
+{"/testbed/sphinx/directives/other.py": {"1": 1, "2": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "20": 1, "21": 0, "24": 1, "25": 1, "28": 1, "34": 2, "154": 2, "188": 2, "195": 2, "212": 2, "234": 2, "256": 2, "293": 2, "351": 2, "368": 1, "29": 0, "30": 0, "31": 0, "39": 1, "40": 1, "41": 1, "42": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "43": 1, "55": 1, "79": 1, "56": 1, "57": 1, "61": 1, "62": 1, "63": 1, "64": 1, "65": 1, "66": 1, "67": 1, "68": 1, "69": 1, "70": 1, "71": 1, "72": 1, "73": 1, "75": 1, "76": 1, "77": 1, "80": 1, "81": 1, "84": 1, "85": 1, "87": 1, "88": 1, "89": 4, "90": 3, "91": 0, "93": 3, "94": 3, "95": 0, "96": 0, "97": 0, "98": 0, "99": 0, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0, "106": 0, "107": 0, "109": 3, "110": 0, "111": 0, "112": 0, "114": 3, "115": 3, "117": 6, "118": 3, "119": 0, "120": 0, "122": 3, "123": 3, "124": 0, "125": 3, "126": 0, "127": 0, "128": 0, "130": 0, "131": 0, "133": 0, "134": 0, "135": 0, "137": 3, "138": 3, "140": 0, "141": 0, "143": 3, "144": 3, "147": 1, "148": 0, "149": 0, "151": 1, "159": 1, "160": 1, "161": 1, "162": 1, "163": 1, "165": 1, "166": 0, "167": 0, "168": 0, "169": 0, "170": 0, "171": 0, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "178": 0, "179": 0, "180": 0, "181": 0, "183": 0, "184": 0, "185": 0, "192": 1, "199": 1, "200": 1, "201": 1, "202": 1, "203": 1, "205": 1, "206": 0, "207": 0, "208": 0, "209": 0, "216": 1, "217": 1, "218": 1, "219": 1, "220": 1, "222": 1, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "229": 0, "230": 0, "231": 0, "238": 1, "239": 1, "240": 1, "241": 1, "242": 1, "244": 1, "245": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "252": 0, "253": 0, "260": 1, "261": 1, "262": 1, "263": 1, "265": 1, "264": 1, "268": 1, "269": 0, "270": 0, "271": 0, "272": 0, "273": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "280": 0, "281": 0, "282": 0, "283": 0, "284": 0, "285": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "297": 1, "298": 1, "299": 1, "300": 1, "301": 1, "303": 1, "304": 0, "305": 0, "306": 0, "307": 0, "311": 0, "312": 0, "313": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "323": 0, "325": 0, "347": 0, "348": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "332": 0, "333": 0, "334": 0, "335": 0, "336": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "345": 0, "357": 1, "358": 0, "359": 0, "361": 0, "362": 0, "363": 0, "364": 0, "365": 0, "369": 1, "370": 1, "371": 1, "372": 1, "373": 1, "374": 1, "375": 1, "376": 1, "377": 1, "378": 1, "379": 1, "383": 1, "385": 1, "388": 1, "389": 1, "390": 1, "387": 1}}
+{"/testbed/sphinx/environment/collectors/toctree.py": {"3": 1, "5": 1, "6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "17": 1, "19": 1, "22": 2, "291": 1, "23": 1, "37": 2, "38": 1, "52": 1, "123": 1, "126": 1, "202": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "32": 1, "33": 0, "34": 0, "35": 0, "39": 0, "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "49": 0, "50": 0, "54": 1, "55": 1, "57": 1, "69": 1, "116": 1, "117": 1, "118": 1, "120": 0, "121": 1, "59": 2, "60": 2, "61": 1, "62": 3, "63": 1, "64": 0, "65": 1, "66": 1, "67": 2, "70": 1, "71": 2, "75": 1, "76": 0, "79": 0, "80": 0, "81": 0, "82": 0, "85": 0, "87": 0, "88": 0, "91": 0, "92": 0, "93": 0, "94": 0, "95": 0, "96": 0, "97": 0, "98": 0, "99": 0, "100": 1, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0, "106": 1, "107": 3, "108": 1, "109": 1, "110": 1, "112": 1, "113": 1, "114": 1, "115": 0, "124": 1, "129": 1, "131": 1, "132": 1, "133": 1, "135": 2, "136": 1, "137": 1, "171": 1, "190": 1, "191": 0, "192": 0, "193": 0, "194": 0, "195": 0, "197": 0, "198": 0, "200": 1, "140": 0, "141": 0, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "159": 0, "160": 0, "162": 0, "163": 0, "164": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "172": 0, "173": 0, "174": 0, "175": 0, "177": 0, "178": 0, "179": 0, "180": 0, "181": 0, "182": 0, "183": 0, "184": 0, "185": 0, "186": 0, "187": 0, "188": 0, "204": 1, "206": 1, "208": 1, "209": 1, "210": 1, "211": 1, "213": 1, "225": 1, "235": 1, "242": 2, "243": 1, "250": 1, "276": 1, "282": 1, "283": 0, "284": 0, "285": 0, "286": 0, "288": 1, "214": 0, "215": 0, "216": 0, "218": 0, "220": 0, "221": 0, "223": 0, "226": 0, "227": 0, "228": 0, "229": 0, "231": 0, "233": 0, "236": 0, "238": 0, "239": 0, "240": 0, "244": 0, "245": 0, "246": 0, "248": 0, "252": 0, "253": 0, "254": 0, "255": 0, "256": 0, "258": 0, "259": 0, "260": 0, "261": 0, "263": 0, "264": 0, "266": 0, "268": 0, "269": 0, "270": 0, "271": 0, "272": 0, "274": 0, "277": 0, "278": 0, "279": 0, "280": 0, "292": 1, "295": 1, "296": 1, "297": 1, "294": 1}}
++ git checkout f35d2a6cc726f97d0e859ca7a0e1729f7da8a6c8
+Note: switching to 'f35d2a6cc726f97d0e859ca7a0e1729f7da8a6c8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f35d2a6cc Remove Pygments compatability code (#10812)
+M	sphinx/directives/other.py
+M	sphinx/environment/adapters/toctree.py
+M	sphinx/environment/collectors/toctree.py
+M	tox.ini
++ git apply /root/pre_state.patch
+error: unrecognized input

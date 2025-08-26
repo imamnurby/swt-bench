@@ -1,0 +1,501 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 110997fe18b9f7d5ba7d22f624d156a29bf40759
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 110997fe18b9f7d5ba7d22f624d156a29bf40759
+Merge: a3733e1bfc 0a60363793
+Author: Oscar Benjamin <oscar.j.benjamin@gmail.com>
+Date:   Wed Jun 9 13:56:04 2021 +0100
+
+    Merge pull request #21510 from migueltorrescosta/master
+    
+    Add Minisat22 solver to Sympy's satisfiable algorithms
+
++ git diff 110997fe18b9f7d5ba7d22f624d156a29bf40759
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.9.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.9.dev0
+    Uninstalling sympy-1.9.dev0:
+      Successfully uninstalled sympy-1.9.dev0
+  DEPRECATION: Legacy editable install of sympy==1.9.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/sets/handlers/intersection.py...
+Applied patch sympy/sets/handlers/intersection.py cleanly.
++ git apply -v -
+<stdin>:12: trailing whitespace.
+    
+<stdin>:15: trailing whitespace.
+    
+<stdin>:18: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-21596.py...
+<stdin>:23: new blank line at EOF.
++
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-21596.py cleanly.
+warning: 4 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/sets/handlers/intersection\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-21596.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/sets/handlers/intersection\\.py)']
+0.40 /testbed/sympy/sets/handlers/intersection.py(1): from sympy import (S, Dummy, Lambda, symbols, Interval, Intersection, Set,
+0.40 /testbed/sympy/sets/handlers/intersection.py(3): from sympy.multipledispatch import dispatch
+0.40 /testbed/sympy/sets/handlers/intersection.py(4): from sympy.sets.conditionset import ConditionSet
+0.40 /testbed/sympy/sets/handlers/intersection.py(5): from sympy.sets.fancysets import (Integers, Naturals, Reals, Range,
+0.40 /testbed/sympy/sets/handlers/intersection.py(7): from sympy.sets.sets import UniversalSet, imageset, ProductSet
+0.40 /testbed/sympy/sets/handlers/intersection.py(8): from sympy.simplify.radsimp import numer
+0.40 /testbed/sympy/sets/handlers/intersection.py(10): @dispatch(ConditionSet, ConditionSet)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(11): def intersection_sets(a, b): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(14): @dispatch(ConditionSet, Set)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(15): def intersection_sets(a, b): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(18): @dispatch(Naturals, Integers)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(19): def intersection_sets(a, b): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(22): @dispatch(Naturals, Naturals)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(23): def intersection_sets(a, b): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(26): @dispatch(Interval, Naturals)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(27): def intersection_sets(a, b): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(30): @dispatch(ComplexRegion, Set)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(31): def intersection_sets(self, other): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(77): @dispatch(Integers, Reals)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(78): def intersection_sets(a, b): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(81): @dispatch(Range, Interval)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(82): def intersection_sets(a, b): # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(101): @dispatch(Range, Naturals)  # type: ignore # noqa:F811
+0.40 /testbed/sympy/sets/handlers/intersection.py(102): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(105): @dispatch(Range, Range)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(106): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(218): @dispatch(Range, Integers)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(219): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(223): @dispatch(ImageSet, Set)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(224): def intersection_sets(self, other): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(390): @dispatch(ProductSet, ProductSet)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(391): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(397): @dispatch(Interval, Interval)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(398): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(444): @dispatch(type(EmptySet), Set)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(445): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(448): @dispatch(UniversalSet, Set)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(449): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(452): @dispatch(FiniteSet, FiniteSet)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(453): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(456): @dispatch(FiniteSet, Set)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(457): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(463): @dispatch(Set, Set)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(464): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(467): @dispatch(Integers, Rationals)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(468): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(471): @dispatch(Naturals, Rationals)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(472): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(475): @dispatch(Rationals, Reals)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(476): def intersection_sets(a, b): # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(479): def _intlike_interval(a, b):
+0.41 /testbed/sympy/sets/handlers/intersection.py(489): @dispatch(Integers, Interval)  # type: ignore # noqa:F811
+0.41 /testbed/sympy/sets/handlers/intersection.py(490): def intersection_sets(a, b): # noqa:F811
+0.42 /testbed/sympy/sets/handlers/intersection.py(493): @dispatch(Naturals, Interval)  # type: ignore # noqa:F811
+0.42 /testbed/sympy/sets/handlers/intersection.py(494): def intersection_sets(a, b): # noqa:F811
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        3699393
+hash randomization: on (PYTHONHASHSEED=482686514)
+
+sympy/polys/tests/test_coverup_sympy__sympy-21596.py[1] 
+test_intersection_with_reals_bug 0.63 /testbed/sympy/sets/handlers/intersection.py(465):     return None
+0.63 /testbed/sympy/sets/handlers/intersection.py(225):     from sympy.solvers.diophantine import diophantine
+0.63 /testbed/sympy/sets/handlers/intersection.py(228):     if (len(self.lamda.variables) > 1
+0.63 /testbed/sympy/sets/handlers/intersection.py(229):             or self.lamda.signature != self.lamda.variables):
+0.63 /testbed/sympy/sets/handlers/intersection.py(228):     if (len(self.lamda.variables) > 1
+0.63 /testbed/sympy/sets/handlers/intersection.py(231):     base_set = self.base_sets[0]
+0.63 /testbed/sympy/sets/handlers/intersection.py(240):     if base_set is S.Integers:
+0.63 /testbed/sympy/sets/handlers/intersection.py(241):         gm = None
+0.63 /testbed/sympy/sets/handlers/intersection.py(242):         if isinstance(other, ImageSet) and other.base_sets == (S.Integers,):
+0.63 /testbed/sympy/sets/handlers/intersection.py(248):         elif other is S.Integers:
+0.63 /testbed/sympy/sets/handlers/intersection.py(250):         if gm is not None:
+0.63 /testbed/sympy/sets/handlers/intersection.py(279):     if other == S.Reals:
+0.63 /testbed/sympy/sets/handlers/intersection.py(280):         from sympy.core.function import expand_complex
+0.63 /testbed/sympy/sets/handlers/intersection.py(281):         from sympy.solvers.solvers import denoms, solve_linear
+0.63 /testbed/sympy/sets/handlers/intersection.py(282):         from sympy.core.relational import Eq
+0.63 /testbed/sympy/sets/handlers/intersection.py(284):         def _solution_union(exprs, sym):
+0.63 /testbed/sympy/sets/handlers/intersection.py(296):         f = self.lamda.expr
+0.63 /testbed/sympy/sets/handlers/intersection.py(297):         n = self.lamda.variables[0]
+0.63 /testbed/sympy/sets/handlers/intersection.py(299):         n_ = Dummy(n.name, real=True)
+0.63 /testbed/sympy/sets/handlers/intersection.py(300):         f_ = f.subs(n, n_)
+0.63 /testbed/sympy/sets/handlers/intersection.py(302):         re, im = f_.as_real_imag()
+0.64 /testbed/sympy/sets/handlers/intersection.py(303):         im = expand_complex(im)
+0.64 /testbed/sympy/sets/handlers/intersection.py(305):         re = re.subs(n_, n)
+0.64 /testbed/sympy/sets/handlers/intersection.py(306):         im = im.subs(n_, n)
+0.64 /testbed/sympy/sets/handlers/intersection.py(307):         ifree = im.free_symbols
+0.64 /testbed/sympy/sets/handlers/intersection.py(308):         lam = Lambda(n, re)
+0.64 /testbed/sympy/sets/handlers/intersection.py(309):         if im.is_zero:
+0.64 /testbed/sympy/sets/handlers/intersection.py(314):         elif im.is_zero is False:
+0.64 /testbed/sympy/sets/handlers/intersection.py(316):         elif ifree != {n}:
+0.64 /testbed/sympy/sets/handlers/intersection.py(323):             base_set &= _solution_union(
+0.64 /testbed/sympy/sets/handlers/intersection.py(324):                 Mul.make_args(numer(im)), n)
+0.64 /testbed/sympy/sets/handlers/intersection.py(323):             base_set &= _solution_union(
+0.64 /testbed/sympy/sets/handlers/intersection.py(287):             sols = []
+0.64 /testbed/sympy/sets/handlers/intersection.py(288):             for i in exprs:
+0.64 /testbed/sympy/sets/handlers/intersection.py(289):                 x, xis = solve_linear(i, 0, [sym])
+0.65 /testbed/sympy/sets/handlers/intersection.py(290):                 if x == sym:
+0.65 /testbed/sympy/sets/handlers/intersection.py(291):                     sols.append(FiniteSet(xis))
+0.65 /testbed/sympy/sets/handlers/intersection.py(288):             for i in exprs:
+0.65 /testbed/sympy/sets/handlers/intersection.py(289):                 x, xis = solve_linear(i, 0, [sym])
+0.65 /testbed/sympy/sets/handlers/intersection.py(290):                 if x == sym:
+0.65 /testbed/sympy/sets/handlers/intersection.py(291):                     sols.append(FiniteSet(xis))
+0.65 /testbed/sympy/sets/handlers/intersection.py(288):             for i in exprs:
+0.65 /testbed/sympy/sets/handlers/intersection.py(294):             return Union(*sols)
+0.65 /testbed/sympy/sets/handlers/intersection.py(326):         base_set -= _solution_union(denoms(f), n)
+0.65 /testbed/sympy/sets/handlers/intersection.py(287):             sols = []
+0.65 /testbed/sympy/sets/handlers/intersection.py(288):             for i in exprs:
+0.65 /testbed/sympy/sets/handlers/intersection.py(294):             return Union(*sols)
+0.65 /testbed/sympy/sets/handlers/intersection.py(327):         return imageset(lam, base_set)
+ok                                         [OK]
+
+
+================== tests finished: 1 passed, in 0.19 seconds ===================
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/sets/handlers/intersection\\.py)']
+1.07 /testbed/sympy/sets/handlers/intersection.py(1): from sympy import (S, Dummy, Lambda, symbols, Interval, Intersection, Set,
+1.07 /testbed/sympy/sets/handlers/intersection.py(3): from sympy.multipledispatch import dispatch
+1.07 /testbed/sympy/sets/handlers/intersection.py(4): from sympy.sets.conditionset import ConditionSet
+1.07 /testbed/sympy/sets/handlers/intersection.py(5): from sympy.sets.fancysets import (Integers, Naturals, Reals, Range,
+1.07 /testbed/sympy/sets/handlers/intersection.py(7): from sympy.sets.sets import UniversalSet, imageset, ProductSet
+1.07 /testbed/sympy/sets/handlers/intersection.py(8): from sympy.simplify.radsimp import numer
+1.07 /testbed/sympy/sets/handlers/intersection.py(10): @dispatch(ConditionSet, ConditionSet)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(11): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(14): @dispatch(ConditionSet, Set)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(15): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(18): @dispatch(Naturals, Integers)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(19): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(22): @dispatch(Naturals, Naturals)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(23): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(26): @dispatch(Interval, Naturals)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(27): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(30): @dispatch(ComplexRegion, Set)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(31): def intersection_sets(self, other): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(77): @dispatch(Integers, Reals)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(78): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(81): @dispatch(Range, Interval)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(82): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(101): @dispatch(Range, Naturals)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(102): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(105): @dispatch(Range, Range)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(106): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(218): @dispatch(Range, Integers)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(219): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(223): @dispatch(ImageSet, Set)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(224): def intersection_sets(self, other): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(390): @dispatch(ProductSet, ProductSet)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(391): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(397): @dispatch(Interval, Interval)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(398): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(444): @dispatch(type(EmptySet), Set)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(445): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(448): @dispatch(UniversalSet, Set)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(449): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(452): @dispatch(FiniteSet, FiniteSet)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(453): def intersection_sets(a, b): # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(456): @dispatch(FiniteSet, Set)  # type: ignore # noqa:F811
+1.07 /testbed/sympy/sets/handlers/intersection.py(457): def intersection_sets(a, b): # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(463): @dispatch(Set, Set)  # type: ignore # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(464): def intersection_sets(a, b): # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(467): @dispatch(Integers, Rationals)  # type: ignore # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(468): def intersection_sets(a, b): # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(471): @dispatch(Naturals, Rationals)  # type: ignore # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(472): def intersection_sets(a, b): # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(475): @dispatch(Rationals, Reals)  # type: ignore # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(476): def intersection_sets(a, b): # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(479): def _intlike_interval(a, b):
+1.08 /testbed/sympy/sets/handlers/intersection.py(489): @dispatch(Integers, Interval)  # type: ignore # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(490): def intersection_sets(a, b): # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(493): @dispatch(Naturals, Interval)  # type: ignore # noqa:F811
+1.08 /testbed/sympy/sets/handlers/intersection.py(494): def intersection_sets(a, b): # noqa:F811
++ cat coverage.cover
+{"/testbed/sympy/sets/handlers/intersection.py": {"1": 1, "3": 1, "4": 1, "5": 1, "7": 1, "8": 1, "10": 1, "11": 1, "14": 1, "15": 1, "18": 1, "19": 1, "22": 1, "23": 1, "26": 1, "27": 1, "30": 1, "31": 1, "77": 1, "78": 1, "81": 1, "82": 1, "101": 1, "102": 1, "105": 1, "106": 1, "218": 1, "219": 1, "223": 1, "224": 1, "390": 1, "391": 1, "397": 1, "398": 1, "444": 1, "445": 1, "448": 1, "449": 1, "452": 1, "453": 1, "456": 1, "457": 1, "463": 1, "464": 1, "467": 1, "468": 1, "471": 1, "472": 1, "475": 1, "476": 1, "479": 1, "489": 1, "490": 1, "493": 1, "494": 1, "12": 0, "16": 0, "20": 0, "24": 0, "28": 0, "32": 0, "34": 0, "35": 0, "38": 0, "39": 0, "40": 0, "41": 0, "42": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "53": 0, "54": 0, "55": 0, "58": 0, "59": 0, "60": 0, "61": 0, "62": 0, "63": 0, "66": 0, "67": 0, "68": 0, "69": 0, "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "79": 0, "83": 0, "84": 0, "85": 0, "88": 0, "89": 0, "93": 0, "94": 0, "95": 0, "96": 0, "97": 0, "98": 0, "99": 0, "103": 0, "107": 0, "108": 0, "109": 0, "112": 0, "113": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "122": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "131": 0, "132": 0, "133": 0, "134": 0, "138": 0, "143": 0, "146": 0, "147": 0, "148": 0, "154": 0, "155": 0, "159": 0, "183": 0, "184": 0, "185": 0, "186": 0, "187": 0, "188": 0, "189": 0, "195": 0, "202": 0, "203": 0, "206": 0, "207": 0, "208": 0, "209": 0, "213": 0, "214": 0, "215": 0, "160": 0, "161": 0, "164": 0, "169": 0, "170": 0, "171": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "196": 0, "197": 0, "198": 0, "200": 0, "201": 0, "220": 0, "225": 1, "228": 2, "229": 1, "230": 0, "231": 1, "240": 1, "241": 1, "242": 1, "243": 0, "244": 0, "246": 0, "247": 0, "248": 1, "249": 0, "250": 1, "251": 0, "252": 0, "253": 0, "254": 0, "255": 0, "258": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "271": 0, "272": 0, "273": 0, "275": 0, "277": 0, "279": 1, "280": 1, "281": 1, "282": 1, "284": 1, "296": 1, "297": 1, "299": 1, "300": 1, "302": 1, "303": 1, "305": 1, "306": 1, "307": 1, "308": 1, "309": 1, "313": 0, "314": 1, "315": 0, "316": 1, "317": 0, "323": 2, "324": 1, "326": 1, "327": 1, "329": 0, "330": 0, "333": 0, "334": 0, "335": 0, "336": 0, "338": 0, "339": 0, "341": 0, "343": 0, "344": 0, "346": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "352": 0, "357": 0, "358": 0, "361": 0, "363": 0, "366": 0, "367": 0, "368": 0, "369": 0, "371": 0, "372": 0, "373": 0, "374": 0, "376": 0, "378": 0, "379": 0, "380": 0, "381": 0, "383": 0, "384": 0, "385": 0, "387": 0, "287": 2, "288": 4, "289": 2, "290": 2, "291": 2, "293": 0, "294": 2, "392": 0, "393": 0, "394": 0, "400": 0, "401": 0, "402": 0, "403": 0, "404": 0, "407": 0, "408": 0, "410": 0, "412": 0, "414": 0, "415": 0, "416": 0, "417": 0, "418": 0, "419": 0, "421": 0, "422": 0, "424": 0, "425": 0, "426": 0, "427": 0, "428": 0, "429": 0, "431": 0, "432": 0, "434": 0, "435": 0, "437": 0, "439": 0, "440": 0, "442": 0, "446": 0, "450": 0, "454": 0, "458": 0, "459": 0, "460": 0, "461": 0, "465": 1, "469": 0, "473": 0, "477": 0, "480": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "491": 0, "495": 0}}
+{"/testbed/sympy/sets/handlers/intersection.py": {"1": 1, "3": 1, "4": 1, "5": 1, "7": 1, "8": 1, "10": 1, "11": 1, "14": 1, "15": 1, "18": 1, "19": 1, "22": 1, "23": 1, "26": 1, "27": 1, "30": 1, "31": 1, "77": 1, "78": 1, "81": 1, "82": 1, "101": 1, "102": 1, "105": 1, "106": 1, "218": 1, "219": 1, "223": 1, "224": 1, "390": 1, "391": 1, "397": 1, "398": 1, "444": 1, "445": 1, "448": 1, "449": 1, "452": 1, "453": 1, "456": 1, "457": 1, "463": 1, "464": 1, "467": 1, "468": 1, "471": 1, "472": 1, "475": 1, "476": 1, "479": 1, "489": 1, "490": 1, "493": 1, "494": 1, "12": 0, "16": 0, "20": 0, "24": 0, "28": 0, "32": 0, "34": 0, "35": 0, "38": 0, "39": 0, "40": 0, "41": 0, "42": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "53": 0, "54": 0, "55": 0, "58": 0, "59": 0, "60": 0, "61": 0, "62": 0, "63": 0, "66": 0, "67": 0, "68": 0, "69": 0, "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "79": 0, "83": 0, "84": 0, "85": 0, "88": 0, "89": 0, "93": 0, "94": 0, "95": 0, "96": 0, "97": 0, "98": 0, "99": 0, "103": 0, "107": 0, "108": 0, "109": 0, "112": 0, "113": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "122": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "131": 0, "132": 0, "133": 0, "134": 0, "138": 0, "143": 0, "146": 0, "147": 0, "148": 0, "154": 0, "155": 0, "159": 0, "183": 0, "184": 0, "185": 0, "186": 0, "187": 0, "188": 0, "189": 0, "195": 0, "202": 0, "203": 0, "206": 0, "207": 0, "208": 0, "209": 0, "213": 0, "214": 0, "215": 0, "160": 0, "161": 0, "164": 0, "169": 0, "170": 0, "171": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "196": 0, "197": 0, "198": 0, "200": 0, "201": 0, "220": 0, "225": 0, "228": 0, "229": 0, "230": 0, "231": 0, "240": 0, "241": 0, "242": 0, "243": 0, "244": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "255": 0, "258": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "271": 0, "272": 0, "273": 0, "275": 0, "277": 0, "279": 0, "280": 0, "281": 0, "282": 0, "284": 0, "296": 0, "297": 0, "299": 0, "300": 0, "302": 0, "303": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "313": 0, "314": 0, "315": 0, "316": 0, "317": 0, "323": 0, "324": 0, "326": 0, "327": 0, "329": 0, "330": 0, "333": 0, "334": 0, "335": 0, "336": 0, "338": 0, "339": 0, "341": 0, "343": 0, "344": 0, "346": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "352": 0, "357": 0, "358": 0, "361": 0, "363": 0, "366": 0, "367": 0, "368": 0, "369": 0, "371": 0, "372": 0, "373": 0, "374": 0, "376": 0, "378": 0, "379": 0, "380": 0, "381": 0, "383": 0, "384": 0, "385": 0, "387": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "293": 0, "294": 0, "392": 0, "393": 0, "394": 0, "400": 0, "401": 0, "402": 0, "403": 0, "404": 0, "407": 0, "408": 0, "410": 0, "412": 0, "414": 0, "415": 0, "416": 0, "417": 0, "418": 0, "419": 0, "421": 0, "422": 0, "424": 0, "425": 0, "426": 0, "427": 0, "428": 0, "429": 0, "431": 0, "432": 0, "434": 0, "435": 0, "437": 0, "439": 0, "440": 0, "442": 0, "446": 0, "450": 0, "454": 0, "458": 0, "459": 0, "460": 0, "461": 0, "465": 0, "469": 0, "473": 0, "477": 0, "480": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "491": 0, "495": 0}}
++ git checkout 110997fe18b9f7d5ba7d22f624d156a29bf40759
+Note: switching to '110997fe18b9f7d5ba7d22f624d156a29bf40759'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 110997fe18 Merge pull request #21510 from migueltorrescosta/master
+M	sympy/sets/handlers/intersection.py
++ git apply /root/pre_state.patch
+error: unrecognized input

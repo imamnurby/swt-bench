@@ -1,0 +1,72 @@
+diff --git a/dev/null b/tests/test_coverup_sphinx-doc__sphinx-8475.py
+new file mode 100644
+index e69de29..a1f4222 100644
+--- /dev/null
++++ b/tests/test_coverup_sphinx-doc__sphinx-8475.py
+@@ -0,0 +1,66 @@
++import pytest
++from unittest.mock import patch, Mock
++from requests.exceptions import TooManyRedirects
++from sphinx.builders.linkcheck import CheckExternalLinksBuilder
++from sphinx.application import Sphinx
++import queue
++
++def test_too_many_redirects_fallback():
++    # Mock the URL to simulate a TooManyRedirects behavior
++    test_url = "https://idr.openmicroscopy.org/webclient/?show=well-119093"
++
++    # Create a mock Sphinx app
++    mock_app = Mock(spec=Sphinx)
++    mock_app.config = Mock()
++    mock_app.config.linkcheck_timeout = None
++    mock_app.config.linkcheck_anchors = False
++    mock_app.config.linkcheck_retries = 1
++    mock_app.config.linkcheck_request_headers = {}
++    mock_app.srcdir = '/mock/srcdir'
++    mock_app.confdir = '/mock/confdir'
++    mock_app.outdir = '/mock/outdir'
++    mock_app.doctreedir = '/mock/doctreedir'
++    mock_app.events = Mock()  # Add missing attribute
++    mock_app.tags = Mock()  # Add missing attribute
++
++    # Create an instance of the CheckExternalLinksBuilder with the mock app
++    builder = CheckExternalLinksBuilder(mock_app)
++
++    # Initialize the queues as queue.Queue() objects
++    builder.wqueue = queue.Queue()
++    builder.rqueue = queue.Queue()
++
++    # Initialize necessary attributes
++    builder.good = set()
++    builder.broken = {}
++    builder.redirected = {}
++    builder.anchors_ignore = []
++    builder.to_ignore = []
++    builder.auth = []  # Initialize auth to avoid AttributeError
++
++    # Mock requests.head to raise TooManyRedirects
++    with patch('sphinx.util.requests.head') as mock_head:
++        mock_head.side_effect = TooManyRedirects
++
++        # Mock requests.get to return a successful response
++        with patch('sphinx.util.requests.get') as mock_get:
++            mock_response = Mock()
++            mock_response.raise_for_status.return_value = None
++            mock_response.url = test_url
++            mock_get.return_value = mock_response
++
++            # Simulate the check_thread method's behavior
++            builder.wqueue.put((test_url, 'docname', 1))
++            builder.wqueue.put((None, None, None))
++
++            # Run the check_thread method
++            builder.check_thread()
++
++            # Retrieve the result from the rqueue
++            result = builder.rqueue.get()
++
++            # Assert that the status is 'working' when the bug is fixed
++            assert result[3] == 'working', "The URL should be reported as working when the bug is fixed."
++
++            # Assert that the GET request was made
++            assert mock_get.called, "The GET request should be made when the bug is fixed."

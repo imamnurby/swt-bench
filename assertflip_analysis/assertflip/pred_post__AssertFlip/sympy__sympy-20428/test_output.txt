@@ -1,0 +1,511 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD c0e85160406f9bf2bcaa2992138587668a1cd0bc
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit c0e85160406f9bf2bcaa2992138587668a1cd0bc
+Merge: bd327ec88c edfb5361eb
+Author: Oscar Benjamin <oscar.j.benjamin@gmail.com>
+Date:   Mon Nov 16 14:27:23 2020 +0000
+
+    Merge pull request #20384 from sayandip18/pprint
+    
+    Make pretty printing large inputs faster
+
++ git diff c0e85160406f9bf2bcaa2992138587668a1cd0bc
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.8.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.8.dev0
+    Uninstalling sympy-1.8.dev0:
+      Successfully uninstalled sympy-1.8.dev0
+  DEPRECATION: Legacy editable install of sympy==1.8.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/polys/domains/expressiondomain.py...
+Applied patch sympy/polys/domains/expressiondomain.py cleanly.
++ git apply -v -
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-20428.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-20428.py cleanly.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/polys/domains/expressiondomain\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-20428.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/polys/domains/expressiondomain\\.py)']
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(1): """Implementation of :class:`ExpressionDomain` class. """
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(4): from sympy.core import sympify, SympifyError
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(5): from sympy.polys.domains.characteristiczero import CharacteristicZero
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(6): from sympy.polys.domains.field import Field
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(7): from sympy.polys.domains.simpledomain import SimpleDomain
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(8): from sympy.polys.polyutils import PicklableWithSlots
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(9): from sympy.utilities import public
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(11): eflags = dict(deep=False, mul=True, power_exp=False, power_base=False,
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(12):               basic=False, multinomial=False, log=False)
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(11): eflags = dict(deep=False, mul=True, power_exp=False, power_base=False,
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(14): @public
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(15): class ExpressionDomain(Field, CharacteristicZero, SimpleDomain):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(14): @public
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(16):     """A class for arbitrary expressions. """
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(18):     is_SymbolicDomain = is_EX = True
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(20):     class Expression(PicklableWithSlots):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(20):     class Expression(PicklableWithSlots):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(21):         """An arbitrary expression. """
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(23):         __slots__ = ('ex',)
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(25):         def __init__(self, ex):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(31):         def __repr__(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(34):         def __str__(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(37):         def __hash__(self):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(40):         def as_expr(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(43):         def numer(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(46):         def denom(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(49):         def simplify(f, ex):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(52):         def __abs__(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(55):         def __neg__(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(58):         def _to_ex(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(64):         def __add__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(72):         def __radd__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(75):         def __sub__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(83):         def __rsub__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(86):         def __mul__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(94):         def __rmul__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(97):         def __pow__(f, n):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(105):         def __truediv__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(113):         def __rtruediv__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(116):         def __eq__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(119):         def __ne__(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(122):         def __bool__(f):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(125):         def gcd(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(129):         def lcm(f, g):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(133):     dtype = Expression
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(135):     zero = Expression(0)
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(26):             if not isinstance(ex, self.__class__):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(27):                 self.ex = sympify(ex)
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(136):     one = Expression(1)
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(26):             if not isinstance(ex, self.__class__):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(27):                 self.ex = sympify(ex)
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(138):     rep = 'EX'
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(140):     has_assoc_Ring = False
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(141):     has_assoc_Field = True
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(143):     def __init__(self):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(146):     def to_sympy(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(150):     def from_sympy(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(154):     def from_ZZ_python(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(158):     def from_QQ_python(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(162):     def from_ZZ_gmpy(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(166):     def from_QQ_gmpy(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(170):     def from_GaussianIntegerRing(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(174):     def from_GaussianRationalField(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(178):     def from_RealField(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(182):     def from_PolynomialRing(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(186):     def from_FractionField(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(190):     def from_ExpressionDomain(K1, a, K0):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(194):     def get_ring(self):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(198):     def get_field(self):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(202):     def is_positive(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(206):     def is_negative(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(210):     def is_nonpositive(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(214):     def is_nonnegative(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(218):     def numer(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(222):     def denom(self, a):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(226):     def gcd(self, a, b):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(229):     def lcm(self, a, b):
+0.30 /testbed/sympy/polys/domains/expressiondomain.py(144):         pass
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        81408990
+hash randomization: on (PYTHONHASHSEED=1804799336)
+
+/testbed/sympy/utilities/pytest.py:3: SymPyDeprecationWarning: 
+
+Import sympy.utilities.pytest has been deprecated since SymPy 1.6. Use
+Import from sympy.testing.pytest instead. See
+https://github.com/sympy/sympy/issues/18095 for more info.
+
+  SymPyDeprecationWarning(
+sympy/polys/tests/test_coverup_sympy__sympy-20428.py[1] 
+test_clear_denoms_bug 0.82 /testbed/sympy/polys/domains/expressiondomain.py(152):         return self.dtype(a)
+0.82 /testbed/sympy/polys/domains/expressiondomain.py(26):             if not isinstance(ex, self.__class__):
+0.82 /testbed/sympy/polys/domains/expressiondomain.py(27):                 self.ex = sympify(ex)
+0.82 /testbed/sympy/polys/domains/expressiondomain.py(123):             return not f.ex.is_zero
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(123):             return not f.ex.is_zero
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(117):             return f.ex == f.__class__(g).ex
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(26):             if not isinstance(ex, self.__class__):
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(29):                 self.ex = ex.ex
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(148):         return a.as_expr()
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(41):             return f.ex
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(148):         return a.as_expr()
+11.55 /testbed/sympy/polys/domains/expressiondomain.py(41):             return f.ex
+ok                                                    [OK]
+
+
+________________________________ slowest tests _________________________________
+sympy/polys/tests/test_coverup_sympy__sympy-20428.py::test_clear_denoms_bug - Took 11.048 seconds
+================== tests finished: 1 passed, in 11.06 seconds ==================
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/polys/domains/expressiondomain\\.py)']
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(1): """Implementation of :class:`ExpressionDomain` class. """
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(4): from sympy.core import sympify, SympifyError
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(5): from sympy.polys.domains.characteristiczero import CharacteristicZero
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(6): from sympy.polys.domains.field import Field
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(7): from sympy.polys.domains.simpledomain import SimpleDomain
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(8): from sympy.polys.polyutils import PicklableWithSlots
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(9): from sympy.utilities import public
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(11): eflags = dict(deep=False, mul=True, power_exp=False, power_base=False,
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(12):               basic=False, multinomial=False, log=False)
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(11): eflags = dict(deep=False, mul=True, power_exp=False, power_base=False,
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(14): @public
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(15): class ExpressionDomain(Field, CharacteristicZero, SimpleDomain):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(14): @public
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(16):     """A class for arbitrary expressions. """
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(18):     is_SymbolicDomain = is_EX = True
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(20):     class Expression(PicklableWithSlots):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(20):     class Expression(PicklableWithSlots):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(21):         """An arbitrary expression. """
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(23):         __slots__ = ('ex',)
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(25):         def __init__(self, ex):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(31):         def __repr__(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(34):         def __str__(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(37):         def __hash__(self):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(40):         def as_expr(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(43):         def numer(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(46):         def denom(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(49):         def simplify(f, ex):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(52):         def __abs__(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(55):         def __neg__(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(58):         def _to_ex(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(64):         def __add__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(72):         def __radd__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(75):         def __sub__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(83):         def __rsub__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(86):         def __mul__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(94):         def __rmul__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(97):         def __pow__(f, n):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(105):         def __truediv__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(113):         def __rtruediv__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(116):         def __eq__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(119):         def __ne__(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(122):         def __bool__(f):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(125):         def gcd(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(129):         def lcm(f, g):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(133):     dtype = Expression
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(135):     zero = Expression(0)
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(26):             if not isinstance(ex, self.__class__):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(27):                 self.ex = sympify(ex)
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(136):     one = Expression(1)
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(26):             if not isinstance(ex, self.__class__):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(27):                 self.ex = sympify(ex)
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(138):     rep = 'EX'
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(140):     has_assoc_Ring = False
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(141):     has_assoc_Field = True
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(143):     def __init__(self):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(146):     def to_sympy(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(150):     def from_sympy(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(154):     def from_ZZ_python(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(158):     def from_QQ_python(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(162):     def from_ZZ_gmpy(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(166):     def from_QQ_gmpy(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(170):     def from_GaussianIntegerRing(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(174):     def from_GaussianRationalField(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(178):     def from_RealField(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(182):     def from_PolynomialRing(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(186):     def from_FractionField(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(190):     def from_ExpressionDomain(K1, a, K0):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(194):     def get_ring(self):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(198):     def get_field(self):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(202):     def is_positive(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(206):     def is_negative(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(210):     def is_nonpositive(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(214):     def is_nonnegative(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(218):     def numer(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(222):     def denom(self, a):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(226):     def gcd(self, a, b):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(229):     def lcm(self, a, b):
+0.56 /testbed/sympy/polys/domains/expressiondomain.py(144):         pass
++ cat coverage.cover
+{"/testbed/sympy/polys/domains/expressiondomain.py": {"4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "11": 2, "12": 1, "14": 2, "15": 1, "18": 1, "20": 2, "133": 1, "135": 1, "136": 1, "138": 1, "140": 1, "141": 1, "143": 1, "146": 1, "150": 1, "154": 1, "158": 1, "162": 1, "166": 1, "170": 1, "174": 1, "178": 1, "182": 1, "186": 1, "190": 1, "194": 1, "198": 1, "202": 1, "206": 1, "210": 1, "214": 1, "218": 1, "222": 1, "226": 1, "229": 1, "23": 1, "25": 1, "31": 1, "34": 1, "37": 1, "40": 1, "43": 1, "46": 1, "49": 1, "52": 1, "55": 1, "58": 1, "64": 1, "72": 1, "75": 1, "83": 1, "86": 1, "94": 1, "97": 1, "105": 1, "113": 1, "116": 1, "119": 1, "122": 1, "125": 1, "129": 1, "26": 4, "27": 3, "29": 1, "32": 0, "35": 0, "38": 0, "41": 2, "44": 0, "47": 0, "50": 0, "53": 0, "56": 0, "59": 0, "60": 0, "61": 0, "62": 0, "65": 0, "67": 0, "68": 0, "70": 0, "73": 0, "76": 0, "78": 0, "79": 0, "81": 0, "84": 0, "87": 0, "89": 0, "90": 0, "92": 0, "95": 0, "98": 0, "100": 0, "101": 0, "103": 0, "106": 0, "108": 0, "109": 0, "111": 0, "114": 0, "117": 1, "120": 0, "123": 2, "126": 0, "127": 0, "130": 0, "131": 0, "144": 1, "148": 2, "152": 1, "156": 0, "160": 0, "164": 0, "168": 0, "172": 0, "176": 0, "180": 0, "184": 0, "188": 0, "192": 0, "196": 0, "200": 0, "204": 0, "208": 0, "212": 0, "216": 0, "220": 0, "224": 0, "227": 0, "230": 0}}
+{"/testbed/sympy/polys/domains/expressiondomain.py": {"4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "11": 2, "12": 1, "14": 2, "15": 1, "18": 1, "20": 2, "133": 1, "135": 1, "136": 1, "138": 1, "140": 1, "141": 1, "143": 1, "146": 1, "150": 1, "154": 1, "158": 1, "162": 1, "166": 1, "170": 1, "174": 1, "178": 1, "182": 1, "186": 1, "190": 1, "194": 1, "198": 1, "202": 1, "206": 1, "210": 1, "214": 1, "218": 1, "222": 1, "226": 1, "229": 1, "23": 1, "25": 1, "31": 1, "34": 1, "37": 1, "40": 1, "43": 1, "46": 1, "49": 1, "52": 1, "55": 1, "58": 1, "64": 1, "72": 1, "75": 1, "83": 1, "86": 1, "94": 1, "97": 1, "105": 1, "113": 1, "116": 1, "119": 1, "122": 1, "125": 1, "129": 1, "26": 2, "27": 2, "29": 0, "32": 0, "35": 0, "38": 0, "41": 0, "44": 0, "47": 0, "50": 0, "53": 0, "56": 0, "59": 0, "60": 0, "61": 0, "62": 0, "65": 0, "67": 0, "68": 0, "70": 0, "73": 0, "76": 0, "78": 0, "79": 0, "81": 0, "84": 0, "87": 0, "89": 0, "90": 0, "92": 0, "95": 0, "98": 0, "100": 0, "101": 0, "103": 0, "106": 0, "108": 0, "109": 0, "111": 0, "114": 0, "117": 0, "120": 0, "123": 0, "126": 0, "127": 0, "130": 0, "131": 0, "144": 1, "148": 0, "152": 0, "156": 0, "160": 0, "164": 0, "168": 0, "172": 0, "176": 0, "180": 0, "184": 0, "188": 0, "192": 0, "196": 0, "200": 0, "204": 0, "208": 0, "212": 0, "216": 0, "220": 0, "224": 0, "227": 0, "230": 0}}
++ git checkout c0e85160406f9bf2bcaa2992138587668a1cd0bc
+Note: switching to 'c0e85160406f9bf2bcaa2992138587668a1cd0bc'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at c0e8516040 Merge pull request #20384 from sayandip18/pprint
+M	sympy/polys/domains/expressiondomain.py
++ git apply /root/pre_state.patch
+error: unrecognized input

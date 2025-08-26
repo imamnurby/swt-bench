@@ -1,0 +1,15 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-13798.py
+new file mode 100644
+index e69de29..d6907a5 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-13798.py
+@@ -0,0 +1,9 @@
++from sympy import symbols
++from sympy.printing.latex import latex
++
++def test_latex_custom_mul_symbol():
++    x, y = symbols('x y')
++    expr = 3 * x**2 * y
++    # Attempt to use a custom mul_symbol that is not in the predefined list
++    result = latex(expr, mul_symbol="\\,")
++    assert result == '3 \\, x^{2} \\, y'

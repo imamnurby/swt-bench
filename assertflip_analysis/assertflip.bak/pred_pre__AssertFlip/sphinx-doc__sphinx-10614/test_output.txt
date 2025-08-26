@@ -1,0 +1,1244 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD ac2b7599d212af7d04649959ce6926c63c3133fa
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   tox.ini
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit ac2b7599d212af7d04649959ce6926c63c3133fa
+Author: grayjk <grayjk@gmail.com>
+Date:   Mon Aug 7 17:20:30 2023 -0400
+
+    autosummary: Extract summary line after "e.g." (#11196)
+    
+    Co-authored-by: Adam Turner <9087854+AA-Turner@users.noreply.github.com>
+
+diff --git a/CHANGES b/CHANGES
+index 645a6cd4c..e05488388 100644
+--- a/CHANGES
++++ b/CHANGES
+@@ -44,6 +44,7 @@ Bugs fixed
+   Patch by Ralf Grubenmann.
+ * #11529: Line Block in LaTeX builder outputs spurious empty token.
+   Patch by Adrian Vollmer.
++* #11196: autosummary: Summary line extraction failed with "e.g."
+ 
+ Testing
+ -------
+diff --git a/sphinx/ext/autosummary/__init__.py b/sphinx/ext/autosummary/__init__.py
+index ddee2fa5a..ff948d83d 100644
+--- a/sphinx/ext/autosummary/__init__.py
++++ b/sphinx/ext/autosummary/__init__.py
+@@ -100,7 +100,7 @@ logger = logging.getLogger(__name__)
+ periods_re = re.compile(r'\.(?:\s+)')
+ literal_re = re.compile(r'::\s*$')
+ 
+-WELL_KNOWN_ABBREVIATIONS = ('et al.', ' i.e.',)
++WELL_KNOWN_ABBREVIATIONS = ('et al.', 'e.g.', 'i.e.')
+ 
+ 
+ # -- autosummary_toc node ------------------------------------------------------
+diff --git a/tests/test_ext_autosummary.py b/tests/test_ext_autosummary.py
+index 0f917df1e..93cf195af 100644
+--- a/tests/test_ext_autosummary.py
++++ b/tests/test_ext_autosummary.py
+@@ -102,6 +102,15 @@ def test_extract_summary(capsys):
+     doc = ['Blabla, i.e. bla.']
+     assert extract_summary(doc, document) == ' '.join(doc)
+ 
++    doc = ['Blabla, (i.e. bla).']
++    assert extract_summary(doc, document) == ' '.join(doc)
++
++    doc = ['Blabla, e.g. bla.']
++    assert extract_summary(doc, document) == ' '.join(doc)
++
++    doc = ['Blabla, (e.g. bla).']
++    assert extract_summary(doc, document) == ' '.join(doc)
++
+     doc = ['Blabla, et al. bla.']
+     assert extract_summary(doc, document) == ' '.join(doc)
+ 
++ git diff ac2b7599d212af7d04649959ce6926c63c3133fa
+diff --git a/tox.ini b/tox.ini
+index a3dc56211..c76147de3 100644
+--- a/tox.ini
++++ b/tox.ini
+@@ -24,7 +24,7 @@ setenv =
+     PYTHONWARNINGS = error
+     PYTEST_ADDOPTS = {env:PYTEST_ADDOPTS:} --color yes
+ commands=
+-    python -X dev -X warn_default_encoding -m pytest --durations 25 {posargs}
++    python -X dev -X warn_default_encoding -m pytest -rA --durations 25 {posargs}
+ 
+ [testenv:docs]
+ basepython = python3
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e '.[test]'
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: sphinxcontrib-applehelp in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.0.0)
+Requirement already satisfied: sphinxcontrib-jsmath in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (1.0.1)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.1.0)
+Requirement already satisfied: sphinxcontrib-serializinghtml>=1.1.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.0.0)
+Requirement already satisfied: sphinxcontrib-qthelp in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.0.0)
+Requirement already satisfied: Jinja2>=3.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (3.1.6)
+Requirement already satisfied: Pygments>=2.13 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.19.2)
+Requirement already satisfied: docutils<0.21,>=0.18.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (0.20.1)
+Requirement already satisfied: snowballstemmer>=2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (3.0.1)
+Requirement already satisfied: babel>=2.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.17.0)
+Requirement already satisfied: alabaster<0.8,>=0.7 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (0.7.16)
+Requirement already satisfied: imagesize>=1.3 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (1.4.1)
+Requirement already satisfied: requests>=2.25.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (2.32.5)
+Requirement already satisfied: packaging>=21.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (25.0)
+Requirement already satisfied: importlib-metadata>=4.8 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (8.7.0)
+Requirement already satisfied: pytest>=4.6 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (8.4.1)
+Requirement already satisfied: html5lib in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (1.1)
+Requirement already satisfied: cython in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (3.1.3)
+Requirement already satisfied: filelock in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==7.2.0) (3.19.1)
+Requirement already satisfied: zipp>=3.20 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from importlib-metadata>=4.8->Sphinx==7.2.0) (3.23.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Jinja2>=3.0->Sphinx==7.2.0) (3.0.2)
+Requirement already satisfied: exceptiongroup>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==7.2.0) (1.3.0)
+Requirement already satisfied: iniconfig>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==7.2.0) (2.1.0)
+Requirement already satisfied: pluggy<2,>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==7.2.0) (1.6.0)
+Requirement already satisfied: tomli>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest>=4.6->Sphinx==7.2.0) (2.2.1)
+Requirement already satisfied: typing-extensions>=4.6.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from exceptiongroup>=1->pytest>=4.6->Sphinx==7.2.0) (4.14.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.25.0->Sphinx==7.2.0) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.25.0->Sphinx==7.2.0) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.25.0->Sphinx==7.2.0) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.25.0->Sphinx==7.2.0) (2025.8.3)
+Requirement already satisfied: six>=1.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from html5lib->Sphinx==7.2.0) (1.17.0)
+Requirement already satisfied: webencodings in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from html5lib->Sphinx==7.2.0) (0.5.1)
+Building wheels for collected packages: Sphinx
+  Building editable for Sphinx (pyproject.toml): started
+  Building editable for Sphinx (pyproject.toml): finished with status 'done'
+  Created wheel for Sphinx: filename=sphinx-7.2.0-py3-none-any.whl size=4387 sha256=fbf4049bd071226a715c842a3fd81df959159f0f39d85d4feb70ab9999a45ba9
+  Stored in directory: /tmp/pip-ephem-wheel-cache-8_tfm03o/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Sphinx
+Installing collected packages: Sphinx
+  Attempting uninstall: Sphinx
+    Found existing installation: Sphinx 7.2.0
+    Uninstalling Sphinx-7.2.0:
+      Successfully uninstalled Sphinx-7.2.0
+Successfully installed Sphinx-7.2.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_sphinx-doc__sphinx-10614.py...
+Applied patch tests/test_coverup_sphinx-doc__sphinx-10614.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sphinx/ext/inheritance_diagram\.py)' -m tox -epy39 -v -- tests/test_coverup_sphinx-doc__sphinx-10614.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+.pkg: find interpreter for spec PythonSpec(major=3, minor=9, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, minor=10, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+.pkg: find interpreter for spec PythonSpec(major=3, minor=11, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/bin/python3.10, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+.pkg: find interpreter for spec PythonSpec(major=3, minor=12, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/usr/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/usr/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+py39: create virtual environment via CPython3Posix(dest=/testbed/.tox/py39, clear=False, no_vcs_ignore=False, global=False)
+py39: add seed packages via FromAppData(download=False, pip=bundle, setuptools=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+py39: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+.pkg: create virtual environment via CPython3Posix(dest=/testbed/.tox/.pkg, clear=False, no_vcs_ignore=False, global=False)
+.pkg: add seed packages via FromAppData(download=False, pip=bundle, setuptools=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+.pkg: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+.pkg: install_requires> python -I -m pip install 'flit_core>=3.7'
+.pkg: exit 0 (0.76 seconds) /testbed> python -I -m pip install 'flit_core>=3.7' pid=133
+.pkg: _optional_hooks> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi
+.pkg: exit None (0.10 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi pid=138
+.pkg: get_requires_for_build_editable> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi
+.pkg: exit None (0.01 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi pid=138
+.pkg: build_editable> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi
+.pkg: exit None (0.01 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi pid=138
+py39: install_package_deps> python -I -m pip install 'Jinja2>=3.0' 'Pygments>=2.13' 'alabaster<0.8,>=0.7' 'babel>=2.9' 'colorama>=0.4.5; sys_platform == "win32"' cython 'docutils<0.21,>=0.18.1' filelock html5lib 'imagesize>=1.3' 'importlib-metadata>=4.8; python_version < "3.10"' 'packaging>=21.0' 'pytest>=4.6' 'requests>=2.25.0' 'snowballstemmer>=2.0' sphinxcontrib-applehelp sphinxcontrib-devhelp 'sphinxcontrib-htmlhelp>=2.0.0' sphinxcontrib-jsmath sphinxcontrib-qthelp 'sphinxcontrib-serializinghtml>=1.1.5'
+py39: exit 0 (0.74 seconds) /testbed> python -I -m pip install 'Jinja2>=3.0' 'Pygments>=2.13' 'alabaster<0.8,>=0.7' 'babel>=2.9' 'colorama>=0.4.5; sys_platform == "win32"' cython 'docutils<0.21,>=0.18.1' filelock html5lib 'imagesize>=1.3' 'importlib-metadata>=4.8; python_version < "3.10"' 'packaging>=21.0' 'pytest>=4.6' 'requests>=2.25.0' 'snowballstemmer>=2.0' sphinxcontrib-applehelp sphinxcontrib-devhelp 'sphinxcontrib-htmlhelp>=2.0.0' sphinxcontrib-jsmath sphinxcontrib-qthelp 'sphinxcontrib-serializinghtml>=1.1.5' pid=141
+py39: install_package> python -I -m pip install --force-reinstall --no-deps /testbed/.tox/.tmp/package/1/sphinx-7.2.0-py3-none-any.whl
+py39: exit 0 (0.65 seconds) /testbed> python -I -m pip install --force-reinstall --no-deps /testbed/.tox/.tmp/package/1/sphinx-7.2.0-py3-none-any.whl pid=146
+py39: commands[0]> python -X dev -X warn_default_encoding -m pytest -rA --durations 25 tests/test_coverup_sphinx-doc__sphinx-10614.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/ext/inheritance_diagram\\.py)']
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.9.23, pytest-8.4.1, pluggy-1.6.0
+cachedir: .tox/py39/.pytest_cache
+libraries: Sphinx-7.2.0+/ac2b7599d, docutils-0.20.1
+base tmp_path: /tmp/pytest-of-root/pytest-0
+rootdir: /testbed
+configfile: pyproject.toml
+collected 1 item
+
+tests/test_coverup_sphinx-doc__sphinx-10614.py [31mF[0m[31m                         [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________ test_svg_links_in_subdirectory_are_incorrect _________________[0m
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-0/test_svg_links_in_subdirectory0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f5ae2a04f50>
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_svg_links_in_subdirectory_are_incorrect[39;49;00m(tmp_path, monkeypatch):[90m[39;49;00m
+        [90m# Setup: Create a temporary directory structure with sample documentation files[39;49;00m[90m[39;49;00m
+        docs_source = tmp_path / [33m"[39;49;00m[33mdocs_source[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        docs_build = tmp_path / [33m"[39;49;00m[33mdocs_build[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        my_package = docs_source / [33m"[39;49;00m[33mmy_package[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        docs_source.mkdir()[90m[39;49;00m
+        docs_build.mkdir()[90m[39;49;00m
+        my_package.mkdir()[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Create a sample index.rst in the root directory[39;49;00m[90m[39;49;00m
+        index_rst = docs_source / [33m"[39;49;00m[33mindex.rst[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        index_rst.write_text([90m[39;49;00m
+            [33m"[39;49;00m[33m.. toctree::[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m   :maxdepth: 2[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m   :caption: Contents:[39;49;00m[33m\n[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m   my_package/index[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Create a sample index.rst in the subdirectory[39;49;00m[90m[39;49;00m
+        sub_index_rst = my_package / [33m"[39;49;00m[33mindex.rst[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        sub_index_rst.write_text([90m[39;49;00m
+            [33m"[39;49;00m[33mMy Package[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m==========[39;49;00m[33m\n[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m.. inheritance-diagram:: my_package.my_class_1.MyClass1[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m   :parts: 1[39;49;00m[33m\n[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m.. autoclass:: my_package.my_class_1.MyClass1[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m   :members:[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Create a sample Python file in the subdirectory[39;49;00m[90m[39;49;00m
+        my_class_1_py = my_package / [33m"[39;49;00m[33mmy_class_1.py[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        my_class_1_py.write_text([90m[39;49;00m
+            [33m"[39;49;00m[33mclass MyClass1:[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33m    pass[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Configure Sphinx to generate documentation with SVG diagrams[39;49;00m[90m[39;49;00m
+        conf_py = docs_source / [33m"[39;49;00m[33mconf.py[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        conf_py.write_text([90m[39;49;00m
+            [33m"[39;49;00m[33mextensions = [[39;49;00m[33m'[39;49;00m[33msphinx.ext.autodoc[39;49;00m[33m'[39;49;00m[33m, [39;49;00m[33m'[39;49;00m[33msphinx.ext.graphviz[39;49;00m[33m'[39;49;00m[33m, [39;49;00m[33m'[39;49;00m[33msphinx.ext.inheritance_diagram[39;49;00m[33m'[39;49;00m[33m][39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33mgraphviz_output_format = [39;49;00m[33m'[39;49;00m[33msvg[39;49;00m[33m'[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33mimport os[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33mimport sys[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+            [33m"[39;49;00m[33msys.path.insert(0, os.path.abspath([39;49;00m[33m'[39;49;00m[33m.[39;49;00m[33m'[39;49;00m[33m))[39;49;00m[33m\n[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        )[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Generate the documentation[39;49;00m[90m[39;49;00m
+        app = Sphinx([90m[39;49;00m
+            srcdir=[96mstr[39;49;00m(docs_source),[90m[39;49;00m
+            confdir=[96mstr[39;49;00m(docs_source),[90m[39;49;00m
+            outdir=[96mstr[39;49;00m(docs_build),[90m[39;49;00m
+            doctreedir=[96mstr[39;49;00m(docs_build / [33m"[39;49;00m[33m.doctrees[39;49;00m[33m"[39;49;00m),[90m[39;49;00m
+            buildername=[33m"[39;49;00m[33mhtml[39;49;00m[33m"[39;49;00m,[90m[39;49;00m
+        )[90m[39;49;00m
+        app.build()[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Check the generated SVG file for incorrect link paths[39;49;00m[90m[39;49;00m
+        svg_files = [96mlist[39;49;00m(docs_build.glob([33m"[39;49;00m[33m**/inheritance-*.svg[39;49;00m[33m"[39;49;00m))[90m[39;49;00m
+        [94massert[39;49;00m svg_files, [33m"[39;49;00m[33mSVG file was not generated.[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Read the SVG file and check for incorrect links[39;49;00m[90m[39;49;00m
+        [94mwith[39;49;00m [96mopen[39;49;00m(svg_files[[94m0[39;49;00m], [33m"[39;49;00m[33mr[39;49;00m[33m"[39;49;00m, encoding=[33m"[39;49;00m[33mutf-8[39;49;00m[33m"[39;49;00m) [94mas[39;49;00m f:[90m[39;49;00m
+            svg_content = f.read()[90m[39;49;00m
+            [90m# Check for any incorrect link paths prefixed with '../'[39;49;00m[90m[39;49;00m
+            [90m# The test should fail if incorrect links are found[39;49;00m[90m[39;49;00m
+>           [94massert[39;49;00m [33m"[39;49;00m[33m../[39;49;00m[33m"[39;49;00m [95mnot[39;49;00m [95min[39;49;00m svg_content, [33m"[39;49;00m[33mThe SVG links are incorrect due to the bug.[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+[1m[31mE           AssertionError: The SVG links are incorrect due to the bug.[0m
+[1m[31mE           assert '../' not in '<ns0:svg xm...\n</ns0:svg>'[0m
+[1m[31mE             [0m
+[1m[31mE             '../' is contained here:[0m
+[1m[31mE               ns1:href="../my_package/index.html#my_package.my_class_1.MyClass1" ns1:title="MyClass1" target="_top">[0m
+[1m[31mE             ?           +++[0m
+[1m[31mE               <ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="64,-19 0,-19 0,0 64,0 64,-19" />[0m
+[1m[31mE               <ns0:text text-anchor="middle" x="32" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MyClass1</ns0:text>[0m
+[1m[31mE               </ns0:a>...[0m
+[1m[31mE             [0m
+[1m[31mE             ...Full output truncated (4 lines hidden), use '-vv' to show[0m
+
+[1m[31mtests/test_coverup_sphinx-doc__sphinx-10614.py[0m:70: AssertionError
+----------------------------- Captured stdout call -----------------------------
+[01mRunning Sphinx v7.2.0+/ac2b7599d[39;49;00m
+1.09 inheritance_diagram.py(1): r"""Defines a docutils directive for inserting inheritance diagrams.
+1.09 inheritance_diagram.py(31): from __future__ import annotations
+1.09 inheritance_diagram.py(33): import builtins
+1.09 inheritance_diagram.py(34): import hashlib
+1.09 inheritance_diagram.py(35): import inspect
+1.09 inheritance_diagram.py(36): import re
+1.09 inheritance_diagram.py(37): from collections.abc import Iterable
+1.09 inheritance_diagram.py(38): from importlib import import_module
+1.09 inheritance_diagram.py(39): from typing import Any, cast
+1.09 inheritance_diagram.py(41): from docutils import nodes
+1.09 inheritance_diagram.py(42): from docutils.nodes import Node
+1.09 inheritance_diagram.py(43): from docutils.parsers.rst import directives
+1.09 inheritance_diagram.py(45): import sphinx
+1.09 inheritance_diagram.py(46): from sphinx import addnodes
+1.09 inheritance_diagram.py(47): from sphinx.application import Sphinx
+1.09 inheritance_diagram.py(48): from sphinx.environment import BuildEnvironment
+1.09 inheritance_diagram.py(49): from sphinx.ext.graphviz import (
+1.09 inheritance_diagram.py(56): from sphinx.util.docutils import SphinxDirective
+1.09 inheritance_diagram.py(57): from sphinx.util.typing import OptionSpec
+1.09 inheritance_diagram.py(58): from sphinx.writers.html import HTML5Translator
+1.09 inheritance_diagram.py(59): from sphinx.writers.latex import LaTeXTranslator
+1.09 inheritance_diagram.py(60): from sphinx.writers.texinfo import TexinfoTranslator
+1.09 inheritance_diagram.py(62): module_sig_re = re.compile(r'''^(?:([\w.]*)\.)?  # module names
+1.09 inheritance_diagram.py(64):                            ''', re.VERBOSE)
+1.09 inheritance_diagram.py(62): module_sig_re = re.compile(r'''^(?:([\w.]*)\.)?  # module names
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(68):                if inspect.isclass(obj)]
+1.09 inheritance_diagram.py(67): py_builtins = [obj for obj in vars(builtins).values()
+1.09 inheritance_diagram.py(71): def try_import(objname: str) -> Any:
+1.09 inheritance_diagram.py(100): def import_classes(name: str, currmodule: str) -> Any:
+1.09 inheritance_diagram.py(131): class InheritanceException(Exception):
+1.09 inheritance_diagram.py(131): class InheritanceException(Exception):
+1.09 inheritance_diagram.py(132):     pass
+1.09 inheritance_diagram.py(135): class InheritanceGraph:
+1.09 inheritance_diagram.py(135): class InheritanceGraph:
+1.09 inheritance_diagram.py(136):     """
+1.09 inheritance_diagram.py(141):     def __init__(self, class_names: list[str], currmodule: str, show_builtins: bool = False,
+1.09 inheritance_diagram.py(142):                  private_bases: bool = False, parts: int = 0,
+1.09 inheritance_diagram.py(143):                  aliases: dict[str, str] | None = None, top_classes: list[Any] = [],
+1.09 inheritance_diagram.py(141):     def __init__(self, class_names: list[str], currmodule: str, show_builtins: bool = False,
+1.09 inheritance_diagram.py(158):     def _import_classes(self, class_names: list[str], currmodule: str) -> list[Any]:
+1.09 inheritance_diagram.py(165):     def _class_info(self, classes: list[Any], show_builtins: bool, private_bases: bool,
+1.09 inheritance_diagram.py(224):     def class_name(
+1.09 inheritance_diagram.py(246):     def get_all_class_names(self) -> list[str]:
+1.09 inheritance_diagram.py(252):         'rankdir': 'LR',
+1.09 inheritance_diagram.py(253):         'size': '"8.0, 12.0"',
+1.09 inheritance_diagram.py(254):         'bgcolor': 'transparent',
+1.09 inheritance_diagram.py(251):     default_graph_attrs = {
+1.09 inheritance_diagram.py(257):         'shape': 'box',
+1.09 inheritance_diagram.py(258):         'fontsize': 10,
+1.09 inheritance_diagram.py(259):         'height': 0.25,
+1.09 inheritance_diagram.py(260):         'fontname': '"Vera Sans, DejaVu Sans, Liberation Sans, '
+1.09 inheritance_diagram.py(262):         'style': '"setlinewidth(0.5),filled"',
+1.09 inheritance_diagram.py(263):         'fillcolor': 'white',
+1.09 inheritance_diagram.py(256):     default_node_attrs = {
+1.09 inheritance_diagram.py(266):         'arrowsize': 0.5,
+1.09 inheritance_diagram.py(267):         'style': '"setlinewidth(0.5)"',
+1.09 inheritance_diagram.py(265):     default_edge_attrs = {
+1.09 inheritance_diagram.py(270):     def _format_node_attrs(self, attrs: dict[str, Any]) -> str:
+1.09 inheritance_diagram.py(273):     def _format_graph_attrs(self, attrs: dict[str, Any]) -> str:
+1.09 inheritance_diagram.py(276):     def generate_dot(self, name: str, urls: dict[str, str] = {},
+1.09 inheritance_diagram.py(277):                      env: BuildEnvironment | None = None,
+1.09 inheritance_diagram.py(278):                      graph_attrs: dict = {}, node_attrs: dict = {}, edge_attrs: dict = {},
+1.09 inheritance_diagram.py(276):     def generate_dot(self, name: str, urls: dict[str, str] = {},
+1.09 inheritance_diagram.py(325): class inheritance_diagram(graphviz):
+1.09 inheritance_diagram.py(325): class inheritance_diagram(graphviz):
+1.09 inheritance_diagram.py(326):     """
+1.09 inheritance_diagram.py(329):     pass
+1.09 inheritance_diagram.py(332): class InheritanceDiagram(SphinxDirective):
+1.09 inheritance_diagram.py(332): class InheritanceDiagram(SphinxDirective):
+1.09 inheritance_diagram.py(333):     """
+1.09 inheritance_diagram.py(336):     has_content = False
+1.09 inheritance_diagram.py(337):     required_arguments = 1
+1.09 inheritance_diagram.py(338):     optional_arguments = 0
+1.09 inheritance_diagram.py(339):     final_argument_whitespace = True
+1.09 inheritance_diagram.py(341):         'parts': int,
+1.09 inheritance_diagram.py(342):         'private-bases': directives.flag,
+1.09 inheritance_diagram.py(343):         'caption': directives.unchanged,
+1.09 inheritance_diagram.py(344):         'top-classes': directives.unchanged_required,
+1.09 inheritance_diagram.py(340):     option_spec: OptionSpec = {
+1.09 inheritance_diagram.py(347):     def run(self) -> list[Node]:
+1.09 inheritance_diagram.py(393): def get_graph_hash(node: inheritance_diagram) -> str:
+1.09 inheritance_diagram.py(398): def html_visit_inheritance_diagram(self: HTML5Translator, node: inheritance_diagram) -> None:
+1.09 inheritance_diagram.py(431): def latex_visit_inheritance_diagram(self: LaTeXTranslator, node: inheritance_diagram) -> None:
+1.09 inheritance_diagram.py(446): def texinfo_visit_inheritance_diagram(self: TexinfoTranslator, node: inheritance_diagram,
+1.09 inheritance_diagram.py(462): def skip(self: nodes.NodeVisitor, node: inheritance_diagram) -> None:
+1.09 inheritance_diagram.py(466): def setup(app: Sphinx) -> dict[str, Any]:
+1.09 inheritance_diagram.py(467):     app.setup_extension('sphinx.ext.graphviz')
+1.09 inheritance_diagram.py(468):     app.add_node(
+1.09 inheritance_diagram.py(469):         inheritance_diagram,
+1.09 inheritance_diagram.py(470):         latex=(latex_visit_inheritance_diagram, None),
+1.09 inheritance_diagram.py(471):         html=(html_visit_inheritance_diagram, None),
+1.09 inheritance_diagram.py(472):         text=(skip, None),
+1.09 inheritance_diagram.py(473):         man=(skip, None),
+1.09 inheritance_diagram.py(474):         texinfo=(texinfo_visit_inheritance_diagram, None))
+1.09 inheritance_diagram.py(468):     app.add_node(
+1.09 inheritance_diagram.py(475):     app.add_directive('inheritance-diagram', InheritanceDiagram)
+1.09 inheritance_diagram.py(476):     app.add_config_value('inheritance_graph_attrs', {}, False)
+1.09 inheritance_diagram.py(477):     app.add_config_value('inheritance_node_attrs', {}, False)
+1.09 inheritance_diagram.py(478):     app.add_config_value('inheritance_edge_attrs', {}, False)
+1.09 inheritance_diagram.py(479):     app.add_config_value('inheritance_alias', {}, False)
+1.09 inheritance_diagram.py(480):     return {'version': sphinx.__display_version__, 'parallel_read_safe': True}
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mwriting output... [39;49;00m
+[01mbuilding [html]: [39;49;00mtargets for 2 source files that are out of date
+[01mupdating environment: [39;49;00m[new config] 2 added, 0 changed, 0 removed
+[2K[01mreading sources... [39;49;00m[ 50%] [35mindex[39;49;00m[2K[01mreading sources... [39;49;00m[100%] [35mmy_package/index[39;49;00m1.16 inheritance_diagram.py(348):         node = inheritance_diagram()
+1.16 inheritance_diagram.py(349):         node.document = self.state.document
+1.16 inheritance_diagram.py(350):         class_names = self.arguments[0].split()
+1.16 inheritance_diagram.py(351):         class_role = self.env.get_domain('py').role('class')
+1.16 inheritance_diagram.py(353):         node['parts'] = self.options.get('parts', 0)
+1.16 inheritance_diagram.py(354):         node['content'] = ', '.join(class_names)
+1.16 inheritance_diagram.py(355):         node['top-classes'] = []
+1.16 inheritance_diagram.py(356):         for cls in self.options.get('top-classes', '').split(','):
+1.16 inheritance_diagram.py(357):             cls = cls.strip()
+1.16 inheritance_diagram.py(358):             if cls:
+1.16 inheritance_diagram.py(356):         for cls in self.options.get('top-classes', '').split(','):
+1.16 inheritance_diagram.py(362):         try:
+1.16 inheritance_diagram.py(363):             graph = InheritanceGraph(
+1.16 inheritance_diagram.py(364):                 class_names, self.env.ref_context.get('py:module'),  # type: ignore[arg-type]
+1.16 inheritance_diagram.py(365):                 parts=node['parts'],
+1.16 inheritance_diagram.py(366):                 private_bases='private-bases' in self.options,
+1.16 inheritance_diagram.py(367):                 aliases=self.config.inheritance_alias,
+1.16 inheritance_diagram.py(368):                 top_classes=node['top-classes'])
+1.16 inheritance_diagram.py(363):             graph = InheritanceGraph(
+1.16 inheritance_diagram.py(150):         self.class_names = class_names
+1.16 inheritance_diagram.py(151):         classes = self._import_classes(class_names, currmodule)
+1.16 inheritance_diagram.py(160):         classes: list[Any] = []
+1.16 inheritance_diagram.py(161):         for name in class_names:
+1.16 inheritance_diagram.py(162):             classes.extend(import_classes(name, currmodule))
+1.16 inheritance_diagram.py(102):     target = None
+1.16 inheritance_diagram.py(105):     if currmodule:
+1.16 inheritance_diagram.py(109):     if target is None:
+1.16 inheritance_diagram.py(110):         target = try_import(name)
+1.16 inheritance_diagram.py(78):     try:
+1.16 inheritance_diagram.py(79):         return import_module(objname)
+1.16 inheritance_diagram.py(80):     except TypeError:
+1.16 inheritance_diagram.py(83):     except ImportError:
+1.16 inheritance_diagram.py(84):         matched = module_sig_re.match(objname)
+1.16 inheritance_diagram.py(86):         if not matched:
+1.16 inheritance_diagram.py(89):         modname, attrname = matched.groups()
+1.16 inheritance_diagram.py(91):         if modname is None:
+1.16 inheritance_diagram.py(93):         try:
+1.16 inheritance_diagram.py(94):             module = import_module(modname)
+1.16 inheritance_diagram.py(95):             return getattr(module, attrname, None)
+1.16 inheritance_diagram.py(112):     if target is None:
+1.16 inheritance_diagram.py(117):     if inspect.isclass(target):
+1.16 inheritance_diagram.py(119):         return [target]
+1.16 inheritance_diagram.py(161):         for name in class_names:
+1.16 inheritance_diagram.py(163):         return classes
+1.16 inheritance_diagram.py(152):         self.class_info = self._class_info(classes, show_builtins,
+1.16 inheritance_diagram.py(153):                                            private_bases, parts, aliases, top_classes)
+1.16 inheritance_diagram.py(152):         self.class_info = self._class_info(classes, show_builtins,
+1.16 inheritance_diagram.py(183):         all_classes = {}
+1.16 inheritance_diagram.py(185):         def recurse(cls: Any) -> None:
+1.16 inheritance_diagram.py(219):         for cls in classes:
+1.16 inheritance_diagram.py(220):             recurse(cls)
+1.16 inheritance_diagram.py(186):             if not show_builtins and cls in py_builtins:
+1.16 inheritance_diagram.py(188):             if not private_bases and cls.__name__.startswith('_'):
+1.16 inheritance_diagram.py(191):             nodename = self.class_name(cls, parts, aliases)
+1.16 inheritance_diagram.py(232):         module = cls.__module__
+1.16 inheritance_diagram.py(233):         if module in ('__builtin__', 'builtins'):
+1.16 inheritance_diagram.py(236):             fullname = f'{module}.{cls.__qualname__}'
+1.16 inheritance_diagram.py(237):         if parts == 0:
+1.17 inheritance_diagram.py(240):             name_parts = fullname.split('.')
+1.17 inheritance_diagram.py(241):             result = '.'.join(name_parts[-parts:])
+1.17 inheritance_diagram.py(242):         if aliases is not None and result in aliases:
+1.17 inheritance_diagram.py(244):         return result
+1.17 inheritance_diagram.py(192):             fullname = self.class_name(cls, 0, aliases)
+1.17 inheritance_diagram.py(232):         module = cls.__module__
+1.17 inheritance_diagram.py(233):         if module in ('__builtin__', 'builtins'):
+1.17 inheritance_diagram.py(236):             fullname = f'{module}.{cls.__qualname__}'
+1.17 inheritance_diagram.py(237):         if parts == 0:
+1.17 inheritance_diagram.py(238):             result = fullname
+1.17 inheritance_diagram.py(242):         if aliases is not None and result in aliases:
+1.17 inheritance_diagram.py(244):         return result
+1.17 inheritance_diagram.py(195):             tooltip = None
+1.17 inheritance_diagram.py(196):             try:
+1.17 inheritance_diagram.py(197):                 if cls.__doc__:
+1.17 inheritance_diagram.py(204):             baselist: list[str] = []
+1.17 inheritance_diagram.py(205):             all_classes[cls] = (nodename, fullname, baselist, tooltip)
+1.17 inheritance_diagram.py(207):             if fullname in top_classes:
+1.17 inheritance_diagram.py(210):             for base in cls.__bases__:
+1.17 inheritance_diagram.py(211):                 if not show_builtins and base in py_builtins:
+1.17 inheritance_diagram.py(212):                     continue
+1.17 inheritance_diagram.py(210):             for base in cls.__bases__:
+1.17 inheritance_diagram.py(219):         for cls in classes:
+1.17 inheritance_diagram.py(222):         return list(all_classes.values())  # type: ignore[arg-type]
+1.17 inheritance_diagram.py(154):         if not self.class_info:
+1.17 inheritance_diagram.py(376):         for name in graph.get_all_class_names():
+1.17 inheritance_diagram.py(248):         return [fullname for (_, fullname, _, _) in self.class_info]
+1.17 inheritance_diagram.py(248):         return [fullname for (_, fullname, _, _) in self.class_info]
+1.17 inheritance_diagram.py(248):         return [fullname for (_, fullname, _, _) in self.class_info]
+1.17 inheritance_diagram.py(377):             refnodes, x = class_role(  # type: ignore
+1.17 inheritance_diagram.py(378):                 'class', ':class:`%s`' % name, name, 0, self.state)  # type: ignore
+1.17 inheritance_diagram.py(377):             refnodes, x = class_role(  # type: ignore
+1.17 inheritance_diagram.py(379):             node.extend(refnodes)
+1.17 inheritance_diagram.py(376):         for name in graph.get_all_class_names():
+1.17 inheritance_diagram.py(382):         node['graph'] = graph
+1.17 inheritance_diagram.py(384):         if 'caption' not in self.options:
+1.17 inheritance_diagram.py(385):             self.add_name(node)
+1.17 inheritance_diagram.py(386):             return [node]
+
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mcopying assets... [39;49;00m[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+done
+[2K[01mwriting output... [39;49;00m[ 50%] [32mindex[39;49;00m[2K[01mwriting output... [39;49;00m[100%] [32mmy_package/index[39;49;00m1.40 inheritance_diagram.py(403):     graph = node['graph']
+1.40 inheritance_diagram.py(405):     graph_hash = get_graph_hash(node)
+1.40 inheritance_diagram.py(394):     encoded = (node['content'] + str(node['parts'])).encode()
+1.40 inheritance_diagram.py(395):     return hashlib.md5(encoded, usedforsecurity=False).hexdigest()[-10:]
+1.40 inheritance_diagram.py(406):     name = 'inheritance%s' % graph_hash
+1.40 inheritance_diagram.py(409):     graphviz_output_format = self.builder.env.config.graphviz_output_format.upper()
+1.40 inheritance_diagram.py(410):     current_filename = self.builder.current_docname + self.builder.out_suffix
+1.40 inheritance_diagram.py(411):     urls = {}
+1.40 inheritance_diagram.py(412):     pending_xrefs = cast(Iterable[addnodes.pending_xref], node)
+1.40 inheritance_diagram.py(413):     for child in pending_xrefs:
+1.40 inheritance_diagram.py(414):         if child.get('refuri') is not None:
+1.40 inheritance_diagram.py(419):         elif child.get('refid') is not None:
+1.40 inheritance_diagram.py(420):             if graphviz_output_format == 'SVG':
+1.40 inheritance_diagram.py(421):                 urls[child['reftitle']] = '../' + current_filename + '#' + child.get('refid')
+1.40 inheritance_diagram.py(413):     for child in pending_xrefs:
+1.40 inheritance_diagram.py(425):     dotcode = graph.generate_dot(name, urls, env=self.builder.env)
+1.40 inheritance_diagram.py(290):         g_attrs = self.default_graph_attrs.copy()
+1.40 inheritance_diagram.py(291):         n_attrs = self.default_node_attrs.copy()
+1.40 inheritance_diagram.py(292):         e_attrs = self.default_edge_attrs.copy()
+1.40 inheritance_diagram.py(293):         g_attrs.update(graph_attrs)
+1.40 inheritance_diagram.py(294):         n_attrs.update(node_attrs)
+1.40 inheritance_diagram.py(295):         e_attrs.update(edge_attrs)
+1.40 inheritance_diagram.py(296):         if env:
+1.40 inheritance_diagram.py(297):             g_attrs.update(env.config.inheritance_graph_attrs)
+1.40 inheritance_diagram.py(298):             n_attrs.update(env.config.inheritance_node_attrs)
+1.40 inheritance_diagram.py(299):             e_attrs.update(env.config.inheritance_edge_attrs)
+1.40 inheritance_diagram.py(301):         res: list[str] = []
+1.40 inheritance_diagram.py(302):         res.append('digraph %s {\n' % name)
+1.40 inheritance_diagram.py(303):         res.append(self._format_graph_attrs(g_attrs))
+1.40 inheritance_diagram.py(274):         return ''.join(['%s=%s;\n' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(274):         return ''.join(['%s=%s;\n' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(274):         return ''.join(['%s=%s;\n' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(274):         return ''.join(['%s=%s;\n' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(274):         return ''.join(['%s=%s;\n' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(305):         for name, fullname, bases, tooltip in sorted(self.class_info):
+1.40 inheritance_diagram.py(307):             this_node_attrs = n_attrs.copy()
+1.40 inheritance_diagram.py(308):             if fullname in urls:
+1.40 inheritance_diagram.py(309):                 this_node_attrs['URL'] = '"%s"' % urls[fullname]
+1.40 inheritance_diagram.py(310):                 this_node_attrs['target'] = '"_top"'
+1.40 inheritance_diagram.py(311):             if tooltip:
+1.40 inheritance_diagram.py(313):             res.append('  "%s" [%s];\n' %
+1.40 inheritance_diagram.py(314):                        (name, self._format_node_attrs(this_node_attrs)))
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(271):         return ','.join(['%s=%s' % x for x in sorted(attrs.items())])
+1.40 inheritance_diagram.py(313):             res.append('  "%s" [%s];\n' %
+1.40 inheritance_diagram.py(317):             for base_name in bases:
+1.40 inheritance_diagram.py(305):         for name, fullname, bases, tooltip in sorted(self.class_info):
+1.40 inheritance_diagram.py(321):         res.append('}\n')
+1.40 inheritance_diagram.py(322):         return ''.join(res)
+1.40 inheritance_diagram.py(426):     render_dot_html(self, node, dotcode, {}, 'inheritance', 'inheritance',
+1.40 inheritance_diagram.py(427):                     alt='Inheritance diagram of ' + node['content'])
+1.40 inheritance_diagram.py(426):     render_dot_html(self, node, dotcode, {}, 'inheritance', 'inheritance',
+
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in ../tmp/pytest-of-root/pytest-0/test_svg_links_in_subdirectory0/docs_build.
+============================= slowest 25 durations =============================
+1.00s call     tests/test_coverup_sphinx-doc__sphinx-10614.py::test_svg_links_in_subdirectory_are_incorrect
+
+(2 durations < 0.005s hidden.  Use -vv to show these durations.)
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/test_coverup_sphinx-doc__sphinx-10614.py::[1mtest_svg_links_in_subdirectory_are_incorrect[0m - AssertionError: The SVG links are incorrect due to the bug.
+[31m============================== [31m[1m1 failed[0m[31m in 1.29s[0m[31m ===============================[0m
+py39: exit 0 (1.98 seconds) /testbed> python -X dev -X warn_default_encoding -m pytest -rA --durations 25 tests/test_coverup_sphinx-doc__sphinx-10614.py pid=153
+.pkg: _exit> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi
+.pkg: exit None (0.00 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True flit_core.buildapi pid=138
+  py39: OK (4.77=setup[2.79]+cmd[1.98] seconds)
+  congratulations :) (6.73 seconds)
++ cat coverage.cover
+{"/testbed/sphinx/ext/inheritance_diagram.py": {"31": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "41": 1, "42": 1, "43": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "56": 1, "57": 1, "58": 1, "59": 1, "60": 1, "62": 2, "64": 1, "67": 247, "71": 1, "100": 1, "131": 2, "135": 2, "325": 2, "332": 2, "393": 1, "398": 1, "431": 1, "446": 1, "462": 1, "466": 1, "68": 152, "78": 1, "79": 1, "80": 1, "82": 0, "83": 1, "84": 1, "86": 1, "87": 0, "89": 1, "91": 1, "92": 0, "93": 1, "94": 1, "95": 1, "96": 0, "97": 0, "102": 1, "105": 1, "106": 0, "109": 1, "110": 1, "112": 1, "113": 0, "114": 0, "115": 0, "117": 1, "119": 1, "120": 0, "122": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "128": 0, "132": 1, "141": 2, "142": 1, "143": 1, "158": 1, "165": 1, "224": 1, "246": 1, "252": 1, "253": 1, "254": 1, "251": 1, "257": 1, "258": 1, "259": 1, "260": 1, "262": 1, "263": 1, "256": 1, "266": 1, "267": 1, "265": 1, "270": 1, "273": 1, "276": 2, "277": 1, "278": 1, "150": 1, "151": 1, "152": 2, "153": 1, "154": 1, "155": 0, "160": 1, "161": 2, "162": 1, "163": 1, "183": 1, "185": 1, "219": 2, "220": 1, "222": 1, "186": 1, "187": 0, "188": 1, "189": 0, "191": 1, "192": 1, "195": 1, "196": 1, "197": 1, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "204": 1, "205": 1, "207": 1, "208": 0, "210": 2, "211": 1, "212": 1, "213": 0, "214": 0, "215": 0, "216": 0, "217": 0, "232": 2, "233": 2, "234": 0, "236": 2, "237": 2, "238": 1, "240": 1, "241": 1, "242": 2, "243": 0, "244": 2, "248": 3, "271": 10, "274": 5, "290": 1, "291": 1, "292": 1, "293": 1, "294": 1, "295": 1, "296": 1, "297": 1, "298": 1, "299": 1, "301": 1, "302": 1, "303": 1, "305": 2, "307": 1, "308": 1, "309": 1, "310": 1, "311": 1, "312": 0, "313": 2, "314": 1, "317": 1, "318": 0, "319": 0, "320": 0, "321": 1, "322": 1, "329": 1, "336": 1, "337": 1, "338": 1, "339": 1, "341": 1, "342": 1, "343": 1, "344": 1, "340": 1, "347": 1, "348": 1, "349": 1, "350": 1, "351": 1, "353": 1, "354": 1, "355": 1, "356": 2, "357": 1, "358": 1, "359": 0, "362": 1, "363": 2, "364": 1, "365": 1, "366": 1, "367": 1, "368": 1, "369": 0, "370": 0, "376": 2, "377": 2, "378": 1, "379": 1, "382": 1, "384": 1, "385": 1, "386": 1, "388": 0, "389": 0, "390": 0, "394": 1, "395": 1, "403": 1, "405": 1, "406": 1, "409": 1, "410": 1, "411": 1, "412": 1, "413": 2, "414": 1, "415": 0, "416": 0, "418": 0, "419": 1, "420": 1, "421": 1, "423": 0, "425": 1, "426": 2, "427": 1, "428": 0, "435": 0, "437": 0, "438": 0, "440": 0, "441": 0, "442": 0, "443": 0, "451": 0, "453": 0, "454": 0, "456": 0, "457": 0, "458": 0, "459": 0, "463": 0, "467": 1, "468": 2, "469": 1, "470": 1, "471": 1, "472": 1, "473": 1, "474": 1, "475": 1, "476": 1, "477": 1, "478": 1, "479": 1, "480": 1}}
++ git checkout ac2b7599d212af7d04649959ce6926c63c3133fa
+Note: switching to 'ac2b7599d212af7d04649959ce6926c63c3133fa'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at ac2b7599d autosummary: Extract summary line after "e.g." (#11196)
+M	tox.ini
++ git apply /root/pre_state.patch
+error: unrecognized input

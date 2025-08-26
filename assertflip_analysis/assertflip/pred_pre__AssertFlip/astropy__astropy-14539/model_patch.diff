@@ -1,0 +1,29 @@
+diff --git a/dev/null b/astropy/tests/test_coverup_astropy__astropy-14539.py
+new file mode 100644
+index e69de29..a0b5c53 100644
+--- /dev/null
++++ b/astropy/tests/test_coverup_astropy__astropy-14539.py
+@@ -0,0 +1,23 @@
++import os
++import pytest
++from astropy.io import fits
++
++def test_fitsdiff_vla_bug_exposure():
++    # Create a temporary file path
++    file_path = 'diffbug.fits'
++    
++    # Create a FITS file with a binary table HDU containing a VLA column
++    col = fits.Column(name='a', format='QD', array=[[0], [0, 0]])
++    hdu = fits.BinTableHDU.from_columns([col])
++    hdu.writeto(file_path, overwrite=True)
++
++    # Use FITSDiff to compare the file to itself
++    diff = fits.FITSDiff(file_path, file_path)
++    # Check the identical attribute to expose the bug
++    identical = diff.identical
++    # The test should fail if identical is False due to the bug
++    assert identical, "FITSDiff incorrectly reports differences in identical files"
++
++    # Cleanup: remove the temporary file
++    if os.path.exists(file_path):
++        os.remove(file_path)

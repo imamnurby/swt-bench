@@ -1,0 +1,1795 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 3f8c8c2377cb8e0daaf8073e8d03ac7d87580813
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 3f8c8c2377cb8e0daaf8073e8d03ac7d87580813
+Merge: c4bdb03556 757e0fc9c9
+Author: Chris Smith <smichr@gmail.com>
+Date:   Fri Sep 10 17:44:08 2021 -0500
+
+    Merge pull request #22064 from oscargus/utilitiescleanup2
+    
+    Cleanup in utilities.iterables including no more usage of cartes
+
++ git diff 3f8c8c2377cb8e0daaf8073e8d03ac7d87580813
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.10.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.10.dev0
+    Uninstalling sympy-1.10.dev0:
+      Successfully uninstalled sympy-1.10.dev0
+  DEPRECATION: Legacy editable install of sympy==1.10.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:12: trailing whitespace.
+    
+<stdin>:15: trailing whitespace.
+    
+<stdin>:19: trailing whitespace.
+    
+<stdin>:23: trailing whitespace.
+    
+<stdin>:26: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-22080.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-22080.py cleanly.
+warning: 5 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/printing/codeprinter\.py|sympy/printing/precedence\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-22080.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/printing/codeprinter\\.py|sympy/printing/precedence\\.py)']
+0.54 precedence.py(1): """A module providing information about the necessity of brackets"""
+0.54 precedence.py(3): from sympy.core.function import _coeff_isneg
+0.54 precedence.py(7):     "Lambda": 1,
+0.54 precedence.py(8):     "Xor": 10,
+0.54 precedence.py(9):     "Or": 20,
+0.54 precedence.py(10):     "And": 30,
+0.54 precedence.py(11):     "Relational": 35,
+0.54 precedence.py(12):     "Add": 40,
+0.54 precedence.py(13):     "Mul": 50,
+0.54 precedence.py(14):     "Pow": 60,
+0.54 precedence.py(15):     "Func": 70,
+0.54 precedence.py(16):     "Not": 100,
+0.54 precedence.py(17):     "Atom": 1000,
+0.54 precedence.py(18):     "BitwiseOr": 36,
+0.54 precedence.py(19):     "BitwiseXor": 37,
+0.54 precedence.py(20):     "BitwiseAnd": 38
+0.54 precedence.py(6): PRECEDENCE = {
+0.54 precedence.py(28):     "Equivalent": PRECEDENCE["Xor"],
+0.54 precedence.py(29):     "Xor": PRECEDENCE["Xor"],
+0.54 precedence.py(30):     "Implies": PRECEDENCE["Xor"],
+0.54 precedence.py(31):     "Or": PRECEDENCE["Or"],
+0.54 precedence.py(32):     "And": PRECEDENCE["And"],
+0.54 precedence.py(33):     "Add": PRECEDENCE["Add"],
+0.54 precedence.py(34):     "Pow": PRECEDENCE["Pow"],
+0.54 precedence.py(35):     "Relational": PRECEDENCE["Relational"],
+0.54 precedence.py(36):     "Sub": PRECEDENCE["Add"],
+0.54 precedence.py(37):     "Not": PRECEDENCE["Not"],
+0.54 precedence.py(38):     "Function" : PRECEDENCE["Func"],
+0.54 precedence.py(39):     "NegativeInfinity": PRECEDENCE["Add"],
+0.54 precedence.py(40):     "MatAdd": PRECEDENCE["Add"],
+0.54 precedence.py(41):     "MatPow": PRECEDENCE["Pow"],
+0.54 precedence.py(42):     "MatrixSolve": PRECEDENCE["Mul"],
+0.54 precedence.py(43):     "TensAdd": PRECEDENCE["Add"],
+0.54 precedence.py(45):     "TensMul": PRECEDENCE["Mul"],
+0.54 precedence.py(46):     "HadamardProduct": PRECEDENCE["Mul"],
+0.54 precedence.py(47):     "HadamardPower": PRECEDENCE["Pow"],
+0.54 precedence.py(48):     "KroneckerProduct": PRECEDENCE["Mul"],
+0.54 precedence.py(49):     "Equality": PRECEDENCE["Mul"],
+0.54 precedence.py(50):     "Unequality": PRECEDENCE["Mul"],
+0.54 precedence.py(27): PRECEDENCE_VALUES = {
+0.54 precedence.py(61): def precedence_Mul(item):
+0.54 precedence.py(67): def precedence_Rational(item):
+0.54 precedence.py(73): def precedence_Integer(item):
+0.54 precedence.py(79): def precedence_Float(item):
+0.54 precedence.py(85): def precedence_PolyElement(item):
+0.54 precedence.py(96): def precedence_FracElement(item):
+0.54 precedence.py(103): def precedence_UnevaluatedExpr(item):
+0.54 precedence.py(108):     "Integer": precedence_Integer,
+0.54 precedence.py(109):     "Mul": precedence_Mul,
+0.54 precedence.py(110):     "Rational": precedence_Rational,
+0.54 precedence.py(111):     "Float": precedence_Float,
+0.54 precedence.py(112):     "PolyElement": precedence_PolyElement,
+0.54 precedence.py(113):     "FracElement": precedence_FracElement,
+0.54 precedence.py(114):     "UnevaluatedExpr": precedence_UnevaluatedExpr,
+0.54 precedence.py(107): PRECEDENCE_FUNCTIONS = {
+0.54 precedence.py(118): def precedence(item):
+0.54 precedence.py(138): PRECEDENCE_TRADITIONAL = PRECEDENCE.copy()
+0.54 precedence.py(139): PRECEDENCE_TRADITIONAL['Integral'] = PRECEDENCE["Mul"]
+0.54 precedence.py(140): PRECEDENCE_TRADITIONAL['Sum'] = PRECEDENCE["Mul"]
+0.54 precedence.py(141): PRECEDENCE_TRADITIONAL['Product'] = PRECEDENCE["Mul"]
+0.54 precedence.py(142): PRECEDENCE_TRADITIONAL['Limit'] = PRECEDENCE["Mul"]
+0.54 precedence.py(143): PRECEDENCE_TRADITIONAL['Derivative'] = PRECEDENCE["Mul"]
+0.54 precedence.py(144): PRECEDENCE_TRADITIONAL['TensorProduct'] = PRECEDENCE["Mul"]
+0.54 precedence.py(145): PRECEDENCE_TRADITIONAL['Transpose'] = PRECEDENCE["Pow"]
+0.54 precedence.py(146): PRECEDENCE_TRADITIONAL['Adjoint'] = PRECEDENCE["Pow"]
+0.54 precedence.py(147): PRECEDENCE_TRADITIONAL['Dot'] = PRECEDENCE["Mul"] - 1
+0.54 precedence.py(148): PRECEDENCE_TRADITIONAL['Cross'] = PRECEDENCE["Mul"] - 1
+0.54 precedence.py(149): PRECEDENCE_TRADITIONAL['Gradient'] = PRECEDENCE["Mul"] - 1
+0.54 precedence.py(150): PRECEDENCE_TRADITIONAL['Divergence'] = PRECEDENCE["Mul"] - 1
+0.54 precedence.py(151): PRECEDENCE_TRADITIONAL['Curl'] = PRECEDENCE["Mul"] - 1
+0.54 precedence.py(152): PRECEDENCE_TRADITIONAL['Laplacian'] = PRECEDENCE["Mul"] - 1
+0.54 precedence.py(153): PRECEDENCE_TRADITIONAL['Union'] = PRECEDENCE['Xor']
+0.54 precedence.py(154): PRECEDENCE_TRADITIONAL['Intersection'] = PRECEDENCE['Xor']
+0.54 precedence.py(155): PRECEDENCE_TRADITIONAL['Complement'] = PRECEDENCE['Xor']
+0.54 precedence.py(156): PRECEDENCE_TRADITIONAL['SymmetricDifference'] = PRECEDENCE['Xor']
+0.54 precedence.py(157): PRECEDENCE_TRADITIONAL['ProductSet'] = PRECEDENCE['Xor']
+0.54 precedence.py(160): def precedence_traditional(item):
+0.58 codeprinter.py(1): from typing import Any, Dict, Set, Tuple
+0.58 codeprinter.py(3): from functools import wraps
+0.58 codeprinter.py(5): from sympy.core import Add, Expr, Mul, Pow, S, sympify, Float
+0.58 codeprinter.py(6): from sympy.core.basic import Basic
+0.58 codeprinter.py(7): from sympy.core.compatibility import default_sort_key
+0.58 codeprinter.py(8): from sympy.core.function import Lambda
+0.58 codeprinter.py(9): from sympy.core.mul import _keep_coeff
+0.58 codeprinter.py(10): from sympy.core.symbol import Symbol
+0.58 codeprinter.py(11): from sympy.printing.str import StrPrinter
+0.58 codeprinter.py(12): from sympy.printing.precedence import precedence
+0.58 codeprinter.py(15): class requires:
+0.58 codeprinter.py(15): class requires:
+0.58 codeprinter.py(16):     """ Decorator for registering requirements on print methods. """
+0.58 codeprinter.py(17):     def __init__(self, **kwargs):
+0.58 codeprinter.py(20):     def __call__(self, method):
+0.58 codeprinter.py(28): class AssignmentError(Exception):
+0.58 codeprinter.py(28): class AssignmentError(Exception):
+0.58 codeprinter.py(29):     """
+0.58 codeprinter.py(32):     pass
+0.58 codeprinter.py(35): class CodePrinter(StrPrinter):
+0.58 codeprinter.py(35): class CodePrinter(StrPrinter):
+0.58 codeprinter.py(36):     """
+0.58 codeprinter.py(41):         'and': '&&',
+0.58 codeprinter.py(42):         'or': '||',
+0.58 codeprinter.py(43):         'not': '!',
+0.58 codeprinter.py(40):     _operators = {
+0.58 codeprinter.py(47):         'order': None,
+0.58 codeprinter.py(48):         'full_prec': 'auto',
+0.58 codeprinter.py(49):         'error_on_reserved': False,
+0.58 codeprinter.py(50):         'reserved_word_suffix': '_',
+0.58 codeprinter.py(51):         'human': True,
+0.58 codeprinter.py(52):         'inline': False,
+0.58 codeprinter.py(53):         'allow_unknown_functions': False,
+0.58 codeprinter.py(46):     _default_settings = {
+0.58 codeprinter.py(59):             'erf2': 'erf',
+0.58 codeprinter.py(60):             'Li': 'li',
+0.58 codeprinter.py(61):             'beta': 'gamma'
+0.58 codeprinter.py(58):     _rewriteable_functions = {
+0.58 codeprinter.py(64):     def __init__(self, settings=None):
+0.58 codeprinter.py(70):     def doprint(self, expr, assign_to=None):
+0.58 codeprinter.py(133):     def _doprint_loops(self, expr, assign_to=None):
+0.58 codeprinter.py(212):     def _get_expression_indices(self, expr, assign_to):
+0.58 codeprinter.py(226):     def _sort_optimized(self, indices, expr):
+0.58 codeprinter.py(249):     def _rate_index_position(self, p):
+0.58 codeprinter.py(258):     def _get_statement(self, codestring):
+0.58 codeprinter.py(263):     def _get_comment(self, text):
+0.58 codeprinter.py(268):     def _declare_number_const(self, name, value):
+0.58 codeprinter.py(273):     def _format_code(self, lines):
+0.58 codeprinter.py(280):     def _get_loop_opening_ending(self, indices):
+0.58 codeprinter.py(286):     def _print_Dummy(self, expr):
+0.58 codeprinter.py(292):     def _print_CodeBlock(self, expr):
+0.58 codeprinter.py(295):     def _print_String(self, string):
+0.58 codeprinter.py(298):     def _print_QuotedString(self, arg):
+0.58 codeprinter.py(301):     def _print_Comment(self, string):
+0.58 codeprinter.py(304):     def _print_Assignment(self, expr):
+0.58 ['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/printing/codeprinter\\.py|sympy/printing/precedence\\.py)']
+0.22 precedence.py(1): """A module providing information about the necessity of brackets"""
+0.22 precedence.py(3): from sympy.core.function import _coeff_isneg
+0.22 precedence.py(7):     "Lambda": 1,
+0.22 precedence.py(8):     "Xor": 10,
+0.22 precedence.py(9):     "Or": 20,
+0.22 precedence.py(10):     "And": 30,
+0.22 precedence.py(11):     "Relational": 35,
+0.22 precedence.py(12):     "Add": 40,
+0.22 precedence.py(13):     "Mul": 50,
+0.22 precedence.py(14):     "Pow": 60,
+0.22 precedence.py(15):     "Func": 70,
+0.22 precedence.py(16):     "Not": 100,
+0.22 precedence.py(17):     "Atom": 1000,
+0.22 precedence.py(18):     "BitwiseOr": 36,
+0.22 precedence.py(19):     "BitwiseXor": 37,
+0.22 precedence.py(20):     "BitwiseAnd": 38
+0.22 precedence.py(6): PRECEDENCE = {
+0.22 precedence.py(28):     "Equivalent": PRECEDENCE["Xor"],
+0.22 precedence.py(29):     "Xor": PRECEDENCE["Xor"],
+0.22 precedence.py(30):     "Implies": PRECEDENCE["Xor"],
+0.22 precedence.py(31):     "Or": PRECEDENCE["Or"],
+0.22 precedence.py(32):     "And": PRECEDENCE["And"],
+0.22 precedence.py(33):     "Add": PRECEDENCE["Add"],
+0.22 precedence.py(34):     "Pow": PRECEDENCE["Pow"],
+0.22 precedence.py(35):     "Relational": PRECEDENCE["Relational"],
+0.22 precedence.py(36):     "Sub": PRECEDENCE["Add"],
+0.22 precedence.py(37):     "Not": PRECEDENCE["Not"],
+0.22 precedence.py(38):     "Function" : PRECEDENCE["Func"],
+0.22 precedence.py(39):     "NegativeInfinity": PRECEDENCE["Add"],
+0.22 precedence.py(40):     "MatAdd": PRECEDENCE["Add"],
+0.22 precedence.py(41):     "MatPow": PRECEDENCE["Pow"],
+0.22 precedence.py(42):     "MatrixSolve": PRECEDENCE["Mul"],
+0.22 precedence.py(43):     "TensAdd": PRECEDENCE["Add"],
+0.22 precedence.py(45):     "TensMul": PRECEDENCE["Mul"],
+0.22 precedence.py(46):     "HadamardProduct": PRECEDENCE["Mul"],
+0.22 precedence.py(47):     "HadamardPower": PRECEDENCE["Pow"],
+0.22 precedence.py(48):     "KroneckerProduct": PRECEDENCE["Mul"],
+0.22 precedence.py(49):     "Equality": PRECEDENCE["Mul"],
+0.22 precedence.py(50):     "Unequality": PRECEDENCE["Mul"],
+0.22 precedence.py(27): PRECEDENCE_VALUES = {
+0.22 precedence.py(61): def precedence_Mul(item):
+0.22 precedence.py(67): def precedence_Rational(item):
+0.22 precedence.py(73): def precedence_Integer(item):
+0.22 precedence.py(79): def precedence_Float(item):
+0.22 precedence.py(85): def precedence_PolyElement(item):
+0.22 precedence.py(96): def precedence_FracElement(item):
+0.22 precedence.py(103): def precedence_UnevaluatedExpr(item):
+0.22 precedence.py(108):     "Integer": precedence_Integer,
+0.22 precedence.py(109):     "Mul": precedence_Mul,
+0.22 precedence.py(110):     "Rational": precedence_Rational,
+0.22 precedence.py(111):     "Float": precedence_Float,
+0.22 precedence.py(112):     "PolyElement": precedence_PolyElement,
+0.22 precedence.py(113):     "FracElement": precedence_FracElement,
+0.22 precedence.py(114):     "UnevaluatedExpr": precedence_UnevaluatedExpr,
+0.22 precedence.py(107): PRECEDENCE_FUNCTIONS = {
+0.22 precedence.py(118): def precedence(item):
+0.22 precedence.py(138): PRECEDENCE_TRADITIONAL = PRECEDENCE.copy()
+0.22 precedence.py(139): PRECEDENCE_TRADITIONAL['Integral'] = PRECEDENCE["Mul"]
+0.22 precedence.py(140): PRECEDENCE_TRADITIONAL['Sum'] = PRECEDENCE["Mul"]
+0.22 precedence.py(141): PRECEDENCE_TRADITIONAL['Product'] = PRECEDENCE["Mul"]
+0.22 precedence.py(142): PRECEDENCE_TRADITIONAL['Limit'] = PRECEDENCE["Mul"]
+0.22 precedence.py(143): PRECEDENCE_TRADITIONAL['Derivative'] = PRECEDENCE["Mul"]
+0.22 precedence.py(144): PRECEDENCE_TRADITIONAL['TensorProduct'] = PRECEDENCE["Mul"]
+0.22 precedence.py(145): PRECEDENCE_TRADITIONAL['Transpose'] = PRECEDENCE["Pow"]
+0.22 precedence.py(146): PRECEDENCE_TRADITIONAL['Adjoint'] = PRECEDENCE["Pow"]
+0.22 precedence.py(147): PRECEDENCE_TRADITIONAL['Dot'] = PRECEDENCE["Mul"] - 1
+0.22 precedence.py(148): PRECEDENCE_TRADITIONAL['Cross'] = PRECEDENCE["Mul"] - 1
+0.22 precedence.py(149): PRECEDENCE_TRADITIONAL['Gradient'] = PRECEDENCE["Mul"] - 1
+0.22 precedence.py(150): PRECEDENCE_TRADITIONAL['Divergence'] = PRECEDENCE["Mul"] - 1
+0.22 precedence.py(151): PRECEDENCE_TRADITIONAL['Curl'] = PRECEDENCE["Mul"] - 1
+0.22 precedence.py(152): PRECEDENCE_TRADITIONAL['Laplacian'] = PRECEDENCE["Mul"] - 1
+0.22 precedence.py(153): PRECEDENCE_TRADITIONAL['Union'] = PRECEDENCE['Xor']
+0.22 precedence.py(154): PRECEDENCE_TRADITIONAL['Intersection'] = PRECEDENCE['Xor']
+0.22 precedence.py(155): PRECEDENCE_TRADITIONAL['Complement'] = PRECEDENCE['Xor']
+0.22 precedence.py(156): PRECEDENCE_TRADITIONAL['SymmetricDifference'] = PRECEDENCE['Xor']
+0.22 precedence.py(157): PRECEDENCE_TRADITIONAL['ProductSet'] = PRECEDENCE['Xor']
+0.22 precedence.py(160): def precedence_traditional(item):
+0.23 codeprinter.py(1): from typing import Any, Dict, Set, Tuple
+0.23 codeprinter.py(3): from functools import wraps
+0.23 codeprinter.py(5): from sympy.core import Add, Expr, Mul, Pow, S, sympify, Float
+0.23 codeprinter.py(6): from sympy.core.basic import Basic
+0.23 codeprinter.py(7): from sympy.core.compatibility import default_sort_key
+0.23 codeprinter.py(8): from sympy.core.function import Lambda
+0.23 codeprinter.py(9): from sympy.core.mul import _keep_coeff
+0.23 codeprinter.py(10): from sympy.core.symbol import Symbol
+0.23 codeprinter.py(11): from sympy.printing.str import StrPrinter
+0.23 codeprinter.py(12): from sympy.printing.precedence import precedence
+0.23 codeprinter.py(15): class requires:
+0.23 codeprinter.py(15): class requires:
+0.23 codeprinter.py(16):     """ Decorator for registering requirements on print methods. """
+0.23 codeprinter.py(17):     def __init__(self, **kwargs):
+0.23 codeprinter.py(20):     def __call__(self, method):
+0.23 codeprinter.py(28): class AssignmentError(Exception):
+0.23 codeprinter.py(28): class AssignmentError(Exception):
+0.23 codeprinter.py(29):     """
+0.23 codeprinter.py(32):     pass
+0.23 codeprinter.py(35): class CodePrinter(StrPrinter):
+0.23 codeprinter.py(35): class CodePrinter(StrPrinter):
+0.23 codeprinter.py(36):     """
+0.23 codeprinter.py(41):         'and': '&&',
+0.23 codeprinter.py(42):         'or': '||',
+0.23 codeprinter.py(43):         'not': '!',
+0.23 codeprinter.py(40):     _operators = {
+0.23 codeprinter.py(47):         'order': None,
+0.23 codeprinter.py(48):         'full_prec': 'auto',
+0.23 codeprinter.py(49):         'error_on_reserved': False,
+0.23 codeprinter.py(50):         'reserved_word_suffix': '_',
+0.23 codeprinter.py(51):         'human': True,
+0.23 codeprinter.py(52):         'inline': False,
+0.23 codeprinter.py(53):         'allow_unknown_functions': False,
+0.23 codeprinter.py(46):     _default_settings = {
+0.23 codeprinter.py(59):             'erf2': 'erf',
+0.23 codeprinter.py(60):             'Li': 'li',
+0.23 codeprinter.py(61):             'beta': 'gamma'
+0.23 codeprinter.py(58):     _rewriteable_functions = {
+0.23 codeprinter.py(64):     def __init__(self, settings=None):
+0.23 codeprinter.py(70):     def doprint(self, expr, assign_to=None):
+0.23 codeprinter.py(133):     def _doprint_loops(self, expr, assign_to=None):
+0.23 codeprinter.py(212):     def _get_expression_indices(self, expr, assign_to):
+0.23 codeprinter.py(226):     def _sort_optimized(self, indices, expr):
+0.23 codeprinter.py(249):     def _rate_index_position(self, p):
+0.23 codeprinter.py(258):     def _get_statement(self, codestring):
+0.23 codeprinter.py(263):     def _get_comment(self, text):
+0.23 codeprinter.py(268):     def _declare_number_const(self, name, value):
+0.23 codeprinter.py(273):     def _format_code(self, lines):
+0.23 codeprinter.py(280):     def _get_loop_opening_ending(self, indices):
+0.23 codeprinter.py(286):     def _print_Dummy(self, expr):
+0.23 codeprinter.py(292):     def _print_CodeBlock(self, expr):
+0.23 codeprinter.py(295):     def _print_String(self, string):
+0.23 codeprinter.py(298):     def _print_QuotedString(self, arg):
+0.23 codeprinter.py(301):     def _print_Comment(self, string):
+0.23 codeprinter.py(304):     def _print_Assignment(self, expr):
+0.23 codeprinter.py(341):     def _print_AugmentedAssignment(self, expr):
+0.23 codeprinter.py(348):     def _print_FunctionCall(self, expr):
+0.23 codeprinter.py(354):     def _print_Variable(self, expr):
+0.23 codeprinter.py(357):     def _print_Statement(self, expr):
+0.23 codeprinter.py(361):     def _print_Symbol(self, expr):
+0.23 codeprinter.py(374):     def _print_Function(self, expr):
+0.23 codeprinter.py(401):     _print_Expr = _print_Function
+0.23 codeprinter.py(403):     def _print_NumberSymbol(self, expr):
+0.23 codeprinter.py(413):     def _print_Catalan(self, expr):
+0.23 codeprinter.py(415):     def _print_EulerGamma(self, expr):
+0.23 codeprinter.py(417):     def _print_GoldenRatio(self, expr):
+0.23 codeprinter.py(419):     def _print_TribonacciConstant(self, expr):
+0.23 codeprinter.py(421):     def _print_Exp1(self, expr):
+0.23 codeprinter.py(423):     def _print_Pi(self, expr):
+0.23 codeprinter.py(426):     def _print_And(self, expr):
+0.23 codeprinter.py(431):     def _print_Or(self, expr):
+0.23 codeprinter.py(436):     def _print_Xor(self, expr):
+0.23 codeprinter.py(443):     def _print_Equivalent(self, expr):
+0.23 codeprinter.py(450):     def _print_Not(self, expr):
+0.23 codeprinter.py(454):     def _print_Mul(self, expr):
+0.23 codeprinter.py(505):     def _print_not_supported(self, expr):
+0.23 codeprinter.py(514):     _print_Basic = _print_not_supported
+0.23 codeprinter.py(515):     _print_ComplexInfinity = _print_not_supported
+0.23 codeprinter.py(516):     _print_Derivative = _print_not_supported
+0.23 codeprinter.py(517):     _print_ExprCondPair = _print_not_supported
+0.23 codeprinter.py(518):     _print_GeometryEntity = _print_not_supported
+0.23 codeprinter.py(519):     _print_Infinity = _print_not_supported
+0.23 codeprinter.py(520):     _print_Integral = _print_not_supported
+0.23 codeprinter.py(521):     _print_Interval = _print_not_supported
+0.23 codeprinter.py(522):     _print_AccumulationBounds = _print_not_supported
+0.23 codeprinter.py(523):     _print_Limit = _print_not_supported
+0.23 codeprinter.py(524):     _print_MatrixBase = _print_not_supported
+0.23 codeprinter.py(525):     _print_DeferredVector = _print_not_supported
+0.23 codeprinter.py(526):     _print_NaN = _print_not_supported
+0.23 codeprinter.py(527):     _print_NegativeInfinity = _print_not_supported
+0.23 codeprinter.py(528):     _print_Order = _print_not_supported
+0.23 codeprinter.py(529):     _print_RootOf = _print_not_supported
+0.23 codeprinter.py(530):     _print_RootsOf = _print_not_supported
+0.23 codeprinter.py(531):     _print_RootSum = _print_not_supported
+0.23 codeprinter.py(532):     _print_Uniform = _print_not_supported
+0.23 codeprinter.py(533):     _print_Unit = _print_not_supported
+0.23 codeprinter.py(534):     _print_Wild = _print_not_supported
+0.23 codeprinter.py(535):     _print_WildFunction = _print_not_supported
+0.23 codeprinter.py(536):     _print_Relational = _print_not_supported
+0.23 codeprinter.py(543): def ccode(expr, assign_to=None, standard='c99', **settings):
+0.23 codeprinter.py(676): def print_ccode(expr, **settings):
+0.23 codeprinter.py(680): def fcode(expr, assign_to=None, **settings):
+0.23 codeprinter.py(800): def print_fcode(expr, **settings):
+0.23 codeprinter.py(807): def cxxcode(expr, assign_to=None, standard='c++11', **settings):
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        13946501
+hash randomization: on (PYTHONHASHSEED=1904695750)
+
+sympy/polys/tests/test_coverup_sympy__sympy-22080.py[1] 
+test_lambdify_mod_bug 0.52 codeprinter.py(66):         super().__init__(settings=settings)
+0.52 codeprinter.py(67):         if not hasattr(self, 'reserved_words'):
+0.52 codeprinter.py(66):         super().__init__(settings=settings)
+0.52 codeprinter.py(67):         if not hasattr(self, 'reserved_words'):
+0.52 codeprinter.py(83):         from sympy.matrices.expressions.matexpr import MatrixSymbol
+0.52 codeprinter.py(84):         from sympy.codegen.ast import CodeBlock, Assignment
+0.53 codeprinter.py(86):         def _handle_assign_to(expr, assign_to):
+0.53 codeprinter.py(103):         expr = _handle_assign_to(expr, assign_to)
+0.53 codeprinter.py(87):             if assign_to is None:
+0.53 codeprinter.py(88):                 return sympify(expr)
+0.53 codeprinter.py(107):         self._not_supported = set()
+0.53 codeprinter.py(108):         self._number_symbols = set()  # type: Set[Tuple[Expr, Float]]
+0.53 codeprinter.py(110):         lines = self._print(expr).splitlines()
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 codeprinter.py(113):         if self._settings["human"]:
+0.53 codeprinter.py(114):             frontlines = []
+0.53 codeprinter.py(115):             if self._not_supported:
+0.53 codeprinter.py(120):             for name, value in sorted(self._number_symbols, key=str):
+0.53 codeprinter.py(122):             lines = frontlines + lines
+0.53 codeprinter.py(123):             lines = self._format_code(lines)
+0.53 codeprinter.py(124):             result = "\n".join(lines)
+0.53 codeprinter.py(129):         self._not_supported = set()
+0.53 codeprinter.py(130):         self._number_symbols = set()
+0.53 codeprinter.py(131):         return result
+0.53 codeprinter.py(83):         from sympy.matrices.expressions.matexpr import MatrixSymbol
+0.53 codeprinter.py(84):         from sympy.codegen.ast import CodeBlock, Assignment
+0.53 codeprinter.py(86):         def _handle_assign_to(expr, assign_to):
+0.53 codeprinter.py(103):         expr = _handle_assign_to(expr, assign_to)
+0.53 codeprinter.py(87):             if assign_to is None:
+0.53 codeprinter.py(88):                 return sympify(expr)
+0.53 codeprinter.py(107):         self._not_supported = set()
+0.53 codeprinter.py(108):         self._number_symbols = set()  # type: Set[Tuple[Expr, Float]]
+0.53 codeprinter.py(110):         lines = self._print(expr).splitlines()
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 codeprinter.py(113):         if self._settings["human"]:
+0.53 codeprinter.py(114):             frontlines = []
+0.53 codeprinter.py(115):             if self._not_supported:
+0.53 codeprinter.py(120):             for name, value in sorted(self._number_symbols, key=str):
+0.53 codeprinter.py(122):             lines = frontlines + lines
+0.53 codeprinter.py(123):             lines = self._format_code(lines)
+0.53 codeprinter.py(124):             result = "\n".join(lines)
+0.53 codeprinter.py(129):         self._not_supported = set()
+0.53 codeprinter.py(130):         self._number_symbols = set()
+0.53 codeprinter.py(131):         return result
+0.53 codeprinter.py(83):         from sympy.matrices.expressions.matexpr import MatrixSymbol
+0.53 codeprinter.py(84):         from sympy.codegen.ast import CodeBlock, Assignment
+0.53 codeprinter.py(86):         def _handle_assign_to(expr, assign_to):
+0.53 codeprinter.py(103):         expr = _handle_assign_to(expr, assign_to)
+0.53 codeprinter.py(87):             if assign_to is None:
+0.53 codeprinter.py(88):                 return sympify(expr)
+0.53 codeprinter.py(107):         self._not_supported = set()
+0.53 codeprinter.py(108):         self._number_symbols = set()  # type: Set[Tuple[Expr, Float]]
+0.53 codeprinter.py(110):         lines = self._print(expr).splitlines()
+0.53 codeprinter.py(456):         prec = precedence(expr)
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(62):     if _coeff_isneg(item):
+0.53 precedence.py(64):     return PRECEDENCE["Mul"]
+0.53 codeprinter.py(458):         c, e = expr.as_coeff_Mul()
+0.53 codeprinter.py(459):         if c < 0:
+0.53 codeprinter.py(463):             sign = ""
+0.53 codeprinter.py(465):         a = []  # items in the numerator
+0.53 codeprinter.py(466):         b = []  # items that are in the denominator (if any)
+0.53 codeprinter.py(468):         pow_paren = []  # Will collect all pow with more than one base element and exp = -1
+0.53 codeprinter.py(470):         if self.order not in ('old', 'none'):
+0.53 codeprinter.py(471):             args = expr.as_ordered_factors()
+0.53 codeprinter.py(477):         for item in args:
+0.53 codeprinter.py(478):             if item.is_commutative and item.is_Pow and item.exp.is_Rational and item.exp.is_negative:
+0.53 codeprinter.py(486):                 a.append(item)
+0.53 codeprinter.py(477):         for item in args:
+0.53 codeprinter.py(478):             if item.is_commutative and item.is_Pow and item.exp.is_Rational and item.exp.is_negative:
+0.53 codeprinter.py(486):                 a.append(item)
+0.53 codeprinter.py(477):         for item in args:
+0.53 codeprinter.py(488):         a = a or [S.One]
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 codeprinter.py(491):         b_str = [self.parenthesize(x, prec) for x in b]
+0.53 codeprinter.py(491):         b_str = [self.parenthesize(x, prec) for x in b]
+0.53 codeprinter.py(494):         for item in pow_paren:
+0.53 codeprinter.py(498):         if not b:
+0.53 codeprinter.py(499):             return sign + '*'.join(a_str)
+0.53 codeprinter.py(113):         if self._settings["human"]:
+0.53 codeprinter.py(114):             frontlines = []
+0.53 codeprinter.py(115):             if self._not_supported:
+0.53 codeprinter.py(120):             for name, value in sorted(self._number_symbols, key=str):
+0.53 codeprinter.py(122):             lines = frontlines + lines
+0.53 codeprinter.py(123):             lines = self._format_code(lines)
+0.53 codeprinter.py(124):             result = "\n".join(lines)
+0.53 codeprinter.py(129):         self._not_supported = set()
+0.53 codeprinter.py(130):         self._number_symbols = set()
+0.53 codeprinter.py(131):         return result
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(62):     if _coeff_isneg(item):
+0.53 precedence.py(64):     return PRECEDENCE["Mul"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 codeprinter.py(66):         super().__init__(settings=settings)
+0.53 codeprinter.py(67):         if not hasattr(self, 'reserved_words'):
+0.53 codeprinter.py(66):         super().__init__(settings=settings)
+0.53 codeprinter.py(67):         if not hasattr(self, 'reserved_words'):
+0.53 codeprinter.py(83):         from sympy.matrices.expressions.matexpr import MatrixSymbol
+0.53 codeprinter.py(84):         from sympy.codegen.ast import CodeBlock, Assignment
+0.53 codeprinter.py(86):         def _handle_assign_to(expr, assign_to):
+0.53 codeprinter.py(103):         expr = _handle_assign_to(expr, assign_to)
+0.53 codeprinter.py(87):             if assign_to is None:
+0.53 codeprinter.py(88):                 return sympify(expr)
+0.53 codeprinter.py(107):         self._not_supported = set()
+0.53 codeprinter.py(108):         self._number_symbols = set()  # type: Set[Tuple[Expr, Float]]
+0.53 codeprinter.py(110):         lines = self._print(expr).splitlines()
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 codeprinter.py(113):         if self._settings["human"]:
+0.53 codeprinter.py(114):             frontlines = []
+0.53 codeprinter.py(115):             if self._not_supported:
+0.53 codeprinter.py(120):             for name, value in sorted(self._number_symbols, key=str):
+0.53 codeprinter.py(122):             lines = frontlines + lines
+0.53 codeprinter.py(123):             lines = self._format_code(lines)
+0.53 codeprinter.py(124):             result = "\n".join(lines)
+0.53 codeprinter.py(129):         self._not_supported = set()
+0.53 codeprinter.py(130):         self._number_symbols = set()
+0.53 codeprinter.py(131):         return result
+0.53 codeprinter.py(83):         from sympy.matrices.expressions.matexpr import MatrixSymbol
+0.53 codeprinter.py(84):         from sympy.codegen.ast import CodeBlock, Assignment
+0.53 codeprinter.py(86):         def _handle_assign_to(expr, assign_to):
+0.53 codeprinter.py(103):         expr = _handle_assign_to(expr, assign_to)
+0.53 codeprinter.py(87):             if assign_to is None:
+0.53 codeprinter.py(88):                 return sympify(expr)
+0.53 codeprinter.py(107):         self._not_supported = set()
+0.53 codeprinter.py(108):         self._number_symbols = set()  # type: Set[Tuple[Expr, Float]]
+0.53 codeprinter.py(110):         lines = self._print(expr).splitlines()
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 codeprinter.py(113):         if self._settings["human"]:
+0.53 codeprinter.py(114):             frontlines = []
+0.53 codeprinter.py(115):             if self._not_supported:
+0.53 codeprinter.py(120):             for name, value in sorted(self._number_symbols, key=str):
+0.53 codeprinter.py(122):             lines = frontlines + lines
+0.53 codeprinter.py(123):             lines = self._format_code(lines)
+0.53 codeprinter.py(124):             result = "\n".join(lines)
+0.53 codeprinter.py(129):         self._not_supported = set()
+0.53 codeprinter.py(130):         self._number_symbols = set()
+0.53 codeprinter.py(131):         return result
+0.53 codeprinter.py(83):         from sympy.matrices.expressions.matexpr import MatrixSymbol
+0.53 codeprinter.py(84):         from sympy.codegen.ast import CodeBlock, Assignment
+0.53 codeprinter.py(86):         def _handle_assign_to(expr, assign_to):
+0.53 codeprinter.py(103):         expr = _handle_assign_to(expr, assign_to)
+0.53 codeprinter.py(87):             if assign_to is None:
+0.53 codeprinter.py(88):                 return sympify(expr)
+0.53 codeprinter.py(107):         self._not_supported = set()
+0.53 codeprinter.py(108):         self._number_symbols = set()  # type: Set[Tuple[Expr, Float]]
+0.53 codeprinter.py(110):         lines = self._print(expr).splitlines()
+0.53 codeprinter.py(456):         prec = precedence(expr)
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(62):     if _coeff_isneg(item):
+0.53 precedence.py(64):     return PRECEDENCE["Mul"]
+0.53 codeprinter.py(458):         c, e = expr.as_coeff_Mul()
+0.53 codeprinter.py(459):         if c < 0:
+0.53 codeprinter.py(463):             sign = ""
+0.53 codeprinter.py(465):         a = []  # items in the numerator
+0.53 codeprinter.py(466):         b = []  # items that are in the denominator (if any)
+0.53 codeprinter.py(468):         pow_paren = []  # Will collect all pow with more than one base element and exp = -1
+0.53 codeprinter.py(470):         if self.order not in ('old', 'none'):
+0.53 codeprinter.py(471):             args = expr.as_ordered_factors()
+0.53 codeprinter.py(477):         for item in args:
+0.53 codeprinter.py(478):             if item.is_commutative and item.is_Pow and item.exp.is_Rational and item.exp.is_negative:
+0.53 codeprinter.py(486):                 a.append(item)
+0.53 codeprinter.py(477):         for item in args:
+0.53 codeprinter.py(478):             if item.is_commutative and item.is_Pow and item.exp.is_Rational and item.exp.is_negative:
+0.53 codeprinter.py(486):                 a.append(item)
+0.53 codeprinter.py(477):         for item in args:
+0.53 codeprinter.py(488):         a = a or [S.One]
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 codeprinter.py(363):         name = super()._print_Symbol(expr)
+0.53 codeprinter.py(365):         if name in self.reserved_words:
+0.53 codeprinter.py(372):             return name
+0.53 codeprinter.py(490):         a_str = [self.parenthesize(x, prec) for x in a]
+0.53 codeprinter.py(491):         b_str = [self.parenthesize(x, prec) for x in b]
+0.53 codeprinter.py(491):         b_str = [self.parenthesize(x, prec) for x in b]
+0.53 codeprinter.py(494):         for item in pow_paren:
+0.53 codeprinter.py(498):         if not b:
+0.53 codeprinter.py(499):             return sign + '*'.join(a_str)
+0.53 codeprinter.py(113):         if self._settings["human"]:
+0.53 codeprinter.py(114):             frontlines = []
+0.53 codeprinter.py(115):             if self._not_supported:
+0.53 codeprinter.py(120):             for name, value in sorted(self._number_symbols, key=str):
+0.53 codeprinter.py(122):             lines = frontlines + lines
+0.53 codeprinter.py(123):             lines = self._format_code(lines)
+0.53 codeprinter.py(124):             result = "\n".join(lines)
+0.53 codeprinter.py(129):         self._not_supported = set()
+0.53 codeprinter.py(130):         self._number_symbols = set()
+0.53 codeprinter.py(131):         return result
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(62):     if _coeff_isneg(item):
+0.53 precedence.py(64):     return PRECEDENCE["Mul"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(132):             return PRECEDENCE_FUNCTIONS[n](item)
+0.53 precedence.py(74):     if item.p < 0:
+0.53 precedence.py(76):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(134):             return PRECEDENCE_VALUES[n]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+0.53 precedence.py(123):     if hasattr(item, "precedence"):
+0.53 precedence.py(125):     try:
+0.53 precedence.py(126):         mro = item.__class__.__mro__
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(130):         n = i.__name__
+0.53 precedence.py(131):         if n in PRECEDENCE_FUNCTIONS:
+0.53 precedence.py(133):         elif n in PRECEDENCE_VALUES:
+0.53 precedence.py(129):     for i in mro:
+0.53 precedence.py(135):     return PRECEDENCE["Atom"]
+F                                                   [FAIL]
+
+
+________________________________________________________________________________
+__ sympy/polys/tests/test_coverup_sympy__sympy-22080.py:test_lambdify_mod_bug __
+Traceback (most recent call last):
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-22080.py", line 26, in test_lambdify_mod_bug
+    assert b'\x16\x00' not in source_g  # Ensure the incorrect transformation is not present
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.17 seconds ==============
+DO *NOT* COMMIT!
+codeprinter.py(341):     def _print_AugmentedAssignment(self, expr):
+0.58 codeprinter.py(348):     def _print_FunctionCall(self, expr):
+0.58 codeprinter.py(354):     def _print_Variable(self, expr):
+0.58 codeprinter.py(357):     def _print_Statement(self, expr):
+0.58 codeprinter.py(361):     def _print_Symbol(self, expr):
+0.58 codeprinter.py(374):     def _print_Function(self, expr):
+0.58 codeprinter.py(401):     _print_Expr = _print_Function
+0.58 codeprinter.py(403):     def _print_NumberSymbol(self, expr):
+0.58 codeprinter.py(413):     def _print_Catalan(self, expr):
+0.58 codeprinter.py(415):     def _print_EulerGamma(self, expr):
+0.58 codeprinter.py(417):     def _print_GoldenRatio(self, expr):
+0.58 codeprinter.py(419):     def _print_TribonacciConstant(self, expr):
+0.58 codeprinter.py(421):     def _print_Exp1(self, expr):
+0.58 codeprinter.py(423):     def _print_Pi(self, expr):
+0.58 codeprinter.py(426):     def _print_And(self, expr):
+0.58 codeprinter.py(431):     def _print_Or(self, expr):
+0.58 codeprinter.py(436):     def _print_Xor(self, expr):
+0.58 codeprinter.py(443):     def _print_Equivalent(self, expr):
+0.58 codeprinter.py(450):     def _print_Not(self, expr):
+0.58 codeprinter.py(454):     def _print_Mul(self, expr):
+0.58 codeprinter.py(505):     def _print_not_supported(self, expr):
+0.58 codeprinter.py(514):     _print_Basic = _print_not_supported
+0.58 codeprinter.py(515):     _print_ComplexInfinity = _print_not_supported
+0.58 codeprinter.py(516):     _print_Derivative = _print_not_supported
+0.58 codeprinter.py(517):     _print_ExprCondPair = _print_not_supported
+0.58 codeprinter.py(518):     _print_GeometryEntity = _print_not_supported
+0.58 codeprinter.py(519):     _print_Infinity = _print_not_supported
+0.58 codeprinter.py(520):     _print_Integral = _print_not_supported
+0.58 codeprinter.py(521):     _print_Interval = _print_not_supported
+0.58 codeprinter.py(522):     _print_AccumulationBounds = _print_not_supported
+0.58 codeprinter.py(523):     _print_Limit = _print_not_supported
+0.58 codeprinter.py(524):     _print_MatrixBase = _print_not_supported
+0.58 codeprinter.py(525):     _print_DeferredVector = _print_not_supported
+0.58 codeprinter.py(526):     _print_NaN = _print_not_supported
+0.58 codeprinter.py(527):     _print_NegativeInfinity = _print_not_supported
+0.58 codeprinter.py(528):     _print_Order = _print_not_supported
+0.58 codeprinter.py(529):     _print_RootOf = _print_not_supported
+0.58 codeprinter.py(530):     _print_RootsOf = _print_not_supported
+0.58 codeprinter.py(531):     _print_RootSum = _print_not_supported
+0.58 codeprinter.py(532):     _print_Uniform = _print_not_supported
+0.58 codeprinter.py(533):     _print_Unit = _print_not_supported
+0.58 codeprinter.py(534):     _print_Wild = _print_not_supported
+0.58 codeprinter.py(535):     _print_WildFunction = _print_not_supported
+0.58 codeprinter.py(536):     _print_Relational = _print_not_supported
+0.58 codeprinter.py(543): def ccode(expr, assign_to=None, standard='c99', **settings):
+0.58 codeprinter.py(676): def print_ccode(expr, **settings):
+0.58 codeprinter.py(680): def fcode(expr, assign_to=None, **settings):
+0.58 codeprinter.py(800): def print_fcode(expr, **settings):
+0.58 codeprinter.py(807): def cxxcode(expr, assign_to=None, standard='c++11', **settings):
++ cat coverage.cover
+{"/testbed/sympy/printing/precedence.py": {"3": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "6": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "27": 1, "61": 1, "67": 1, "73": 1, "79": 1, "85": 1, "96": 1, "103": 1, "108": 1, "109": 1, "110": 1, "111": 1, "112": 1, "113": 1, "114": 1, "107": 1, "118": 1, "138": 1, "139": 1, "140": 1, "141": 1, "142": 1, "143": 1, "144": 1, "145": 1, "146": 1, "147": 1, "148": 1, "149": 1, "150": 1, "151": 1, "152": 1, "153": 1, "154": 1, "155": 1, "156": 1, "157": 1, "160": 1, "62": 4, "63": 0, "64": 4, "68": 0, "69": 0, "70": 0, "74": 8, "75": 0, "76": 8, "80": 0, "81": 0, "82": 0, "86": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "93": 0, "97": 0, "98": 0, "100": 0, "104": 0, "123": 38, "124": 0, "125": 38, "126": 38, "127": 0, "128": 0, "129": 192, "130": 176, "131": 176, "132": 12, "133": 164, "134": 10, "135": 16, "168": 0, "170": 0, "171": 0, "173": 0, "174": 0, "175": 0, "177": 0}}
+{"/testbed/sympy/printing/codeprinter.py": {"1": 1, "3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 2, "28": 2, "35": 2, "543": 1, "676": 1, "680": 1, "800": 1, "807": 1, "17": 1, "20": 1, "18": 0, "21": 0, "25": 0, "22": 0, "23": 0, "24": 0, "32": 1, "41": 1, "42": 1, "43": 1, "40": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "53": 1, "46": 1, "59": 1, "60": 1, "61": 1, "58": 1, "64": 1, "70": 1, "133": 1, "212": 1, "226": 1, "249": 1, "258": 1, "263": 1, "268": 1, "273": 1, "280": 1, "286": 1, "292": 1, "295": 1, "298": 1, "301": 1, "304": 1, "341": 1, "348": 1, "354": 1, "357": 1, "361": 1, "374": 1, "401": 1, "403": 1, "413": 1, "415": 1, "417": 1, "419": 1, "421": 1, "423": 1, "426": 1, "431": 1, "436": 1, "443": 1, "450": 1, "454": 1, "505": 1, "514": 1, "515": 1, "516": 1, "517": 1, "518": 1, "519": 1, "520": 1, "521": 1, "522": 1, "523": 1, "524": 1, "525": 1, "526": 1, "527": 1, "528": 1, "529": 1, "530": 1, "531": 1, "532": 1, "533": 1, "534": 1, "535": 1, "536": 1, "66": 4, "67": 4, "68": 0, "83": 6, "84": 6, "86": 6, "103": 6, "107": 6, "108": 6, "110": 6, "113": 6, "114": 6, "115": 6, "116": 0, "117": 0, "118": 0, "119": 0, "120": 6, "121": 0, "122": 6, "123": 6, "124": 6, "126": 0, "127": 0, "128": 0, "129": 6, "130": 6, "131": 6, "87": 6, "88": 6, "89": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "95": 0, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "139": 0, "140": 0, "142": 0, "144": 0, "146": 0, "147": 0, "148": 0, "151": 0, "152": 0, "155": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "168": 0, "169": 0, "170": 0, "171": 0, "172": 0, "174": 0, "175": 0, "176": 0, "180": 0, "181": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "202": 0, "203": 0, "204": 0, "205": 0, "206": 0, "207": 0, "208": 0, "210": 0, "213": 0, "214": 0, "215": 0, "218": 0, "219": 0, "220": 0, "221": 0, "222": 0, "224": 0, "228": 0, "230": 0, "231": 0, "235": 0, "236": 0, "237": 0, "239": 0, "240": 0, "241": 0, "242": 0, "243": 0, "244": 0, "245": 0, "247": 0, "255": 0, "260": 0, "265": 0, "270": 0, "277": 0, "283": 0, "287": 0, "288": 0, "290": 0, "293": 0, "296": 0, "299": 0, "302": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "310": 0, "312": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "325": 0, "326": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "332": 0, "335": 0, "337": 0, "338": 0, "339": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "349": 0, "350": 0, "351": 0, "352": 0, "355": 0, "358": 0, "359": 0, "363": 8, "365": 8, "366": 0, "367": 0, "369": 0, "370": 0, "372": 8, "375": 0, "376": 0, "377": 0, "378": 0, "379": 0, "381": 0, "382": 0, "383": 0, "384": 0, "385": 0, "386": 0, "387": 0, "388": 0, "389": 0, "391": 0, "392": 0, "393": 0, "395": 0, "396": 0, "397": 0, "399": 0, "404": 0, "405": 0, "409": 0, "410": 0, "411": 0, "414": 0, "416": 0, "418": 0, "420": 0, "422": 0, "424": 0, "427": 0, "428": 0, "429": 0, "432": 0, "433": 0, "434": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "444": 0, "445": 0, "446": 0, "447": 0, "448": 0, "451": 0, "452": 0, "456": 2, "458": 2, "459": 2, "460": 0, "461": 0, "463": 2, "465": 2, "466": 2, "468": 2, "470": 2, "471": 2, "474": 0, "477": 6, "478": 4, "479": 0, "480": 0, "482": 0, "483": 0, "484": 0, "486": 4, "488": 2, "490": 8, "491": 4, "494": 2, "495": 0, "496": 0, "498": 2, "499": 2, "500": 0, "501": 0, "503": 0, "506": 0, "507": 0, "508": 0, "510": 0, "511": 0, "673": 0, "674": 0, "678": 0, "796": 0, "797": 0, "805": 0, "809": 0, "810": 0}}
+{"/testbed/sympy/printing/precedence.py": {"3": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "6": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "27": 1, "61": 1, "67": 1, "73": 1, "79": 1, "85": 1, "96": 1, "103": 1, "108": 1, "109": 1, "110": 1, "111": 1, "112": 1, "113": 1, "114": 1, "107": 1, "118": 1, "138": 1, "139": 1, "140": 1, "141": 1, "142": 1, "143": 1, "144": 1, "145": 1, "146": 1, "147": 1, "148": 1, "149": 1, "150": 1, "151": 1, "152": 1, "153": 1, "154": 1, "155": 1, "156": 1, "157": 1, "160": 1, "62": 0, "63": 0, "64": 0, "68": 0, "69": 0, "70": 0, "74": 0, "75": 0, "76": 0, "80": 0, "81": 0, "82": 0, "86": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "93": 0, "97": 0, "98": 0, "100": 0, "104": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "168": 0, "170": 0, "171": 0, "173": 0, "174": 0, "175": 0, "177": 0}}
+{"/testbed/sympy/printing/codeprinter.py": {"1": 1, "3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 2, "28": 2, "35": 2, "543": 1, "676": 1, "680": 1, "800": 1, "807": 1, "17": 1, "20": 1, "18": 0, "21": 0, "25": 0, "22": 0, "23": 0, "24": 0, "32": 1, "41": 1, "42": 1, "43": 1, "40": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "53": 1, "46": 1, "59": 1, "60": 1, "61": 1, "58": 1, "64": 1, "70": 1, "133": 1, "212": 1, "226": 1, "249": 1, "258": 1, "263": 1, "268": 1, "273": 1, "280": 1, "286": 1, "292": 1, "295": 1, "298": 1, "301": 1, "304": 1, "341": 1, "348": 1, "354": 1, "357": 1, "361": 1, "374": 1, "401": 1, "403": 1, "413": 1, "415": 1, "417": 1, "419": 1, "421": 1, "423": 1, "426": 1, "431": 1, "436": 1, "443": 1, "450": 1, "454": 1, "505": 1, "514": 1, "515": 1, "516": 1, "517": 1, "518": 1, "519": 1, "520": 1, "521": 1, "522": 1, "523": 1, "524": 1, "525": 1, "526": 1, "527": 1, "528": 1, "529": 1, "530": 1, "531": 1, "532": 1, "533": 1, "534": 1, "535": 1, "536": 1, "66": 0, "67": 0, "68": 0, "83": 0, "84": 0, "86": 0, "103": 0, "107": 0, "108": 0, "110": 0, "113": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "120": 0, "121": 0, "122": 0, "123": 0, "124": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "95": 0, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "139": 0, "140": 0, "142": 0, "144": 0, "146": 0, "147": 0, "148": 0, "151": 0, "152": 0, "155": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "168": 0, "169": 0, "170": 0, "171": 0, "172": 0, "174": 0, "175": 0, "176": 0, "180": 0, "181": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "202": 0, "203": 0, "204": 0, "205": 0, "206": 0, "207": 0, "208": 0, "210": 0, "213": 0, "214": 0, "215": 0, "218": 0, "219": 0, "220": 0, "221": 0, "222": 0, "224": 0, "228": 0, "230": 0, "231": 0, "235": 0, "236": 0, "237": 0, "239": 0, "240": 0, "241": 0, "242": 0, "243": 0, "244": 0, "245": 0, "247": 0, "255": 0, "260": 0, "265": 0, "270": 0, "277": 0, "283": 0, "287": 0, "288": 0, "290": 0, "293": 0, "296": 0, "299": 0, "302": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "310": 0, "312": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "325": 0, "326": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "332": 0, "335": 0, "337": 0, "338": 0, "339": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "349": 0, "350": 0, "351": 0, "352": 0, "355": 0, "358": 0, "359": 0, "363": 0, "365": 0, "366": 0, "367": 0, "369": 0, "370": 0, "372": 0, "375": 0, "376": 0, "377": 0, "378": 0, "379": 0, "381": 0, "382": 0, "383": 0, "384": 0, "385": 0, "386": 0, "387": 0, "388": 0, "389": 0, "391": 0, "392": 0, "393": 0, "395": 0, "396": 0, "397": 0, "399": 0, "404": 0, "405": 0, "409": 0, "410": 0, "411": 0, "414": 0, "416": 0, "418": 0, "420": 0, "422": 0, "424": 0, "427": 0, "428": 0, "429": 0, "432": 0, "433": 0, "434": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "444": 0, "445": 0, "446": 0, "447": 0, "448": 0, "451": 0, "452": 0, "456": 0, "458": 0, "459": 0, "460": 0, "461": 0, "463": 0, "465": 0, "466": 0, "468": 0, "470": 0, "471": 0, "474": 0, "477": 0, "478": 0, "479": 0, "480": 0, "482": 0, "483": 0, "484": 0, "486": 0, "488": 0, "490": 0, "491": 0, "494": 0, "495": 0, "496": 0, "498": 0, "499": 0, "500": 0, "501": 0, "503": 0, "506": 0, "507": 0, "508": 0, "510": 0, "511": 0, "673": 0, "674": 0, "678": 0, "796": 0, "797": 0, "805": 0, "809": 0, "810": 0}}
++ git checkout 3f8c8c2377cb8e0daaf8073e8d03ac7d87580813
+Note: switching to '3f8c8c2377cb8e0daaf8073e8d03ac7d87580813'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3f8c8c2377 Merge pull request #22064 from oscargus/utilitiescleanup2
++ git apply /root/pre_state.patch
+error: unrecognized input

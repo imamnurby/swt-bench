@@ -1,0 +1,702 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 39de9a2698ad4bb90681c0fdb70b30a78233145f
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 39de9a2698ad4bb90681c0fdb70b30a78233145f
+Merge: 4496a52d5c f46d749af9
+Author: Oscar Benjamin <oscar.j.benjamin@gmail.com>
+Date:   Fri Jul 22 17:59:56 2022 +0100
+
+    Merge pull request #23817 from oscarbenjamin/pr_authors
+    
+    maint: fix authors check for when the AUTHORS file has been updated.
+
++ git diff 39de9a2698ad4bb90681c0fdb70b30a78233145f
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.12.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.12.dev0
+    Uninstalling sympy-1.12.dev0:
+      Successfully uninstalled sympy-1.12.dev0
+  DEPRECATION: Legacy editable install of sympy==1.12.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/physics/hep/gamma_matrices.py...
+Applied patch sympy/physics/hep/gamma_matrices.py cleanly.
++ git apply -v -
+<stdin>:12: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-23824.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-23824.py cleanly.
+warning: 1 line adds whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/physics/hep/gamma_matrices\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-23824.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/physics/hep/gamma_matrices\\.py)']
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        81771181
+hash randomization: on (PYTHONHASHSEED=4060582837)
+
+0.95 gamma_matrices.py(1): """
+0.95 gamma_matrices.py(28): from sympy.core.mul import Mul
+0.95 gamma_matrices.py(29): from sympy.core.singleton import S
+0.95 gamma_matrices.py(30): from sympy.matrices.dense import eye
+0.95 gamma_matrices.py(31): from sympy.matrices.expressions.trace import trace
+0.95 gamma_matrices.py(32): from sympy.tensor.tensor import TensorIndexType, TensorIndex,\
+0.95 gamma_matrices.py(39): LorentzIndex = TensorIndexType('LorentzIndex', dim=4, dummy_name="L")
+0.95 gamma_matrices.py(42): GammaMatrix = TensorHead("GammaMatrix", [LorentzIndex],
+0.95 gamma_matrices.py(43):                          TensorSymmetry.no_symmetry(1), comm=None)
+0.95 gamma_matrices.py(42): GammaMatrix = TensorHead("GammaMatrix", [LorentzIndex],
+0.95 gamma_matrices.py(46): def extract_type_tens(expression, component):
+0.95 gamma_matrices.py(75): def simplify_gamma_expression(expression):
+0.95 gamma_matrices.py(81): def simplify_gpgp(ex, sort=True):
+0.95 gamma_matrices.py(170): def gamma_trace(t):
+0.95 gamma_matrices.py(200): def _simplify_single_line(expression):
+0.95 gamma_matrices.py(223): def _trace_single_line(t):
+0.95 gamma_matrices.py(314): def _gamma_trace1(*a):
+0.95 gamma_matrices.py(337): def kahane_simplify(expression):
+sympy/polys/tests/test_coverup_sympy__sympy-23824.py[1] 
+test_kahane_leading_gamma_matrix_bug 0.95 gamma_matrices.py(418):     if isinstance(expression, Mul):
+0.95 gamma_matrices.py(420):     if isinstance(expression, TensAdd):
+0.95 gamma_matrices.py(423):     if isinstance(expression, Tensor):
+0.95 gamma_matrices.py(426):     assert isinstance(expression, TensMul)
+0.95 gamma_matrices.py(428):     gammas = expression.args
+0.95 gamma_matrices.py(430):     for gamma in gammas:
+0.95 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.95 gamma_matrices.py(430):     for gamma in gammas:
+0.95 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.95 gamma_matrices.py(430):     for gamma in gammas:
+0.95 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.95 gamma_matrices.py(430):     for gamma in gammas:
+0.95 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.95 gamma_matrices.py(430):     for gamma in gammas:
+0.95 gamma_matrices.py(433):     free = expression.free
+0.95 gamma_matrices.py(443):     dum = []
+0.95 gamma_matrices.py(444):     for dum_pair in expression.dum:
+0.95 gamma_matrices.py(445):         if expression.index_types[dum_pair[0]] == LorentzIndex:
+0.95 gamma_matrices.py(446):             dum.append((dum_pair[0], dum_pair[1]))
+0.95 gamma_matrices.py(444):     for dum_pair in expression.dum:
+0.95 gamma_matrices.py(448):     dum = sorted(dum)
+0.95 gamma_matrices.py(450):     if len(dum) == 0:  # or GammaMatrixHead:
+0.95 gamma_matrices.py(460):     first_dum_pos = min(map(min, dum))
+0.95 gamma_matrices.py(469):     total_number = len(free) + len(dum)*2
+0.95 gamma_matrices.py(470):     number_of_contractions = len(dum)
+0.95 gamma_matrices.py(472):     free_pos = [None]*total_number
+0.95 gamma_matrices.py(473):     for i in free:
+0.95 gamma_matrices.py(474):         free_pos[i[1]] = i[0]
+0.95 gamma_matrices.py(473):     for i in free:
+0.95 gamma_matrices.py(474):         free_pos[i[1]] = i[0]
+0.95 gamma_matrices.py(473):     for i in free:
+0.95 gamma_matrices.py(478):     index_is_free = [False]*total_number
+0.95 gamma_matrices.py(480):     for i, indx in enumerate(free):
+0.95 gamma_matrices.py(481):         index_is_free[indx[1]] = True
+0.95 gamma_matrices.py(480):     for i, indx in enumerate(free):
+0.95 gamma_matrices.py(481):         index_is_free[indx[1]] = True
+0.95 gamma_matrices.py(480):     for i, indx in enumerate(free):
+0.95 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.95 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.95 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.95 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.95 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.95 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.95 gamma_matrices.py(491):     cum_sign = -1
+0.95 gamma_matrices.py(493):     cum_sign_list = [None]*total_number
+0.95 gamma_matrices.py(494):     block_free_count = 0
+0.95 gamma_matrices.py(498):     resulting_coeff = S.One
+0.95 gamma_matrices.py(503):     resulting_indices = [[]]
+0.95 gamma_matrices.py(507):     connected_components = 1
+0.95 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.95 gamma_matrices.py(516):         if i < first_dum_pos:
+0.95 gamma_matrices.py(519):         if is_free:
+0.95 gamma_matrices.py(528):             cum_sign *= 1 if (block_free_count % 2) else -1
+0.95 gamma_matrices.py(529):             if block_free_count == 0 and i != first_dum_pos:
+0.95 gamma_matrices.py(541):             if (i - cum_sign) in links:
+0.95 gamma_matrices.py(548):             block_free_count = 0
+0.95 gamma_matrices.py(550):         cum_sign_list[i] = cum_sign
+0.95 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.95 gamma_matrices.py(516):         if i < first_dum_pos:
+0.95 gamma_matrices.py(519):         if is_free:
+0.95 gamma_matrices.py(528):             cum_sign *= 1 if (block_free_count % 2) else -1
+0.95 gamma_matrices.py(529):             if block_free_count == 0 and i != first_dum_pos:
+0.95 gamma_matrices.py(538):                 if cum_sign == -1:
+0.95 gamma_matrices.py(539):                     links[-1-i] = [-1-i+1]
+0.95 gamma_matrices.py(540):                     links[-1-i+1] = [-1-i]
+0.95 gamma_matrices.py(541):             if (i - cum_sign) in links:
+0.95 gamma_matrices.py(542):                 if i != first_dum_pos:
+0.95 gamma_matrices.py(543):                     links[i].append(i - cum_sign)
+0.95 gamma_matrices.py(544):                 if block_free_count != 0:
+0.95 gamma_matrices.py(548):             block_free_count = 0
+0.95 gamma_matrices.py(550):         cum_sign_list[i] = cum_sign
+0.95 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.95 gamma_matrices.py(516):         if i < first_dum_pos:
+0.95 gamma_matrices.py(519):         if is_free:
+0.95 gamma_matrices.py(520):             block_free_count += 1
+0.95 gamma_matrices.py(522):             if block_free_count > 1:
+0.95 gamma_matrices.py(550):         cum_sign_list[i] = cum_sign
+0.95 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.95 gamma_matrices.py(516):         if i < first_dum_pos:
+0.95 gamma_matrices.py(519):         if is_free:
+0.95 gamma_matrices.py(520):             block_free_count += 1
+0.95 gamma_matrices.py(522):             if block_free_count > 1:
+0.95 gamma_matrices.py(523):                 links[i - 1].append(i)
+0.95 gamma_matrices.py(524):                 links[i].append(i - 1)
+0.95 gamma_matrices.py(550):         cum_sign_list[i] = cum_sign
+0.95 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.95 gamma_matrices.py(559):     for i in dum:
+0.95 gamma_matrices.py(561):         pos1 = i[0]
+0.95 gamma_matrices.py(562):         pos2 = i[1]
+0.95 gamma_matrices.py(566):         links[pos1].append(pos2)
+0.95 gamma_matrices.py(567):         links[pos2].append(pos1)
+0.95 gamma_matrices.py(573):         linkpos1 = pos1 + cum_sign_list[pos1]
+0.95 gamma_matrices.py(574):         linkpos2 = pos2 + cum_sign_list[pos2]
+0.95 gamma_matrices.py(579):         if linkpos1 >= total_number:
+0.95 gamma_matrices.py(581):         if linkpos2 >= total_number:
+0.95 gamma_matrices.py(585):         if linkpos1 < first_dum_pos:
+0.95 gamma_matrices.py(587):         if linkpos2 < first_dum_pos:
+0.95 gamma_matrices.py(592):         if (-1-linkpos1) in links:
+0.95 gamma_matrices.py(593):             linkpos1 = -1-linkpos1
+0.95 gamma_matrices.py(594):         if (-1-linkpos2) in links:
+0.95 gamma_matrices.py(595):             linkpos2 = -1-linkpos2
+0.95 gamma_matrices.py(598):         if linkpos1 >= 0 and not index_is_free[linkpos1]:
+0.95 gamma_matrices.py(601):         if linkpos2 >=0 and not index_is_free[linkpos2]:
+0.95 gamma_matrices.py(605):         if linkpos2 not in links[linkpos1]:
+0.95 gamma_matrices.py(607):         if linkpos1 not in links[linkpos2]:
+0.95 gamma_matrices.py(559):     for i in dum:
+0.95 gamma_matrices.py(614):     pointer = first_dum_pos
+0.95 gamma_matrices.py(615):     previous_pointer = 0
+0.95 gamma_matrices.py(617):         if pointer in links:
+0.95 gamma_matrices.py(618):             next_ones = links.pop(pointer)
+0.95 gamma_matrices.py(622):         if previous_pointer in next_ones:
+0.95 gamma_matrices.py(625):         previous_pointer = pointer
+0.95 gamma_matrices.py(627):         if next_ones:
+0.95 gamma_matrices.py(628):             pointer = next_ones[0]
+0.95 gamma_matrices.py(632):         if pointer == previous_pointer:
+0.95 gamma_matrices.py(634):         if pointer >=0 and free_pos[pointer] is not None:
+0.95 gamma_matrices.py(617):         if pointer in links:
+0.95 gamma_matrices.py(618):             next_ones = links.pop(pointer)
+0.95 gamma_matrices.py(622):         if previous_pointer in next_ones:
+0.95 gamma_matrices.py(623):             next_ones.remove(previous_pointer)
+0.95 gamma_matrices.py(625):         previous_pointer = pointer
+0.95 gamma_matrices.py(627):         if next_ones:
+0.95 gamma_matrices.py(628):             pointer = next_ones[0]
+0.95 gamma_matrices.py(632):         if pointer == previous_pointer:
+0.95 gamma_matrices.py(634):         if pointer >=0 and free_pos[pointer] is not None:
+0.95 gamma_matrices.py(635):             for ri in resulting_indices:
+0.95 gamma_matrices.py(636):                 ri.append(free_pos[pointer])
+0.95 gamma_matrices.py(635):             for ri in resulting_indices:
+0.95 gamma_matrices.py(617):         if pointer in links:
+0.95 gamma_matrices.py(618):             next_ones = links.pop(pointer)
+0.95 gamma_matrices.py(622):         if previous_pointer in next_ones:
+0.95 gamma_matrices.py(625):         previous_pointer = pointer
+0.95 gamma_matrices.py(627):         if next_ones:
+0.95 gamma_matrices.py(628):             pointer = next_ones[0]
+0.95 gamma_matrices.py(632):         if pointer == previous_pointer:
+0.95 gamma_matrices.py(634):         if pointer >=0 and free_pos[pointer] is not None:
+0.95 gamma_matrices.py(635):             for ri in resulting_indices:
+0.95 gamma_matrices.py(636):                 ri.append(free_pos[pointer])
+0.95 gamma_matrices.py(635):             for ri in resulting_indices:
+0.95 gamma_matrices.py(617):         if pointer in links:
+0.95 gamma_matrices.py(618):             next_ones = links.pop(pointer)
+0.95 gamma_matrices.py(622):         if previous_pointer in next_ones:
+0.95 gamma_matrices.py(623):             next_ones.remove(previous_pointer)
+0.95 gamma_matrices.py(625):         previous_pointer = pointer
+0.95 gamma_matrices.py(627):         if next_ones:
+0.95 gamma_matrices.py(653):     while links:
+0.95 gamma_matrices.py(654):         connected_components += 1
+0.95 gamma_matrices.py(655):         pointer = min(links.keys())
+0.95 gamma_matrices.py(656):         previous_pointer = pointer
+0.95 gamma_matrices.py(660):         prepend_indices = []
+0.95 gamma_matrices.py(662):             if pointer in links:
+0.95 gamma_matrices.py(663):                 next_ones = links.pop(pointer)
+0.95 gamma_matrices.py(667):             if previous_pointer in next_ones:
+0.95 gamma_matrices.py(671):             previous_pointer = pointer
+0.95 gamma_matrices.py(673):             if next_ones:
+0.95 gamma_matrices.py(674):                 pointer = next_ones[0]
+0.95 gamma_matrices.py(676):             if pointer >= first_dum_pos and free_pos[pointer] is not None:
+0.95 gamma_matrices.py(662):             if pointer in links:
+0.95 gamma_matrices.py(663):                 next_ones = links.pop(pointer)
+0.95 gamma_matrices.py(667):             if previous_pointer in next_ones:
+0.95 gamma_matrices.py(668):                 if len(next_ones) > 1:
+0.95 gamma_matrices.py(671):             previous_pointer = pointer
+0.95 gamma_matrices.py(673):             if next_ones:
+0.95 gamma_matrices.py(674):                 pointer = next_ones[0]
+0.95 gamma_matrices.py(676):             if pointer >= first_dum_pos and free_pos[pointer] is not None:
+0.95 gamma_matrices.py(662):             if pointer in links:
+0.95 gamma_matrices.py(681):         if len(prepend_indices) == 0:
+0.95 gamma_matrices.py(682):             resulting_coeff *= 2
+0.95 gamma_matrices.py(653):     while links:
+0.95 gamma_matrices.py(691):     resulting_coeff *= -1 if (number_of_contractions - connected_components + 1) % 2 else 1
+0.95 gamma_matrices.py(693):     resulting_coeff *= 2**(number_of_contractions)
+0.95 gamma_matrices.py(697):     resulting_indices = list( free_pos[0:first_dum_pos] + ri for ri in resulting_indices )
+0.95 gamma_matrices.py(697):     resulting_indices = list( free_pos[0:first_dum_pos] + ri for ri in resulting_indices )
+0.95 gamma_matrices.py(697):     resulting_indices = list( free_pos[0:first_dum_pos] + ri for ri in resulting_indices )
+0.95 gamma_matrices.py(699):     resulting_expr = S.Zero
+0.95 gamma_matrices.py(700):     for i in resulting_indices:
+0.95 gamma_matrices.py(701):         temp_expr = S.One
+0.95 gamma_matrices.py(702):         for j in i:
+0.95 gamma_matrices.py(703):             temp_expr *= GammaMatrix(j)
+0.95 gamma_matrices.py(702):         for j in i:
+0.95 gamma_matrices.py(703):             temp_expr *= GammaMatrix(j)
+0.95 gamma_matrices.py(702):         for j in i:
+0.95 gamma_matrices.py(704):         resulting_expr += temp_expr
+0.95 gamma_matrices.py(700):     for i in resulting_indices:
+0.95 gamma_matrices.py(706):     t = resulting_coeff * resulting_expr
+0.96 gamma_matrices.py(707):     t1 = None
+0.96 gamma_matrices.py(708):     if isinstance(t, TensAdd):
+0.96 gamma_matrices.py(710):     elif isinstance(t, TensMul):
+0.96 gamma_matrices.py(711):         t1 = t
+0.96 gamma_matrices.py(712):     if t1:
+0.96 gamma_matrices.py(713):         pass
+0.96 gamma_matrices.py(716):     return t
+0.96 gamma_matrices.py(418):     if isinstance(expression, Mul):
+0.96 gamma_matrices.py(420):     if isinstance(expression, TensAdd):
+0.96 gamma_matrices.py(423):     if isinstance(expression, Tensor):
+0.96 gamma_matrices.py(426):     assert isinstance(expression, TensMul)
+0.96 gamma_matrices.py(428):     gammas = expression.args
+0.96 gamma_matrices.py(430):     for gamma in gammas:
+0.96 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.96 gamma_matrices.py(430):     for gamma in gammas:
+0.96 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.96 gamma_matrices.py(430):     for gamma in gammas:
+0.96 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.96 gamma_matrices.py(430):     for gamma in gammas:
+0.96 gamma_matrices.py(431):         assert gamma.component == GammaMatrix
+0.96 gamma_matrices.py(430):     for gamma in gammas:
+0.96 gamma_matrices.py(433):     free = expression.free
+0.96 gamma_matrices.py(443):     dum = []
+0.96 gamma_matrices.py(444):     for dum_pair in expression.dum:
+0.96 gamma_matrices.py(445):         if expression.index_types[dum_pair[0]] == LorentzIndex:
+0.96 gamma_matrices.py(446):             dum.append((dum_pair[0], dum_pair[1]))
+0.96 gamma_matrices.py(444):     for dum_pair in expression.dum:
+0.96 gamma_matrices.py(448):     dum = sorted(dum)
+0.96 gamma_matrices.py(450):     if len(dum) == 0:  # or GammaMatrixHead:
+0.96 gamma_matrices.py(460):     first_dum_pos = min(map(min, dum))
+0.96 gamma_matrices.py(469):     total_number = len(free) + len(dum)*2
+0.96 gamma_matrices.py(470):     number_of_contractions = len(dum)
+0.96 gamma_matrices.py(472):     free_pos = [None]*total_number
+0.96 gamma_matrices.py(473):     for i in free:
+0.96 gamma_matrices.py(474):         free_pos[i[1]] = i[0]
+0.96 gamma_matrices.py(473):     for i in free:
+0.96 gamma_matrices.py(474):         free_pos[i[1]] = i[0]
+0.96 gamma_matrices.py(473):     for i in free:
+0.96 gamma_matrices.py(478):     index_is_free = [False]*total_number
+0.96 gamma_matrices.py(480):     for i, indx in enumerate(free):
+0.96 gamma_matrices.py(481):         index_is_free[indx[1]] = True
+0.96 gamma_matrices.py(480):     for i, indx in enumerate(free):
+0.96 gamma_matrices.py(481):         index_is_free[indx[1]] = True
+0.96 gamma_matrices.py(480):     for i, indx in enumerate(free):
+0.96 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.96 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.96 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.96 gamma_matrices.py(488):     links = {i: [] for i in range(first_dum_pos, total_number)}
+0.96 gamma_matrices.py(491):     cum_sign = -1
+0.96 gamma_matrices.py(493):     cum_sign_list = [None]*total_number
+0.96 gamma_matrices.py(494):     block_free_count = 0
+0.96 gamma_matrices.py(498):     resulting_coeff = S.One
+0.96 gamma_matrices.py(503):     resulting_indices = [[]]
+0.96 gamma_matrices.py(507):     connected_components = 1
+0.96 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.96 gamma_matrices.py(516):         if i < first_dum_pos:
+0.96 gamma_matrices.py(517):             continue
+0.96 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.96 gamma_matrices.py(516):         if i < first_dum_pos:
+0.96 gamma_matrices.py(517):             continue
+0.96 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.96 gamma_matrices.py(516):         if i < first_dum_pos:
+0.96 gamma_matrices.py(519):         if is_free:
+0.96 gamma_matrices.py(528):             cum_sign *= 1 if (block_free_count % 2) else -1
+0.96 gamma_matrices.py(529):             if block_free_count == 0 and i != first_dum_pos:
+0.96 gamma_matrices.py(541):             if (i - cum_sign) in links:
+0.96 gamma_matrices.py(548):             block_free_count = 0
+0.96 gamma_matrices.py(550):         cum_sign_list[i] = cum_sign
+0.96 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.96 gamma_matrices.py(516):         if i < first_dum_pos:
+0.96 gamma_matrices.py(519):         if is_free:
+0.96 gamma_matrices.py(528):             cum_sign *= 1 if (block_free_count % 2) else -1
+0.96 gamma_matrices.py(529):             if block_free_count == 0 and i != first_dum_pos:
+0.96 gamma_matrices.py(538):                 if cum_sign == -1:
+0.96 gamma_matrices.py(539):                     links[-1-i] = [-1-i+1]
+0.96 gamma_matrices.py(540):                     links[-1-i+1] = [-1-i]
+0.96 gamma_matrices.py(541):             if (i - cum_sign) in links:
+0.96 gamma_matrices.py(548):             block_free_count = 0
+0.96 gamma_matrices.py(550):         cum_sign_list[i] = cum_sign
+0.96 gamma_matrices.py(512):     for i, is_free in enumerate(index_is_free):
+0.96 gamma_matrices.py(559):     for i in dum:
+0.96 gamma_matrices.py(561):         pos1 = i[0]
+0.96 gamma_matrices.py(562):         pos2 = i[1]
+0.96 gamma_matrices.py(566):         links[pos1].append(pos2)
+0.96 gamma_matrices.py(567):         links[pos2].append(pos1)
+0.96 gamma_matrices.py(573):         linkpos1 = pos1 + cum_sign_list[pos1]
+0.96 gamma_matrices.py(574):         linkpos2 = pos2 + cum_sign_list[pos2]
+0.96 gamma_matrices.py(579):         if linkpos1 >= total_number:
+0.96 gamma_matrices.py(581):         if linkpos2 >= total_number:
+0.96 gamma_matrices.py(585):         if linkpos1 < first_dum_pos:
+0.96 gamma_matrices.py(587):         if linkpos2 < first_dum_pos:
+0.96 gamma_matrices.py(592):         if (-1-linkpos1) in links:
+0.96 gamma_matrices.py(593):             linkpos1 = -1-linkpos1
+0.96 gamma_matrices.py(594):         if (-1-linkpos2) in links:
+0.96 gamma_matrices.py(595):             linkpos2 = -1-linkpos2
+0.96 gamma_matrices.py(598):         if linkpos1 >= 0 and not index_is_free[linkpos1]:
+0.96 gamma_matrices.py(601):         if linkpos2 >=0 and not index_is_free[linkpos2]:
+0.96 gamma_matrices.py(605):         if linkpos2 not in links[linkpos1]:
+0.96 gamma_matrices.py(607):         if linkpos1 not in links[linkpos2]:
+0.96 gamma_matrices.py(559):     for i in dum:
+0.96 gamma_matrices.py(614):     pointer = first_dum_pos
+0.96 gamma_matrices.py(615):     previous_pointer = 0
+0.96 gamma_matrices.py(617):         if pointer in links:
+0.96 gamma_matrices.py(618):             next_ones = links.pop(pointer)
+0.96 gamma_matrices.py(622):         if previous_pointer in next_ones:
+0.96 gamma_matrices.py(625):         previous_pointer = pointer
+0.96 gamma_matrices.py(627):         if next_ones:
+0.96 gamma_matrices.py(628):             pointer = next_ones[0]
+0.96 gamma_matrices.py(632):         if pointer == previous_pointer:
+0.96 gamma_matrices.py(634):         if pointer >=0 and free_pos[pointer] is not None:
+0.96 gamma_matrices.py(617):         if pointer in links:
+0.96 gamma_matrices.py(618):             next_ones = links.pop(pointer)
+0.96 gamma_matrices.py(622):         if previous_pointer in next_ones:
+0.96 gamma_matrices.py(623):             next_ones.remove(previous_pointer)
+0.96 gamma_matrices.py(625):         previous_pointer = pointer
+0.96 gamma_matrices.py(627):         if next_ones:
+0.96 gamma_matrices.py(653):     while links:
+0.96 gamma_matrices.py(654):         connected_components += 1
+0.96 gamma_matrices.py(655):         pointer = min(links.keys())
+0.96 gamma_matrices.py(656):         previous_pointer = pointer
+0.96 gamma_matrices.py(660):         prepend_indices = []
+0.96 gamma_matrices.py(662):             if pointer in links:
+0.96 gamma_matrices.py(663):                 next_ones = links.pop(pointer)
+0.96 gamma_matrices.py(667):             if previous_pointer in next_ones:
+0.96 gamma_matrices.py(671):             previous_pointer = pointer
+0.96 gamma_matrices.py(673):             if next_ones:
+0.96 gamma_matrices.py(674):                 pointer = next_ones[0]
+0.96 gamma_matrices.py(676):             if pointer >= first_dum_pos and free_pos[pointer] is not None:
+0.96 gamma_matrices.py(662):             if pointer in links:
+0.96 gamma_matrices.py(663):                 next_ones = links.pop(pointer)
+0.96 gamma_matrices.py(667):             if previous_pointer in next_ones:
+0.96 gamma_matrices.py(668):                 if len(next_ones) > 1:
+0.96 gamma_matrices.py(671):             previous_pointer = pointer
+0.96 gamma_matrices.py(673):             if next_ones:
+0.96 gamma_matrices.py(674):                 pointer = next_ones[0]
+0.96 gamma_matrices.py(676):             if pointer >= first_dum_pos and free_pos[pointer] is not None:
+0.96 gamma_matrices.py(662):             if pointer in links:
+0.96 gamma_matrices.py(681):         if len(prepend_indices) == 0:
+0.96 gamma_matrices.py(682):             resulting_coeff *= 2
+0.96 gamma_matrices.py(653):     while links:
+0.96 gamma_matrices.py(691):     resulting_coeff *= -1 if (number_of_contractions - connected_components + 1) % 2 else 1
+0.96 gamma_matrices.py(693):     resulting_coeff *= 2**(number_of_contractions)
+0.96 gamma_matrices.py(697):     resulting_indices = list( free_pos[0:first_dum_pos] + ri for ri in resulting_indices )
+0.96 gamma_matrices.py(697):     resulting_indices = list( free_pos[0:first_dum_pos] + ri for ri in resulting_indices )
+0.96 gamma_matrices.py(697):     resulting_indices = list( free_pos[0:first_dum_pos] + ri for ri in resulting_indices )
+0.96 gamma_matrices.py(699):     resulting_expr = S.Zero
+0.96 gamma_matrices.py(700):     for i in resulting_indices:
+0.96 gamma_matrices.py(701):         temp_expr = S.One
+0.96 gamma_matrices.py(702):         for j in i:
+0.96 gamma_matrices.py(703):             temp_expr *= GammaMatrix(j)
+0.96 gamma_matrices.py(702):         for j in i:
+0.96 gamma_matrices.py(703):             temp_expr *= GammaMatrix(j)
+0.97 gamma_matrices.py(702):         for j in i:
+0.97 gamma_matrices.py(704):         resulting_expr += temp_expr
+0.97 gamma_matrices.py(700):     for i in resulting_indices:
+0.97 gamma_matrices.py(706):     t = resulting_coeff * resulting_expr
+0.97 gamma_matrices.py(707):     t1 = None
+0.97 gamma_matrices.py(708):     if isinstance(t, TensAdd):
+0.97 gamma_matrices.py(710):     elif isinstance(t, TensMul):
+0.97 gamma_matrices.py(711):         t1 = t
+0.97 gamma_matrices.py(712):     if t1:
+0.97 gamma_matrices.py(713):         pass
+0.97 gamma_matrices.py(716):     return t
+ok                                     [OK]
+
+
+================== tests finished: 1 passed, in 0.60 seconds ===================
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/physics/hep/gamma_matrices\\.py)']
++ cat coverage.cover
+{"/testbed/sympy/physics/hep/gamma_matrices.py": {"28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "39": 1, "42": 2, "43": 1, "46": 1, "75": 1, "81": 1, "170": 1, "200": 1, "223": 1, "314": 1, "337": 1, "57": 0, "58": 0, "59": 0, "60": 0, "62": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0, "71": 0, "72": 0, "76": 0, "77": 0, "78": 0, "98": 0, "159": 0, "160": 0, "163": 0, "164": 0, "165": 0, "167": 0, "99": 0, "100": 0, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0, "106": 0, "107": 0, "108": 0, "109": 0, "110": 0, "111": 0, "112": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "120": 0, "121": 0, "122": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "141": 0, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "150": 0, "151": 0, "152": 0, "153": 0, "155": 0, "157": 0, "192": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "216": 0, "217": 0, "218": 0, "219": 0, "220": 0, "248": 0, "303": 0, "304": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "311": 0, "249": 0, "250": 0, "251": 0, "252": 0, "254": 0, "255": 0, "256": 0, "257": 0, "258": 0, "260": 0, "261": 0, "262": 0, "264": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "271": 0, "273": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "279": 0, "280": 0, "281": 0, "282": 0, "283": 0, "284": 0, "285": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "293": 0, "294": 0, "295": 0, "296": 0, "297": 0, "298": 0, "299": 0, "300": 0, "301": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "333": 0, "334": 0, "418": 2, "419": 0, "420": 2, "421": 0, "423": 2, "424": 0, "426": 2, "428": 2, "430": 10, "431": 8, "433": 2, "443": 2, "444": 4, "445": 2, "446": 2, "448": 2, "450": 2, "452": 0, "460": 2, "469": 2, "470": 2, "472": 2, "473": 6, "474": 4, "478": 2, "480": 6, "481": 4, "488": 10, "491": 2, "493": 2, "494": 2, "498": 2, "503": 2, "507": 2, "512": 10, "516": 8, "517": 2, "519": 6, "520": 2, "522": 2, "523": 1, "524": 1, "528": 4, "529": 4, "538": 2, "539": 2, "540": 2, "541": 4, "542": 1, "543": 1, "544": 1, "545": 0, "546": 0, "547": 0, "548": 4, "550": 6, "559": 4, "561": 2, "562": 2, "566": 2, "567": 2, "573": 2, "574": 2, "579": 2, "580": 0, "581": 2, "582": 0, "585": 2, "586": 0, "587": 2, "588": 0, "592": 2, "593": 2, "594": 2, "595": 2, "598": 2, "599": 0, "601": 2, "602": 0, "605": 2, "606": 0, "607": 2, "608": 0, "614": 2, "615": 2, "617": 6, "618": 6, "620": 0, "622": 6, "623": 3, "625": 6, "627": 6, "628": 4, "630": 0, "632": 4, "633": 0, "634": 4, "635": 4, "636": 2, "653": 4, "654": 2, "655": 2, "656": 2, "660": 2, "662": 6, "663": 4, "665": 0, "667": 4, "668": 2, "669": 0, "671": 4, "673": 4, "674": 4, "676": 4, "677": 0, "681": 2, "682": 2, "686": 0, "687": 0, "688": 0, "691": 2, "693": 2, "697": 6, "699": 2, "700": 4, "701": 2, "702": 6, "703": 4, "704": 2, "706": 2, "707": 2, "708": 2, "709": 0, "710": 2, "711": 2, "712": 2, "713": 2, "715": 0, "716": 2}}
++ git checkout 39de9a2698ad4bb90681c0fdb70b30a78233145f
+Note: switching to '39de9a2698ad4bb90681c0fdb70b30a78233145f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 39de9a2698 Merge pull request #23817 from oscarbenjamin/pr_authors
+M	sympy/physics/hep/gamma_matrices.py
++ git apply /root/pre_state.patch
+error: unrecognized input

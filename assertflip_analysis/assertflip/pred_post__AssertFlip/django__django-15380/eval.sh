@@ -1,0 +1,93 @@
+#!/bin/bash
+set -uxo pipefail
+source /opt/miniconda3/bin/activate
+conda activate testbed
+cd /testbed
+git diff HEAD 71e7c8e73712419626f1c2b6ec036e8559a2d667 >> /root/pre_state.patch
+git config --global --add safe.directory /testbed
+cd /testbed
+git status
+git show
+git diff 71e7c8e73712419626f1c2b6ec036e8559a2d667
+source /opt/miniconda3/bin/activate
+conda activate testbed
+python -m pip install -e .
+git apply -v - <<'EOF_114329324912'
+diff --git a/django/db/migrations/autodetector.py b/django/db/migrations/autodetector.py
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -824,7 +824,7 @@ def generate_renamed_fields(self):
+         for app_label, model_name, field_name in sorted(self.new_field_keys - self.old_field_keys):
+             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+             old_model_state = self.from_state.models[app_label, old_model_name]
+-            new_model_state = self.to_state.models[app_label, old_model_name]
++            new_model_state = self.to_state.models[app_label, model_name]
+             field = new_model_state.get_field(field_name)
+             # Scan to see if this is actually a rename!
+             field_dec = self.deep_deconstruct(field)
+
+EOF_114329324912
+git apply -v - <<'EOF_114329324912'
+diff --git a/dev/null b/tests/test_coverup_django__django-15380.py
+new file mode 100644
+index e69de29..7f696cc 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15380.py
+@@ -0,0 +1,51 @@
++from django.test import SimpleTestCase
++from django.db import models
++from django.db.migrations.state import ProjectState, ModelState
++from django.db.migrations.autodetector import MigrationAutodetector
++from django.db.migrations.questioner import NonInteractiveMigrationQuestioner
++
++class MigrationAutodetectorTest(SimpleTestCase):
++    def test_rename_model_and_field_triggers_keyerror(self):
++        """
++        Test that renaming a model and a field in a single migration step
++        does not trigger a KeyError in the migration autodetector.
++        """
++        # Initial state with MyModel and a field my_field
++        initial_state = ProjectState()
++        initial_state.add_model(ModelState(
++            app_label='test_one',
++            name='MyModel',
++            fields=[
++                ('id', models.AutoField(primary_key=True)),
++                ('my_field', models.CharField(max_length=100)),
++            ]
++        ))
++
++        # Target state with MyModel2 and a field my_field2
++        target_state = ProjectState()
++        target_state.add_model(ModelState(
++            app_label='test_one',
++            name='MyModel2',
++            fields=[
++                ('id', models.AutoField(primary_key=True)),
++                ('my_field2', models.CharField(max_length=100)),
++            ]
++        ))
++
++        # Initialize the autodetector
++        autodetector = MigrationAutodetector(
++            from_state=initial_state,
++            to_state=target_state,
++            questioner=NonInteractiveMigrationQuestioner()
++        )
++
++        # Simulate the renaming of a model and a field
++        autodetector.renamed_models = {('test_one', 'mymodel'): 'MyModel2'}
++        autodetector.new_field_keys = {('test_one', 'MyModel2', 'my_field2')}
++        autodetector.old_field_keys = {('test_one', 'MyModel', 'my_field')}
++
++        # Run the autodetector to ensure no KeyError is raised
++        try:
++            autodetector.generate_renamed_fields()
++        except KeyError:
++            self.fail("KeyError was raised when renaming a model and a field, which indicates a bug.")
+
+EOF_114329324912
+python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/migrations/autodetector\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-15380
+cat coverage.cover
+git checkout 71e7c8e73712419626f1c2b6ec036e8559a2d667
+git apply /root/pre_state.patch

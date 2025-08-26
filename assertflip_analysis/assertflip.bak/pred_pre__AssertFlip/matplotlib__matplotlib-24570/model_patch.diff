@@ -1,0 +1,50 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24570.py
+new file mode 100644
+index e69de29..d873972 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24570.py
+@@ -0,0 +1,44 @@
++import matplotlib.pyplot as plt
++from matplotlib.offsetbox import DrawingArea, HPacker, VPacker, AnchoredOffsetbox, TextArea
++from matplotlib.patches import Rectangle
++import pytest
++
++def test_hpacker_align_reversed():
++    # Create two DrawingArea objects with different heights
++    da1 = DrawingArea(10, 20)
++    rect1 = Rectangle((0, 0), 10, 20)
++    da1.add_artist(rect1)
++
++    da2 = DrawingArea(10, 30)
++    rect2 = Rectangle((0, 0), 10, 30)
++    da2.add_artist(rect2)
++
++    # Set align to "bottom", which is expected to behave like "bottom" when the bug is fixed
++    align = "bottom"
++
++    # Pack the DrawingArea objects using HPacker
++    pack = HPacker(children=[da1, da2], pad=10, sep=10, align=align)
++    title = TextArea(f"align='{align}'")
++    pack = VPacker(children=[title, pack], sep=10, pad=10, align="center")
++
++    # Create an AnchoredOffsetbox to position the packed content
++    box = AnchoredOffsetbox(child=pack, loc="center")
++
++    # Set up the plot
++    fig, ax = plt.subplots()
++    ax.add_artist(box)
++
++    # Render the plot
++    fig.canvas.draw()
++
++    # Get the actual y-offsets of the DrawingArea objects
++    actual_offsets = [child.get_window_extent().y0 for child in pack.get_visible_children()]
++
++    # Calculate expected offsets for align="bottom"
++    expected_offsets = sorted(actual_offsets)
++
++    # Assert that the actual offsets match the expected offsets for align="bottom"
++    assert actual_offsets == expected_offsets
++
++    # Cleanup
++    plt.close(fig)

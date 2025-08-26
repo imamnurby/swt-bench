@@ -1,0 +1,588 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 754b487f4d892e3d4872b6fc7468a71db4e31c13
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 754b487f4d892e3d4872b6fc7468a71db4e31c13
+Author: Daniël van Noord <13665637+DanielNoord@users.noreply.github.com>
+Date:   Mon Apr 18 17:39:53 2022 +0200
+
+    Add typing to methods of ``PyLinter``
+
+diff --git a/pylint/lint/pylinter.py b/pylint/lint/pylinter.py
+index b9c1393ed..5a2771e88 100644
+--- a/pylint/lint/pylinter.py
++++ b/pylint/lint/pylinter.py
+@@ -21,6 +21,7 @@ import astroid
+ from astroid import AstroidError, nodes
+ 
+ from pylint import checkers, config, exceptions, interfaces, reporters
++from pylint.checkers.base_checker import BaseChecker
+ from pylint.config.arguments_manager import _ArgumentsManager
+ from pylint.constants import (
+     MAIN_CHECKER_NAME,
+@@ -45,6 +46,7 @@ from pylint.lint.utils import (
+     prepare_crash_report,
+ )
+ from pylint.message import Message, MessageDefinition, MessageDefinitionStore
++from pylint.reporters.base_reporter import BaseReporter
+ from pylint.reporters.text import TextReporter
+ from pylint.reporters.ureports import nodes as report_nodes
+ from pylint.typing import (
+@@ -77,7 +79,7 @@ def _read_stdin():
+     return sys.stdin.read()
+ 
+ 
+-def _load_reporter_by_class(reporter_class: str) -> type:
++def _load_reporter_by_class(reporter_class: str) -> type[BaseReporter]:
+     qname = reporter_class
+     module_part = astroid.modutils.get_module_part(qname)
+     module = astroid.modutils.load_module_from_name(module_part)
+@@ -318,7 +320,7 @@ class PyLinter(
+         )
+         self._option_groups = value
+ 
+-    def load_default_plugins(self):
++    def load_default_plugins(self) -> None:
+         checkers.initialize(self)
+         reporters.initialize(self)
+ 
+@@ -404,7 +406,7 @@ class PyLinter(
+         """Registers a reporter class on the _reporters attribute."""
+         self._reporters[reporter_class.name] = reporter_class
+ 
+-    def report_order(self):
++    def report_order(self) -> list[BaseChecker]:
+         reports = sorted(self._reports, key=lambda x: getattr(x, "name", ""))
+         try:
+             # Remove the current reporter and add it
+@@ -429,7 +431,7 @@ class PyLinter(
+         if not getattr(checker, "enabled", True):
+             self.disable(checker.name)
+ 
+-    def enable_fail_on_messages(self):
++    def enable_fail_on_messages(self) -> None:
+         """Enable 'fail on' msgs.
+ 
+         Convert values in config.fail_on (which might be msg category, msg id,
+@@ -465,7 +467,7 @@ class PyLinter(
+             x in self.fail_on_symbols for x in self.stats.by_msg.keys()
+         )
+ 
+-    def disable_noerror_messages(self):
++    def disable_noerror_messages(self) -> None:
+         for msgcat, msgids in self.msgs_store._msgs_by_category.items():
+             # enable only messages with 'error' severity and above ('fatal')
+             if msgcat in {"E", "F"}:
+@@ -475,7 +477,7 @@ class PyLinter(
+                 for msgid in msgids:
+                     self.disable(msgid)
+ 
+-    def disable_reporters(self):
++    def disable_reporters(self) -> None:
+         """Disable all reporters."""
+         for _reporters in self._reports.values():
+             for report_id, _, _ in _reporters:
+@@ -495,7 +497,7 @@ class PyLinter(
+         self.set_option("persistent", False)
+         self.set_option("score", False)
+ 
+-    def list_messages_enabled(self):
++    def list_messages_enabled(self) -> None:
+         emittable, non_emittable = self.msgs_store.find_emittable_messages()
+         enabled = []
+         disabled = []
+@@ -511,8 +513,8 @@ class PyLinter(
+         for msg in disabled:
+             print(msg)
+         print("\nNon-emittable messages with current interpreter:")
+-        for msg in non_emittable:
+-            print(f"  {msg.symbol} ({msg.msgid})")
++        for msg_def in non_emittable:
++            print(f"  {msg_def.symbol} ({msg_def.msgid})")
+         print("")
+ 
+     # block level option handling #############################################
+@@ -602,32 +604,26 @@ class PyLinter(
+ 
+     # code checking methods ###################################################
+ 
+-    def get_checkers(self):
+-        """Return all available checkers as a list."""
+-        return [self] + [
+-            c
+-            for _checkers in self._checkers.values()
+-            for c in _checkers
+-            if c is not self
+-        ]
++    def get_checkers(self) -> list[BaseChecker]:
++        """Return all available checkers as an ordered list."""
++        return sorted(c for _checkers in self._checkers.values() for c in _checkers)
+ 
+-    def get_checker_names(self):
++    def get_checker_names(self) -> list[str]:
+         """Get all the checker names that this linter knows about."""
+-        current_checkers = self.get_checkers()
+         return sorted(
+             {
+                 checker.name
+-                for checker in current_checkers
++                for checker in self.get_checkers()
+                 if checker.name != MAIN_CHECKER_NAME
+             }
+         )
+ 
+-    def prepare_checkers(self):
++    def prepare_checkers(self) -> list[BaseChecker]:
+         """Return checkers needed for activated messages and reports."""
+         if not self.config.reports:
+             self.disable_reporters()
+         # get needed checkers
+-        needed_checkers = [self]
++        needed_checkers: list[BaseChecker] = [self]
+         for checker in self.get_checkers()[1:]:
+             messages = {msg for msg in checker.msgs if self.is_message_enabled(msg)}
+             if messages or any(self.report_is_enabled(r[0]) for r in checker.reports):
+@@ -659,7 +655,7 @@ class PyLinter(
+ 
+     # pylint: enable=unused-argument
+ 
+-    def initialize(self):
++    def initialize(self) -> None:
+         """Initialize linter for linting.
+ 
+         This method is called before any linting is done.
+@@ -835,7 +831,7 @@ class PyLinter(
+             if self.should_analyze_file(name, filepath, is_argument=is_arg):
+                 yield FileItem(name, filepath, descr["basename"])
+ 
+-    def _expand_files(self, modules) -> list[ModuleDescriptionDict]:
++    def _expand_files(self, modules: list[str]) -> list[ModuleDescriptionDict]:
+         """Get modules and errors from a list of modules and handle errors."""
+         result, errors = expand_modules(
+             modules,
+@@ -1017,7 +1013,7 @@ class PyLinter(
+         self.stats.reset_message_count()
+         self._ignore_paths = self.linter.config.ignore_paths
+ 
+-    def generate_reports(self):
++    def generate_reports(self) -> int | None:
+         """Close the whole package /module, it's time to make reports !
+ 
+         if persistent run, pickle results for later comparison
+@@ -1045,7 +1041,7 @@ class PyLinter(
+             score_value = None
+         return score_value
+ 
+-    def _report_evaluation(self):
++    def _report_evaluation(self) -> int | None:
+         """Make the global evaluation report."""
+         # check with at least check 1 statements (usually 0 when there is a
+         # syntax error preventing pylint from further processing)
+diff --git a/pylint/utils/docs.py b/pylint/utils/docs.py
+index 5484bbfbd..56cecd7d1 100644
+--- a/pylint/utils/docs.py
++++ b/pylint/utils/docs.py
+@@ -61,6 +61,7 @@ Pylint provides global options and switches.
+                         else:
+                             title = f"{section.capitalize()} options"
+                         result += get_rst_title(title, "~")
++                        assert isinstance(options, list)
+                         result += f"{get_rst_section(None, options)}\n"
+     result += get_rst_title("Pylint checkers' options and switches", "-")
+     result += """\
+@@ -75,8 +76,8 @@ Below is a list of all checkers and their features.
+ 
+ """
+     by_checker = _get_checkers_infos(linter)
+-    for checker in sorted(by_checker):
+-        information = by_checker[checker]
++    for checker_name in sorted(by_checker):
++        information = by_checker[checker_name]
+         checker = information["checker"]
+         del information["checker"]
+         result += checker.get_full_documentation(**information)
++ git diff 754b487f4d892e3d4872b6fc7468a71db4e31c13
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: dill>=0.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (0.4.0)
+Requirement already satisfied: platformdirs>=2.2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (4.3.8)
+Requirement already satisfied: astroid<=2.12.0-dev0,>=2.11.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (2.11.6)
+Requirement already satisfied: isort<6,>=4.2.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (5.10.1)
+Requirement already satisfied: mccabe<0.8,>=0.6 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (0.6.1)
+Requirement already satisfied: tomlkit>=0.10.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (0.13.3)
+Requirement already satisfied: typing-extensions>=3.10.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (4.14.1)
+Requirement already satisfied: tomli>=1.1.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (2.2.1)
+Requirement already satisfied: lazy-object-proxy>=1.4.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from astroid<=2.12.0-dev0,>=2.11.2->pylint==2.14.0.dev0) (1.12.0)
+Requirement already satisfied: wrapt<2,>=1.11 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from astroid<=2.12.0-dev0,>=2.11.2->pylint==2.14.0.dev0) (1.17.3)
+Requirement already satisfied: setuptools>=20.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from astroid<=2.12.0-dev0,>=2.11.2->pylint==2.14.0.dev0) (78.1.1)
+Installing collected packages: pylint
+  Attempting uninstall: pylint
+    Found existing installation: pylint 2.14.0.dev0
+    Uninstalling pylint-2.14.0.dev0:
+      Successfully uninstalled pylint-2.14.0.dev0
+  DEPRECATION: Legacy editable install of pylint==2.14.0.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for pylint
+Successfully installed pylint
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_pylint-dev__pylint-6386.py...
+<stdin>:52: new blank line at EOF.
++
+Applied patch tests/test_coverup_pylint-dev__pylint-6386.py cleanly.
+warning: 1 line adds whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(pylint/config/utils\.py|pylint/config/arguments_manager\.py|pylint/lint/base_options\.py|pylint/config/argument\.py)' -m pytest --no-header -rA -p no:cacheprovider tests/test_coverup_pylint-dev__pylint-6386.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(pylint/config/utils\\.py|pylint/config/arguments_manager\\.py|pylint/lint/base_options\\.py|pylint/config/argument\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+tests/test_coverup_pylint-dev__pylint-6386.py F                          [100%]
+
+=================================== FAILURES ===================================
+__________________ test_verbose_short_option_expects_argument __________________
+
+    def test_verbose_short_option_expects_argument():
+        # Setup a mock options provider with a verbose option
+        class DummyProvider:
+            name = "dummy"
+            options = [
+                ("verbose", {"short": "v", "action": "store", "help": "Increase verbosity"})
+            ]
+    
+        # Initialize the OptionsManagerMixIn and OptionParser
+        options_manager = OptionsManagerMixIn(usage="Test usage")
+        parser = options_manager.cmdline_parser
+        options_manager.register_options_provider(DummyProvider())
+    
+        # Simulate command-line input with `-v` without an argument
+        test_args = ["-v"]
+    
+        # Capture the output or error
+        try:
+            parser.parse_args(test_args)
+            error_occurred = False
+        except SystemExit as e:
+            error_occurred = True
+            error_message = str(e)
+    
+        # Assert that using `-v` without an argument does not result in an error
+        # This assertion should pass once the bug is fixed
+>       assert not error_occurred, "'-v' should not expect an argument"
+E       AssertionError: '-v' should not expect an argument
+E       assert not True
+
+tests/test_coverup_pylint-dev__pylint-6386.py:31: AssertionError
+----------------------------- Captured stderr call -----------------------------
+Usage: Test usage
+
+__main__.py: error: -v option requires 1 argument
+=============================== warnings summary ===============================
+../opt/miniconda3/envs/testbed/lib/python3.9/site-packages/astroid/interpreter/_import/util.py:6
+  /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/astroid/interpreter/_import/util.py:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+    import pkg_resources
+
+pylint/checkers/utils.py:455: 146 warnings
+  /testbed/pylint/checkers/utils.py:455: DeprecationWarning: utils.check_messages will be removed in favour of calling utils.only_required_for_messages in pylint 3.0
+    warnings.warn(
+
+tests/test_coverup_pylint-dev__pylint-6386.py::test_verbose_short_option_expects_argument
+  /testbed/pylint/config/option_manager_mixin.py:68: DeprecationWarning: OptionsManagerMixIn has been deprecated and will be removed in pylint 3.0
+    warnings.warn(
+
+tests/test_coverup_pylint-dev__pylint-6386.py::test_verbose_short_option_expects_argument
+  /testbed/pylint/config/option_parser.py:23: DeprecationWarning: OptionParser has been deprecated and will be removed in pylint 3.0
+    warnings.warn(
+
+tests/test_coverup_pylint-dev__pylint-6386.py::test_verbose_short_option_expects_argument
+tests/test_coverup_pylint-dev__pylint-6386.py::test_verbose_short_option_expects_argument
+  /testbed/pylint/config/option.py:176: DeprecationWarning: Option has been deprecated and will be removed in pylint 3.0
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_coverup_pylint-dev__pylint-6386.py::test_verbose_short_option_expects_argument
+======================= 1 failed, 151 warnings in 0.09s ========================
++ cat coverage.cover
+{"/testbed/pylint/config/arguments_manager.py": {"5": 1, "7": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "23": 1, "25": 1, "26": 1, "35": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "44": 1, "45": 1, "47": 1, "48": 0, "50": 1, "53": 1, "54": 0, "56": 1, "60": 2, "63": 1, "99": 1, "100": 1, "104": 1, "105": 1, "108": 1, "109": 1, "117": 1, "118": 1, "125": 1, "142": 1, "158": 1, "159": 1, "236": 1, "240": 1, "252": 1, "264": 1, "280": 1, "320": 1, "357": 1, "377": 1, "415": 1, "472": 1, "484": 1, "525": 1, "526": 1, "559": 1, "575": 1, "585": 1, "597": 1, "619": 1, "629": 1, "647": 1, "657": 1, "728": 1, "66": 1, "69": 2, "70": 1, "71": 1, "72": 1, "73": 1, "77": 1, "80": 1, "86": 1, "87": 1, "88": 1, "90": 1, "92": 1, "93": 1, "94": 1, "95": 1, "97": 1, "102": 45, "106": 38, "111": 0, "112": 0, "113": 0, "115": 0, "119": 0, "120": 0, "121": 0, "123": 0, "127": 171, "128": 133, "129": 133, "130": 133, "132": 133, "135": 133, "136": 74, "138": 133, "140": 38, "146": 133, "147": 133, "148": 17, "149": 17, "150": 30, "151": 15, "154": 2, "155": 17, "156": 133, "163": 133, "164": 250, "165": 125, "166": 125, "167": 125, "168": 125, "169": 125, "170": 125, "171": 125, "173": 8, "174": 8, "175": 2, "176": 2, "177": 2, "178": 2, "179": 2, "180": 2, "181": 2, "182": 2, "186": 2, "187": 4, "188": 4, "189": 2, "190": 2, "191": 2, "192": 2, "193": 2, "194": 2, "195": 2, "197": 6, "198": 4, "199": 1, "200": 1, "201": 1, "202": 1, "203": 1, "204": 1, "205": 1, "206": 1, "208": 5, "209": 4, "210": 2, "211": 2, "212": 2, "213": 2, "215": 3, "216": 12, "217": 3, "218": 3, "219": 3, "220": 3, "222": 0, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "231": 0, "234": 0, "238": 38, "242": 0, "243": 0, "245": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "256": 0, "258": 0, "259": 0, "262": 0, "266": 2, "267": 1, "269": 1, "272": 2, "273": 1, "276": 1, "277": 1, "278": 1, "284": 0, "285": 0, "288": 0, "290": 0, "291": 0, "292": 0, "294": 0, "295": 0, "296": 0, "297": 0, "298": 0, "299": 0, "300": 0, "301": 0, "302": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "310": 0, "311": 0, "313": 0, "316": 0, "317": 0, "318": 0, "314": 0, "312": 0, "328": 0, "329": 0, "332": 0, "335": 0, "336": 0, "338": 0, "339": 0, "341": 0, "342": 0, "345": 0, "344": 0, "346": 0, "348": 0, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "355": 0, "365": 0, "366": 0, "368": 0, "370": 0, "371": 0, "372": 0, "373": 0, "374": 0, "375": 0, "383": 0, "384": 0, "386": 0, "388": 0, "389": 0, "390": 0, "392": 0, "393": 0, "396": 0, "398": 0, "397": 0, "399": 0, "400": 0, "402": 0, "403": 0, "404": 0, "405": 0, "406": 0, "407": 0, "408": 0, "410": 0, "411": 0, "412": 0, "413": 0, "421": 0, "422": 0, "423": 0, "425": 0, "426": 0, "427": 0, "428": 0, "429": 0, "430": 0, "431": 0, "433": 0, "434": 0, "435": 0, "436": 0, "438": 0, "440": 0, "441": 0, "442": 0, "443": 0, "445": 0, "447": 0, "448": 0, "449": 0, "446": 0, "453": 0, "454": 0, "457": 0, "458": 0, "459": 0, "460": 0, "461": 0, "462": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "468": 0, "470": 0, "474": 0, "475": 0, "477": 0, "479": 0, "480": 0, "481": 0, "482": 0, "492": 0, "493": 0, "494": 0, "496": 0, "497": 0, "498": 0, "499": 0, "501": 0, "502": 0, "503": 0, "504": 0, "505": 0, "506": 0, "507": 0, "508": 0, "509": 0, "510": 0, "513": 0, "514": 0, "516": 0, "517": 0, "518": 0, "519": 0, "520": 0, "522": 0, "523": 0, "533": 0, "534": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "543": 0, "544": 0, "545": 0, "546": 0, "547": 0, "548": 0, "549": 0, "551": 0, "552": 0, "553": 0, "554": 0, "555": 0, "556": 0, "557": 0, "563": 0, "564": 0, "565": 0, "567": 0, "568": 0, "569": 0, "570": 0, "571": 0, "572": 0, "573": 0, "577": 0, "578": 0, "579": 0, "581": 0, "582": 0, "583": 0, "588": 0, "589": 0, "590": 0, "592": 0, "593": 0, "594": 0, "595": 0, "604": 0, "605": 0, "606": 0, "608": 0, "609": 0, "610": 0, "611": 0, "612": 0, "613": 0, "614": 0, "615": 0, "616": 0, "617": 0, "621": 0, "622": 0, "623": 0, "625": 0, "627": 0, "632": 0, "633": 0, "634": 0, "636": 0, "638": 0, "641": 0, "643": 0, "644": 0, "645": 0, "650": 0, "651": 0, "653": 0, "655": 0, "659": 0, "660": 0, "661": 0, "663": 0, "664": 0, "665": 0, "668": 0, "669": 0, "672": 0, "673": 0, "675": 0, "676": 0, "677": 0, "679": 0, "682": 0, "683": 0, "684": 0, "685": 0, "687": 0, "688": 0, "691": 0, "692": 0, "693": 0, "694": 0, "695": 0, "698": 0, "701": 0, "702": 0, "703": 0, "704": 0, "707": 0, "708": 0, "709": 0, "710": 0, "712": 0, "715": 0, "716": 0, "718": 0, "719": 0, "721": 0, "724": 0, "726": 0, "737": 0, "738": 0, "739": 0, "741": 0, "743": 0, "744": 0, "745": 0, "747": 0, "750": 0, "751": 0, "752": 0, "753": 0}}
+{"/testbed/pylint/config/argument.py": {"5": 1, "10": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "19": 1, "20": 1, "21": 1, "22": 1, "23": 1, "25": 1, "26": 1, "28": 0, "31": 2, "32": 2, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "44": 1, "55": 1, "60": 1, "61": 1, "64": 1, "76": 1, "83": 1, "94": 1, "102": 1, "117": 1, "118": 1, "119": 1, "120": 1, "121": 1, "122": 1, "123": 1, "124": 1, "125": 1, "126": 1, "127": 1, "128": 1, "116": 1, "139": 2, "172": 2, "201": 2, "248": 2, "277": 2, "325": 2, "369": 2, "406": 2, "443": 2, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "52": 0, "57": 3, "66": 1, "67": 1, "68": 0, "69": 1, "70": 1, "71": 0, "72": 0, "78": 2, "79": 0, "80": 2, "85": 0, "86": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "96": 2, "97": 2, "98": 0, "99": 2, "104": 0, "105": 0, "106": 0, "107": 0, "108": 0, "109": 0, "110": 0, "113": 0, "147": 1, "155": 133, "158": 133, "162": 133, "165": 133, "166": 1, "168": 133, "169": 133, "180": 1, "190": 254, "191": 127, "194": 127, "197": 127, "198": 127, "209": 1, "222": 250, "223": 125, "224": 125, "225": 125, "226": 125, "227": 125, "228": 125, "231": 125, "234": 125, "240": 125, "241": 125, "257": 1, "267": 4, "268": 2, "269": 2, "270": 2, "271": 2, "272": 2, "273": 2, "285": 1, "298": 6, "299": 3, "302": 3, "305": 3, "308": 3, "311": 3, "317": 3, "318": 3, "333": 1, "348": 0, "349": 0, "351": 0, "353": 0, "356": 0, "357": 0, "358": 0, "359": 0, "360": 0, "361": 0, "362": 0, "363": 0, "364": 0, "365": 0, "377": 1, "390": 4, "391": 2, "392": 2, "393": 2, "394": 2, "395": 2, "396": 2, "397": 2, "398": 2, "399": 2, "402": 2, "403": 2, "414": 1, "427": 2, "428": 1, "429": 1, "430": 1, "431": 1, "432": 1, "433": 1, "434": 1, "435": 1, "436": 1, "439": 1, "440": 1, "451": 1, "461": 6, "462": 3, "465": 3, "468": 3, "469": 3}}
+{"/testbed/pylint/config/utils.py": {"5": 1, "7": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "15": 1, "16": 1, "24": 1, "25": 1, "27": 1, "28": 0, "31": 1, "148": 1, "160": 1, "169": 1, "175": 1, "181": 1, "187": 1, "192": 1, "205": 1, "206": 1, "207": 1, "208": 1, "209": 1, "210": 1, "204": 1, "202": 1, "214": 1, "42": 133, "43": 0, "44": 0, "46": 0, "50": 133, "51": 133, "52": 6, "55": 133, "57": 133, "58": 4, "59": 2, "60": 2, "61": 2, "62": 2, "63": 2, "64": 2, "66": 131, "67": 6, "68": 3, "69": 3, "70": 3, "71": 3, "72": 3, "73": 3, "75": 128, "76": 128, "77": 0, "78": 0, "79": 0, "82": 0, "84": 0, "85": 128, "86": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "95": 0, "96": 0, "98": 128, "99": 2, "100": 2, "101": 1, "102": 1, "103": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "111": 1, "112": 2, "113": 1, "114": 1, "115": 1, "116": 1, "117": 1, "118": 1, "119": 1, "120": 1, "121": 1, "123": 126, "124": 2, "125": 1, "126": 1, "127": 1, "128": 1, "129": 1, "130": 1, "131": 1, "132": 1, "133": 1, "135": 250, "136": 125, "137": 125, "138": 125, "139": 125, "140": 125, "141": 125, "142": 125, "143": 125, "144": 125, "150": 0, "151": 0, "152": 0, "153": 0, "154": 0, "155": 0, "156": 0, "165": 0, "166": 0, "171": 0, "172": 0, "177": 0, "178": 0, "183": 0, "184": 0, "188": 0, "189": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "216": 0, "218": 0, "219": 0, "220": 0, "221": 0, "222": 0, "223": 0, "224": 0, "226": 0, "227": 0, "228": 0, "229": 0, "231": 0, "232": 0, "233": 0, "234": 0, "236": 0, "238": 0, "239": 0, "240": 0, "241": 0, "242": 0, "243": 0, "244": 0, "246": 0, "247": 0, "249": 0}}
+{"/testbed/pylint/lint/base_options.py": {"5": 1, "7": 1, "9": 1, "10": 1, "11": 1, "13": 1, "14": 1, "31": 1, "33": 1, "34": 0, "37": 1, "395": 1, "41": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "42": 1, "40": 1, "53": 1, "55": 1, "56": 1, "57": 1, "58": 1, "59": 1, "54": 1, "52": 1, "65": 1, "67": 1, "68": 1, "69": 1, "70": 1, "66": 1, "64": 1, "76": 1, "78": 1, "79": 1, "80": 1, "81": 1, "77": 1, "75": 1, "85": 1, "87": 1, "88": 1, "89": 1, "90": 1, "86": 1, "84": 1, "96": 1, "98": 1, "99": 1, "100": 1, "101": 1, "102": 1, "103": 1, "104": 1, "108": 1, "97": 1, "95": 1, "112": 1, "114": 1, "115": 1, "116": 1, "117": 1, "118": 1, "119": 1, "113": 1, "111": 1, "124": 1, "126": 1, "127": 1, "128": 1, "129": 1, "131": 1, "125": 1, "123": 1, "141": 1, "143": 1, "144": 1, "145": 1, "146": 1, "147": 1, "148": 1, "142": 1, "140": 1, "152": 1, "154": 1, "155": 1, "156": 1, "157": 1, "153": 1, "151": 1, "161": 1, "163": 1, "164": 1, "165": 1, "166": 1, "162": 1, "160": 1, "172": 1, "174": 1, "175": 1, "176": 1, "177": 1, "178": 2, "179": 1, "173": 1, "171": 1, "183": 1, "185": 1, "186": 1, "187": 1, "188": 1, "189": 1, "190": 1, "191": 1, "197": 1, "184": 1, "182": 1, "201": 1, "203": 1, "204": 1, "205": 1, "206": 1, "207": 1, "208": 1, "209": 1, "221": 1, "202": 1, "200": 1, "225": 1, "227": 1, "228": 1, "229": 1, "230": 1, "232": 1, "226": 1, "224": 1, "240": 1, "242": 1, "243": 1, "244": 1, "245": 1, "246": 1, "241": 1, "239": 1, "251": 1, "253": 1, "254": 1, "255": 1, "256": 1, "258": 1, "252": 1, "250": 1, "265": 1, "267": 1, "268": 1, "269": 1, "271": 1, "266": 1, "264": 1, "278": 1, "280": 1, "281": 1, "282": 1, "284": 1, "279": 1, "277": 1, "292": 1, "294": 1, "295": 1, "296": 1, "298": 1, "293": 1, "291": 1, "307": 1, "309": 1, "310": 1, "311": 1, "313": 1, "308": 1, "306": 1, "320": 1, "322": 1, "323": 1, "324": 1, "326": 1, "321": 1, "319": 1, "333": 1, "335": 1, "336": 1, "337": 1, "339": 1, "334": 1, "332": 1, "345": 1, "347": 1, "348": 1, "349": 1, "350": 1, "346": 1, "344": 1, "354": 1, "356": 1, "357": 1, "358": 1, "360": 1, "355": 1, "353": 1, "366": 1, "368": 1, "369": 1, "370": 1, "371": 1, "367": 1, "365": 1, "380": 1, "382": 1, "383": 1, "384": 1, "385": 1, "381": 1, "379": 1, "39": 1, "399": 0, "401": 0, "402": 0, "403": 0, "404": 0, "405": 0, "400": 0, "398": 0, "409": 0, "411": 0, "412": 0, "413": 0, "414": 0, "415": 0, "410": 0, "408": 0, "419": 0, "421": 0, "422": 0, "423": 0, "420": 0, "418": 0, "428": 0, "430": 0, "431": 0, "432": 0, "433": 0, "435": 0, "429": 0, "427": 0, "439": 0, "441": 0, "442": 0, "443": 0, "444": 0, "446": 0, "440": 0, "438": 0, "450": 0, "452": 0, "453": 0, "454": 0, "455": 0, "457": 0, "451": 0, "449": 0, "461": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "462": 0, "460": 0, "471": 0, "473": 0, "474": 0, "475": 0, "476": 0, "477": 0, "472": 0, "470": 0, "481": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "482": 0, "480": 0, "491": 0, "493": 0, "494": 0, "495": 0, "496": 0, "497": 0, "492": 0, "490": 0, "501": 0, "503": 0, "504": 0, "505": 0, "506": 0, "510": 0, "502": 0, "500": 0, "514": 0, "516": 0, "517": 0, "518": 0, "519": 0, "523": 0, "515": 0, "513": 0, "527": 0, "529": 0, "530": 0, "531": 0, "532": 0, "535": 0, "528": 0, "526": 0, "539": 0, "541": 0, "542": 0, "543": 0, "544": 0, "546": 0, "540": 0, "538": 0, "550": 0, "552": 0, "553": 0, "554": 0, "556": 0, "551": 0, "549": 0, "560": 0, "562": 0, "563": 0, "564": 0, "565": 0, "566": 0, "561": 0, "559": 0, "397": 0}}
++ git checkout 754b487f4d892e3d4872b6fc7468a71db4e31c13
+Note: switching to '754b487f4d892e3d4872b6fc7468a71db4e31c13'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 754b487f4 Add typing to methods of ``PyLinter``
++ git apply /root/pre_state.patch
+error: unrecognized input

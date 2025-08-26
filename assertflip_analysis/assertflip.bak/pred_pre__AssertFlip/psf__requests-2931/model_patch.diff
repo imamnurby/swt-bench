@@ -1,0 +1,20 @@
+diff --git a/dev/null b/test_coverup_psf__requests-2931.py
+new file mode 100644
+index e69de29..3241c60 100644
+--- /dev/null
++++ b/test_coverup_psf__requests-2931.py
+@@ -0,0 +1,14 @@
++import pytest
++import requests
++
++def test_put_request_with_binary_payload():
++    # Setup: Define the URL and the binary payload
++    url = "http://httpbin.org/put"
++    binary_payload = u"ööö".encode("utf-8")
++
++    # Action: Send a PUT request with the binary payload
++    # We expect this to succeed without raising an exception
++    response = requests.put(url, data=binary_payload)
++
++    # Assert: Check that the request was successful
++    assert response.status_code == 200

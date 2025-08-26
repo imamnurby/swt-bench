@@ -1,0 +1,56 @@
+{
+    "sympy__sympy-21596": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.625,
+        "coverage_gold": 0.7083333333333334,
+        "coverage_base": 0.041666666666666664,
+        "coverage_delta_pred": 0.5833333333333334,
+        "coverage_delta_gold": 0.6666666666666666,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_intersection_with_reals_bug"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_normalize_theta_set",
+                "test_issue_11732",
+                "test_infinitely_indexed_set_2",
+                "test_issue_18050",
+                "test_ComplexRegion_FiniteSet",
+                "test_image_is_ImageSet",
+                "test_ImageSet_simplification",
+                "test_ImageSet_iterator_not_injective",
+                "test_Integers_eval_imageset",
+                "test_inf_Range_len",
+                "test_naturals0",
+                "test_fun",
+                "test_range_is_finite_set",
+                "test_Range_eval_imageset",
+                "test_issue_17859",
+                "test_issue_17858"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_imageset_intersect_real"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

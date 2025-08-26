@@ -1,0 +1,36 @@
+diff --git a/dev/null b/tests/test_coverup_mwaskom__seaborn-3187.py
+new file mode 100644
+index e69de29..fa269d5 100644
+--- /dev/null
++++ b/tests/test_coverup_mwaskom__seaborn-3187.py
+@@ -0,0 +1,30 @@
++import pytest
++import seaborn as sns
++import matplotlib.pyplot as plt
++import matplotlib as mpl
++
++def test_legend_values_with_offset():
++    # Set matplotlib rcParams to use offset
++    mpl.rcParams['axes.formatter.useoffset'] = True
++
++    # Load dataset and create a column with large values
++    penguins = sns.load_dataset("penguins")
++    penguins["body_mass_mg"] = penguins["body_mass_g"] * 1000
++
++    # Create a plot using seaborn with the large values column affecting the legend
++    ax = sns.scatterplot(
++        data=penguins, x="bill_length_mm", y="bill_depth_mm",
++        hue="species", size="body_mass_mg", legend="full"
++    )
++
++    # Retrieve the legend from the plot
++    legend = ax.get_legend()
++
++    # Check the legend values to confirm they include the offset
++    if legend is not None:
++        labels = [text.get_text() for text in legend.get_texts()]
++        # The legend values should include the offset
++        assert all('e' in label for label in labels), "Legend values do not include offset notation"
++
++    # Cleanup: Close the plot to avoid memory issues
++    plt.close('all')

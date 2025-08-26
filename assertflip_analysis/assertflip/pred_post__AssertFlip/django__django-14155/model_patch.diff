@@ -1,0 +1,37 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-14155.py
+new file mode 100644
+index e69de29..cab4330 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14155.py
+@@ -0,0 +1,31 @@
++from django.test import SimpleTestCase
++from django.urls.resolvers import ResolverMatch
++import functools
++
++class ResolverMatchReprTest(SimpleTestCase):
++    def test_repr_with_partial_function(self):
++        # Define a simple function to use with functools.partial
++        def sample_function(x, y):
++            return x + y
++
++        # Create a partial function with one argument fixed
++        partial_func = functools.partial(sample_function, x=1)
++
++        # Instantiate ResolverMatch with the partial function
++        resolver_match = ResolverMatch(
++            func=partial_func,
++            args=(),
++            kwargs={},
++            url_name=None,
++            app_names=None,
++            namespaces=None,
++            route=None,
++            tried=None
++        )
++
++        # Get the __repr__ output
++        repr_output = repr(resolver_match)
++
++        # Assert that the __repr__ output includes the underlying function and arguments
++        self.assertIn("sample_function", repr_output)
++        self.assertIn("x=1", repr_output)

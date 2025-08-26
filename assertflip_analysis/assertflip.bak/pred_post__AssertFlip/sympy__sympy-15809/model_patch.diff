@@ -1,0 +1,14 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-15809.py
+new file mode 100644
+index e69de29..90185ea 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-15809.py
+@@ -0,0 +1,8 @@
++from sympy import Min, Max, oo
++
++def test_min_max_no_arguments():
++    # Test Min() with no arguments
++    assert Min() == oo
++
++    # Test Max() with no arguments
++    assert Max() == -oo

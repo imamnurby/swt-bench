@@ -1,0 +1,38 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15863.py
+new file mode 100644
+index e69de29..0845fc3 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15863.py
+@@ -0,0 +1,32 @@
++from decimal import Decimal
++from django.test import SimpleTestCase
++from django.template import Template, Context
++from django.conf import settings
++from django import setup
++
++class FloatFormatPrecisionTest(SimpleTestCase):
++    @classmethod
++    def setUpClass(cls):
++        super().setUpClass()
++        # Configure Django settings for template rendering
++        TEMPLATES = [
++            {
++                'BACKEND': 'django.template.backends.django.DjangoTemplates',
++            },
++        ]
++        if not settings.configured:
++            settings.configure(TEMPLATES=TEMPLATES)
++        setup()
++
++    def test_floatformat_precision_loss(self):
++        # Create a template using the floatformat filter with high precision
++        template = Template('{{ value|floatformat:20 }}')
++        
++        # Use a Decimal number with high precision
++        context = Context({'value': Decimal('42.12345678901234567890')})
++        
++        # Render the template
++        rendered = template.render(context)
++        
++        # Assert that the rendered output matches the correct output
++        self.assertEqual(rendered, '42.12345678901234567890')

@@ -1,0 +1,45 @@
+{
+    "django__django-12419": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 1.0,
+        "coverage_delta_pred": 0.0,
+        "coverage_delta_gold": 0.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "testbed/django/conf/global_settings.py(52):     ('af', gettext_noop('Afrikaans')",
+                "test_coverup_django__django-12419 (unittest.loader._FailedTest)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_default_referrer_policy (test_coverup_django__django-12419.SecurityMiddlewareReferrerPolicyTest)",
+                "testbed/django/conf/global_settings.py(52):     ('af', gettext_noop('Afrikaans')"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "testbed/django/conf/global_settings.py(52):     ('af', gettext_noop('Afrikaans')"
+            ],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_middleware_headers (project_template.test_settings.TestStartProjectSettings)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

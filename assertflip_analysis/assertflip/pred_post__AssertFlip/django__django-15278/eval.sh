@@ -1,0 +1,139 @@
+#!/bin/bash
+set -uxo pipefail
+source /opt/miniconda3/bin/activate
+conda activate testbed
+cd /testbed
+git diff HEAD 0ab58c120939093fea90822f376e1866fc714d1f >> /root/pre_state.patch
+git config --global --add safe.directory /testbed
+cd /testbed
+git status
+git show
+git diff 0ab58c120939093fea90822f376e1866fc714d1f
+source /opt/miniconda3/bin/activate
+conda activate testbed
+python -m pip install -e .
+git apply -v - <<'EOF_114329324912'
+diff --git a/django/db/backends/sqlite3/schema.py b/django/db/backends/sqlite3/schema.py
+--- a/django/db/backends/sqlite3/schema.py
++++ b/django/db/backends/sqlite3/schema.py
+@@ -324,10 +324,15 @@ def delete_model(self, model, handle_autom2m=True):
+ 
+     def add_field(self, model, field):
+         """Create a field on a model."""
+-        # Fields with default values cannot by handled by ALTER TABLE ADD
+-        # COLUMN statement because DROP DEFAULT is not supported in
+-        # ALTER TABLE.
+-        if not field.null or self.effective_default(field) is not None:
++        if (
++            # Primary keys and unique fields are not supported in ALTER TABLE
++            # ADD COLUMN.
++            field.primary_key or field.unique or
++            # Fields with default values cannot by handled by ALTER TABLE ADD
++            # COLUMN statement because DROP DEFAULT is not supported in
++            # ALTER TABLE.
++            not field.null or self.effective_default(field) is not None
++        ):
+             self._remake_table(model, create_field=field)
+         else:
+             super().add_field(model, field)
+
+EOF_114329324912
+git apply -v - <<'EOF_114329324912'
+diff --git a/dev/null b/tests/test_coverup_django__django-15278.py
+new file mode 100644
+index e69de29..d221233 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15278.py
+@@ -0,0 +1,86 @@
++from django.test import SimpleTestCase
++from django.db import models, connection
++from django.db.utils import OperationalError
++from django.db.migrations.executor import MigrationExecutor
++from django.db import migrations
++
++class AccessToken(models.Model):
++    class Meta:
++        app_label = 'oauth2_provider'
++        db_table = 'oauth2_provider_accesstoken'
++
++class RefreshToken(models.Model):
++    class Meta:
++        app_label = 'oauth2_provider'
++        db_table = 'oauth2_provider_refreshtoken'
++
++class AddNullableOneToOneFieldTest(SimpleTestCase):
++    databases = '__all__'
++
++    def setUp(self):
++        self.executor = MigrationExecutor(connection)
++        self.start_state = self.executor.loader.project_state()
++
++    def test_add_nullable_onetoonefield(self):
++        # Define the initial migration to create the models
++        initial_operations = [
++            migrations.CreateModel(
++                name='AccessToken',
++                fields=[
++                    ('id', models.AutoField(primary_key=True)),
++                ],
++                options={
++                    'db_table': 'oauth2_provider_accesstoken',
++                },
++            ),
++            migrations.CreateModel(
++                name='RefreshToken',
++                fields=[
++                    ('id', models.AutoField(primary_key=True)),
++                ],
++                options={
++                    'db_table': 'oauth2_provider_refreshtoken',
++                },
++            ),
++        ]
++
++        # Create the initial migration
++        initial_migration = migrations.Migration('0001_initial', 'oauth2_provider')
++        initial_migration.operations = initial_operations
++
++        # Apply the initial migration
++        self.executor.apply_migration(self.start_state, initial_migration)
++
++        # Insert a record into the AccessToken table
++        with connection.cursor() as cursor:
++            cursor.execute('INSERT INTO oauth2_provider_accesstoken (id) VALUES (1)')
++
++        # Define the migration to add the OneToOneField
++        add_field_operations = [
++            migrations.AddField(
++                model_name='accesstoken',
++                name='source_refresh_token',
++                field=models.OneToOneField(
++                    blank=True,
++                    null=True,
++                    on_delete=models.SET_NULL,
++                    to='oauth2_provider.RefreshToken',
++                    related_name='refreshed_access_token',
++                    unique=True,  # Ensure the field is unique
++                ),
++            ),
++        ]
++
++        # Create a migration to add the OneToOneField
++        add_field_migration = migrations.Migration('0002_add_onetoonefield', 'oauth2_provider')
++        add_field_migration.operations = add_field_operations
++
++        # Apply the migration to add the OneToOneField
++        try:
++            self.executor.apply_migration(self.start_state, add_field_migration)
++        except OperationalError as e:
++            # The test should fail if an OperationalError is raised
++            self.fail(f"Unexpected OperationalError: {e}")
++        else:
++            # If no error is raised, the test passes because the bug was fixed
++            pass  # The test passes if no OperationalError is raised
+
+EOF_114329324912
+python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/backends/sqlite3/schema\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-15278
+cat coverage.cover
+git checkout 0ab58c120939093fea90822f376e1866fc714d1f
+git apply /root/pre_state.patch

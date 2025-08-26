@@ -1,0 +1,692 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 350123f38c2b6217c38d70bfbd924a9ba3df1289
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 350123f38c2b6217c38d70bfbd924a9ba3df1289
+Author: Mariusz Felisiak <felisiak.mariusz@gmail.com>
+Date:   Thu Sep 5 15:56:52 2019 +0200
+
+    Moved release note for refs #30158 from deprecated to backwards incompatible changes.
+
+diff --git a/docs/releases/3.0.txt b/docs/releases/3.0.txt
+index 570effe6b3..a105abfae6 100644
+--- a/docs/releases/3.0.txt
++++ b/docs/releases/3.0.txt
+@@ -584,6 +584,9 @@ Miscellaneous
+ * On MySQL 8.0.16+, ``PositiveIntegerField`` and ``PositiveSmallIntegerField``
+   now include a check constraint to prevent negative values in the database.
+ 
++* ``alias=None`` is added to the signature of
++  :meth:`.Expression.get_group_by_cols`.
++
+ .. _deprecated-features-3.0:
+ 
+ Features deprecated in 3.0
+@@ -619,9 +622,6 @@ Miscellaneous
+   in the session in Django 4.0. Since Django 2.1, the language is always stored
+   in the :setting:`LANGUAGE_COOKIE_NAME` cookie.
+ 
+-* ``alias=None`` is added to the signature of
+-  :meth:`.Expression.get_group_by_cols`.
+-
+ * ``django.utils.text.unescape_entities()`` is deprecated in favor of
+   :func:`html.unescape`. Note that unlike ``unescape_entities()``,
+   ``html.unescape()`` evaluates lazy strings immediately.
++ git diff 350123f38c2b6217c38d70bfbd924a9ba3df1289
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0) (0.4.4)
+Requirement already satisfied: asgiref in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0) (3.4.1)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref->Django==3.0) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.0
+    Uninstalling Django-3.0:
+      Successfully uninstalled Django-3.0
+  Running setup.py develop for Django
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed Django-3.0
++ git apply -v -
+Checking patch django/core/management/__init__.py...
+Applied patch django/core/management/__init__.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-11749.py...
+Applied patch tests/test_coverup_django__django-11749.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/core/management/__init__\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11749
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/core/management/__init__\\.py)']
+0.38 __init__.py(1): import functools
+0.38 __init__.py(2): import os
+0.38 __init__.py(3): import pkgutil
+0.38 __init__.py(4): import sys
+0.38 __init__.py(5): from argparse import _SubParsersAction
+0.38 __init__.py(6): from collections import defaultdict
+0.38 __init__.py(7): from difflib import get_close_matches
+0.38 __init__.py(8): from importlib import import_module
+0.38 __init__.py(10): import django
+0.38 __init__.py(11): from django.apps import apps
+0.38 __init__.py(12): from django.conf import settings
+0.38 __init__.py(13): from django.core.exceptions import ImproperlyConfigured
+0.38 __init__.py(14): from django.core.management.base import (
+0.38 __init__.py(17): from django.core.management.color import color_style
+0.38 __init__.py(18): from django.utils import autoreload
+0.38 __init__.py(21): def find_commands(management_dir):
+0.38 __init__.py(31): def load_command_class(app_name, name):
+0.38 __init__.py(41): @functools.lru_cache(maxsize=None)
+0.38 __init__.py(76): def call_command(command_name, *args, **options):
+0.38 __init__.py(171): class ManagementUtility:
+0.38 __init__.py(171): class ManagementUtility:
+0.38 __init__.py(174):     """
+0.38 __init__.py(175):     def __init__(self, argv=None):
+0.38 __init__.py(182):     def main_help_text(self, commands_only=False):
+0.38 __init__.py(215):     def fetch_command(self, subcommand):
+0.38 __init__.py(247):     def autocomplete(self):
+0.38 __init__.py(321):     def execute(self):
+0.38 __init__.py(398): def execute_from_command_line(argv=None):
+Testing against Django installed in '/testbed/django'
+Skipping setup of unused database(s): default, other.
+0.60 __init__.py(96):     if isinstance(command_name, BaseCommand):
+0.60 __init__.py(102):         try:
+0.60 __init__.py(103):             app_name = get_commands()[command_name]
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(64):     commands = {name: 'django.core' for name in find_commands(__path__[0])}
+0.60 __init__.py(66):     if not settings.configured:
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(70):         path = os.path.join(app_config.path, 'management')
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(70):         path = os.path.join(app_config.path, 'management')
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(70):         path = os.path.join(app_config.path, 'management')
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(70):         path = os.path.join(app_config.path, 'management')
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(70):         path = os.path.join(app_config.path, 'management')
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(70):         path = os.path.join(app_config.path, 'management')
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(70):         path = os.path.join(app_config.path, 'management')
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(26):     command_dir = os.path.join(management_dir, 'commands')
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(28):             if not is_pkg and not name.startswith('_')]
+0.60 __init__.py(27):     return [name for _, name, is_pkg in pkgutil.iter_modules([command_dir])
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(71):         commands.update({name: app_config.name for name in find_commands(path)})
+0.60 __init__.py(69):     for app_config in reversed(list(apps.get_app_configs())):
+0.60 __init__.py(73):     return commands
+0.60 __init__.py(107):         if isinstance(app_name, BaseCommand):
+0.60 __init__.py(111):             command = load_command_class(app_name, command_name)
+0.60 __init__.py(37):     module = import_module('%s.management.commands.%s' % (app_name, name))
+0.60 __init__.py(38):     return module.Command()
+0.60 __init__.py(114):     parser = command.create_parser('', command_name)
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(118):         for s_opt in parser._actions if s_opt.option_strings
+0.61 __init__.py(116):     opt_mapping = {
+0.61 __init__.py(120):     arg_options = {opt_mapping.get(key, key): value for key, value in options.items()}
+0.61 __init__.py(120):     arg_options = {opt_mapping.get(key, key): value for key, value in options.items()}
+0.61 __init__.py(120):     arg_options = {opt_mapping.get(key, key): value for key, value in options.items()}
+0.61 __init__.py(121):     parse_args = [str(a) for a in args]
+0.61 __init__.py(121):     parse_args = [str(a) for a in args]
+0.61 __init__.py(123):     def get_actions(parser):
+0.61 __init__.py(132):     parser_actions = list(get_actions(parser))
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(126):             if isinstance(opt, _SubParsersAction):
+0.61 __init__.py(130):                 yield opt
+0.61 __init__.py(125):         for opt in parser._actions:
+0.61 __init__.py(133):     mutually_exclusive_required_options = {
+0.61 __init__.py(135):         for group in parser._mutually_exclusive_groups
+0.61 __init__.py(133):     mutually_exclusive_required_options = {
+0.61 __init__.py(140):     parse_args += [
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(144):             (opt.required or opt in mutually_exclusive_required_options)
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(142):         for opt in parser_actions if (
+0.61 __init__.py(143):             opt.dest in options and
+0.61 __init__.py(141):         '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+0.61 __init__.py(147):     defaults = parser.parse_args(args=parse_args)
+0.61 __init__.py(148):     defaults = dict(defaults._get_kwargs(), **arg_options)
+0.61 __init__.py(150):     stealth_options = set(command.base_stealth_options + command.stealth_options)
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+test_call_command_with_kwargs_in_mutually_exclusive_group (test_coverup_django__django-11749.CallCommandTest) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(151):     dest_parameters = {action.dest for action in parser_actions}
+0.61 __init__.py(152):     valid_options = (dest_parameters | stealth_options).union(opt_mapping)
+0.61 __init__.py(153):     unknown_options = set(options) - valid_options
+0.61 __init__.py(154):     if unknown_options:
+0.61 __init__.py(164):     args = defaults.pop('args', ())
+0.61 __init__.py(165):     if 'skip_checks' not in options:
+0.61 __init__.py(166):         defaults['skip_checks'] = True
+0.61 __init__.py(168):     return command.execute(*args, **defaults)
+System check identified no issues (0 silenced).
++ cat coverage.cover
+{"/testbed/django/core/management/__init__.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "17": 1, "18": 1, "21": 1, "31": 1, "41": 1, "76": 1, "171": 2, "398": 1, "26": 8, "27": 47, "28": 31, "37": 1, "38": 1, "64": 26, "66": 1, "67": 0, "69": 8, "70": 7, "71": 21, "73": 1, "96": 2, "98": 1, "99": 1, "102": 1, "103": 1, "104": 0, "105": 0, "107": 1, "109": 0, "111": 1, "114": 2, "116": 28, "118": 26, "120": 6, "121": 4, "123": 2, "132": 2, "133": 5, "135": 3, "140": 2, "141": 28, "142": 26, "147": 2, "148": 2, "150": 2, "151": 28, "152": 2, "153": 2, "154": 2, "155": 0, "156": 0, "158": 0, "159": 0, "160": 0, "164": 2, "165": 2, "166": 2, "168": 2, "125": 26, "126": 24, "127": 0, "128": 0, "130": 24, "136": 3, "143": 24, "144": 2, "175": 1, "182": 1, "215": 1, "247": 1, "321": 1, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "184": 0, "185": 0, "188": 0, "189": 0, "190": 0, "191": 0, "193": 0, "194": 0, "195": 0, "196": 0, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "203": 0, "204": 0, "205": 0, "207": 0, "208": 0, "209": 0, "211": 0, "213": 0, "222": 0, "223": 0, "224": 0, "225": 0, "226": 0, "231": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "240": 0, "242": 0, "244": 0, "245": 0, "269": 0, "270": 0, "272": 0, "273": 0, "275": 0, "276": 0, "277": 0, "278": 0, "280": 0, "281": 0, "284": 0, "285": 0, "288": 0, "289": 0, "291": 0, "292": 0, "293": 0, "295": 0, "296": 0, "299": 0, "300": 0, "301": 0, "302": 0, "303": 0, "306": 0, "307": 0, "310": 0, "311": 0, "313": 0, "314": 0, "315": 0, "319": 0, "326": 0, "327": 0, "328": 0, "329": 0, "334": 0, "335": 0, "336": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "344": 0, "345": 0, "346": 0, "347": 0, "348": 0, "349": 0, "351": 0, "355": 0, "356": 0, "357": 0, "358": 0, "362": 0, "363": 0, "364": 0, "370": 0, "371": 0, "372": 0, "373": 0, "377": 0, "379": 0, "381": 0, "382": 0, "383": 0, "384": 0, "385": 0, "387": 0, "390": 0, "391": 0, "392": 0, "393": 0, "395": 0, "400": 0, "401": 0}}
++ git checkout 350123f38c2b6217c38d70bfbd924a9ba3df1289
+Note: switching to '350123f38c2b6217c38d70bfbd924a9ba3df1289'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 350123f38c Moved release note for refs #30158 from deprecated to backwards incompatible changes.
+M	django/core/management/__init__.py
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,778 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD d3d173425fc0a1107836da5b4567f1c88253191b
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit d3d173425fc0a1107836da5b4567f1c88253191b
+Author: Mariusz Felisiak <felisiak.mariusz@gmail.com>
+Date:   Fri May 26 12:16:26 2023 +0200
+
+    Optimized @condition decorator a bit.
+    
+    This removes unnecessary get_last_modified() hook.
+
+diff --git a/django/views/decorators/http.py b/django/views/decorators/http.py
+index 6d88a633eb..4ad520fb25 100644
+--- a/django/views/decorators/http.py
++++ b/django/views/decorators/http.py
+@@ -86,19 +86,15 @@ def condition(etag_func=None, last_modified_func=None):
+         @wraps(func)
+         def inner(request, *args, **kwargs):
+             # Compute values (if any) for the requested resource.
+-            def get_last_modified():
+-                if last_modified_func:
+-                    dt = last_modified_func(request, *args, **kwargs)
+-                    if dt:
+-                        if not timezone.is_aware(dt):
+-                            dt = timezone.make_aware(dt, datetime.timezone.utc)
+-                        return int(dt.timestamp())
+-
++            res_last_modified = None
++            if last_modified_func:
++                if dt := last_modified_func(request, *args, **kwargs):
++                    if not timezone.is_aware(dt):
++                        dt = timezone.make_aware(dt, datetime.timezone.utc)
++                    res_last_modified = int(dt.timestamp())
+             # The value from etag_func() could be quoted or unquoted.
+             res_etag = etag_func(request, *args, **kwargs) if etag_func else None
+             res_etag = quote_etag(res_etag) if res_etag is not None else None
+-            res_last_modified = get_last_modified()
+-
+             response = get_conditional_response(
+                 request,
+                 etag=res_etag,
++ git diff d3d173425fc0a1107836da5b4567f1c88253191b
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.6.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230526101626) (3.9.1)
+Requirement already satisfied: sqlparse>=0.3.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230526101626) (0.5.3)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-5.0.dev20230526101626-0.editable-py3-none-any.whl size=27503 sha256=82b0c06cf15e09e44871bc1150316834efbe8d8f6ceaa2f83e1ca5e0b60acdda
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7y2_0rwh/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 5.0.dev20230526101626
+    Uninstalling Django-5.0.dev20230526101626:
+      Successfully uninstalled Django-5.0.dev20230526101626
+Successfully installed Django-5.0.dev20230526101626
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch django/contrib/admin/checks.py...
+Applied patch django/contrib/admin/checks.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-16899.py...
+Applied patch tests/test_coverup_django__django-16899.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/contrib/admin/checks\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16899
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/contrib/admin/checks\\.py)']
+Testing against Django installed in '/testbed/django'
+0.50 checks.py(1): import collections
+0.50 checks.py(2): from itertools import chain
+0.50 checks.py(4): from django.apps import apps
+0.50 checks.py(5): from django.conf import settings
+0.50 checks.py(6): from django.contrib.admin.utils import NotRelationField, flatten, get_fields_from_path
+0.50 checks.py(7): from django.core import checks
+0.50 checks.py(8): from django.core.exceptions import FieldDoesNotExist
+0.50 checks.py(9): from django.db import models
+0.50 checks.py(10): from django.db.models.constants import LOOKUP_SEP
+0.50 checks.py(11): from django.db.models.expressions import Combinable
+0.50 checks.py(12): from django.forms.models import BaseModelForm, BaseModelFormSet, _get_foreign_key
+0.50 checks.py(13): from django.template import engines
+0.50 checks.py(14): from django.template.backends.django import DjangoTemplates
+0.50 checks.py(15): from django.utils.module_loading import import_string
+0.50 checks.py(18): def _issubclass(cls, classinfo):
+0.50 checks.py(29): def _contains_subclass(class_path, candidate_paths):
+0.50 checks.py(46): def check_admin_app(app_configs, **kwargs):
+0.50 checks.py(55): def check_dependencies(**kwargs):
+0.50 checks.py(176): class BaseModelAdminChecks:
+0.50 checks.py(176): class BaseModelAdminChecks:
+0.50 checks.py(177):     def check(self, admin_obj, **kwargs):
+0.50 checks.py(194):     def _check_autocomplete_fields(self, obj):
+0.50 checks.py(217):     def _check_autocomplete_fields_item(self, obj, field_name, label):
+0.50 checks.py(266):     def _check_raw_id_fields(self, obj):
+0.50 checks.py(284):     def _check_raw_id_fields_item(self, obj, field_name, label):
+0.50 checks.py(314):     def _check_fields(self, obj):
+0.50 checks.py(348):     def _check_fieldsets(self, obj):
+0.50 checks.py(369):     def _check_fieldsets_item(self, obj, fieldset, label, seen_fields):
+0.50 checks.py(413):     def _check_field_spec(self, obj, fields, label):
+0.50 checks.py(430):     def _check_field_spec_item(self, obj, field_name, label):
+0.50 checks.py(460):     def _check_exclude(self, obj):
+0.50 checks.py(480):     def _check_form(self, obj):
+0.50 checks.py(489):     def _check_filter_vertical(self, obj):
+0.50 checks.py(505):     def _check_filter_horizontal(self, obj):
+0.50 checks.py(521):     def _check_filter_item(self, obj, field_name, label):
+0.50 checks.py(539):     def _check_radio_fields(self, obj):
+0.50 checks.py(556):     def _check_radio_fields_key(self, obj, field_name, label):
+0.50 checks.py(580):     def _check_radio_fields_value(self, obj, val, label):
+0.50 checks.py(597):     def _check_view_on_site_url(self, obj):
+0.50 checks.py(610):     def _check_prepopulated_fields(self, obj):
+0.50 checks.py(630):     def _check_prepopulated_fields_key(self, obj, field_name, label):
+0.50 checks.py(657):     def _check_prepopulated_fields_value(self, obj, val, label):
+0.50 checks.py(673):     def _check_prepopulated_fields_value_item(self, obj, field_name, label):
+0.50 checks.py(686):     def _check_ordering(self, obj):
+0.50 checks.py(704):     def _check_ordering_item(self, obj, field_name, label):
+0.50 checks.py(742):     def _check_readonly_fields(self, obj):
+0.50 checks.py(761):     def _check_readonly_fields_item(self, obj, field_name, label):
+0.50 checks.py(790): class ModelAdminChecks(BaseModelAdminChecks):
+0.50 checks.py(790): class ModelAdminChecks(BaseModelAdminChecks):
+0.50 checks.py(791):     def check(self, admin_obj, **kwargs):
+0.50 checks.py(810):     def _check_save_as(self, obj):
+0.50 checks.py(818):     def _check_save_on_top(self, obj):
+0.50 checks.py(826):     def _check_inlines(self, obj):
+0.50 checks.py(841):     def _check_inlines_item(self, obj, inline, label):
+0.50 checks.py(879):     def _check_list_display(self, obj):
+0.50 checks.py(894):     def _check_list_display_item(self, obj, item, label):
+0.50 checks.py(934):     def _check_list_display_links(self, obj):
+0.50 checks.py(959):     def _check_list_display_links_item(self, obj, field_name, label):
+0.50 checks.py(972):     def _check_list_filter(self, obj):
+0.50 checks.py(985):     def _check_list_filter_item(self, obj, item, label):
+0.50 checks.py(1044):     def _check_list_select_related(self, obj):
+0.50 checks.py(1057):     def _check_list_per_page(self, obj):
+0.50 checks.py(1067):     def _check_list_max_show_all(self, obj):
+0.50 checks.py(1077):     def _check_list_editable(self, obj):
+0.50 checks.py(1095):     def _check_list_editable_item(self, obj, field_name, label):
+0.50 checks.py(1149):     def _check_search_fields(self, obj):
+0.50 checks.py(1159):     def _check_date_hierarchy(self, obj):
+0.50 checks.py(1187):     def _check_action_permission_methods(self, obj):
+0.50 checks.py(1214):     def _check_actions_uniqueness(self, obj):
+0.50 checks.py(1235): class InlineModelAdminChecks(BaseModelAdminChecks):
+0.50 checks.py(1235): class InlineModelAdminChecks(BaseModelAdminChecks):
+0.50 checks.py(1236):     def check(self, inline_obj, **kwargs):
+0.50 checks.py(1248):     def _check_exclude_of_parent_model(self, obj, parent_model):
+0.50 checks.py(1279):     def _check_relation(self, obj, parent_model):
+0.50 checks.py(1287):     def _check_extra(self, obj):
+0.50 checks.py(1295):     def _check_max_num(self, obj):
+0.50 checks.py(1305):     def _check_min_num(self, obj):
+0.50 checks.py(1315):     def _check_formset(self, obj):
+0.50 checks.py(1326): def must_be(type, option, obj, id):
+0.50 checks.py(1336): def must_inherit_from(parent, option, obj, id):
+0.50 checks.py(1346): def refer_to_missing_field(field, option, obj, id):
+Found 1 test(s).
+Skipping setup of unused database(s): default, other.
+0.60 checks.py(47):     from django.contrib.admin.sites import all_sites
+0.60 checks.py(49):     errors = []
+0.60 checks.py(50):     for site in all_sites:
+0.60 checks.py(52):     return errors
+0.61 checks.py(59):     from django.contrib.admin.sites import all_sites
+0.61 checks.py(61):     if not apps.is_installed("django.contrib.admin"):
+0.61 checks.py(63):     errors = []
+0.61 checks.py(64):     app_dependencies = (
+0.61 checks.py(69):     for app_name, error_code in app_dependencies:
+0.61 checks.py(70):         if not apps.is_installed(app_name):
+0.61 checks.py(69):     for app_name, error_code in app_dependencies:
+0.61 checks.py(70):         if not apps.is_installed(app_name):
+0.61 checks.py(69):     for app_name, error_code in app_dependencies:
+0.61 checks.py(70):         if not apps.is_installed(app_name):
+0.61 checks.py(69):     for app_name, error_code in app_dependencies:
+0.61 checks.py(78):     for engine in engines.all():
+0.61 checks.py(79):         if isinstance(engine, DjangoTemplates):
+0.61 checks.py(80):             django_templates_instance = engine.engine
+0.61 checks.py(81):             break
+0.61 checks.py(84):     if not django_templates_instance:
+0.61 checks.py(95):             "django.contrib.auth.context_processors.auth"
+0.61 checks.py(96):             not in django_templates_instance.context_processors
+0.61 checks.py(95):             "django.contrib.auth.context_processors.auth"
+0.61 checks.py(111):             "django.contrib.messages.context_processors.messages"
+0.61 checks.py(112):             not in django_templates_instance.context_processors
+0.61 checks.py(111):             "django.contrib.messages.context_processors.messages"
+0.61 checks.py(122):         sidebar_enabled = any(site.enable_nav_sidebar for site in all_sites)
+0.61 checks.py(122):         sidebar_enabled = any(site.enable_nav_sidebar for site in all_sites)
+0.61 checks.py(124):             sidebar_enabled
+0.61 checks.py(123):         if (
+0.61 checks.py(137):     if not _contains_subclass(
+0.61 checks.py(138):         "django.contrib.auth.middleware.AuthenticationMiddleware", settings.MIDDLEWARE
+0.61 checks.py(137):     if not _contains_subclass(
+0.61 checks.py(34):     cls = import_string(class_path)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(42):             return True
+0.61 checks.py(147):     if not _contains_subclass(
+0.61 checks.py(148):         "django.contrib.messages.middleware.MessageMiddleware", settings.MIDDLEWARE
+0.61 checks.py(147):     if not _contains_subclass(
+0.61 checks.py(34):     cls = import_string(class_path)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(42):             return True
+0.61 checks.py(157):     if not _contains_subclass(
+0.61 checks.py(158):         "django.contrib.sessions.middleware.SessionMiddleware", settings.MIDDLEWARE
+0.61 checks.py(157):     if not _contains_subclass(
+0.61 checks.py(34):     cls = import_string(class_path)
+0.61 checks.py(35):     for path in candidate_paths:
+0.61 checks.py(36):         try:
+0.61 checks.py(37):             candidate_cls = import_string(path)
+0.61 checks.py(41):         if _issubclass(candidate_cls, cls):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(42):             return True
+0.61 checks.py(173):     return errors
+System check identified no issues (0 silenced).
+test_readonly_fields_error_message (test_coverup_django__django-16899.ReadonlyFieldsErrorMessageTest.test_readonly_fields_error_message)
+Test that the error message for readonly_fields includes the field name. ... 0.61 checks.py(792):         return [
+0.61 checks.py(793):             *super().check(admin_obj),
+0.61 checks.py(178):         return [
+0.61 checks.py(179):             *self._check_autocomplete_fields(admin_obj),
+0.61 checks.py(198):         if not isinstance(obj.autocomplete_fields, (list, tuple)):
+0.61 checks.py(206):             return list(
+0.61 checks.py(207):                 chain.from_iterable(
+0.61 checks.py(208):                     [
+0.61 checks.py(212):                         for index, field_name in enumerate(obj.autocomplete_fields)
+0.61 checks.py(208):                     [
+0.61 checks.py(208):                     [
+0.61 checks.py(207):                 chain.from_iterable(
+0.61 checks.py(206):             return list(
+0.61 checks.py(178):         return [
+0.61 checks.py(180):             *self._check_raw_id_fields(admin_obj),
+0.61 checks.py(270):         if not isinstance(obj.raw_id_fields, (list, tuple)):
+0.61 checks.py(275):             return list(
+0.61 checks.py(276):                 chain.from_iterable(
+0.61 checks.py(280):                     for index, field_name in enumerate(obj.raw_id_fields)
+0.61 checks.py(276):                 chain.from_iterable(
+0.61 checks.py(275):             return list(
+0.61 checks.py(276):                 chain.from_iterable(
+0.61 checks.py(178):         return [
+0.61 checks.py(181):             *self._check_fields(admin_obj),
+0.61 checks.py(319):         if obj.fields is None:
+0.61 checks.py(320):             return []
+0.61 checks.py(178):         return [
+0.61 checks.py(182):             *self._check_fieldsets(admin_obj),
+0.61 checks.py(352):         if obj.fieldsets is None:
+0.61 checks.py(353):             return []
+0.61 checks.py(178):         return [
+0.61 checks.py(183):             *self._check_exclude(admin_obj),
+0.61 checks.py(463):         if obj.exclude is None:  # default value is None
+0.61 checks.py(464):             return []
+0.61 checks.py(178):         return [
+0.61 checks.py(184):             *self._check_form(admin_obj),
+0.61 checks.py(482):         if not _issubclass(obj.form, BaseModelForm):
+0.61 checks.py(23):     try:
+0.61 checks.py(24):         return issubclass(cls, classinfo)
+0.61 checks.py(487):             return []
+0.61 checks.py(178):         return [
+0.61 checks.py(185):             *self._check_filter_vertical(admin_obj),
+0.61 checks.py(491):         if not isinstance(obj.filter_vertical, (list, tuple)):
+0.61 checks.py(496):             return list(
+0.61 checks.py(497):                 chain.from_iterable(
+0.61 checks.py(501):                     for index, field_name in enumerate(obj.filter_vertical)
+0.61 checks.py(497):                 chain.from_iterable(
+0.61 checks.py(496):             return list(
+0.61 checks.py(497):                 chain.from_iterable(
+0.61 checks.py(178):         return [
+0.61 checks.py(186):             *self._check_filter_horizontal(admin_obj),
+0.61 checks.py(507):         if not isinstance(obj.filter_horizontal, (list, tuple)):
+0.61 checks.py(512):             return list(
+0.61 checks.py(513):                 chain.from_iterable(
+0.61 checks.py(517):                     for index, field_name in enumerate(obj.filter_horizontal)
+0.61 checks.py(513):                 chain.from_iterable(
+0.61 checks.py(512):             return list(
+0.61 checks.py(513):                 chain.from_iterable(
+0.61 checks.py(178):         return [
+0.61 checks.py(187):             *self._check_radio_fields(admin_obj),
+0.61 checks.py(541):         if not isinstance(obj.radio_fields, dict):
+0.61 checks.py(546):             return list(
+0.61 checks.py(547):                 chain.from_iterable(
+0.61 checks.py(552):                     for field_name, val in obj.radio_fields.items()
+0.61 checks.py(547):                 chain.from_iterable(
+0.61 checks.py(546):             return list(
+0.61 checks.py(547):                 chain.from_iterable(
+0.61 checks.py(178):         return [
+0.61 checks.py(188):             *self._check_prepopulated_fields(admin_obj),
+0.61 checks.py(613):         if not isinstance(obj.prepopulated_fields, dict):
+0.61 checks.py(618):             return list(
+0.61 checks.py(619):                 chain.from_iterable(
+0.61 checks.py(626):                     for field_name, val in obj.prepopulated_fields.items()
+0.61 checks.py(619):                 chain.from_iterable(
+0.61 checks.py(618):             return list(
+0.61 checks.py(619):                 chain.from_iterable(
+0.61 checks.py(178):         return [
+0.61 checks.py(189):             *self._check_view_on_site_url(admin_obj),
+0.61 checks.py(598):         if not callable(obj.view_on_site) and not isinstance(obj.view_on_site, bool):
+0.61 checks.py(608):             return []
+0.61 checks.py(178):         return [
+0.61 checks.py(190):             *self._check_ordering(admin_obj),
+0.61 checks.py(690):         if obj.ordering is None:  # The default value is None
+0.61 checks.py(691):             return []
+0.61 checks.py(178):         return [
+0.61 checks.py(191):             *self._check_readonly_fields(admin_obj),
+0.61 checks.py(745):         if obj.readonly_fields == ():
+0.61 checks.py(747):         elif not isinstance(obj.readonly_fields, (list, tuple)):
+0.61 checks.py(752):             return list(
+0.61 checks.py(753):                 chain.from_iterable(
+0.61 checks.py(757):                     for index, field_name in enumerate(obj.readonly_fields)
+0.61 checks.py(753):                 chain.from_iterable(
+0.61 checks.py(752):             return list(
+0.61 checks.py(753):                 chain.from_iterable(
+0.61 checks.py(757):                     for index, field_name in enumerate(obj.readonly_fields)
+0.61 checks.py(754):                     self._check_readonly_fields_item(
+0.61 checks.py(755):                         obj, field_name, "readonly_fields[%d]" % index
+0.61 checks.py(754):                     self._check_readonly_fields_item(
+0.61 checks.py(762):         if callable(field_name):
+0.61 checks.py(764):         elif hasattr(obj, field_name):
+0.61 checks.py(766):         elif hasattr(obj.model, field_name):
+0.61 checks.py(769):             try:
+0.61 checks.py(770):                 obj.model._meta.get_field(field_name)
+0.61 checks.py(771):             except FieldDoesNotExist:
+0.61 checks.py(773):                     checks.Error(
+0.61 checks.py(777):                             label,
+0.61 checks.py(778):                             field_name,
+0.61 checks.py(779):                             obj.__class__.__name__,
+0.61 checks.py(780):                             obj.model._meta.label,
+0.61 checks.py(774):                         "The value of '%s' refers to '%s', which is not a callable, "
+0.61 checks.py(782):                         obj=obj.__class__,
+0.61 checks.py(783):                         id="admin.E035",
+0.61 checks.py(773):                     checks.Error(
+0.61 checks.py(772):                 return [
+0.61 checks.py(753):                 chain.from_iterable(
+0.61 checks.py(753):                 chain.from_iterable(
+0.61 checks.py(178):         return [
+0.61 checks.py(792):         return [
+0.61 checks.py(794):             *self._check_save_as(admin_obj),
+0.61 checks.py(813):         if not isinstance(obj.save_as, bool):
+0.61 checks.py(816):             return []
+0.61 checks.py(792):         return [
+0.61 checks.py(795):             *self._check_save_on_top(admin_obj),
+0.61 checks.py(821):         if not isinstance(obj.save_on_top, bool):
+0.61 checks.py(824):             return []
+0.61 checks.py(792):         return [
+0.61 checks.py(796):             *self._check_inlines(admin_obj),
+0.61 checks.py(829):         if not isinstance(obj.inlines, (list, tuple)):
+0.61 checks.py(834):             return list(
+0.61 checks.py(835):                 chain.from_iterable(
+0.61 checks.py(837):                     for index, item in enumerate(obj.inlines)
+0.61 checks.py(835):                 chain.from_iterable(
+0.61 checks.py(834):             return list(
+0.61 checks.py(835):                 chain.from_iterable(
+0.61 checks.py(792):         return [
+0.61 checks.py(797):             *self._check_list_display(admin_obj),
+0.61 checks.py(882):         if not isinstance(obj.list_display, (list, tuple)):
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+0.61 checks.py(887):             return list(
+0.61 checks.py(888):                 chain.from_iterable(
+0.61 checks.py(890):                     for index, item in enumerate(obj.list_display)
+0.61 checks.py(888):                 chain.from_iterable(
+0.61 checks.py(887):             return list(
+0.61 checks.py(888):                 chain.from_iterable(
+0.61 checks.py(890):                     for index, item in enumerate(obj.list_display)
+0.61 checks.py(889):                     self._check_list_display_item(obj, item, "list_display[%d]" % index)
+0.61 checks.py(895):         if callable(item):
+0.61 checks.py(897):         elif hasattr(obj, item):
+0.61 checks.py(898):             return []
+0.61 checks.py(888):                 chain.from_iterable(
+0.61 checks.py(888):                 chain.from_iterable(
+0.61 checks.py(792):         return [
+0.61 checks.py(798):             *self._check_list_display_links(admin_obj),
+0.61 checks.py(936):         from django.contrib.admin.options import ModelAdmin
+0.61 checks.py(938):         if obj.list_display_links is None:
+0.61 checks.py(940):         elif not isinstance(obj.list_display_links, (list, tuple)):
+0.61 checks.py(948):         elif obj.get_list_display.__func__ is ModelAdmin.get_list_display:
+0.61 checks.py(949):             return list(
+0.61 checks.py(950):                 chain.from_iterable(
+0.61 checks.py(954):                     for index, field_name in enumerate(obj.list_display_links)
+0.61 checks.py(950):                 chain.from_iterable(
+0.61 checks.py(949):             return list(
+0.61 checks.py(950):                 chain.from_iterable(
+0.61 checks.py(792):         return [
+0.61 checks.py(799):             *self._check_list_filter(admin_obj),
+0.61 checks.py(973):         if not isinstance(obj.list_filter, (list, tuple)):
+0.61 checks.py(978):             return list(
+0.61 checks.py(979):                 chain.from_iterable(
+0.61 checks.py(981):                     for index, item in enumerate(obj.list_filter)
+0.61 checks.py(979):                 chain.from_iterable(
+0.61 checks.py(978):             return list(
+0.61 checks.py(979):                 chain.from_iterable(
+0.61 checks.py(792):         return [
+0.61 checks.py(800):             *self._check_list_select_related(admin_obj),
+0.61 checks.py(1047):         if not isinstance(obj.list_select_related, (bool, list, tuple)):
+0.61 checks.py(1055):             return []
+0.61 checks.py(792):         return [
+0.61 checks.py(801):             *self._check_list_per_page(admin_obj),
+0.61 checks.py(1060):         if not isinstance(obj.list_per_page, int):
+0.61 checks.py(1065):             return []
+0.61 checks.py(792):         return [
+0.61 checks.py(802):             *self._check_list_max_show_all(admin_obj),
+0.61 checks.py(1070):         if not isinstance(obj.list_max_show_all, int):
+0.61 checks.py(1075):             return []
+0.61 checks.py(792):         return [
+0.61 checks.py(803):             *self._check_list_editable(admin_obj),
+0.61 checks.py(1081):         if not isinstance(obj.list_editable, (list, tuple)):
+0.61 checks.py(1086):             return list(
+0.61 checks.py(1087):                 chain.from_iterable(
+0.61 checks.py(1091):                     for index, item in enumerate(obj.list_editable)
+0.61 checks.py(1087):                 chain.from_iterable(
+0.61 checks.py(1086):             return list(
+0.61 checks.py(1087):                 chain.from_iterable(
+0.61 checks.py(792):         return [
+0.61 checks.py(804):             *self._check_search_fields(admin_obj),
+0.61 checks.py(1152):         if not isinstance(obj.search_fields, (list, tuple)):
+0.61 checks.py(1157):             return []
+0.61 checks.py(792):         return [
+0.61 checks.py(805):             *self._check_date_hierarchy(admin_obj),
+0.61 checks.py(1162):         if obj.date_hierarchy is None:
+0.61 checks.py(1163):             return []
+0.61 checks.py(792):         return [
+0.61 checks.py(806):             *self._check_action_permission_methods(admin_obj),
+0.61 checks.py(1192):         actions = obj._get_base_actions()
+0.61 checks.py(1193):         errors = []
+0.61 checks.py(1194):         for func, name, _ in actions:
+0.61 checks.py(1195):             if not hasattr(func, "allowed_permissions"):
+0.61 checks.py(1197):             for permission in func.allowed_permissions:
+0.61 checks.py(1198):                 method_name = "has_%s_permission" % permission
+0.61 checks.py(1199):                 if not hasattr(obj, method_name):
+0.61 checks.py(1197):             for permission in func.allowed_permissions:
+0.61 checks.py(1194):         for func, name, _ in actions:
+0.61 checks.py(1212):         return errors
+0.61 checks.py(792):         return [
+0.61 checks.py(807):             *self._check_actions_uniqueness(admin_obj),
+0.61 checks.py(1216):         errors = []
+0.61 checks.py(1217):         names = collections.Counter(name for _, name, _ in obj._get_base_actions())
+0.61 checks.py(1217):         names = collections.Counter(name for _, name, _ in obj._get_base_actions())
+0.61 checks.py(1217):         names = collections.Counter(name for _, name, _ in obj._get_base_actions())
+0.61 checks.py(1218):         for name, count in names.items():
+0.61 checks.py(1219):             if count > 1:
+0.61 checks.py(1218):         for name, count in names.items():
+0.61 checks.py(1232):         return errors
+0.61 checks.py(792):         return [
++ cat coverage.cover
+{"/testbed/django/contrib/admin/checks.py": {"0": 0, "1": 1, "2": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "18": 1, "29": 1, "46": 1, "55": 1, "176": 2, "790": 2, "1235": 2, "1326": 1, "1336": 1, "1346": 1, "23": 11, "24": 11, "25": 0, "26": 0, "34": 3, "35": 10, "36": 10, "37": 10, "38": 0, "40": 0, "41": 10, "42": 3, "43": 0, "47": 1, "49": 1, "50": 1, "51": 0, "52": 1, "59": 1, "61": 1, "62": 0, "63": 1, "64": 1, "69": 4, "70": 3, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "78": 1, "79": 1, "80": 1, "81": 1, "83": 0, "84": 1, "85": 0, "86": 0, "87": 0, "90": 0, "95": 2, "96": 1, "97": 0, "98": 0, "99": 0, "102": 0, "103": 0, "104": 0, "107": 0, "111": 2, "112": 1, "114": 0, "115": 0, "116": 0, "119": 0, "122": 2, "124": 1, "123": 1, "125": 0, "126": 0, "128": 0, "129": 0, "130": 0, "133": 0, "137": 2, "138": 1, "140": 0, "141": 0, "142": 0, "144": 0, "147": 2, "148": 1, "150": 0, "151": 0, "152": 0, "154": 0, "157": 2, "158": 1, "160": 0, "161": 0, "162": 0, "165": 0, "170": 0, "173": 1, "177": 1, "194": 1, "217": 1, "266": 1, "284": 1, "314": 1, "348": 1, "369": 1, "413": 1, "430": 1, "460": 1, "480": 1, "489": 1, "505": 1, "521": 1, "539": 1, "556": 1, "580": 1, "597": 1, "610": 1, "630": 1, "657": 1, "673": 1, "686": 1, "704": 1, "742": 1, "761": 1, "178": 14, "179": 1, "180": 1, "181": 1, "182": 1, "183": 1, "184": 1, "185": 1, "186": 1, "187": 1, "188": 1, "189": 1, "190": 1, "191": 1, "198": 1, "199": 0, "200": 0, "201": 0, "202": 0, "203": 0, "206": 2, "207": 2, "208": 3, "212": 1, "209": 0, "210": 0, "223": 0, "224": 0, "230": 0, "231": 0, "232": 0, "233": 0, "234": 0, "235": 0, "237": 0, "238": 0, "240": 0, "244": 0, "245": 0, "241": 0, "247": 0, "248": 0, "239": 0, "251": 0, "253": 0, "257": 0, "258": 0, "254": 0, "260": 0, "261": 0, "252": 0, "264": 0, "225": 0, "226": 0, "227": 0, "270": 1, "271": 0, "272": 0, "275": 2, "276": 3, "280": 1, "277": 0, "278": 0, "289": 0, "290": 0, "297": 0, "298": 0, "299": 0, "300": 0, "301": 0, "302": 0, "304": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "312": 0, "291": 0, "292": 0, "293": 0, "319": 1, "320": 1, "321": 0, "322": 0, "323": 0, "325": 0, "326": 0, "327": 0, "328": 0, "324": 0, "331": 0, "332": 0, "334": 0, "335": 0, "336": 0, "337": 0, "333": 0, "341": 0, "342": 0, "344": 0, "343": 0, "352": 1, "353": 1, "354": 0, "355": 0, "356": 0, "359": 0, "360": 0, "361": 0, "365": 0, "362": 0, "363": 0, "373": 0, "374": 0, "375": 0, "376": 0, "377": 0, "378": 0, "379": 0, "381": 0, "383": 0, "384": 0, "385": 0, "386": 0, "382": 0, "389": 0, "390": 0, "391": 0, "392": 0, "393": 0, "394": 0, "397": 0, "398": 0, "400": 0, "401": 0, "402": 0, "403": 0, "399": 0, "406": 0, "407": 0, "409": 0, "408": 0, "418": 0, "419": 0, "420": 0, "424": 0, "428": 0, "421": 0, "422": 0, "431": 0, "435": 0, "437": 0, "438": 0, "445": 0, "444": 0, "446": 0, "449": 0, "452": 0, "450": 0, "453": 0, "454": 0, "448": 0, "458": 0, "439": 0, "442": 0, "463": 1, "464": 1, "465": 0, "466": 0, "467": 0, "469": 0, "471": 0, "472": 0, "473": 0, "474": 0, "470": 0, "478": 0, "482": 1, "483": 0, "484": 0, "487": 1, "491": 1, "492": 0, "493": 0, "496": 2, "497": 3, "501": 1, "498": 0, "499": 0, "507": 1, "508": 0, "509": 0, "512": 2, "513": 3, "517": 1, "514": 0, "515": 0, "525": 0, "526": 0, "532": 0, "533": 0, "534": 0, "537": 0, "527": 0, "528": 0, "529": 0, "541": 1, "542": 0, "543": 0, "546": 2, "547": 3, "552": 1, "548": 0, "549": 0, "550": 0, "560": 0, "561": 0, "567": 0, "569": 0, "572": 0, "570": 0, "573": 0, "574": 0, "568": 0, "578": 0, "562": 0, "563": 0, "564": 0, "583": 0, "585": 0, "587": 0, "588": 0, "589": 0, "590": 0, "591": 0, "586": 0, "595": 0, "598": 1, "600": 0, "601": 0, "603": 0, "604": 0, "599": 0, "608": 1, "613": 1, "614": 0, "615": 0, "618": 2, "619": 3, "626": 1, "620": 0, "621": 0, "623": 0, "624": 0, "635": 0, "636": 0, "642": 0, "643": 0, "646": 0, "649": 0, "647": 0, "650": 0, "651": 0, "645": 0, "655": 0, "637": 0, "638": 0, "639": 0, "661": 0, "662": 0, "664": 0, "665": 0, "669": 0, "666": 0, "667": 0, "677": 0, "678": 0, "684": 0, "679": 0, "680": 0, "681": 0, "690": 1, "691": 1, "692": 0, "693": 0, "694": 0, "697": 0, "698": 0, "700": 0, "699": 0, "706": 0, "707": 0, "708": 0, "709": 0, "710": 0, "712": 0, "713": 0, "715": 0, "716": 0, "718": 0, "719": 0, "720": 0, "714": 0, "723": 0, "724": 0, "725": 0, "728": 0, "730": 0, "731": 0, "732": 0, "733": 0, "734": 0, "740": 0, "735": 0, "736": 0, "737": 0, "745": 1, "746": 0, "747": 1, "748": 0, "749": 0, "752": 2, "753": 5, "757": 2, "754": 2, "755": 1, "762": 1, "763": 0, "764": 1, "765": 0, "766": 1, "767": 0, "769": 1, "770": 1, "787": 0, "771": 1, "773": 2, "777": 1, "778": 1, "779": 1, "780": 1, "774": 1, "782": 1, "783": 1, "772": 1, "791": 1, "810": 1, "818": 1, "826": 1, "841": 1, "879": 1, "894": 1, "934": 1, "959": 1, "972": 1, "985": 1, "1044": 1, "1057": 1, "1067": 1, "1077": 1, "1095": 1, "1149": 1, "1159": 1, "1187": 1, "1214": 1, "792": 16, "793": 1, "794": 1, "795": 1, "796": 1, "797": 1, "798": 1, "799": 1, "800": 1, "801": 1, "802": 1, "803": 1, "804": 1, "805": 1, "806": 1, "807": 1, "813": 1, "814": 0, "816": 1, "821": 1, "822": 0, "824": 1, "829": 1, "830": 0, "831": 0, "834": 2, "835": 3, "837": 1, "836": 0, "843": 0, "844": 0, "845": 0, "847": 0, "848": 0, "849": 0, "850": 0, "846": 0, "854": 0, "856": 0, "858": 0, "859": 0, "860": 0, "861": 0, "857": 0, "864": 0, "866": 0, "867": 0, "868": 0, "869": 0, "865": 0, "872": 0, "873": 0, "874": 0, "877": 0, "882": 1, "883": 0, "884": 0, "887": 2, "888": 5, "890": 2, "889": 1, "895": 1, "896": 0, "897": 1, "898": 1, "899": 0, "900": 0, "901": 0, "902": 0, "903": 0, "904": 0, "906": 0, "911": 0, "912": 0, "913": 0, "914": 0, "907": 0, "916": 0, "917": 0, "905": 0, "921": 0, "920": 0, "922": 0, "923": 0, "925": 0, "926": 0, "928": 0, "929": 0, "924": 0, "932": 0, "936": 1, "938": 1, "939": 0, "940": 1, "941": 0, "942": 0, "943": 0, "944": 0, "945": 0, "948": 1, "949": 2, "950": 3, "954": 1, "957": 0, "951": 0, "952": 0, "960": 0, "962": 0, "964": 0, "963": 0, "965": 0, "966": 0, "961": 0, "970": 0, "973": 1, "974": 0, "975": 0, "978": 2, "979": 3, "981": 1, "980": 0, "993": 0, "995": 0, "997": 0, "998": 0, "999": 0, "1002": 0, "1004": 0, "1005": 0, "1006": 0, "1007": 0, "1008": 0, "1003": 0, "1012": 0, "1013": 0, "1015": 0, "1016": 0, "1017": 0, "1018": 0, "1019": 0, "1020": 0, "1021": 0, "1024": 0, "1027": 0, "1030": 0, "1031": 0, "1042": 0, "1032": 0, "1034": 0, "1036": 0, "1035": 0, "1037": 0, "1038": 0, "1033": 0, "1047": 1, "1048": 0, "1049": 0, "1050": 0, "1051": 0, "1052": 0, "1055": 1, "1060": 1, "1061": 0, "1062": 0, "1065": 1, "1070": 1, "1071": 0, "1072": 0, "1075": 1, "1081": 1, "1082": 0, "1083": 0, "1086": 2, "1087": 3, "1091": 1, "1088": 0, "1089": 0, "1096": 0, "1097": 0, "1103": 0, "1105": 0, "1107": 0, "1106": 0, "1108": 0, "1109": 0, "1104": 0, "1112": 0, "1114": 0, "1115": 0, "1116": 0, "1117": 0, "1118": 0, "1113": 0, "1124": 0, "1125": 0, "1126": 0, "1129": 0, "1132": 0, "1130": 0, "1133": 0, "1134": 0, "1128": 0, "1137": 0, "1139": 0, "1141": 0, "1140": 0, "1142": 0, "1143": 0, "1138": 0, "1147": 0, "1098": 0, "1099": 0, "1100": 0, "1152": 1, "1153": 0, "1154": 0, "1157": 1, "1162": 1, "1163": 1, "1165": 0, "1166": 0, "1177": 0, "1178": 0, "1179": 0, "1180": 0, "1181": 0, "1182": 0, "1185": 0, "1167": 0, "1169": 0, "1170": 0, "1171": 0, "1172": 0, "1173": 0, "1168": 0, "1192": 1, "1193": 1, "1194": 2, "1195": 1, "1196": 0, "1197": 2, "1198": 1, "1199": 1, "1200": 0, "1201": 0, "1204": 0, "1205": 0, "1206": 0, "1202": 0, "1208": 0, "1209": 0, "1212": 1, "1216": 1, "1217": 3, "1218": 2, "1219": 1, "1220": 0, "1221": 0, "1225": 0, "1226": 0, "1222": 0, "1228": 0, "1229": 0, "1232": 1, "1236": 1, "1248": 1, "1279": 1, "1287": 1, "1295": 1, "1305": 1, "1315": 1, "1237": 0, "1238": 0, "1239": 0, "1240": 0, "1241": 0, "1242": 0, "1243": 0, "1244": 0, "1245": 0, "1251": 0, "1252": 0, "1253": 0, "1256": 0, "1257": 0, "1259": 0, "1260": 0, "1262": 0, "1263": 0, "1265": 0, "1269": 0, "1270": 0, "1266": 0, "1272": 0, "1273": 0, "1264": 0, "1277": 0, "1280": 0, "1281": 0, "1285": 0, "1282": 0, "1283": 0, "1290": 0, "1291": 0, "1293": 0, "1298": 0, "1299": 0, "1300": 0, "1301": 0, "1303": 0, "1308": 0, "1309": 0, "1310": 0, "1311": 0, "1313": 0, "1318": 0, "1319": 0, "1320": 0, "1323": 0, "1328": 0, "1329": 0, "1330": 0, "1331": 0, "1327": 0, "1338": 0, "1339": 0, "1340": 0, "1341": 0, "1337": 0, "1348": 0, "1350": 0, "1349": 0, "1351": 0, "1352": 0, "1347": 0}}
++ git checkout d3d173425fc0a1107836da5b4567f1c88253191b
+Note: switching to 'd3d173425fc0a1107836da5b4567f1c88253191b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d3d173425f Optimized @condition decorator a bit.
+M	django/contrib/admin/checks.py
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,65 @@
+{
+    "sympy__sympy-12096": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 1.0,
+        "coverage_gold": 0.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 1.0,
+        "coverage_delta_gold": 0.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_evalf_composition_bug",
+                "test_coverup_sympy__sympy-12096.py:test_evalf_composition_bug"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "test_issue_12092"
+            ],
+            "PASS_TO_PASS": [
+                "test_dummification",
+                "test_math_transl",
+                "test_mpmath_precision",
+                "test_vector_simple",
+                "test_true_false",
+                "test_imps",
+                "test_bad_args",
+                "test_sqrt",
+                "test_namespace_order",
+                "test_issue_2790",
+                "test_imps_errors",
+                "test_special_printers",
+                "test_lambdify_docstring",
+                "test_mpmath_transl",
+                "test_imps_wrong_args",
+                "test_no_args",
+                "test_ITE",
+                "test_str_args",
+                "test_lambdify_imps",
+                "test_Min_Max",
+                "test_python_keywords",
+                "test_number_precision"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_sym_integral"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

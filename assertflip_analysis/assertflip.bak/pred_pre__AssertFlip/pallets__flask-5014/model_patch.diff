@@ -1,0 +1,13 @@
+diff --git a/dev/null b/tests/test_coverup_pallets__flask-5014.py
+new file mode 100644
+index e69de29..27b1a12 100644
+--- /dev/null
++++ b/tests/test_coverup_pallets__flask-5014.py
+@@ -0,0 +1,7 @@
++import pytest
++from flask.blueprints import Blueprint
++
++def test_blueprint_empty_name():
++    # Attempt to create a Blueprint with an empty name
++    with pytest.raises(ValueError, match="Blueprint name must not be empty"):
++        Blueprint("", __name__)

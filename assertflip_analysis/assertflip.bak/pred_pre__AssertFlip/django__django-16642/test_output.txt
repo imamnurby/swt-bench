@@ -1,0 +1,797 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD fbe850106b2e4b85f838219cb9e1df95fba6c164
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit fbe850106b2e4b85f838219cb9e1df95fba6c164
+Author: Mariusz Felisiak <felisiak.mariusz@gmail.com>
+Date:   Mon Mar 13 12:06:30 2023 +0100
+
+    Refs #32355 -- Bumped required version of sqlparse in setup.cfg.
+    
+    Follow up to 63d1cb0092f8933a92f471c5150d61140f33882c.
+
+diff --git a/setup.cfg b/setup.cfg
+index 529bc6044f..cdbd8f2e8a 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -38,7 +38,7 @@ include_package_data = true
+ zip_safe = false
+ install_requires =
+     asgiref >= 3.6.0
+-    sqlparse >= 0.2.2
++    sqlparse >= 0.3.1
+     tzdata; sys_platform == 'win32'
+ 
+ [options.entry_points]
++ git diff fbe850106b2e4b85f838219cb9e1df95fba6c164
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.6.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230313110630) (3.9.1)
+Requirement already satisfied: sqlparse>=0.3.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230313110630) (0.5.3)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-5.0.dev20230313110630-0.editable-py3-none-any.whl size=27431 sha256=a173eaf944ea4339b39ed6cd2663cfec2a1b89f22664a36827dd4736e750c331
+  Stored in directory: /tmp/pip-ephem-wheel-cache-zz739h22/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 5.0.dev20230313110630
+    Uninstalling Django-5.0.dev20230313110630:
+      Successfully uninstalled Django-5.0.dev20230313110630
+Successfully installed Django-5.0.dev20230313110630
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-16642.py...
+Applied patch tests/test_coverup_django__django-16642.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/http/response\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16642
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/http/response\\.py)']
+0.11 response.py(1): import datetime
+0.12 response.py(2): import io
+0.12 response.py(3): import json
+0.12 response.py(4): import mimetypes
+0.12 response.py(5): import os
+0.12 response.py(6): import re
+0.12 response.py(7): import sys
+0.12 response.py(8): import time
+0.12 response.py(9): import warnings
+0.12 response.py(10): from email.header import Header
+0.12 response.py(11): from http.client import responses
+0.12 response.py(12): from urllib.parse import urlparse
+0.12 response.py(14): from asgiref.sync import async_to_sync, sync_to_async
+0.12 response.py(16): from django.conf import settings
+0.12 response.py(17): from django.core import signals, signing
+0.12 response.py(18): from django.core.exceptions import DisallowedRedirect
+0.12 response.py(19): from django.core.serializers.json import DjangoJSONEncoder
+0.34 response.py(20): from django.http.cookie import SimpleCookie
+0.34 response.py(21): from django.utils import timezone
+0.34 response.py(22): from django.utils.datastructures import CaseInsensitiveMapping
+0.34 response.py(23): from django.utils.encoding import iri_to_uri
+0.34 response.py(24): from django.utils.http import content_disposition_header, http_date
+0.34 response.py(25): from django.utils.regex_helper import _lazy_re_compile
+0.34 response.py(27): _charset_from_content_type_re = _lazy_re_compile(
+0.34 response.py(28):     r";\s*charset=(?P<charset>[^\s;]+)", re.I
+0.34 response.py(27): _charset_from_content_type_re = _lazy_re_compile(
+0.34 response.py(32): class ResponseHeaders(CaseInsensitiveMapping):
+0.34 response.py(32): class ResponseHeaders(CaseInsensitiveMapping):
+0.34 response.py(33):     def __init__(self, data):
+0.34 response.py(43):     def _convert_to_charset(self, value, charset, mime_encode=False):
+0.34 response.py(82):     def __delitem__(self, key):
+0.34 response.py(85):     def __setitem__(self, key, value):
+0.34 response.py(90):     def pop(self, key, default=None):
+0.34 response.py(93):     def setdefault(self, key, value):
+0.34 response.py(98): class BadHeaderError(ValueError):
+0.34 response.py(98): class BadHeaderError(ValueError):
+0.34 response.py(99):     pass
+0.34 response.py(102): class HttpResponseBase:
+0.34 response.py(102): class HttpResponseBase:
+0.34 response.py(103):     """
+0.34 response.py(110):     status_code = 200
+0.34 response.py(113):         self, content_type=None, status=None, reason=None, charset=None, headers=None
+0.34 response.py(112):     def __init__(
+0.34 response.py(142):     @property
+0.34 response.py(143):     def reason_phrase(self):
+0.34 response.py(142):     @property
+0.34 response.py(143):     def reason_phrase(self):
+0.34 response.py(150):     @reason_phrase.setter
+0.34 response.py(151):     def reason_phrase(self, value):
+0.34 response.py(150):     @reason_phrase.setter
+0.34 response.py(151):     def reason_phrase(self, value):
+0.34 response.py(154):     @property
+0.34 response.py(155):     def charset(self):
+0.34 response.py(154):     @property
+0.34 response.py(155):     def charset(self):
+0.34 response.py(169):     @charset.setter
+0.34 response.py(170):     def charset(self, value):
+0.34 response.py(169):     @charset.setter
+0.34 response.py(170):     def charset(self, value):
+0.34 response.py(173):     def serialize_headers(self):
+0.34 response.py(182):     __bytes__ = serialize_headers
+0.34 response.py(184):     @property
+0.34 response.py(185):     def _content_type_for_repr(self):
+0.34 response.py(184):     @property
+0.34 response.py(185):     def _content_type_for_repr(self):
+0.34 response.py(192):     def __setitem__(self, header, value):
+0.34 response.py(195):     def __delitem__(self, header):
+0.34 response.py(198):     def __getitem__(self, header):
+0.34 response.py(201):     def has_header(self, header):
+0.34 response.py(205):     __contains__ = has_header
+0.34 response.py(207):     def items(self):
+0.34 response.py(210):     def get(self, header, alternate=None):
+0.34 response.py(216):         value="",
+0.34 response.py(217):         max_age=None,
+0.34 response.py(218):         expires=None,
+0.34 response.py(219):         path="/",
+0.34 response.py(220):         domain=None,
+0.34 response.py(221):         secure=False,
+0.34 response.py(222):         httponly=False,
+0.34 response.py(223):         samesite=None,
+0.34 response.py(213):     def set_cookie(
+0.34 response.py(277):     def setdefault(self, key, value):
+0.34 response.py(281):     def set_signed_cookie(self, key, value, salt="", **kwargs):
+0.34 response.py(285):     def delete_cookie(self, key, path="/", domain=None, samesite=None):
+0.34 response.py(305):     def make_bytes(self, value):
+0.34 response.py(326):     def close(self):
+0.34 response.py(337):     def write(self, content):
+0.34 response.py(340):     def flush(self):
+0.34 response.py(343):     def tell(self):
+0.34 response.py(351):     def readable(self):
+0.34 response.py(354):     def seekable(self):
+0.34 response.py(357):     def writable(self):
+0.34 response.py(360):     def writelines(self, lines):
+0.34 response.py(364): class HttpResponse(HttpResponseBase):
+0.34 response.py(364): class HttpResponse(HttpResponseBase):
+0.34 response.py(365):     """
+0.34 response.py(371):     streaming = False
+0.34 response.py(372):     non_picklable_attrs = frozenset(
+0.34 response.py(373):         [
+0.34 response.py(372):     non_picklable_attrs = frozenset(
+0.34 response.py(383):     def __init__(self, content=b"", *args, **kwargs):
+0.34 response.py(388):     def __getstate__(self):
+0.34 response.py(395):     def __repr__(self):
+0.34 response.py(402):     def serialize(self):
+0.34 response.py(406):     __bytes__ = serialize
+0.34 response.py(408):     @property
+0.34 response.py(409):     def content(self):
+0.34 response.py(408):     @property
+0.34 response.py(409):     def content(self):
+0.34 response.py(412):     @content.setter
+0.34 response.py(413):     def content(self, value):
+0.34 response.py(412):     @content.setter
+0.34 response.py(413):     def content(self, value):
+0.34 response.py(429):     def __iter__(self):
+0.34 response.py(432):     def write(self, content):
+0.34 response.py(435):     def tell(self):
+0.34 response.py(438):     def getvalue(self):
+0.34 response.py(441):     def writable(self):
+0.34 response.py(444):     def writelines(self, lines):
+0.34 response.py(449): class StreamingHttpResponse(HttpResponseBase):
+0.34 response.py(449): class StreamingHttpResponse(HttpResponseBase):
+0.34 response.py(450):     """
+0.34 response.py(458):     streaming = True
+0.34 response.py(460):     def __init__(self, streaming_content=(), *args, **kwargs):
+0.34 response.py(466):     def __repr__(self):
+0.34 response.py(473):     @property
+0.34 response.py(474):     def content(self):
+0.34 response.py(473):     @property
+0.34 response.py(474):     def content(self):
+0.34 response.py(480):     @property
+0.34 response.py(481):     def streaming_content(self):
+0.34 response.py(480):     @property
+0.34 response.py(481):     def streaming_content(self):
+0.34 response.py(495):     @streaming_content.setter
+0.34 response.py(496):     def streaming_content(self, value):
+0.34 response.py(495):     @streaming_content.setter
+0.34 response.py(496):     def streaming_content(self, value):
+0.34 response.py(499):     def _set_streaming_content(self, value):
+0.34 response.py(510):     def __iter__(self):
+0.34 response.py(529):     async def __aiter__(self):
+0.34 response.py(544):     def getvalue(self):
+0.34 response.py(548): class FileResponse(StreamingHttpResponse):
+0.34 response.py(548): class FileResponse(StreamingHttpResponse):
+0.34 response.py(549):     """
+0.34 response.py(553):     block_size = 4096
+0.34 response.py(555):     def __init__(self, *args, as_attachment=False, filename="", **kwargs):
+0.34 response.py(563):     def _set_streaming_content(self, value):
+0.34 response.py(575):     def set_headers(self, filelike):
+0.34 response.py(628): class HttpResponseRedirectBase(HttpResponse):
+0.34 response.py(628): class HttpResponseRedirectBase(HttpResponse):
+0.34 response.py(629):     allowed_schemes = ["http", "https", "ftp"]
+0.34 response.py(631):     def __init__(self, redirect_to, *args, **kwargs):
+0.34 response.py(640):     url = property(lambda self: self["Location"])
+0.34 response.py(642):     def __repr__(self):
+0.34 response.py(654): class HttpResponseRedirect(HttpResponseRedirectBase):
+0.34 response.py(654): class HttpResponseRedirect(HttpResponseRedirectBase):
+0.34 response.py(655):     status_code = 302
+0.34 response.py(658): class HttpResponsePermanentRedirect(HttpResponseRedirectBase):
+0.34 response.py(658): class HttpResponsePermanentRedirect(HttpResponseRedirectBase):
+0.34 response.py(659):     status_code = 301
+0.34 response.py(662): class HttpResponseNotModified(HttpResponse):
+0.34 response.py(662): class HttpResponseNotModified(HttpResponse):
+0.34 response.py(663):     status_code = 304
+0.34 response.py(665):     def __init__(self, *args, **kwargs):
+0.34 response.py(669):     @HttpResponse.content.setter
+0.34 response.py(670):     def content(self, value):
+0.34 response.py(669):     @HttpResponse.content.setter
+0.34 response.py(670):     def content(self, value):
+0.34 response.py(678): class HttpResponseBadRequest(HttpResponse):
+0.34 response.py(678): class HttpResponseBadRequest(HttpResponse):
+0.34 response.py(679):     status_code = 400
+0.34 response.py(682): class HttpResponseNotFound(HttpResponse):
+0.34 response.py(682): class HttpResponseNotFound(HttpResponse):
+0.34 response.py(683):     status_code = 404
+0.34 response.py(686): class HttpResponseForbidden(HttpResponse):
+0.34 response.py(686): class HttpResponseForbidden(HttpResponse):
+0.34 response.py(687):     status_code = 403
+0.34 response.py(690): class HttpResponseNotAllowed(HttpResponse):
+0.34 response.py(690): class HttpResponseNotAllowed(HttpResponse):
+0.34 response.py(691):     status_code = 405
+0.34 response.py(693):     def __init__(self, permitted_methods, *args, **kwargs):
+0.34 response.py(697):     def __repr__(self):
+0.34 response.py(706): class HttpResponseGone(HttpResponse):
+0.34 response.py(706): class HttpResponseGone(HttpResponse):
+0.34 response.py(707):     status_code = 410
+0.34 response.py(710): class HttpResponseServerError(HttpResponse):
+0.34 response.py(710): class HttpResponseServerError(HttpResponse):
+0.34 response.py(711):     status_code = 500
+0.34 response.py(714): class Http404(Exception):
+0.34 response.py(714): class Http404(Exception):
+0.34 response.py(715):     pass
+0.34 response.py(718): class JsonResponse(HttpResponse):
+0.34 response.py(718): class JsonResponse(HttpResponse):
+0.34 response.py(719):     """
+0.34 response.py(735):         encoder=DjangoJSONEncoder,
+0.34 response.py(736):         safe=True,
+0.34 response.py(737):         json_dumps_params=None,
+0.34 response.py(732):     def __init__(
+Testing against Django installed in '/testbed/django'
+Found 2 test(s).
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+test_mime_type_for_br_file (test_coverup_django__django-16642.MimeTypeGuessingTests.test_mime_type_for_br_file) ... FAIL
+test_mime_type_for_z_file (test_coverup_django__django-16642.MimeTypeGuessingTests.test_mime_type_for_z_file) ... 0.65 response.py(556):         self.as_attachment = as_attachment
+0.65 response.py(557):         self.filename = filename
+0.65 response.py(559):             "content_type" not in kwargs or kwargs["content_type"] is None
+0.65 response.py(558):         self._no_explicit_content_type = (
+0.65 response.py(561):         super().__init__(*args, **kwargs)
+0.65 response.py(461):         super().__init__(*args, **kwargs)
+0.65 response.py(115):         self.headers = ResponseHeaders(headers)
+0.65 response.py(38):         self._store = {}
+0.65 response.py(39):         if data:
+0.65 response.py(116):         self._charset = charset
+0.65 response.py(117):         if "Content-Type" not in self.headers:
+0.65 response.py(118):             if content_type is None:
+0.65 response.py(119):                 content_type = f"text/html; charset={self.charset}"
+0.65 response.py(156):         if self._charset is not None:
+0.65 response.py(160):         if content_type := self.headers.get("Content-Type"):
+0.65 response.py(167):         return settings.DEFAULT_CHARSET
+0.65 response.py(120):             self.headers["Content-Type"] = content_type
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(126):         self._resource_closers = []
+0.65 response.py(129):         self._handler_class = None
+0.65 response.py(130):         self.cookies = SimpleCookie()
+0.65 response.py(131):         self.closed = False
+0.65 response.py(132):         if status is not None:
+0.65 response.py(140):         self._reason_phrase = reason
+0.65 response.py(464):         self.streaming_content = streaming_content
+0.65 response.py(497):         self._set_streaming_content(value)
+0.65 response.py(564):         if not hasattr(value, "read"):
+0.65 response.py(568):         self.file_to_stream = filelike = value
+0.65 response.py(569):         if hasattr(filelike, "close"):
+0.65 response.py(570):             self._resource_closers.append(filelike.close)
+0.65 response.py(571):         value = iter(lambda: filelike.read(self.block_size), b"")
+0.65 response.py(572):         self.set_headers(filelike)
+0.65 response.py(580):         filename = getattr(filelike, "name", "")
+0.65 response.py(581):         filename = filename if isinstance(filename, str) else ""
+0.65 response.py(582):         seekable = hasattr(filelike, "seek") and (
+0.65 response.py(583):             not hasattr(filelike, "seekable") or filelike.seekable()
+0.65 response.py(582):         seekable = hasattr(filelike, "seek") and (
+0.65 response.py(585):         if hasattr(filelike, "tell"):
+0.65 response.py(586):             if seekable:
+0.65 response.py(587):                 initial_position = filelike.tell()
+0.65 response.py(588):                 filelike.seek(0, io.SEEK_END)
+0.65 response.py(589):                 self.headers["Content-Length"] = filelike.tell() - initial_position
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(53):             elif isinstance(value, bytes):
+0.65 response.py(57):                 value = str(value)
+0.65 response.py(59):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(590):                 filelike.seek(initial_position)
+0.65 response.py(605):         filename = os.path.basename(self.filename or filename)
+0.65 response.py(606):         if self._no_explicit_content_type:
+0.65 response.py(607):             if filename:
+0.65 response.py(608):                 content_type, encoding = mimetypes.guess_type(filename)
+0.65 response.py(612):                     "bzip2": "application/x-bzip",
+0.65 response.py(613):                     "gzip": "application/gzip",
+0.65 response.py(614):                     "xz": "application/x-xz",
+0.65 response.py(611):                 content_type = {
+0.65 response.py(615):                 }.get(encoding, content_type)
+0.65 response.py(611):                 content_type = {
+0.65 response.py(617):                     content_type or "application/octet-stream"
+0.65 response.py(616):                 self.headers["Content-Type"] = (
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(622):         if content_disposition := content_disposition_header(
+0.65 response.py(623):             self.as_attachment, filename
+0.65 response.py(622):         if content_disposition := content_disposition_header(
+0.65 response.py(625):             self.headers["Content-Disposition"] = content_disposition
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(573):         super()._set_streaming_content(value)
+0.65 response.py(501):         try:
+0.65 response.py(502):             self._iterator = iter(value)
+0.65 response.py(503):             self.is_async = False
+0.65 response.py(507):         if hasattr(value, "close"):
+0.65 response.py(199):         return self.headers[header]
+0.65 response.py(556):         self.as_attachment = as_attachment
+0.65 response.py(557):         self.filename = filename
+0.65 response.py(559):             "content_type" not in kwargs or kwargs["content_type"] is None
+0.65 response.py(558):         self._no_explicit_content_type = (
+0.65 response.py(561):         super().__init__(*args, **kwargs)
+0.65 response.py(461):         super().__init__(*args, **kwargs)
+0.65 response.py(115):         self.headers = ResponseHeaders(headers)
+0.65 response.py(38):         self._store = {}
+0.65 response.py(39):         if data:
+FAIL
+
+======================================================================
+FAIL: test_mime_type_for_br_file (test_coverup_django__django-16642.MimeTypeGuessingTests.test_mime_type_for_br_file)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-16642.py", line 28, in test_mime_type_for_br_file
+    self.assertNotEqual(response['Content-Type'], 'text/html')
+AssertionError: 'text/html' == 'text/html'
+
+======================================================================
+FAIL: test_mime_type_for_z_file (test_coverup_django__django-16642.MimeTypeGuessingTests.test_mime_type_for_z_file)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-16642.py", line 23, in test_mime_type_for_z_file
+    self.assertNotEqual(response['Content-Type'], 'text/html')
+AssertionError: 'text/html' == 'text/html'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.006s
+
+FAILED (failures=2)
+0.65 response.py(116):         self._charset = charset
+0.65 response.py(117):         if "Content-Type" not in self.headers:
+0.65 response.py(118):             if content_type is None:
+0.65 response.py(119):                 content_type = f"text/html; charset={self.charset}"
+0.65 response.py(156):         if self._charset is not None:
+0.65 response.py(160):         if content_type := self.headers.get("Content-Type"):
+0.65 response.py(167):         return settings.DEFAULT_CHARSET
+0.65 response.py(120):             self.headers["Content-Type"] = content_type
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(126):         self._resource_closers = []
+0.65 response.py(129):         self._handler_class = None
+0.65 response.py(130):         self.cookies = SimpleCookie()
+0.65 response.py(131):         self.closed = False
+0.65 response.py(132):         if status is not None:
+0.65 response.py(140):         self._reason_phrase = reason
+0.65 response.py(464):         self.streaming_content = streaming_content
+0.65 response.py(497):         self._set_streaming_content(value)
+0.65 response.py(564):         if not hasattr(value, "read"):
+0.65 response.py(568):         self.file_to_stream = filelike = value
+0.65 response.py(569):         if hasattr(filelike, "close"):
+0.65 response.py(570):             self._resource_closers.append(filelike.close)
+0.65 response.py(571):         value = iter(lambda: filelike.read(self.block_size), b"")
+0.65 response.py(572):         self.set_headers(filelike)
+0.65 response.py(580):         filename = getattr(filelike, "name", "")
+0.65 response.py(581):         filename = filename if isinstance(filename, str) else ""
+0.65 response.py(582):         seekable = hasattr(filelike, "seek") and (
+0.65 response.py(583):             not hasattr(filelike, "seekable") or filelike.seekable()
+0.65 response.py(582):         seekable = hasattr(filelike, "seek") and (
+0.65 response.py(585):         if hasattr(filelike, "tell"):
+0.65 response.py(586):             if seekable:
+0.65 response.py(587):                 initial_position = filelike.tell()
+0.65 response.py(588):                 filelike.seek(0, io.SEEK_END)
+0.65 response.py(589):                 self.headers["Content-Length"] = filelike.tell() - initial_position
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(53):             elif isinstance(value, bytes):
+0.65 response.py(57):                 value = str(value)
+0.65 response.py(59):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(590):                 filelike.seek(initial_position)
+0.65 response.py(605):         filename = os.path.basename(self.filename or filename)
+0.65 response.py(606):         if self._no_explicit_content_type:
+0.65 response.py(607):             if filename:
+0.65 response.py(608):                 content_type, encoding = mimetypes.guess_type(filename)
+0.65 response.py(612):                     "bzip2": "application/x-bzip",
+0.65 response.py(613):                     "gzip": "application/gzip",
+0.65 response.py(614):                     "xz": "application/x-xz",
+0.65 response.py(611):                 content_type = {
+0.65 response.py(615):                 }.get(encoding, content_type)
+0.65 response.py(611):                 content_type = {
+0.65 response.py(617):                     content_type or "application/octet-stream"
+0.65 response.py(616):                 self.headers["Content-Type"] = (
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(622):         if content_disposition := content_disposition_header(
+0.65 response.py(623):             self.as_attachment, filename
+0.65 response.py(622):         if content_disposition := content_disposition_header(
+0.65 response.py(625):             self.headers["Content-Disposition"] = content_disposition
+0.65 response.py(86):         key = self._convert_to_charset(key, "ascii")
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(87):         value = self._convert_to_charset(value, "latin-1", mime_encode=True)
+0.65 response.py(49):         try:
+0.65 response.py(50):             if isinstance(value, str):
+0.65 response.py(52):                 value.encode(charset)
+0.65 response.py(60):             if "\n" in value or "\r" in value:
+0.65 response.py(80):         return value
+0.65 response.py(88):         self._store[key.lower()] = (key, value)
+0.65 response.py(573):         super()._set_streaming_content(value)
+0.65 response.py(501):         try:
+0.65 response.py(502):             self._iterator = iter(value)
+0.65 response.py(503):             self.is_async = False
+0.65 response.py(507):         if hasattr(value, "close"):
+0.65 response.py(199):         return self.headers[header]
++ cat coverage.cover
+{"/testbed/django/http/response.py": {"0": 0, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "14": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "27": 2, "28": 1, "32": 2, "98": 2, "102": 2, "364": 2, "449": 2, "548": 2, "628": 2, "654": 2, "658": 2, "662": 2, "678": 2, "682": 2, "686": 2, "690": 2, "706": 2, "710": 2, "714": 2, "718": 2, "33": 1, "43": 1, "82": 1, "85": 1, "90": 1, "93": 1, "38": 2, "39": 2, "40": 0, "41": 0, "49": 16, "50": 16, "52": 14, "53": 2, "55": 0, "57": 2, "59": 2, "60": 16, "61": 0, "62": 0, "64": 0, "69": 0, "70": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "78": 0, "79": 0, "80": 16, "83": 0, "86": 8, "87": 8, "88": 8, "91": 0, "94": 0, "95": 0, "99": 1, "110": 1, "113": 1, "112": 1, "142": 2, "143": 2, "150": 2, "151": 2, "154": 2, "155": 2, "169": 2, "170": 2, "173": 1, "182": 1, "184": 2, "185": 2, "192": 1, "195": 1, "198": 1, "201": 1, "205": 1, "207": 1, "210": 1, "216": 1, "217": 1, "218": 1, "219": 1, "220": 1, "221": 1, "222": 1, "223": 1, "213": 1, "277": 1, "281": 1, "285": 1, "305": 1, "326": 1, "337": 1, "340": 1, "343": 1, "351": 1, "354": 1, "357": 1, "360": 1, "115": 2, "116": 2, "117": 2, "118": 2, "119": 2, "120": 2, "121": 0, "122": 0, "123": 0, "126": 2, "129": 2, "130": 2, "131": 2, "132": 2, "133": 0, "134": 0, "135": 0, "136": 0, "138": 0, "139": 0, "140": 2, "144": 0, "145": 0, "148": 0, "152": 0, "156": 2, "157": 0, "160": 2, "161": 0, "166": 0, "167": 2, "171": 0, "175": 0, "176": 0, "178": 0, "177": 0, "188": 0, "187": 0, "189": 0, "186": 0, "193": 0, "196": 0, "199": 2, "203": 0, "208": 0, "211": 0, "238": 0, "239": 0, "240": 0, "241": 0, "242": 0, "243": 0, "247": 0, "249": 0, "250": 0, "251": 0, "252": 0, "254": 0, "256": 0, "257": 0, "258": 0, "259": 0, "260": 0, "262": 0, "263": 0, "264": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "271": 0, "272": 0, "273": 0, "274": 0, "275": 0, "279": 0, "282": 0, "283": 0, "290": 0, "291": 0, "293": 0, "294": 0, "295": 0, "296": 0, "297": 0, "298": 0, "299": 0, "300": 0, "314": 0, "315": 0, "316": 0, "317": 0, "319": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "333": 0, "334": 0, "335": 0, "338": 0, "341": 0, "344": 0, "345": 0, "352": 0, "355": 0, "358": 0, "361": 0, "371": 1, "372": 2, "373": 1, "383": 1, "388": 1, "395": 1, "402": 1, "406": 1, "408": 2, "409": 2, "412": 2, "413": 2, "429": 1, "432": 1, "435": 1, "438": 1, "441": 1, "444": 1, "384": 0, "386": 0, "389": 0, "390": 0, "391": 0, "392": 0, "393": 0, "396": 0, "397": 0, "398": 0, "399": 0, "404": 0, "410": 0, "415": 0, "416": 0, "418": 0, "419": 0, "420": 0, "421": 0, "422": 0, "423": 0, "425": 0, "427": 0, "430": 0, "433": 0, "436": 0, "439": 0, "442": 0, "445": 0, "446": 0, "458": 1, "460": 1, "466": 1, "473": 2, "474": 2, "480": 2, "481": 2, "495": 2, "496": 2, "499": 1, "510": 1, "529": 1, "544": 1, "461": 2, "464": 2, "467": 0, "468": 0, "469": 0, "470": 0, "475": 0, "476": 0, "477": 0, "482": 0, "485": 0, "487": 0, "491": 0, "493": 0, "488": 0, "489": 0, "497": 2, "501": 2, "502": 2, "503": 2, "504": 0, "505": 0, "506": 0, "507": 2, "508": 0, "511": 0, "512": 0, "513": 0, "514": 0, "515": 0, "517": 0, "521": 0, "527": 0, "522": 0, "523": 0, "524": 0, "525": 0, "530": 0, "531": 0, "532": 0, "533": 0, "534": 0, "535": 0, "537": 0, "541": 0, "542": 0, "545": 0, "553": 1, "555": 1, "563": 1, "575": 1, "556": 2, "557": 2, "559": 2, "558": 2, "561": 2, "564": 2, "565": 0, "566": 0, "568": 2, "569": 2, "570": 2, "571": 2, "572": 2, "573": 2, "580": 2, "581": 2, "582": 4, "583": 2, "585": 2, "586": 2, "587": 2, "588": 2, "589": 2, "590": 2, "591": 0, "593": 0, "592": 0, "595": 0, "597": 0, "596": 0, "599": 0, "600": 0, "601": 0, "603": 0, "605": 2, "606": 2, "607": 2, "608": 2, "612": 2, "613": 2, "614": 2, "611": 4, "615": 2, "617": 2, "616": 2, "620": 0, "622": 4, "623": 2, "625": 2, "629": 1, "631": 1, "640": 1, "642": 1, "632": 0, "633": 0, "634": 0, "635": 0, "636": 0, "637": 0, "644": 0, "646": 0, "647": 0, "648": 0, "649": 0, "645": 0, "643": 0, "655": 1, "659": 1, "663": 1, "665": 1, "669": 2, "670": 2, "666": 0, "667": 0, "671": 0, "672": 0, "673": 0, "675": 0, "679": 1, "683": 1, "687": 1, "691": 1, "693": 1, "697": 1, "694": 0, "695": 0, "698": 0, "699": 0, "700": 0, "701": 0, "702": 0, "707": 1, "711": 1, "715": 1, "735": 1, "736": 1, "737": 1, "732": 1, "740": 0, "741": 0, "742": 0, "745": 0, "746": 0, "747": 0, "748": 0, "749": 0}}
++ git checkout fbe850106b2e4b85f838219cb9e1df95fba6c164
+Note: switching to 'fbe850106b2e4b85f838219cb9e1df95fba6c164'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at fbe850106b Refs #32355 -- Bumped required version of sqlparse in setup.cfg.
++ git apply /root/pre_state.patch
+error: unrecognized input

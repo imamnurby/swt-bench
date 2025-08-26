@@ -1,0 +1,23 @@
+diff --git a/dev/null b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-13328.py
+new file mode 100644
+index e69de29..c158d8b 100644
+--- /dev/null
++++ b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-13328.py
+@@ -0,0 +1,17 @@
++import numpy as np
++import pytest
++from sklearn.datasets import make_regression
++from sklearn.linear_model import HuberRegressor
++
++def test_huber_regressor_fit_with_boolean_array():
++    # Generate random data
++    X, y, coef = make_regression(n_samples=200, n_features=2, noise=4.0, coef=True, random_state=0)
++    # Convert X to a boolean array
++    X_bool = X > 0
++
++    # Initialize HuberRegressor
++    huber = HuberRegressor()
++
++    # Attempt to fit HuberRegressor with boolean input
++    huber.fit(X_bool, y)
++    # If no error is raised, the test should pass, indicating the bug is fixed

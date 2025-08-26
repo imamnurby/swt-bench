@@ -1,0 +1,635 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 19fc6376ce67d01ca37a91ef2f55ef769f50513a
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 19fc6376ce67d01ca37a91ef2f55ef769f50513a
+Author: Ran Benita <ran234@gmail.com>
+Date:   Mon Apr 1 12:29:10 2019 +0300
+
+    Fixed #30304 -- Added support for the HttpOnly, SameSite, and Secure flags on language cookies.
+
+diff --git a/django/conf/global_settings.py b/django/conf/global_settings.py
+index dd368584e5..61d08ddba5 100644
+--- a/django/conf/global_settings.py
++++ b/django/conf/global_settings.py
+@@ -154,6 +154,9 @@ LANGUAGE_COOKIE_NAME = 'django_language'
+ LANGUAGE_COOKIE_AGE = None
+ LANGUAGE_COOKIE_DOMAIN = None
+ LANGUAGE_COOKIE_PATH = '/'
++LANGUAGE_COOKIE_SECURE = False
++LANGUAGE_COOKIE_HTTPONLY = False
++LANGUAGE_COOKIE_SAMESITE = None
+ 
+ 
+ # If you set this to True, Django will format dates, numbers and calendars
+diff --git a/django/views/i18n.py b/django/views/i18n.py
+index ce5691632c..e3ef40b2fc 100644
+--- a/django/views/i18n.py
++++ b/django/views/i18n.py
+@@ -55,6 +55,9 @@ def set_language(request):
+                 max_age=settings.LANGUAGE_COOKIE_AGE,
+                 path=settings.LANGUAGE_COOKIE_PATH,
+                 domain=settings.LANGUAGE_COOKIE_DOMAIN,
++                secure=settings.LANGUAGE_COOKIE_SECURE,
++                httponly=settings.LANGUAGE_COOKIE_HTTPONLY,
++                samesite=settings.LANGUAGE_COOKIE_SAMESITE,
+             )
+     return response
+ 
+diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+index 5c87aa5d24..ae7436696e 100644
+--- a/docs/ref/settings.txt
++++ b/docs/ref/settings.txt
+@@ -1766,6 +1766,21 @@ permanently (via the :setting:`LANGUAGE_COOKIE_NAME` setting) and to add
+ a middleware that copies the value from the old cookie to a new one and then
+ deletes the old one.
+ 
++.. setting:: LANGUAGE_COOKIE_HTTPONLY
++
++``LANGUAGE_COOKIE_HTTPONLY``
++----------------------------
++
++.. versionadded:: 3.0
++
++Default: ``False``
++
++Whether to use ``HttpOnly`` flag on the language cookie. If this is set to
++``True``, client-side JavaScript will not to be able to access the language
++cookie.
++
++See :setting:`SESSION_COOKIE_HTTPONLY` for details on ``HttpOnly``.
++
+ .. setting:: LANGUAGE_COOKIE_NAME
+ 
+ ``LANGUAGE_COOKIE_NAME``
+@@ -1800,6 +1815,33 @@ permanently (via the :setting:`LANGUAGE_COOKIE_NAME` setting), and to add
+ a middleware that copies the value from the old cookie to a new one and then
+ deletes the one.
+ 
++.. setting:: LANGUAGE_COOKIE_SAMESITE
++
++``LANGUAGE_COOKIE_SAMESITE``
++----------------------------
++
++.. versionadded:: 3.0
++
++Default: ``None``
++
++The value of the `SameSite`_ flag on the language cookie. This flag prevents the
++cookie from being sent in cross-site requests.
++
++See :setting:`SESSION_COOKIE_SAMESITE` for details about ``SameSite``.
++
++.. setting:: LANGUAGE_COOKIE_SECURE
++
++``LANGUAGE_COOKIE_SECURE``
++--------------------------
++
++.. versionadded:: 3.0
++
++Default: ``False``
++
++Whether to use a secure cookie for the language cookie. If this is set to
++``True``, the cookie will be marked as "secure", which means browsers may
++ensure that the cookie is only sent under an HTTPS connection.
++
+ .. setting:: LANGUAGES
+ 
+ ``LANGUAGES``
+@@ -3402,8 +3444,11 @@ Globalization (``i18n``/``l10n``)
+ * :setting:`LANGUAGE_CODE`
+ * :setting:`LANGUAGE_COOKIE_AGE`
+ * :setting:`LANGUAGE_COOKIE_DOMAIN`
++* :setting:`LANGUAGE_COOKIE_HTTPONLY`
+ * :setting:`LANGUAGE_COOKIE_NAME`
+ * :setting:`LANGUAGE_COOKIE_PATH`
++* :setting:`LANGUAGE_COOKIE_SAMESITE`
++* :setting:`LANGUAGE_COOKIE_SECURE`
+ * :setting:`LANGUAGES`
+ * :setting:`LANGUAGES_BIDI`
+ * :setting:`LOCALE_PATHS`
+diff --git a/docs/releases/3.0.txt b/docs/releases/3.0.txt
+index 11257b70be..d7ad7a8cf7 100644
+--- a/docs/releases/3.0.txt
++++ b/docs/releases/3.0.txt
+@@ -153,7 +153,11 @@ Generic Views
+ Internationalization
+ ~~~~~~~~~~~~~~~~~~~~
+ 
+-* ...
++* Added the :setting:`LANGUAGE_COOKIE_HTTPONLY`,
++  :setting:`LANGUAGE_COOKIE_SAMESITE`, and :setting:`LANGUAGE_COOKIE_SECURE`
++  settings to set the ``HttpOnly``, ``SameSite``, and ``Secure`` flags on
++  language cookies. The default values of these settings preserve the previous
++  behavior.
+ 
+ Management Commands
+ ~~~~~~~~~~~~~~~~~~~
+diff --git a/docs/topics/i18n/translation.txt b/docs/topics/i18n/translation.txt
+index 00338100f9..bafa4bdaf1 100644
+--- a/docs/topics/i18n/translation.txt
++++ b/docs/topics/i18n/translation.txt
+@@ -1896,7 +1896,10 @@ A number of settings can be used to adjust language cookie options:
+ * :setting:`LANGUAGE_COOKIE_NAME`
+ * :setting:`LANGUAGE_COOKIE_AGE`
+ * :setting:`LANGUAGE_COOKIE_DOMAIN`
++* :setting:`LANGUAGE_COOKIE_HTTPONLY`
+ * :setting:`LANGUAGE_COOKIE_PATH`
++* :setting:`LANGUAGE_COOKIE_SAMESITE`
++* :setting:`LANGUAGE_COOKIE_SECURE`
+ 
+ Implementation notes
+ ====================
+diff --git a/tests/view_tests/tests/test_i18n.py b/tests/view_tests/tests/test_i18n.py
+index 7b36181800..1362bc2911 100644
+--- a/tests/view_tests/tests/test_i18n.py
++++ b/tests/view_tests/tests/test_i18n.py
+@@ -45,6 +45,9 @@ class SetLanguageTests(TestCase):
+         self.assertEqual(language_cookie['domain'], '')
+         self.assertEqual(language_cookie['path'], '/')
+         self.assertEqual(language_cookie['max-age'], '')
++        self.assertEqual(language_cookie['httponly'], '')
++        self.assertEqual(language_cookie['samesite'], '')
++        self.assertEqual(language_cookie['secure'], '')
+ 
+     def test_setlang_unsafe_next(self):
+         """
+@@ -175,6 +178,9 @@ class SetLanguageTests(TestCase):
+             'LANGUAGE_COOKIE_AGE': 3600 * 7 * 2,
+             'LANGUAGE_COOKIE_DOMAIN': '.example.com',
+             'LANGUAGE_COOKIE_PATH': '/test/',
++            'LANGUAGE_COOKIE_HTTPONLY': True,
++            'LANGUAGE_COOKIE_SAMESITE': 'Strict',
++            'LANGUAGE_COOKIE_SECURE': True,
+         }
+         with self.settings(**test_settings):
+             post_data = {'language': 'pl', 'next': '/views/'}
+@@ -184,6 +190,9 @@ class SetLanguageTests(TestCase):
+             self.assertEqual(language_cookie['domain'], '.example.com')
+             self.assertEqual(language_cookie['path'], '/test/')
+             self.assertEqual(language_cookie['max-age'], 3600 * 7 * 2)
++            self.assertEqual(language_cookie['httponly'], True)
++            self.assertEqual(language_cookie['samesite'], 'Strict')
++            self.assertEqual(language_cookie['secure'], True)
+ 
+     def test_setlang_decodes_http_referer_url(self):
+         """
++ git diff 19fc6376ce67d01ca37a91ef2f55ef769f50513a
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190408092606) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190408092606) (0.4.4)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.0.dev20190408092606
+    Uninstalling Django-3.0.dev20190408092606:
+      Successfully uninstalled Django-3.0.dev20190408092606
+  Running setup.py develop for Django
+Successfully installed Django-3.0.dev20190408092606
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch tests/test_coverup_django__django-11179.py...
+Applied patch tests/test_coverup_django__django-11179.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/models/deletion\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11179
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+test_delete_model_pk_not_none_after_delete (test_coverup_django__django-11179.DeleteModelTestCase) ... ['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/models/deletion\\.py)']
+0.32 deletion.py(1): from collections import Counter
+0.32 deletion.py(2): from operator import attrgetter
+0.32 deletion.py(4): from django.db import IntegrityError, connections, transaction
+0.32 deletion.py(5): from django.db.models import signals, sql
+0.32 deletion.py(8): class ProtectedError(IntegrityError):
+0.32 deletion.py(8): class ProtectedError(IntegrityError):
+0.32 deletion.py(9):     def __init__(self, msg, protected_objects):
+0.32 deletion.py(14): def CASCADE(collector, field, sub_objs, using):
+0.32 deletion.py(21): def PROTECT(collector, field, sub_objs, using):
+0.32 deletion.py(31): def SET(value):
+0.32 deletion.py(42): def SET_NULL(collector, field, sub_objs, using):
+0.32 deletion.py(46): def SET_DEFAULT(collector, field, sub_objs, using):
+0.32 deletion.py(50): def DO_NOTHING(collector, field, sub_objs, using):
+0.32 deletion.py(54): def get_candidate_relations_to_delete(opts):
+0.32 deletion.py(63): class Collector:
+0.32 deletion.py(63): class Collector:
+0.32 deletion.py(64):     def __init__(self, using):
+0.32 deletion.py(80):     def add(self, objs, source=None, nullable=False, reverse_dependency=False):
+0.32 deletion.py(107):     def add_field_update(self, field, value, objs):
+0.32 deletion.py(119):     def can_fast_delete(self, objs, from_field=None):
+0.32 deletion.py(157):     def get_del_batches(self, objs, field):
+0.32 deletion.py(170):                 source_attr=None, reverse_dependency=False, keep_parents=False):
+0.32 deletion.py(231):     def related_objects(self, related, objs):
+0.32 deletion.py(239):     def instances_with_model(self):
+0.32 deletion.py(244):     def sort(self):
+0.32 deletion.py(262):     def delete(self):
+Testing against Django installed in '/testbed/django'
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+System check identified no issues (0 silenced).
+0.79 deletion.py(65):         self.using = using
+0.79 deletion.py(67):         self.data = {}
+0.79 deletion.py(68):         self.field_updates = {}  # {model: {(field, value): {instances}}}
+0.79 deletion.py(71):         self.fast_deletes = []
+0.79 deletion.py(78):         self.dependencies = {}  # {model: {models}}
+0.79 deletion.py(188):         if self.can_fast_delete(objs):
+0.79 deletion.py(130):         if from_field and from_field.remote_field.on_delete is not CASCADE:
+0.79 deletion.py(132):         if hasattr(objs, '_meta'):
+0.79 deletion.py(134):         elif hasattr(objs, 'model') and hasattr(objs, '_raw_delete'):
+0.79 deletion.py(137):             return False
+0.79 deletion.py(191):         new_objs = self.add(objs, source, nullable,
+0.79 deletion.py(192):                             reverse_dependency=reverse_dependency)
+0.79 deletion.py(88):         if not objs:
+0.79 deletion.py(90):         new_objs = []
+0.79 deletion.py(91):         model = objs[0].__class__
+0.79 deletion.py(92):         instances = self.data.setdefault(model, set())
+0.79 deletion.py(93):         for obj in objs:
+0.79 deletion.py(94):             if obj not in instances:
+0.79 deletion.py(95):                 new_objs.append(obj)
+0.79 deletion.py(93):         for obj in objs:
+0.79 deletion.py(96):         instances.update(new_objs)
+0.79 deletion.py(100):         if source is not None and not nullable:
+0.79 deletion.py(105):         return new_objs
+0.79 deletion.py(193):         if not new_objs:
+0.79 deletion.py(196):         model = new_objs[0].__class__
+0.79 deletion.py(198):         if not keep_parents:
+0.79 deletion.py(201):             concrete_model = model._meta.concrete_model
+0.79 deletion.py(202):             for ptr in concrete_model._meta.parents.values():
+0.79 deletion.py(209):         if collect_related:
+0.79 deletion.py(210):             parents = model._meta.parents
+0.79 deletion.py(211):             for related in get_candidate_relations_to_delete(model._meta):
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+0.79 deletion.py(59):         if f.auto_created and not f.concrete and (f.one_to_one or f.one_to_many)
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+0.79 deletion.py(59):         if f.auto_created and not f.concrete and (f.one_to_one or f.one_to_many)
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+0.79 deletion.py(225):             for field in model._meta.private_fields:
+0.79 deletion.py(264):         for model, instances in self.data.items():
+0.79 deletion.py(265):             self.data[model] = sorted(instances, key=attrgetter("pk"))
+0.79 deletion.py(264):         for model, instances in self.data.items():
+0.79 deletion.py(270):         self.sort()
+0.79 deletion.py(245):         sorted_models = []
+0.79 deletion.py(246):         concrete_models = set()
+0.79 deletion.py(247):         models = list(self.data)
+0.79 deletion.py(248):         while len(sorted_models) < len(models):
+0.79 deletion.py(249):             found = False
+0.79 deletion.py(250):             for model in models:
+0.79 deletion.py(251):                 if model in sorted_models:
+0.79 deletion.py(253):                 dependencies = self.dependencies.get(model._meta.concrete_model)
+0.79 deletion.py(254):                 if not (dependencies and dependencies.difference(concrete_models)):
+0.79 deletion.py(255):                     sorted_models.append(model)
+0.79 deletion.py(256):                     concrete_models.add(model._meta.concrete_model)
+0.79 deletion.py(257):                     found = True
+0.79 deletion.py(250):             for model in models:
+0.79 deletion.py(258):             if not found:
+0.79 deletion.py(248):         while len(sorted_models) < len(models):
+0.79 deletion.py(260):         self.data = {model: self.data[model] for model in sorted_models}
+0.79 deletion.py(260):         self.data = {model: self.data[model] for model in sorted_models}
+0.79 deletion.py(260):         self.data = {model: self.data[model] for model in sorted_models}
+0.79 deletion.py(272):         deleted_counter = Counter()
+0.79 deletion.py(275):         if len(self.data) == 1 and len(instances) == 1:
+0.79 deletion.py(276):             instance = list(instances)[0]
+0.79 deletion.py(277):             if self.can_fast_delete(instance):
+0.79 deletion.py(130):         if from_field and from_field.remote_field.on_delete is not CASCADE:
+0.79 deletion.py(132):         if hasattr(objs, '_meta'):
+0.79 deletion.py(133):             model = type(objs)
+0.79 deletion.py(138):         if (signals.pre_delete.has_listeners(model) or
+0.79 deletion.py(139):                 signals.post_delete.has_listeners(model) or
+0.79 deletion.py(140):                 signals.m2m_changed.has_listeners(model)):
+0.79 deletion.py(144):         opts = model._meta
+0.79 deletion.py(146):             all(link == from_field for link in opts.concrete_model._meta.parents.values()) and
+0.79 deletion.py(146):             all(link == from_field for link in opts.concrete_model._meta.parents.values()) and
+0.79 deletion.py(148):             all(
+0.79 deletion.py(149):                 related.field.remote_field.on_delete is DO_NOTHING
+0.79 deletion.py(150):                 for related in get_candidate_relations_to_delete(opts)
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+0.79 deletion.py(149):                 related.field.remote_field.on_delete is DO_NOTHING
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+FAIL
+
+======================================================================
+FAIL: test_delete_model_pk_not_none_after_delete (test_coverup_django__django-11179.DeleteModelTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11179.py", line 27, in test_delete_model_pk_not_none_after_delete
+    self.assertIsNone(self.instance.pk)  # The PK should be None after deletion
+AssertionError: 1 is not None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+0.79 deletion.py(59):         if f.auto_created and not f.concrete and (f.one_to_one or f.one_to_many)
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+0.79 deletion.py(59):         if f.auto_created and not f.concrete and (f.one_to_one or f.one_to_many)
+0.79 deletion.py(58):         f for f in opts.get_fields(include_hidden=True)
+0.79 deletion.py(153):                 not any(hasattr(field, 'bulk_related_objects') for field in opts.private_fields)
+0.79 deletion.py(153):                 not any(hasattr(field, 'bulk_related_objects') for field in opts.private_fields)
+0.79 deletion.py(278):                 with transaction.mark_for_rollback_on_error():
+0.79 deletion.py(279):                     count = sql.DeleteQuery(model).delete_batch([instance.pk], self.using)
+0.79 deletion.py(280):                 return count, {model._meta.label: count}
++ cat coverage.cover
+{"/testbed/django/db/models/deletion.py": {"1": 1, "2": 1, "4": 1, "5": 1, "8": 2, "14": 1, "21": 1, "31": 1, "42": 1, "46": 1, "50": 1, "54": 1, "63": 2, "9": 1, "10": 0, "11": 0, "15": 0, "16": 0, "17": 0, "18": 0, "22": 0, "23": 0, "25": 0, "27": 0, "32": 0, "33": 0, "36": 0, "38": 0, "39": 0, "34": 0, "37": 0, "43": 0, "47": 0, "51": 0, "58": 8, "59": 4, "64": 1, "80": 1, "107": 1, "119": 1, "157": 1, "170": 1, "231": 1, "239": 1, "244": 1, "262": 1, "65": 1, "67": 1, "68": 1, "71": 1, "78": 1, "88": 1, "89": 0, "90": 1, "91": 1, "92": 1, "93": 2, "94": 1, "95": 1, "96": 1, "100": 1, "101": 0, "102": 0, "103": 0, "104": 0, "105": 1, "112": 0, "113": 0, "114": 0, "115": 0, "116": 0, "117": 0, "130": 2, "131": 0, "132": 2, "133": 1, "134": 1, "135": 0, "137": 1, "138": 1, "139": 1, "140": 1, "141": 0, "144": 1, "146": 2, "148": 1, "149": 2, "150": 1, "153": 2, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "167": 0, "188": 1, "189": 0, "190": 0, "191": 1, "192": 1, "193": 1, "194": 0, "196": 1, "198": 1, "201": 1, "202": 1, "203": 0, "204": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 1, "210": 1, "211": 1, "213": 0, "214": 0, "215": 0, "216": 0, "217": 0, "218": 0, "219": 0, "220": 0, "221": 0, "222": 0, "223": 0, "224": 0, "225": 1, "226": 0, "228": 0, "229": 0, "235": 0, "236": 0, "240": 0, "241": 0, "242": 0, "245": 1, "246": 1, "247": 1, "248": 2, "249": 1, "250": 2, "251": 1, "252": 0, "253": 1, "254": 1, "255": 1, "256": 1, "257": 1, "258": 1, "259": 0, "260": 3, "264": 2, "265": 1, "270": 1, "272": 1, "275": 1, "276": 1, "277": 1, "278": 1, "279": 1, "280": 1, "282": 0, "284": 0, "285": 0, "286": 0, "287": 0, "291": 0, "292": 0, "293": 0, "296": 0, "297": 0, "298": 0, "299": 0, "300": 0, "303": 0, "304": 0, "307": 0, "308": 0, "309": 0, "310": 0, "311": 0, "313": 0, "314": 0, "315": 0, "316": 0, "320": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "327": 0}}
++ git checkout 19fc6376ce67d01ca37a91ef2f55ef769f50513a
+Note: switching to '19fc6376ce67d01ca37a91ef2f55ef769f50513a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 19fc6376ce Fixed #30304 -- Added support for the HttpOnly, SameSite, and Secure flags on language cookies.
++ git apply /root/pre_state.patch
+error: unrecognized input

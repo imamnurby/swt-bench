@@ -1,0 +1,81 @@
+#!/bin/bash
+set -uxo pipefail
+source /opt/miniconda3/bin/activate
+conda activate testbed
+cd /testbed
+git diff HEAD 68aa4fb29e7dfe521749e1e14f750d7afabb3481 >> /root/pre_state.patch
+git config --global --add safe.directory /testbed
+cd /testbed
+git status
+git show
+git diff 68aa4fb29e7dfe521749e1e14f750d7afabb3481
+source /opt/miniconda3/bin/activate
+conda activate testbed
+python -m pip install -e .[test]
+git apply -v - <<'EOF_114329324912'
+diff --git a/dev/null b/tests/test_coverup_sphinx-doc__sphinx-8459.py
+new file mode 100644
+index e69de29..222a05c 100644
+--- /dev/null
++++ b/tests/test_coverup_sphinx-doc__sphinx-8459.py
+@@ -0,0 +1,54 @@
++import pytest
++from unittest.mock import MagicMock
++from sphinx.ext.autodoc.typehints import merge_typehints
++from docutils import nodes
++from sphinx import addnodes
++
++def test_autodoc_type_aliases_with_description():
++    # Mock Sphinx application and environment
++    class MockSphinx:
++        def __init__(self):
++            self.config = MagicMock()
++            self.config.autodoc_typehints = 'description'
++            self.config.autodoc_type_aliases = {
++                'JSONObject': 'types.JSONObject',
++            }
++            self.env = type('env', (object,), {'temp_data': {}})()
++
++    app = MockSphinx()
++    app.env.temp_data['annotations'] = {
++        'types.sphinx_doc': {
++            'data': 'Dict[str, Any]',
++            'return': 'Dict[str, Any]'
++        }
++    }
++
++    # Create a mock content node
++    contentnode = nodes.Element()
++    field_list = nodes.field_list()
++    field_name = nodes.field_name('', 'param data')
++    field_body = nodes.field_body('', nodes.paragraph('', 'Dict[str, Any]'))
++    field = nodes.field('', field_name, field_body)
++    field_list += field
++    contentnode += field_list
++
++    # Mock the contentnode's parent
++    class MockSignature:
++        def __init__(self):
++            self.attributes = {'module': 'types', 'fullname': 'sphinx_doc'}
++
++        def __getitem__(self, key):
++            return self.attributes[key]
++
++    contentnode.parent = [MockSignature()]
++
++    # Call the function to test
++    merge_typehints(app, 'py', 'function', contentnode)
++
++    # Check for the correct behavior
++    field_list = [n for n in contentnode if isinstance(n, nodes.field_list)]
++    assert field_list, "Field list should be created"
++
++    # Check that the type alias is applied
++    field_texts = [field[1].astext() for field in field_list[0]]
++    assert 'types.JSONObject' in field_texts, "Type alias should be applied correctly"
+
+EOF_114329324912
+python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sphinx/ext/autodoc/typehints\.py)' -m tox -epy39 -v -- tests/test_coverup_sphinx-doc__sphinx-8459.py
+cat coverage.cover
+git checkout 68aa4fb29e7dfe521749e1e14f750d7afabb3481
+git apply /root/pre_state.patch

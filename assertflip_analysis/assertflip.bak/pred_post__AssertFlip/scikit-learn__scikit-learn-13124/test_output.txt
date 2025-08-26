@@ -1,0 +1,1051 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 9f0b959a8c9195d1b6e203f08b698e052b426ca9
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 9f0b959a8c9195d1b6e203f08b698e052b426ca9
+Author: Hanmin Qin <qinhanmin2005@sina.com>
+Date:   Fri Feb 8 20:47:50 2019 +0800
+
+    DOC Formatting issue in calibration_curve
+
+diff --git a/sklearn/calibration.py b/sklearn/calibration.py
+index 6a760c21d8..f84cbb3283 100644
+--- a/sklearn/calibration.py
++++ b/sklearn/calibration.py
+@@ -523,9 +523,9 @@ def calibration_curve(y_true, y_prob, normalize=False, n_bins=5,
+                       strategy='uniform'):
+     """Compute true and predicted probabilities for a calibration curve.
+ 
+-     The method assumes the inputs come from a binary classifier.
++    The method assumes the inputs come from a binary classifier.
+ 
+-     Calibration curves may also be referred to as reliability diagrams.
++    Calibration curves may also be referred to as reliability diagrams.
+ 
+     Read more in the :ref:`User Guide <calibration>`.
+ 
++ git diff 9f0b959a8c9195d1b6e203f08b698e052b426ca9
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file '/tmp/pip-pip-egg-info-zaugtjsx/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.11.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.21.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.17.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.21.dev0) (1.5.2)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.21.dev0
+    Uninstalling scikit-learn-0.21.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.21.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    blis_info:
+      libraries blis not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_info:
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    creating /tmp/tmpsc7xd3wd/tmp
+    creating /tmp/tmpsc7xd3wd/tmp/tmpsc7xd3wd
+    compile options: '-c'
+    gcc: /tmp/tmpsc7xd3wd/source.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ /tmp/tmpsc7xd3wd/tmp/tmpsc7xd3wd/source.o -L/opt/miniconda3/envs/testbed/lib -lopenblas -o /tmp/tmpsc7xd3wd/a.out
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.preprocessing._csr_polynomial_expansion" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn._isotonic" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils._cython_blas" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    resetting extension 'sklearn.svm.liblinear' language from 'c' to 'c++'.
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.21.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed scikit-learn-0.21.dev0
++ git apply -v -
+Checking patch sklearn/model_selection/_split.py...
+Applied patch sklearn/model_selection/_split.py cleanly.
++ git apply -v -
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-13124.py...
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-13124.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/model_selection/_split\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-13124.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/model_selection/_split\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-13124.py F         [100%]
+
+=================================== FAILURES ===================================
+______________________ test_stratified_kfold_shuffle_bug _______________________
+
+    def test_stratified_kfold_shuffle_bug():
+        # Setup
+        RANDOM_SEED = 1
+        samples_per_class = 10
+        X = np.linspace(0, samples_per_class * 2 - 1, samples_per_class * 2)
+        y = np.concatenate((np.ones(samples_per_class), np.zeros(samples_per_class)), axis=0)
+    
+        # Initialize StratifiedKFold with shuffle=True and a fixed random_state
+        k_fold = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_SEED)
+        test_indices = [sorted(test_idx) for _, test_idx in k_fold.split(X, y)]
+    
+        # Check if the content of batches changes when shuffle=True
+        # This assertion will fail if the bug is present, as the content should change
+        # due to shuffling, but it doesn't.
+        for i in range(len(test_indices) - 1):
+>           assert test_indices[i] == test_indices[i + 1], \
+                "The content of batches should change when shuffle=True, but it doesn't."
+E           AssertionError: The content of batches should change when shuffle=True, but it doesn't.
+E           assert [9, 12] == [5, 19]
+E             At index 0 diff: 9 != 5
+E             Use -v to get the full diff
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-13124.py:20: AssertionError
+----------------------------- Captured stdout call -----------------------------
+0.70 _split.py(616):         if n_splits == 'warn':
+0.70 _split.py(619):         super().__init__(n_splits, shuffle, random_state)
+0.70 _split.py(271):         if not isinstance(n_splits, numbers.Integral):
+0.70 _split.py(275):         n_splits = int(n_splits)
+0.70 _split.py(277):         if n_splits <= 1:
+0.70 _split.py(283):         if not isinstance(shuffle, bool):
+0.70 _split.py(287):         self.n_splits = n_splits
+0.70 _split.py(288):         self.shuffle = shuffle
+0.70 _split.py(289):         self.random_state = random_state
+0.70 _split.py(712):         y = check_array(y, ensure_2d=False, dtype=None)
+0.70 _split.py(713):         return super().split(X, y, groups)
+0.70 _split.py(315):         X, y, groups = indexable(X, y, groups)
+0.70 _split.py(316):         n_samples = _num_samples(X)
+0.70 _split.py(317):         if self.n_splits > n_samples:
+0.70 _split.py(323):         for train, test in super().split(X, y, groups):
+0.70 _split.py(88):         X, y, groups = indexable(X, y, groups)
+0.70 _split.py(89):         indices = np.arange(_num_samples(X))
+0.70 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.70 _split.py(674):         test_folds = self._make_test_folds(X, y)
+0.70 _split.py(622):         rng = check_random_state(self.random_state)
+0.70 _split.py(623):         y = np.asarray(y)
+0.70 _split.py(624):         type_of_target_y = type_of_target(y)
+0.70 _split.py(625):         allowed_target_types = ('binary', 'multiclass')
+0.70 _split.py(626):         if type_of_target_y not in allowed_target_types:
+0.70 _split.py(631):         y = column_or_1d(y)
+0.70 _split.py(632):         n_samples = y.shape[0]
+0.70 _split.py(633):         unique_y, y_inversed = np.unique(y, return_inverse=True)
+0.70 _split.py(634):         y_counts = np.bincount(y_inversed)
+0.70 _split.py(635):         min_groups = np.min(y_counts)
+0.70 _split.py(636):         if np.all(self.n_splits > y_counts):
+0.70 _split.py(640):         if self.n_splits > min_groups:
+0.70 _split.py(654):             KFold(self.n_splits, shuffle=self.shuffle,
+0.70 _split.py(656):             for count in y_counts]
+0.70 _split.py(654):             KFold(self.n_splits, shuffle=self.shuffle,
+0.70 _split.py(656):             for count in y_counts]
+0.70 _split.py(418):         if n_splits == 'warn':
+0.70 _split.py(421):         super().__init__(n_splits, shuffle, random_state)
+0.70 _split.py(271):         if not isinstance(n_splits, numbers.Integral):
+0.70 _split.py(275):         n_splits = int(n_splits)
+0.70 _split.py(277):         if n_splits <= 1:
+0.70 _split.py(283):         if not isinstance(shuffle, bool):
+0.70 _split.py(287):         self.n_splits = n_splits
+0.70 _split.py(288):         self.shuffle = shuffle
+0.70 _split.py(289):         self.random_state = random_state
+0.70 _split.py(654):             KFold(self.n_splits, shuffle=self.shuffle,
+0.70 _split.py(656):             for count in y_counts]
+0.70 _split.py(418):         if n_splits == 'warn':
+0.70 _split.py(421):         super().__init__(n_splits, shuffle, random_state)
+0.70 _split.py(271):         if not isinstance(n_splits, numbers.Integral):
+0.70 _split.py(275):         n_splits = int(n_splits)
+0.70 _split.py(277):         if n_splits <= 1:
+0.70 _split.py(283):         if not isinstance(shuffle, bool):
+0.70 _split.py(287):         self.n_splits = n_splits
+0.70 _split.py(288):         self.shuffle = shuffle
+0.70 _split.py(289):         self.random_state = random_state
+0.70 _split.py(654):             KFold(self.n_splits, shuffle=self.shuffle,
+0.70 _split.py(658):         test_folds = np.zeros(n_samples, dtype=np.int)
+0.70 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.70 _split.py(315):         X, y, groups = indexable(X, y, groups)
+0.70 _split.py(316):         n_samples = _num_samples(X)
+0.70 _split.py(317):         if self.n_splits > n_samples:
+0.70 _split.py(323):         for train, test in super().split(X, y, groups):
+0.70 _split.py(88):         X, y, groups = indexable(X, y, groups)
+0.70 _split.py(89):         indices = np.arange(_num_samples(X))
+0.70 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.70 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.70 _split.py(424):         n_samples = _num_samples(X)
+0.70 _split.py(425):         indices = np.arange(n_samples)
+0.70 _split.py(426):         if self.shuffle:
+0.70 _split.py(427):             check_random_state(self.random_state).shuffle(indices)
+0.70 _split.py(429):         n_splits = self.n_splits
+0.70 _split.py(430):         fold_sizes = np.full(n_splits, n_samples // n_splits, dtype=np.int)
+0.70 _split.py(431):         fold_sizes[:n_samples % n_splits] += 1
+0.70 _split.py(432):         current = 0
+0.70 _split.py(433):         for fold_size in fold_sizes:
+0.70 _split.py(434):             start, stop = current, current + fold_size
+0.70 _split.py(435):             yield indices[start:stop]
+0.70 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.70 _split.py(104):             test_mask[test_index] = True
+0.70 _split.py(105):             yield test_mask
+0.70 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.70 _split.py(92):             test_index = indices[test_index]
+0.70 _split.py(93):             yield train_index, test_index
+0.70 _split.py(324):             yield train, test
+0.70 _split.py(315):         X, y, groups = indexable(X, y, groups)
+0.70 _split.py(316):         n_samples = _num_samples(X)
+0.70 _split.py(317):         if self.n_splits > n_samples:
+0.70 _split.py(323):         for train, test in super().split(X, y, groups):
+0.70 _split.py(88):         X, y, groups = indexable(X, y, groups)
+0.70 _split.py(89):         indices = np.arange(_num_samples(X))
+0.70 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.70 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.70 _split.py(424):         n_samples = _num_samples(X)
+0.70 _split.py(425):         indices = np.arange(n_samples)
+0.70 _split.py(426):         if self.shuffle:
+0.70 _split.py(427):             check_random_state(self.random_state).shuffle(indices)
+0.70 _split.py(429):         n_splits = self.n_splits
+0.70 _split.py(430):         fold_sizes = np.full(n_splits, n_samples // n_splits, dtype=np.int)
+0.70 _split.py(431):         fold_sizes[:n_samples % n_splits] += 1
+0.70 _split.py(432):         current = 0
+0.70 _split.py(433):         for fold_size in fold_sizes:
+0.70 _split.py(434):             start, stop = current, current + fold_size
+0.70 _split.py(435):             yield indices[start:stop]
+0.70 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.70 _split.py(104):             test_mask[test_index] = True
+0.70 _split.py(105):             yield test_mask
+0.70 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.70 _split.py(92):             test_index = indices[test_index]
+0.70 _split.py(93):             yield train_index, test_index
+0.70 _split.py(324):             yield train, test
+0.70 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.70 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.70 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.70 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.70 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.70 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.70 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.70 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.70 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.70 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.70 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.70 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.70 _split.py(323):         for train, test in super().split(X, y, groups):
+0.70 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.70 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.70 _split.py(436):             current = stop
+0.70 _split.py(433):         for fold_size in fold_sizes:
+0.70 _split.py(434):             start, stop = current, current + fold_size
+0.70 _split.py(435):             yield indices[start:stop]
+0.70 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.70 _split.py(104):             test_mask[test_index] = True
+0.70 _split.py(105):             yield test_mask
+0.70 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.70 _split.py(92):             test_index = indices[test_index]
+0.70 _split.py(93):             yield train_index, test_index
+0.70 _split.py(324):             yield train, test
+0.70 _split.py(323):         for train, test in super().split(X, y, groups):
+0.70 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.70 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.70 _split.py(436):             current = stop
+0.70 _split.py(433):         for fold_size in fold_sizes:
+0.70 _split.py(434):             start, stop = current, current + fold_size
+0.70 _split.py(435):             yield indices[start:stop]
+0.70 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.70 _split.py(104):             test_mask[test_index] = True
+0.70 _split.py(105):             yield test_mask
+0.70 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.70 _split.py(92):             test_index = indices[test_index]
+0.70 _split.py(93):             yield train_index, test_index
+0.70 _split.py(324):             yield train, test
+0.70 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.70 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.70 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.70 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.70 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.70 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.70 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.70 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.70 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.70 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(434):             start, stop = current, current + fold_size
+0.71 _split.py(435):             yield indices[start:stop]
+0.71 _split.py(103):             test_mask = np.zeros(_num_samples(X), dtype=np.bool)
+0.71 _split.py(104):             test_mask[test_index] = True
+0.71 _split.py(105):             yield test_mask
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(661):                 cls_test_folds = test_folds[y == cls]
+0.71 _split.py(667):                 test_split = test_split[test_split < len(cls_test_folds)]
+0.71 _split.py(668):                 cls_test_folds[test_split] = test_fold_indices
+0.71 _split.py(669):                 test_folds[y == cls] = cls_test_folds
+0.71 _split.py(660):             for cls, (_, test_split) in zip(unique_y, per_cls_splits):
+0.71 _split.py(659):         for test_fold_indices, per_cls_splits in enumerate(zip(*per_cls_cvs)):
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(102):         for test_index in self._iter_test_indices(X, y, groups):
+0.71 _split.py(436):             current = stop
+0.71 _split.py(433):         for fold_size in fold_sizes:
+0.71 _split.py(671):         return test_folds
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+0.71 _split.py(676):             yield test_folds == i
+0.71 _split.py(91):             train_index = indices[np.logical_not(test_index)]
+0.71 _split.py(92):             test_index = indices[test_index]
+0.71 _split.py(93):             yield train_index, test_index
+0.71 _split.py(324):             yield train, test
+0.71 _split.py(323):         for train, test in super().split(X, y, groups):
+0.71 _split.py(90):         for test_index in self._iter_test_masks(X, y, groups):
+0.71 _split.py(675):         for i in range(self.n_splits):
+=========================== short test summary info ============================
+FAILED sklearn/tests/test_coverup_scikit-learn__scikit-learn-13124.py::test_stratified_kfold_shuffle_bug
+============================== 1 failed in 0.67s ===============================
++ cat coverage.cover
+{"/testbed/sklearn/model_selection/_split.py": {"12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "20": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "44": 1, "48": 1, "53": 1, "58": 2, "119": 2, "194": 2, "266": 2, "348": 2, "439": 2, "559": 2, "716": 2, "822": 2, "931": 2, "1062": 2, "1163": 2, "1216": 2, "1269": 2, "1343": 2, "1426": 2, "1540": 1, "1609": 2, "1775": 1, "1820": 1, "1870": 2, "1970": 2, "2022": 1, "2080": 1, "2222": 1, "64": 1, "97": 1, "107": 1, "111": 1, "112": 1, "115": 1, "88": 3, "89": 3, "90": 32, "91": 30, "92": 30, "93": 30, "102": 21, "103": 20, "104": 20, "105": 20, "109": 0, "116": 0, "166": 1, "169": 1, "167": 0, "189": 0, "190": 0, "191": 0, "239": 1, "242": 1, "246": 1, "240": 0, "243": 0, "244": 0, "261": 0, "262": 0, "263": 0, "269": 1, "291": 1, "326": 1, "271": 3, "272": 0, "274": 0, "275": 3, "277": 3, "278": 0, "279": 0, "281": 0, "283": 3, "284": 0, "285": 0, "287": 3, "288": 3, "289": 3, "315": 3, "316": 3, "317": 3, "318": 0, "319": 0, "321": 0, "323": 32, "324": 30, "345": 0, "417": 1, "423": 1, "418": 2, "419": 0, "420": 0, "421": 2, "424": 2, "425": 2, "426": 2, "427": 2, "429": 2, "430": 2, "431": 2, "432": 2, "433": 21, "434": 20, "435": 20, "436": 19, "489": 1, "495": 1, "532": 1, "490": 0, "491": 0, "492": 0, "493": 0, "496": 0, "497": 0, "498": 0, "500": 0, "501": 0, "503": 0, "504": 0, "506": 0, "509": 0, "512": 0, "513": 0, "516": 0, "519": 0, "522": 0, "523": 0, "524": 0, "525": 0, "527": 0, "529": 0, "530": 0, "556": 0, "615": 1, "621": 1, "673": 1, "678": 1, "616": 1, "617": 0, "618": 0, "619": 1, "622": 1, "623": 1, "624": 1, "625": 1, "626": 1, "627": 0, "628": 0, "629": 0, "631": 1, "632": 1, "633": 1, "634": 1, "635": 1, "636": 1, "637": 0, "639": 0, "640": 1, "641": 0, "645": 0, "654": 4, "656": 3, "658": 1, "659": 11, "660": 30, "661": 20, "667": 20, "668": 20, "669": 20, "671": 1, "674": 1, "675": 11, "676": 10, "712": 1, "713": 1, "770": 1, "777": 1, "771": 0, "772": 0, "773": 0, "774": 0, "775": 0, "800": 0, "801": 0, "802": 0, "803": 0, "804": 0, "805": 0, "806": 0, "807": 0, "808": 0, "809": 0, "810": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "818": 0, "819": 0, "864": 1, "877": 1, "904": 1, "865": 0, "866": 0, "868": 0, "869": 0, "870": 0, "871": 0, "872": 0, "873": 0, "874": 0, "875": 0, "899": 0, "900": 0, "901": 0, "902": 0, "928": 0, "987": 1, "990": 1, "1008": 1, "1035": 1, "988": 0, "991": 0, "992": 0, "993": 0, "994": 0, "995": 0, "996": 0, "997": 0, "1000": 0, "1001": 0, "1002": 0, "1003": 0, "1004": 0, "1005": 0, "1006": 0, "1030": 0, "1031": 0, "1032": 0, "1033": 0, "1059": 0, "1086": 1, "1102": 1, "1135": 1, "1087": 0, "1088": 0, "1090": 0, "1091": 0, "1093": 0, "1094": 0, "1095": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1126": 0, "1127": 0, "1129": 0, "1130": 0, "1131": 0, "1132": 0, "1133": 0, "1157": 0, "1158": 0, "1159": 0, "1160": 0, "1211": 1, "1212": 0, "1213": 0, "1264": 1, "1265": 0, "1266": 0, "1273": 1, "1280": 1, "1314": 1, "1315": 1, "1318": 1, "1339": 1, "1274": 0, "1275": 0, "1276": 0, "1277": 0, "1278": 0, "1310": 0, "1311": 0, "1312": 0, "1337": 0, "1340": 0, "1412": 1, "1413": 0, "1414": 0, "1415": 0, "1416": 0, "1417": 0, "1418": 0, "1420": 0, "1421": 0, "1422": 0, "1423": 0, "1478": 1, "1493": 1, "1507": 1, "1479": 0, "1480": 0, "1481": 0, "1484": 0, "1485": 0, "1487": 0, "1488": 0, "1489": 0, "1490": 0, "1491": 0, "1494": 0, "1495": 0, "1496": 0, "1497": 0, "1498": 0, "1502": 0, "1503": 0, "1505": 0, "1537": 0, "1580": 0, "1583": 0, "1585": 0, "1588": 0, "1589": 0, "1590": 0, "1591": 0, "1594": 0, "1595": 0, "1600": 0, "1601": 0, "1602": 0, "1603": 0, "1604": 0, "1605": 0, "1606": 0, "1673": 1, "1677": 1, "1737": 1, "1674": 0, "1675": 0, "1678": 0, "1679": 0, "1680": 0, "1681": 0, "1683": 0, "1686": 0, "1688": 0, "1689": 0, "1691": 0, "1692": 0, "1693": 0, "1698": 0, "1699": 0, "1701": 0, "1702": 0, "1703": 0, "1705": 0, "1709": 0, "1710": 0, "1712": 0, "1714": 0, "1717": 0, "1718": 0, "1719": 0, "1721": 0, "1722": 0, "1724": 0, "1725": 0, "1726": 0, "1727": 0, "1729": 0, "1730": 0, "1732": 0, "1733": 0, "1735": 0, "1771": 0, "1772": 0, "1781": 0, "1782": 0, "1783": 0, "1786": 0, "1787": 0, "1789": 0, "1790": 0, "1792": 0, "1793": 0, "1794": 0, "1795": 0, "1796": 0, "1797": 0, "1798": 0, "1800": 0, "1802": 0, "1803": 0, "1804": 0, "1805": 0, "1806": 0, "1807": 0, "1809": 0, "1810": 0, "1811": 0, "1814": 0, "1815": 0, "1817": 0, "1825": 0, "1826": 0, "1827": 0, "1828": 0, "1829": 0, "1830": 0, "1832": 0, "1834": 0, "1835": 0, "1836": 0, "1837": 0, "1838": 0, "1839": 0, "1841": 0, "1843": 0, "1844": 0, "1846": 0, "1847": 0, "1848": 0, "1849": 0, "1851": 0, "1852": 0, "1853": 0, "1854": 0, "1856": 0, "1858": 0, "1859": 0, "1861": 0, "1862": 0, "1865": 0, "1867": 0, "1906": 1, "1912": 1, "1940": 1, "1948": 1, "1907": 0, "1908": 0, "1909": 0, "1910": 0, "1934": 0, "1935": 0, "1936": 0, "1937": 0, "1938": 0, "1942": 0, "1943": 0, "1944": 0, "1945": 0, "1946": 0, "1967": 0, "1972": 1, "1975": 1, "1996": 1, "1973": 0, "1994": 0, "2018": 0, "2019": 0, "2059": 0, "2060": 0, "2061": 0, "2063": 0, "2064": 0, "2065": 0, "2066": 0, "2068": 0, "2070": 0, "2071": 0, "2072": 0, "2074": 0, "2075": 0, "2077": 0, "2168": 0, "2169": 0, "2170": 0, "2171": 0, "2172": 0, "2173": 0, "2174": 0, "2175": 0, "2177": 0, "2178": 0, "2180": 0, "2181": 0, "2182": 0, "2183": 0, "2186": 0, "2188": 0, "2189": 0, "2191": 0, "2193": 0, "2194": 0, "2195": 0, "2196": 0, "2199": 0, "2200": 0, "2201": 0, "2203": 0, "2204": 0, "2207": 0, "2208": 0, "2210": 0, "2212": 0, "2213": 0, "2214": 0, "2216": 0, "2218": 0, "2219": 0, "2224": 0, "2225": 0, "2227": 0, "2229": 0, "2230": 0, "2232": 0, "2234": 0, "2235": 0, "2236": 0, "2241": 0, "2242": 0, "2243": 0, "2244": 0, "2245": 0, "2247": 0, "2249": 0, "2250": 0, "2252": 0, "2233": 0}}
++ git checkout 9f0b959a8c9195d1b6e203f08b698e052b426ca9
+Note: switching to '9f0b959a8c9195d1b6e203f08b698e052b426ca9'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 9f0b959a8c DOC Formatting issue in calibration_curve
+M	sklearn/model_selection/_split.py
++ git apply /root/pre_state.patch
+error: unrecognized input

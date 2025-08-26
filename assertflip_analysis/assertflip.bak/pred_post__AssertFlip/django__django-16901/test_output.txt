@@ -1,0 +1,2075 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD ee36e101e8f8c0acde4bb148b738ab7034e902a0
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit ee36e101e8f8c0acde4bb148b738ab7034e902a0
+Author: Ran Benita <ran234@gmail.com>
+Date:   Fri May 3 13:34:05 2019 +0300
+
+    Optimized lazy() by removing use of @total_ordering.
+    
+    @total_ordering is slow. Using the following micro-benchmark
+    (resultclasses intentionally omitted to narrow the scope):
+    
+        import cProfile
+        from django.utils.functional import lazy
+        def identity(x): return x
+        cProfile.run("for i in range(10000): str(lazy(identity)(1))")
+    
+    Before:
+    
+        380003 function calls in 0.304 seconds
+    
+        ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+             1    0.016    0.016    0.304    0.304 <string>:1(<module>)
+         10000    0.002    0.000    0.002    0.000 bench.py:5(double)
+         10000    0.005    0.000    0.006    0.000 functional.py:100(__cast)
+         10000    0.007    0.000    0.013    0.000 functional.py:106(__str__)
+         10000    0.005    0.000    0.017    0.000 functional.py:140(__wrapper__)
+         10000    0.020    0.000    0.258    0.000 functional.py:60(lazy)
+         10000    0.039    0.000    0.039    0.000 functional.py:68(__proxy__)
+         10000    0.010    0.000    0.012    0.000 functional.py:77(__init__)
+         10000    0.002    0.000    0.002    0.000 functional.py:84(__prepare_class__)
+         10000    0.025    0.000    0.075    0.000 functools.py:186(total_ordering)
+         10000    0.015    0.000    0.028    0.000 functools.py:189(<setcomp>)
+         10000    0.024    0.000    0.044    0.000 functools.py:37(update_wrapper)
+         10000    0.005    0.000    0.005    0.000 functools.py:67(wraps)
+         10000    0.074    0.000    0.114    0.000 {built-in method builtins.__build_class__}
+             1    0.000    0.000    0.304    0.304 {built-in method builtins.exec}
+        150000    0.023    0.000    0.023    0.000 {built-in method builtins.getattr}
+         10000    0.004    0.000    0.004    0.000 {built-in method builtins.max}
+         80000    0.025    0.000    0.025    0.000 {built-in method builtins.setattr}
+             1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+         10000    0.003    0.000    0.003    0.000 {method 'update' of 'dict' objects}
+    
+    After:
+    
+        240003 function calls in 0.231 seconds
+    
+        ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+             1    0.016    0.016    0.231    0.231 <string>:1(<module>)
+         10000    0.002    0.000    0.002    0.000 bench.py:5(double)
+         10000    0.006    0.000    0.012    0.000 functional.py:105(__str__)
+         10000    0.005    0.000    0.017    0.000 functional.py:159(__wrapper__)
+         10000    0.015    0.000    0.186    0.000 functional.py:60(lazy)
+         10000    0.022    0.000    0.022    0.000 functional.py:68(__proxy__)
+         10000    0.010    0.000    0.012    0.000 functional.py:76(__init__)
+         10000    0.002    0.000    0.002    0.000 functional.py:83(__prepare_class__)
+         10000    0.004    0.000    0.006    0.000 functional.py:99(__cast)
+         10000    0.023    0.000    0.043    0.000 functools.py:37(update_wrapper)
+         10000    0.004    0.000    0.004    0.000 functools.py:67(wraps)
+         10000    0.102    0.000    0.124    0.000 {built-in method builtins.__build_class__}
+             1    0.000    0.000    0.231    0.231 {built-in method builtins.exec}
+         70000    0.011    0.000    0.011    0.000 {built-in method builtins.getattr}
+         50000    0.007    0.000    0.007    0.000 {built-in method builtins.setattr}
+             1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+         10000    0.003    0.000    0.003    0.000 {method 'update' of 'dict' objects}
+
+diff --git a/django/utils/functional.py b/django/utils/functional.py
+index 66d88d9b59..6ee630c021 100644
+--- a/django/utils/functional.py
++++ b/django/utils/functional.py
+@@ -1,7 +1,7 @@
+ import copy
+ import itertools
+ import operator
+-from functools import total_ordering, wraps
++from functools import wraps
+ 
+ 
+ class cached_property:
+@@ -82,7 +82,6 @@ def lazy(func, *resultclasses):
+     function is evaluated on every access.
+     """
+ 
+-    @total_ordering
+     class __proxy__(Promise):
+         """
+         Encapsulate a function call and act as a proxy for methods that are
+@@ -144,11 +143,31 @@ def lazy(func, *resultclasses):
+                 other = other.__cast()
+             return self.__cast() == other
+ 
++        def __ne__(self, other):
++            if isinstance(other, Promise):
++                other = other.__cast()
++            return self.__cast() != other
++
+         def __lt__(self, other):
+             if isinstance(other, Promise):
+                 other = other.__cast()
+             return self.__cast() < other
+ 
++        def __le__(self, other):
++            if isinstance(other, Promise):
++                other = other.__cast()
++            return self.__cast() <= other
++
++        def __gt__(self, other):
++            if isinstance(other, Promise):
++                other = other.__cast()
++            return self.__cast() > other
++
++        def __ge__(self, other):
++            if isinstance(other, Promise):
++                other = other.__cast()
++            return self.__cast() >= other
++
+         def __hash__(self):
+             return hash(self.__cast())
+ 
++ git diff ee36e101e8f8c0acde4bb148b738ab7034e902a0
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.6.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230608071750) (3.9.1)
+Requirement already satisfied: sqlparse>=0.3.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230608071750) (0.5.3)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-5.0.dev20230608071750-0.editable-py3-none-any.whl size=27520 sha256=aab3c9e851830db8ecbdbd656bc04653fb1102765db03919d4b28aa1e18c066e
+  Stored in directory: /tmp/pip-ephem-wheel-cache-4pjvip5d/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 5.0.dev20230608071750
+    Uninstalling Django-5.0.dev20230608071750:
+      Successfully uninstalled Django-5.0.dev20230608071750
+Successfully installed Django-5.0.dev20230608071750
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch django/db/models/sql/where.py...
+Applied patch django/db/models/sql/where.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-16901.py...
+Applied patch tests/test_coverup_django__django-16901.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/models/sql/where\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16901
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/models/sql/where\\.py)']
+0.30 where.py(1): """
+0.30 where.py(4): import operator
+0.30 where.py(5): from functools import reduce
+0.30 where.py(7): from django.core.exceptions import EmptyResultSet, FullResultSet
+0.30 where.py(8): from django.db.models.expressions import Case, When
+0.30 where.py(9): from django.db.models.functions import Mod
+0.30 where.py(10): from django.db.models.lookups import Exact
+0.30 where.py(11): from django.utils import tree
+0.30 where.py(12): from django.utils.functional import cached_property
+0.30 where.py(15): AND = "AND"
+0.30 where.py(16): OR = "OR"
+0.30 where.py(17): XOR = "XOR"
+0.30 where.py(20): class WhereNode(tree.Node):
+0.30 where.py(20): class WhereNode(tree.Node):
+0.30 where.py(21):     """
+0.30 where.py(35):     default = AND
+0.30 where.py(36):     resolved = False
+0.30 where.py(37):     conditional = True
+0.30 where.py(39):     def split_having_qualify(self, negated=False, must_group_by=False):
+0.30 where.py(115):     def as_sql(self, compiler, connection):
+0.30 where.py(189):     def get_group_by_cols(self):
+0.30 where.py(195):     def get_source_expressions(self):
+0.30 where.py(198):     def set_source_expressions(self, children):
+0.30 where.py(202):     def relabel_aliases(self, change_map):
+0.30 where.py(214):     def clone(self):
+0.30 where.py(222):     def relabeled_clone(self, change_map):
+0.30 where.py(227):     def replace_expressions(self, replacements):
+0.30 where.py(235):     def get_refs(self):
+0.30 where.py(241):     @classmethod
+0.30 where.py(242):     def _contains_aggregate(cls, obj):
+0.30 where.py(241):     @classmethod
+0.30 where.py(242):     def _contains_aggregate(cls, obj):
+0.30 where.py(247):     @cached_property
+0.30 where.py(248):     def contains_aggregate(self):
+0.30 where.py(247):     @cached_property
+0.30 where.py(248):     def contains_aggregate(self):
+0.30 where.py(251):     @classmethod
+0.30 where.py(252):     def _contains_over_clause(cls, obj):
+0.30 where.py(251):     @classmethod
+0.30 where.py(252):     def _contains_over_clause(cls, obj):
+0.30 where.py(257):     @cached_property
+0.30 where.py(258):     def contains_over_clause(self):
+0.30 where.py(257):     @cached_property
+0.30 where.py(258):     def contains_over_clause(self):
+0.30 where.py(261):     @property
+0.30 where.py(262):     def is_summary(self):
+0.30 where.py(261):     @property
+0.30 where.py(262):     def is_summary(self):
+0.30 where.py(265):     @staticmethod
+0.30 where.py(266):     def _resolve_leaf(expr, query, *args, **kwargs):
+0.30 where.py(265):     @staticmethod
+0.30 where.py(266):     def _resolve_leaf(expr, query, *args, **kwargs):
+0.30 where.py(271):     @classmethod
+0.30 where.py(272):     def _resolve_node(cls, node, query, *args, **kwargs):
+0.30 where.py(271):     @classmethod
+0.30 where.py(272):     def _resolve_node(cls, node, query, *args, **kwargs):
+0.30 where.py(281):     def resolve_expression(self, *args, **kwargs):
+0.30 where.py(287):     @cached_property
+0.30 where.py(288):     def output_field(self):
+0.30 where.py(287):     @cached_property
+0.30 where.py(288):     def output_field(self):
+0.30 where.py(293):     @property
+0.30 where.py(294):     def _output_field_or_none(self):
+0.30 where.py(293):     @property
+0.30 where.py(294):     def _output_field_or_none(self):
+0.30 where.py(297):     def select_format(self, compiler, sql, params):
+0.30 where.py(305):     def get_db_converters(self, connection):
+0.30 where.py(308):     def get_lookup(self, lookup):
+0.30 where.py(311):     def leaves(self):
+0.30 where.py(319): class NothingNode:
+0.30 where.py(319): class NothingNode:
+0.30 where.py(320):     """A node that matches nothing."""
+0.30 where.py(322):     contains_aggregate = False
+0.30 where.py(323):     contains_over_clause = False
+0.30 where.py(325):     def as_sql(self, compiler=None, connection=None):
+0.30 where.py(329): class ExtraWhere:
+0.30 where.py(329): class ExtraWhere:
+0.30 where.py(331):     contains_aggregate = False
+0.30 where.py(332):     contains_over_clause = False
+0.30 where.py(334):     def __init__(self, sqls, params):
+0.30 where.py(338):     def as_sql(self, compiler=None, connection=None):
+0.30 where.py(343): class SubqueryConstraint:
+0.30 where.py(343): class SubqueryConstraint:
+0.30 where.py(346):     contains_aggregate = False
+0.30 where.py(347):     contains_over_clause = False
+0.30 where.py(349):     def __init__(self, alias, columns, targets, query_object):
+0.30 where.py(356):     def as_sql(self, compiler, connection):
+Testing against Django installed in '/testbed/django'
+Found 1 test(s).
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial...0.66 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.66 where.py(216):         for child in self.children:
+0.66 where.py(220):         return clone
+ OK
+  Applying admin.0002_logentry_remove_auto_add...0.66 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.66 where.py(216):         for child in self.children:
+0.66 where.py(220):         return clone
+ OK
+  Applying admin.0003_logentry_add_action_flag_choices...0.67 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.67 where.py(216):         for child in self.children:
+0.67 where.py(220):         return clone
+ OK
+  Applying sites.0001_initial...0.67 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.67 where.py(216):         for child in self.children:
+0.67 where.py(220):         return clone
+ OK
+  Applying sites.0002_alter_domain_unique...0.67 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.67 where.py(216):         for child in self.children:
+0.67 where.py(220):         return clone
+ OK
+0.67 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.67 where.py(216):         for child in self.children:
+0.67 where.py(220):         return clone
+0.67 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.67 where.py(249):         return self._contains_aggregate(self)
+0.67 where.py(243):         if isinstance(obj, tree.Node):
+0.67 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.67 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.67 where.py(259):         return self._contains_over_clause(self)
+0.67 where.py(253):         if isinstance(obj, tree.Node):
+0.67 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.67 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.67 where.py(47):             return self, None, None
+0.67 where.py(122):         result = []
+0.67 where.py(123):         result_params = []
+0.67 where.py(124):         if self.connector == AND:
+0.67 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.67 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.67 where.py(148):         for child in self.children:
+0.67 where.py(176):         conn = " %s " % self.connector
+0.67 where.py(177):         sql_string = conn.join(result)
+0.67 where.py(178):         if not sql_string:
+0.67 where.py(179):             raise FullResultSet
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(186):             sql_string = "(%s)" % sql_string
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(186):             sql_string = "(%s)" % sql_string
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(186):             sql_string = "(%s)" % sql_string
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(217):             if hasattr(child, "clone"):
+0.68 where.py(219):             clone.children.append(child)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.68 where.py(249):         return self._contains_aggregate(self)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(243):         if isinstance(obj, tree.Node):
+0.68 where.py(245):         return obj.contains_aggregate
+0.68 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.68 where.py(259):         return self._contains_over_clause(self)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(253):         if isinstance(obj, tree.Node):
+0.68 where.py(255):         return obj.contains_over_clause
+0.68 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.68 where.py(47):             return self, None, None
+0.68 where.py(122):         result = []
+0.68 where.py(123):         result_params = []
+0.68 where.py(124):         if self.connector == AND:
+0.68 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.68 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(149):             try:
+0.68 where.py(150):                 sql, params = compiler.compile(child)
+0.68 where.py(156):                 if sql:
+0.68 where.py(157):                     result.append(sql)
+0.68 where.py(158):                     result_params.extend(params)
+0.68 where.py(166):             if empty_needed == 0:
+0.68 where.py(171):             if full_needed == 0:
+0.68 where.py(148):         for child in self.children:
+0.68 where.py(176):         conn = " %s " % self.connector
+0.68 where.py(177):         sql_string = conn.join(result)
+0.68 where.py(178):         if not sql_string:
+0.68 where.py(180):         if self.negated:
+0.68 where.py(185):         elif len(result) > 1 or self.resolved:
+0.68 where.py(186):             sql_string = "(%s)" % sql_string
+0.68 where.py(187):         return sql_string, result_params
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.68 where.py(220):         return clone
+0.68 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.68 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(186):             sql_string = "(%s)" % sql_string
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(179):             raise FullResultSet
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(186):             sql_string = "(%s)" % sql_string
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(217):             if hasattr(child, "clone"):
+0.69 where.py(219):             clone.children.append(child)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.69 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.69 where.py(249):         return self._contains_aggregate(self)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(243):         if isinstance(obj, tree.Node):
+0.69 where.py(245):         return obj.contains_aggregate
+0.69 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.69 where.py(259):         return self._contains_over_clause(self)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(253):         if isinstance(obj, tree.Node):
+0.69 where.py(255):         return obj.contains_over_clause
+0.69 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.69 where.py(47):             return self, None, None
+0.69 where.py(122):         result = []
+0.69 where.py(123):         result_params = []
+0.69 where.py(124):         if self.connector == AND:
+0.69 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.69 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(149):             try:
+0.69 where.py(150):                 sql, params = compiler.compile(child)
+0.69 where.py(156):                 if sql:
+0.69 where.py(157):                     result.append(sql)
+0.69 where.py(158):                     result_params.extend(params)
+0.69 where.py(166):             if empty_needed == 0:
+0.69 where.py(171):             if full_needed == 0:
+0.69 where.py(148):         for child in self.children:
+0.69 where.py(176):         conn = " %s " % self.connector
+0.69 where.py(177):         sql_string = conn.join(result)
+0.69 where.py(178):         if not sql_string:
+0.69 where.py(180):         if self.negated:
+0.69 where.py(185):         elif len(result) > 1 or self.resolved:
+0.69 where.py(187):         return sql_string, result_params
+0.69 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.69 where.py(216):         for child in self.children:
+0.69 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.70 where.py(249):         return self._contains_aggregate(self)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(245):         return obj.contains_aggregate
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(259):         return self._contains_over_clause(self)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(255):         return obj.contains_over_clause
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(47):             return self, None, None
+0.70 where.py(122):         result = []
+0.70 where.py(123):         result_params = []
+0.70 where.py(124):         if self.connector == AND:
+0.70 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.70 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(149):             try:
+0.70 where.py(150):                 sql, params = compiler.compile(child)
+0.70 where.py(156):                 if sql:
+0.70 where.py(157):                     result.append(sql)
+0.70 where.py(158):                     result_params.extend(params)
+0.70 where.py(166):             if empty_needed == 0:
+0.70 where.py(171):             if full_needed == 0:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(176):         conn = " %s " % self.connector
+0.70 where.py(177):         sql_string = conn.join(result)
+0.70 where.py(178):         if not sql_string:
+0.70 where.py(180):         if self.negated:
+0.70 where.py(185):         elif len(result) > 1 or self.resolved:
+0.70 where.py(187):         return sql_string, result_params
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.70 where.py(249):         return self._contains_aggregate(self)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(245):         return obj.contains_aggregate
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(259):         return self._contains_over_clause(self)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(255):         return obj.contains_over_clause
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(47):             return self, None, None
+0.70 where.py(122):         result = []
+0.70 where.py(123):         result_params = []
+0.70 where.py(124):         if self.connector == AND:
+0.70 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.70 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(149):             try:
+0.70 where.py(150):                 sql, params = compiler.compile(child)
+0.70 where.py(156):                 if sql:
+0.70 where.py(157):                     result.append(sql)
+0.70 where.py(158):                     result_params.extend(params)
+0.70 where.py(166):             if empty_needed == 0:
+0.70 where.py(171):             if full_needed == 0:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(176):         conn = " %s " % self.connector
+0.70 where.py(177):         sql_string = conn.join(result)
+0.70 where.py(178):         if not sql_string:
+0.70 where.py(180):         if self.negated:
+0.70 where.py(185):         elif len(result) > 1 or self.resolved:
+0.70 where.py(187):         return sql_string, result_params
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(217):             if hasattr(child, "clone"):
+0.70 where.py(219):             clone.children.append(child)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(217):             if hasattr(child, "clone"):
+0.70 where.py(219):             clone.children.append(child)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.70 where.py(249):         return self._contains_aggregate(self)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(245):         return obj.contains_aggregate
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(245):         return obj.contains_aggregate
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(259):         return self._contains_over_clause(self)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(255):         return obj.contains_over_clause
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(255):         return obj.contains_over_clause
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(47):             return self, None, None
+0.70 where.py(122):         result = []
+0.70 where.py(123):         result_params = []
+0.70 where.py(124):         if self.connector == AND:
+0.70 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.70 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(149):             try:
+0.70 where.py(150):                 sql, params = compiler.compile(child)
+0.70 where.py(156):                 if sql:
+0.70 where.py(157):                     result.append(sql)
+0.70 where.py(158):                     result_params.extend(params)
+0.70 where.py(166):             if empty_needed == 0:
+0.70 where.py(171):             if full_needed == 0:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(149):             try:
+0.70 where.py(150):                 sql, params = compiler.compile(child)
+0.70 where.py(156):                 if sql:
+0.70 where.py(157):                     result.append(sql)
+0.70 where.py(158):                     result_params.extend(params)
+0.70 where.py(166):             if empty_needed == 0:
+0.70 where.py(171):             if full_needed == 0:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(176):         conn = " %s " % self.connector
+0.70 where.py(177):         sql_string = conn.join(result)
+0.70 where.py(178):         if not sql_string:
+0.70 where.py(180):         if self.negated:
+0.70 where.py(185):         elif len(result) > 1 or self.resolved:
+0.70 where.py(186):             sql_string = "(%s)" % sql_string
+0.70 where.py(187):         return sql_string, result_params
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(217):             if hasattr(child, "clone"):
+0.70 where.py(219):             clone.children.append(child)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+0.70 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.70 where.py(249):         return self._contains_aggregate(self)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(243):         if isinstance(obj, tree.Node):
+0.70 where.py(245):         return obj.contains_aggregate
+0.70 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.70 where.py(259):         return self._contains_over_clause(self)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(253):         if isinstance(obj, tree.Node):
+0.70 where.py(255):         return obj.contains_over_clause
+0.70 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.70 where.py(47):             return self, None, None
+0.70 where.py(122):         result = []
+0.70 where.py(123):         result_params = []
+0.70 where.py(124):         if self.connector == AND:
+0.70 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.70 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(149):             try:
+0.70 where.py(150):                 sql, params = compiler.compile(child)
+0.70 where.py(156):                 if sql:
+0.70 where.py(157):                     result.append(sql)
+0.70 where.py(158):                     result_params.extend(params)
+0.70 where.py(166):             if empty_needed == 0:
+0.70 where.py(171):             if full_needed == 0:
+0.70 where.py(148):         for child in self.children:
+0.70 where.py(176):         conn = " %s " % self.connector
+0.70 where.py(177):         sql_string = conn.join(result)
+0.70 where.py(178):         if not sql_string:
+0.70 where.py(180):         if self.negated:
+0.70 where.py(185):         elif len(result) > 1 or self.resolved:
+0.70 where.py(187):         return sql_string, result_params
+0.70 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.70 where.py(216):         for child in self.children:
+0.70 where.py(220):         return clone
+System check identified no issues (0 silenced).
+test_xor_logic_with_multiple_arguments (test_coverup_django__django-16901.TestXORLogic.test_xor_logic_with_multiple_arguments) ... 0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(217):             if hasattr(child, "clone"):
+0.74 where.py(218):                 child = child.clone()
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(217):             if hasattr(child, "clone"):
+0.74 where.py(219):             clone.children.append(child)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(217):             if hasattr(child, "clone"):
+0.74 where.py(219):             clone.children.append(child)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(217):             if hasattr(child, "clone"):
+0.74 where.py(219):             clone.children.append(child)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(219):             clone.children.append(child)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.74 where.py(249):         return self._contains_aggregate(self)
+0.74 where.py(243):         if isinstance(obj, tree.Node):
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(243):         if isinstance(obj, tree.Node):
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(243):         if isinstance(obj, tree.Node):
+0.74 where.py(245):         return obj.contains_aggregate
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(243):         if isinstance(obj, tree.Node):
+0.74 where.py(245):         return obj.contains_aggregate
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(243):         if isinstance(obj, tree.Node):
+0.74 where.py(245):         return obj.contains_aggregate
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(244):             return any(cls._contains_aggregate(c) for c in obj.children)
+0.74 where.py(259):         return self._contains_over_clause(self)
+0.74 where.py(253):         if isinstance(obj, tree.Node):
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(253):         if isinstance(obj, tree.Node):
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(253):         if isinstance(obj, tree.Node):
+0.74 where.py(255):         return obj.contains_over_clause
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(253):         if isinstance(obj, tree.Node):
+0.74 where.py(255):         return obj.contains_over_clause
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(253):         if isinstance(obj, tree.Node):
+0.74 where.py(255):         return obj.contains_over_clause
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(254):             return any(cls._contains_over_clause(c) for c in obj.children)
+0.74 where.py(47):             return self, None, None
+0.74 where.py(46):         if not self.contains_aggregate and not self.contains_over_clause:
+0.74 where.py(47):             return self, None, None
+0.74 where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(127):             full_needed, empty_needed = 1, len(self.children)
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(136):             lhs = self.__class__(self.children, OR)
+0.74 where.py(137):             rhs_sum = reduce(
+0.74 where.py(138):                 operator.add,
+0.74 where.py(139):                 (Case(When(c, then=1), default=0) for c in self.children),
+0.74 where.py(137):             rhs_sum = reduce(
+0.74 where.py(139):                 (Case(When(c, then=1), default=0) for c in self.children),
+0.74 where.py(139):                 (Case(When(c, then=1), default=0) for c in self.children),
+0.74 where.py(139):                 (Case(When(c, then=1), default=0) for c in self.children),
+0.74 where.py(139):                 (Case(When(c, then=1), default=0) for c in self.children),
+0.74 where.py(141):             if len(self.children) > 2:
+0.74 where.py(142):                 rhs_sum = Mod(rhs_sum, 2)
+0.74 where.py(143):             rhs = Exact(1, rhs_sum)
+0.74 where.py(144):             return self.__class__([lhs, rhs], AND, self.negated).as_sql(
+0.74 where.py(145):                 compiler, connection
+0.74 where.py(144):             return self.__class__([lhs, rhs], AND, self.negated).as_sql(
+0.74 where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(127):             full_needed, empty_needed = 1, len(self.children)
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(176):         conn = " %s " % self.connector
+0.74 where.py(177):         sql_string = conn.join(result)
+0.74 where.py(178):         if not sql_string:
+0.74 where.py(180):         if self.negated:
+0.74 where.py(185):         elif len(result) > 1 or self.resolved:
+0.74 where.py(186):             sql_string = "(%s)" % sql_string
+0.74 where.py(187):         return sql_string, result_params
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(176):         conn = " %s " % self.connector
+0.74 where.py(177):         sql_string = conn.join(result)
+0.74 where.py(178):         if not sql_string:
+0.74 where.py(180):         if self.negated:
+0.74 where.py(185):         elif len(result) > 1 or self.resolved:
+0.74 where.py(186):             sql_string = "(%s)" % sql_string
+0.74 where.py(187):         return sql_string, result_params
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(176):         conn = " %s " % self.connector
+0.74 where.py(177):         sql_string = conn.join(result)
+0.74 where.py(178):         if not sql_string:
+0.74 where.py(180):         if self.negated:
+0.74 where.py(185):         elif len(result) > 1 or self.resolved:
+0.74 where.py(187):         return sql_string, result_params
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(217):             if hasattr(child, "clone"):
+0.74 where.py(219):             clone.children.append(child)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(176):         conn = " %s " % self.connector
+0.74 where.py(177):         sql_string = conn.join(result)
+0.74 where.py(178):         if not sql_string:
+0.74 where.py(180):         if self.negated:
+0.74 where.py(185):         elif len(result) > 1 or self.resolved:
+0.74 where.py(187):         return sql_string, result_params
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(217):             if hasattr(child, "clone"):
+0.74 where.py(219):             clone.children.append(child)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(176):         conn = " %s " % self.connector
+0.74 where.py(177):         sql_string = conn.join(result)
+0.74 where.py(178):         if not sql_string:
+0.74 where.py(180):         if self.negated:
+0.74 where.py(185):         elif len(result) > 1 or self.resolved:
+0.74 where.py(187):         return sql_string, result_params
+0.74 where.py(215):         clone = self.create(connector=self.connector, negated=self.negated)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(217):             if hasattr(child, "clone"):
+0.74 where.py(219):             clone.children.append(child)
+0.74 where.py(216):         for child in self.children:
+0.74 where.py(220):         return clone
+0.74 where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(176):         conn = " %s " % self.connector
+0.74 where.py(177):         sql_string = conn.join(result)
+0.74 where.py(178):         if not sql_string:
+0.74 where.py(180):         if self.negated:
+0.74 where.py(185):         elif len(result) > 1 or self.resolved:
+0.74 where.py(187):         return sql_string, result_params
+0.74ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+ where.py(122):         result = []
+0.74 where.py(123):         result_params = []
+0.74 where.py(124):         if self.connector == AND:
+0.74 where.py(125):             full_needed, empty_needed = len(self.children), 1
+0.74 where.py(129):         if self.connector == XOR and not connection.features.supports_logical_xor:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(149):             try:
+0.74 where.py(150):                 sql, params = compiler.compile(child)
+0.74 where.py(156):                 if sql:
+0.74 where.py(157):                     result.append(sql)
+0.74 where.py(158):                     result_params.extend(params)
+0.74 where.py(166):             if empty_needed == 0:
+0.74 where.py(171):             if full_needed == 0:
+0.74 where.py(148):         for child in self.children:
+0.74 where.py(176):         conn = " %s " % self.connector
+0.74 where.py(177):         sql_string = conn.join(result)
+0.74 where.py(178):         if not sql_string:
+0.74 where.py(180):         if self.negated:
+0.74 where.py(185):         elif len(result) > 1 or self.resolved:
+0.74 where.py(187):         return sql_string, result_params
++ cat coverage.cover
+{"/testbed/django/db/models/sql/where.py": {"0": 0, "4": 1, "5": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 1, "16": 1, "17": 1, "20": 2, "319": 2, "329": 2, "343": 2, "35": 1, "36": 1, "37": 1, "39": 1, "115": 1, "189": 1, "195": 1, "198": 1, "202": 1, "214": 1, "222": 1, "227": 1, "235": 1, "241": 2, "242": 2, "247": 2, "248": 2, "251": 2, "252": 2, "257": 2, "258": 2, "261": 2, "262": 2, "265": 2, "266": 2, "271": 2, "272": 2, "281": 1, "287": 2, "288": 2, "293": 2, "294": 2, "297": 1, "305": 1, "308": 1, "311": 1, "46": 26, "47": 26, "48": 0, "52": 0, "53": 0, "54": 0, "51": 0, "57": 0, "56": 0, "58": 0, "59": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0, "70": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0, "80": 0, "81": 0, "83": 0, "84": 0, "87": 0, "88": 0, "89": 0, "94": 0, "95": 0, "100": 0, "99": 0, "101": 0, "98": 0, "105": 0, "104": 0, "106": 0, "103": 0, "110": 0, "109": 0, "111": 0, "108": 0, "113": 0, "122": 33, "123": 33, "124": 33, "125": 31, "127": 2, "129": 33, "136": 1, "137": 2, "138": 1, "139": 5, "141": 1, "142": 1, "143": 1, "144": 2, "145": 1, "148": 72, "149": 40, "150": 40, "156": 40, "157": 40, "158": 40, "160": 0, "151": 0, "152": 0, "153": 0, "154": 0, "166": 40, "167": 0, "168": 0, "170": 0, "171": 40, "172": 0, "173": 0, "175": 0, "176": 32, "177": 32, "178": 32, "179": 2, "180": 30, "184": 0, "185": 30, "186": 9, "187": 30, "190": 0, "191": 0, "192": 0, "193": 0, "196": 0, "199": 0, "200": 0, "207": 0, "208": 0, "210": 0, "211": 0, "212": 0, "215": 87, "216": 114, "217": 27, "218": 1, "219": 27, "220": 87, "223": 0, "224": 0, "225": 0, "228": 0, "229": 0, "230": 0, "231": 0, "232": 0, "233": 0, "236": 0, "237": 0, "238": 0, "239": 0, "243": 58, "244": 85, "245": 32, "249": 25, "253": 58, "254": 85, "255": 32, "259": 25, "263": 0, "267": 0, "268": 0, "269": 0, "273": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "279": 0, "282": 0, "283": 0, "284": 0, "285": 0, "289": 0, "291": 0, "295": 0, "301": 0, "302": 0, "303": 0, "306": 0, "309": 0, "312": 0, "313": 0, "314": 0, "316": 0, "322": 1, "323": 1, "325": 1, "326": 0, "331": 1, "332": 1, "334": 1, "338": 1, "335": 0, "336": 0, "339": 0, "340": 0, "346": 1, "347": 1, "349": 1, "356": 1, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "357": 0, "358": 0, "359": 0, "360": 0}}
++ git checkout ee36e101e8f8c0acde4bb148b738ab7034e902a0
+Note: switching to 'ee36e101e8f8c0acde4bb148b738ab7034e902a0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at ee36e101e8 Optimized lazy() by removing use of @total_ordering.
+M	django/db/models/sql/where.py
++ git apply /root/pre_state.patch
+error: unrecognized input

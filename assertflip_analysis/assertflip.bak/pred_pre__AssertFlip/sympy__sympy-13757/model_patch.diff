@@ -1,0 +1,15 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-13757.py
+new file mode 100644
+index e69de29..d8974f0 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-13757.py
+@@ -0,0 +1,9 @@
++from sympy import symbols, Poly
++
++x = symbols('x')
++
++def test_multiply_expression_by_poly():
++    # Multiplying a symbolic expression by a Poly with the expression on the left
++    result = x * Poly(x)
++    # Correct behavior should be a Poly object representing x**2
++    assert str(result) == "Poly(x**2, x, domain='ZZ')"

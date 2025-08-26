@@ -1,0 +1,1193 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD d49a6f13af2f22228d430ac64ac2b518937800d0
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit d49a6f13af2f22228d430ac64ac2b518937800d0
+Author: Hanmin Qin <qinhanmin2005@sina.com>
+Date:   Sun Jul 28 21:57:51 2019 +0800
+
+    DOC what's new clean up for 0.21.3
+
+diff --git a/doc/whats_new/v0.21.rst b/doc/whats_new/v0.21.rst
+index 7e2d5d7453..05a88a4fc1 100644
+--- a/doc/whats_new/v0.21.rst
++++ b/doc/whats_new/v0.21.rst
+@@ -31,14 +31,16 @@ Changelog
+ 
+ - |Fix| Fixed a bug in :class:`cluster.KMeans` where computation was single
+   threaded when `n_jobs > 1` or `n_jobs = -1`.
+-  :issue:`12949` by :user:`Prabakaran Kumaresshan <nixphix>`.
++  :pr:`12955` by :user:`Prabakaran Kumaresshan <nixphix>`.
+ 
+-:mod:`sklearn.inspection`
++:mod:`sklearn.compose`
+ .....................
+ 
+-- |Fix| Fixed a bug in :func:`inspection.plot_partial_dependence` where 
+-  ``target`` parameter was not being taken into account for multiclass problems.
+-  :pr:`14393` by :user:`Guillem G. Subies <guillemgsubies>`.
++- |Fix| Fixed an issue in :class:`compose.ColumnTransformer` where using
++  DataFrames whose column order differs between :func:``fit`` and
++  :func:``transform`` could lead to silently passing incorrect columns to the
++  ``remainder`` transformer.
++  :pr:`14237` by `Andreas Schuderer <schuderer>`.
+ 
+ :mod:`sklearn.datasets`
+ .......................
+@@ -59,23 +61,26 @@ Changelog
+   :class:`impute.IterativeImputer` so that no errors are thrown when there are
+   missing values in training data. :pr:`13974` by `Frank Hoang <fhoang7>`.
+ 
++:mod:`sklearn.inspection`
++.....................
++
++- |Fix| Fixed a bug in :func:`inspection.plot_partial_dependence` where 
++  ``target`` parameter was not being taken into account for multiclass problems.
++  :pr:`14393` by :user:`Guillem G. Subies <guillemgsubies>`.
++
+ :mod:`sklearn.linear_model`
+ ...........................
++
+ - |Fix| Fixed a bug in :class:`linear_model.LogisticRegressionCV` where
+   ``refit=False`` would fail depending on the ``'multiclass'`` and
+   ``'penalty'`` parameters (regression introduced in 0.21). :pr:`14087` by
+   `Nicolas Hug`_.
++
+ - |Fix| Compatibility fix for :class:`linear_model.ARDRegression` and
+   Scipy>=1.3.0. Adapts to upstream changes to the default `pinvh` cutoff
+   threshold which otherwise results in poor accuracy in some cases.
+   :pr:`14067` by :user:`Tim Staley <timstaley>`.
+ 
+-:mod:`sklearn.tree`
+-...................
+-
+-- |Fix| Fixed bug in :func:`tree.export_text` when the tree has one feature and 
+-  a single feature name is passed in. :pr:`14053` by `Thomas Fan`
+-
+ :mod:`sklearn.neighbors`
+ ........................
+ 
+@@ -84,14 +89,11 @@ Changelog
+   ``tol`` required too strict types. :pr:`14092` by
+   :user:`Jérémie du Boisberranger <jeremiedbb>`.
+ 
+-:mod:`sklearn.compose`
+-.....................
++:mod:`sklearn.tree`
++...................
+ 
+-- |Fix| Fixed an issue in :class:`compose.ColumnTransformer` where using
+-  DataFrames whose column order differs between :func:``fit`` and
+-  :func:``transform`` could lead to silently passing incorrect columns to the
+-  ``remainder`` transformer.
+-  :pr:`14237` by `Andreas Schuderer <schuderer>`.
++- |Fix| Fixed bug in :func:`tree.export_text` when the tree has one feature and 
++  a single feature name is passed in. :pr:`14053` by `Thomas Fan`.
+ 
+ .. _changes_0_21_2:
+ 
++ git diff d49a6f13af2f22228d430ac64ac2b518937800d0
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file '/tmp/pip-pip-egg-info-f_hscw_v/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.11.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.17.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.5.2)
+Requirement already satisfied: joblib>=0.11 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.1.1)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.22.dev0
+    Uninstalling scikit-learn-0.22.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.22.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    compile options: '-c'
+    extra options: '-fopenmp'
+    gcc: test_openmp.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ objects/test_openmp.o -o test_openmp -fopenmp
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.preprocessing._csr_polynomial_expansion" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._gradient_boosting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.histogram" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.splitting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._binning" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._predictor" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._loss" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.types" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.utils" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils._cython_blas" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn._isotonic" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.22.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+Successfully installed scikit-learn-0.22.dev0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch sklearn/cluster/optics_.py...
+Applied patch sklearn/cluster/optics_.py cleanly.
++ git apply -v -
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-14496.py...
+<stdin>:23: new blank line at EOF.
++
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-14496.py cleanly.
+warning: 1 line adds whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/cluster/optics_\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-14496.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/cluster/optics_\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-14496.py F         [100%]
+
+=================================== FAILURES ===================================
+______________________ test_optics_min_samples_float_bug _______________________
+
+    def test_optics_min_samples_float_bug():
+        # Create a mock dataset
+        data = np.random.rand(10, 2)  # 10 samples, 2 features
+    
+        # Instantiate OPTICS with min_samples as a float less than 1
+        clust = OPTICS(min_samples=0.1)
+    
+        # Call fit to trigger the internal computation
+        clust.fit(data)
+    
+        # Check if min_samples is correctly converted to an integer after internal computation
+>       assert isinstance(clust.min_samples, int), "min_samples should be an integer after computation"
+E       AssertionError: min_samples should be an integer after computation
+E       assert False
+E        +  where False = isinstance(0.1, int)
+E        +    where 0.1 = OPTICS(algorithm='auto', cluster_method='xi', eps=None, leaf_size=30,\n       max_eps=inf, metric='minkowski', metric_params=None,\n       min_cluster_size=None, min_samples=0.1, n_jobs=None, p=2,\n       predecessor_correction=True, xi=0.05).min_samples
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-14496.py:16: AssertionError
+----------------------------- Captured stdout call -----------------------------
+1.05 optics_.py(201):         self.max_eps = max_eps
+1.05 optics_.py(202):         self.min_samples = min_samples
+1.05 optics_.py(203):         self.min_cluster_size = min_cluster_size
+1.05 optics_.py(204):         self.algorithm = algorithm
+1.05 optics_.py(205):         self.metric = metric
+1.05 optics_.py(206):         self.metric_params = metric_params
+1.05 optics_.py(207):         self.p = p
+1.05 optics_.py(208):         self.leaf_size = leaf_size
+1.05 optics_.py(209):         self.cluster_method = cluster_method
+1.05 optics_.py(210):         self.eps = eps
+1.05 optics_.py(211):         self.xi = xi
+1.05 optics_.py(212):         self.predecessor_correction = predecessor_correction
+1.05 optics_.py(213):         self.n_jobs = n_jobs
+1.05 optics_.py(236):         X = check_array(X, dtype=np.float)
+1.05 optics_.py(238):         if self.cluster_method not in ['dbscan', 'xi']:
+1.05 optics_.py(244):          self.predecessor_) = compute_optics_graph(
+1.05 optics_.py(245):              X=X, min_samples=self.min_samples, algorithm=self.algorithm,
+1.05 optics_.py(246):              leaf_size=self.leaf_size, metric=self.metric,
+1.05 optics_.py(247):              metric_params=self.metric_params, p=self.p, n_jobs=self.n_jobs,
+1.05 optics_.py(248):              max_eps=self.max_eps)
+1.05 optics_.py(437):     n_samples = X.shape[0]
+1.05 optics_.py(438):     _validate_size(min_samples, n_samples, 'min_samples')
+1.05 optics_.py(281):     if size <= 0 or (size !=
+1.05 optics_.py(282):                      int(size)
+1.05 optics_.py(283):                      and size > 1):
+1.05 optics_.py(287):     elif size > n_samples:
+1.05 optics_.py(439):     if min_samples <= 1:
+1.05 optics_.py(440):         min_samples = max(2, int(min_samples * n_samples))
+1.05 optics_.py(443):     reachability_ = np.empty(n_samples)
+1.05 optics_.py(444):     reachability_.fill(np.inf)
+1.05 optics_.py(445):     predecessor_ = np.empty(n_samples, dtype=int)
+1.05 optics_.py(446):     predecessor_.fill(-1)
+1.05 optics_.py(448):     nbrs = NearestNeighbors(n_neighbors=min_samples,
+1.05 optics_.py(449):                             algorithm=algorithm,
+1.05 optics_.py(450):                             leaf_size=leaf_size,
+1.05 optics_.py(451):                             metric=metric,
+1.05 optics_.py(452):                             metric_params=metric_params,
+1.05 optics_.py(453):                             p=p,
+1.05 optics_.py(454):                             n_jobs=n_jobs)
+1.05 optics_.py(456):     nbrs.fit(X)
+1.05 optics_.py(460):     core_distances_ = _compute_core_distances_(X=X, neighbors=nbrs,
+1.05 optics_.py(461):                                                min_samples=min_samples,
+1.05 optics_.py(462):                                                working_memory=None)
+1.05 optics_.py(317):     n_samples = X.shape[0]
+1.05 optics_.py(318):     core_distances = np.empty(n_samples)
+1.05 optics_.py(319):     core_distances.fill(np.nan)
+1.05 optics_.py(321):     chunk_n_rows = get_chunk_n_rows(row_bytes=16 * min_samples,
+1.05 optics_.py(322):                                     max_n_rows=n_samples,
+1.05 optics_.py(323):                                     working_memory=working_memory)
+1.05 optics_.py(324):     slices = gen_batches(n_samples, chunk_n_rows)
+1.05 optics_.py(325):     for sl in slices:
+1.05 optics_.py(326):         core_distances[sl] = neighbors.kneighbors(
+1.05 optics_.py(327):             X[sl], min_samples)[0][:, -1]
+1.05 optics_.py(325):     for sl in slices:
+1.05 optics_.py(328):     return core_distances
+1.05 optics_.py(464):     core_distances_[core_distances_ > max_eps] = np.inf
+1.05 optics_.py(470):     processed = np.zeros(X.shape[0], dtype=bool)
+1.05 optics_.py(471):     ordering = np.zeros(X.shape[0], dtype=int)
+1.05 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.05 optics_.py(475):         index = np.where(processed == 0)[0]
+1.05 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.05 optics_.py(478):         processed[point] = True
+1.05 optics_.py(479):         ordering[ordering_idx] = point
+1.05 optics_.py(480):         if core_distances_[point] != np.inf:
+1.05 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.05 optics_.py(482):                             reachability_=reachability_,
+1.05 optics_.py(483):                             predecessor_=predecessor_,
+1.05 optics_.py(484):                             point_index=point,
+1.05 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.05 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.05 optics_.py(487):                             p=p, max_eps=max_eps)
+1.05 optics_.py(498):     P = X[point_index:point_index + 1]
+1.05 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.05 optics_.py(503):                                     return_distance=False)[0]
+1.05 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.05 optics_.py(508):     if not unproc.size:
+1.05 optics_.py(512):     if metric == 'precomputed':
+1.05 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.05 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.05 optics_.py(519):             _params['p'] = p
+1.05 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.05 optics_.py(521):                                    metric, n_jobs=None,
+1.05 optics_.py(522):                                    **_params).ravel()
+1.05 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.05 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.05 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.05 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.05 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.05 optics_.py(475):         index = np.where(processed == 0)[0]
+1.05 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.05 optics_.py(478):         processed[point] = True
+1.05 optics_.py(479):         ordering[ordering_idx] = point
+1.05 optics_.py(480):         if core_distances_[point] != np.inf:
+1.05 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.05 optics_.py(482):                             reachability_=reachability_,
+1.05 optics_.py(483):                             predecessor_=predecessor_,
+1.05 optics_.py(484):                             point_index=point,
+1.05 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.05 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.05 optics_.py(487):                             p=p, max_eps=max_eps)
+1.05 optics_.py(498):     P = X[point_index:point_index + 1]
+1.05 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.05 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(512):     if metric == 'precomputed':
+1.06 optics_.py(515):         _params = dict() if metric_params is None else metric_params.copy()
+1.06 optics_.py(516):         if metric == 'minkowski' and 'p' not in _params:
+1.06 optics_.py(519):             _params['p'] = p
+1.06 optics_.py(520):         dists = pairwise_distances(P, np.take(X, unproc, axis=0),
+1.06 optics_.py(521):                                    metric, n_jobs=None,
+1.06 optics_.py(522):                                    **_params).ravel()
+1.06 optics_.py(524):     rdists = np.maximum(dists, core_distances_[point_index])
+1.06 optics_.py(525):     improved = np.where(rdists < np.take(reachability_, unproc))
+1.06 optics_.py(526):     reachability_[unproc[improved]] = rdists[improved]
+1.06 optics_.py(527):     predecessor_[unproc[improved]] = point_index
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(475):         index = np.where(processed == 0)[0]
+1.06 optics_.py(476):         point = index[np.argmin(reachability_[index])]
+1.06 optics_.py(478):         processed[point] = True
+1.06 optics_.py(479):         ordering[ordering_idx] = point
+1.06 optics_.py(480):         if core_distances_[point] != np.inf:
+1.06 optics_.py(481):             _set_reach_dist(core_distances_=core_distances_,
+1.06 optics_.py(482):                             reachability_=reachability_,
+1.06 optics_.py(483):                             predecessor_=predecessor_,
+1.06 optics_.py(484):                             point_index=point,
+1.06 optics_.py(485):                             processed=processed, X=X, nbrs=nbrs,
+1.06 optics_.py(486):                             metric=metric, metric_params=metric_params,
+1.06 optics_.py(487):                             p=p, max_eps=max_eps)
+1.06 optics_.py(498):     P = X[point_index:point_index + 1]
+1.06 optics_.py(502):     indices = nbrs.radius_neighbors(P, radius=max_eps,
+1.06 optics_.py(503):                                     return_distance=False)[0]
+1.06 optics_.py(506):     unproc = np.compress(~np.take(processed, indices), indices)
+1.06 optics_.py(508):     if not unproc.size:
+1.06 optics_.py(509):         return
+1.06 optics_.py(472):     for ordering_idx in range(X.shape[0]):
+1.06 optics_.py(488):     if np.all(np.isinf(reachability_)):
+1.06 optics_.py(492):     return ordering, core_distances_, reachability_, predecessor_
+1.06 optics_.py(251):         if self.cluster_method == 'xi':
+1.06 optics_.py(252):             labels_, clusters_ = cluster_optics_xi(
+1.06 optics_.py(253):                 self.reachability_,
+1.06 optics_.py(254):                 self.predecessor_,
+1.06 optics_.py(255):                 self.ordering_,
+1.06 optics_.py(256):                 self.min_samples,
+1.06 optics_.py(257):                 self.min_cluster_size,
+1.06 optics_.py(258):                 self.xi,
+1.06 optics_.py(259):                 self.predecessor_correction)
+1.06 optics_.py(619):     n_samples = len(reachability)
+1.06 optics_.py(620):     _validate_size(min_samples, n_samples, 'min_samples')
+1.06 optics_.py(281):     if size <= 0 or (size !=
+1.06 optics_.py(282):                      int(size)
+1.06 optics_.py(283):                      and size > 1):
+1.06 optics_.py(287):     elif size > n_samples:
+1.06 optics_.py(621):     if min_samples <= 1:
+1.06 optics_.py(622):         min_samples = max(2, int(min_samples * n_samples))
+1.06 optics_.py(623):     if min_cluster_size is None:
+1.06 optics_.py(624):         min_cluster_size = min_samples
+1.06 optics_.py(625):     _validate_size(min_cluster_size, n_samples, 'min_cluster_size')
+1.06 optics_.py(281):     if size <= 0 or (size !=
+1.06 optics_.py(282):                      int(size)
+1.06 optics_.py(287):     elif size > n_samples:
+1.07 optics_.py(626):     if min_cluster_size <= 1:
+1.07 optics_.py(629):     clusters = _xi_cluster(reachability[ordering], predecessor[ordering],
+1.07 optics_.py(630):                            ordering, xi,
+1.07 optics_.py(631):                            min_samples, min_cluster_size,
+1.07 optics_.py(632):                            predecessor_correction)
+1.07 optics_.py(778):     reachability_plot = np.hstack((reachability_plot, np.inf))
+1.07 optics_.py(780):     xi_complement = 1 - xi
+1.07 optics_.py(781):     sdas = []  # steep down areas, introduced in section 4.3.2 of the paper
+1.07 optics_.py(782):     clusters = []
+1.07 optics_.py(783):     index = 0
+1.07 optics_.py(784):     mib = 0.  # maximum in between, section 4.3.2
+1.07 optics_.py(790):     with np.errstate(invalid='ignore'):
+1.07 optics_.py(791):         ratio = reachability_plot[:-1] / reachability_plot[1:]
+1.07 optics_.py(792):         steep_upward = ratio <= xi_complement
+1.07 optics_.py(793):         steep_downward = ratio >= 1 / xi_complement
+1.07 optics_.py(794):         downward = ratio > 1
+1.07 optics_.py(795):         upward = ratio < 1
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(805):         mib = max(mib, np.max(reachability_plot[index:steep_index + 1]))
+1.07 optics_.py(808):         if steep_downward[steep_index]:
+1.07 optics_.py(809):             sdas = _update_filter_sdas(sdas, mib, xi_complement,
+1.07 optics_.py(810):                                        reachability_plot)
+1.07 optics_.py(704):     if np.isinf(mib):
+1.07 optics_.py(705):         return []
+1.07 optics_.py(811):             D_start = steep_index
+1.07 optics_.py(812):             D_end = _extend_region(steep_downward, upward,
+1.07 optics_.py(813):                                    D_start, min_samples)
+1.07 optics_.py(678):     n_samples = len(steep_point)
+1.07 optics_.py(679):     non_xward_points = 0
+1.07 optics_.py(680):     index = start
+1.07 optics_.py(681):     end = start
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(687):         elif not xward_point[index]:
+1.07 optics_.py(695):             return end
+1.07 optics_.py(814):             D = {'start': D_start, 'end': D_end, 'mib': 0.}
+1.07 optics_.py(815):             sdas.append(D)
+1.07 optics_.py(816):             index = D_end + 1
+1.07 optics_.py(817):             mib = reachability_plot[index]
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(805):         mib = max(mib, np.max(reachability_plot[index:steep_index + 1]))
+1.07 optics_.py(808):         if steep_downward[steep_index]:
+1.07 optics_.py(821):             sdas = _update_filter_sdas(sdas, mib, xi_complement,
+1.07 optics_.py(822):                                        reachability_plot)
+1.07 optics_.py(704):     if np.isinf(mib):
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(707):            if mib <= reachability_plot[sda['start']] * xi_complement]
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(708):     for sda in res:
+1.07 optics_.py(709):         sda['mib'] = max(sda['mib'], mib)
+1.07 optics_.py(708):     for sda in res:
+1.07 optics_.py(710):     return res
+1.07 optics_.py(823):             U_start = steep_index
+1.07 optics_.py(824):             U_end = _extend_region(steep_upward, downward, U_start,
+1.07 optics_.py(825):                                    min_samples)
+1.07 optics_.py(678):     n_samples = len(steep_point)
+1.07 optics_.py(679):     non_xward_points = 0
+1.07 optics_.py(680):     index = start
+1.07 optics_.py(681):     end = start
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(687):         elif not xward_point[index]:
+1.07 optics_.py(695):             return end
+1.07 optics_.py(826):             index = U_end + 1
+1.07 optics_.py(827):             mib = reachability_plot[index]
+1.07 optics_.py(829):             U_clusters = []
+1.07 optics_.py(830):             for D in sdas:
+1.07 optics_.py(831):                 c_start = D['start']
+1.07 optics_.py(832):                 c_end = U_end
+1.07 optics_.py(835):                 if reachability_plot[c_end + 1] * xi_complement < D['mib']:
+1.07 optics_.py(839):                 D_max = reachability_plot[D['start']]
+1.07 optics_.py(840):                 if D_max * xi_complement >= reachability_plot[c_end + 1]:
+1.07 optics_.py(843):                     while (reachability_plot[c_start + 1] >
+1.07 optics_.py(844):                            reachability_plot[c_end + 1]
+1.07 optics_.py(859):                 if predecessor_correction:
+1.07 optics_.py(860):                     c_start, c_end = _correct_predecessor(reachability_plot,
+1.07 optics_.py(861):                                                           predecessor_plot,
+1.07 optics_.py(862):                                                           ordering,
+1.07 optics_.py(863):                                                           c_start,
+1.07 optics_.py(864):                                                           c_end)
+1.07 optics_.py(724):     while s < e:
+1.07 optics_.py(725):         if reachability_plot[s] > reachability_plot[e]:
+1.07 optics_.py(726):             return s, e
+1.07 optics_.py(865):                 if c_start is None:
+1.07 optics_.py(869):                 if c_end - c_start + 1 < min_cluster_size:
+1.07 optics_.py(873):                 if c_start > D['end']:
+1.07 optics_.py(877):                 if c_end < U_start:
+1.07 optics_.py(880):                 U_clusters.append((c_start, c_end))
+1.07 optics_.py(830):             for D in sdas:
+1.07 optics_.py(883):             U_clusters.reverse()
+1.07 optics_.py(884):             clusters.extend(U_clusters)
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(803):             continue
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(803):             continue
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(803):             continue
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(805):         mib = max(mib, np.max(reachability_plot[index:steep_index + 1]))
+1.07 optics_.py(808):         if steep_downward[steep_index]:
+1.07 optics_.py(809):             sdas = _update_filter_sdas(sdas, mib, xi_complement,
+1.07 optics_.py(810):                                        reachability_plot)
+1.07 optics_.py(704):     if np.isinf(mib):
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(707):            if mib <= reachability_plot[sda['start']] * xi_complement]
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(708):     for sda in res:
+1.07 optics_.py(709):         sda['mib'] = max(sda['mib'], mib)
+1.07 optics_.py(708):     for sda in res:
+1.07 optics_.py(710):     return res
+1.07 optics_.py(811):             D_start = steep_index
+1.07 optics_.py(812):             D_end = _extend_region(steep_downward, upward,
+1.07 optics_.py(813):                                    D_start, min_samples)
+1.07 optics_.py(678):     n_samples = len(steep_point)
+1.07 optics_.py(679):     non_xward_points = 0
+1.07 optics_.py(680):     index = start
+1.07 optics_.py(681):     end = start
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(687):         elif not xward_point[index]:
+1.07 optics_.py(695):             return end
+1.07 optics_.py(814):             D = {'start': D_start, 'end': D_end, 'mib': 0.}
+1.07 optics_.py(815):             sdas.append(D)
+1.07 optics_.py(816):             index = D_end + 1
+1.07 optics_.py(817):             mib = reachability_plot[index]
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(805):         mib = max(mib, np.max(reachability_plot[index:steep_index + 1]))
+1.07 optics_.py(808):         if steep_downward[steep_index]:
+1.07 optics_.py(821):             sdas = _update_filter_sdas(sdas, mib, xi_complement,
+1.07 optics_.py(822):                                        reachability_plot)
+1.07 optics_.py(704):     if np.isinf(mib):
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(707):            if mib <= reachability_plot[sda['start']] * xi_complement]
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(707):            if mib <= reachability_plot[sda['start']] * xi_complement]
+1.07 optics_.py(706):     res = [sda for sda in sdas
+1.07 optics_.py(708):     for sda in res:
+1.07 optics_.py(709):         sda['mib'] = max(sda['mib'], mib)
+1.07 optics_.py(708):     for sda in res:
+1.07 optics_.py(709):         sda['mib'] = max(sda['mib'], mib)
+1.07 optics_.py(708):     for sda in res:
+1.07 optics_.py(710):     return res
+1.07 optics_.py(823):             U_start = steep_index
+1.07 optics_.py(824):             U_end = _extend_region(steep_upward, downward, U_start,
+1.07 optics_.py(825):                                    min_samples)
+1.07 optics_.py(678):     n_samples = len(steep_point)
+1.07 optics_.py(679):     non_xward_points = 0
+1.07 optics_.py(680):     index = start
+1.07 optics_.py(681):     end = start
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(684):         if steep_point[index]:
+1.07 optics_.py(685):             non_xward_points = 0
+1.07 optics_.py(686):             end = index
+1.07 optics_.py(696):         index += 1
+1.07 optics_.py(683):     while index < n_samples:
+1.07 optics_.py(697):     return end
+1.07 optics_.py(826):             index = U_end + 1
+1.07 optics_.py(827):             mib = reachability_plot[index]
+1.07 optics_.py(829):             U_clusters = []
+1.07 optics_.py(830):             for D in sdas:
+1.07 optics_.py(831):                 c_start = D['start']
+1.07 optics_.py(832):                 c_end = U_end
+1.07 optics_.py(835):                 if reachability_plot[c_end + 1] * xi_complement < D['mib']:
+1.07 optics_.py(839):                 D_max = reachability_plot[D['start']]
+1.07 optics_.py(840):                 if D_max * xi_complement >= reachability_plot[c_end + 1]:
+1.07 optics_.py(843):                     while (reachability_plot[c_start + 1] >
+1.07 optics_.py(844):                            reachability_plot[c_end + 1]
+1.07 optics_.py(859):                 if predecessor_correction:
+1.07 optics_.py(860):                     c_start, c_end = _correct_predecessor(reachability_plot,
+1.07 optics_.py(861):                                                           predecessor_plot,
+1.07 optics_.py(862):                                                           ordering,
+1.07 optics_.py(863):                                                           c_start,
+1.07 optics_.py(864):                                                           c_end)
+1.07 optics_.py(724):     while s < e:
+1.07 optics_.py(725):         if reachability_plot[s] > reachability_plot[e]:
+1.07 optics_.py(726):             return s, e
+1.07 optics_.py(865):                 if c_start is None:
+1.07 optics_.py(869):                 if c_end - c_start + 1 < min_cluster_size:
+1.07 optics_.py(873):                 if c_start > D['end']:
+1.07 optics_.py(877):                 if c_end < U_start:
+1.07 optics_.py(880):                 U_clusters.append((c_start, c_end))
+1.07 optics_.py(830):             for D in sdas:
+1.07 optics_.py(831):                 c_start = D['start']
+1.07 optics_.py(832):                 c_end = U_end
+1.07 optics_.py(835):                 if reachability_plot[c_end + 1] * xi_complement < D['mib']:
+1.07 optics_.py(839):                 D_max = reachability_plot[D['start']]
+1.07 optics_.py(840):                 if D_max * xi_complement >= reachability_plot[c_end + 1]:
+1.07 optics_.py(847):                 elif reachability_plot[c_end + 1] * xi_complement >= D_max:
+1.07 optics_.py(854):                     while (reachability_plot[c_end - 1] > D_max
+1.07 optics_.py(855):                            and c_end > U_start):
+1.07 optics_.py(856):                         c_end -= 1
+1.07 optics_.py(854):                     while (reachability_plot[c_end - 1] > D_max
+1.07 optics_.py(855):                            and c_end > U_start):
+1.07 optics_.py(856):                         c_end -= 1
+1.07 optics_.py(854):                     while (reachability_plot[c_end - 1] > D_max
+1.07 optics_.py(859):                 if predecessor_correction:
+1.07 optics_.py(860):                     c_start, c_end = _correct_predecessor(reachability_plot,
+1.07 optics_.py(861):                                                           predecessor_plot,
+1.07 optics_.py(862):                                                           ordering,
+1.07 optics_.py(863):                                                           c_start,
+1.07 optics_.py(864):                                                           c_end)
+1.07 optics_.py(724):     while s < e:
+1.07 optics_.py(725):         if reachability_plot[s] > reachability_plot[e]:
+1.07 optics_.py(727):         p_e = ordering[predecessor_plot[e]]
+1.07 optics_.py(728):         for i in range(s, e):
+1.07 optics_.py(729):             if p_e == ordering[i]:
+1.07 optics_.py(728):         for i in range(s, e):
+1.07 optics_.py(729):             if p_e == ordering[i]:
+1.07 optics_.py(730):                 return s, e
+1.07 optics_.py(865):                 if c_start is None:
+1.07 optics_.py(869):                 if c_end - c_start + 1 < min_cluster_size:
+1.07 optics_.py(873):                 if c_start > D['end']:
+1.07 optics_.py(877):                 if c_end < U_start:
+1.07 optics_.py(880):                 U_clusters.append((c_start, c_end))
+1.07 optics_.py(830):             for D in sdas:
+1.07 optics_.py(883):             U_clusters.reverse()
+1.07 optics_.py(884):             clusters.extend(U_clusters)
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(803):             continue
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(803):             continue
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(802):         if steep_index < index:
+1.07 optics_.py(803):             continue
+1.07 optics_.py(799):     for steep_index in iter(np.flatnonzero(steep_upward | steep_downward)):
+1.07 optics_.py(886):     return np.array(clusters)
+1.07 optics_.py(633):     labels = _extract_xi_labels(ordering, clusters)
+1.07 optics_.py(908):     labels = np.full(len(ordering), -1, dtype=int)
+1.07 optics_.py(909):     label = 0
+1.07 optics_.py(910):     for c in clusters:
+1.07 optics_.py(911):         if not np.any(labels[c[0]:(c[1] + 1)] != -1):
+1.07 optics_.py(912):             labels[c[0]:(c[1] + 1)] = label
+1.07 optics_.py(913):             label += 1
+1.07 optics_.py(910):     for c in clusters:
+1.07 optics_.py(911):         if not np.any(labels[c[0]:(c[1] + 1)] != -1):
+1.07 optics_.py(912):             labels[c[0]:(c[1] + 1)] = label
+1.07 optics_.py(913):             label += 1
+1.07 optics_.py(910):     for c in clusters:
+1.07 optics_.py(911):         if not np.any(labels[c[0]:(c[1] + 1)] != -1):
+1.07 optics_.py(910):     for c in clusters:
+1.07 optics_.py(914):     labels[ordering] = labels.copy()
+1.07 optics_.py(915):     return labels
+1.07 optics_.py(634):     return labels, clusters
+1.07 optics_.py(260):             self.cluster_hierarchy_ = clusters_
+1.07 optics_.py(276):         self.labels_ = labels_
+1.07 optics_.py(277):         return self
+=========================== short test summary info ============================
+FAILED sklearn/tests/test_coverup_scikit-learn__scikit-learn-14496.py::test_optics_min_samples_float_bug
+========================= 1 failed, 1 warning in 0.51s =========================
++ cat coverage.cover
+{"/testbed/sklearn/cluster/optics_.py": {"12": 1, "14": 1, "15": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "24": 2, "280": 1, "294": 1, "331": 1, "495": 1, "530": 1, "571": 1, "637": 1, "700": 1, "713": 1, "735": 1, "889": 1, "197": 1, "198": 1, "199": 1, "200": 1, "215": 1, "201": 1, "202": 1, "203": 1, "204": 1, "205": 1, "206": 1, "207": 1, "208": 1, "209": 1, "210": 1, "211": 1, "212": 1, "213": 1, "236": 1, "238": 1, "239": 0, "241": 0, "244": 1, "245": 1, "246": 1, "247": 1, "248": 1, "251": 1, "252": 1, "253": 1, "254": 1, "255": 1, "256": 1, "257": 1, "258": 1, "259": 1, "260": 1, "261": 0, "262": 0, "263": 0, "265": 0, "267": 0, "268": 0, "269": 0, "271": 0, "272": 0, "273": 0, "274": 0, "276": 1, "277": 1, "281": 3, "282": 3, "283": 2, "284": 0, "286": 0, "287": 3, "288": 0, "290": 0, "317": 1, "318": 1, "319": 1, "321": 1, "322": 1, "323": 1, "324": 1, "325": 2, "326": 1, "327": 1, "328": 1, "437": 1, "438": 1, "439": 1, "440": 1, "443": 1, "444": 1, "445": 1, "446": 1, "448": 1, "449": 1, "450": 1, "451": 1, "452": 1, "453": 1, "454": 1, "456": 1, "460": 1, "461": 1, "462": 1, "464": 1, "470": 1, "471": 1, "472": 11, "475": 10, "476": 10, "478": 10, "479": 10, "480": 10, "481": 10, "482": 10, "483": 10, "484": 10, "485": 10, "486": 10, "487": 10, "488": 1, "489": 0, "491": 0, "492": 1, "498": 10, "502": 10, "503": 10, "506": 10, "508": 10, "509": 1, "512": 9, "513": 0, "515": 9, "516": 9, "519": 9, "520": 9, "521": 9, "522": 9, "524": 9, "525": 9, "526": 9, "527": 9, "559": 0, "560": 0, "562": 0, "563": 0, "564": 0, "565": 0, "566": 0, "619": 1, "620": 1, "621": 1, "622": 1, "623": 1, "624": 1, "625": 1, "626": 1, "627": 0, "629": 1, "630": 1, "631": 1, "632": 1, "633": 1, "634": 1, "678": 4, "679": 4, "680": 4, "681": 4, "683": 14, "684": 13, "685": 10, "686": 10, "687": 3, "689": 0, "692": 0, "693": 0, "695": 3, "696": 10, "697": 1, "704": 4, "705": 1, "706": 10, "708": 7, "709": 4, "710": 3, "707": 4, "724": 3, "725": 3, "726": 2, "727": 1, "728": 2, "729": 2, "730": 1, "731": 0, "732": 0, "778": 1, "780": 1, "781": 1, "782": 1, "783": 1, "784": 1, "790": 1, "791": 1, "792": 1, "793": 1, "794": 1, "795": 1, "799": 11, "802": 10, "803": 6, "805": 4, "808": 4, "809": 2, "810": 2, "811": 2, "812": 2, "813": 2, "814": 2, "815": 2, "816": 2, "817": 2, "821": 2, "822": 2, "823": 2, "824": 2, "825": 2, "826": 2, "827": 2, "829": 2, "830": 5, "831": 3, "832": 3, "835": 3, "836": 0, "839": 3, "840": 3, "843": 2, "844": 2, "845": 0, "846": 0, "847": 1, "854": 3, "855": 2, "856": 2, "859": 3, "860": 3, "861": 3, "862": 3, "863": 3, "864": 3, "865": 3, "866": 0, "869": 3, "870": 0, "873": 3, "874": 0, "877": 3, "878": 0, "880": 3, "883": 2, "884": 2, "886": 1, "908": 1, "909": 1, "910": 4, "911": 3, "912": 2, "913": 2, "914": 1, "915": 1}}
++ git checkout d49a6f13af2f22228d430ac64ac2b518937800d0
+Note: switching to 'd49a6f13af2f22228d430ac64ac2b518937800d0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d49a6f13af DOC what's new clean up for 0.21.3
+M	sklearn/cluster/optics_.py
++ git apply /root/pre_state.patch
+error: unrecognized input

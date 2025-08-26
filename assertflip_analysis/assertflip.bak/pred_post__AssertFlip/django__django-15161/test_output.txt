@@ -1,0 +1,809 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 96e7ff5e9ff6362d9a886545869ce4496ca4b0fb
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 96e7ff5e9ff6362d9a886545869ce4496ca4b0fb
+Author: Keryn Knight <keryn@kerynknight.com>
+Date:   Fri Jan 7 09:29:22 2022 +0000
+
+    Avoided isinstance(…, Variable) calls in FilterExpression.resolve().
+    
+    By determining the variable type within __init__() instead of resolve()
+    we can skip an isinstance() check at template runtime. Templates are
+    executed in production more often than the parse trees themselves,
+    assuming the cached Loader is used.
+
+diff --git a/django/template/base.py b/django/template/base.py
+index 0dec9940ab..078be8b383 100644
+--- a/django/template/base.py
++++ b/django/template/base.py
+@@ -694,9 +694,10 @@ class FilterExpression:
+ 
+         self.filters = filters
+         self.var = var_obj
++        self.is_var = isinstance(var_obj, Variable)
+ 
+     def resolve(self, context, ignore_failures=False):
+-        if isinstance(self.var, Variable):
++        if self.is_var:
+             try:
+                 obj = self.var.resolve(context)
+             except VariableDoesNotExist:
+diff --git a/django/templatetags/i18n.py b/django/templatetags/i18n.py
+index 8c123c7dd5..607ceb6aea 100644
+--- a/django/templatetags/i18n.py
++++ b/django/templatetags/i18n.py
+@@ -77,6 +77,7 @@ class TranslateNode(Node):
+         self.message_context = message_context
+         self.filter_expression = filter_expression
+         if isinstance(self.filter_expression.var, str):
++            self.filter_expression.is_var = True
+             self.filter_expression.var = Variable("'%s'" %
+                                                   self.filter_expression.var)
+ 
++ git diff 96e7ff5e9ff6362d9a886545869ce4496ca4b0fb
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.4.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20220107092922) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20220107092922) (0.5.3)
+Requirement already satisfied: typing_extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from asgiref>=3.4.1->Django==4.1.dev20220107092922) (4.14.1)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.1.dev20220107092922-0.editable-py3-none-any.whl size=26961 sha256=4fa369f4f8c7ddd590cac23e71539330a7c9e4defc9b8dca34f89550d56473d0
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_z53au8g/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.1.dev20220107092922
+    Uninstalling Django-4.1.dev20220107092922:
+      Successfully uninstalled Django-4.1.dev20220107092922
+Successfully installed Django-4.1.dev20220107092922
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch django/db/models/expressions.py...
+Applied patch django/db/models/expressions.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-15161.py...
+Applied patch tests/test_coverup_django__django-15161.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/models/expressions\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-15161
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/models/expressions\\.py)']
+0.15 expressions.py(1): import copy
+0.15 expressions.py(2): import datetime
+0.15 expressions.py(3): import functools
+0.15 expressions.py(4): import inspect
+0.15 expressions.py(5): from decimal import Decimal
+0.15 expressions.py(6): from uuid import UUID
+0.16 expressions.py(8): from django.core.exceptions import EmptyResultSet, FieldError
+0.16 expressions.py(9): from django.db import DatabaseError, NotSupportedError, connection
+0.16 expressions.py(10): from django.db.models import fields
+0.25 expressions.py(11): from django.db.models.constants import LOOKUP_SEP
+0.25 expressions.py(12): from django.db.models.query_utils import Q
+0.25 expressions.py(13): from django.utils.deconstruct import deconstructible
+0.25 expressions.py(14): from django.utils.functional import cached_property
+0.25 expressions.py(15): from django.utils.hashable import make_hashable
+0.25 expressions.py(18): class SQLiteNumericMixin:
+0.25 expressions.py(18): class SQLiteNumericMixin:
+0.25 expressions.py(19):     """
+0.25 expressions.py(23):     def as_sqlite(self, compiler, connection, **extra_context):
+0.25 expressions.py(33): class Combinable:
+0.25 expressions.py(33): class Combinable:
+0.25 expressions.py(34):     """
+0.25 expressions.py(40):     ADD = '+'
+0.25 expressions.py(41):     SUB = '-'
+0.25 expressions.py(42):     MUL = '*'
+0.25 expressions.py(43):     DIV = '/'
+0.25 expressions.py(44):     POW = '^'
+0.25 expressions.py(47):     MOD = '%%'
+0.25 expressions.py(52):     BITAND = '&'
+0.25 expressions.py(53):     BITOR = '|'
+0.25 expressions.py(54):     BITLEFTSHIFT = '<<'
+0.25 expressions.py(55):     BITRIGHTSHIFT = '>>'
+0.25 expressions.py(56):     BITXOR = '#'
+0.25 expressions.py(58):     def _combine(self, other, connector, reversed):
+0.25 expressions.py(71):     def __neg__(self):
+0.25 expressions.py(74):     def __add__(self, other):
+0.25 expressions.py(77):     def __sub__(self, other):
+0.25 expressions.py(80):     def __mul__(self, other):
+0.25 expressions.py(83):     def __truediv__(self, other):
+0.25 expressions.py(86):     def __mod__(self, other):
+0.25 expressions.py(89):     def __pow__(self, other):
+0.25 expressions.py(92):     def __and__(self, other):
+0.25 expressions.py(99):     def bitand(self, other):
+0.25 expressions.py(102):     def bitleftshift(self, other):
+0.25 expressions.py(105):     def bitrightshift(self, other):
+0.25 expressions.py(108):     def bitxor(self, other):
+0.25 expressions.py(111):     def __or__(self, other):
+0.25 expressions.py(118):     def bitor(self, other):
+0.25 expressions.py(121):     def __radd__(self, other):
+0.25 expressions.py(124):     def __rsub__(self, other):
+0.25 expressions.py(127):     def __rmul__(self, other):
+0.25 expressions.py(130):     def __rtruediv__(self, other):
+0.25 expressions.py(133):     def __rmod__(self, other):
+0.25 expressions.py(136):     def __rpow__(self, other):
+0.25 expressions.py(139):     def __rand__(self, other):
+0.25 expressions.py(144):     def __ror__(self, other):
+0.25 expressions.py(150): class BaseExpression:
+0.25 expressions.py(150): class BaseExpression:
+0.25 expressions.py(151):     """Base class for all query expressions."""
+0.25 expressions.py(153):     empty_result_set_value = NotImplemented
+0.25 expressions.py(155):     is_summary = False
+0.25 expressions.py(156):     _output_field_resolved_to_none = False
+0.25 expressions.py(158):     filterable = True
+0.25 expressions.py(160):     window_compatible = False
+0.25 expressions.py(162):     def __init__(self, output_field=None):
+0.25 expressions.py(166):     def __getstate__(self):
+0.25 expressions.py(171):     def get_db_converters(self, connection):
+0.25 expressions.py(178):     def get_source_expressions(self):
+0.25 expressions.py(181):     def set_source_expressions(self, exprs):
+0.25 expressions.py(184):     def _parse_expressions(self, *expressions):
+0.25 expressions.py(191):     def as_sql(self, compiler, connection):
+0.25 expressions.py(219):     @cached_property
+0.25 expressions.py(220):     def contains_aggregate(self):
+0.25 expressions.py(223):     @cached_property
+0.25 expressions.py(224):     def contains_over_clause(self):
+0.25 expressions.py(227):     @cached_property
+0.25 expressions.py(228):     def contains_column_references(self):
+0.25 expressions.py(231):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(255):     @property
+0.25 expressions.py(256):     def conditional(self):
+0.25 expressions.py(259):     @property
+0.25 expressions.py(260):     def field(self):
+0.25 expressions.py(263):     @cached_property
+0.25 expressions.py(264):     def output_field(self):
+0.25 expressions.py(272):     @cached_property
+0.25 expressions.py(273):     def _output_field_or_none(self):
+0.25 expressions.py(284):     def _resolve_output_field(self):
+0.25 expressions.py(311):     @staticmethod
+0.25 expressions.py(312):     def _convert_value_noop(value, expression, connection):
+0.25 expressions.py(315):     @cached_property
+0.25 expressions.py(316):     def convert_value(self):
+0.25 expressions.py(332):     def get_lookup(self, lookup):
+0.25 expressions.py(335):     def get_transform(self, name):
+0.25 expressions.py(338):     def relabeled_clone(self, change_map):
+0.25 expressions.py(346):     def copy(self):
+0.25 expressions.py(349):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(357):     def get_source_fields(self):
+0.25 expressions.py(361):     def asc(self, **kwargs):
+0.25 expressions.py(364):     def desc(self, **kwargs):
+0.25 expressions.py(367):     def reverse_ordering(self):
+0.25 expressions.py(370):     def flatten(self):
+0.25 expressions.py(383):     def select_format(self, compiler, sql, params):
+0.25 expressions.py(393): @deconstructible
+0.25 expressions.py(394): class Expression(BaseExpression, Combinable):
+0.25 expressions.py(393): @deconstructible
+0.25 expressions.py(395):     """An expression that can be combined with other expressions."""
+0.25 expressions.py(397):     @cached_property
+0.25 expressions.py(398):     def identity(self):
+0.25 expressions.py(416):     def __eq__(self, other):
+0.25 expressions.py(421):     def __hash__(self):
+0.25 expressions.py(425): _connector_combinators = {
+0.25 expressions.py(433):     for connector in (Combinable.ADD, Combinable.SUB, Combinable.MUL, Combinable.DIV)
+0.25 expressions.py(425): _connector_combinators = {
+0.25 expressions.py(425): _connector_combinators = {
+0.25 expressions.py(433):     for connector in (Combinable.ADD, Combinable.SUB, Combinable.MUL, Combinable.DIV)
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(427):         (fields.IntegerField, fields.IntegerField, fields.IntegerField),
+0.25 expressions.py(428):         (fields.IntegerField, fields.DecimalField, fields.DecimalField),
+0.25 expressions.py(429):         (fields.DecimalField, fields.IntegerField, fields.DecimalField),
+0.25 expressions.py(430):         (fields.IntegerField, fields.FloatField, fields.FloatField),
+0.25 expressions.py(431):         (fields.FloatField, fields.IntegerField, fields.FloatField),
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(425): _connector_combinators = {
+0.25 expressions.py(433):     for connector in (Combinable.ADD, Combinable.SUB, Combinable.MUL, Combinable.DIV)
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(427):         (fields.IntegerField, fields.IntegerField, fields.IntegerField),
+0.25 expressions.py(428):         (fields.IntegerField, fields.DecimalField, fields.DecimalField),
+0.25 expressions.py(429):         (fields.DecimalField, fields.IntegerField, fields.DecimalField),
+0.25 expressions.py(430):         (fields.IntegerField, fields.FloatField, fields.FloatField),
+0.25 expressions.py(431):         (fields.FloatField, fields.IntegerField, fields.FloatField),
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(425): _connector_combinators = {
+0.25 expressions.py(433):     for connector in (Combinable.ADD, Combinable.SUB, Combinable.MUL, Combinable.DIV)
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(427):         (fields.IntegerField, fields.IntegerField, fields.IntegerField),
+0.25 expressions.py(428):         (fields.IntegerField, fields.DecimalField, fields.DecimalField),
+0.25 expressions.py(429):         (fields.DecimalField, fields.IntegerField, fields.DecimalField),
+0.25 expressions.py(430):         (fields.IntegerField, fields.FloatField, fields.FloatField),
+0.25 expressions.py(431):         (fields.FloatField, fields.IntegerField, fields.FloatField),
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(425): _connector_combinators = {
+0.25 expressions.py(433):     for connector in (Combinable.ADD, Combinable.SUB, Combinable.MUL, Combinable.DIV)
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(427):         (fields.IntegerField, fields.IntegerField, fields.IntegerField),
+0.25 expressions.py(428):         (fields.IntegerField, fields.DecimalField, fields.DecimalField),
+0.25 expressions.py(429):         (fields.DecimalField, fields.IntegerField, fields.DecimalField),
+0.25 expressions.py(430):         (fields.IntegerField, fields.FloatField, fields.FloatField),
+0.25 expressions.py(431):         (fields.FloatField, fields.IntegerField, fields.FloatField),
+0.25 expressions.py(426):     connector: [
+0.25 expressions.py(425): _connector_combinators = {
+0.25 expressions.py(437): @functools.lru_cache(maxsize=128)
+0.25 expressions.py(438): def _resolve_combined_type(connector, lhs_type, rhs_type):
+0.25 expressions.py(445): class CombinedExpression(SQLiteNumericMixin, Expression):
+0.25 expressions.py(445): class CombinedExpression(SQLiteNumericMixin, Expression):
+0.25 expressions.py(447):     def __init__(self, lhs, connector, rhs, output_field=None):
+0.25 expressions.py(453):     def __repr__(self):
+0.25 expressions.py(456):     def __str__(self):
+0.25 expressions.py(459):     def get_source_expressions(self):
+0.25 expressions.py(462):     def set_source_expressions(self, exprs):
+0.25 expressions.py(465):     def _resolve_output_field(self):
+0.25 expressions.py(478):     def as_sql(self, compiler, connection):
+0.25 expressions.py(492):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(520): class DurationExpression(CombinedExpression):
+0.25 expressions.py(520): class DurationExpression(CombinedExpression):
+0.25 expressions.py(521):     def compile(self, side, compiler, connection):
+0.25 expressions.py(532):     def as_sql(self, compiler, connection):
+0.25 expressions.py(549):     def as_sqlite(self, compiler, connection, **extra_context):
+0.25 expressions.py(568): class TemporalSubtraction(CombinedExpression):
+0.25 expressions.py(568): class TemporalSubtraction(CombinedExpression):
+0.25 expressions.py(569):     output_field = fields.DurationField()
+0.25 expressions.py(571):     def __init__(self, lhs, rhs):
+0.25 expressions.py(574):     def as_sql(self, compiler, connection):
+0.25 expressions.py(581): @deconstructible(path='django.db.models.F')
+0.25 expressions.py(582): class F(Combinable):
+0.25 expressions.py(581): @deconstructible(path='django.db.models.F')
+0.25 expressions.py(583):     """An object capable of resolving references to existing query objects."""
+0.25 expressions.py(585):     def __init__(self, name):
+0.25 expressions.py(592):     def __repr__(self):
+0.25 expressions.py(595):     def resolve_expression(self, query=None, allow_joins=True, reuse=None,
+0.25 expressions.py(599):     def asc(self, **kwargs):
+0.25 expressions.py(602):     def desc(self, **kwargs):
+0.25 expressions.py(605):     def __eq__(self, other):
+0.25 expressions.py(608):     def __hash__(self):
+0.25 expressions.py(612): class ResolvedOuterRef(F):
+0.25 expressions.py(612): class ResolvedOuterRef(F):
+0.25 expressions.py(613):     """
+0.25 expressions.py(619):     contains_aggregate = False
+0.25 expressions.py(621):     def as_sql(self, *args, **kwargs):
+0.25 expressions.py(627):     def resolve_expression(self, *args, **kwargs):
+0.25 expressions.py(635):     def relabeled_clone(self, relabels):
+0.25 expressions.py(638):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(642): class OuterRef(F):
+0.25 expressions.py(642): class OuterRef(F):
+0.25 expressions.py(643):     contains_aggregate = False
+0.25 expressions.py(645):     def resolve_expression(self, *args, **kwargs):
+0.25 expressions.py(650):     def relabeled_clone(self, relabels):
+0.25 expressions.py(654): @deconstructible(path='django.db.models.Func')
+0.25 expressions.py(655): class Func(SQLiteNumericMixin, Expression):
+0.25 expressions.py(654): @deconstructible(path='django.db.models.Func')
+0.25 expressions.py(656):     """An SQL function call."""
+0.25 expressions.py(657):     function = None
+0.25 expressions.py(658):     template = '%(function)s(%(expressions)s)'
+0.25 expressions.py(659):     arg_joiner = ', '
+0.25 expressions.py(660):     arity = None  # The number of arguments the function accepts.
+0.25 expressions.py(662):     def __init__(self, *expressions, output_field=None, **extra):
+0.25 expressions.py(676):     def __repr__(self):
+0.25 expressions.py(684):     def _get_repr_options(self):
+0.25 expressions.py(688):     def get_source_expressions(self):
+0.25 expressions.py(691):     def set_source_expressions(self, exprs):
+0.25 expressions.py(694):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(701):     def as_sql(self, compiler, connection, function=None, template=None, arg_joiner=None, **extra_context):
+0.25 expressions.py(728):     def copy(self):
+0.25 expressions.py(735): @deconstructible(path='django.db.models.Value')
+0.25 expressions.py(736): class Value(SQLiteNumericMixin, Expression):
+0.25 expressions.py(735): @deconstructible(path='django.db.models.Value')
+0.25 expressions.py(737):     """Represent a wrapped value as a node within an expression."""
+0.25 expressions.py(740):     for_save = False
+0.25 expressions.py(742):     def __init__(self, value, output_field=None):
+0.25 expressions.py(754):     def __repr__(self):
+0.25 expressions.py(757):     def as_sql(self, compiler, connection):
+0.25 expressions.py(775):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(780):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(783):     def _resolve_output_field(self):
+0.25 expressions.py(807):     @property
+0.25 expressions.py(808):     def empty_result_set_value(self):
+0.25 expressions.py(812): class RawSQL(Expression):
+0.25 expressions.py(812): class RawSQL(Expression):
+0.25 expressions.py(813):     def __init__(self, sql, params, output_field=None):
+0.25 expressions.py(819):     def __repr__(self):
+0.25 expressions.py(822):     def as_sql(self, compiler, connection):
+0.25 expressions.py(825):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(828):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(839): class Star(Expression):
+0.25 expressions.py(839): class Star(Expression):
+0.25 expressions.py(840):     def __repr__(self):
+0.25 expressions.py(843):     def as_sql(self, compiler, connection):
+0.25 expressions.py(847): class Col(Expression):
+0.25 expressions.py(847): class Col(Expression):
+0.25 expressions.py(849):     contains_column_references = True
+0.25 expressions.py(850):     possibly_multivalued = False
+0.25 expressions.py(852):     def __init__(self, alias, target, output_field=None):
+0.25 expressions.py(858):     def __repr__(self):
+0.25 expressions.py(863):     def as_sql(self, compiler, connection):
+0.25 expressions.py(869):     def relabeled_clone(self, relabels):
+0.25 expressions.py(874):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(877):     def get_db_converters(self, connection):
+0.25 expressions.py(884): class Ref(Expression):
+0.25 expressions.py(884): class Ref(Expression):
+0.25 expressions.py(885):     """
+0.25 expressions.py(889):     def __init__(self, refs, source):
+0.25 expressions.py(893):     def __repr__(self):
+0.25 expressions.py(896):     def get_source_expressions(self):
+0.25 expressions.py(899):     def set_source_expressions(self, exprs):
+0.25 expressions.py(902):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(907):     def relabeled_clone(self, relabels):
+0.25 expressions.py(910):     def as_sql(self, compiler, connection):
+0.25 expressions.py(913):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(917): class ExpressionList(Func):
+0.25 expressions.py(917): class ExpressionList(Func):
+0.25 expressions.py(918):     """
+0.25 expressions.py(923):     template = '%(expressions)s'
+0.25 expressions.py(925):     def __init__(self, *expressions, **extra):
+0.25 expressions.py(930):     def __str__(self):
+0.25 expressions.py(933):     def as_sqlite(self, compiler, connection, **extra_context):
+0.25 expressions.py(938): class OrderByList(Func):
+0.25 expressions.py(938): class OrderByList(Func):
+0.25 expressions.py(939):     template = 'ORDER BY %(expressions)s'
+0.25 expressions.py(941):     def __init__(self, *expressions, **extra):
+0.25 expressions.py(952):     def as_sql(self, *args, **kwargs):
+0.25 expressions.py(958): @deconstructible(path='django.db.models.ExpressionWrapper')
+0.25 expressions.py(959): class ExpressionWrapper(SQLiteNumericMixin, Expression):
+0.25 expressions.py(958): @deconstructible(path='django.db.models.ExpressionWrapper')
+0.25 expressions.py(960):     """
+0.25 expressions.py(965):     def __init__(self, expression, output_field):
+0.25 expressions.py(969):     def set_source_expressions(self, exprs):
+0.25 expressions.py(972):     def get_source_expressions(self):
+0.25 expressions.py(975):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(984):     def as_sql(self, compiler, connection):
+0.25 expressions.py(987):     def __repr__(self):
+0.25 expressions.py(991): @deconstructible(path='django.db.models.When')
+0.25 expressions.py(992): class When(Expression):
+0.25 expressions.py(991): @deconstructible(path='django.db.models.When')
+0.25 expressions.py(993):     template = 'WHEN %(condition)s THEN %(result)s'
+0.25 expressions.py(995):     conditional = False
+0.25 expressions.py(997):     def __init__(self, condition=None, then=None, **lookups):
+0.25 expressions.py(1014):     def __str__(self):
+0.25 expressions.py(1017):     def __repr__(self):
+0.25 expressions.py(1020):     def get_source_expressions(self):
+0.25 expressions.py(1023):     def set_source_expressions(self, exprs):
+0.25 expressions.py(1026):     def get_source_fields(self):
+0.25 expressions.py(1030):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(1038):     def as_sql(self, compiler, connection, template=None, **extra_context):
+0.25 expressions.py(1051):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(1059): @deconstructible(path='django.db.models.Case')
+0.25 expressions.py(1060): class Case(SQLiteNumericMixin, Expression):
+0.25 expressions.py(1059): @deconstructible(path='django.db.models.Case')
+0.25 expressions.py(1061):     """
+0.25 expressions.py(1072):     template = 'CASE %(cases)s ELSE %(default)s END'
+0.25 expressions.py(1073):     case_joiner = ' '
+0.25 expressions.py(1075):     def __init__(self, *cases, default=None, output_field=None, **extra):
+0.25 expressions.py(1083):     def __str__(self):
+0.25 expressions.py(1086):     def __repr__(self):
+0.25 expressions.py(1089):     def get_source_expressions(self):
+0.25 expressions.py(1092):     def set_source_expressions(self, exprs):
+0.25 expressions.py(1095):     def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
+0.25 expressions.py(1103):     def copy(self):
+0.25 expressions.py(1108):     def as_sql(self, compiler, connection, template=None, case_joiner=None, **extra_context):
+0.25 expressions.py(1135):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(1141): class Subquery(BaseExpression, Combinable):
+0.25 expressions.py(1141): class Subquery(BaseExpression, Combinable):
+0.25 expressions.py(1142):     """
+0.25 expressions.py(1146):     template = '(%(subquery)s)'
+0.25 expressions.py(1147):     contains_aggregate = False
+0.25 expressions.py(1148):     empty_result_set_value = None
+0.25 expressions.py(1150):     def __init__(self, queryset, output_field=None, **extra):
+0.25 expressions.py(1156):     def get_source_expressions(self):
+0.25 expressions.py(1159):     def set_source_expressions(self, exprs):
+0.25 expressions.py(1162):     def _resolve_output_field(self):
+0.25 expressions.py(1165):     def copy(self):
+0.25 expressions.py(1170):     @property
+0.25 expressions.py(1171):     def external_aliases(self):
+0.25 expressions.py(1174):     def get_external_cols(self):
+0.25 expressions.py(1177):     def as_sql(self, compiler, connection, template=None, query=None, **extra_context):
+0.25 expressions.py(1188):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(1198): class Exists(Subquery):
+0.25 expressions.py(1198): class Exists(Subquery):
+0.25 expressions.py(1199):     template = 'EXISTS(%(subquery)s)'
+0.25 expressions.py(1200):     output_field = fields.BooleanField()
+0.25 expressions.py(1202):     def __init__(self, queryset, negated=False, **kwargs):
+0.25 expressions.py(1206):     def __invert__(self):
+0.25 expressions.py(1211):     def as_sql(self, compiler, connection, template=None, **extra_context):
+0.25 expressions.py(1224):     def select_format(self, compiler, sql, params):
+0.25 expressions.py(1233): @deconstructible(path='django.db.models.OrderBy')
+0.25 expressions.py(1234): class OrderBy(Expression):
+0.25 expressions.py(1233): @deconstructible(path='django.db.models.OrderBy')
+0.25 expressions.py(1235):     template = '%(expression)s %(ordering)s'
+0.25 expressions.py(1236):     conditional = False
+0.25 expressions.py(1238):     def __init__(self, expression, descending=False, nulls_first=False, nulls_last=False):
+0.25 expressions.py(1248):     def __repr__(self):
+0.25 expressions.py(1252):     def set_source_expressions(self, exprs):
+0.25 expressions.py(1255):     def get_source_expressions(self):
+0.25 expressions.py(1258):     def as_sql(self, compiler, connection, template=None, **extra_context):
+0.25 expressions.py(1284):     def as_oracle(self, compiler, connection):
+0.25 expressions.py(1296):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(1302):     def reverse_ordering(self):
+0.25 expressions.py(1309):     def asc(self):
+0.25 expressions.py(1312):     def desc(self):
+0.25 expressions.py(1316): class Window(SQLiteNumericMixin, Expression):
+0.25 expressions.py(1316): class Window(SQLiteNumericMixin, Expression):
+0.25 expressions.py(1317):     template = '%(expression)s OVER (%(window)s)'
+0.25 expressions.py(1321):     contains_aggregate = False
+0.25 expressions.py(1322):     contains_over_clause = True
+0.25 expressions.py(1323):     filterable = False
+0.25 expressions.py(1325):     def __init__(self, expression, partition_by=None, order_by=None, frame=None, output_field=None):
+0.25 expressions.py(1354):     def _resolve_output_field(self):
+0.25 expressions.py(1357):     def get_source_expressions(self):
+0.25 expressions.py(1360):     def set_source_expressions(self, exprs):
+0.25 expressions.py(1363):     def as_sql(self, compiler, connection, template=None):
+0.25 expressions.py(1396):     def as_sqlite(self, compiler, connection):
+0.25 expressions.py(1406):     def __str__(self):
+0.25 expressions.py(1414):     def __repr__(self):
+0.25 expressions.py(1417):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(1421): class WindowFrame(Expression):
+0.25 expressions.py(1421): class WindowFrame(Expression):
+0.25 expressions.py(1422):     """
+0.25 expressions.py(1429):     template = '%(frame_type)s BETWEEN %(start)s AND %(end)s'
+0.25 expressions.py(1431):     def __init__(self, start=None, end=None):
+0.25 expressions.py(1435):     def set_source_expressions(self, exprs):
+0.25 expressions.py(1438):     def get_source_expressions(self):
+test_deconstruct_case_expression (test_coverup_django__django-15161.ExpressionDeconstructionTests)
+Test that Case() deconstructs to a simplified path. ... ok
+test_deconstruct_f_expression (test_coverup_django__django-15161.ExpressionDeconstructionTests)
+Test that F() deconstructs to the simplified path 'django.db.models.F'. ... ok
+test_deconstruct_func_expression (test_coverup_django__django-15161.ExpressionDeconstructionTests)
+Test that Func() deconstructs to a simplified path. ... ok
+test_deconstruct_when_expression (test_coverup_django__django-15161.ExpressionDeconstructionTests)
+Test that When() deconstructs to a simplified path. ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+0.25 expressions.py(1441):     def as_sql(self, compiler, connection):
+0.25 expressions.py(1450):     def __repr__(self):
+0.25 expressions.py(1453):     def get_group_by_cols(self, alias=None):
+0.25 expressions.py(1456):     def __str__(self):
+0.25 expressions.py(1476):     def window_frame_start_end(self, connection, start, end):
+0.25 expressions.py(1480): class RowRange(WindowFrame):
+0.25 expressions.py(1480): class RowRange(WindowFrame):
+0.25 expressions.py(1481):     frame_type = 'ROWS'
+0.25 expressions.py(1483):     def window_frame_start_end(self, connection, start, end):
+0.25 expressions.py(1487): class ValueRange(WindowFrame):
+0.25 expressions.py(1487): class ValueRange(WindowFrame):
+0.25 expressions.py(1488):     frame_type = 'RANGE'
+0.25 expressions.py(1490):     def window_frame_start_end(self, connection, start, end):
+0.26 expressions.py(751):         super().__init__(output_field=output_field)
+0.26 expressions.py(163):         if output_field is not None:
+0.26 expressions.py(752):         self.value = value
+0.26 expressions.py(751):         super().__init__(output_field=output_field)
+0.26 expressions.py(163):         if output_field is not None:
+0.26 expressions.py(752):         self.value = value
+Testing against Django installed in '/testbed/django'
+Found 4 test(s).
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+0.60 expressions.py(1076):         if not all(isinstance(case, When) for case in cases):
+0.60 expressions.py(1076):         if not all(isinstance(case, When) for case in cases):
+0.60 expressions.py(1078):         super().__init__(output_field)
+0.60 expressions.py(163):         if output_field is not None:
+0.60 expressions.py(1079):         self.cases = list(cases)
+0.60 expressions.py(1080):         self.default = self._parse_expressions(default)[0]
+0.60 expressions.py(185):         return [
+0.60 expressions.py(188):             ) for arg in expressions
+0.60 expressions.py(185):         return [
+0.60 expressions.py(185):         return [
+0.60 expressions.py(188):             ) for arg in expressions
+0.60 expressions.py(186):             arg if hasattr(arg, 'resolve_expression') else (
+0.60 expressions.py(187):                 F(arg) if isinstance(arg, str) else Value(arg)
+0.60 expressions.py(751):         super().__init__(output_field=output_field)
+0.60 expressions.py(163):         if output_field is not None:
+0.60 expressions.py(752):         self.value = value
+0.60 expressions.py(185):         return [
+0.60 expressions.py(1081):         self.extra = extra
+0.60 expressions.py(590):         self.name = name
+0.60 expressions.py(663):         if self.arity is not None and len(expressions) != self.arity:
+0.60 expressions.py(672):         super().__init__(output_field=output_field)
+0.60 expressions.py(163):         if output_field is not None:
+0.60 expressions.py(673):         self.source_expressions = self._parse_expressions(*expressions)
+0.60 expressions.py(185):         return [
+0.60 expressions.py(188):             ) for arg in expressions
+0.60 expressions.py(185):         return [
+0.60 expressions.py(185):         return [
+0.60 expressions.py(674):         self.extra = extra
+0.60 expressions.py(998):         if lookups:
+0.60 expressions.py(1003):         if condition is None or not getattr(condition, 'conditional', False) or lookups:
+0.60 expressions.py(1008):         if isinstance(condition, Q) and not condition:
+0.60 expressions.py(1010):         super().__init__(output_field=None)
+0.60 expressions.py(163):         if output_field is not None:
+0.60 expressions.py(1011):         self.condition = condition
+0.60 expressions.py(1012):         self.result = self._parse_expressions(then)[0]
+0.60 expressions.py(185):         return [
+0.60 expressions.py(188):             ) for arg in expressions
+0.60 expressions.py(185):         return [
+0.60 expressions.py(185):         return [
+0.60 expressions.py(188):             ) for arg in expressions
+0.60 expressions.py(186):             arg if hasattr(arg, 'resolve_expression') else (
+0.60 expressions.py(187):                 F(arg) if isinstance(arg, str) else Value(arg)
+0.60 expressions.py(751):         super().__init__(output_field=output_field)
+0.60 expressions.py(163):         if output_field is not None:
+0.60 expressions.py(752):         self.value = value
+0.60 expressions.py(185):         return [
++ cat coverage.cover
+{"/testbed/django/db/models/expressions.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "18": 2, "33": 2, "150": 2, "393": 2, "394": 1, "425": 7, "433": 5, "437": 1, "438": 1, "445": 2, "520": 2, "568": 2, "581": 2, "582": 1, "612": 2, "642": 2, "654": 2, "655": 1, "735": 2, "736": 1, "812": 2, "839": 2, "847": 2, "884": 2, "917": 2, "938": 2, "958": 2, "959": 1, "991": 2, "992": 1, "1059": 2, "1060": 1, "1141": 2, "1198": 2, "1233": 2, "1234": 1, "1316": 2, "1421": 2, "1480": 2, "1487": 2, "23": 1, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0, "30": 0, "40": 1, "41": 1, "42": 1, "43": 1, "44": 1, "47": 1, "52": 1, "53": 1, "54": 1, "55": 1, "56": 1, "58": 1, "71": 1, "74": 1, "77": 1, "80": 1, "83": 1, "86": 1, "89": 1, "92": 1, "99": 1, "102": 1, "105": 1, "108": 1, "111": 1, "118": 1, "121": 1, "124": 1, "127": 1, "130": 1, "133": 1, "136": 1, "139": 1, "144": 1, "59": 0, "61": 0, "63": 0, "64": 0, "65": 0, "72": 0, "75": 0, "78": 0, "81": 0, "84": 0, "87": 0, "90": 0, "93": 0, "94": 0, "95": 0, "96": 0, "100": 0, "103": 0, "106": 0, "109": 0, "112": 0, "113": 0, "114": 0, "115": 0, "119": 0, "122": 0, "125": 0, "128": 0, "131": 0, "134": 0, "137": 0, "140": 0, "141": 0, "145": 0, "146": 0, "153": 1, "155": 1, "156": 1, "158": 1, "160": 1, "162": 1, "166": 1, "171": 1, "178": 1, "181": 1, "184": 1, "191": 1, "219": 1, "220": 1, "223": 1, "224": 1, "227": 1, "228": 1, "231": 1, "255": 1, "256": 1, "259": 1, "260": 1, "263": 1, "264": 1, "272": 1, "273": 1, "284": 1, "311": 1, "312": 1, "315": 1, "316": 1, "332": 1, "335": 1, "338": 1, "346": 1, "349": 1, "357": 1, "361": 1, "364": 1, "367": 1, "370": 1, "383": 1, "163": 7, "164": 0, "167": 0, "168": 0, "169": 0, "174": 0, "173": 0, "175": 0, "176": 0, "172": 0, "179": 0, "182": 0, "185": 11, "188": 5, "186": 2, "187": 2, "217": 0, "221": 0, "225": 0, "229": 0, "246": 0, "247": 0, "248": 0, "251": 0, "253": 0, "250": 0, "249": 0, "257": 0, "261": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "278": 0, "279": 0, "280": 0, "281": 0, "282": 0, "298": 0, "299": 0, "300": 0, "301": 0, "302": 0, "303": 0, "305": 0, "306": 0, "304": 0, "309": 0, "313": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "327": 0, "328": 0, "329": 0, "330": 0, "333": 0, "336": 0, "339": 0, "340": 0, "342": 0, "344": 0, "341": 0, "347": 0, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "355": 0, "359": 0, "362": 0, "365": 0, "368": 0, "375": 0, "376": 0, "377": 0, "378": 0, "379": 0, "381": 0, "388": 0, "389": 0, "390": 0, "397": 1, "398": 1, "416": 1, "421": 1, "399": 0, "400": 0, "401": 0, "402": 0, "403": 0, "404": 0, "405": 0, "406": 0, "407": 0, "408": 0, "410": 0, "412": 0, "413": 0, "414": 0, "417": 0, "418": 0, "419": 0, "422": 0, "426": 8, "427": 4, "428": 4, "429": 4, "430": 4, "431": 4, "439": 0, "440": 0, "441": 0, "442": 0, "447": 1, "453": 1, "456": 1, "459": 1, "462": 1, "465": 1, "478": 1, "492": 1, "448": 0, "449": 0, "450": 0, "451": 0, "454": 0, "457": 0, "460": 0, "463": 0, "466": 0, "467": 0, "468": 0, "469": 0, "470": 0, "471": 0, "472": 0, "474": 0, "475": 0, "476": 0, "479": 0, "480": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "488": 0, "489": 0, "490": 0, "493": 0, "494": 0, "495": 0, "496": 0, "497": 0, "498": 0, "499": 0, "500": 0, "501": 0, "502": 0, "503": 0, "504": 0, "505": 0, "506": 0, "508": 0, "509": 0, "510": 0, "511": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "521": 1, "532": 1, "549": 1, "522": 0, "523": 0, "524": 0, "525": 0, "527": 0, "528": 0, "529": 0, "530": 0, "533": 0, "534": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "543": 0, "545": 0, "546": 0, "547": 0, "550": 0, "551": 0, "552": 0, "553": 0, "554": 0, "555": 0, "556": 0, "558": 0, "561": 0, "562": 0, "563": 0, "565": 0, "569": 1, "571": 1, "574": 1, "572": 0, "575": 0, "576": 0, "577": 0, "578": 0, "585": 1, "592": 1, "595": 1, "599": 1, "602": 1, "605": 1, "608": 1, "590": 1, "593": 0, "597": 0, "600": 0, "603": 0, "606": 0, "609": 0, "619": 1, "621": 1, "627": 1, "635": 1, "638": 1, "622": 0, "623": 0, "628": 0, "632": 0, "633": 0, "636": 0, "639": 0, "643": 1, "645": 1, "650": 1, "646": 0, "647": 0, "648": 0, "651": 0, "657": 1, "658": 1, "659": 1, "660": 1, "662": 1, "676": 1, "684": 1, "688": 1, "691": 1, "694": 1, "701": 1, "728": 1, "663": 1, "664": 0, "665": 0, "666": 0, "667": 0, "668": 0, "669": 0, "672": 1, "673": 1, "674": 1, "677": 0, "678": 0, "679": 0, "680": 0, "681": 0, "682": 0, "686": 0, "689": 0, "692": 0, "695": 0, "696": 0, "697": 0, "698": 0, "699": 0, "702": 0, "703": 0, "704": 0, "705": 0, "706": 0, "707": 0, "708": 0, "709": 0, "710": 0, "711": 0, "712": 0, "713": 0, "714": 0, "715": 0, "719": 0, "720": 0, "722": 0, "723": 0, "724": 0, "725": 0, "726": 0, "729": 0, "730": 0, "731": 0, "732": 0, "740": 1, "742": 1, "754": 1, "757": 1, "775": 1, "780": 1, "783": 1, "807": 1, "808": 1, "751": 4, "752": 4, "755": 0, "758": 0, "759": 0, "760": 0, "761": 0, "762": 0, "763": 0, "765": 0, "766": 0, "767": 0, "768": 0, "772": 0, "773": 0, "776": 0, "777": 0, "778": 0, "781": 0, "784": 0, "785": 0, "786": 0, "787": 0, "788": 0, "789": 0, "790": 0, "791": 0, "792": 0, "793": 0, "794": 0, "795": 0, "796": 0, "797": 0, "798": 0, "799": 0, "800": 0, "801": 0, "802": 0, "803": 0, "804": 0, "805": 0, "809": 0, "813": 1, "819": 1, "822": 1, "825": 1, "828": 1, "814": 0, "815": 0, "816": 0, "817": 0, "820": 0, "823": 0, "826": 0, "830": 0, "831": 0, "832": 0, "833": 0, "834": 0, "835": 0, "836": 0, "840": 1, "843": 1, "841": 0, "844": 0, "849": 1, "850": 1, "852": 1, "858": 1, "863": 1, "869": 1, "874": 1, "877": 1, "853": 0, "854": 0, "855": 0, "856": 0, "859": 0, "860": 0, "861": 0, "864": 0, "865": 0, "866": 0, "867": 0, "870": 0, "871": 0, "872": 0, "875": 0, "878": 0, "879": 0, "880": 0, "881": 0, "889": 1, "893": 1, "896": 1, "899": 1, "902": 1, "907": 1, "910": 1, "913": 1, "890": 0, "891": 0, "894": 0, "897": 0, "900": 0, "905": 0, "908": 0, "911": 0, "914": 0, "923": 1, "925": 1, "930": 1, "933": 1, "926": 0, "927": 0, "928": 0, "931": 0, "935": 0, "939": 1, "941": 1, "952": 1, "942": 0, "948": 0, "950": 0, "945": 0, "944": 0, "946": 0, "953": 0, "954": 0, "955": 0, "965": 1, "969": 1, "972": 1, "975": 1, "984": 1, "987": 1, "966": 0, "967": 0, "970": 0, "973": 0, "976": 0, "977": 0, "978": 0, "979": 0, "982": 0, "985": 0, "988": 0, "993": 1, "995": 1, "997": 1, "1014": 1, "1017": 1, "1020": 1, "1023": 1, "1026": 1, "1030": 1, "1038": 1, "1051": 1, "998": 1, "999": 0, "1000": 0, "1001": 0, "1002": 0, "1003": 1, "1004": 0, "1005": 0, "1008": 1, "1009": 0, "1010": 1, "1011": 1, "1012": 1, "1015": 0, "1018": 0, "1021": 0, "1024": 0, "1028": 0, "1031": 0, "1032": 0, "1033": 0, "1034": 0, "1035": 0, "1036": 0, "1039": 0, "1040": 0, "1041": 0, "1042": 0, "1043": 0, "1044": 0, "1045": 0, "1046": 0, "1047": 0, "1048": 0, "1049": 0, "1053": 0, "1054": 0, "1055": 0, "1056": 0, "1072": 1, "1073": 1, "1075": 1, "1083": 1, "1086": 1, "1089": 1, "1092": 1, "1095": 1, "1103": 1, "1108": 1, "1135": 1, "1076": 2, "1077": 0, "1078": 1, "1079": 1, "1080": 1, "1081": 1, "1084": 0, "1087": 0, "1090": 0, "1093": 0, "1096": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1101": 0, "1104": 0, "1105": 0, "1106": 0, "1109": 0, "1110": 0, "1111": 0, "1112": 0, "1113": 0, "1114": 0, "1115": 0, "1116": 0, "1117": 0, "1118": 0, "1119": 0, "1120": 0, "1121": 0, "1122": 0, "1123": 0, "1124": 0, "1125": 0, "1126": 0, "1127": 0, "1128": 0, "1129": 0, "1130": 0, "1131": 0, "1132": 0, "1133": 0, "1136": 0, "1137": 0, "1138": 0, "1146": 1, "1147": 1, "1148": 1, "1150": 1, "1156": 1, "1159": 1, "1162": 1, "1165": 1, "1170": 1, "1171": 1, "1174": 1, "1177": 1, "1188": 1, "1152": 0, "1153": 0, "1154": 0, "1157": 0, "1160": 0, "1163": 0, "1166": 0, "1167": 0, "1168": 0, "1172": 0, "1175": 0, "1178": 0, "1179": 0, "1180": 0, "1181": 0, "1182": 0, "1184": 0, "1185": 0, "1186": 0, "1193": 0, "1194": 0, "1195": 0, "1199": 1, "1200": 1, "1202": 1, "1206": 1, "1211": 1, "1224": 1, "1203": 0, "1204": 0, "1207": 0, "1208": 0, "1209": 0, "1212": 0, "1213": 0, "1214": 0, "1215": 0, "1216": 0, "1217": 0, "1218": 0, "1220": 0, "1221": 0, "1222": 0, "1228": 0, "1229": 0, "1230": 0, "1235": 1, "1236": 1, "1238": 1, "1248": 1, "1252": 1, "1255": 1, "1258": 1, "1284": 1, "1296": 1, "1302": 1, "1309": 1, "1312": 1, "1239": 0, "1240": 0, "1241": 0, "1242": 0, "1243": 0, "1244": 0, "1245": 0, "1246": 0, "1249": 0, "1250": 0, "1253": 0, "1256": 0, "1259": 0, "1260": 0, "1261": 0, "1262": 0, "1263": 0, "1264": 0, "1266": 0, "1267": 0, "1269": 0, "1270": 0, "1271": 0, "1273": 0, "1274": 0, "1275": 0, "1277": 0, "1278": 0, "1276": 0, "1279": 0, "1281": 0, "1282": 0, "1287": 0, "1288": 0, "1289": 0, "1290": 0, "1291": 0, "1293": 0, "1294": 0, "1297": 0, "1298": 0, "1299": 0, "1300": 0, "1303": 0, "1304": 0, "1305": 0, "1306": 0, "1307": 0, "1310": 0, "1313": 0, "1317": 1, "1321": 1, "1322": 1, "1323": 1, "1325": 1, "1354": 1, "1357": 1, "1360": 1, "1363": 1, "1396": 1, "1406": 1, "1414": 1, "1417": 1, "1326": 0, "1327": 0, "1328": 0, "1330": 0, "1331": 0, "1332": 0, "1333": 0, "1336": 0, "1337": 0, "1338": 0, "1339": 0, "1341": 0, "1342": 0, "1343": 0, "1344": 0, "1345": 0, "1347": 0, "1348": 0, "1351": 0, "1352": 0, "1355": 0, "1358": 0, "1361": 0, "1364": 0, "1365": 0, "1366": 0, "1367": 0, "1368": 0, "1370": 0, "1371": 0, "1372": 0, "1373": 0, "1375": 0, "1376": 0, "1378": 0, "1379": 0, "1380": 0, "1381": 0, "1383": 0, "1384": 0, "1385": 0, "1386": 0, "1388": 0, "1389": 0, "1391": 0, "1392": 0, "1393": 0, "1394": 0, "1397": 0, "1399": 0, "1400": 0, "1401": 0, "1402": 0, "1403": 0, "1404": 0, "1407": 0, "1408": 0, "1409": 0, "1410": 0, "1411": 0, "1415": 0, "1418": 0, "1429": 1, "1431": 1, "1435": 1, "1438": 1, "1441": 1, "1450": 1, "1453": 1, "1456": 1, "1476": 1, "1432": 0, "1433": 0, "1436": 0, "1439": 0, "1442": 0, "1443": 0, "1444": 0, "1445": 0, "1446": 0, "1447": 0, "1448": 0, "1451": 0, "1454": 0, "1457": 0, "1458": 0, "1459": 0, "1460": 0, "1462": 0, "1464": 0, "1465": 0, "1466": 0, "1467": 0, "1469": 0, "1470": 0, "1471": 0, "1472": 0, "1473": 0, "1477": 0, "1481": 1, "1483": 1, "1484": 0, "1488": 1, "1490": 1, "1491": 0}}
++ git checkout 96e7ff5e9ff6362d9a886545869ce4496ca4b0fb
+M	django/db/models/expressions.py
+Note: switching to '96e7ff5e9ff6362d9a886545869ce4496ca4b0fb'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 96e7ff5e9f Avoided isinstance(…, Variable) calls in FilterExpression.resolve().
++ git apply /root/pre_state.patch
+error: unrecognized input

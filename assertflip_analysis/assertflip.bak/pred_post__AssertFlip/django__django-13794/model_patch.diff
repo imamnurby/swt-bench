@@ -1,0 +1,27 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-13794.py
+new file mode 100644
+index e69de29..1b432aa 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-13794.py
+@@ -0,0 +1,21 @@
++from django.test import SimpleTestCase
++from django.utils.translation import gettext_lazy as _
++from django.template.defaultfilters import add
++
++class AddFilterLazyStringTests(SimpleTestCase):
++    def test_add_filter_with_lazy_string(self):
++        """
++        Test the add filter with a regular string and a lazy string.
++        """
++
++        # Regular string
++        regular_string = "Hello, "
++
++        # Lazy string
++        lazy_string = _("world!")
++
++        # Use the add filter to concatenate the regular string with the lazy string
++        result = add(regular_string, lazy_string)
++
++        # Assert that the result is the concatenation of the regular string and lazy string
++        self.assertEqual(result, 'Hello, world!')

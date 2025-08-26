@@ -1,0 +1,35 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-23314.py
+new file mode 100644
+index e69de29..7504a10 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-23314.py
+@@ -0,0 +1,29 @@
++import pytest
++import matplotlib.pyplot as plt
++from mpl_toolkits.mplot3d import Axes3D
++from PIL import Image
++import numpy as np
++
++def test_set_visible_on_3d_projection():
++    # Create a figure and a 3D subplot
++    fig, ax = plt.subplots(subplot_kw={'projection': '3d'})
++    
++    # Add a scatter plot to the subplot
++    ax.scatter([1], [1], [1])
++    
++    # Set the visibility of the subplot to False
++    ax.set_visible(False)
++    
++    # Save the figure to check if the subplot is still visible
++    fig.savefig('test_output.png')
++    
++    # Open the saved image and convert it to a numpy array
++    img = Image.open('test_output.png')
++    img_array = np.array(img)
++    
++    # Check if the image is completely white (assuming white background)
++    # If the subplot is not visible, the image should be all white
++    assert np.all(img_array == 255), "The subplot should not be visible in the saved figure"
++    
++    # Cleanup: Close the figure to avoid resource warnings
++    plt.close(fig)

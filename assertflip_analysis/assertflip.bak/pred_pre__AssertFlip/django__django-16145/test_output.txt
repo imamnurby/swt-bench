@@ -1,0 +1,386 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 93d4c9ea1de24eb391cb2b3561b6703fd46374df
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 93d4c9ea1de24eb391cb2b3561b6703fd46374df
+Author: Carlton Gibson <carlton.gibson@noumenal.es>
+Date:   Tue Oct 4 10:12:11 2022 +0200
+
+    Added CVE-2022-36359 to security archive.
+
+diff --git a/docs/releases/security.txt b/docs/releases/security.txt
+index f039379e0e..940f91fa0f 100644
+--- a/docs/releases/security.txt
++++ b/docs/releases/security.txt
+@@ -36,6 +36,17 @@ Issues under Django's security process
+ All security issues have been handled under versions of Django's security
+ process. These are listed below.
+ 
++October 4, 2022 - :cve:`2022-41323`
++-----------------------------------
++
++Potential denial-of-service vulnerability in internationalized URLs. `Full
++description
++<https://www.djangoproject.com/weblog/2022/oct/04/security-releases/>`__
++
++* Django 4.1 :commit:`(patch) <9d656ea51d9ea7105c0c0785783ac29d426a7d25>`
++* Django 4.0 :commit:`(patch) <23f0093125ac2e553da6c1b2f9988eb6a3dd2ea1>`
++* Django 3.2 :commit:`(patch) <5b6b257fa7ec37ff27965358800c67e2dd11c924>`
++
+ August 3, 2022 - :cve:`2022-36359`
+ ----------------------------------
+ 
++ git diff 93d4c9ea1de24eb391cb2b3561b6703fd46374df
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.5.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.2.dev20221004081211) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.2.dev20221004081211) (0.5.3)
+Requirement already satisfied: typing_extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from asgiref>=3.5.2->Django==4.2.dev20221004081211) (4.14.1)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.2.dev20221004081211-0.editable-py3-none-any.whl size=27255 sha256=11d435e91e9ef5c047ebc9ca13e17321dad3b1e3d3c6cdda51a4f5f52f4155be
+  Stored in directory: /tmp/pip-ephem-wheel-cache-mrzxajwp/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.2.dev20221004081211
+    Uninstalling Django-4.2.dev20221004081211:
+      Successfully uninstalled Django-4.2.dev20221004081211
+Successfully installed Django-4.2.dev20221004081211
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:23: trailing whitespace.
+        
+Checking patch tests/test_coverup_django__django-16145.py...
+Applied patch tests/test_coverup_django__django-16145.py cleanly.
+warning: 1 line adds whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/core/management/commands/runserver\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16145
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/core/management/commands/runserver\\.py)']
+Testing against Django installed in '/testbed/django'
+Found 1 test(s).
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+System check identified no issues (0 silenced).
+test_runserver_shorthand_ip_output (test_coverup_django__django-16145.RunserverShorthandIPTest)
+Test that running 'runserver 0:8000' outputs "Starting development server at http://0.0.0.0:8000/" ... FAIL
+
+======================================================================
+FAIL: test_runserver_shorthand_ip_output (test_coverup_django__django-16145.RunserverShorthandIPTest)
+Test that running 'runserver 0:8000' outputs "Starting development server at http://0.0.0.0:8000/"
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-16145.py", line 19, in test_runserver_shorthand_ip_output
+    self.assertIn("Starting development server at http://0.0.0.0:8000/", output)
+AssertionError: 'Starting development server at http://0.0.0.0:8000/' not found in '0.77 runserver.py(1): import errno\n0.77 runserver.py(2): import os\n0.77 runserver.py(3): import re\n0.77 runserver.py(4): import socket\n0.77 runserver.py(5): import sys\n0.77 runserver.py(6): from datetime import datetime\n0.77 runserver.py(8): from django.conf import settings\n0.77 runserver.py(9): from django.core.management.base import BaseCommand, CommandError\n0.77 runserver.py(10): from django.core.servers.basehttp import WSGIServer, get_internal_wsgi_application, run\n0.77 runserver.py(11): from django.utils import autoreload\n0.77 runserver.py(12): from django.utils.regex_helper import _lazy_re_compile\n0.77 runserver.py(14): naiveip_re = _lazy_re_compile(\n0.77 runserver.py(15):     r"""^(?:\n0.77 runserver.py(21):     re.X,\n0.77 runserver.py(14): naiveip_re = _lazy_re_compile(\n0.77 runserver.py(25): class Command(BaseCommand):\n0.77 runserver.py(25): class Command(BaseCommand):\n0.77 runserver.py(26):     help = "Starts a lightweight web server for development."\n0.77 runserver.py(29):     requires_system_checks = []\n0.77 runserver.py(30):     stealth_options = ("shutdown_message",)\n0.77 runserver.py(31):     suppressed_base_arguments = {"--verbosity", "--traceback"}\n0.77 runserver.py(33):     default_addr = "127.0.0.1"\n0.77 runserver.py(34):     default_addr_ipv6 = "::1"\n0.77 runserver.py(35):     default_port = "8000"\n0.77 runserver.py(36):     protocol = "http"\n0.77 runserver.py(37):     server_cls = WSGIServer\n0.77 runserver.py(39):     def add_arguments(self, parser):\n0.77 runserver.py(68):     def execute(self, *args, **options):\n0.77 runserver.py(76):     def get_handler(self, *args, **options):\n0.77 runserver.py(80):     def handle(self, *args, **options):\n0.77 runserver.py(113):     def run(self, **options):\n0.77 runserver.py(122):     def inner_run(self, *args, **options):\n0.77 runserver.py(40):         parser.add_argument(\n0.77 runserver.py(41):             "addrport", nargs="?", help="Optional port number, or ipaddr:port"\n0.77 runserver.py(40):         parser.add_argument(\n0.77 runserver.py(43):         parser.add_argument(\n0.77 runserver.py(44):             "--ipv6",\n0.77 runserver.py(45):             "-6",\n0.77 runserver.py(46):             action="store_true",\n0.77 runserver.py(47):             dest="use_ipv6",\n0.77 runserver.py(48):             help="Tells Django to use an IPv6 address.",\n0.77 runserver.py(43):         parser.add_argument(\n0.77 runserver.py(50):         parser.add_argument(\n0.77 runserver.py(51):             "--nothreading",\n0.77 runserver.py(52):             action="store_false",\n0.77 runserver.py(53):             dest="use_threading",\n0.77 runserver.py(54):             help="Tells Django to NOT use threading.",\n0.77 runserver.py(50):         parser.add_argument(\n0.77 runserver.py(56):         parser.add_argument(\n0.77 runserver.py(57):             "--noreload",\n0.77 runserver.py(58):             action="store_false",\n0.77 runserver.py(59):             dest="use_reloader",\n0.77 runserver.py(60):             help="Tells Django to NOT use the auto-reloader.",\n0.77 runserver.py(56):         parser.add_argument(\n0.77 runserver.py(62):         parser.add_argument(\n0.77 runserver.py(63):             "--skip-checks",\n0.77 runserver.py(64):             action="store_true",\n0.77 runserver.py(65):             help="Skip system checks.",\n0.77 runserver.py(62):         parser.add_argument(\n0.77 runserver.py(69):         if options["no_color"]:\n0.77 runserver.py(74):         super().execute(*args, **options)\n0.77 runserver.py(81):         if not settings.DEBUG and not settings.ALLOWED_HOSTS:\n0.77 runserver.py(84):         self.use_ipv6 = options["use_ipv6"]\n0.77 runserver.py(85):         if self.use_ipv6 and not socket.has_ipv6:\n0.77 runserver.py(87):         self._raw_ipv6 = False\n0.77 runserver.py(88):         if not options["addrport"]:\n0.77 runserver.py(92):             m = re.match(naiveip_re, options["addrport"])\n0.77 runserver.py(93):             if m is None:\n0.77 runserver.py(98):             self.addr, _ipv4, _ipv6, _fqdn, self.port = m.groups()\n0.77 runserver.py(99):             if not self.port.isdigit():\n0.77 runserver.py(101):             if self.addr:\n0.77 runserver.py(102):                 if _ipv6:\n0.77 runserver.py(106):                 elif self.use_ipv6 and not _fqdn:\n0.77 runserver.py(108):         if not self.addr:\n0.77 runserver.py(111):         self.run(**options)\n0.77 runserver.py(115):         use_reloader = options["use_reloader"]\n0.77 runserver.py(117):         if use_reloader:\n0.77 runserver.py(120):             self.inner_run(None, **options)\n0.77 runserver.py(125):         autoreload.raise_last_exception()\n0.77 runserver.py(127):         threading = options["use_threading"]\n0.77 runserver.py(129):         shutdown_message = options.get("shutdown_message", "")\n0.77 runserver.py(130):         quit_command = "CTRL-BREAK" if sys.platform == "win32" else "CONTROL-C"\n0.77 runserver.py(132):         if not options["skip_checks"]:\n0.77 runserver.py(137):         self.check_migrations()\n0.77 runserver.py(138):         now = datetime.now().strftime("%B %d, %Y - %X")\n0.77 runserver.py(139):         self.stdout.write(now)\nAugust 25, 2025 - 00:19:42\n0.77 runserver.py(140):         self.stdout.write(\n0.77 runserver.py(142):                 "Django version %(version)s, using settings %(settings)r\\n"\n0.77 runserver.py(147):                 "version": self.get_version(),\n0.77 runserver.py(148):                 "settings": settings.SETTINGS_MODULE,\n0.77 runserver.py(149):                 "protocol": self.protocol,\n0.77 runserver.py(150):                 "addr": "[%s]" % self.addr if self._raw_ipv6 else self.addr,\n0.77 runserver.py(151):                 "port": self.port,\n0.77 runserver.py(152):                 "quit_command": quit_command,\n0.77 runserver.py(146):             % {\n0.77 runserver.py(141):             (\n0.77 runserver.py(140):         self.stdout.write(\nDjango version 4.2.dev20221004081211, using settings \'test_sqlite\'\nStarting development server at http://0:8000/\nQuit the server with CONTROL-C.\n0.77 runserver.py(156):         try:\n0.77 runserver.py(157):             handler = self.get_handler(*args, **options)\n0.77 runserver.py(78):         return get_internal_wsgi_application()\n0.78 runserver.py(158):             run(\n0.78 runserver.py(159):                 self.addr,\n0.78 runserver.py(160):                 int(self.port),\n0.78 runserver.py(161):                 handler,\n0.78 runserver.py(162):                 ipv6=self.use_ipv6,\n0.78 runserver.py(163):                 threading=threading,\n0.78 runserver.py(164):                 server_cls=self.server_cls,\n0.78 runserver.py(158):             run(\n'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+FAILED (failures=1)
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
++ cat coverage.cover
+{"/testbed/django/core/management/commands/runserver.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "14": 2, "15": 1, "21": 1, "25": 2, "26": 1, "29": 1, "30": 1, "31": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "39": 1, "68": 1, "76": 1, "80": 1, "113": 1, "122": 1, "40": 2, "41": 1, "43": 2, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "50": 2, "51": 1, "52": 1, "53": 1, "54": 1, "56": 2, "57": 1, "58": 1, "59": 1, "60": 1, "62": 2, "63": 1, "64": 1, "65": 1, "69": 1, "73": 0, "74": 1, "78": 1, "81": 1, "82": 0, "84": 1, "85": 1, "86": 0, "87": 1, "88": 1, "89": 0, "90": 0, "92": 1, "93": 1, "94": 0, "95": 0, "96": 0, "98": 1, "99": 1, "100": 0, "101": 1, "102": 1, "103": 0, "104": 0, "105": 0, "106": 1, "107": 0, "108": 1, "109": 0, "110": 0, "111": 1, "115": 1, "117": 1, "118": 0, "120": 1, "125": 1, "127": 1, "129": 1, "130": 1, "132": 1, "133": 0, "134": 0, "137": 1, "138": 1, "139": 1, "140": 2, "142": 1, "147": 1, "148": 1, "149": 1, "150": 1, "151": 1, "152": 1, "146": 1, "141": 1, "156": 1, "157": 1, "158": 2, "159": 1, "160": 1, "161": 1, "162": 1, "163": 1, "164": 1, "166": 0, "169": 0, "170": 0, "171": 0, "168": 0, "173": 0, "174": 0, "175": 0, "176": 0, "177": 0, "179": 0, "180": 0, "181": 0, "182": 0, "183": 0}}
++ git checkout 93d4c9ea1de24eb391cb2b3561b6703fd46374df
+Note: switching to '93d4c9ea1de24eb391cb2b3561b6703fd46374df'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 93d4c9ea1d Added CVE-2022-36359 to security archive.
++ git apply /root/pre_state.patch
+error: unrecognized input

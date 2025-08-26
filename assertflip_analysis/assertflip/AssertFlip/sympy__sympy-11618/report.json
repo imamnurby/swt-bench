@@ -1,0 +1,48 @@
+{
+    "sympy__sympy-11618": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.8,
+        "coverage_gold": 0.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 0.8,
+        "coverage_delta_gold": 0.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_distance_ignores_third_dimension",
+                "test_coverup_sympy__sympy-11618.py:test_distance_ignores_third_dimension"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "test_issue_11617"
+            ],
+            "PASS_TO_PASS": [
+                "test_transform",
+                "test_issue_9214",
+                "test_Point2D",
+                "test_point3D",
+                "test_concyclic_doctest_bug"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_point"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

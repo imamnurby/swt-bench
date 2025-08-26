@@ -1,0 +1,41 @@
+{
+    "sympy__sympy-13974": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.21212121212121213,
+        "coverage_gold": 0.45454545454545453,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 0.21212121212121213,
+        "coverage_delta_gold": 0.45454545454545453,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_sympy__sympy-13974.py:test_tensor_product_power_simplification",
+                "test_tensor_product_power_simplification"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_tensor_product_dagger",
+                "test_tensor_product_simp"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

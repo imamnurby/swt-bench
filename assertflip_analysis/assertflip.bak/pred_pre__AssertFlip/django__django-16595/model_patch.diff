@@ -1,0 +1,46 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-16595.py
+new file mode 100644
+index e69de29..4cec1a4 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-16595.py
+@@ -0,0 +1,40 @@
++from django.test import SimpleTestCase
++from django.db import migrations, models
++
++class MigrationOptimizerBugTest(SimpleTestCase):
++    def test_alterfield_operations_not_reduced(self):
++        # Setup: Define multiple AlterField operations on the same field
++        operations = [
++            migrations.AlterField(
++                model_name="book",
++                name="title",
++                field=models.CharField(max_length=128, null=True),
++            ),
++            migrations.AlterField(
++                model_name="book",
++                name="title",
++                field=models.CharField(max_length=128, null=True, help_text="help"),
++            ),
++            migrations.AlterField(
++                model_name="book",
++                name="title",
++                field=models.CharField(max_length=128, null=True, help_text="help", default=None),
++            ),
++        ]
++
++        # Simulate the optimizer's behavior by directly calling the reduce method
++        reduced_operations = []
++        for op in operations:
++            if reduced_operations:
++                last_op = reduced_operations[-1]
++                reduced = last_op.reduce(op, "books")
++                if reduced is not None and isinstance(reduced, list):
++                    reduced_operations.pop()
++                    reduced_operations.extend(reduced)
++                else:
++                    reduced_operations.append(op)
++            else:
++                reduced_operations.append(op)
++
++        # Assert: The operations should be reduced to a single operation
++        self.assertEqual(len(reduced_operations), 1)

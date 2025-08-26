@@ -1,0 +1,922 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 479939f8c65c8c2908bbedc959549a257a7c0b0b
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 479939f8c65c8c2908bbedc959549a257a7c0b0b
+Merge: c9d60afad4 bdfa6eaa50
+Author: Björn Dahlgren <bjodah@gmail.com>
+Date:   Sat Mar 25 10:56:42 2017 +0100
+
+    Merge pull request #12410 from nschloe/patch-2
+    
+    remove |download| cruft in README
+
++ git diff 479939f8c65c8c2908bbedc959549a257a7c0b0b
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.0.1.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.0.1.dev0
+    Uninstalling sympy-1.0.1.dev0:
+      Successfully uninstalled sympy-1.0.1.dev0
+  DEPRECATION: Legacy editable install of sympy==1.0.1.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-12419.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-12419.py cleanly.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/matrices/expressions/matexpr\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-12419.p
+/testbed/sympy/core/basic.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/matrices/expressions/matexpr\\.py)']
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(1): from __future__ import print_function, division
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(3): from functools import wraps
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(5): from sympy.core import S, Symbol, Tuple, Integer, Basic, Expr
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(6): from sympy.core.decorators import call_highest_priority
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(7): from sympy.core.compatibility import range
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(8): from sympy.core.sympify import SympifyError, sympify
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(9): from sympy.functions import conjugate, adjoint
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(10): from sympy.matrices import ShapeError
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(11): from sympy.simplify import simplify
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(14): def _sympifyit(arg, retval=None):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(30): class MatrixExpr(Basic):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(30): class MatrixExpr(Basic):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(31):     """ Superclass for Matrix Expressions
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(56):     _iterable = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(58):     _op_priority = 11.0
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(60):     is_Matrix = True
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(61):     is_MatrixExpr = True
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(62):     is_Identity = None
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(63):     is_Inverse = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(64):     is_Transpose = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(65):     is_ZeroMatrix = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(66):     is_MatAdd = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(67):     is_MatMul = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(69):     is_commutative = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(72):     def __new__(cls, *args, **kwargs):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(77):     def __neg__(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(80):     def __abs__(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(83):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(84):     @call_highest_priority('__radd__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(85):     def __add__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(88):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(89):     @call_highest_priority('__add__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(90):     def __radd__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(93):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(94):     @call_highest_priority('__rsub__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(95):     def __sub__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(98):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(99):     @call_highest_priority('__sub__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(100):     def __rsub__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(103):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(104):     @call_highest_priority('__rmul__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(105):     def __mul__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(108):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(109):     @call_highest_priority('__rmul__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(110):     def __matmul__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(113):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(114):     @call_highest_priority('__mul__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(115):     def __rmul__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(118):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(119):     @call_highest_priority('__mul__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(120):     def __rmatmul__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(123):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(124):     @call_highest_priority('__rpow__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(125):     def __pow__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(138):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(139):     @call_highest_priority('__pow__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(140):     def __rpow__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(143):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(144):     @call_highest_priority('__rdiv__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(145):     def __div__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(148):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(149):     @call_highest_priority('__div__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(150):     def __rdiv__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(154):     __truediv__ = __div__
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(155):     __rtruediv__ = __rdiv__
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(157):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(158):     def rows(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(161):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(162):     def cols(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(165):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(166):     def is_square(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(169):     def _eval_conjugate(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(174):     def as_real_imag(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(180):     def _eval_inverse(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(184):     def _eval_transpose(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(187):     def _eval_power(self, exp):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(190):     def _eval_simplify(self, **kwargs):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(196):     def _eval_adjoint(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(200):     def _entry(self, i, j):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(204):     def adjoint(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(207):     def conjugate(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(210):     def transpose(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(214):     T = property(transpose, None, None, 'Matrix transposition.')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(216):     def inverse(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(219):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(220):     def I(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(223):     def valid_index(self, i, j):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(230):     def __getitem__(self, key):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(262):     def as_explicit(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(291):     def as_mutable(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(316):     def __array__(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(324):     def equals(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(335):     def canonicalize(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(338):     def as_coeff_mmul(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(342): class MatrixElement(Expr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(342): class MatrixElement(Expr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(343):     parent = property(lambda self: self.args[0])
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(344):     i = property(lambda self: self.args[1])
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(345):     j = property(lambda self: self.args[2])
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(346):     _diff_wrt = True
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(347):     is_symbol = True
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(348):     is_commutative = True
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(350):     def __new__(cls, name, n, m):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(360):     def doit(self, **kwargs):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(368):     def _eval_derivative(self, v):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(382): class MatrixSymbol(MatrixExpr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(382): class MatrixSymbol(MatrixExpr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(383):     """Symbolic representation of a Matrix object
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(396):     is_commutative = False
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(398):     def __new__(cls, name, n, m):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(403):     def _hashable_content(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(406):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(407):     def shape(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(410):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(411):     def name(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(414):     def _eval_subs(self, old, new):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(419):     def __call__(self, *args):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(422):     def _entry(self, i, j):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(425):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(426):     def free_symbols(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(429):     def doit(self, **hints):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(436):     def _eval_simplify(self, **kwargs):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(439): class Identity(MatrixExpr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(439): class Identity(MatrixExpr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(440):     """The Matrix Identity I - multiplicative identity
+0.75 /testbed/sympy/plotting/plot.py:28: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Callable
+/testbed/sympy/core/basic.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/matrices/expressions/matexpr\\.py)']
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(1): from __future__ import print_function, division
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(3): from functools import wraps
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(5): from sympy.core import S, Symbol, Tuple, Integer, Basic, Expr
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(6): from sympy.core.decorators import call_highest_priority
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(7): from sympy.core.compatibility import range
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(8): from sympy.core.sympify import SympifyError, sympify
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(9): from sympy.functions import conjugate, adjoint
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(10): from sympy.matrices import ShapeError
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(11): from sympy.simplify import simplify
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(14): def _sympifyit(arg, retval=None):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(30): class MatrixExpr(Basic):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(30): class MatrixExpr(Basic):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(31):     """ Superclass for Matrix Expressions
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(56):     _iterable = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(58):     _op_priority = 11.0
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(60):     is_Matrix = True
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(61):     is_MatrixExpr = True
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(62):     is_Identity = None
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(63):     is_Inverse = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(64):     is_Transpose = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(65):     is_ZeroMatrix = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(66):     is_MatAdd = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(67):     is_MatMul = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(69):     is_commutative = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(72):     def __new__(cls, *args, **kwargs):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(77):     def __neg__(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(80):     def __abs__(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(83):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(84):     @call_highest_priority('__radd__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(85):     def __add__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(88):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(89):     @call_highest_priority('__add__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(90):     def __radd__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(93):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(94):     @call_highest_priority('__rsub__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(95):     def __sub__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(98):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(99):     @call_highest_priority('__sub__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(100):     def __rsub__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(103):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(104):     @call_highest_priority('__rmul__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(105):     def __mul__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(108):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(109):     @call_highest_priority('__rmul__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(110):     def __matmul__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(113):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(114):     @call_highest_priority('__mul__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(115):     def __rmul__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(118):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(119):     @call_highest_priority('__mul__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(120):     def __rmatmul__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(123):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(124):     @call_highest_priority('__rpow__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(125):     def __pow__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(138):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(139):     @call_highest_priority('__pow__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(140):     def __rpow__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(143):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(144):     @call_highest_priority('__rdiv__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(145):     def __div__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(148):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(149):     @call_highest_priority('__div__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(150):     def __rdiv__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(154):     __truediv__ = __div__
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(155):     __rtruediv__ = __rdiv__
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(157):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(158):     def rows(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(161):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(162):     def cols(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(165):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(166):     def is_square(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(169):     def _eval_conjugate(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(174):     def as_real_imag(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(180):     def _eval_inverse(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(184):     def _eval_transpose(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(187):     def _eval_power(self, exp):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(190):     def _eval_simplify(self, **kwargs):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(196):     def _eval_adjoint(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(200):     def _entry(self, i, j):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(204):     def adjoint(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(207):     def conjugate(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(210):     def transpose(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(214):     T = property(transpose, None, None, 'Matrix transposition.')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(216):     def inverse(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(219):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(220):     def I(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(223):     def valid_index(self, i, j):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(230):     def __getitem__(self, key):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(262):     def as_explicit(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(291):     def as_mutable(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(316):     def __array__(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(324):     def equals(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(335):     def canonicalize(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(338):     def as_coeff_mmul(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(342): class MatrixElement(Expr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(342): class MatrixElement(Expr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(343):     parent = property(lambda self: self.args[0])
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(344):     i = property(lambda self: self.args[1])
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(345):     j = property(lambda self: self.args[2])
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(346):     _diff_wrt = True
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(347):     is_symbol = True
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(348):     is_commutative = True
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(350):     def __new__(cls, name, n, m):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(360):     def doit(self, **kwargs):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(368):     def _eval_derivative(self, v):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(382): class MatrixSymbol(MatrixExpr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(382): class MatrixSymbol(MatrixExpr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(383):     """Symbolic representation of a Matrix object
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(396):     is_commutative = False
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(398):     def __new__(cls, name, n, m):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(403):     def _hashable_content(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(406):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(407):     def shape(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(410):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(411):     def name(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(414):     def _eval_subs(self, old, new):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(419):     def __call__(self, *args):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(422):     def _entry(self, i, j):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(425):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(426):     def free_symbols(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(429):     def doit(self, **hints):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(436):     def _eval_simplify(self, **kwargs):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(439): class Identity(MatrixExpr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(439): class Identity(MatrixExpr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(440):     """The Matrix Identity I - multiplicative identity
+0.34 /testbed/sympy/plotting/plot.py:28: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Callable
+/testbed/sympy/matrices/expressions/matexpr.py(449):     is_Identity = True
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(451):     def __new__(cls, n):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(454):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(455):     def rows(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(458):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(459):     def cols(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(462):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(463):     def shape(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(466):     def _eval_transpose(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(469):     def _eval_trace(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(472):     def _eval_inverse(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(475):     def conjugate(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(478):     def _entry(self, i, j):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(484):     def _eval_determinant(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(488): class ZeroMatrix(MatrixExpr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(488): class ZeroMatrix(MatrixExpr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(489):     """The Matrix Zero 0 - additive identity
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(499):     is_ZeroMatrix = True
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(501):     def __new__(cls, m, n):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(504):     @property
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(505):     def shape(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(509):     @_sympifyit('other', NotImplemented)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(510):     @call_highest_priority('__rpow__')
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(511):     def __pow__(self, other):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(520):     def _eval_transpose(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(523):     def _eval_trace(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(526):     def _eval_determinant(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(529):     def conjugate(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(532):     def _entry(self, i, j):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(535):     def __nonzero__(self):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(538):     __bool__ = __nonzero__
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(541): def matrix_symbols(expr):
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(544): from .matmul import MatMul
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(545): from .matadd import MatAdd
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(546): from .matpow import MatPow
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(547): from .transpose import Transpose
+0.34 /testbed/sympy/matrices/expressions/matexpr.py(548): from .inverse import Inverse
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+random seed:        86759950
+hash randomization: on (PYTHONHASHSEED=3243876950)
+
+sympy/polys/tests/test_coverup_sympy__sympy-12419.py[1] 
+test_identity_matrix_sum_bug 0.40 /testbed/sympy/matrices/expressions/matexpr.py(399):         n, m = sympify(n), sympify(m)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(400):         obj = Basic.__new__(cls, name, n, m)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(401):         return obj
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(404):         return(self.name, self.shape)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(412):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(408):         return self.args[1:3]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(452):         return super(Identity, cls).__new__(cls, sympify(n))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(73):         args = map(sympify, args)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(74):         return Basic.__new__(cls, *args, **kwargs)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(231):         if not isinstance(key, tuple) and isinstance(key, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(234):         if isinstance(key, tuple) and len(key) == 2:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(235):             i, j = key
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(236):             if isinstance(i, slice) or isinstance(j, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(239):             i, j = sympify(i), sympify(j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(240):             if self.valid_index(i, j) != False:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(224):         def is_valid(idx):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(456):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(460):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(241):                 return self._entry(i, j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(479):         if i == j:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(480):             return S.One
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(231):         if not isinstance(key, tuple) and isinstance(key, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(234):         if isinstance(key, tuple) and len(key) == 2:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(235):             i, j = key
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(236):             if isinstance(i, slice) or isinstance(j, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(239):             i, j = sympify(i), sympify(j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(240):             if self.valid_index(i, j) != False:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(224):         def is_valid(idx):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(456):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(460):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(241):                 return self._entry(i, j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(479):         if i == j:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(482):             return S.Zero
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(231):         if not isinstance(key, tuple) and isinstance(key, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(234):         if isinstance(key, tuple) and len(key) == 2:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(235):             i, j = key
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(236):             if isinstance(i, slice) or isinstance(j, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(239):             i, j = sympify(i), sympify(j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(240):             if self.valid_index(i, j) != False:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(224):         def is_valid(idx):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(456):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(460):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(241):                 return self._entry(i, j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(479):         if i == j:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(482):             return S.Zero
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(231):         if not isinstance(key, tuple) and isinstance(key, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(234):         if isinstance(key, tuple) and len(key) == 2:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(235):             i, j = key
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(236):             if isinstance(i, slice) or isinstance(j, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(239):             i, j = sympify(i), sympify(j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(240):             if self.valid_index(i, j) != False:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(224):         def is_valid(idx):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(456):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(460):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(241):                 return self._entry(i, j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(479):         if i == j:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(480):             return S.One
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(231):         if not isinstance(key, tuple) and isinstance(key, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(234):         if isinstance(key, tuple) and len(key) == 2:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(235):             i, j = key
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(236):             if isinstance(i, slice) or isinstance(j, slice):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(239):             i, j = sympify(i), sympify(j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(240):             if self.valid_index(i, j) != False:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(224):         def is_valid(idx):
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(225):             return isinstance(idx, (int, Integer, Symbol, Expr))
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(227):                 (0 <= i) != False and (i < self.rows) != False and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(456):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(228):                 (0 <= j) != False and (j < self.cols) != False)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(460):         return self.args[0]
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(226):         return (is_valid(i) and is_valid(j) and
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(241):                 return self._entry(i, j)
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(479):         if i == j:
+0.40 /testbed/sympy/matrices/expressions/matexpr.py(482):             return S.Zero
+F                                            [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-12419.py:test_identity_matrix_sum_bug 
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-12419.py", line 24, in test_identity_matrix_sum_bug
+    assert total_sum == n  # The total sum should be 'n' for an identity matrix of size n
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.02 seconds ==============
+DO *NOT* COMMIT!
+/testbed/sympy/matrices/expressions/matexpr.py(449):     is_Identity = True
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(451):     def __new__(cls, n):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(454):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(455):     def rows(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(458):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(459):     def cols(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(462):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(463):     def shape(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(466):     def _eval_transpose(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(469):     def _eval_trace(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(472):     def _eval_inverse(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(475):     def conjugate(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(478):     def _entry(self, i, j):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(484):     def _eval_determinant(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(488): class ZeroMatrix(MatrixExpr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(488): class ZeroMatrix(MatrixExpr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(489):     """The Matrix Zero 0 - additive identity
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(499):     is_ZeroMatrix = True
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(501):     def __new__(cls, m, n):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(504):     @property
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(505):     def shape(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(509):     @_sympifyit('other', NotImplemented)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(16):     def deco(func):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(27):     return deco
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(510):     @call_highest_priority('__rpow__')
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(511):     def __pow__(self, other):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(17):         @wraps(func)
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(18):         def __sympifyit_wrapper(a, b):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(25):         return __sympifyit_wrapper
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(520):     def _eval_transpose(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(523):     def _eval_trace(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(526):     def _eval_determinant(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(529):     def conjugate(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(532):     def _entry(self, i, j):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(535):     def __nonzero__(self):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(538):     __bool__ = __nonzero__
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(541): def matrix_symbols(expr):
+0.75 /testbed/sympy/matrices/expressions/matexpr.py(544): from .matmul import MatMul
+0.76 /testbed/sympy/matrices/expressions/matexpr.py(545): from .matadd import MatAdd
+0.76 /testbed/sympy/matrices/expressions/matexpr.py(546): from .matpow import MatPow
+0.76 /testbed/sympy/matrices/expressions/matexpr.py(547): from .transpose import Transpose
+0.76 /testbed/sympy/matrices/expressions/matexpr.py(548): from .inverse import Inverse
++ cat coverage.cover
+{"/testbed/sympy/matrices/expressions/matexpr.py": {"1": 1, "3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "14": 1, "30": 2, "342": 2, "382": 2, "439": 2, "488": 2, "541": 1, "544": 1, "545": 1, "546": 1, "547": 1, "548": 1, "16": 13, "27": 13, "17": 13, "18": 13, "25": 13, "19": 0, "20": 0, "21": 0, "22": 0, "23": 0, "56": 1, "58": 1, "60": 1, "61": 1, "62": 1, "63": 1, "64": 1, "65": 1, "66": 1, "67": 1, "69": 1, "72": 1, "77": 1, "80": 1, "83": 1, "84": 1, "85": 1, "88": 1, "89": 1, "90": 1, "93": 1, "94": 1, "95": 1, "98": 1, "99": 1, "100": 1, "103": 1, "104": 1, "105": 1, "108": 1, "109": 1, "110": 1, "113": 1, "114": 1, "115": 1, "118": 1, "119": 1, "120": 1, "123": 1, "124": 1, "125": 1, "138": 1, "139": 1, "140": 1, "143": 1, "144": 1, "145": 1, "148": 1, "149": 1, "150": 1, "154": 1, "155": 1, "157": 1, "158": 1, "161": 1, "162": 1, "165": 1, "166": 1, "169": 1, "174": 1, "180": 1, "184": 1, "187": 1, "190": 1, "196": 1, "200": 1, "204": 1, "207": 1, "210": 1, "214": 1, "216": 1, "219": 1, "220": 1, "223": 1, "230": 1, "262": 1, "291": 1, "316": 1, "324": 1, "335": 1, "338": 1, "73": 1, "74": 1, "78": 0, "81": 0, "86": 0, "91": 0, "96": 0, "101": 0, "106": 0, "111": 0, "116": 0, "121": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "141": 0, "146": 0, "151": 0, "159": 0, "163": 0, "167": 0, "170": 0, "171": 0, "172": 0, "175": 0, "176": 0, "177": 0, "178": 0, "181": 0, "182": 0, "185": 0, "188": 0, "191": 0, "192": 0, "194": 0, "197": 0, "198": 0, "201": 0, "202": 0, "205": 0, "208": 0, "211": 0, "212": 0, "217": 0, "221": 0, "224": 5, "226": 25, "227": 10, "228": 10, "225": 10, "231": 5, "232": 0, "233": 0, "234": 5, "235": 5, "236": 5, "237": 0, "238": 0, "239": 5, "240": 5, "241": 5, "243": 0, "244": 0, "246": 0, "247": 0, "248": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "256": 0, "257": 0, "258": 0, "260": 0, "286": 0, "287": 0, "289": 0, "288": 0, "314": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "333": 0, "336": 0, "339": 0, "343": 1, "344": 1, "345": 1, "346": 1, "347": 1, "348": 1, "350": 1, "360": 1, "368": 1, "351": 0, "352": 0, "353": 0, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "361": 0, "362": 0, "363": 0, "365": 0, "366": 0, "369": 0, "370": 0, "371": 0, "372": 0, "373": 0, "375": 0, "376": 0, "378": 0, "379": 0, "396": 1, "398": 1, "403": 1, "406": 1, "407": 1, "410": 1, "411": 1, "414": 1, "419": 1, "422": 1, "425": 1, "426": 1, "429": 1, "436": 1, "399": 1, "400": 1, "401": 1, "404": 1, "408": 1, "412": 1, "416": 0, "417": 0, "420": 0, "423": 0, "427": 0, "430": 0, "431": 0, "432": 0, "434": 0, "437": 0, "449": 1, "451": 1, "454": 1, "455": 1, "458": 1, "459": 1, "462": 1, "463": 1, "466": 1, "469": 1, "472": 1, "475": 1, "478": 1, "484": 1, "452": 1, "456": 5, "460": 5, "464": 0, "467": 0, "470": 0, "473": 0, "476": 0, "479": 5, "480": 2, "482": 3, "485": 0, "499": 1, "501": 1, "504": 1, "505": 1, "509": 1, "510": 1, "511": 1, "520": 1, "523": 1, "526": 1, "529": 1, "532": 1, "535": 1, "538": 1, "502": 0, "506": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "521": 0, "524": 0, "527": 0, "530": 0, "533": 0, "536": 0, "542": 0}}
+{"/testbed/sympy/matrices/expressions/matexpr.py": {"1": 1, "3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "14": 1, "30": 2, "342": 2, "382": 2, "439": 2, "488": 2, "541": 1, "544": 1, "545": 1, "546": 1, "547": 1, "548": 1, "16": 13, "27": 13, "17": 13, "18": 13, "25": 13, "19": 0, "20": 0, "21": 0, "22": 0, "23": 0, "56": 1, "58": 1, "60": 1, "61": 1, "62": 1, "63": 1, "64": 1, "65": 1, "66": 1, "67": 1, "69": 1, "72": 1, "77": 1, "80": 1, "83": 1, "84": 1, "85": 1, "88": 1, "89": 1, "90": 1, "93": 1, "94": 1, "95": 1, "98": 1, "99": 1, "100": 1, "103": 1, "104": 1, "105": 1, "108": 1, "109": 1, "110": 1, "113": 1, "114": 1, "115": 1, "118": 1, "119": 1, "120": 1, "123": 1, "124": 1, "125": 1, "138": 1, "139": 1, "140": 1, "143": 1, "144": 1, "145": 1, "148": 1, "149": 1, "150": 1, "154": 1, "155": 1, "157": 1, "158": 1, "161": 1, "162": 1, "165": 1, "166": 1, "169": 1, "174": 1, "180": 1, "184": 1, "187": 1, "190": 1, "196": 1, "200": 1, "204": 1, "207": 1, "210": 1, "214": 1, "216": 1, "219": 1, "220": 1, "223": 1, "230": 1, "262": 1, "291": 1, "316": 1, "324": 1, "335": 1, "338": 1, "73": 0, "74": 0, "78": 0, "81": 0, "86": 0, "91": 0, "96": 0, "101": 0, "106": 0, "111": 0, "116": 0, "121": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "141": 0, "146": 0, "151": 0, "159": 0, "163": 0, "167": 0, "170": 0, "171": 0, "172": 0, "175": 0, "176": 0, "177": 0, "178": 0, "181": 0, "182": 0, "185": 0, "188": 0, "191": 0, "192": 0, "194": 0, "197": 0, "198": 0, "201": 0, "202": 0, "205": 0, "208": 0, "211": 0, "212": 0, "217": 0, "221": 0, "224": 0, "226": 0, "227": 0, "228": 0, "225": 0, "231": 0, "232": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "240": 0, "241": 0, "243": 0, "244": 0, "246": 0, "247": 0, "248": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "256": 0, "257": 0, "258": 0, "260": 0, "286": 0, "287": 0, "289": 0, "288": 0, "314": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "333": 0, "336": 0, "339": 0, "343": 1, "344": 1, "345": 1, "346": 1, "347": 1, "348": 1, "350": 1, "360": 1, "368": 1, "351": 0, "352": 0, "353": 0, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "361": 0, "362": 0, "363": 0, "365": 0, "366": 0, "369": 0, "370": 0, "371": 0, "372": 0, "373": 0, "375": 0, "376": 0, "378": 0, "379": 0, "396": 1, "398": 1, "403": 1, "406": 1, "407": 1, "410": 1, "411": 1, "414": 1, "419": 1, "422": 1, "425": 1, "426": 1, "429": 1, "436": 1, "399": 0, "400": 0, "401": 0, "404": 0, "408": 0, "412": 0, "416": 0, "417": 0, "420": 0, "423": 0, "427": 0, "430": 0, "431": 0, "432": 0, "434": 0, "437": 0, "449": 1, "451": 1, "454": 1, "455": 1, "458": 1, "459": 1, "462": 1, "463": 1, "466": 1, "469": 1, "472": 1, "475": 1, "478": 1, "484": 1, "452": 0, "456": 0, "460": 0, "464": 0, "467": 0, "470": 0, "473": 0, "476": 0, "479": 0, "480": 0, "482": 0, "485": 0, "499": 1, "501": 1, "504": 1, "505": 1, "509": 1, "510": 1, "511": 1, "520": 1, "523": 1, "526": 1, "529": 1, "532": 1, "535": 1, "538": 1, "502": 0, "506": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "521": 0, "524": 0, "527": 0, "530": 0, "533": 0, "536": 0, "542": 0}}
++ git checkout 479939f8c65c8c2908bbedc959549a257a7c0b0b
+Note: switching to '479939f8c65c8c2908bbedc959549a257a7c0b0b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 479939f8c6 Merge pull request #12410 from nschloe/patch-2
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,14 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-15017.py
+new file mode 100644
+index e69de29..693d136 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-15017.py
+@@ -0,0 +1,8 @@
++from sympy import Array
++
++def test_len_rank_0_array():
++    # Create a rank-0 array (scalar) using sympy.Array
++    a = Array(3)
++    
++    # Assert that len(a) returns 1, which is the correct behavior
++    assert len(a) == 1

@@ -1,0 +1,51 @@
+{
+    "sphinx-doc__sphinx-11445": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": true,
+        "coverage_pred": 0.8333333333333334,
+        "coverage_gold": 0.8333333333333334,
+        "coverage_base": 0.5833333333333334,
+        "coverage_delta_pred": 0.3333333333333333,
+        "coverage_delta_gold": 0.3333333333333333,
+        "added_f2p": 1,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "file"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [
+                "tests/test_coverup_sphinx-doc__sphinx-11445.py::test_rst_prolog_with_domain_directive"
+            ],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "tests/test_util_rst.py::test_prepend_prolog_with_roles_in_sections_with_newline",
+                "tests/test_util_rst.py::test_prepend_prolog_with_roles_in_sections_without_newline"
+            ],
+            "PASS_TO_PASS": [
+                "tests/test_util_rst.py::test_textwidth",
+                "tests/test_util_rst.py::test_prepend_prolog_without_CR",
+                "tests/test_util_rst.py::test_prepend_prolog",
+                "tests/test_util_rst.py::test_heading",
+                "tests/test_util_rst.py::test_prepend_prolog_with_roles_in_sections",
+                "tests/test_util_rst.py::test_escape",
+                "tests/test_util_rst.py::test_append_epilog",
+                "tests/test_util_rst.py::test_prepend_prolog_with_CR"
+            ],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

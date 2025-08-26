@@ -1,0 +1,51 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-10554.py
+new file mode 100644
+index e69de29..b292538 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-10554.py
+@@ -0,0 +1,45 @@
++from django.test import TestCase
++from django.db import models, connection
++
++# Define a mock model for testing
++class Dimension(models.Model):
++    id = models.AutoField(primary_key=True)
++    order = models.IntegerField()
++    name = models.CharField(max_length=255)
++
++    class Meta:
++        app_label = 'testapp'  # Use a test app label to avoid conflicts
++
++class UnionQuerysetOrderingTests(TestCase):
++    @classmethod
++    def setUpTestData(cls):
++        # Create the Dimension table manually
++        with connection.cursor() as cursor:
++            cursor.execute('CREATE TABLE IF NOT EXISTS testapp_dimension (id INTEGER PRIMARY KEY, "order" INTEGER, name VARCHAR(255));')
++        # Insert test data using raw SQL
++        with connection.cursor() as cursor:
++            cursor.execute('INSERT INTO testapp_dimension (id, "order", name) VALUES (10, 1, "boeksoort");')
++            cursor.execute('INSERT INTO testapp_dimension (id, "order", name) VALUES (11, 2, "grootboek");')
++            cursor.execute('INSERT INTO testapp_dimension (id, "order", name) VALUES (16, 3, "kenteken");')
++            cursor.execute('INSERT INTO testapp_dimension (id, "order", name) VALUES (17, 4, "activa");')
++
++    def test_union_queryset_ordering_bug(self):
++        # Create two querysets
++        qs1 = Dimension.objects.filter(pk__in=[10, 11]).values_list('id', flat=True)
++        qs2 = Dimension.objects.filter(pk__in=[16, 17]).values_list('id', flat=True)
++
++        # Combine the querysets using union
++        qs = qs1.union(qs2)
++
++        # Apply an order_by clause on a field not in the select list
++        qs = qs.order_by('order')
++
++        # Evaluate the combined queryset
++        try:
++            result = list(qs)
++            # Assert the correct behavior
++            # The expected order is [10, 11, 16, 17]
++            self.assertEqual(result, [10, 11, 16, 17])
++        except Exception as e:
++            # If an exception is raised, the test should fail as it exposes the bug
++            self.fail(f"Unexpected exception raised: {e}")

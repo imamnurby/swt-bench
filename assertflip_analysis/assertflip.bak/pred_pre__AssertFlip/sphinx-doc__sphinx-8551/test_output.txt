@@ -1,0 +1,1087 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 57ed10c68057c96491acbd3e62254ccfaf9e3861
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   setup.py
+	modified:   tox.ini
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 57ed10c68057c96491acbd3e62254ccfaf9e3861
+Merge: dd1615c59 c0678a4a5
+Author: Takeshi KOMIYA <i.tkomiya@gmail.com>
+Date:   Sat Dec 19 00:31:03 2020 +0900
+
+    Merge pull request #8548 from tk0miya/741_inherited_ivar
+    
+    Fix #741: autodoc: inherited-members doesn't support instance attributes on super class
+
++ git diff 57ed10c68057c96491acbd3e62254ccfaf9e3861
+diff --git a/setup.py b/setup.py
+index 8d40de1a8..03f325278 100644
+--- a/setup.py
++++ b/setup.py
+@@ -15,22 +15,22 @@ if sys.version_info < (3, 5):
+     sys.exit(1)
+ 
+ install_requires = [
+-    'sphinxcontrib-applehelp',
+-    'sphinxcontrib-devhelp',
++    'sphinxcontrib-applehelp<=1.0.7',
++    'sphinxcontrib-devhelp<=1.0.5',
+     'sphinxcontrib-jsmath',
+-    'sphinxcontrib-htmlhelp',
+-    'sphinxcontrib-serializinghtml',
+-    'sphinxcontrib-qthelp',
+-    'Jinja2>=2.3',
++    'sphinxcontrib-htmlhelp<=2.0.4',
++    'sphinxcontrib-serializinghtml<=1.1.9',
++    'sphinxcontrib-qthelp<=1.0.6',
++    'Jinja2<3.0',
+     'Pygments>=2.0',
+     'docutils>=0.12',
+     'snowballstemmer>=1.1',
+     'babel>=1.3',
+-    'alabaster>=0.7,<0.8',
++    'alabaster>=0.7,<0.7.12',
+     'imagesize',
+     'requests>=2.5.0',
+     'setuptools',
+-    'packaging',
++    'packaging', 'markupsafe<=2.0.1',
+ ]
+ 
+ extras_require = {
+diff --git a/tox.ini b/tox.ini
+index dbb705a3a..9f4fc3a32 100644
+--- a/tox.ini
++++ b/tox.ini
+@@ -28,7 +28,7 @@ setenv =
+     PYTHONWARNINGS = all,ignore::ImportWarning:importlib._bootstrap_external,ignore::DeprecationWarning:site,ignore::DeprecationWarning:distutils
+     PYTEST_ADDOPTS = {env:PYTEST_ADDOPTS:} --color yes
+ commands=
+-    python -X dev -m pytest --durations 25 {posargs}
++    python -X dev -m pytest -rA --durations 25 {posargs}
+ 
+ [testenv:flake8]
+ basepython = python3
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e '.[test]'
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: sphinxcontrib-applehelp<=1.0.7 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (1.0.4)
+Requirement already satisfied: sphinxcontrib-devhelp<=1.0.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (1.0.2)
+Requirement already satisfied: sphinxcontrib-jsmath in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (1.0.1)
+Requirement already satisfied: sphinxcontrib-htmlhelp<=2.0.4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (2.0.1)
+Requirement already satisfied: sphinxcontrib-serializinghtml<=1.1.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (1.1.5)
+Requirement already satisfied: sphinxcontrib-qthelp<=1.0.6 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (1.0.3)
+Requirement already satisfied: Jinja2<3.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (2.11.3)
+Requirement already satisfied: Pygments>=2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (2.19.2)
+Requirement already satisfied: docutils>=0.12 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (0.22)
+Requirement already satisfied: snowballstemmer>=1.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (3.0.1)
+Requirement already satisfied: babel>=1.3 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (2.17.0)
+Requirement already satisfied: alabaster<0.7.12,>=0.7 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (0.7.11)
+Requirement already satisfied: imagesize in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (1.4.1)
+Requirement already satisfied: requests>=2.5.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (2.32.5)
+Requirement already satisfied: setuptools in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (78.1.1)
+Requirement already satisfied: packaging in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (25.0)
+Requirement already satisfied: markupsafe<=2.0.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (2.0.1)
+Requirement already satisfied: pytest in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (8.4.1)
+Requirement already satisfied: pytest-cov in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (6.2.1)
+Requirement already satisfied: html5lib in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (1.1)
+Requirement already satisfied: cython in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Sphinx==3.4.0.dev20250825) (3.1.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==3.4.0.dev20250825) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==3.4.0.dev20250825) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==3.4.0.dev20250825) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests>=2.5.0->Sphinx==3.4.0.dev20250825) (2025.8.3)
+Requirement already satisfied: six>=1.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from html5lib->Sphinx==3.4.0.dev20250825) (1.17.0)
+Requirement already satisfied: webencodings in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from html5lib->Sphinx==3.4.0.dev20250825) (0.5.1)
+Requirement already satisfied: exceptiongroup>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest->Sphinx==3.4.0.dev20250825) (1.3.0)
+Requirement already satisfied: iniconfig>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest->Sphinx==3.4.0.dev20250825) (2.1.0)
+Requirement already satisfied: pluggy<2,>=1.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest->Sphinx==3.4.0.dev20250825) (1.6.0)
+Requirement already satisfied: tomli>=1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest->Sphinx==3.4.0.dev20250825) (2.2.1)
+Requirement already satisfied: typing-extensions>=4.6.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from exceptiongroup>=1->pytest->Sphinx==3.4.0.dev20250825) (4.14.1)
+Requirement already satisfied: coverage>=7.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from coverage[toml]>=7.5->pytest-cov->Sphinx==3.4.0.dev20250825) (7.10.5)
+Installing collected packages: Sphinx
+  Attempting uninstall: Sphinx
+    Found existing installation: Sphinx 3.4.0.dev20250825
+    Uninstalling Sphinx-3.4.0.dev20250825:
+      Successfully uninstalled Sphinx-3.4.0.dev20250825
+  DEPRECATION: Legacy editable install of Sphinx[test]==3.4.0.dev20250825 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for Sphinx
+Successfully installed Sphinx
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_sphinx-doc__sphinx-8551.py...
+Applied patch tests/test_coverup_sphinx-doc__sphinx-8551.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sphinx/domains/python\.py|sphinx/util/docfields\.py)' -m tox -epy39 -v -- tests/test_coverup_sphinx-doc__sphinx-8551.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/domains/python\\.py|sphinx/util/docfields\\.py)']
+.pkg: find interpreter for spec PythonSpec(major=3, minor=9, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, minor=5, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/domains/python\\.py|sphinx/util/docfields\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/domains/python\\.py|sphinx/util/docfields\\.py)']
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/domains/python\\.py|sphinx/util/docfields\\.py)']
+.pkg: find interpreter for spec PythonSpec(major=3, minor=6, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, minor=7, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/usr/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, minor=8, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, system=/opt/miniconda3/envs/testbed/bin/python3, exe=/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(major=3, free_threaded=False)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+.pkg: find interpreter for spec PythonSpec(path=/opt/miniconda3/envs/testbed/bin/python3)
+.pkg: proposed PythonInfo(spec=CPython3.9.23.final.0-64, exe=/opt/miniconda3/envs/testbed/bin/python3, platform=linux, version='3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]', encoding_fs_io=utf-8-utf-8)
+py39: create virtual environment via CPython3Posix(dest=/testbed/.tox/py39, clear=False, no_vcs_ignore=False, global=False)
+py39: add seed packages via FromAppData(download=False, pip=bundle, setuptools=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+py39: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+.pkg: create virtual environment via CPython3Posix(dest=/testbed/.tox/.pkg, clear=False, no_vcs_ignore=False, global=False)
+.pkg: add seed packages via FromAppData(download=False, pip=bundle, setuptools=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+.pkg: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+.pkg: install_requires> python -I -m pip install 'setuptools>=40.8.0'
+.pkg: exit 0 (0.65 seconds) /testbed> python -I -m pip install 'setuptools>=40.8.0' pid=122
+.pkg: _optional_hooks> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__
+.pkg: exit None (0.19 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__ pid=127
+.pkg: get_requires_for_build_editable> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__
+.pkg: exit None (0.47 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__ pid=130
+.pkg: build_editable> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__
+.pkg: exit None (0.70 seconds) /testbed> python /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta __legacy__ pid=134
+py39: install_package_deps> python -I -m pip install 'Jinja2<3.0' 'Pygments>=2.0' 'alabaster<0.7.12,>=0.7' 'babel>=1.3' 'colorama>=0.3.5; sys_platform == "win32"' cython 'docutils>=0.12' html5lib imagesize 'markupsafe<=2.0.1' packaging pytest pytest-cov 'requests>=2.5.0' setuptools 'snowballstemmer>=1.1' 'sphinxcontrib-applehelp<=1.0.7' 'sphinxcontrib-devhelp<=1.0.5' 'sphinxcontrib-htmlhelp<=2.0.4' sphinxcontrib-jsmath 'sphinxcontrib-qthelp<=1.0.6' 'sphinxcontrib-serializinghtml<=1.1.9' 'typed_ast; python_version < "3.8"'
+py39: exit 0 (0.72 seconds) /testbed> python -I -m pip install 'Jinja2<3.0' 'Pygments>=2.0' 'alabaster<0.7.12,>=0.7' 'babel>=1.3' 'colorama>=0.3.5; sys_platform == "win32"' cython 'docutils>=0.12' html5lib imagesize 'markupsafe<=2.0.1' packaging pytest pytest-cov 'requests>=2.5.0' setuptools 'snowballstemmer>=1.1' 'sphinxcontrib-applehelp<=1.0.7' 'sphinxcontrib-devhelp<=1.0.5' 'sphinxcontrib-htmlhelp<=2.0.4' sphinxcontrib-jsmath 'sphinxcontrib-qthelp<=1.0.6' 'sphinxcontrib-serializinghtml<=1.1.9' 'typed_ast; python_version < "3.8"' pid=138
+py39: install_package> python -I -m pip install --force-reinstall --no-deps /testbed/.tox/.tmp/package/1/sphinx-3.4.0.dev20250825-0.editable-py3-none-any.whl
+py39: exit 0 (0.68 seconds) /testbed> python -I -m pip install --force-reinstall --no-deps /testbed/.tox/.tmp/package/1/sphinx-3.4.0.dev20250825-0.editable-py3-none-any.whl pid=143
+py39: commands[0]> python -X dev -m pytest -rA --durations 25 tests/test_coverup_sphinx-doc__sphinx-8551.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sphinx/domains/python\\.py|sphinx/util/docfields\\.py)']
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.9.23, pytest-8.4.1, pluggy-1.6.0
+cachedir: .tox/py39/.pytest_cache
+libraries: Sphinx-3.4.0+/57ed10c68, docutils-0.22
+base tempdir: /tmp/pytest-of-root/pytest-0
+rootdir: /testbed
+configfile: setup.cfg
+plugins: cov-6.2.1
+collected 1 item
+
+tests/test_coverup_sphinx-doc__sphinx-8551.py [31mE[0m[31m                          [100%][0m
+
+==================================== ERRORS ====================================
+[31m[1m____________ ERROR at setup of test_ambiguous_class_lookup_warning _____________[0m
+
+    [0m[33m"""[39;49;00m
+    [33m    sphinx.writers.latex[39;49;00m
+    [33m    ~~~~~~~~~~~~~~~~~~~~[39;49;00m
+    [33m[39;49;00m
+    [33m    Custom docutils writer for LaTeX.[39;49;00m
+    [33m[39;49;00m
+    [33m    Much of this code is adapted from Dave Kuhlman's "docpy" writer from his[39;49;00m
+    [33m    docutils sandbox.[39;49;00m
+    [33m[39;49;00m
+    [33m    :copyright: Copyright 2007-2020 by the Sphinx team, see AUTHORS.[39;49;00m
+    [33m    :license: BSD, see LICENSE for details.[39;49;00m
+    [33m"""[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mre[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mwarnings[39;49;00m[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mcollections[39;49;00m[90m [39;49;00m[94mimport[39;49;00m defaultdict[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mos[39;49;00m[90m [39;49;00m[94mimport[39;49;00m path[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mtyping[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Any, Dict, Iterable, Iterator, List, Set, Tuple, Union, cast[90m[39;49;00m
+    [90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mdocutils[39;49;00m[90m [39;49;00m[94mimport[39;49;00m nodes, writers[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mdocutils[39;49;00m[04m[96m.[39;49;00m[04m[96mnodes[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Element, Node, Text[90m[39;49;00m
+    [90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[90m [39;49;00m[94mimport[39;49;00m addnodes, highlighting[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mdeprecation[39;49;00m[90m [39;49;00m[94mimport[39;49;00m (RemovedInSphinx40Warning, RemovedInSphinx50Warning,[90m[39;49;00m
+                                    deprecated_alias)[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mdomains[39;49;00m[90m [39;49;00m[94mimport[39;49;00m IndexEntry[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mdomains[39;49;00m[04m[96m.[39;49;00m[04m[96mstd[39;49;00m[90m [39;49;00m[94mimport[39;49;00m StandardDomain[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96merrors[39;49;00m[90m [39;49;00m[94mimport[39;49;00m SphinxError[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mlocale[39;49;00m[90m [39;49;00m[94mimport[39;49;00m _, __, admonitionlabels[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[90m [39;49;00m[94mimport[39;49;00m logging, split_into, texescape[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mdocutils[39;49;00m[90m [39;49;00m[94mimport[39;49;00m SphinxTranslator[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mnodes[39;49;00m[90m [39;49;00m[94mimport[39;49;00m clean_astext, get_prev_node[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mtemplate[39;49;00m[90m [39;49;00m[94mimport[39;49;00m LaTeXRenderer[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mtexescape[39;49;00m[90m [39;49;00m[94mimport[39;49;00m tex_replace_map[90m[39;49;00m
+    [90m[39;49;00m
+    [94mtry[39;49;00m:[90m[39;49;00m
+>       [94mfrom[39;49;00m[90m [39;49;00m[04m[96mdocutils[39;49;00m[04m[96m.[39;49;00m[04m[96mutils[39;49;00m[04m[96m.[39;49;00m[04m[96mroman[39;49;00m[90m [39;49;00m[94mimport[39;49;00m toRoman[90m[39;49;00m
+[1m[31mE       ModuleNotFoundError: No module named 'docutils.utils.roman'[0m
+
+[1m[31msphinx/writers/latex.py[0m:37: ModuleNotFoundError
+
+[33mDuring handling of the above exception, another exception occurred:[0m
+
+self = <sphinx.registry.SphinxComponentRegistry object at 0x7f177b728f50>
+app = <sphinx.application.Sphinx object at 0x7f177b728320>
+extname = 'sphinx.builders.latex'
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mload_extension[39;49;00m([96mself[39;49;00m, app: [33m"[39;49;00m[33mSphinx[39;49;00m[33m"[39;49;00m, extname: [96mstr[39;49;00m) -> [94mNone[39;49;00m:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Load a Sphinx extension."""[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m extname [95min[39;49;00m app.extensions:  [90m# already loaded[39;49;00m[90m[39;49;00m
+            [94mreturn[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m extname [95min[39;49;00m EXTENSION_BLACKLIST:[90m[39;49;00m
+            logger.warning(__([33m'[39;49;00m[33mthe extension [39;49;00m[33m%r[39;49;00m[33m was already merged with Sphinx since [39;49;00m[33m'[39;49;00m[90m[39;49;00m
+                              [33m'[39;49;00m[33mversion [39;49;00m[33m%s[39;49;00m[33m; this extension is ignored.[39;49;00m[33m'[39;49;00m),[90m[39;49;00m
+                           extname, EXTENSION_BLACKLIST[extname])[90m[39;49;00m
+            [94mreturn[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# update loading context[39;49;00m[90m[39;49;00m
+        prefix = __([33m'[39;49;00m[33mwhile setting up extension [39;49;00m[33m%s[39;49;00m[33m:[39;49;00m[33m'[39;49;00m) % extname[90m[39;49;00m
+        [94mwith[39;49;00m prefixed_warnings(prefix):[90m[39;49;00m
+            [94mtry[39;49;00m:[90m[39;49;00m
+>               mod = import_module(extname)[90m[39;49;00m
+
+[1m[31msphinx/registry.py[0m:417: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m/opt/miniconda3/envs/testbed/lib/python3.9/importlib/__init__.py[0m:127: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+[1m[31msphinx/builders/latex/__init__.py[0m:39: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mwriters[39;49;00m[04m[96m.[39;49;00m[04m[96mlatex[39;49;00m[90m [39;49;00m[94mimport[39;49;00m LaTeXTranslator, LaTeXWriter[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    [0m[33m"""[39;49;00m
+    [33m    sphinx.writers.latex[39;49;00m
+    [33m    ~~~~~~~~~~~~~~~~~~~~[39;49;00m
+    [33m[39;49;00m
+    [33m    Custom docutils writer for LaTeX.[39;49;00m
+    [33m[39;49;00m
+    [33m    Much of this code is adapted from Dave Kuhlman's "docpy" writer from his[39;49;00m
+    [33m    docutils sandbox.[39;49;00m
+    [33m[39;49;00m
+    [33m    :copyright: Copyright 2007-2020 by the Sphinx team, see AUTHORS.[39;49;00m
+    [33m    :license: BSD, see LICENSE for details.[39;49;00m
+    [33m"""[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mre[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mwarnings[39;49;00m[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mcollections[39;49;00m[90m [39;49;00m[94mimport[39;49;00m defaultdict[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mos[39;49;00m[90m [39;49;00m[94mimport[39;49;00m path[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mtyping[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Any, Dict, Iterable, Iterator, List, Set, Tuple, Union, cast[90m[39;49;00m
+    [90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mdocutils[39;49;00m[90m [39;49;00m[94mimport[39;49;00m nodes, writers[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96mdocutils[39;49;00m[04m[96m.[39;49;00m[04m[96mnodes[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Element, Node, Text[90m[39;49;00m
+    [90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[90m [39;49;00m[94mimport[39;49;00m addnodes, highlighting[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mdeprecation[39;49;00m[90m [39;49;00m[94mimport[39;49;00m (RemovedInSphinx40Warning, RemovedInSphinx50Warning,[90m[39;49;00m
+                                    deprecated_alias)[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mdomains[39;49;00m[90m [39;49;00m[94mimport[39;49;00m IndexEntry[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mdomains[39;49;00m[04m[96m.[39;49;00m[04m[96mstd[39;49;00m[90m [39;49;00m[94mimport[39;49;00m StandardDomain[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96merrors[39;49;00m[90m [39;49;00m[94mimport[39;49;00m SphinxError[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mlocale[39;49;00m[90m [39;49;00m[94mimport[39;49;00m _, __, admonitionlabels[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[90m [39;49;00m[94mimport[39;49;00m logging, split_into, texescape[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mdocutils[39;49;00m[90m [39;49;00m[94mimport[39;49;00m SphinxTranslator[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mnodes[39;49;00m[90m [39;49;00m[94mimport[39;49;00m clean_astext, get_prev_node[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mtemplate[39;49;00m[90m [39;49;00m[94mimport[39;49;00m LaTeXRenderer[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96msphinx[39;49;00m[04m[96m.[39;49;00m[04m[96mutil[39;49;00m[04m[96m.[39;49;00m[04m[96mtexescape[39;49;00m[90m [39;49;00m[94mimport[39;49;00m tex_replace_map[90m[39;49;00m
+    [90m[39;49;00m
+    [94mtry[39;49;00m:[90m[39;49;00m
+        [94mfrom[39;49;00m[90m [39;49;00m[04m[96mdocutils[39;49;00m[04m[96m.[39;49;00m[04m[96mutils[39;49;00m[04m[96m.[39;49;00m[04m[96mroman[39;49;00m[90m [39;49;00m[94mimport[39;49;00m toRoman[90m[39;49;00m
+    [94mexcept[39;49;00m [96mImportError[39;49;00m:[90m[39;49;00m
+        [90m# In Debain/Ubuntu, roman package is provided as roman, not as docutils.utils.roman[39;49;00m[90m[39;49;00m
+>       [94mfrom[39;49;00m[90m [39;49;00m[04m[96mroman[39;49;00m[90m [39;49;00m[94mimport[39;49;00m toRoman  [90m# type: ignore[39;49;00m[90m[39;49;00m
+[1m[31mE       ModuleNotFoundError: No module named 'roman'[0m
+
+[1m[31msphinx/writers/latex.py[0m:40: ModuleNotFoundError
+
+[33mThe above exception was the direct cause of the following exception:[0m
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-0/test_ambiguous_class_lookup_wa0')
+
+    [0m[37m@pytest[39;49;00m.fixture[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92msphinx_app[39;49;00m(tmp_path):[90m[39;49;00m
+        srcdir = tmp_path / [33m"[39;49;00m[33msrc[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        srcdir.mkdir()[90m[39;49;00m
+        confdir = srcdir[90m[39;49;00m
+        outdir = tmp_path / [33m"[39;49;00m[33mout[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        doctreedir = tmp_path / [33m"[39;49;00m[33mdoctree[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+        buildername = [33m"[39;49;00m[33mhtml[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Create a minimal conf.py file[39;49;00m[90m[39;49;00m
+        (confdir / [33m"[39;49;00m[33mconf.py[39;49;00m[33m"[39;49;00m).write_text([33m"""[39;49;00m[33m[39;49;00m
+    [33mproject = [39;49;00m[33m'[39;49;00m[33mTest Project[39;49;00m[33m'[39;49;00m[33m[39;49;00m
+    [33mextensions = [][39;49;00m[33m[39;49;00m
+    [33m"""[39;49;00m)[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Create a mock documentation structure[39;49;00m[90m[39;49;00m
+        (srcdir / [33m"[39;49;00m[33mindex.rst[39;49;00m[33m"[39;49;00m).write_text([33m"""[39;49;00m[33m[39;49;00m
+    [33m    .. py:module:: mod[39;49;00m[33m[39;49;00m
+    [33m[39;49;00m
+    [33m    .. py:class:: A[39;49;00m[33m[39;49;00m
+    [33m[39;49;00m
+    [33m    .. py:module:: mod.submod[39;49;00m[33m[39;49;00m
+    [33m[39;49;00m
+    [33m    .. py:class:: A[39;49;00m[33m[39;49;00m
+    [33m[39;49;00m
+    [33m    .. py:function:: f()[39;49;00m[33m[39;49;00m
+    [33m[39;49;00m
+    [33m        :param A a: BUG: links to mod.A instead of mod.submod.A[39;49;00m[33m[39;49;00m
+    [33m        :rtype: A[39;49;00m[33m[39;49;00m
+    [33m    [39;49;00m[33m"""[39;49;00m)[90m[39;49;00m
+    [90m[39;49;00m
+>       app = Sphinx([90m[39;49;00m
+            srcdir=[96mstr[39;49;00m(srcdir),[90m[39;49;00m
+            confdir=[96mstr[39;49;00m(confdir),[90m[39;49;00m
+            outdir=[96mstr[39;49;00m(outdir),[90m[39;49;00m
+            doctreedir=[96mstr[39;49;00m(doctreedir),[90m[39;49;00m
+            buildername=buildername,[90m[39;49;00m
+            warningiserror=[94mFalse[39;49;00m,[90m[39;49;00m
+            status=[94mNone[39;49;00m,[90m[39;49;00m
+            warning=StringIO()[90m[39;49;00m
+        )[90m[39;49;00m
+
+[1m[31mtests/test_coverup_sphinx-doc__sphinx-8551.py[0m:37: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31msphinx/application.py[0m:241: in __init__
+    [0m[96mself[39;49;00m.setup_extension(extension)[90m[39;49;00m
+[1m[31msphinx/application.py[0m:402: in setup_extension
+    [0m[96mself[39;49;00m.registry.load_extension([96mself[39;49;00m, extname)[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sphinx.registry.SphinxComponentRegistry object at 0x7f177b728f50>
+app = <sphinx.application.Sphinx object at 0x7f177b728320>
+extname = 'sphinx.builders.latex'
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mload_extension[39;49;00m([96mself[39;49;00m, app: [33m"[39;49;00m[33mSphinx[39;49;00m[33m"[39;49;00m, extname: [96mstr[39;49;00m) -> [94mNone[39;49;00m:[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Load a Sphinx extension."""[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m extname [95min[39;49;00m app.extensions:  [90m# already loaded[39;49;00m[90m[39;49;00m
+            [94mreturn[39;49;00m[90m[39;49;00m
+        [94mif[39;49;00m extname [95min[39;49;00m EXTENSION_BLACKLIST:[90m[39;49;00m
+            logger.warning(__([33m'[39;49;00m[33mthe extension [39;49;00m[33m%r[39;49;00m[33m was already merged with Sphinx since [39;49;00m[33m'[39;49;00m[90m[39;49;00m
+                              [33m'[39;49;00m[33mversion [39;49;00m[33m%s[39;49;00m[33m; this extension is ignored.[39;49;00m[33m'[39;49;00m),[90m[39;49;00m
+                           extname, EXTENSION_BLACKLIST[extname])[90m[39;49;00m
+            [94mreturn[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# update loading context[39;49;00m[90m[39;49;00m
+        prefix = __([33m'[39;49;00m[33mwhile setting up extension [39;49;00m[33m%s[39;49;00m[33m:[39;49;00m[33m'[39;49;00m) % extname[90m[39;49;00m
+        [94mwith[39;49;00m prefixed_warnings(prefix):[90m[39;49;00m
+            [94mtry[39;49;00m:[90m[39;49;00m
+                mod = import_module(extname)[90m[39;49;00m
+            [94mexcept[39;49;00m [96mImportError[39;49;00m [94mas[39;49;00m err:[90m[39;49;00m
+                logger.verbose(__([33m'[39;49;00m[33mOriginal exception:[39;49;00m[33m\n[39;49;00m[33m'[39;49;00m) + traceback.format_exc())[90m[39;49;00m
+>               [94mraise[39;49;00m ExtensionError(__([33m'[39;49;00m[33mCould not import extension [39;49;00m[33m%s[39;49;00m[33m'[39;49;00m) % extname,[90m[39;49;00m
+                                     err) [94mfrom[39;49;00m[90m [39;49;00m[04m[96merr[39;49;00m[90m[39;49;00m
+[1m[31mE               sphinx.errors.ExtensionError: Could not import extension sphinx.builders.latex (exception: No module named 'roman')[0m
+
+[1m[31msphinx/registry.py[0m:420: ExtensionError
+---------------------------- Captured stdout setup -----------------------------
+0.76 python.py(1): """
+0.76 python.py(11): import builtins
+0.76 python.py(12): import inspect
+0.76 python.py(13): import re
+0.76 python.py(14): import sys
+0.76 python.py(15): import typing
+0.76 python.py(16): import warnings
+0.76 python.py(17): from inspect import Parameter
+0.76 python.py(18): from typing import Any, Dict, Iterable, Iterator, List, NamedTuple, Tuple, cast
+0.76 python.py(20): from docutils import nodes
+0.76 python.py(21): from docutils.nodes import Element, Node
+0.76 python.py(22): from docutils.parsers.rst import directives
+0.76 python.py(24): from sphinx import addnodes
+0.76 python.py(25): from sphinx.addnodes import desc_signature, pending_xref
+0.76 python.py(26): from sphinx.application import Sphinx
+0.76 python.py(27): from sphinx.builders import Builder
+0.76 python.py(28): from sphinx.deprecation import RemovedInSphinx40Warning, RemovedInSphinx50Warning
+0.76 python.py(29): from sphinx.directives import ObjectDescription
+0.76 python.py(30): from sphinx.domains import Domain, Index, IndexEntry, ObjType
+0.76 python.py(31): from sphinx.environment import BuildEnvironment
+0.76 python.py(32): from sphinx.locale import _, __
+0.76 python.py(33): from sphinx.pycode.ast import ast
+0.76 python.py(34): from sphinx.pycode.ast import parse as ast_parse
+0.76 python.py(35): from sphinx.roles import XRefRole
+0.76 python.py(36): from sphinx.util import logging
+0.76 python.py(37): from sphinx.util.docfields import Field, GroupedField, TypedField
+0.76 python.py(38): from sphinx.util.docutils import SphinxDirective
+0.76 python.py(39): from sphinx.util.inspect import signature_from_str
+0.76 python.py(40): from sphinx.util.nodes import make_id, make_refnode
+0.76 python.py(41): from sphinx.util.typing import TextlikeNode
+0.76 python.py(48): logger = logging.getLogger(__name__)
+0.76 python.py(52): py_sig_re = re.compile(
+0.76 python.py(53):     r'''^ ([\w.]*\.)?            # class name(s)
+0.76 python.py(58):           ''', re.VERBOSE)
+0.76 python.py(52): py_sig_re = re.compile(
+0.76 python.py(62):     'module':    _('module'),
+0.76 python.py(63):     'keyword':   _('keyword'),
+0.76 python.py(64):     'operator':  _('operator'),
+0.76 python.py(65):     'object':    _('object'),
+0.76 python.py(66):     'exception': _('exception'),
+0.76 python.py(67):     'statement': _('statement'),
+0.76 python.py(68):     'builtin':   _('built-in function'),
+0.76 python.py(61): pairindextypes = {
+0.76 python.py(71): ObjectEntry = NamedTuple('ObjectEntry', [('docname', str),
+0.76 python.py(72):                                          ('node_id', str),
+0.76 python.py(73):                                          ('objtype', str)])
+0.76 python.py(71): ObjectEntry = NamedTuple('ObjectEntry', [('docname', str),
+0.76 python.py(74): ModuleEntry = NamedTuple('ModuleEntry', [('docname', str),
+0.76 python.py(75):                                          ('node_id', str),
+0.76 python.py(76):                                          ('synopsis', str),
+0.76 python.py(77):                                          ('platform', str),
+0.76 python.py(78):                                          ('deprecated', bool)])
+0.76 python.py(74): ModuleEntry = NamedTuple('ModuleEntry', [('docname', str),
+0.76 python.py(81): def type_to_xref(text: str, env: BuildEnvironment = None) -> addnodes.pending_xref:
+0.76 python.py(98): def _parse_annotation(annotation: str, env: BuildEnvironment = None) -> List[Node]:
+0.76 python.py(168): def _parse_arglist(arglist: str, env: BuildEnvironment = None) -> addnodes.desc_parameterlist:
+0.76 python.py(218): def _pseudo_parse_arglist(signode: desc_signature, arglist: str) -> None:
+0.76 python.py(268): class PyXrefMixin:
+0.76 python.py(268): class PyXrefMixin:
+0.76 python.py(270):                   innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.76 python.py(271):                   contnode: Node = None, env: BuildEnvironment = None) -> Node:
+0.76 python.py(269):     def make_xref(self, rolename: str, domain: str, target: str,
+0.76 python.py(270):                   innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.76 python.py(271):                   contnode: Node = None, env: BuildEnvironment = None) -> Node:
+0.76 python.py(269):     def make_xref(self, rolename: str, domain: str, target: str,
+0.76 python.py(287):                    innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.76 python.py(288):                    contnode: Node = None, env: BuildEnvironment = None) -> List[Node]:
+0.76 python.py(286):     def make_xrefs(self, rolename: str, domain: str, target: str,
+0.76 python.py(287):                    innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.76 python.py(288):                    contnode: Node = None, env: BuildEnvironment = None) -> List[Node]:
+0.76 python.py(286):     def make_xrefs(self, rolename: str, domain: str, target: str,
+0.76 python.py(309): class PyField(PyXrefMixin, Field):
+0.76 python.py(309): class PyField(PyXrefMixin, Field):
+0.76 python.py(311):                   innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.76 python.py(312):                   contnode: Node = None, env: BuildEnvironment = None) -> Node:
+0.76 python.py(310):     def make_xref(self, rolename: str, domain: str, target: str,
+0.76 python.py(311):                   innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.76 python.py(312):                   contnode: Node = None, env: BuildEnvironment = None) -> Node:
+0.76 python.py(310):     def make_xref(self, rolename: str, domain: str, target: str,
+0.77 python.py(320): class PyGroupedField(PyXrefMixin, GroupedField):
+0.77 python.py(320): class PyGroupedField(PyXrefMixin, GroupedField):
+0.77 python.py(321):     pass
+0.77 python.py(324): class PyTypedField(PyXrefMixin, TypedField):
+0.77 python.py(324): class PyTypedField(PyXrefMixin, TypedField):
+0.77 python.py(326):                   innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.77 python.py(327):                   contnode: Node = None, env: BuildEnvironment = None) -> Node:
+0.77 python.py(325):     def make_xref(self, rolename: str, domain: str, target: str,
+0.77 python.py(326):                   innernode: "Type[TextlikeNode]" = nodes.emphasis,
+0.77 python.py(327):                   contnode: Node = None, env: BuildEnvironment = None) -> Node:
+0.77 python.py(325):     def make_xref(self, rolename: str, domain: str, target: str,
+0.77 python.py(335): class PyObject(ObjectDescription):
+0.77 python.py(335): class PyObject(ObjectDescription):
+0.77 python.py(336):     """
+0.77 python.py(343):         'noindex': directives.flag,
+0.77 python.py(344):         'noindexentry': directives.flag,
+0.77 python.py(345):         'module': directives.unchanged,
+0.77 python.py(346):         'annotation': directives.unchanged,
+0.77 python.py(342):     option_spec = {
+0.77 python.py(350):         PyTypedField('parameter', label=_('Parameters'),
+0.77 python.py(351):                      names=('param', 'parameter', 'arg', 'argument',
+0.77 python.py(353):                      typerolename='class', typenames=('paramtype', 'type'),
+0.77 python.py(354):                      can_collapse=True),
+0.77 python.py(350):         PyTypedField('parameter', label=_('Parameters'),
+0.77 docfields.py(173):         super().__init__(name, names, label, rolename, can_collapse)
+0.77 docfields.py(125):         super().__init__(name, names, label, True, rolename)
+0.77 docfields.py(61):         self.name = name
+0.77 docfields.py(62):         self.names = names
+0.77 docfields.py(63):         self.label = label
+0.77 docfields.py(64):         self.has_arg = has_arg
+0.77 docfields.py(65):         self.rolename = rolename
+0.77 docfields.py(66):         self.bodyrolename = bodyrolename
+0.77 docfields.py(126):         self.can_collapse = can_collapse
+0.77 docfields.py(174):         self.typenames = typenames
+0.77 docfields.py(175):         self.typerolename = typerolename
+0.77 python.py(355):         PyTypedField('variable', label=_('Variables'), rolename='obj',
+0.77 python.py(356):                      names=('var', 'ivar', 'cvar'),
+0.77 python.py(357):                      typerolename='class', typenames=('vartype',),
+0.77 python.py(358):                      can_collapse=True),
+0.77 python.py(355):         PyTypedField('variable', label=_('Variables'), rolename='obj',
+0.77 docfields.py(173):         super().__init__(name, names, label, rolename, can_collapse)
+0.77 docfields.py(125):         super().__init__(name, names, label, True, rolename)
+0.77 docfields.py(61):         self.name = name
+0.77 docfields.py(62):         self.names = names
+0.77 docfields.py(63):         self.label = label
+0.77 docfields.py(64):         self.has_arg = has_arg
+0.77 docfields.py(65):         self.rolename = rolename
+0.77 docfields.py(66):         self.bodyrolename = bodyrolename
+0.77 docfields.py(126):         self.can_collapse = can_collapse
+0.77 docfields.py(174):         self.typenames = typenames
+0.77 docfields.py(175):         self.typerolename = typerolename
+0.77 python.py(359):         PyGroupedField('exceptions', label=_('Raises'), rolename='exc',
+0.77 python.py(360):                        names=('raises', 'raise', 'exception', 'except'),
+0.77 python.py(361):                        can_collapse=True),
+0.77 python.py(359):         PyGroupedField('exceptions', label=_('Raises'), rolename='exc',
+0.77 docfields.py(125):         super().__init__(name, names, label, True, rolename)
+0.77 docfields.py(61):         self.name = name
+0.77 docfields.py(62):         self.names = names
+0.77 docfields.py(63):         self.label = label
+0.77 docfields.py(64):         self.has_arg = has_arg
+0.77 docfields.py(65):         self.rolename = rolename
+0.77 docfields.py(66):         self.bodyrolename = bodyrolename
+0.77 docfields.py(126):         self.can_collapse = can_collapse
+0.77 python.py(362):         Field('returnvalue', label=_('Returns'), has_arg=False,
+0.77 python.py(363):               names=('returns', 'return')),
+0.77 python.py(362):         Field('returnvalue', label=_('Returns'), has_arg=False,
+0.77 docfields.py(61):         self.name = name
+0.77 docfields.py(62):         self.names = names
+0.77 docfields.py(63):         self.label = label
+0.77 docfields.py(64):         self.has_arg = has_arg
+0.77 docfields.py(65):         self.rolename = rolename
+0.77 docfields.py(66):         self.bodyrolename = bodyrolename
+0.77 python.py(364):         PyField('returntype', label=_('Return type'), has_arg=False,
+0.77 python.py(365):                 names=('rtype',), bodyrolename='class'),
+0.77 python.py(364):         PyField('returntype', label=_('Return type'), has_arg=False,
+0.77 docfields.py(61):         self.name = name
+0.77 docfields.py(62):         self.names = names
+0.77 docfields.py(63):         self.label = label
+0.77 docfields.py(64):         self.has_arg = has_arg
+0.77 docfields.py(65):         self.rolename = rolename
+0.77 docfields.py(66):         self.bodyrolename = bodyrolename
+0.77 python.py(349):     doc_field_types = [
+0.77 python.py(368):     allow_nesting = False
+0.77 python.py(370):     def get_signature_prefix(self, sig: str) -> str:
+0.77 python.py(376):     def needs_arglist(self) -> bool:
+0.77 python.py(382):     def handle_signature(self, sig: str, signode: desc_signature) -> Tuple[str, str]:
+0.77 python.py(466):     def get_index_text(self, modname: str, name: Tuple[str, str]) -> str:
+0.77 python.py(470):     def add_target_and_index(self, name_cls: Tuple[str, str], sig: str,
+0.77 python.py(471):                              signode: desc_signature) -> None:
+0.77 python.py(470):     def add_target_and_index(self, name_cls: Tuple[str, str], sig: str,
+0.77 python.py(492):     def before_content(self) -> None:
+0.77 python.py(525):     def after_content(self) -> None:
+0.77 python.py(551): class PyModulelevel(PyObject):
+0.77 python.py(551): class PyModulelevel(PyObject):
+0.77 python.py(552):     """
+0.77 python.py(556):     def run(self) -> List[Node]:
+0.77 python.py(569):     def needs_arglist(self) -> bool:
+0.77 python.py(572):     def get_index_text(self, modname: str, name_cls: Tuple[str, str]) -> str:
+0.77 python.py(585): class PyFunction(PyObject):
+0.77 python.py(585): class PyFunction(PyObject):
+0.77 python.py(586):     """Description of a function."""
+0.77 python.py(588):     option_spec = PyObject.option_spec.copy()
+0.77 python.py(589):     option_spec.update({
+0.77 python.py(590):         'async': directives.flag,
+0.77 python.py(589):     option_spec.update({
+0.77 python.py(593):     def get_signature_prefix(self, sig: str) -> str:
+0.77 python.py(599):     def needs_arglist(self) -> bool:
+0.77 python.py(602):     def add_target_and_index(self, name_cls: Tuple[str, str], sig: str,
+0.77 python.py(603):                              signode: desc_signature) -> None:
+0.77 python.py(602):     def add_target_and_index(self, name_cls: Tuple[str, str], sig: str,
+0.77 python.py(617):     def get_index_text(self, modname: str, name_cls: Tuple[str, str]) -> str:
+0.77 python.py(622): class PyDecoratorFunction(PyFunction):
+0.77 python.py(622): class PyDecoratorFunction(PyFunction):
+0.77 python.py(623):     """Description of a decorator."""
+0.77 python.py(625):     def run(self) -> List[Node]:
+0.77 python.py(630):     def handle_signature(self, sig: str, signode: desc_signature) -> Tuple[str, str]:
+0.77 python.py(635):     def needs_arglist(self) -> bool:
+0.77 python.py(639): class PyVariable(PyObject):
+0.77 python.py(639): class PyVariable(PyObject):
+0.77 python.py(640):     """Description of a variable."""
+0.77 python.py(642):     option_spec = PyObject.option_spec.copy()
+0.77 python.py(643):     option_spec.update({
+0.77 python.py(644):         'type': directives.unchanged,
+0.77 python.py(645):         'value': directives.unchanged,
+0.77 python.py(643):     option_spec.update({
+0.77 python.py(648):     def handle_signature(self, sig: str, signode: desc_signature) -> Tuple[str, str]:
+0.77 python.py(662):     def get_index_text(self, modname: str, name_cls: Tuple[str, str]) -> str:
+0.77 python.py(670): class PyClasslike(PyObject):
+0.77 python.py(670): class PyClasslike(PyObject):
+0.77 python.py(671):     """
+0.77 python.py(675):     option_spec = PyObject.option_spec.copy()
+0.77 python.py(676):     option_spec.update({
+0.77 python.py(677):         'final': directives.flag,
+0.77 python.py(676):     option_spec.update({
+0.77 python.py(680):     allow_nesting = True
+0.77 python.py(682):     def get_signature_prefix(self, sig: str) -> str:
+0.77 python.py(688):     def get_index_text(self, modname: str, name_cls: Tuple[str, str]) -> str:
+0.77 python.py(699): class PyClassmember(PyObject):
+0.77 python.py(699): class PyClassmember(PyObject):
+0.77 python.py(700):     """
+0.77 python.py(704):     def run(self) -> List[Node]:
+0.77 python.py(717):     def needs_arglist(self) -> bool:
+0.77 python.py(720):     def get_signature_prefix(self, sig: str) -> str:
+0.77 python.py(727):     def get_index_text(self, modname: str, name_cls: Tuple[str, str]) -> str:
+0.77 python.py(784): class PyMethod(PyObject):
+0.77 python.py(784): class PyMethod(PyObject):
+0.77 python.py(785):     """Description of a method."""
+0.77 python.py(787):     option_spec = PyObject.option_spec.copy()
+0.77 python.py(788):     option_spec.update({
+0.77 python.py(789):         'abstractmethod': directives.flag,
+0.77 python.py(790):         'async': directives.flag,
+0.77 python.py(791):         'classmethod': directives.flag,
+0.77 python.py(792):         'final': directives.flag,
+0.77 python.py(793):         'property': directives.flag,
+0.77 python.py(794):         'staticmethod': directives.flag,
+0.77 python.py(788):     option_spec.update({
+0.77 python.py(797):     def needs_arglist(self) -> bool:
+0.77 python.py(803):     def get_signature_prefix(self, sig: str) -> str:
+0.77 python.py(823):     def get_index_text(self, modname: str, name_cls: Tuple[str, str]) -> str:
+0.77 python.py(845): class PyClassMethod(PyMethod):
+0.77 python.py(845): class PyClassMethod(PyMethod):
+0.77 python.py(846):     """Description of a classmethod."""
+0.77 python.py(848):     option_spec = PyObject.option_spec.copy()
+0.77 python.py(850):     def run(self) -> List[Node]:
+0.77 python.py(857): class PyStaticMethod(PyMethod):
+0.77 python.py(857): class PyStaticMethod(PyMethod):
+0.77 python.py(858):     """Description of a staticmethod."""
+0.77 python.py(860):     option_spec = PyObject.option_spec.copy()
+0.77 python.py(862):     def run(self) -> List[Node]:
+0.77 python.py(869): class PyDecoratorMethod(PyMethod):
+0.77 python.py(869): class PyDecoratorMethod(PyMethod):
+0.77 python.py(870):     """Description of a decoratormethod."""
+0.77 python.py(872):     def run(self) -> List[Node]:
+0.77 python.py(876):     def handle_signature(self, sig: str, signode: desc_signature) -> Tuple[str, str]:
+0.77 python.py(881):     def needs_arglist(self) -> bool:
+0.77 python.py(885): class PyAttribute(PyObject):
+0.77 python.py(885): class PyAttribute(PyObject):
+0.77 python.py(886):     """Description of an attribute."""
+0.77 python.py(888):     option_spec = PyObject.option_spec.copy()
+0.77 python.py(889):     option_spec.update({
+0.77 python.py(890):         'type': directives.unchanged,
+0.77 python.py(891):         'value': directives.unchanged,
+0.77 python.py(889):     option_spec.update({
+0.77 python.py(894):     def handle_signature(self, sig: str, signode: desc_signature) -> Tuple[str, str]:
+0.77 python.py(908):     def get_index_text(self, modname: str, name_cls: Tuple[str, str]) -> str:
+0.77 python.py(923): class PyDecoratorMixin:
+0.77 python.py(923): class PyDecoratorMixin:
+0.77 python.py(924):     """
+0.77 python.py(927):     def handle_signature(self, sig: str, signode: desc_signature) -> Tuple[str, str]:
+0.77 python.py(942):     def needs_arglist(self) -> bool:
+0.77 python.py(946): class PyModule(SphinxDirective):
+0.77 python.py(946): class PyModule(SphinxDirective):
+0.77 python.py(947):     """
+0.77 python.py(951):     has_content = False
+0.77 python.py(952):     required_arguments = 1
+0.77 python.py(953):     optional_arguments = 0
+0.77 python.py(954):     final_argument_whitespace = False
+0.77 python.py(956):         'platform': lambda x: x,
+0.77 python.py(957):         'synopsis': lambda x: x,
+0.77 python.py(958):         'noindex': directives.flag,
+0.77 python.py(959):         'deprecated': directives.flag,
+0.77 python.py(955):     option_spec = {
+0.77 python.py(962):     def run(self) -> List[Node]:
+0.77 python.py(998):     def make_old_id(self, name: str) -> str:
+0.77 python.py(1009): class PyCurrentModule(SphinxDirective):
+0.77 python.py(1009): class PyCurrentModule(SphinxDirective):
+0.77 python.py(1010):     """
+0.77 python.py(1015):     has_content = False
+0.77 python.py(1016):     required_arguments = 1
+0.77 python.py(1017):     optional_arguments = 0
+0.77 python.py(1018):     final_argument_whitespace = False
+0.77 python.py(1019):     option_spec = {}  # type: Dict
+0.77 python.py(1021):     def run(self) -> List[Node]:
+0.77 python.py(1030): class PyXRefRole(XRefRole):
+0.77 python.py(1030): class PyXRefRole(XRefRole):
+0.77 python.py(1031):     def process_link(self, env: BuildEnvironment, refnode: Element,
+0.77 python.py(1032):                      has_explicit_title: bool, title: str, target: str) -> Tuple[str, str]:
+0.77 python.py(1031):     def process_link(self, env: BuildEnvironment, refnode: Element,
+0.77 python.py(1053): def filter_meta_fields(app: Sphinx, domain: str, objtype: str, content: Element) -> None:
+0.77 python.py(1068): class PythonModuleIndex(Index):
+0.77 python.py(1068): class PythonModuleIndex(Index):
+0.77 python.py(1069):     """
+0.77 python.py(1073):     name = 'modindex'
+0.77 python.py(1074):     localname = _('Python Module Index')
+0.77 python.py(1075):     shortname = _('modules')
+0.77 python.py(1077):     def generate(self, docnames: Iterable[str] = None
+0.77 python.py(1078):                  ) -> Tuple[List[Tuple[str, List[IndexEntry]]], bool]:
+0.77 python.py(1077):     def generate(self, docnames: Iterable[str] = None
+0.77 python.py(1141): class PythonDomain(Domain):
+0.77 python.py(1141): class PythonDomain(Domain):
+0.77 python.py(1142):     """Python language domain."""
+0.77 python.py(1143):     name = 'py'
+0.77 python.py(1144):     label = 'Python'
+0.77 python.py(1146):         'function':     ObjType(_('function'),      'func', 'obj'),
+0.77 python.py(1147):         'data':         ObjType(_('data'),          'data', 'obj'),
+0.77 python.py(1148):         'class':        ObjType(_('class'),         'class', 'exc', 'obj'),
+0.77 python.py(1149):         'exception':    ObjType(_('exception'),     'exc', 'class', 'obj'),
+0.77 python.py(1150):         'method':       ObjType(_('method'),        'meth', 'obj'),
+0.77 python.py(1151):         'classmethod':  ObjType(_('class method'),  'meth', 'obj'),
+0.77 python.py(1152):         'staticmethod': ObjType(_('static method'), 'meth', 'obj'),
+0.77 python.py(1153):         'attribute':    ObjType(_('attribute'),     'attr', 'obj'),
+0.77 python.py(1154):         'module':       ObjType(_('module'),        'mod', 'obj'),
+0.77 python.py(1145):     object_types = {
+0.77 python.py(1158):         'function':        PyFunction,
+0.77 python.py(1159):         'data':            PyVariable,
+0.77 python.py(1160):         'class':           PyClasslike,
+0.77 python.py(1161):         'exception':       PyClasslike,
+0.77 python.py(1162):         'method':          PyMethod,
+0.77 python.py(1163):         'classmethod':     PyClassMethod,
+0.77 python.py(1164):         'staticmethod':    PyStaticMethod,
+0.77 python.py(1165):         'attribute':       PyAttribute,
+0.77 python.py(1166):         'module':          PyModule,
+0.77 python.py(1167):         'currentmodule':   PyCurrentModule,
+0.77 python.py(1168):         'decorator':       PyDecoratorFunction,
+0.77 python.py(1169):         'decoratormethod': PyDecoratorMethod,
+0.77 python.py(1157):     directives = {
+0.77 python.py(1172):         'data':  PyXRefRole(),
+0.77 python.py(1173):         'exc':   PyXRefRole(),
+0.77 python.py(1174):         'func':  PyXRefRole(fix_parens=True),
+0.77 python.py(1175):         'class': PyXRefRole(),
+0.77 python.py(1176):         'const': PyXRefRole(),
+0.77 python.py(1177):         'attr':  PyXRefRole(),
+0.77 python.py(1178):         'meth':  PyXRefRole(fix_parens=True),
+0.77 python.py(1179):         'mod':   PyXRefRole(),
+0.77 python.py(1180):         'obj':   PyXRefRole(),
+0.77 python.py(1171):     roles = {
+0.77 python.py(1183):         'objects': {},  # fullname -> docname, objtype
+0.77 python.py(1184):         'modules': {},  # modname -> docname, synopsis, platform, deprecated
+0.77 python.py(1182):     initial_data = {
+0.77 python.py(1187):         PythonModuleIndex,
+0.77 python.py(1186):     indices = [
+0.77 python.py(1190):     @property
+0.77 python.py(1191):     def objects(self) -> Dict[str, ObjectEntry]:
+0.77 python.py(1194):     def note_object(self, name: str, objtype: str, node_id: str, location: Any = None) -> None:
+0.77 python.py(1206):     @property
+0.77 python.py(1207):     def modules(self) -> Dict[str, ModuleEntry]:
+0.77 python.py(1210):     def note_module(self, name: str, node_id: str, synopsis: str,
+0.77 python.py(1211):                     platform: str, deprecated: bool) -> None:
+0.77 python.py(1210):     def note_module(self, name: str, node_id: str, synopsis: str,
+0.77 python.py(1219):     def clear_doc(self, docname: str) -> None:
+0.77 python.py(1227):     def merge_domaindata(self, docnames: List[str], otherdata: Dict) -> None:
+0.77 python.py(1236):     def find_obj(self, env: BuildEnvironment, modname: str, classname: str,
+0.77 python.py(1237):                  name: str, type: str, searchmode: int = 0
+0.77 python.py(1238):                  ) -> List[Tuple[str, ObjectEntry]]:
+0.77 python.py(1236):     def find_obj(self, env: BuildEnvironment, modname: str, classname: str,
+0.77 python.py(1292):     def resolve_xref(self, env: BuildEnvironment, fromdocname: str, builder: Builder,
+0.77 python.py(1293):                      type: str, target: str, node: pending_xref, contnode: Element
+0.77 python.py(1294):                      ) -> Element:
+0.77 python.py(1292):     def resolve_xref(self, env: BuildEnvironment, fromdocname: str, builder: Builder,
+0.77 python.py(1318):     def resolve_any_xref(self, env: BuildEnvironment, fromdocname: str, builder: Builder,
+0.77 python.py(1319):                          target: str, node: pending_xref, contnode: Element
+0.77 python.py(1320):                          ) -> List[Tuple[str, Element]]:
+0.77 python.py(1318):     def resolve_any_xref(self, env: BuildEnvironment, fromdocname: str, builder: Builder,
+0.77 python.py(1338):     def _make_module_refnode(self, builder: Builder, fromdocname: str, name: str,
+0.77 python.py(1339):                              contnode: Node) -> Element:
+0.77 python.py(1338):     def _make_module_refnode(self, builder: Builder, fromdocname: str, name: str,
+0.77 python.py(1352):     def get_objects(self) -> Iterator[Tuple[str, str, str, str, str, int]]:
+0.77 python.py(1359):     def get_full_qualified_name(self, node: Element) -> str:
+0.77 python.py(1369): def builtin_resolver(app: Sphinx, env: BuildEnvironment,
+0.77 python.py(1370):                      node: pending_xref, contnode: Element) -> Element:
+0.77 python.py(1369): def builtin_resolver(app: Sphinx, env: BuildEnvironment,
+0.77 python.py(1394): def setup(app: Sphinx) -> Dict[str, Any]:
+[33m=============================== warnings summary ===============================[0m
+sphinx/util/docutils.py:45
+  /testbed/sphinx/util/docutils.py:45: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    __version_info__ = tuple(LooseVersion(docutils.__version__).version)
+
+sphinx/registry.py:22
+  /testbed/sphinx/registry.py:22: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+    from pkg_resources import iter_entry_points
+
+../opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pkg_resources/__init__.py:3147
+../opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pkg_resources/__init__.py:3147
+../opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pkg_resources/__init__.py:3147
+../opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pkg_resources/__init__.py:3147
+  /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/pkg_resources/__init__.py:3147: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(pkg)
+
+sphinx/directives/patches.py:14
+  /testbed/sphinx/directives/patches.py:14: DeprecationWarning: The `docutils.parsers.rst.directive.html` module will be removed in Docutils 2.0. Since Docutils 0.18, the "Meta" node is defined in `docutils.parsers.rst.directives.misc`.
+    from docutils.parsers.rst.directives import html, images, tables
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+============================= slowest 25 durations =============================
+0.13s setup    tests/test_coverup_sphinx-doc__sphinx-8551.py::test_ambiguous_class_lookup_warning
+
+(1 durations < 0.005s hidden.  Use -vv to show these durations.)
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m tests/test_coverup_sphinx-doc__sphinx-8551.py::[1mtest_ambiguous_class_lookup_warning[0m - sphinx.errors.ExtensionError: Could not import extension sphinx.builders.la...
+[31m========================= [33m7 warnings[0m, [31m[1m1 error[0m[31m in 0.70s[0m[31m =========================[0m
+py39: exit 0 (1.58 seconds) /testbed> python -X dev -m pytest -rA --durations 25 tests/test_coverup_sphinx-doc__sphinx-8551.py pid=150
+  py39: OK (5.88=setup[4.30]+cmd[1.58] seconds)
+  congratulations :) (7.05 seconds)
++ cat coverage.cover
+{"/testbed/sphinx/util/docfields.py": {"12": 1, "13": 1, "15": 1, "16": 1, "18": 1, "19": 1, "20": 1, "30": 1, "43": 2, "107": 2, "149": 2, "212": 2, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0, "40": 0, "56": 1, "57": 1, "59": 2, "60": 1, "69": 2, "70": 2, "68": 2, "81": 2, "82": 2, "80": 2, "85": 1, "88": 2, "89": 1, "61": 5, "62": 5, "63": 5, "64": 5, "65": 5, "66": 5, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "83": 0, "86": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "95": 0, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "102": 0, "103": 0, "104": 0, "120": 1, "121": 1, "123": 2, "124": 1, "128": 2, "129": 1, "125": 3, "126": 3, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "137": 0, "138": 0, "140": 0, "141": 0, "142": 0, "143": 0, "145": 0, "146": 0, "168": 1, "170": 2, "171": 1, "172": 1, "177": 2, "178": 1, "173": 2, "174": 2, "175": 2, "179": 0, "200": 0, "201": 0, "202": 0, "203": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 0, "180": 0, "181": 0, "182": 0, "183": 0, "184": 0, "188": 0, "189": 0, "190": 0, "191": 0, "192": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "217": 1, "219": 1, "230": 1, "243": 1, "250": 1, "220": 0, "222": 0, "223": 0, "224": 0, "226": 0, "227": 0, "228": 0, "231": 0, "232": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "240": 0, "241": 0, "246": 0, "247": 0, "248": 0, "252": 0, "254": 0, "255": 0, "256": 0, "259": 0, "260": 0, "261": 0, "262": 0, "263": 0, "265": 0, "266": 0, "268": 0, "269": 0, "272": 0, "273": 0, "274": 0, "276": 0, "279": 0, "282": 0, "283": 0, "284": 0, "285": 0, "286": 0, "289": 0, "290": 0, "291": 0, "292": 0, "293": 0, "294": 0, "295": 0, "296": 0, "297": 0, "299": 0, "300": 0, "301": 0, "302": 0, "304": 0, "305": 0, "307": 0, "309": 0, "312": 0, "315": 0, "317": 0, "318": 0, "319": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "329": 0, "328": 0, "330": 0, "332": 0, "333": 0, "334": 0, "335": 0, "336": 0, "337": 0, "341": 0, "342": 0, "343": 0, "345": 0, "346": 0, "347": 0, "348": 0, "349": 0, "351": 0, "352": 0, "355": 0, "356": 0, "357": 0, "359": 0, "361": 0, "362": 0, "363": 0, "364": 0, "365": 0, "367": 0, "316": 0}}
+{"/testbed/sphinx/domains/python.py": {"11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "20": 1, "21": 1, "22": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "48": 1, "52": 2, "53": 1, "58": 1, "62": 1, "63": 1, "64": 1, "65": 1, "66": 1, "67": 1, "68": 1, "61": 1, "71": 2, "72": 1, "73": 1, "74": 2, "75": 1, "76": 1, "77": 1, "78": 1, "81": 1, "98": 1, "168": 1, "218": 1, "268": 2, "309": 2, "320": 2, "324": 2, "335": 2, "551": 2, "585": 2, "622": 2, "639": 2, "670": 2, "699": 2, "784": 2, "845": 2, "857": 2, "869": 2, "885": 2, "923": 2, "946": 2, "1009": 2, "1030": 2, "1053": 1, "1068": 2, "1141": 2, "1369": 2, "1370": 1, "1394": 1, "83": 0, "84": 0, "86": 0, "88": 0, "89": 0, "90": 0, "92": 0, "94": 0, "95": 0, "100": 0, "153": 0, "154": 0, "155": 0, "157": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0, "106": 0, "107": 0, "108": 0, "109": 0, "110": 0, "111": 0, "112": 0, "113": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "120": 0, "121": 0, "122": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "133": 0, "134": 0, "136": 0, "138": 0, "139": 0, "140": 0, "141": 0, "143": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "151": 0, "170": 0, "171": 0, "172": 0, "173": 0, "174": 0, "176": 0, "177": 0, "178": 0, "179": 0, "181": 0, "183": 0, "184": 0, "185": 0, "186": 0, "187": 0, "188": 0, "189": 0, "191": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "204": 0, "205": 0, "206": 0, "208": 0, "209": 0, "211": 0, "213": 0, "215": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "231": 0, "232": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "240": 0, "241": 0, "242": 0, "243": 0, "244": 0, "245": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "255": 0, "259": 0, "260": 0, "261": 0, "263": 0, "270": 2, "271": 2, "269": 2, "287": 2, "288": 2, "286": 2, "272": 0, "273": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "279": 0, "280": 0, "281": 0, "282": 0, "283": 0, "284": 0, "289": 0, "290": 0, "291": 0, "293": 0, "295": 0, "296": 0, "297": 0, "298": 0, "300": 0, "301": 0, "303": 0, "304": 0, "306": 0, "311": 2, "312": 2, "310": 2, "313": 0, "315": 0, "317": 0, "321": 1, "326": 2, "327": 2, "325": 2, "328": 0, "330": 0, "332": 0, "343": 1, "344": 1, "345": 1, "346": 1, "342": 1, "350": 2, "351": 1, "353": 1, "354": 1, "355": 2, "356": 1, "357": 1, "358": 1, "359": 2, "360": 1, "361": 1, "362": 2, "363": 1, "364": 2, "365": 1, "349": 1, "368": 1, "370": 1, "376": 1, "382": 1, "466": 1, "470": 2, "471": 1, "492": 1, "525": 1, "374": 0, "380": 0, "391": 0, "392": 0, "393": 0, "394": 0, "397": 0, "398": 0, "399": 0, "400": 0, "401": 0, "402": 0, "403": 0, "405": 0, "406": 0, "409": 0, "412": 0, "414": 0, "415": 0, "416": 0, "417": 0, "419": 0, "420": 0, "422": 0, "423": 0, "424": 0, "426": 0, "427": 0, "428": 0, "430": 0, "431": 0, "432": 0, "433": 0, "436": 0, "437": 0, "439": 0, "440": 0, "441": 0, "442": 0, "443": 0, "446": 0, "447": 0, "448": 0, "449": 0, "450": 0, "452": 0, "454": 0, "456": 0, "457": 0, "458": 0, "460": 0, "461": 0, "462": 0, "464": 0, "468": 0, "472": 0, "473": 0, "474": 0, "475": 0, "479": 0, "480": 0, "482": 0, "484": 0, "485": 0, "487": 0, "488": 0, "489": 0, "490": 0, "504": 0, "505": 0, "510": 0, "511": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "519": 0, "520": 0, "521": 0, "522": 0, "523": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "543": 0, "544": 0, "545": 0, "546": 0, "548": 0, "556": 1, "569": 1, "572": 1, "557": 0, "558": 0, "559": 0, "560": 0, "561": 0, "562": 0, "564": 0, "565": 0, "567": 0, "570": 0, "573": 0, "574": 0, "575": 0, "576": 0, "577": 0, "578": 0, "579": 0, "580": 0, "582": 0, "588": 1, "589": 2, "590": 1, "593": 1, "599": 1, "602": 2, "603": 1, "617": 1, "594": 0, "595": 0, "597": 0, "600": 0, "604": 0, "605": 0, "606": 0, "607": 0, "609": 0, "610": 0, "611": 0, "612": 0, "614": 0, "615": 0, "619": 0, "625": 1, "630": 1, "635": 1, "627": 0, "628": 0, "631": 0, "632": 0, "633": 0, "636": 0, "642": 1, "643": 2, "644": 1, "645": 1, "648": 1, "662": 1, "649": 0, "651": 0, "652": 0, "653": 0, "654": 0, "656": 0, "657": 0, "658": 0, "660": 0, "663": 0, "664": 0, "665": 0, "667": 0, "675": 1, "676": 2, "677": 1, "680": 1, "682": 1, "688": 1, "683": 0, "684": 0, "686": 0, "689": 0, "690": 0, "691": 0, "692": 0, "693": 0, "694": 0, "696": 0, "704": 1, "717": 1, "720": 1, "727": 1, "705": 0, "706": 0, "707": 0, "708": 0, "709": 0, "710": 0, "712": 0, "713": 0, "715": 0, "718": 0, "721": 0, "722": 0, "723": 0, "724": 0, "725": 0, "728": 0, "729": 0, "730": 0, "731": 0, "732": 0, "733": 0, "734": 0, "735": 0, "737": 0, "738": 0, "739": 0, "741": 0, "742": 0, "743": 0, "744": 0, "745": 0, "746": 0, "747": 0, "749": 0, "750": 0, "751": 0, "752": 0, "754": 0, "755": 0, "756": 0, "757": 0, "758": 0, "759": 0, "760": 0, "762": 0, "763": 0, "764": 0, "765": 0, "767": 0, "768": 0, "769": 0, "770": 0, "771": 0, "772": 0, "773": 0, "775": 0, "776": 0, "777": 0, "779": 0, "781": 0, "787": 1, "788": 2, "789": 1, "790": 1, "791": 1, "792": 1, "793": 1, "794": 1, "797": 1, "803": 1, "823": 1, "798": 0, "799": 0, "801": 0, "804": 0, "805": 0, "806": 0, "807": 0, "808": 0, "809": 0, "810": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "818": 0, "819": 0, "821": 0, "824": 0, "825": 0, "826": 0, "827": 0, "828": 0, "829": 0, "830": 0, "831": 0, "833": 0, "835": 0, "836": 0, "837": 0, "838": 0, "839": 0, "840": 0, "842": 0, "848": 1, "850": 1, "851": 0, "852": 0, "854": 0, "860": 1, "862": 1, "863": 0, "864": 0, "866": 0, "872": 1, "876": 1, "881": 1, "873": 0, "874": 0, "877": 0, "878": 0, "879": 0, "882": 0, "888": 1, "889": 2, "890": 1, "891": 1, "894": 1, "908": 1, "895": 0, "897": 0, "898": 0, "899": 0, "900": 0, "902": 0, "903": 0, "904": 0, "906": 0, "909": 0, "910": 0, "911": 0, "912": 0, "913": 0, "914": 0, "915": 0, "916": 0, "918": 0, "920": 0, "927": 1, "942": 1, "928": 0, "929": 0, "930": 0, "931": 0, "932": 0, "933": 0, "935": 0, "936": 0, "938": 0, "939": 0, "940": 0, "943": 0, "951": 1, "952": 1, "953": 1, "954": 1, "956": 1, "957": 1, "958": 1, "959": 1, "955": 1, "962": 1, "998": 1, "963": 0, "965": 0, "966": 0, "967": 0, "968": 0, "969": 0, "971": 0, "972": 0, "973": 0, "977": 0, "978": 0, "979": 0, "981": 0, "983": 0, "984": 0, "985": 0, "986": 0, "987": 0, "988": 0, "992": 0, "993": 0, "994": 0, "995": 0, "996": 0, "1006": 0, "1015": 1, "1016": 1, "1017": 1, "1018": 1, "1019": 1, "1021": 1, "1022": 0, "1023": 0, "1024": 0, "1026": 0, "1027": 0, "1031": 2, "1032": 1, "1033": 0, "1034": 0, "1035": 0, "1036": 0, "1037": 0, "1040": 0, "1041": 0, "1042": 0, "1043": 0, "1044": 0, "1047": 0, "1048": 0, "1049": 0, "1050": 0, "1055": 0, "1056": 0, "1058": 0, "1059": 0, "1060": 0, "1061": 0, "1062": 0, "1063": 0, "1064": 0, "1065": 0, "1073": 1, "1074": 1, "1075": 1, "1077": 2, "1078": 1, "1079": 0, "1081": 0, "1082": 0, "1083": 0, "1085": 0, "1086": 0, "1088": 0, "1089": 0, "1090": 0, "1091": 0, "1092": 0, "1094": 0, "1095": 0, "1096": 0, "1097": 0, "1098": 0, "1100": 0, "1103": 0, "1104": 0, "1106": 0, "1108": 0, "1109": 0, "1111": 0, "1113": 0, "1114": 0, "1115": 0, "1116": 0, "1117": 0, "1119": 0, "1120": 0, "1122": 0, "1123": 0, "1125": 0, "1126": 0, "1127": 0, "1128": 0, "1133": 0, "1136": 0, "1138": 0, "1143": 1, "1144": 1, "1146": 1, "1147": 1, "1148": 1, "1149": 1, "1150": 1, "1151": 1, "1152": 1, "1153": 1, "1154": 1, "1145": 1, "1158": 1, "1159": 1, "1160": 1, "1161": 1, "1162": 1, "1163": 1, "1164": 1, "1165": 1, "1166": 1, "1167": 1, "1168": 1, "1169": 1, "1157": 1, "1172": 1, "1173": 1, "1174": 1, "1175": 1, "1176": 1, "1177": 1, "1178": 1, "1179": 1, "1180": 1, "1171": 1, "1183": 1, "1184": 1, "1182": 1, "1187": 1, "1186": 1, "1190": 1, "1191": 1, "1194": 1, "1206": 1, "1207": 1, "1210": 2, "1211": 1, "1219": 1, "1227": 1, "1236": 2, "1237": 1, "1238": 1, "1292": 2, "1293": 1, "1294": 1, "1318": 2, "1319": 1, "1320": 1, "1338": 2, "1339": 1, "1352": 1, "1359": 1, "1192": 0, "1199": 0, "1200": 0, "1201": 0, "1203": 0, "1204": 0, "1208": 0, "1216": 0, "1217": 0, "1220": 0, "1221": 0, "1222": 0, "1223": 0, "1224": 0, "1225": 0, "1229": 0, "1230": 0, "1231": 0, "1232": 0, "1233": 0, "1234": 0, "1243": 0, "1244": 0, "1246": 0, "1247": 0, "1249": 0, "1251": 0, "1252": 0, "1253": 0, "1254": 0, "1256": 0, "1257": 0, "1258": 0, "1259": 0, "1260": 0, "1261": 0, "1262": 0, "1263": 0, "1264": 0, "1265": 0, "1266": 0, "1267": 0, "1270": 0, "1271": 0, "1276": 0, "1277": 0, "1278": 0, "1280": 0, "1281": 0, "1282": 0, "1283": 0, "1284": 0, "1285": 0, "1286": 0, "1287": 0, "1288": 0, "1289": 0, "1290": 0, "1272": 0, "1273": 0, "1295": 0, "1296": 0, "1297": 0, "1298": 0, "1299": 0, "1301": 0, "1303": 0, "1305": 0, "1306": 0, "1307": 0, "1308": 0, "1309": 0, "1310": 0, "1311": 0, "1313": 0, "1314": 0, "1316": 0, "1321": 0, "1322": 0, "1323": 0, "1326": 0, "1327": 0, "1328": 0, "1329": 0, "1330": 0, "1331": 0, "1333": 0, "1334": 0, "1335": 0, "1336": 0, "1341": 0, "1342": 0, "1343": 0, "1344": 0, "1345": 0, "1346": 0, "1347": 0, "1348": 0, "1349": 0, "1350": 0, "1353": 0, "1354": 0, "1355": 0, "1356": 0, "1357": 0, "1360": 0, "1361": 0, "1362": 0, "1363": 0, "1364": 0, "1366": 0, "1372": 0, "1378": 0, "1379": 0, "1380": 0, "1381": 0, "1382": 0, "1383": 0, "1384": 0, "1386": 0, "1387": 0, "1389": 0, "1391": 0, "1373": 0, "1374": 0, "1376": 0, "1395": 0, "1397": 0, "1398": 0, "1399": 0, "1402": 0, "1403": 0, "1404": 0, "1405": 0, "1401": 0}}
++ git checkout 57ed10c68057c96491acbd3e62254ccfaf9e3861
+Note: switching to '57ed10c68057c96491acbd3e62254ccfaf9e3861'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 57ed10c68 Merge pull request #8548 from tk0miya/741_inherited_ivar
+M	setup.py
+M	tox.ini
++ git apply /root/pre_state.patch
+error: unrecognized input

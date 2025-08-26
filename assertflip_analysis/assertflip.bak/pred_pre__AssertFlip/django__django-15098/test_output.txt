@@ -1,0 +1,2192 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 2c7846d992ca512d36a73f518205015c88ed088c
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 2c7846d992ca512d36a73f518205015c88ed088c
+Author: Mariusz Felisiak <felisiak.mariusz@gmail.com>
+Date:   Fri Dec 3 11:56:22 2021 +0100
+
+    Fixed #33333 -- Fixed setUpTestData() crash with models.BinaryField on PostgreSQL.
+    
+    This makes models.BinaryField pickleable on PostgreSQL.
+    
+    Regression in 3cf80d3fcf7446afdde16a2be515c423f720e54d.
+    
+    Thanks Adam Zimmerman for the report.
+
+diff --git a/django/db/models/base.py b/django/db/models/base.py
+index 237a04cfd7..0d50dad0c9 100644
+--- a/django/db/models/base.py
++++ b/django/db/models/base.py
+@@ -572,6 +572,16 @@ class Model(metaclass=ModelBase):
+         """Hook to allow choosing the attributes to pickle."""
+         state = self.__dict__.copy()
+         state['_state'] = copy.copy(state['_state'])
++        # memoryview cannot be pickled, so cast it to bytes and store
++        # separately.
++        _memoryview_attrs = []
++        for attr, value in state.items():
++            if isinstance(value, memoryview):
++                _memoryview_attrs.append((attr, bytes(value)))
++        if _memoryview_attrs:
++            state['_memoryview_attrs'] = _memoryview_attrs
++            for attr, value in _memoryview_attrs:
++                state.pop(attr)
+         return state
+ 
+     def __setstate__(self, state):
+@@ -591,6 +601,9 @@ class Model(metaclass=ModelBase):
+                 RuntimeWarning,
+                 stacklevel=2,
+             )
++        if '_memoryview_attrs' in state:
++            for attr, value in state.pop('_memoryview_attrs'):
++                state[attr] = memoryview(value)
+         self.__dict__.update(state)
+ 
+     def _get_pk_val(self, meta=None):
+diff --git a/docs/releases/3.2.10.txt b/docs/releases/3.2.10.txt
+index 8df403e3d4..18f0f9f09a 100644
+--- a/docs/releases/3.2.10.txt
++++ b/docs/releases/3.2.10.txt
+@@ -10,4 +10,6 @@ Django 3.2.10 fixes a security issue with severity "low" and several bugs in
+ Bugfixes
+ ========
+ 
+-* ...
++* Fixed a regression in Django 3.2 that caused a crash of ``setUpTestData()``
++  with ``BinaryField`` on PostgreSQL, which is ``memoryview``-backed
++  (:ticket:`33333`).
+diff --git a/tests/queryset_pickle/models.py b/tests/queryset_pickle/models.py
+index 689a11f65e..9a033ffe95 100644
+--- a/tests/queryset_pickle/models.py
++++ b/tests/queryset_pickle/models.py
+@@ -46,6 +46,7 @@ class Happening(models.Model):
+     number1 = models.IntegerField(blank=True, default=standalone_number)
+     number2 = models.IntegerField(blank=True, default=Numbers.get_static_number)
+     event = models.OneToOneField(Event, models.CASCADE, null=True)
++    data = models.BinaryField(null=True)
+ 
+ 
+ class Container:
+diff --git a/tests/queryset_pickle/tests.py b/tests/queryset_pickle/tests.py
+index bf61960419..60d30cd8ce 100644
+--- a/tests/queryset_pickle/tests.py
++++ b/tests/queryset_pickle/tests.py
+@@ -16,6 +16,10 @@ class PickleabilityTestCase(TestCase):
+     def assert_pickles(self, qs):
+         self.assertEqual(list(pickle.loads(pickle.dumps(qs))), list(qs))
+ 
++    def test_binaryfield(self):
++        Happening.objects.create(data=b'binary data')
++        self.assert_pickles(Happening.objects.all())
++
+     def test_related_field(self):
+         g = Group.objects.create(name="Ponies Who Own Maybachs")
+         self.assert_pickles(Event.objects.filter(group=g.id))
+diff --git a/tests/test_utils/models.py b/tests/test_utils/models.py
+index b0497f12b9..57518aef90 100644
+--- a/tests/test_utils/models.py
++++ b/tests/test_utils/models.py
+@@ -8,6 +8,7 @@ class Car(models.Model):
+ class Person(models.Model):
+     name = models.CharField(max_length=100)
+     cars = models.ManyToManyField(Car, through='PossessedCar')
++    data = models.BinaryField(null=True)
+ 
+ 
+ class PossessedCar(models.Model):
+diff --git a/tests/test_utils/test_testcase.py b/tests/test_utils/test_testcase.py
+index eefca4b32d..dbf609b8fe 100644
+--- a/tests/test_utils/test_testcase.py
++++ b/tests/test_utils/test_testcase.py
+@@ -74,10 +74,15 @@ class TestDataTests(TestCase):
+             belongs_to=cls.jim_douglas,
+         )
+ 
++        cls.person_binary = Person.objects.create(name='Person', data=b'binary data')
++        cls.person_binary_get = Person.objects.get(pk=cls.person_binary.pk)
++
+     @assert_no_queries
+     def test_class_attribute_equality(self):
+         """Class level test data is equal to instance level test data."""
+         self.assertEqual(self.jim_douglas, self.__class__.jim_douglas)
++        self.assertEqual(self.person_binary, self.__class__.person_binary)
++        self.assertEqual(self.person_binary_get, self.__class__.person_binary_get)
+ 
+     @assert_no_queries
+     def test_class_attribute_identity(self):
+@@ -85,6 +90,21 @@ class TestDataTests(TestCase):
+         Class level test data is not identical to instance level test data.
+         """
+         self.assertIsNot(self.jim_douglas, self.__class__.jim_douglas)
++        self.assertIsNot(self.person_binary, self.__class__.person_binary)
++        self.assertIsNot(self.person_binary_get, self.__class__.person_binary_get)
++
++    @assert_no_queries
++    def test_binaryfield_data_type(self):
++        self.assertEqual(bytes(self.person_binary.data), b'binary data')
++        self.assertEqual(bytes(self.person_binary_get.data), b'binary data')
++        self.assertEqual(
++            type(self.person_binary_get.data),
++            type(self.__class__.person_binary_get.data),
++        )
++        self.assertEqual(
++            type(self.person_binary.data),
++            type(self.__class__.person_binary.data),
++        )
+ 
+     @assert_no_queries
+     def test_identity_preservation(self):
++ git diff 2c7846d992ca512d36a73f518205015c88ed088c
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20211203105622) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20211203105622) (0.5.3)
+Requirement already satisfied: typing_extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from asgiref>=3.3.2->Django==4.1.dev20211203105622) (4.14.1)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.1.dev20211203105622-0.editable-py3-none-any.whl size=26882 sha256=8c7c1f4d8746367cdc09f8b7d06e739d34ce6a81b0807a177bd44c069fa2e661
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9z96fzvf/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.1.dev20211203105622
+    Uninstalling Django-4.1.dev20211203105622:
+      Successfully uninstalled Django-4.1.dev20211203105622
+Successfully installed Django-4.1.dev20211203105622
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-15098.py...
+Applied patch tests/test_coverup_django__django-15098.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/utils/translation/trans_real\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-15098
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/utils/translation/trans_real\\.py)']
+0.23 trans_real.py(1): """Translation helper functions."""
+0.23 trans_real.py(2): import functools
+0.23 trans_real.py(3): import gettext as gettext_module
+0.23 trans_real.py(4): import os
+0.23 trans_real.py(5): import re
+0.23 trans_real.py(6): import sys
+0.23 trans_real.py(7): import warnings
+0.23 trans_real.py(9): from asgiref.local import Local
+0.23 trans_real.py(11): from django.apps import apps
+0.23 trans_real.py(12): from django.conf import settings
+0.23 trans_real.py(13): from django.conf.locale import LANG_INFO
+0.23 trans_real.py(14): from django.core.exceptions import AppRegistryNotReady
+0.23 trans_real.py(15): from django.core.signals import setting_changed
+0.23 trans_real.py(16): from django.dispatch import receiver
+0.23 trans_real.py(17): from django.utils.regex_helper import _lazy_re_compile
+0.23 trans_real.py(18): from django.utils.safestring import SafeData, mark_safe
+0.23 trans_real.py(20): from . import to_language, to_locale
+0.23 trans_real.py(24): _translations = {}
+0.23 trans_real.py(25): _active = Local()
+0.23 trans_real.py(28): _default = None
+0.23 trans_real.py(31): CONTEXT_SEPARATOR = "\x04"
+0.23 trans_real.py(35): accept_language_re = _lazy_re_compile(r'''
+0.23 trans_real.py(39):         ''', re.VERBOSE)
+0.23 trans_real.py(35): accept_language_re = _lazy_re_compile(r'''
+0.23 trans_real.py(41): language_code_re = _lazy_re_compile(
+0.23 trans_real.py(42):     r'^[a-z]{1,8}(?:-[a-z0-9]{1,8})*(?:@[a-z0-9]{1,20})?$',
+0.23 trans_real.py(43):     re.IGNORECASE
+0.23 trans_real.py(41): language_code_re = _lazy_re_compile(
+0.23 trans_real.py(46): language_code_prefix_re = _lazy_re_compile(r'^/(\w+([@-]\w+)?)(/|$)')
+0.23 trans_real.py(49): @receiver(setting_changed)
+0.23 trans_real.py(50): def reset_cache(**kwargs):
+0.23 trans_real.py(61): class TranslationCatalog:
+0.23 trans_real.py(61): class TranslationCatalog:
+0.23 trans_real.py(62):     """
+0.23 trans_real.py(66):     def __init__(self, trans=None):
+0.23 trans_real.py(70):     def __getitem__(self, key):
+0.23 trans_real.py(78):     def __setitem__(self, key, value):
+0.23 trans_real.py(81):     def __contains__(self, key):
+0.23 trans_real.py(84):     def items(self):
+0.23 trans_real.py(88):     def keys(self):
+0.23 trans_real.py(92):     def update(self, trans):
+0.23 trans_real.py(102):     def get(self, key, default=None):
+0.23 trans_real.py(110):     def plural(self, msgid, num):
+0.23 trans_real.py(118): class DjangoTranslation(gettext_module.GNUTranslations):
+0.23 trans_real.py(118): class DjangoTranslation(gettext_module.GNUTranslations):
+0.23 trans_real.py(119):     """
+0.23 trans_real.py(127):     domain = 'django'
+0.23 trans_real.py(129):     def __init__(self, language, domain=None, localedirs=None):
+0.23 trans_real.py(166):     def __repr__(self):
+0.23 trans_real.py(169):     def _new_gnu_trans(self, localedir, use_null_fallback=True):
+0.23 trans_real.py(184):     def _init_translation_catalog(self):
+0.23 trans_real.py(191):     def _add_installed_apps_translations(self):
+0.23 trans_real.py(206):     def _add_local_translations(self):
+0.23 trans_real.py(212):     def _add_fallback(self, localedirs=None):
+0.23 trans_real.py(227):     def merge(self, other):
+0.23 trans_real.py(241):     def language(self):
+0.23 trans_real.py(245):     def to_language(self):
+0.23 trans_real.py(249):     def ngettext(self, msgid1, msgid2, n):
+0.23 trans_real.py(262): def translation(language):
+0.23 trans_real.py(272): def activate(language):
+0.23 trans_real.py(282): def deactivate():
+0.23 trans_real.py(291): def deactivate_all():
+0.23 trans_real.py(301): def get_language():
+0.23 trans_real.py(313): def get_language_bidi():
+0.23 trans_real.py(328): def catalog():
+0.23 trans_real.py(344): def gettext(message):
+0.23 trans_real.py(370): def pgettext(context, message):
+0.23 trans_real.py(381): def gettext_noop(message):
+0.23 trans_real.py(391): def do_ntranslate(singular, plural, number, translation_function):
+0.23 trans_real.py(402): def ngettext(singular, plural, number):
+0.23 trans_real.py(410): def npgettext(context, singular, plural, number):
+0.23 trans_real.py(421): def all_locale_paths():
+0.23 trans_real.py(435): @functools.lru_cache(maxsize=1000)
+0.23 trans_real.py(436): def check_for_language(lang_code):
+0.23 trans_real.py(455): @functools.lru_cache
+0.23 trans_real.py(456): def get_languages():
+0.23 trans_real.py(463): @functools.lru_cache(maxsize=1000)
+0.23 trans_real.py(464): def get_supported_language_variant(lang_code, strict=False):
+0.23 trans_real.py(501): def get_language_from_path(path, strict=False):
+0.23 trans_real.py(518): def get_language_from_request(request, check_path=False):
+0.23 trans_real.py(561): @functools.lru_cache(maxsize=1000)
+0.23 trans_real.py(562): def parse_accept_lang_header(lang_string):
+Testing against Django installed in '/testbed/django'
+0.53 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.53 trans_real.py(354):     if eol_message:
+0.53 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.53 trans_real.py(267):     if language not in _translations:
+0.53 trans_real.py(268):         _translations[language] = DjangoTranslation(language)
+0.53 trans_real.py(131):         gettext_module.GNUTranslations.__init__(self)
+0.53 trans_real.py(132):         if domain is not None:
+0.53 trans_real.py(135):         self.__language = language
+0.53 trans_real.py(136):         self.__to_language = to_language(language)
+0.53 trans_real.py(137):         self.__locale = to_locale(language)
+0.53 trans_real.py(138):         self._catalog = None
+0.53 trans_real.py(141):         self.plural = lambda n: int(n != 1)
+0.53 trans_real.py(143):         if self.domain == 'django':
+0.53 trans_real.py(144):             if localedirs is not None:
+0.53 trans_real.py(148):             self._init_translation_catalog()
+0.53 trans_real.py(186):         settingsfile = sys.modules[settings.__module__].__file__
+0.53 trans_real.py(187):         localedir = os.path.join(os.path.dirname(settingsfile), 'locale')
+0.53 trans_real.py(188):         translation = self._new_gnu_trans(localedir)
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(178):             domain=self.domain,
+0.53 trans_real.py(179):             localedir=localedir,
+0.53 trans_real.py(180):             languages=[self.__locale],
+0.53 trans_real.py(181):             fallback=use_null_fallback,
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(189):         self.merge(translation)
+0.53 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.53 trans_real.py(231):         if self._catalog is None:
+0.53 trans_real.py(233):             self.plural = other.plural
+0.53 trans_real.py(234):             self._info = other._info.copy()
+0.53 trans_real.py(235):             self._catalog = TranslationCatalog(other)
+0.53 trans_real.py(67):         self._catalogs = [trans._catalog.copy()] if trans else [{}]
+0.53 trans_real.py(68):         self._plurals = [trans.plural] if trans else [lambda n: int(n != 1)]
+0.53 trans_real.py(238):         if other._fallback:
+0.53 trans_real.py(150):         if localedirs:
+0.53 trans_real.py(155):             self._add_installed_apps_translations()
+0.53 trans_real.py(193):         try:
+0.53 trans_real.py(194):             app_configs = reversed(list(apps.get_app_configs()))
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.53 trans_real.py(202):             if os.path.exists(localedir):
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.53 trans_real.py(202):             if os.path.exists(localedir):
+0.53 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(178):             domain=self.domain,
+0.53 trans_real.py(179):             localedir=localedir,
+0.53 trans_real.py(180):             languages=[self.__locale],
+0.53 trans_real.py(181):             fallback=use_null_fallback,
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(204):                 self.merge(translation)
+0.53 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.53 trans_real.py(231):         if self._catalog is None:
+0.53 trans_real.py(237):             self._catalog.update(other)
+0.53 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.53 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.53 trans_real.py(96):                 cat.update(trans._catalog)
+0.53 trans_real.py(97):                 break
+0.53 trans_real.py(238):         if other._fallback:
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.53 trans_real.py(202):             if os.path.exists(localedir):
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.53 trans_real.py(202):             if os.path.exists(localedir):
+0.53 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(178):             domain=self.domain,
+0.53 trans_real.py(179):             localedir=localedir,
+0.53 trans_real.py(180):             languages=[self.__locale],
+0.53 trans_real.py(181):             fallback=use_null_fallback,
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(204):                 self.merge(translation)
+0.53 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.53 trans_real.py(231):         if self._catalog is None:
+0.53 trans_real.py(237):             self._catalog.update(other)
+0.53 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.53 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.53 trans_real.py(96):                 cat.update(trans._catalog)
+0.53 trans_real.py(97):                 break
+0.53 trans_real.py(238):         if other._fallback:
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.53 trans_real.py(202):             if os.path.exists(localedir):
+0.53 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(178):             domain=self.domain,
+0.53 trans_real.py(179):             localedir=localedir,
+0.53 trans_real.py(180):             languages=[self.__locale],
+0.53 trans_real.py(181):             fallback=use_null_fallback,
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(204):                 self.merge(translation)
+0.53 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.53 trans_real.py(231):         if self._catalog is None:
+0.53 trans_real.py(237):             self._catalog.update(other)
+0.53 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.53 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.53 trans_real.py(96):                 cat.update(trans._catalog)
+0.53 trans_real.py(97):                 break
+0.53 trans_real.py(238):         if other._fallback:
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.53 trans_real.py(202):             if os.path.exists(localedir):
+0.53 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(178):             domain=self.domain,
+0.53 trans_real.py(179):             localedir=localedir,
+0.53 trans_real.py(180):             languages=[self.__locale],
+0.53 trans_real.py(181):             fallback=use_null_fallback,
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(204):                 self.merge(translation)
+0.53 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.53 trans_real.py(231):         if self._catalog is None:
+0.53 trans_real.py(237):             self._catalog.update(other)
+0.53 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.53 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.53 trans_real.py(96):                 cat.update(trans._catalog)
+0.53 trans_real.py(97):                 break
+0.53 trans_real.py(238):         if other._fallback:
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.53 trans_real.py(202):             if os.path.exists(localedir):
+0.53 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(178):             domain=self.domain,
+0.53 trans_real.py(179):             localedir=localedir,
+0.53 trans_real.py(180):             languages=[self.__locale],
+0.53 trans_real.py(181):             fallback=use_null_fallback,
+0.53 trans_real.py(177):         return gettext_module.translation(
+0.53 trans_real.py(204):                 self.merge(translation)
+0.53 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.53 trans_real.py(231):         if self._catalog is None:
+0.53 trans_real.py(237):             self._catalog.update(other)
+0.53 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.53 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.53 trans_real.py(96):                 cat.update(trans._catalog)
+0.53 trans_real.py(97):                 break
+0.53 trans_real.py(238):         if other._fallback:
+0.53 trans_real.py(200):         for app_config in app_configs:
+0.53 trans_real.py(157):         self._add_local_translations()
+0.53 trans_real.py(208):         for localedir in reversed(settings.LOCALE_PATHS):
+0.53 trans_real.py(158):         if self.__language == settings.LANGUAGE_CODE and self.domain == 'django' and self._catalog is None:
+0.53 trans_real.py(161):         self._add_fallback(localedirs)
+0.53 trans_real.py(216):         if self.__language == settings.LANGUAGE_CODE or self.__language.startswith('en'):
+0.53 trans_real.py(217):             return
+0.53 trans_real.py(162):         if self._catalog is None:
+0.53 trans_real.py(269):     return _translations[language]
+0.53 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.53 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.53 trans_real.py(103):         missing = object()
+0.53 trans_real.py(104):         for cat in self._catalogs:
+0.53 trans_real.py(105):             result = cat.get(key, missing)
+0.53 trans_real.py(106):             if result is not missing:
+0.53 trans_real.py(104):         for cat in self._catalogs:
+0.53 trans_real.py(108):         return default
+0.53 trans_real.py(364):     if isinstance(message, SafeData):
+0.53 trans_real.py(367):     return result
+0.53 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.53 trans_real.py(354):     if eol_message:
+0.53 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.53 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.53 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.53 trans_real.py(103):         missing = object()
+0.53 trans_real.py(104):         for cat in self._catalogs:
+0.53 trans_real.py(105):             result = cat.get(key, missing)
+0.53 trans_real.py(106):             if result is not missing:
+0.53 Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+trans_real.py(104):         for cat in self._catalogs:
+0.53 trans_real.py(108):         return default
+0.53 trans_real.py(364):     if isinstance(message, SafeData):
+0.53 trans_real.py(367):     return result
+0.54 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.54 trans_real.py(354):     if eol_message:
+0.54 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.54 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.54 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.54 trans_real.py(103):         missing = object()
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(105):             result = cat.get(key, missing)
+0.54 trans_real.py(106):             if result is not missing:
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(108):         return default
+0.54 trans_real.py(364):     if isinstance(message, SafeData):
+0.54 trans_real.py(367):     return result
+0.54 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.54 trans_real.py(354):     if eol_message:
+0.54 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.54 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.54 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.54 trans_real.py(103):         missing = object()
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(105):             result = cat.get(key, missing)
+0.54 trans_real.py(106):             if result is not missing:
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(108):         return default
+0.54 trans_real.py(364):     if isinstance(message, SafeData):
+0.54 trans_real.py(367):     return result
+0.54 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.54 trans_real.py(354):     if eol_message:
+0.54 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.54 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.54 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.54 trans_real.py(103):         missing = object()
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(105):             result = cat.get(key, missing)
+0.54 trans_real.py(106):             if result is not missing:
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(108):         return default
+0.54 trans_real.py(364):     if isinstance(message, SafeData):
+0.54 trans_real.py(367):     return result
+0.54 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.54 trans_real.py(354):     if eol_message:
+0.54 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.54 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.54 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.54 trans_real.py(103):         missing = object()
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(105):             result = cat.get(key, missing)
+0.54 trans_real.py(106):             if result is not missing:
+0.54 trans_real.py(104):         for cat in self._catalogs:
+0.54 trans_real.py(108):         return default
+0.54 trans_real.py(364):     if isinstance(message, SafeData):
+0.54 trans_real.py(367):     return result
+0.55 trans_real.py(287):     if hasattr(_active, "value"):
+Found 3 test(s).
+Skipping setup of unused database(s): other.
+0.57 trans_real.py(303):     t = getattr(_active, "value", None)
+0.57 trans_real.py(304):     if t is not None:
+0.57 trans_real.py(310):     return settings.LANGUAGE_CODE
+0.57 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.57 trans_real.py(298):     _active.value.to_language = lambda *args: None
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+0.62 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.62 trans_real.py(354):     if eol_message:
+0.62 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.62 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.62 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.62 trans_real.py(364):     if isinstance(message, SafeData):
+0.62 trans_real.py(367):     return result
+0.62 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.62 trans_real.py(354):     if eol_message:
+0.62 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.62 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.62 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.62 trans_real.py(364):     if isinstance(message, SafeData):
+0.62 trans_real.py(367):     return result
+0.62 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.62 trans_real.py(354):     if eol_message:
+0.62 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.62 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.62 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.62 trans_real.py(364):     if isinstance(message, SafeData):
+0.62 trans_real.py(367):     return result
+0.62 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.62 trans_real.py(354):     if eol_message:
+0.62 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.62 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.62 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.62 trans_real.py(364):     if isinstance(message, SafeData):
+0.62 trans_real.py(367):     return result
+0.62 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.62 trans_real.py(354):     if eol_message:
+0.62 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.62 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.62 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.62 trans_real.py(364):     if isinstance(message, SafeData):
+0.62 trans_real.py(367):     return result
+0.62 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.62 trans_real.py(354):     if eol_message:
+0.62 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.62 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.62 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.62 trans_real.py(364):     if isinstance(message, SafeData):
+0.62 trans_real.py(367):     return result
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(303):     t = getattr(_active, "value", None)
+0.63 trans_real.py(304):     if t is not None:
+0.63 trans_real.py(305):         try:
+0.63 trans_real.py(306):             return t.to_language()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.63 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.63 trans_real.py(354):     if eol_message:
+0.63 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.63 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.63 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.63 trans_real.py(364):     if isinstance(message, SafeData):
+0.63 trans_real.py(367):     return result
+0.63 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.63 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.64 trans_real.py(354):     if eol_message:
+0.64 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.64 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.64 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.64 trans_real.py(364):     if isinstance(message, SafeData):
+0.64 trans_real.py(367):     return result
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.64 trans_real.py(354):     if eol_message:
+0.64 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.64 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.64 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.64 trans_real.py(364):     if isinstance(message, SafeData):
+0.64 trans_real.py(367):     return result
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.64 trans_real.py(354):     if eol_message:
+0.64 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.64 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.64 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.64 trans_real.py(364):     if isinstance(message, SafeData):
+0.64 trans_real.py(367):     return result
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.64 trans_real.py(354):     if eol_message:
+0.64 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.64 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.64 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.64 trans_real.py(364):     if isinstance(message, SafeData):
+0.64 trans_real.py(367):     return result
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(303):     t = getattr(_active, "value", None)
+0.64 trans_real.py(304):     if t is not None:
+0.64 trans_real.py(305):         try:
+0.64 trans_real.py(306):             return t.to_language()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.64 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.64 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.65 trans_real.py(277):     if not language:
+0.65 trans_real.py(279):     _active.value = translation(language)
+0.65 trans_real.py(267):     if language not in _translations:
+0.65 trans_real.py(269):     return _translations[language]
+0.65 trans_real.py(476):     if lang_code:
+0.65 trans_real.py(479):         possible_lang_codes = [lang_code]
+0.65 trans_real.py(480):         try:
+0.65 trans_real.py(481):             possible_lang_codes.extend(LANG_INFO[lang_code]['fallback'])
+0.65 trans_real.py(482):         except KeyError:
+0.65 trans_real.py(483):             pass
+0.65 trans_real.py(484):         i = None
+0.65 trans_real.py(485):         while (i := lang_code.rfind('-', 0, i)) > -1:
+0.65 trans_real.py(487):         generic_lang_code = possible_lang_codes[-1]
+0.65 trans_real.py(488):         supported_lang_codes = get_languages()
+0.65 trans_real.py(460):     return dict(settings.LANGUAGES)
+0.65 trans_real.py(490):         for code in possible_lang_codes:
+0.65 trans_real.py(491):             if code in supported_lang_codes and check_for_language(code):
+0.65 trans_real.py(447):     if lang_code is None or not language_code_re.search(lang_code):
+0.65 trans_real.py(449):     return any(
+0.65 trans_real.py(451):         for path in all_locale_paths()
+0.65 trans_real.py(425):     globalpath = os.path.join(
+0.65 trans_real.py(426):         os.path.dirname(sys.modules[settings.__module__].__file__), 'locale')
+0.65 trans_real.py(425):     globalpath = os.path.join(
+0.65 trans_real.py(427):     app_paths = []
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.65 trans_real.py(430):         if os.path.exists(locale_path):
+0.65 trans_real.py(431):             app_paths.append(locale_path)
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.65 trans_real.py(430):         if os.path.exists(locale_path):
+0.65 trans_real.py(431):             app_paths.append(locale_path)
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.65 trans_real.py(430):         if os.path.exists(locale_path):
+0.65 trans_real.py(431):             app_paths.append(locale_path)
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.65 trans_real.py(430):         if os.path.exists(locale_path):
+0.65 trans_real.py(431):             app_paths.append(locale_path)
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.65 trans_real.py(430):         if os.path.exists(locale_path):
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.65 trans_real.py(430):         if os.path.exists(locale_path):
+0.65 trans_real.py(431):             app_paths.append(locale_path)
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.65 trans_real.py(430):         if os.path.exists(locale_path):
+0.65 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.65 trans_real.py(432):     return [globalpath, *settings.LOCALE_PATHS, *app_paths]
+0.65 trans_real.py(449):     return any(
+0.65 trans_real.py(449):     return any(
+0.65 trans_real.py(451):         for path in all_locale_paths()
+0.65 trans_real.py(450):         gettext_module.find('django', path, [to_locale(lang_code)]) is not None
+0.65 trans_real.py(492):                 return code
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.67 trans_real.py(303):     t = getattr(_active, "value", None)
+0.67 trans_real.py(304):     if t is not None:
+0.67 trans_real.py(305):         try:
+0.67 trans_real.py(306):             return t.to_language()
+0.67 trans_real.py(247):         return self.__to_language
+0.67 trans_real.py(297):     _active.value = gettext_module.NullTranslations()
+0.67 trans_real.py(298):     _active.value.to_language = lambda *args: None
+0.67 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.67 trans_real.py(354):     if eol_message:
+0.67 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.67 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.67 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.67 trans_real.py(364):     if isinstance(message, SafeData):
+0.67 trans_real.py(367):     return result
+0.67 trans_real.py(277):     if not language:
+0.67 trans_real.py(279):     _active.value = translation(language)
+0.67 trans_real.py(267):     if language not in _translations:
+0.67 trans_real.py(269):     return _translations[language]
+0.68 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.68 trans_real.py(354):     if eol_message:
+0.68 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.68 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.68 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.68 trans_real.py(103):         missing = object()
+0.68 trans_real.py(104):         for cat in self._catalogs:
+0.68 trans_real.py(105):             result = cat.get(key, missing)
+0.68 trans_real.py(106):             if result is not missing:
+0.68 trans_real.py(104):         for cat in self._catalogs:
+0.68 trans_real.py(108):         return default
+0.68 trans_real.py(364):     if isinstance(message, SafeData):
+0.68 trans_real.py(367):     return result
+0.68 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.68 trans_real.py(354):     if eol_message:
+0.68 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.68 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.68 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.68 trans_real.py(103):         missing = object()
+0.68 trans_real.py(104):         for cat in self._catalogs:
+0.68 trans_real.py(105):             result = cat.get(key, missing)
+0.68 trans_real.py(106):             if result is not missing:
+0.68 trans_real.py(104):         for cat in self._catalogs:
+0.68 trans_real.py(108):         return default
+0.68 trans_real.py(364):     if isinstance(message, SafeData):
+0.68 trans_real.py(367):     return result
+0.68 trans_real.py(352):     eol_message = message.replace('\r\n', '\n').replace('\r', '\n')
+0.68 trans_real.py(354):     if eol_message:
+0.68 trans_real.py(355):         _default = _default or translation(settings.LANGUAGE_CODE)
+0.68 trans_real.py(356):         translation_object = getattr(_active, "value", _default)
+0.68 trans_real.py(358):         result = translation_object.gettext(eol_message)
+0.68 trans_real.py(103):         missing = object()
+0.68 trans_real.py(104):         for cat in self._catalogs:
+0.68 trans_real.py(105):             result = cat.get(key, missing)
+0.68 trans_real.py(106):             if result is not missing:
+0.68 trans_real.py(104):         for cat in self._catalogs:
+0.68 trans_real.py(108):         return default
+0.68 trans_real.py(364):     if isinstance(message, SafeData):
+0.68 trans_real.py(367):     return result
+System check identified no issues (0 silenced).
+test_en_Latn_US_locale (test_coverup_django__django-15098.InternationalisationTestCase) ... 0.69 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
+0.69 trans_real.py(56):         check_for_language.cache_clear()
+0.69 trans_real.py(57):         get_languages.cache_clear()
+0.69 trans_real.py(58):         get_supported_language_variant.cache_clear()
+0.69 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
+0.69 trans_real.py(56):         check_for_language.cache_clear()
+0.69 trans_real.py(57):         get_languages.cache_clear()
+0.69 trans_real.py(58):         get_supported_language_variant.cache_clear()
+0.69 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
+0.69 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
+0.69 trans_real.py(528):     if check_path:
+0.69 trans_real.py(533):     lang_code = request.COOKIES.get(settings.LANGUAGE_COOKIE_NAME)
+0.69 trans_real.py(534):     if lang_code is not None and lang_code in get_languages() and check_for_language(lang_code):
+0.69 trans_real.py(537):     try:
+0.69 trans_real.py(538):         return get_supported_language_variant(lang_code)
+0.69 trans_real.py(476):     if lang_code:
+0.69 trans_real.py(498):     raise LookupError(lang_code)
+0.69 trans_real.py(539):     except LookupError:
+0.69 trans_real.py(540):         pass
+0.69 trans_real.py(542):     accept = request.META.get('HTTP_ACCEPT_LANGUAGE', '')
+0.69 trans_real.py(543):     for accept_lang, unused in parse_accept_lang_header(accept):
+0.69 trans_real.py(569):     result = []
+0.69 trans_real.py(570):     pieces = accept_language_re.split(lang_string.lower())
+0.69 trans_real.py(571):     if pieces[-1]:
+0.69 trans_real.py(573):     for i in range(0, len(pieces) - 1, 3):
+0.69 trans_real.py(582):     result.sort(key=lambda k: k[1], reverse=True)
+0.69 trans_real.py(583):     return tuple(result)
+0.69 trans_real.py(555):     try:
+0.69 trans_real.py(556):         return get_supported_language_variant(settings.LANGUAGE_CODE)
+0.69 trans_real.py(476):     if lang_code:
+0.69 trans_real.py(479):         possible_lang_codes = [lang_code]
+0.69 trans_real.py(480):         try:
+0.69 trans_real.py(481):             possible_lang_codes.extend(LANG_INFO[lang_code]['fallback'])
+0.69 trans_real.py(482):         except KeyError:
+0.69 trans_real.py(483):             pass
+0.69 trans_real.py(484):         i = None
+0.69 trans_real.py(485):         while (i := lang_code.rfind('-', 0, i)) > -1:
+0.69 trans_real.py(486):             possible_lang_codes.append(lang_code[:i])
+0.69 trans_real.py(485):         while (i := lang_code.rfind('-', 0, i)) > -1:
+0.69 trans_real.py(487):         generic_lang_code = possible_lang_codes[-1]
+0.69 trans_real.py(488):         supported_lang_codes = get_languages()
+0.69 trans_real.py(460):     return dict(settings.LANGUAGES)
+0.69 trans_real.py(490):         for code in possible_lang_codes:
+0.69 trans_real.py(491):             if code in supported_lang_codes and check_for_language(code):
+0.69 trans_real.py(447):     if lang_code is None or not language_code_re.search(lang_code):
+0.69 trans_real.py(449):     return any(
+0.69 trans_real.py(451):         for path in all_locale_paths()
+0.69 trans_real.py(425):     globalpath = os.path.join(
+0.69 trans_real.py(426):         os.path.dirname(sys.modules[settings.__module__].__file__), 'locale')
+0.69 trans_real.py(425):     globalpath = os.path.join(
+0.69 trans_real.py(427):     app_paths = []
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.69 trans_real.py(430):         if os.path.exists(locale_path):
+0.69 trans_real.py(431):             app_paths.append(locale_path)
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.69 trans_real.py(430):         if os.path.exists(locale_path):
+0.69 trans_real.py(431):             app_paths.append(locale_path)
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.69 trans_real.py(430):         if os.path.exists(locale_path):
+0.69 trans_real.py(431):             app_paths.append(locale_path)
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.69 trans_real.py(430):         if os.path.exists(locale_path):
+0.69 trans_real.py(431):             app_paths.append(locale_path)
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.69 trans_real.py(430):         if os.path.exists(locale_path):
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.69 trans_real.py(430):         if os.path.exists(locale_path):
+0.69 trans_real.py(431):             app_paths.append(locale_path)
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(429):         locale_path = os.path.join(app_config.path, 'locale')
+0.69 trans_real.py(430):         if os.path.exists(locale_path):
+0.69 trans_real.py(428):     for app_config in apps.get_app_configs():
+0.69 trans_real.py(432):     return [globalpath, *settings.LOCALE_PATHS, *app_paths]
+0.69 trans_real.py(449):     return any(
+0.69 trans_real.py(449):     return any(
+0.69 trans_real.py(451):         for path in all_locale_paths()
+0.69 trans_real.py(450):         gettext_module.find('django', path, [to_locale(lang_code)]) is not None
+0.69 trans_real.py(492):                 return code
+0.69 trans_real.py(508):     regex_match = language_code_prefix_re.match(path)
+0.70 trans_real.py(509):     if not regex_match:
+0.70 trans_real.py(510):         return None
+0.70 trans_real.py(277):     if not language:
+0.70 trans_real.py(279):     _active.value = translation(language)
+0.70 trans_real.py(267):     if language not in _translations:
+0.70 trans_real.py(268):         _translations[language] = DjangoTranslation(language)
+0.70 trans_real.py(131):         gettext_module.GNUTranslations.__init__(self)
+0.70 trans_real.py(132):         if domain is not None:
+0.70 trans_real.py(135):         self.__language = language
+0.70 trans_real.py(136):         self.__to_language = to_language(language)
+0.70 trans_real.py(137):         self.__locale = to_locale(language)
+0.70 trans_real.py(138):         self._catalog = None
+0.70 trans_real.py(141):         self.plural = lambda n: int(n != 1)
+0.70 trans_real.py(143):         if self.domain == 'django':
+0.70 trans_real.py(144):             if localedirs is not None:
+0.70 trans_real.py(148):             self._init_translation_catalog()
+0.70 trans_real.py(186):         settingsfile = sys.modules[settings.__module__].__file__
+0.70 trans_real.py(187):         localedir = os.path.join(os.path.dirname(settingsfile), 'locale')
+0.70 trans_real.py(188):         translation = self._new_gnu_trans(localedir)
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(178):             domain=self.domain,
+0.70 trans_real.py(179):             localedir=localedir,
+0.70 trans_real.py(180):             languages=[self.__locale],
+0.70 trans_real.py(181):             fallback=use_null_fallback,
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(189):         self.merge(translation)
+0.70 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.70 trans_real.py(231):         if self._catalog is None:
+0.70 trans_real.py(233):             self.plural = other.plural
+0.70 trans_real.py(234):             self._info = other._info.copy()
+0.70 trans_real.py(235):             self._catalog = TranslationCatalog(other)
+0.70 trans_real.py(67):         self._catalogs = [trans._catalog.copy()] if trans else [{}]
+0.70 trans_real.py(68):         self._plurals = [trans.plural] if trans else [lambda n: int(n != 1)]
+0.70 trans_real.py(238):         if other._fallback:
+0.70 trans_real.py(150):         if localedirs:
+0.70 trans_real.py(155):             self._add_installed_apps_translations()
+0.70 trans_real.py(193):         try:
+0.70 trans_real.py(194):             app_configs = reversed(list(apps.get_app_configs()))
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.70 trans_real.py(202):             if os.path.exists(localedir):
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.70 trans_real.py(202):             if os.path.exists(localedir):
+0.70 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(178):             domain=self.domain,
+0.70 trans_real.py(179):             localedir=localedir,
+0.70 trans_real.py(180):             languages=[self.__locale],
+0.70 trans_real.py(181):             fallback=use_null_fallback,
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(204):                 self.merge(translation)
+0.70 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.70 trans_real.py(231):         if self._catalog is None:
+0.70 trans_real.py(237):             self._catalog.update(other)
+0.70 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.70 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.70 trans_real.py(96):                 cat.update(trans._catalog)
+0.70 trans_real.py(97):                 break
+0.70 trans_real.py(238):         if other._fallback:
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.70 trans_real.py(202):             if os.path.exists(localedir):
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.70 trans_real.py(202):             if os.path.exists(localedir):
+0.70 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(178):             domain=self.domain,
+0.70 trans_real.py(179):             localedir=localedir,
+0.70 trans_real.py(180):             languages=[self.__locale],
+0.70 trans_real.py(181):             fallback=use_null_fallback,
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(204):                 self.merge(translation)
+0.70 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.70 trans_real.py(231):         if self._catalog is None:
+0.70 trans_real.py(237):             self._catalog.update(other)
+0.70 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.70 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.70 trans_real.py(96):                 cat.update(trans._catalog)
+0.70 trans_real.py(97):                 break
+0.70 trans_real.py(238):         if other._fallback:
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.70 trans_real.py(202):             if os.path.exists(localedir):
+0.70 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(178):             domain=self.domain,
+0.70 trans_real.py(179):             localedir=localedir,
+0.70 trans_real.py(180):             languages=[self.__locale],
+0.70 trans_real.py(181):             fallback=use_null_fallback,
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(204):                 self.merge(translation)
+0.70 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.70 trans_real.py(231):         if self._catalog is None:
+0.70 trans_real.py(237):             self._catalog.update(other)
+0.70 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.70 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.70 trans_real.py(96):                 cat.update(trans._catalog)
+0.70 trans_real.py(97):                 break
+0.70 trans_real.py(238):         if other._fallback:
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.70 trans_real.py(202):             if os.path.exists(localedir):
+0.70 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(178):             domain=self.domain,
+0.70 trans_real.py(179):             localedir=localedir,
+0.70 trans_real.py(180):             languages=[self.__locale],
+0.70 trans_real.py(181):             fallback=use_null_fallback,
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(204):                 self.merge(translation)
+0.70 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.70 trans_real.py(231):         if self._catalog is None:
+0.70 trans_real.py(237):             self._catalog.update(other)
+0.70 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.70 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.70 trans_real.py(96):                 cat.update(trans._catalog)
+0.70 trans_real.py(97):                 break
+0.70 trans_real.py(238):         if other._fallback:
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(201):             localedir = os.path.join(app_config.path, 'locale')
+0.70 trans_real.py(202):             if os.path.exists(localedir):
+0.70 trans_real.py(203):                 translation = self._new_gnu_trans(localedir)
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(178):             domain=self.domain,
+0.70 trans_real.py(179):             localedir=localedir,
+0.70 trans_real.py(180):             languages=[self.__locale],
+0.70 trans_real.py(181):             fallback=use_null_fallback,
+0.70 trans_real.py(177):         return gettext_module.translation(
+0.70 trans_real.py(204):                 self.merge(translation)
+0.70 trans_real.py(229):         if not getattr(other, '_catalog', None):
+0.70 trans_real.py(231):         if self._catalog is None:
+0.70 trans_real.py(237):             self._catalog.update(other)
+0.70 trans_real.py(94):         for cat, plural in zip(self._catalogs, self._plurals):
+0.70 trans_real.py(95):             if trans.plural.__code__ == plural.__code__:
+0.70 trans_real.py(96):                 cat.update(trans._catalog)
+0.70 trans_real.py(97):                 break
+0.70 trans_real.py(238):         if other._fallback:
+0.70 trans_real.py(200):         for app_config in app_configs:
+0.70 trans_real.py(157):         self._add_local_translations()
+0.70 trans_real.py(208):         for localedir in reversed(settings.LOCALE_PATHS):
+0.70 trans_real.py(158):         if self.__language == settings.LANGUAGE_CODE and self.domain == 'django' and self._catalog is None:
+0.70 trans_real.py(161):         self._add_fallback(localedirs)
+0.70 trans_real.py(216):         if self.__language == settings.LANGUAGE_CODE or self.__language.startswith('en'):
+0.70 trans_real.py(217):             return
+0.70 trans_real.py(162):         if self._catalog is None:
+0.70 trans_real.py(269):     return _translations[language]
+0.70 trans_real.py(303):     t = getattr(_active, "value", None)
+0.70 trans_real.py(304):     if t is not None:
+0.70 trans_real.py(305):         try:
+0.70 trans_real.py(306):             return t.to_language()
+0.70 trans_real.py(247):         return self.__to_language
+0.70 trans_real.py(303):     t = getattr(_active, "value", None)
+0.70 trans_real.py(304):     if t is not None:
+0.70 FAIL
+test_en_latn_us_locale (test_coverup_django__django-15098.InternationalisationTestCase) ... FAIL
+test_en_us_locale (test_coverup_django__django-15098.InternationalisationTestCase) ... FAIL
+
+======================================================================
+FAIL: test_en_Latn_US_locale (test_coverup_django__django-15098.InternationalisationTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-15098.py", line 45, in test_en_Latn_US_locale
+    self.assertEqual(response.status_code, 200)
+AssertionError: 404 != 200
+
+======================================================================
+FAIL: test_en_latn_us_locale (test_coverup_django__django-15098.InternationalisationTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-15098.py", line 41, in test_en_latn_us_locale
+    self.assertEqual(response.status_code, 200)
+AssertionError: 404 != 200
+
+======================================================================
+FAIL: test_en_us_locale (test_coverup_django__django-15098.InternationalisationTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-15098.py", line 37, in test_en_us_locale
+    self.assertEqual(response.status_code, 200)
+AssertionError: 404 != 200
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.015s
+
+FAILED (failures=3)
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+trans_real.py(305):         try:
+0.70 trans_real.py(306):             return t.to_language()
+0.70 trans_real.py(247):         return self.__to_language
+0.70 trans_real.py(508):     regex_match = language_code_prefix_re.match(path)
+0.70 trans_real.py(509):     if not regex_match:
+0.70 trans_real.py(510):         return None
+0.70 trans_real.py(528):     if check_path:
+0.70 trans_real.py(533):     lang_code = request.COOKIES.get(settings.LANGUAGE_COOKIE_NAME)
+0.70 trans_real.py(534):     if lang_code is not None and lang_code in get_languages() and check_for_language(lang_code):
+0.70 trans_real.py(537):     try:
+0.70 trans_real.py(538):         return get_supported_language_variant(lang_code)
+0.70 trans_real.py(476):     if lang_code:
+0.70 trans_real.py(498):     raise LookupError(lang_code)
+0.70 trans_real.py(539):     except LookupError:
+0.70 trans_real.py(540):         pass
+0.70 trans_real.py(542):     accept = request.META.get('HTTP_ACCEPT_LANGUAGE', '')
+0.70 trans_real.py(543):     for accept_lang, unused in parse_accept_lang_header(accept):
+0.70 trans_real.py(555):     try:
+0.70 trans_real.py(556):         return get_supported_language_variant(settings.LANGUAGE_CODE)
+0.70 trans_real.py(508):     regex_match = language_code_prefix_re.match(path)
+0.70 trans_real.py(509):     if not regex_match:
+0.70 trans_real.py(510):         return None
+0.70 trans_real.py(277):     if not language:
+0.70 trans_real.py(279):     _active.value = translation(language)
+0.70 trans_real.py(267):     if language not in _translations:
+0.70 trans_real.py(269):     return _translations[language]
+0.70 trans_real.py(303):     t = getattr(_active, "value", None)
+0.70 trans_real.py(304):     if t is not None:
+0.70 trans_real.py(305):         try:
+0.70 trans_real.py(306):             return t.to_language()
+0.70 trans_real.py(247):         return self.__to_language
+0.70 trans_real.py(303):     t = getattr(_active, "value", None)
+0.70 trans_real.py(304):     if t is not None:
+0.70 trans_real.py(305):         try:
+0.70 trans_real.py(306):             return t.to_language()
+0.70 trans_real.py(247):         return self.__to_language
+0.70 trans_real.py(508):     regex_match = language_code_prefix_re.match(path)
+0.70 trans_real.py(509):     if not regex_match:
+0.70 trans_real.py(510):         return None
+0.70 trans_real.py(528):     if check_path:
+0.70 trans_real.py(533):     lang_code = request.COOKIES.get(settings.LANGUAGE_COOKIE_NAME)
+0.70 trans_real.py(534):     if lang_code is not None and lang_code in get_languages() and check_for_language(lang_code):
+0.70 trans_real.py(537):     try:
+0.70 trans_real.py(538):         return get_supported_language_variant(lang_code)
+0.70 trans_real.py(476):     if lang_code:
+0.70 trans_real.py(498):     raise LookupError(lang_code)
+0.70 trans_real.py(539):     except LookupError:
+0.70 trans_real.py(540):         pass
+0.70 trans_real.py(542):     accept = request.META.get('HTTP_ACCEPT_LANGUAGE', '')
+0.70 trans_real.py(543):     for accept_lang, unused in parse_accept_lang_header(accept):
+0.70 trans_real.py(555):     try:
+0.70 trans_real.py(556):         return get_supported_language_variant(settings.LANGUAGE_CODE)
+0.70 trans_real.py(508):     regex_match = language_code_prefix_re.match(path)
+0.70 trans_real.py(509):     if not regex_match:
+0.70 trans_real.py(511):     lang_code = regex_match[1]
+0.70 trans_real.py(512):     try:
+0.70 trans_real.py(513):         return get_supported_language_variant(lang_code, strict=strict)
+0.70 trans_real.py(476):     if lang_code:
+0.70 trans_real.py(479):         possible_lang_codes = [lang_code]
+0.70 trans_real.py(480):         try:
+0.70 trans_real.py(481):             possible_lang_codes.extend(LANG_INFO[lang_code]['fallback'])
+0.70 trans_real.py(482):         except KeyError:
+0.70 trans_real.py(483):             pass
+0.70 trans_real.py(484):         i = None
+0.70 trans_real.py(485):         while (i := lang_code.rfind('-', 0, i)) > -1:
+0.70 trans_real.py(486):             possible_lang_codes.append(lang_code[:i])
+0.70 trans_real.py(485):         while (i := lang_code.rfind('-', 0, i)) > -1:
+0.70 trans_real.py(487):         generic_lang_code = possible_lang_codes[-1]
+0.70 trans_real.py(488):         supported_lang_codes = get_languages()
+0.70 trans_real.py(490):         for code in possible_lang_codes:
+0.70 trans_real.py(491):             if code in supported_lang_codes and check_for_language(code):
+0.70 trans_real.py(492):                 return code
+0.70 trans_real.py(277):     if not language:
+0.70 trans_real.py(279):     _active.value = translation(language)
+0.70 trans_real.py(267):     if language not in _translations:
+0.70 trans_real.py(269):     return _translations[language]
+0.70 trans_real.py(303):     t = getattr(_active, "value", None)
+0.70 trans_real.py(304):     if t is not None:
+0.70 trans_real.py(305):         try:
+0.70 trans_real.py(306):             return t.to_language()
+0.70 trans_real.py(247):         return self.__to_language
+0.71 trans_real.py(303):     t = getattr(_active, "value", None)
+0.71 trans_real.py(304):     if t is not None:
+0.71 trans_real.py(305):         try:
+0.71 trans_real.py(306):             return t.to_language()
+0.71 trans_real.py(247):         return self.__to_language
+0.71 trans_real.py(508):     regex_match = language_code_prefix_re.match(path)
+0.71 trans_real.py(509):     if not regex_match:
+0.71 trans_real.py(511):     lang_code = regex_match[1]
+0.71 trans_real.py(512):     try:
+0.71 trans_real.py(513):         return get_supported_language_variant(lang_code, strict=strict)
+0.71 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
+0.71 trans_real.py(56):         check_for_language.cache_clear()
+0.71 trans_real.py(57):         get_languages.cache_clear()
+0.71 trans_real.py(58):         get_supported_language_variant.cache_clear()
+0.71 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
+0.71 trans_real.py(56):         check_for_language.cache_clear()
+0.71 trans_real.py(57):         get_languages.cache_clear()
+0.71 trans_real.py(58):         get_supported_language_variant.cache_clear()
+0.71 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
+0.71 trans_real.py(55):     if kwargs['setting'] in ('LANGUAGES', 'LANGUAGE_CODE'):
++ cat coverage.cover
+{"/testbed/django/utils/translation/trans_real.py": {"2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "9": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "20": 1, "24": 1, "25": 1, "28": 1, "31": 1, "35": 2, "39": 1, "41": 2, "42": 1, "43": 1, "46": 1, "49": 1, "50": 1, "61": 2, "118": 2, "262": 1, "272": 1, "282": 1, "291": 1, "301": 1, "313": 1, "328": 1, "344": 1, "370": 1, "381": 1, "391": 1, "402": 1, "410": 1, "421": 1, "435": 1, "436": 1, "455": 1, "456": 1, "463": 1, "464": 1, "501": 1, "518": 1, "561": 1, "562": 1, "55": 8, "56": 4, "57": 4, "58": 4, "66": 1, "70": 1, "78": 1, "81": 1, "84": 1, "88": 1, "92": 1, "102": 1, "110": 1, "67": 2, "68": 2, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "79": 0, "82": 0, "85": 0, "86": 0, "89": 0, "90": 0, "94": 10, "95": 10, "96": 10, "97": 10, "99": 0, "100": 0, "103": 9, "104": 18, "105": 9, "106": 9, "107": 0, "108": 9, "111": 0, "112": 0, "113": 0, "114": 0, "115": 0, "127": 1, "129": 1, "166": 1, "169": 1, "184": 1, "191": 1, "206": 1, "212": 1, "227": 1, "241": 1, "245": 1, "249": 1, "131": 2, "132": 2, "133": 0, "135": 2, "136": 2, "137": 2, "138": 2, "141": 2, "143": 2, "144": 2, "146": 0, "147": 0, "148": 2, "150": 2, "151": 0, "152": 0, "153": 0, "155": 2, "157": 2, "158": 2, "160": 0, "161": 2, "162": 2, "164": 0, "167": 0, "177": 24, "178": 12, "179": 12, "180": 12, "181": 12, "186": 2, "187": 2, "188": 2, "189": 2, "193": 2, "194": 2, "195": 0, "196": 0, "197": 0, "200": 16, "201": 14, "202": 14, "203": 10, "204": 10, "208": 2, "209": 0, "210": 0, "216": 2, "217": 2, "218": 0, "220": 0, "222": 0, "223": 0, "225": 0, "229": 12, "230": 0, "231": 12, "233": 2, "234": 2, "235": 2, "237": 10, "238": 12, "239": 0, "243": 0, "247": 34, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "255": 0, "256": 0, "258": 0, "259": 0, "267": 33, "268": 2, "269": 33, "277": 32, "278": 0, "279": 32, "287": 1, "288": 0, "297": 85, "298": 113, "303": 63, "304": 63, "305": 62, "306": 62, "307": 0, "308": 0, "310": 1, "320": 0, "321": 0, "322": 0, "324": 0, "325": 0, "336": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "352": 63, "354": 63, "355": 63, "356": 63, "358": 63, "362": 0, "364": 63, "365": 0, "367": 63, "371": 0, "372": 0, "373": 0, "375": 0, "376": 0, "377": 0, "378": 0, "388": 0, "394": 0, "395": 0, "396": 0, "397": 0, "398": 0, "399": 0, "407": 0, "411": 0, "412": 0, "413": 0, "414": 0, "415": 0, "417": 0, "418": 0, "425": 4, "426": 2, "427": 2, "428": 16, "429": 14, "430": 14, "431": 10, "432": 2, "447": 2, "448": 0, "449": 6, "451": 4, "450": 2, "460": 2, "476": 6, "479": 3, "480": 3, "481": 3, "482": 3, "483": 3, "484": 3, "485": 5, "486": 2, "487": 3, "488": 3, "490": 3, "491": 3, "492": 3, "493": 0, "495": 0, "496": 0, "497": 0, "498": 3, "508": 6, "509": 6, "510": 4, "511": 2, "512": 2, "513": 2, "514": 0, "515": 0, "528": 3, "529": 0, "530": 0, "531": 0, "533": 3, "534": 3, "535": 0, "537": 3, "538": 3, "539": 3, "540": 3, "542": 3, "543": 3, "544": 0, "545": 0, "547": 0, "548": 0, "550": 0, "551": 0, "552": 0, "553": 0, "555": 3, "556": 3, "557": 0, "558": 0, "569": 1, "570": 1, "571": 1, "572": 0, "573": 1, "574": 0, "575": 0, "576": 0, "577": 0, "578": 0, "580": 0, "581": 0, "582": 1, "583": 1}}
++ git checkout 2c7846d992ca512d36a73f518205015c88ed088c
+Note: switching to '2c7846d992ca512d36a73f518205015c88ed088c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2c7846d992 Fixed #33333 -- Fixed setUpTestData() crash with models.BinaryField on PostgreSQL.
++ git apply /root/pre_state.patch
+error: unrecognized input

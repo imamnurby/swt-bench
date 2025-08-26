@@ -1,0 +1,28 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11848.py
+new file mode 100644
+index e69de29..1ce11cc 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11848.py
+@@ -0,0 +1,22 @@
++from django.test import SimpleTestCase
++from django.utils.http import parse_http_date
++import datetime
++
++class ParseHttpDateTests(SimpleTestCase):
++    def test_parse_http_date_two_digit_year_bug(self):
++        # Test case: Year '74' should be interpreted as 2074 according to the correct logic
++        # Using RFC850_DATE format: 'Sunday, 06-Nov-74 08:49:37 GMT'
++        date_string = "Sunday, 06-Nov-74 08:49:37 GMT"
++        parsed_timestamp = parse_http_date(date_string)
++        parsed_year = datetime.datetime.utcfromtimestamp(parsed_timestamp).year
++
++        # Assert the correct behavior
++        self.assertEqual(parsed_year, 2074)  # Correct behavior: should be interpreted as 2074
++
++        # Test case: Year '50' should be interpreted as 1950 according to the correct logic
++        date_string = "Sunday, 06-Nov-50 08:49:37 GMT"
++        parsed_timestamp = parse_http_date(date_string)
++        parsed_year = datetime.datetime.utcfromtimestamp(parsed_timestamp).year
++
++        # Assert the correct behavior
++        self.assertEqual(parsed_year, 1950)  # Correct behavior: should be interpreted as 1950

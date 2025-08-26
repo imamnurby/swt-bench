@@ -1,0 +1,87 @@
+diff --git a/dev/null b/tests/test_coverup_sphinx-doc__sphinx-11510.py
+new file mode 100644
+index e69de29..89e6221 100644
+--- /dev/null
++++ b/tests/test_coverup_sphinx-doc__sphinx-11510.py
+@@ -0,0 +1,81 @@
++import os
++import shutil
++import tempfile
++import pytest
++from sphinx.application import Sphinx
++
++@pytest.fixture
++def sphinx_project():
++    # Setup: Create a temporary directory for the Sphinx project
++    temp_dir = tempfile.mkdtemp()
++    conf_py = os.path.join(temp_dir, 'conf.py')
++    index_rst = os.path.join(temp_dir, 'index.rst')
++    include_rst = os.path.join(temp_dir, 'something-to-include.rst')
++    my_extension_py = os.path.join(temp_dir, 'my-extension.py')
++
++    with open(conf_py, 'w') as f:
++        f.write("""
++import sys
++import os
++
++sys.path.insert(0, os.path.abspath('.'))
++extensions = ['my-extension']
++""")
++
++    with open(index_rst, 'w') as f:
++        f.write("""\
++This is a test
++==============
++
++.. include:: something-to-include.rst
++
++&REPLACE_ME;
++""")
++
++    with open(include_rst, 'w') as f:
++        f.write("""\
++Testing
++=======
++
++&REPLACE_ME;
++""")
++
++    with open(my_extension_py, 'w') as f:
++        f.write("""\
++from sphinx.application import Sphinx
++
++__version__ = '1.0'
++
++def subst_vars_replace(app: Sphinx, docname, source):
++    result = source[0]
++    result = result.replace("&REPLACE_ME;", "REPLACED")
++    source[0] = result
++
++def setup(app: Sphinx):
++    app.connect('source-read', subst_vars_replace)
++    return dict(
++        version=__version__,
++        parallel_read_safe=True,
++        parallel_write_safe=True
++    )
++""")
++
++    yield temp_dir
++
++    # Cleanup: Remove the temporary directory
++    shutil.rmtree(temp_dir)
++
++def test_included_file_placeholder(sphinx_project):
++    # Build the Sphinx documentation
++    src_dir = sphinx_project
++    build_dir = os.path.join(src_dir, 'build')
++    app = Sphinx(src_dir, src_dir, build_dir, build_dir, 'html')
++    app.build()
++
++    # Read the generated HTML file for the included document
++    with open(os.path.join(build_dir, 'index.html'), 'r') as f:
++        index_html_content = f.read()
++
++    # Assert that the placeholder is correctly replaced in the included document's HTML output
++    assert '<p>REPLACED</p>' in index_html_content
++    assert index_html_content.count('<p>REPLACED</p>') == 2  # Ensure both placeholders are replaced

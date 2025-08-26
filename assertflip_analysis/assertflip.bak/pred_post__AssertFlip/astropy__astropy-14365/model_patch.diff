@@ -1,0 +1,15 @@
+diff --git a/dev/null b/astropy/tests/test_coverup_astropy__astropy-14365.py
+new file mode 100644
+index e69de29..04f84ff 100644
+--- /dev/null
++++ b/astropy/tests/test_coverup_astropy__astropy-14365.py
+@@ -0,0 +1,9 @@
++import pytest
++from astropy.io.ascii.qdp import _line_type
++
++def test_line_type_lowercase_command():
++    # Test with a lowercase command that should be recognized
++    line = "read serr 1 2"
++    
++    # The test should pass if the line is correctly recognized and does not raise an error
++    assert _line_type(line) is not None

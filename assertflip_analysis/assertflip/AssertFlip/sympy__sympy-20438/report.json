@@ -1,0 +1,51 @@
+{
+    "sympy__sympy-20438": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.4375,
+        "coverage_gold": 0.9375,
+        "coverage_base": 0.0625,
+        "coverage_delta_pred": 0.375,
+        "coverage_delta_gold": 0.875,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_is_subset_bug"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_union_iter",
+                "test_EmptySet",
+                "test_issue_20379",
+                "test_ProductSet__len__",
+                "test_image_EmptySet",
+                "test_deprecated_is_EmptySet",
+                "test_issue_10337",
+                "test_image_FiniteSet",
+                "test_DisjointUnion_is_empty",
+                "test_issue_11827"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_issue_19378",
+                "test_Eq"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

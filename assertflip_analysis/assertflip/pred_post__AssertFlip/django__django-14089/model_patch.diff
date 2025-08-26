@@ -1,0 +1,22 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-14089.py
+new file mode 100644
+index e69de29..dba843a 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14089.py
+@@ -0,0 +1,16 @@
++from django.test import SimpleTestCase
++from django.utils.datastructures import OrderedSet
++
++class OrderedSetReversedTests(SimpleTestCase):
++    def test_reversed_ordered_set_raises_type_error(self):
++        """
++        Test that calling reversed() on an OrderedSet does not raise a TypeError.
++        This confirms the presence of the __reversed__() method.
++        """
++        ordered_set = OrderedSet([1, 2, 3])
++        
++        try:
++            reversed_ordered_set = reversed(ordered_set)
++            self.assertEqual(list(reversed_ordered_set), [3, 2, 1])
++        except TypeError:
++            self.fail("TypeError raised when calling reversed() on OrderedSet")

@@ -1,0 +1,98 @@
+{
+    "django__django-16899": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": true,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 1.0,
+        "coverage_delta_gold": 1.0,
+        "added_f2p": 1,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_django__django-16899 (unittest.loader._FailedTest.test_coverup_django__django-16899)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [
+                "test_readonly_fields_error_message (test_coverup_django__django-16899.ReadonlyFieldsErrorMessageTest.test_readonly_fields_error_message)"
+            ],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "test_readonly_lambda (admin_checks.tests.SystemChecksTestCase.test_readonly_lambda)",
+                "test_valid_generic_inline_model_admin (admin_checks.tests.SystemChecksTestCase.test_valid_generic_inline_model_admin)",
+                "test_generic_inline_model_admin_non_gfk_ct_field (admin_checks.tests.SystemChecksTestCase.test_generic_inline_model_admin_non_gfk_ct_field)",
+                "test_nonfirst_fieldset (admin_checks.tests.SystemChecksTestCase.test_nonfirst_fieldset)",
+                "test_nonexistent_field_on_inline (admin_checks.tests.SystemChecksTestCase.test_nonexistent_field_on_inline)",
+                "test_nonexistent_field (admin_checks.tests.SystemChecksTestCase.test_nonexistent_field)"
+            ],
+            "PASS_TO_PASS": [
+                "test_inlines_property (admin_checks.tests.SystemChecksTestCase.test_inlines_property)",
+                "test_extra (admin_checks.tests.SystemChecksTestCase.test_extra)",
+                "test_apps_dependencies (admin_checks.tests.SystemChecksTestCase.test_apps_dependencies)",
+                "test_custom_get_form_with_fieldsets (admin_checks.tests.SystemChecksTestCase.test_custom_get_form_with_fieldsets)",
+                "test_field_name_not_in_list_display (admin_checks.tests.SystemChecksTestCase.test_field_name_not_in_list_display)",
+                "test_fieldsets_fields_non_tuple (admin_checks.tests.SystemChecksTestCase.test_fieldsets_fields_non_tuple)",
+                "test_readonly (admin_checks.tests.SystemChecksTestCase.test_readonly)",
+                "test_checks_are_performed (admin_checks.tests.SystemChecksTestCase.test_checks_are_performed)",
+                "test_exclude_in_inline (admin_checks.tests.SystemChecksTestCase.test_exclude_in_inline)",
+                "test_context_processor_dependencies_model_backend_subclass (admin_checks.tests.SystemChecksTestCase.test_context_processor_dependencies_model_backend_subclass)",
+                "test_exclude_values (admin_checks.tests.SystemChecksTestCase.test_exclude_values)",
+                "test_graceful_m2m_fail (admin_checks.tests.SystemChecksTestCase.test_graceful_m2m_fail)",
+                "test_custom_modelforms_with_fields_fieldsets (admin_checks.tests.SystemChecksTestCase.test_custom_modelforms_with_fields_fieldsets)",
+                "test_editable (admin_checks.tests.SystemChecksTestCase.test_editable)",
+                "test_admin_check_ignores_import_error_in_middleware (admin_checks.tests.SystemChecksTestCase.test_admin_check_ignores_import_error_in_middleware)",
+                "test_fk_exclusion (admin_checks.tests.SystemChecksTestCase.test_fk_exclusion)",
+                "test_list_editable_not_a_list_or_tuple (admin_checks.tests.SystemChecksTestCase.test_list_editable_not_a_list_or_tuple)",
+                "test_inline_with_specified (admin_checks.tests.SystemChecksTestCase.test_inline_with_specified)",
+                "test_list_filter_works_on_through_field_even_when_apps_not_ready (admin_checks.tests.SystemChecksTestCase.test_list_filter_works_on_through_field_even_when_apps_not_ready)",
+                "test_custom_adminsite (admin_checks.tests.SystemChecksTestCase.test_custom_adminsite)",
+                "test_middleware_subclasses (admin_checks.tests.SystemChecksTestCase.test_middleware_subclasses)",
+                "test_check_sublists_for_duplicates (admin_checks.tests.SystemChecksTestCase.test_check_sublists_for_duplicates)",
+                "test_nested_fields (admin_checks.tests.SystemChecksTestCase.test_nested_fields)",
+                "test_generic_inline_model_admin_bad_ct_field (admin_checks.tests.SystemChecksTestCase.test_generic_inline_model_admin_bad_ct_field)",
+                "test_check_fieldset_sublists_for_duplicates (admin_checks.tests.SystemChecksTestCase.test_check_fieldset_sublists_for_duplicates)",
+                "test_allows_checks_relying_on_other_modeladmins (admin_checks.tests.SystemChecksTestCase.test_allows_checks_relying_on_other_modeladmins)",
+                "test_list_editable_missing_field (admin_checks.tests.SystemChecksTestCase.test_list_editable_missing_field)",
+                "test_exclude_inline_model_admin (admin_checks.tests.SystemChecksTestCase.test_exclude_inline_model_admin)",
+                "test_context_processor_dependencies (admin_checks.tests.SystemChecksTestCase.test_context_processor_dependencies)",
+                "test_exclude_duplicate_values (admin_checks.tests.SystemChecksTestCase.test_exclude_duplicate_values)",
+                "test_readonly_and_editable (admin_checks.tests.SystemChecksTestCase.test_readonly_and_editable)",
+                "test_inline_self_check (admin_checks.tests.SystemChecksTestCase.test_inline_self_check)",
+                "test_readonly_on_modeladmin (admin_checks.tests.SystemChecksTestCase.test_readonly_on_modeladmin)",
+                "test_cannot_include_through (admin_checks.tests.SystemChecksTestCase.test_cannot_include_through)",
+                "test_generic_inline_model_admin_non_generic_model (admin_checks.tests.SystemChecksTestCase.test_generic_inline_model_admin_non_generic_model)",
+                "test_readonly_fields_not_list_or_tuple (admin_checks.tests.SystemChecksTestCase.test_readonly_fields_not_list_or_tuple)",
+                "test_generic_inline_model_admin_bad_fk_field (admin_checks.tests.SystemChecksTestCase.test_generic_inline_model_admin_bad_fk_field)",
+                "test_pk_not_editable (admin_checks.tests.SystemChecksTestCase.test_pk_not_editable)",
+                "test_non_model_fields (admin_checks.tests.SystemChecksTestCase.test_non_model_fields)",
+                "test_generic_inline_model_admin_non_gfk_fk_field (admin_checks.tests.SystemChecksTestCase.test_generic_inline_model_admin_non_gfk_fk_field)",
+                "test_several_templates_backends (admin_checks.tests.SystemChecksTestCase.test_several_templates_backends)",
+                "test_readonly_on_method (admin_checks.tests.SystemChecksTestCase.test_readonly_on_method)",
+                "test_app_label_in_admin_checks (admin_checks.tests.SystemChecksTestCase.test_app_label_in_admin_checks)",
+                "test_nested_fieldsets (admin_checks.tests.SystemChecksTestCase.test_nested_fieldsets)",
+                "test_readonly_dynamic_attribute_on_modeladmin (admin_checks.tests.SystemChecksTestCase.test_readonly_dynamic_attribute_on_modeladmin)"
+            ],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [
+                "test_readonly_method_on_model (admin_checks.tests.SystemChecksTestCase.test_readonly_method_on_model)",
+                "test_middleware_dependencies (admin_checks.tests.SystemChecksTestCase.test_middleware_dependencies)",
+                "test_no_template_engines (admin_checks.tests.SystemChecksTestCase.test_no_template_engines)",
+                "test_explicit_through_override (admin_checks.tests.SystemChecksTestCase.test_explicit_through_override)",
+                "test_non_model_first_field (admin_checks.tests.SystemChecksTestCase.test_non_model_first_field)"
+            ],
+            "UNMATCHED": []
+        }
+    }
+}

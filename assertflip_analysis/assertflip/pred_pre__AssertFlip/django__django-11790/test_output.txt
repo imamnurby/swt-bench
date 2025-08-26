@@ -1,0 +1,533 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD b1d6b35e146aea83b171c1b921178bbaae2795ed
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit b1d6b35e146aea83b171c1b921178bbaae2795ed
+Author: Min ho Kim <minho42@gmail.com>
+Date:   Tue Sep 17 22:30:33 2019 +1000
+
+    Fixed #30725 -- Fixed width of DateTimeField inputs in admin tabular inline.
+    
+    "width" of DateTimeField inputs in admin tabular inline wasn't set
+    correctly what caused displaying too small inputs with responsive CSS
+    when timezone warning wasn't present.
+
+diff --git a/django/contrib/admin/static/admin/css/responsive.css b/django/contrib/admin/static/admin/css/responsive.css
+index 5b0d1ec39b..b3db28fbf0 100644
+--- a/django/contrib/admin/static/admin/css/responsive.css
++++ b/django/contrib/admin/static/admin/css/responsive.css
+@@ -392,6 +392,10 @@ input[type="submit"], button {
+         color: #ccc;
+     }
+ 
++    .form-row .datetime input.vDateField, .form-row .datetime input.vTimeField {
++        width: 75%;
++    }
++
+     .inline-group {
+         overflow: auto;
+     }
+diff --git a/django/contrib/admin/static/admin/css/widgets.css b/django/contrib/admin/static/admin/css/widgets.css
+index d3bd67ac93..6dbc58e018 100644
+--- a/django/contrib/admin/static/admin/css/widgets.css
++++ b/django/contrib/admin/static/admin/css/widgets.css
+@@ -263,7 +263,6 @@ p.datetime {
+ }
+ 
+ .datetime input, .form-row .datetime input.vDateField, .form-row .datetime input.vTimeField {
+-    min-width: 0;
+     margin-left: 5px;
+     margin-bottom: 4px;
+ }
++ git diff b1d6b35e146aea83b171c1b921178bbaae2795ed
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (0.4.4)
+Requirement already satisfied: asgiref in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (3.4.1)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref->Django==3.1) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.1
+    Uninstalling Django-3.1:
+      Successfully uninstalled Django-3.1
+  Running setup.py develop for Django
+Successfully installed Django-3.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+<stdin>:18: trailing whitespace.
+        
+<stdin>:21: trailing whitespace.
+        
+Checking patch tests/test_coverup_django__django-11790.py...
+Applied patch tests/test_coverup_django__django-11790.py cleanly.
+warning: 2 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/contrib/auth/forms\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11790
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/contrib/auth/forms\\.py)']
+Testing against Django installed in '/testbed/django'
+0.61 /testbed/django/contrib/auth/forms.py(1): import unicodedata
+0.61 /testbed/django/contrib/auth/forms.py(3): from django import forms
+0.61 /testbed/django/contrib/auth/forms.py(4): from django.contrib.auth import (
+0.61 /testbed/django/contrib/auth/forms.py(7): from django.contrib.auth.hashers import (
+0.61 /testbed/django/contrib/auth/forms.py(10): from django.contrib.auth.models import User
+0.61 /testbed/django/contrib/auth/forms.py(11): from django.contrib.auth.tokens import default_token_generator
+0.61 /testbed/django/contrib/auth/forms.py(12): from django.contrib.sites.shortcuts import get_current_site
+0.61 /testbed/django/contrib/auth/forms.py(13): from django.core.mail import EmailMultiAlternatives
+0.61 /testbed/django/contrib/auth/forms.py(14): from django.template import loader
+0.61 /testbed/django/contrib/auth/forms.py(15): from django.utils.encoding import force_bytes
+0.61 /testbed/django/contrib/auth/forms.py(16): from django.utils.http import urlsafe_base64_encode
+0.61 /testbed/django/contrib/auth/forms.py(17): from django.utils.text import capfirst
+0.61 /testbed/django/contrib/auth/forms.py(18): from django.utils.translation import gettext, gettext_lazy as _
+0.61 /testbed/django/contrib/auth/forms.py(20): UserModel = get_user_model()
+0.61 /testbed/django/contrib/auth/forms.py(23): class ReadOnlyPasswordHashWidget(forms.Widget):
+0.61 /testbed/django/contrib/auth/forms.py(23): class ReadOnlyPasswordHashWidget(forms.Widget):
+0.61 /testbed/django/contrib/auth/forms.py(24):     template_name = 'auth/widgets/read_only_password_hash.html'
+0.61 /testbed/django/contrib/auth/forms.py(25):     read_only = True
+0.61 /testbed/django/contrib/auth/forms.py(27):     def get_context(self, name, value, attrs):
+0.61 /testbed/django/contrib/auth/forms.py(44): class ReadOnlyPasswordHashField(forms.Field):
+0.61 /testbed/django/contrib/auth/forms.py(44): class ReadOnlyPasswordHashField(forms.Field):
+0.61 /testbed/django/contrib/auth/forms.py(45):     widget = ReadOnlyPasswordHashWidget
+0.61 /testbed/django/contrib/auth/forms.py(47):     def __init__(self, *args, **kwargs):
+0.61 /testbed/django/contrib/auth/forms.py(51):     def bound_data(self, data, initial):
+0.61 /testbed/django/contrib/auth/forms.py(56):     def has_changed(self, initial, data):
+0.61 /testbed/django/contrib/auth/forms.py(60): class UsernameField(forms.CharField):
+0.61 /testbed/django/contrib/auth/forms.py(60): class UsernameField(forms.CharField):
+0.61 /testbed/django/contrib/auth/forms.py(61):     def to_python(self, value):
+0.61 /testbed/django/contrib/auth/forms.py(64):     def widget_attrs(self, widget):
+0.61 /testbed/django/contrib/auth/forms.py(72): class UserCreationForm(forms.ModelForm):
+0.61 /testbed/django/contrib/auth/forms.py(72): class UserCreationForm(forms.ModelForm):
+0.61 /testbed/django/contrib/auth/forms.py(76):     """
+0.61 /testbed/django/contrib/auth/forms.py(78):         'password_mismatch': _('The two password fields didn’t match.'),
+0.61 /testbed/django/contrib/auth/forms.py(80):     password1 = forms.CharField(
+0.61 /testbed/django/contrib/auth/forms.py(81):         label=_("Password"),
+0.61 /testbed/django/contrib/auth/forms.py(82):         strip=False,
+0.61 /testbed/django/contrib/auth/forms.py(83):         widget=forms.PasswordInput(attrs={'autocomplete': 'new-password'}),
+0.61 /testbed/django/contrib/auth/forms.py(84):         help_text=password_validation.password_validators_help_text_html(),
+0.61 /testbed/django/contrib/auth/forms.py(86):     password2 = forms.CharField(
+0.61 /testbed/django/contrib/auth/forms.py(87):         label=_("Password confirmation"),
+0.61 /testbed/django/contrib/auth/forms.py(88):         widget=forms.PasswordInput(attrs={'autocomplete': 'new-password'}),
+0.61 /testbed/django/contrib/auth/forms.py(89):         strip=False,
+0.61 /testbed/django/contrib/auth/forms.py(90):         help_text=_("Enter the same password as before, for verification."),
+0.61 /testbed/django/contrib/auth/forms.py(93):     class Meta:
+0.61 /testbed/django/contrib/auth/forms.py(93):     class Meta:
+0.61 /testbed/django/contrib/auth/forms.py(94):         model = User
+0.61 /testbed/django/contrib/auth/forms.py(95):         fields = ("username",)
+0.61 /testbed/django/contrib/auth/forms.py(96):         field_classes = {'username': UsernameField}
+0.61 /testbed/django/contrib/auth/forms.py(98):     def __init__(self, *args, **kwargs):
+0.61 /testbed/django/contrib/auth/forms.py(103):     def clean_password2(self):
+0.61 /testbed/django/contrib/auth/forms.py(113):     def _post_clean(self):
+0.61 /testbed/django/contrib/auth/forms.py(124):     def save(self, commit=True):
+0.61 /testbed/django/contrib/auth/forms.py(66):             **super().widget_attrs(widget),
+0.61 /testbed/django/contrib/auth/forms.py(67):             'autocapitalize': 'none',
+0.61 /testbed/django/contrib/auth/forms.py(68):             'autocomplete': 'username',
+0.61 /testbed/django/contrib/auth/forms.py(132): class UserChangeForm(forms.ModelForm):
+0.61 /testbed/django/contrib/auth/forms.py(132): class UserChangeForm(forms.ModelForm):
+0.61 /testbed/django/contrib/auth/forms.py(133):     password = ReadOnlyPasswordHashField(
+0.61 /testbed/django/contrib/auth/forms.py(134):         label=_("Password"),
+0.61 /testbed/django/contrib/auth/forms.py(135):         help_text=_(
+0.61 /testbed/django/contrib/auth/forms.py(136):             'Raw passwords are not stored, so there is no way to see this '
+0.61 /testbed/django/contrib/auth/forms.py(48):         kwargs.setdefault("required", False)
+0.61 /testbed/django/contrib/auth/forms.py(49):         super().__init__(*args, **kwargs)
+0.61 /testbed/django/contrib/auth/forms.py(142):     class Meta:
+0.61 /testbed/django/contrib/auth/forms.py(142):     class Meta:
+0.61 /testbed/django/contrib/auth/forms.py(143):         model = User
+0.61 /testbed/django/contrib/auth/forms.py(144):         fields = '__all__'
+0.61 /testbed/django/contrib/auth/forms.py(145):         field_classes = {'username': UsernameField}
+0.61 /testbed/django/contrib/auth/forms.py(147):     def __init__(self, *args, **kwargs):
+0.61 /testbed/django/contrib/auth/forms.py(156):     def clean_password(self):
+0.61 /testbed/django/contrib/auth/forms.py(66):             **super().widget_attrs(widget),
+0.61 /testbed/django/contrib/auth/forms.py(67):             'autocapitalize': 'none',
+0.61 /testbed/django/contrib/auth/forms.py(68):             'autocomplete': 'username',
+0.61 /testbed/django/contrib/auth/forms.py(163): class AuthenticationForm(forms.Form):
+0.61 /testbed/django/contrib/auth/forms.py(163): class AuthenticationForm(forms.Form):
+0.61 /testbed/django/contrib/auth/forms.py(167):     """
+0.61 /testbed/django/contrib/auth/forms.py(168):     username = UsernameField(widget=forms.TextInput(attrs={'autofocus': True}))
+0.61 /testbed/django/contrib/auth/forms.py(66):             **super().widget_attrs(widget),
+0.61 /testbed/django/contrib/auth/forms.py(67):             'autocapitalize': 'none',
+0.61 /testbed/django/contrib/auth/forms.py(68):             'autocomplete': 'username',
+0.61 /testbed/django/contrib/auth/forms.py(169):     password = forms.CharField(
+0.61 /testbed/django/contrib/auth/forms.py(170):         label=_("Password"),
+0.61 /testbed/django/contrib/auth/forms.py(171):         strip=False,
+0.61 /testbed/django/contrib/auth/forms.py(172):         widget=forms.PasswordInput(attrs={'autocomplete': 'current-password'}),
+0.61 /testbed/django/contrib/auth/forms.py(176):         'invalid_login': _(
+0.61 /testbed/django/contrib/auth/forms.py(177):             "Please enter a correct %(username)s and password. Note that both "
+0.61 /testbed/django/contrib/auth/forms.py(180):         'inactive': _("This account is inactive."),
+0.61 /testbed/django/contrib/auth/forms.py(183):     def __init__(self, request=None, *args, **kwargs):
+0.61 /testbed/django/contrib/auth/forms.py(198):     def clean(self):
+0.61 /testbed/django/contrib/auth/forms.py(211):     def confirm_login_allowed(self, user):
+0.61 /testbed/django/contrib/auth/forms.py(228):     def get_user(self):
+test_username_field_maxlength_presence (test_coverup_django__django-11790.AuthenticationFormMaxLengthTest) ... 0.61 /testbed/django/contrib/auth/forms.py(231):     def get_invalid_login_error(self):
+0.61 /testbed/django/contrib/auth/forms.py(239): class PasswordResetForm(forms.Form):
+0.62 /testbed/django/contrib/auth/forms.py(239): class PasswordResetForm(forms.Form):
+0.62 /testbed/django/contrib/auth/forms.py(240):     email = forms.EmailField(
+0.62 /testbed/django/contrib/auth/forms.py(241):         label=_("Email"),
+0.62 /testbed/django/contrib/auth/forms.py(242):         max_length=254,
+0.62 /testbed/django/contrib/auth/forms.py(243):         widget=forms.EmailInput(attrs={'autocomplete': 'email'})
+0.62 /testbed/django/contrib/auth/forms.py(247):                   context, from_email, to_email, html_email_template_name=None):
+0.62 /testbed/django/contrib/auth/forms.py(263):     def get_users(self, email):
+0.62 /testbed/django/contrib/auth/forms.py(276):     def save(self, domain_override=None,
+0.62 /testbed/django/contrib/auth/forms.py(277):              subject_template_name='registration/password_reset_subject.txt',
+0.62 /testbed/django/contrib/auth/forms.py(278):              email_template_name='registration/password_reset_email.html',
+0.62 /testbed/django/contrib/auth/forms.py(279):              use_https=False, token_generator=default_token_generator,
+0.62 /testbed/django/contrib/auth/forms.py(280):              from_email=None, request=None, html_email_template_name=None,
+0.62 /testbed/django/contrib/auth/forms.py(281):              extra_email_context=None):
+0.62 /testbed/django/contrib/auth/forms.py(310): class SetPasswordForm(forms.Form):
+0.62 /testbed/django/contrib/auth/forms.py(310): class SetPasswordForm(forms.Form):
+0.62 /testbed/django/contrib/auth/forms.py(314):     """
+0.62 /testbed/django/contrib/auth/forms.py(316):         'password_mismatch': _('The two password fields didn’t match.'),
+0.62 /testbed/django/contrib/auth/forms.py(318):     new_password1 = forms.CharField(
+0.62 /testbed/django/contrib/auth/forms.py(319):         label=_("New password"),
+0.62 /testbed/django/contrib/auth/forms.py(320):         widget=forms.PasswordInput(attrs={'autocomplete': 'new-password'}),
+0.62 /testbed/django/contrib/auth/forms.py(321):         strip=False,
+0.62 /testbed/django/contrib/auth/forms.py(322):         help_text=password_validation.password_validators_help_text_html(),
+0.62 /testbed/django/contrib/auth/forms.py(324):     new_password2 = forms.CharField(
+0.62 /testbed/django/contrib/auth/forms.py(325):         label=_("New password confirmation"),
+0.62 /testbed/django/contrib/auth/forms.py(326):         strip=False,
+0.62 /testbed/django/contrib/auth/forms.py(327):         widget=forms.PasswordInput(attrs={'autocomplete': 'new-password'}),
+0.62 /testbed/django/contrib/auth/forms.py(330):     def __init__(self, user, *args, **kwargs):
+0.62 /testbed/django/contrib/auth/forms.py(334):     def clean_new_password2(self):
+0.62 /testbed/django/contrib/auth/forms.py(346):     def save(self, commit=True):
+0.62 /testbed/django/contrib/auth/forms.py(354): class PasswordChangeForm(SetPasswordForm):
+0.62 /testbed/django/contrib/auth/forms.py(354): class PasswordChangeForm(SetPasswordForm):
+0.62 /testbed/django/contrib/auth/forms.py(358):     """
+0.62 /testbed/django/contrib/auth/forms.py(360):         **SetPasswordForm.error_messages,
+0.62 /testbed/django/contrib/auth/forms.py(361):         'password_incorrect': _("Your old password was entered incorrectly. Please enter it again."),
+0.62 /testbed/django/contrib/auth/forms.py(363):     old_password = forms.CharField(
+0.62 /testbed/django/contrib/auth/forms.py(364):         label=_("Old password"),
+0.62 /testbed/django/contrib/auth/forms.py(365):         strip=False,
+0.62 /testbed/django/contrib/auth/forms.py(366):         widget=forms.PasswordInput(attrs={'autocomplete': 'current-password', 'autofocus': True}),
+0.62 /testbed/django/contrib/auth/forms.py(369):     field_order = ['old_password', 'new_password1', 'new_password2']
+0.62 /testbed/django/contrib/auth/forms.py(371):     def clean_old_password(self):
+0.62 /testbed/django/contrib/auth/forms.py(384): class AdminPasswordChangeForm(forms.Form):
+0.62 /testbed/django/contrib/auth/forms.py(384): class AdminPasswordChangeForm(forms.Form):
+0.62 /testbed/django/contrib/auth/forms.py(387):     """
+0.62 /testbed/django/contrib/auth/forms.py(389):         'password_mismatch': _('The two password fields didn’t match.'),
+0.62 /testbed/django/contrib/auth/forms.py(391):     required_css_class = 'required'
+0.62 /testbed/django/contrib/auth/forms.py(392):     password1 = forms.CharField(
+0.62 /testbed/django/contrib/auth/forms.py(393):         label=_("Password"),
+0.62 /testbed/django/contrib/auth/forms.py(394):         widget=forms.PasswordInput(attrs={'autocomplete': 'new-password', 'autofocus': True}),
+0.62 /testbed/django/contrib/auth/forms.py(395):         strip=False,
+0.62 /testbed/django/contrib/auth/forms.py(396):         help_text=password_validation.password_validators_help_text_html(),
+0.62 /testbed/django/contrib/auth/forms.py(398):     password2 = forms.CharField(
+0.62 /testbed/django/contrib/auth/forms.py(399):         label=_("Password (again)"),
+0.62 /testbed/django/contrib/auth/forms.py(400):         widget=forms.PasswordInput(attrs={'autocomplete': 'new-password'}),
+0.62 /testbed/django/contrib/auth/forms.py(401):         strip=False,
+0.62 /testbed/django/contrib/auth/forms.py(402):         help_text=_("Enter the same password as before, for verification."),
+0.62 /testbed/django/contrib/auth/forms.py(405):     def __init__(self, user, *args, **kwargs):
+0.62 /testbed/django/contrib/auth/forms.py(409):     def clean_password2(self):
+0.62 /testbed/django/contrib/auth/forms.py(421):     def save(self, commit=True):
+0.62 /testbed/django/contrib/auth/forms.py(429):     @property
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+0.65 /testbed/django/contrib/auth/forms.py(188):         self.request = request
+0.65 /testbed/django/contrib/auth/forms.py(189):         self.user_cache = None
+0.65 /testbed/django/contrib/auth/forms.py(190):         super().__init__(*args, **kwargs)
+0.65 /testbed/django/contrib/auth/forms.py(193):         self.username_field = UserModel._meta.get_field(UserModel.USERNAME_FIELD)
+0.65 /testbed/django/contrib/auth/forms.py(194):         self.fields['username'].max_length = self.username_field.max_length or 254
+0.65 /testbed/django/contrib/auth/forms.py(195):         if self.fields['username'].label is None:
+0.65 /testbed/django/contrib/auth/forms.py(196):             self.fields['username'].label = capfirst(self.username_field.verbose_name)
+FAIL
+
+======================================================================
+FAIL: test_username_field_maxlength_presence (test_coverup_django__django-11790.AuthenticationFormMaxLengthTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11790.py", line 17, in test_username_field_maxlength_presence
+    self.assertIn('maxlength', username_field_html)
+AssertionError: 'maxlength' not found in '<input type="text" name="username" autofocus autocapitalize="none" autocomplete="username">'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (failures=1)
++ cat coverage.cover
+{"/testbed/django/contrib/auth/forms.py": {"1": 1, "3": 1, "4": 1, "7": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "20": 1, "23": 2, "44": 2, "60": 2, "72": 2, "132": 2, "163": 2, "239": 2, "310": 2, "354": 2, "384": 2, "24": 1, "25": 1, "27": 1, "28": 0, "29": 0, "30": 0, "31": 0, "33": 0, "34": 0, "35": 0, "36": 0, "38": 0, "39": 0, "40": 0, "41": 0, "45": 1, "47": 1, "51": 1, "56": 1, "48": 1, "49": 1, "54": 0, "57": 0, "61": 1, "64": 1, "62": 0, "66": 3, "67": 3, "68": 3, "78": 1, "80": 1, "81": 1, "82": 1, "83": 1, "84": 1, "86": 1, "87": 1, "88": 1, "89": 1, "90": 1, "93": 2, "98": 1, "103": 1, "113": 1, "124": 1, "94": 1, "95": 1, "96": 1, "99": 0, "100": 0, "101": 0, "104": 0, "105": 0, "106": 0, "107": 0, "108": 0, "109": 0, "111": 0, "114": 0, "117": 0, "118": 0, "119": 0, "120": 0, "121": 0, "122": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "133": 1, "134": 1, "135": 1, "136": 1, "142": 2, "147": 1, "156": 1, "143": 1, "144": 1, "145": 1, "148": 0, "149": 0, "150": 0, "151": 0, "152": 0, "153": 0, "154": 0, "160": 0, "168": 1, "169": 1, "170": 1, "171": 1, "172": 1, "176": 1, "177": 1, "180": 1, "183": 1, "198": 1, "211": 1, "228": 1, "231": 1, "188": 1, "189": 1, "190": 1, "193": 1, "194": 1, "195": 1, "196": 1, "199": 0, "200": 0, "202": 0, "203": 0, "204": 0, "205": 0, "207": 0, "209": 0, "222": 0, "223": 0, "224": 0, "225": 0, "229": 0, "232": 0, "233": 0, "234": 0, "235": 0, "240": 1, "241": 1, "242": 1, "243": 1, "247": 1, "263": 1, "276": 1, "277": 1, "278": 1, "279": 1, "280": 1, "281": 1, "251": 0, "253": 0, "254": 0, "256": 0, "257": 0, "258": 0, "259": 0, "261": 0, "270": 0, "271": 0, "272": 0, "274": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "293": 0, "295": 0, "296": 0, "297": 0, "298": 0, "299": 0, "300": 0, "301": 0, "302": 0, "304": 0, "305": 0, "306": 0, "316": 1, "318": 1, "319": 1, "320": 1, "321": 1, "322": 1, "324": 1, "325": 1, "326": 1, "327": 1, "330": 1, "334": 1, "346": 1, "331": 0, "332": 0, "335": 0, "336": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "343": 0, "344": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "360": 1, "361": 1, "363": 1, "364": 1, "365": 1, "366": 1, "369": 1, "371": 1, "375": 0, "376": 0, "377": 0, "378": 0, "379": 0, "381": 0, "389": 1, "391": 1, "392": 1, "393": 1, "394": 1, "395": 1, "396": 1, "398": 1, "399": 1, "400": 1, "401": 1, "402": 1, "405": 1, "409": 1, "421": 1, "429": 1, "406": 0, "407": 0, "410": 0, "411": 0, "412": 0, "413": 0, "414": 0, "415": 0, "416": 0, "418": 0, "419": 0, "423": 0, "424": 0, "425": 0, "426": 0, "427": 0, "431": 0, "432": 0, "433": 0, "434": 0, "435": 0}}
++ git checkout b1d6b35e146aea83b171c1b921178bbaae2795ed
+Note: switching to 'b1d6b35e146aea83b171c1b921178bbaae2795ed'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at b1d6b35e14 Fixed #30725 -- Fixed width of DateTimeField inputs in admin tabular inline.
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,697 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD a754b82dac511475b6276039471ccd17cc64aeb8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit a754b82dac511475b6276039471ccd17cc64aeb8
+Author: Carlton Gibson <carlton.gibson@noumenal.es>
+Date:   Wed Oct 27 10:35:02 2021 +0200
+
+    Refs #33182 -- Adjusted custom admin theming example to use correct template block.
+
+diff --git a/docs/ref/contrib/admin/index.txt b/docs/ref/contrib/admin/index.txt
+index fcc9227fad..0f427c06f0 100644
+--- a/docs/ref/contrib/admin/index.txt
++++ b/docs/ref/contrib/admin/index.txt
+@@ -2837,7 +2837,7 @@ override to your project:
+ 
+     {% extends 'admin/base.html' %}
+ 
+-    {% block extrahead %}{{ block.super }}
++    {% block extrastyle %}{{ block.super }}
+     <style>
+     :root {
+       --primary: #9774d5;
++ git diff a754b82dac511475b6276039471ccd17cc64aeb8
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20211027083502) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20211027083502) (0.5.3)
+Requirement already satisfied: typing_extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from asgiref>=3.3.2->Django==4.1.dev20211027083502) (4.14.1)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.1.dev20211027083502-0.editable-py3-none-any.whl size=26850 sha256=4bc4033fd62b6e8c26098364e42bc02887cdfcd1eb05b47b4838750396f492de
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7rzc3s0b/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.1.dev20211027083502
+    Uninstalling Django-4.1.dev20211027083502:
+      Successfully uninstalled Django-4.1.dev20211027083502
+Successfully installed Django-4.1.dev20211027083502
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-14999.py...
+Applied patch tests/test_coverup_django__django-14999.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/migrations/operations/models\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-14999
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/migrations/operations/models\\.py)']
+Testing against Django installed in '/testbed/django'
+0.50 models.py(1): from django.db import models
+0.50 models.py(2): from django.db.migrations.operations.base import Operation
+0.50 models.py(3): from django.db.migrations.state import ModelState
+0.50 models.py(4): from django.db.migrations.utils import field_references, resolve_relation
+0.50 models.py(5): from django.db.models.options import normalize_together
+0.50 models.py(6): from django.utils.functional import cached_property
+0.50 models.py(8): from .fields import (
+0.50 models.py(13): def _check_for_duplicates(arg_name, objs):
+0.50 models.py(23): class ModelOperation(Operation):
+0.50 models.py(23): class ModelOperation(Operation):
+0.50 models.py(24):     def __init__(self, name):
+0.50 models.py(27):     @cached_property
+0.50 models.py(28):     def name_lower(self):
+0.50 models.py(31):     def references_model(self, name, app_label):
+0.50 models.py(34):     def reduce(self, operation, app_label):
+0.50 models.py(41): class CreateModel(ModelOperation):
+0.50 models.py(41): class CreateModel(ModelOperation):
+0.50 models.py(42):     """Create a model's table."""
+0.50 models.py(44):     serialization_expand_args = ['fields', 'options', 'managers']
+0.50 models.py(46):     def __init__(self, name, fields, options=None, bases=None, managers=None):
+0.50 models.py(62):     def deconstruct(self):
+0.50 models.py(79):     def state_forwards(self, app_label, state):
+0.50 models.py(89):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(94):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(99):     def describe(self):
+0.50 models.py(102):     @property
+0.50 models.py(103):     def migration_name_fragment(self):
+0.50 models.py(106):     def references_model(self, name, app_label):
+0.50 models.py(124):     def reduce(self, operation, app_label):
+0.50 models.py(250): class DeleteModel(ModelOperation):
+0.50 models.py(250): class DeleteModel(ModelOperation):
+0.50 models.py(251):     """Drop a model's table."""
+0.50 models.py(253):     def deconstruct(self):
+0.50 models.py(263):     def state_forwards(self, app_label, state):
+0.50 models.py(266):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(271):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(276):     def references_model(self, name, app_label):
+0.50 models.py(281):     def describe(self):
+0.50 models.py(284):     @property
+0.50 models.py(285):     def migration_name_fragment(self):
+0.50 models.py(289): class RenameModel(ModelOperation):
+0.50 models.py(289): class RenameModel(ModelOperation):
+0.50 models.py(290):     """Rename a model."""
+0.50 models.py(292):     def __init__(self, old_name, new_name):
+0.50 models.py(297):     @cached_property
+0.50 models.py(298):     def old_name_lower(self):
+0.50 models.py(301):     @cached_property
+0.50 models.py(302):     def new_name_lower(self):
+0.50 models.py(305):     def deconstruct(self):
+0.50 models.py(316):     def state_forwards(self, app_label, state):
+0.50 models.py(319):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(370):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(379):     def references_model(self, name, app_label):
+0.50 models.py(385):     def describe(self):
+0.50 models.py(388):     @property
+0.50 models.py(389):     def migration_name_fragment(self):
+0.50 models.py(392):     def reduce(self, operation, app_label):
+0.50 models.py(409): class ModelOptionOperation(ModelOperation):
+0.50 models.py(409): class ModelOptionOperation(ModelOperation):
+0.50 models.py(410):     def reduce(self, operation, app_label):
+0.50 models.py(416): class AlterModelTable(ModelOptionOperation):
+0.50 models.py(416): class AlterModelTable(ModelOptionOperation):
+0.50 models.py(417):     """Rename a model's table."""
+0.50 models.py(419):     def __init__(self, name, table):
+0.50 models.py(423):     def deconstruct(self):
+0.50 models.py(434):     def state_forwards(self, app_label, state):
+0.50 models.py(437):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(455):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(458):     def describe(self):
+0.50 models.py(464):     @property
+0.50 models.py(465):     def migration_name_fragment(self):
+0.50 models.py(469): class AlterTogetherOptionOperation(ModelOptionOperation):
+0.50 models.py(469): class AlterTogetherOptionOperation(ModelOptionOperation):
+0.50 models.py(470):     option_name = None
+0.50 models.py(472):     def __init__(self, name, option_value):
+0.50 models.py(478):     @cached_property
+0.50 models.py(479):     def option_value(self):
+0.50 models.py(482):     def deconstruct(self):
+0.50 models.py(493):     def state_forwards(self, app_label, state):
+0.50 models.py(500):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(511):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(514):     def references_field(self, model_name, name, app_label):
+0.50 models.py(523):     def describe(self):
+0.50 models.py(526):     @property
+0.50 models.py(527):     def migration_name_fragment(self):
+0.50 models.py(531): class AlterUniqueTogether(AlterTogetherOptionOperation):
+0.50 models.py(531): class AlterUniqueTogether(AlterTogetherOptionOperation):
+0.50 models.py(532):     """
+0.50 models.py(536):     option_name = 'unique_together'
+0.50 models.py(538):     def __init__(self, name, unique_together):
+0.50 models.py(542): class AlterIndexTogether(AlterTogetherOptionOperation):
+0.50 models.py(542): class AlterIndexTogether(AlterTogetherOptionOperation):
+0.50 models.py(543):     """
+0.50 models.py(547):     option_name = "index_together"
+0.50 models.py(549):     def __init__(self, name, index_together):
+0.50 models.py(553): class AlterOrderWithRespectTo(ModelOptionOperation):
+0.50 models.py(553): class AlterOrderWithRespectTo(ModelOptionOperation):
+0.50 models.py(554):     """Represent a change with the order_with_respect_to option."""
+0.50 models.py(556):     option_name = 'order_with_respect_to'
+0.50 models.py(558):     def __init__(self, name, order_with_respect_to):
+0.50 models.py(562):     def deconstruct(self):
+0.50 models.py(573):     def state_forwards(self, app_label, state):
+0.50 models.py(580):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(598):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(601):     def references_field(self, model_name, name, app_label):
+0.50 models.py(610):     def describe(self):
+0.50 models.py(613):     @property
+0.50 models.py(614):     def migration_name_fragment(self):
+0.50 models.py(618): class AlterModelOptions(ModelOptionOperation):
+0.50 models.py(618): class AlterModelOptions(ModelOptionOperation):
+0.50 models.py(619):     """
+0.50 models.py(626):     ALTER_OPTION_KEYS = [
+0.50 models.py(640):     def __init__(self, name, options):
+0.50 models.py(644):     def deconstruct(self):
+0.50 models.py(655):     def state_forwards(self, app_label, state):
+0.50 models.py(663):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(666):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(669):     def describe(self):
+0.50 models.py(672):     @property
+0.50 models.py(673):     def migration_name_fragment(self):
+0.50 models.py(677): class AlterModelManagers(ModelOptionOperation):
+0.50 models.py(677): class AlterModelManagers(ModelOptionOperation):
+0.50 models.py(678):     """Alter the model's managers."""
+0.50 models.py(680):     serialization_expand_args = ['managers']
+0.50 models.py(682):     def __init__(self, name, managers):
+0.50 Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+models.py(686):     def deconstruct(self):
+0.50 models.py(693):     def state_forwards(self, app_label, state):
+0.50 models.py(696):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(699):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(702):     def describe(self):
+0.50 models.py(705):     @property
+0.50 models.py(706):     def migration_name_fragment(self):
+0.50 models.py(710): class IndexOperation(Operation):
+0.50 models.py(710): class IndexOperation(Operation):
+0.50 models.py(711):     option_name = 'indexes'
+0.50 models.py(713):     @cached_property
+0.50 models.py(714):     def model_name_lower(self):
+0.50 models.py(718): class AddIndex(IndexOperation):
+0.50 models.py(718): class AddIndex(IndexOperation):
+0.50 models.py(719):     """Add an index on a model."""
+0.50 models.py(721):     def __init__(self, model_name, index):
+0.50 models.py(730):     def state_forwards(self, app_label, state):
+0.50 models.py(733):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(738):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(743):     def deconstruct(self):
+0.50 models.py(754):     def describe(self):
+0.50 models.py(767):     @property
+0.50 models.py(768):     def migration_name_fragment(self):
+0.50 models.py(772): class RemoveIndex(IndexOperation):
+0.50 models.py(772): class RemoveIndex(IndexOperation):
+0.50 models.py(773):     """Remove an index from a model."""
+0.50 models.py(775):     def __init__(self, model_name, name):
+0.50 models.py(779):     def state_forwards(self, app_label, state):
+0.50 models.py(782):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(789):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(796):     def deconstruct(self):
+0.50 models.py(807):     def describe(self):
+0.50 models.py(810):     @property
+0.50 models.py(811):     def migration_name_fragment(self):
+0.50 models.py(815): class AddConstraint(IndexOperation):
+0.50 models.py(815): class AddConstraint(IndexOperation):
+0.50 models.py(816):     option_name = 'constraints'
+0.50 models.py(818):     def __init__(self, model_name, constraint):
+0.50 models.py(822):     def state_forwards(self, app_label, state):
+0.50 models.py(825):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(830):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(835):     def deconstruct(self):
+0.50 models.py(841):     def describe(self):
+0.50 models.py(844):     @property
+0.50 models.py(845):     def migration_name_fragment(self):
+0.50 models.py(849): class RemoveConstraint(IndexOperation):
+0.50 models.py(849): class RemoveConstraint(IndexOperation):
+0.50 models.py(850):     option_name = 'constraints'
+0.50 models.py(852):     def __init__(self, model_name, name):
+0.50 models.py(856):     def state_forwards(self, app_label, state):
+0.50 models.py(859):     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(866):     def database_backwards(self, app_label, schema_editor, from_state, to_state):
+0.50 models.py(873):     def deconstruct(self):
+0.50 models.py(879):     def describe(self):
+0.50 models.py(882):     @property
+0.50 models.py(883):     def migration_name_fragment(self):
+Found 1 test(s).
+Skipping setup of unused database(s): other.
+0.66 models.py(47):         self.fields = fields
+0.66 models.py(48):         self.options = options or {}
+0.66 models.py(49):         self.bases = bases or (models.Model,)
+0.66 models.py(50):         self.managers = managers or []
+0.66 models.py(51):         super().__init__(name)
+0.66 models.py(25):         self.name = name
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(14):     used_vals = set()
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(58):             for base in self.bases
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(14):     used_vals = set()
+0.66 models.py(15):     for val in objs:
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(58):             for base in self.bases
+0.66 models.py(56):             base._meta.label_lower if hasattr(base, '_meta') else
+0.66 models.py(57):             base.lower() if isinstance(base, str) else base
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(60):         _check_for_duplicates('managers', (name for name, _ in self.managers))
+0.66 models.py(14):     used_vals = set()
+0.66 models.py(15):     for val in objs:
+0.66 models.py(60):         _check_for_duplicates('managers', (name for name, _ in self.managers))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(60):         _check_for_duplicates('managers', (name for name, _ in self.managers))
+0.66 models.py(47):         self.fields = fields
+0.66 models.py(48):         self.options = options or {}
+0.66 models.py(49):         self.bases = bases or (models.Model,)
+0.66 models.py(50):         self.managers = managers or []
+0.66 models.py(51):         super().__init__(name)
+0.66 models.py(25):         self.name = name
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(14):     used_vals = set()
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(54):         _check_for_duplicates('fields', (name for name, _ in self.fields))
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(58):             for base in self.bases
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(14):     used_vals = set()
+0.66 models.py(15):     for val in objs:
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(58):             for base in self.bases
+0.66 models.py(56):             base._meta.label_lower if hasattr(base, '_meta') else
+0.66 models.py(57):             base.lower() if isinstance(base, str) else base
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(55):         _check_for_duplicates('bases', (
+0.66 models.py(60):         _check_for_duplicates('managers', (name for name, _ in self.managers))
+0.66 models.py(14):     used_vals = set()
+0.66 models.py(15):     for val in objs:
+0.66 models.py(60):         _check_for_duplicates('managers', (name for name, _ in self.managers))
+0.66 models.py(16):         if val in used_vals:
+0.66 models.py(20):         used_vals.add(val)
+0.66 models.py(15):     for val in objs:
+0.66 models.py(60):         _check_for_duplicates('managers', (name for name, _ in self.managers))
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial...0.68 models.py(80):         state.add_model(ModelState(
+0.68 models.py(81):             app_label,
+0.68 models.py(82):             self.name,
+0.68 models.py(83):             list(self.fields),
+0.68 models.py(84):             dict(self.options),
+0.68 models.py(85):             tuple(self.bases),
+0.68 models.py(86):             list(self.managers),
+0.68 models.py(80):         state.add_model(ModelState(
+0.68 models.py(90):         model = to_state.apps.get_model(app_label, self.name)
+0.68 models.py(91):         if self.allow_migrate_model(schema_editor.connection.alias, model):
+0.68 models.py(92):             schema_editor.create_model(model)
+ OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial...0.70 models.py(80):         state.add_model(ModelState(
+0.70 models.py(81):             app_label,
+0.70 models.py(82):             self.name,
+0.70 models.py(83):             list(self.fields),
+0.70 models.py(84):             dict(self.options),
+0.70 models.py(85):             tuple(self.bases),
+0.70 models.py(86):             list(self.managers),
+0.70 models.py(80):         state.add_model(ModelState(
+0.70 models.py(90):         model = to_state.apps.get_model(app_label, self.name)
+0.70 models.py(91):         if self.allow_migrate_model(schema_editor.connection.alias, model):
+0.70 models.py(92):             schema_editor.create_model(model)
+ OK
+  Applying sites.0002_alter_domain_unique... OK
+System check identified no issues (0 silenced).
+test_rename_model_with_db_table_noop (test_coverup_django__django-14999.RenameModelNoopTests) ... FAIL
+
+======================================================================
+FAIL: test_rename_model_with_db_table_noop (test_coverup_django__django-14999.RenameModelNoopTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-14999.py", line 42, in test_rename_model_with_db_table_noop
+    self.assertIsNotNone(result)  # The table should exist, indicating no recreation
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+0.77 models.py(293):         self.old_name = old_name
+0.77 models.py(294):         self.new_name = new_name
+0.77 models.py(295):         super().__init__(old_name)
+0.77 models.py(25):         self.name = name
+0.77 models.py(317):         state.rename_model(app_label, self.old_name, self.new_name)
+0.77 models.py(320):         new_model = to_state.apps.get_model(app_label, self.new_name)
+0.77 models.py(321):         if self.allow_migrate_model(schema_editor.connection.alias, new_model):
+0.77 models.py(322):             old_model = from_state.apps.get_model(app_label, self.old_name)
+0.77 models.py(324):             schema_editor.alter_db_table(
+0.77 models.py(325):                 new_model,
+0.77 models.py(326):                 old_model._meta.db_table,
+0.77 models.py(327):                 new_model._meta.db_table,
+0.77 models.py(324):             schema_editor.alter_db_table(
+0.77 models.py(330):             for related_object in old_model._meta.related_objects:
+0.77 models.py(349):             fields = zip(old_model._meta.local_many_to_many, new_model._meta.local_many_to_many)
+0.77 models.py(350):             for (old_field, new_field) in fields:
++ cat coverage.cover
+{"/testbed/django/db/migrations/operations/models.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "8": 1, "13": 1, "23": 2, "41": 2, "250": 2, "289": 2, "409": 2, "416": 2, "469": 2, "531": 2, "542": 2, "553": 2, "618": 2, "677": 2, "710": 2, "718": 2, "772": 2, "815": 2, "849": 2, "14": 6, "15": 21, "16": 15, "17": 0, "18": 0, "20": 15, "24": 1, "27": 1, "28": 1, "31": 1, "34": 1, "25": 3, "29": 0, "32": 0, "36": 0, "37": 0, "35": 0, "44": 1, "46": 1, "62": 1, "79": 1, "89": 1, "94": 1, "99": 1, "102": 1, "103": 1, "106": 1, "124": 1, "47": 2, "48": 2, "49": 2, "50": 2, "51": 2, "54": 15, "55": 8, "58": 4, "60": 6, "56": 2, "57": 2, "64": 0, "65": 0, "63": 0, "67": 0, "68": 0, "69": 0, "70": 0, "71": 0, "72": 0, "74": 0, "75": 0, "76": 0, "73": 0, "80": 4, "81": 2, "82": 2, "83": 2, "84": 2, "85": 2, "86": 2, "90": 2, "91": 2, "92": 2, "95": 0, "96": 0, "97": 0, "100": 0, "104": 0, "107": 0, "108": 0, "109": 0, "112": 0, "113": 0, "114": 0, "115": 0, "116": 0, "119": 0, "120": 0, "121": 0, "122": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "130": 0, "139": 0, "140": 0, "141": 0, "142": 0, "143": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "150": 0, "144": 0, "153": 0, "155": 0, "156": 0, "157": 0, "158": 0, "159": 0, "160": 0, "154": 0, "163": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "170": 0, "164": 0, "173": 0, "174": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "181": 0, "175": 0, "184": 0, "186": 0, "187": 0, "188": 0, "190": 0, "192": 0, "193": 0, "194": 0, "185": 0, "197": 0, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "203": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 0, "211": 0, "212": 0, "213": 0, "215": 0, "218": 0, "219": 0, "220": 0, "210": 0, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "228": 0, "230": 0, "232": 0, "233": 0, "234": 0, "236": 0, "237": 0, "238": 0, "240": 0, "242": 0, "243": 0, "244": 0, "235": 0, "247": 0, "189": 0, "216": 0, "214": 0, "229": 0, "239": 0, "253": 1, "263": 1, "266": 1, "271": 1, "276": 1, "281": 1, "284": 1, "285": 1, "255": 0, "254": 0, "258": 0, "259": 0, "260": 0, "257": 0, "264": 0, "267": 0, "268": 0, "269": 0, "272": 0, "273": 0, "274": 0, "279": 0, "282": 0, "286": 0, "292": 1, "297": 1, "298": 1, "301": 1, "302": 1, "305": 1, "316": 1, "319": 1, "370": 1, "379": 1, "385": 1, "388": 1, "389": 1, "392": 1, "293": 1, "294": 1, "295": 1, "299": 0, "303": 0, "307": 0, "308": 0, "306": 0, "311": 0, "312": 0, "313": 0, "310": 0, "317": 1, "320": 1, "321": 1, "322": 1, "324": 2, "325": 1, "326": 1, "327": 1, "330": 1, "331": 0, "332": 0, "333": 0, "335": 0, "337": 0, "338": 0, "336": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "349": 1, "350": 1, "352": 0, "353": 0, "355": 0, "356": 0, "357": 0, "358": 0, "359": 0, "360": 0, "364": 0, "365": 0, "366": 0, "367": 0, "371": 0, "372": 0, "374": 0, "376": 0, "377": 0, "381": 0, "382": 0, "380": 0, "386": 0, "390": 0, "393": 0, "394": 0, "396": 0, "397": 0, "398": 0, "395": 0, "404": 0, "405": 0, "403": 0, "410": 1, "411": 0, "412": 0, "413": 0, "419": 1, "423": 1, "434": 1, "437": 1, "455": 1, "458": 1, "464": 1, "465": 1, "420": 0, "421": 0, "425": 0, "426": 0, "424": 0, "429": 0, "430": 0, "431": 0, "428": 0, "435": 0, "438": 0, "439": 0, "440": 0, "441": 0, "442": 0, "443": 0, "444": 0, "447": 0, "448": 0, "449": 0, "450": 0, "451": 0, "452": 0, "456": 0, "459": 0, "460": 0, "461": 0, "466": 0, "470": 1, "472": 1, "478": 1, "479": 1, "482": 1, "493": 1, "500": 1, "511": 1, "514": 1, "523": 1, "526": 1, "527": 1, "473": 0, "474": 0, "475": 0, "476": 0, "480": 0, "484": 0, "485": 0, "483": 0, "488": 0, "489": 0, "490": 0, "487": 0, "494": 0, "495": 0, "496": 0, "497": 0, "501": 0, "502": 0, "503": 0, "504": 0, "505": 0, "506": 0, "507": 0, "508": 0, "512": 0, "516": 0, "518": 0, "519": 0, "515": 0, "524": 0, "528": 0, "536": 1, "538": 1, "539": 0, "547": 1, "549": 1, "550": 0, "556": 1, "558": 1, "562": 1, "573": 1, "580": 1, "598": 1, "601": 1, "610": 1, "613": 1, "614": 1, "559": 0, "560": 0, "564": 0, "565": 0, "563": 0, "568": 0, "569": 0, "570": 0, "567": 0, "574": 0, "575": 0, "576": 0, "577": 0, "581": 0, "582": 0, "583": 0, "585": 0, "586": 0, "589": 0, "590": 0, "591": 0, "592": 0, "593": 0, "594": 0, "595": 0, "599": 0, "603": 0, "605": 0, "606": 0, "602": 0, "611": 0, "615": 0, "626": 1, "640": 1, "644": 1, "655": 1, "663": 1, "666": 1, "669": 1, "672": 1, "673": 1, "641": 0, "642": 0, "646": 0, "647": 0, "645": 0, "650": 0, "651": 0, "652": 0, "649": 0, "656": 0, "657": 0, "658": 0, "659": 0, "660": 0, "664": 0, "667": 0, "670": 0, "674": 0, "680": 1, "682": 1, "686": 1, "693": 1, "696": 1, "699": 1, "702": 1, "705": 1, "706": 1, "683": 0, "684": 0, "688": 0, "689": 0, "690": 0, "687": 0, "694": 0, "697": 0, "700": 0, "703": 0, "707": 0, "711": 1, "713": 1, "714": 1, "715": 0, "721": 1, "730": 1, "733": 1, "738": 1, "743": 1, "754": 1, "767": 1, "768": 1, "722": 0, "723": 0, "724": 0, "725": 0, "726": 0, "728": 0, "731": 0, "734": 0, "735": 0, "736": 0, "739": 0, "740": 0, "741": 0, "745": 0, "746": 0, "744": 0, "749": 0, "750": 0, "751": 0, "748": 0, "755": 0, "756": 0, "757": 0, "758": 0, "759": 0, "761": 0, "762": 0, "763": 0, "764": 0, "769": 0, "775": 1, "779": 1, "782": 1, "789": 1, "796": 1, "807": 1, "810": 1, "811": 1, "776": 0, "777": 0, "780": 0, "783": 0, "784": 0, "785": 0, "786": 0, "787": 0, "790": 0, "791": 0, "792": 0, "793": 0, "794": 0, "798": 0, "799": 0, "797": 0, "802": 0, "803": 0, "804": 0, "801": 0, "808": 0, "812": 0, "816": 1, "818": 1, "822": 1, "825": 1, "830": 1, "835": 1, "841": 1, "844": 1, "845": 1, "819": 0, "820": 0, "823": 0, "826": 0, "827": 0, "828": 0, "831": 0, "832": 0, "833": 0, "836": 0, "837": 0, "838": 0, "842": 0, "846": 0, "850": 1, "852": 1, "856": 1, "859": 1, "866": 1, "873": 1, "879": 1, "882": 1, "883": 1, "853": 0, "854": 0, "857": 0, "860": 0, "861": 0, "862": 0, "863": 0, "864": 0, "867": 0, "868": 0, "869": 0, "870": 0, "871": 0, "874": 0, "875": 0, "876": 0, "880": 0, "884": 0}}
++ git checkout a754b82dac511475b6276039471ccd17cc64aeb8
+Note: switching to 'a754b82dac511475b6276039471ccd17cc64aeb8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a754b82dac Refs #33182 -- Adjusted custom admin theming example to use correct template block.
++ git apply /root/pre_state.patch
+error: unrecognized input

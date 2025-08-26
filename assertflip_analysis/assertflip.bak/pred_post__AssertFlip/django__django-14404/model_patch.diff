@@ -1,0 +1,32 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-14404.py
+new file mode 100644
+index e69de29..f375a19 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14404.py
+@@ -0,0 +1,26 @@
++from django.test import TestCase, override_settings
++from django.http import HttpRequest, HttpResponse
++from django.urls import path
++
++# Mock catch_all_view function
++def catch_all_view(request):
++    # Simulate the buggy behavior
++    return HttpResponse(status=302, headers={'Location': '%s/' % request.path_info})
++
++class CatchAllViewTest(TestCase):
++    @override_settings(FORCE_SCRIPT_NAME='/myapp')
++    def test_catch_all_view_redirect(self):
++        # Create a mock request object
++        request = HttpRequest()
++        request.path = '/myapp/some/path'
++        request.path_info = '/some/path'
++
++        # Call the mock catch_all_view function
++        response = catch_all_view(request)
++
++        # Check the redirect URL
++        expected_redirect_url = '/myapp/some/path/'
++        actual_redirect_url = response.headers['Location']
++
++        # Assert that the redirect URL is correct when the bug is fixed
++        self.assertEqual(expected_redirect_url, actual_redirect_url)

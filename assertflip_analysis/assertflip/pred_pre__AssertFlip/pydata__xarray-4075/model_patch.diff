@@ -1,0 +1,22 @@
+diff --git a/dev/null b/xarray/tests/test_coverup_pydata__xarray-4075.py
+new file mode 100644
+index e69de29..3332291 100644
+--- /dev/null
++++ b/xarray/tests/test_coverup_pydata__xarray-4075.py
+@@ -0,0 +1,16 @@
++import pytest
++import numpy as np
++import xarray as xr
++
++def test_weighted_mean_with_boolean_weights():
++    # Setup: Create a DataArray with sample data
++    data = xr.DataArray([1.0, 1.0, 1.0])
++    
++    # Setup: Create a DataArray for weights using boolean values
++    weights = xr.DataArray(np.array([True, True, False], dtype=bool))
++    
++    # Apply the weighted.mean() function
++    result = data.weighted(weights).mean()
++    
++    # Assert the correct behavior
++    assert result.item() == 1.0  # The expected correct behavior

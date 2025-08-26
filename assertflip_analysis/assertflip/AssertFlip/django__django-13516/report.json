@@ -1,0 +1,57 @@
+{
+    "django__django-13516": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.3333333333333333,
+        "coverage_delta_pred": 0.6666666666666666,
+        "coverage_delta_gold": 0.6666666666666666,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_django__django-13516 (unittest.loader._FailedTest)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_migration_flush_behavior (test_coverup_django__django-13516.MigrationFlushTest)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_normalize_path_patterns_truncates_wildcard_base (user_commands.tests.UtilsTests)",
+                "test_discover_commands_in_eggs (user_commands.tests.CommandTests)",
+                "test_is_ignored_path_true (user_commands.tests.UtilsTests)",
+                "test_find_command_without_PATH (user_commands.tests.CommandTests)",
+                "test_explode (user_commands.tests.CommandTests)",
+                "test_no_existent_external_program (user_commands.tests.UtilsTests)",
+                "test_get_random_secret_key (user_commands.tests.UtilsTests)",
+                "test_is_ignored_path_false (user_commands.tests.UtilsTests)"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_skip_checks (user_commands.tests.CommandRunTests)",
+                "test_disallowed_abbreviated_options (user_commands.tests.CommandRunTests)",
+                "test_script_prefix_set_in_commands (user_commands.tests.CommandRunTests)",
+                "test_outputwrapper_flush (user_commands.tests.CommandTests)"
+            ],
+            "PASS_TO_FAIL": [
+                "test_requires_system_checks_invalid (user_commands.tests.CommandTests)",
+                "test_create_parser_kwargs (user_commands.tests.CommandTests)",
+                "test_requires_system_checks_false (user_commands.tests.DeprecationTests)"
+            ],
+            "UNMATCHED": []
+        }
+    }
+}

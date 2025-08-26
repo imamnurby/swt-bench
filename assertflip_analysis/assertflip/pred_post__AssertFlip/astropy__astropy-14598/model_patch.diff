@@ -1,0 +1,17 @@
+diff --git a/dev/null b/astropy/tests/test_coverup_astropy__astropy-14598.py
+new file mode 100644
+index e69de29..771f2f6 100644
+--- /dev/null
++++ b/astropy/tests/test_coverup_astropy__astropy-14598.py
+@@ -0,0 +1,11 @@
++import pytest
++from astropy.io import fits
++
++def test_double_single_quote_handling():
++    # Test for the bug where double single-quotes are incorrectly transformed
++    for n in range(60, 70):
++        card1 = fits.Card('CONFIG', "x" * n + "''")
++        card2 = fits.Card.fromstring(str(card1))
++        
++        # Assert that the values are equal, which is the expected correct behavior
++        assert card1.value == card2.value

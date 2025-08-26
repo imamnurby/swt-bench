@@ -1,0 +1,27 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15741.py
+new file mode 100644
+index e69de29..2c0a927 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15741.py
+@@ -0,0 +1,21 @@
++from django.test import SimpleTestCase
++from django.utils.functional import lazy
++from django.template.defaultfilters import date
++from datetime import datetime
++
++class DateFilterLazyStringTest(SimpleTestCase):
++    def test_date_filter_with_lazy_string(self):
++        # Create a lazy string using Django's lazy utility
++        lazy_format = lazy(lambda: 'Y-m-d', str)()
++
++        # Create a sample date
++        sample_date = datetime(2023, 10, 5)
++
++        # Attempt to use the date filter with a lazy string
++        try:
++            result = date(sample_date, lazy_format)
++            # Assert that the result is as expected when the bug is fixed
++            self.assertEqual(result, '2023-10-05', "BUG: Date filter did not process lazy string correctly.")
++        except TypeError as e:
++            # If a TypeError is raised, assert False to indicate the bug
++            self.assertFalse(True, f"BUG: Unexpected TypeError raised: {str(e)}")

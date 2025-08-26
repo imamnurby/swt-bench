@@ -1,0 +1,1774 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD a5308514fb4bc5086c9a16a8a24a945eeebb073c
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit a5308514fb4bc5086c9a16a8a24a945eeebb073c
+Author: Hasan Ramezani <hasan.r67@gmail.com>
+Date:   Fri Jun 21 23:38:27 2019 +0200
+
+    Fixed #27801 -- Made createsuperuser fall back to environment variables for password and required fields.
+
+diff --git a/django/contrib/auth/management/commands/createsuperuser.py b/django/contrib/auth/management/commands/createsuperuser.py
+index d700ce4c0e..ece66dfad1 100644
+--- a/django/contrib/auth/management/commands/createsuperuser.py
++++ b/django/contrib/auth/management/commands/createsuperuser.py
+@@ -2,6 +2,7 @@
+ Management utility to create superusers.
+ """
+ import getpass
++import os
+ import sys
+ 
+ from django.contrib.auth import get_user_model
+@@ -138,6 +139,13 @@ class Command(BaseCommand):
+                     user_data[PASSWORD_FIELD] = password
+             else:
+                 # Non-interactive mode.
++                # Use password from environment variable, if provided.
++                if PASSWORD_FIELD in user_data and 'DJANGO_SUPERUSER_PASSWORD' in os.environ:
++                    user_data[PASSWORD_FIELD] = os.environ['DJANGO_SUPERUSER_PASSWORD']
++                # Use username from environment variable, if not provided in
++                # options.
++                if username is None:
++                    username = os.environ.get('DJANGO_SUPERUSER_' + self.UserModel.USERNAME_FIELD.upper())
+                 if username is None:
+                     raise CommandError('You must use --%s with --noinput.' % self.UserModel.USERNAME_FIELD)
+                 else:
+@@ -147,11 +155,12 @@ class Command(BaseCommand):
+ 
+                 user_data[self.UserModel.USERNAME_FIELD] = username
+                 for field_name in self.UserModel.REQUIRED_FIELDS:
+-                    if options[field_name]:
+-                        field = self.UserModel._meta.get_field(field_name)
+-                        user_data[field_name] = field.clean(options[field_name], None)
+-                    else:
++                    env_var = 'DJANGO_SUPERUSER_' + field_name.upper()
++                    value = options[field_name] or os.environ.get(env_var)
++                    if not value:
+                         raise CommandError('You must use --%s with --noinput.' % field_name)
++                    field = self.UserModel._meta.get_field(field_name)
++                    user_data[field_name] = field.clean(value, None)
+ 
+             self.UserModel._default_manager.db_manager(database).create_superuser(**user_data)
+             if options['verbosity'] >= 1:
+diff --git a/docs/ref/django-admin.txt b/docs/ref/django-admin.txt
+index 69e00b0428..e139c8128f 100644
+--- a/docs/ref/django-admin.txt
++++ b/docs/ref/django-admin.txt
+@@ -1560,9 +1560,23 @@ useful if you need to create an initial superuser account or if you need to
+ programmatically generate superuser accounts for your site(s).
+ 
+ When run interactively, this command will prompt for a password for
+-the new superuser account. When run non-interactively, no password
+-will be set, and the superuser account will not be able to log in until
+-a password has been manually set for it.
++the new superuser account. When run non-interactively, you can provide
++a password by setting the ``DJANGO_SUPERUSER_PASSWORD`` environment variable.
++Otherwise, no password will be set, and the superuser account will not be able
++to log in until a password has been manually set for it.
++
++In non-interactive mode, the
++:attr:`~django.contrib.auth.models.CustomUser.USERNAME_FIELD` and required
++fields (listed in
++:attr:`~django.contrib.auth.models.CustomUser.REQUIRED_FIELDS`) fall back to
++``DJANGO_SUPERUSER_<uppercase_field_name>`` environment variables, unless they
++are overridden by a command line argument. For example, to provide an ``email``
++field, you can use ``DJANGO_SUPERUSER_EMAIL`` environment variable.
++
++.. versionchanged:: 3.0
++
++    Support for using ``DJANGO_SUPERUSER_PASSWORD`` and
++    ``DJANGO_SUPERUSER_<uppercase_field_name>`` environment variables was added.
+ 
+ .. django-admin-option:: --username USERNAME
+ .. django-admin-option:: --email EMAIL
+diff --git a/docs/releases/3.0.txt b/docs/releases/3.0.txt
+index 4c33e7c309..c7f1a4e78b 100644
+--- a/docs/releases/3.0.txt
++++ b/docs/releases/3.0.txt
+@@ -102,6 +102,10 @@ Minor features
+   password fields in :mod:`django.contrib.auth.forms` for better interaction
+   with browser password managers.
+ 
++* :djadmin:`createsuperuser` now falls back to environment variables for
++  password and required fields, when a corresponding command line argument
++  isn't provided in non-interactive mode.
++
+ :mod:`django.contrib.contenttypes`
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+diff --git a/tests/auth_tests/test_management.py b/tests/auth_tests/test_management.py
+index d0a91f3261..bf9b063102 100644
+--- a/tests/auth_tests/test_management.py
++++ b/tests/auth_tests/test_management.py
+@@ -1,5 +1,6 @@
+ import builtins
+ import getpass
++import os
+ import sys
+ from datetime import date
+ from io import StringIO
+@@ -905,6 +906,61 @@ class CreatesuperuserManagementCommandTestCase(TestCase):
+ 
+         test(self)
+ 
++    @mock.patch.dict(os.environ, {
++        'DJANGO_SUPERUSER_PASSWORD': 'test_password',
++        'DJANGO_SUPERUSER_USERNAME': 'test_superuser',
++        'DJANGO_SUPERUSER_EMAIL': 'joe@somewhere.org',
++        'DJANGO_SUPERUSER_FIRST_NAME': 'ignored_first_name',
++    })
++    def test_environment_variable_non_interactive(self):
++        call_command('createsuperuser', interactive=False, stdout=StringIO())
++        user = User.objects.get(username='test_superuser')
++        self.assertEqual(user.email, 'joe@somewhere.org')
++        self.assertTrue(user.check_password('test_password'))
++        # Environment variables are ignored for non-required fields.
++        self.assertEqual(user.first_name, '')
++
++    @mock.patch.dict(os.environ, {
++        'DJANGO_SUPERUSER_USERNAME': 'test_superuser',
++        'DJANGO_SUPERUSER_EMAIL': 'joe@somewhere.org',
++    })
++    def test_ignore_environment_variable_non_interactive(self):
++        # Environment variables are ignored in non-interactive mode, if
++        # provided by a command line arguments.
++        call_command(
++            'createsuperuser',
++            interactive=False,
++            username='cmd_superuser',
++            email='cmd@somewhere.org',
++            stdout=StringIO(),
++        )
++        user = User.objects.get(username='cmd_superuser')
++        self.assertEqual(user.email, 'cmd@somewhere.org')
++        self.assertFalse(user.has_usable_password())
++
++    @mock.patch.dict(os.environ, {
++        'DJANGO_SUPERUSER_PASSWORD': 'test_password',
++        'DJANGO_SUPERUSER_USERNAME': 'test_superuser',
++        'DJANGO_SUPERUSER_EMAIL': 'joe@somewhere.org',
++    })
++    def test_ignore_environment_variable_interactive(self):
++        # Environment variables are ignored in interactive mode.
++        @mock_inputs({'password': 'cmd_password'})
++        def test(self):
++            call_command(
++                'createsuperuser',
++                interactive=True,
++                username='cmd_superuser',
++                email='cmd@somewhere.org',
++                stdin=MockTTY(),
++                stdout=StringIO(),
++            )
++            user = User.objects.get(username='cmd_superuser')
++            self.assertEqual(user.email, 'cmd@somewhere.org')
++            self.assertTrue(user.check_password('cmd_password'))
++
++        test(self)
++
+ 
+ class MultiDBCreatesuperuserTestCase(TestCase):
+     databases = {'default', 'other'}
++ git diff a5308514fb4bc5086c9a16a8a24a945eeebb073c
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190702105509) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190702105509) (0.4.4)
+Requirement already satisfied: asgiref in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190702105509) (3.4.1)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref->Django==3.0.dev20190702105509) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.0.dev20190702105509
+    Uninstalling Django-3.0.dev20190702105509:
+      Successfully uninstalled Django-3.0.dev20190702105509
+  Running setup.py develop for Django
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed Django-3.0.dev20190702105509
++ git apply -v -
+Checking patch django/core/mail/message.py...
+Checking patch django/core/mail/utils.py...
+Checking patch django/core/validators.py...
+Checking patch django/utils/encoding.py...
+Checking patch django/utils/html.py...
+Applied patch django/core/mail/message.py cleanly.
+Applied patch django/core/mail/utils.py cleanly.
+Applied patch django/core/validators.py cleanly.
+Applied patch django/utils/encoding.py cleanly.
+Applied patch django/utils/html.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-11532.py...
+Applied patch tests/test_coverup_django__django-11532.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/core/validators\.py|django/core/mail/message\.py|django/utils/encoding\.py|django/utils/html\.py|django/core/mail/utils\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11532
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/core/validators\\.py|django/core/mail/message\\.py|django/utils/encoding\\.py|django/utils/html\\.py|django/core/mail/utils\\.py)']
+0.05 /testbed/django/utils/encoding.py(1): import codecs
+0.05 /testbed/django/utils/encoding.py(2): import datetime
+0.05 /testbed/django/utils/encoding.py(3): import locale
+0.05 /testbed/django/utils/encoding.py(4): import warnings
+0.05 /testbed/django/utils/encoding.py(5): from decimal import Decimal
+0.06 /testbed/django/utils/encoding.py(6): from urllib.parse import quote
+0.06 /testbed/django/utils/encoding.py(8): from django.utils.deprecation import RemovedInDjango40Warning
+0.06 /testbed/django/utils/encoding.py(9): from django.utils.functional import Promise
+0.06 /testbed/django/utils/encoding.py(12): class DjangoUnicodeDecodeError(UnicodeDecodeError):
+0.06 /testbed/django/utils/encoding.py(12): class DjangoUnicodeDecodeError(UnicodeDecodeError):
+0.06 /testbed/django/utils/encoding.py(13):     def __init__(self, obj, *args):
+0.06 /testbed/django/utils/encoding.py(17):     def __str__(self):
+0.06 /testbed/django/utils/encoding.py(21): def smart_str(s, encoding='utf-8', strings_only=False, errors='strict'):
+0.06 /testbed/django/utils/encoding.py(35):     type(None), int, float, Decimal, datetime.datetime, datetime.date, datetime.time,
+0.06 /testbed/django/utils/encoding.py(39): def is_protected_type(obj):
+0.06 /testbed/django/utils/encoding.py(48): def force_str(s, encoding='utf-8', strings_only=False, errors='strict'):
+0.06 /testbed/django/utils/encoding.py(70): def smart_bytes(s, encoding='utf-8', strings_only=False, errors='strict'):
+0.06 /testbed/django/utils/encoding.py(82): def force_bytes(s, encoding='utf-8', strings_only=False, errors='strict'):
+0.06 /testbed/django/utils/encoding.py(102): def smart_text(s, encoding='utf-8', strings_only=False, errors='strict'):
+0.06 /testbed/django/utils/encoding.py(110): def force_text(s, encoding='utf-8', strings_only=False, errors='strict'):
+0.06 /testbed/django/utils/encoding.py(118): def iri_to_uri(iri):
+0.06 /testbed/django/utils/encoding.py(152): _ascii_ranges = [[45, 46, 95, 126], range(65, 91), range(97, 123)]
+0.06 /testbed/django/utils/encoding.py(153): _hextobyte = {
+0.06 /testbed/django/utils/encoding.py(155):     for ascii_range in _ascii_ranges
+0.06 /testbed/django/utils/encoding.py(153): _hextobyte = {
+0.06 /testbed/django/utils/encoding.py(155):     for ascii_range in _ascii_ranges
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(153): _hextobyte = {
+0.06 /testbed/django/utils/encoding.py(155):     for ascii_range in _ascii_ranges
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(153): _hextobyte = {
+0.06 /testbed/django/utils/encoding.py(155):     for ascii_range in _ascii_ranges
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(157):     for fmt in ['%02x', '%02X']
+0.06 /testbed/django/utils/encoding.py(156):     for char in ascii_range
+0.06 /testbed/django/utils/encoding.py(153): _hextobyte = {
+0.06 /testbed/django/utils/encoding.py(161): _hexdig = '0123456789ABCDEFabcdef'
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(164):     for a in _hexdig[8:] for b in _hexdig
+0.06 /testbed/django/utils/encoding.py(162): _hextobyte.update({
+0.06 /testbed/django/utils/encoding.py(168): def uri_to_iri(uri):
+0.06 /testbed/django/utils/encoding.py(204): def escape_uri_path(path):
+0.06 /testbed/django/utils/encoding.py(221): def punycode(domain):
+0.06 /testbed/django/utils/encoding.py(226): def repercent_broken_unicode(path):
+0.06 /testbed/django/utils/encoding.py(241): def filepath_to_uri(path):
+0.06 /testbed/django/utils/encoding.py(256): def get_system_encoding():
+0.06 /testbed/django/utils/encoding.py(270): DEFAULT_LOCALE_ENCODING = get_system_encoding()
+0.06 /testbed/django/utils/encoding.py(262):     try:
+0.06 /testbed/django/utils/encoding.py(263):         encoding = locale.getdefaultlocale()[1] or 'ascii'
+0.06 /testbed/django/utils/encoding.py(264):         codecs.lookup(encoding)
+0.06 /testbed/django/utils/encoding.py(267):     return encoding
+0.15 /testbed/django/utils/html.py(1): """HTML utilities suitable for global use."""
+0.15 /testbed/django/utils/html.py(3): import html
+0.15 /testbed/django/utils/html.py(4): import json
+0.15 /testbed/django/utils/html.py(5): import re
+0.15 /testbed/django/utils/html.py(6): from html.parser import HTMLParser
+0.16 /testbed/django/utils/html.py(7): from urllib.parse import (
+0.16 /testbed/django/utils/html.py(11): from django.utils.encoding import punycode
+0.16 /testbed/django/utils/html.py(12): from django.utils.functional import Promise, keep_lazy, keep_lazy_text
+0.16 /testbed/django/utils/html.py(13): from django.utils.http import RFC3986_GENDELIMS, RFC3986_SUBDELIMS
+0.16 /testbed/django/utils/html.py(14): from django.utils.safestring import SafeData, SafeString, mark_safe
+0.16 /testbed/django/utils/html.py(15): from django.utils.text import normalize_newlines
+0.17 /testbed/django/utils/html.py(18): TRAILING_PUNCTUATION_CHARS = '.,:;!'
+0.17 /testbed/django/utils/html.py(19): WRAPPING_PUNCTUATION = [('(', ')'), ('[', ']')]
+0.17 /testbed/django/utils/html.py(22): DOTS = ['&middot;', '*', '\u2022', '&#149;', '&bull;', '&#8226;']
+0.17 /testbed/django/utils/html.py(24): unencoded_ampersands_re = re.compile(r'&(?!(\w+|#\d+);)')
+0.17 /testbed/django/utils/html.py(25): word_split_re = re.compile(r'''([\s<>"']+)''')
+0.17 /testbed/django/utils/html.py(26): simple_url_re = re.compile(r'^https?://\[?\w', re.IGNORECASE)
+0.17 /testbed/django/utils/html.py(27): simple_url_2_re = re.compile(r'^www\.|^(?!http)\w[^@]+\.(com|edu|gov|int|mil|net|org)($|/.*)$', re.IGNORECASE)
+0.17 /testbed/django/utils/html.py(30): @keep_lazy(str, SafeString)
+0.17 /testbed/django/utils/html.py(44):     ord('\\'): '\\u005C',
+0.17 /testbed/django/utils/html.py(45):     ord('\''): '\\u0027',
+0.17 /testbed/django/utils/html.py(46):     ord('"'): '\\u0022',
+0.17 /testbed/django/utils/html.py(47):     ord('>'): '\\u003E',
+0.17 /testbed/django/utils/html.py(48):     ord('<'): '\\u003C',
+0.17 /testbed/django/utils/html.py(49):     ord('&'): '\\u0026',
+0.17 /testbed/django/utils/html.py(50):     ord('='): '\\u003D',
+0.17 /testbed/django/utils/html.py(51):     ord('-'): '\\u002D',
+0.17 /testbed/django/utils/html.py(52):     ord(';'): '\\u003B',
+0.17 /testbed/django/utils/html.py(53):     ord('`'): '\\u0060',
+0.17 /testbed/django/utils/html.py(54):     ord('\u2028'): '\\u2028',
+0.17 /testbed/django/utils/html.py(55):     ord('\u2029'): '\\u2029'
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(59): _js_escapes.update((ord('%c' % z), '\\u%04X' % z) for z in range(32))
+0.17 /testbed/django/utils/html.py(62): @keep_lazy(str, SafeString)
+0.17 /testbed/django/utils/html.py(69):     ord('>'): '\\u003E',
+0.17 /testbed/django/utils/html.py(70):     ord('<'): '\\u003C',
+0.17 /testbed/django/utils/html.py(71):     ord('&'): '\\u0026',
+0.17 /testbed/django/utils/html.py(75): def json_script(value, element_id):
+0.17 /testbed/django/utils/html.py(89): def conditional_escape(text):
+0.17 /testbed/django/utils/html.py(104): def format_html(format_string, *args, **kwargs):
+0.17 /testbed/django/utils/html.py(115): def format_html_join(sep, format_string, args_generator):
+0.17 /testbed/django/utils/html.py(135): @keep_lazy_text
+0.17 /testbed/django/utils/html.py(136): def linebreaks(value, autoescape=False):
+0.17 /testbed/django/utils/html.py(147): class MLStripper(HTMLParser):
+0.17 /testbed/django/utils/html.py(147): class MLStripper(HTMLParser):
+0.17 /testbed/django/utils/html.py(148):     def __init__(self):
+0.17 /testbed/django/utils/html.py(153):     def handle_data(self, d):
+0.17 /testbed/django/utils/html.py(156):     def handle_entityref(self, name):
+0.17 /testbed/django/utils/html.py(159):     def handle_charref(self, name):
+0.17 /testbed/django/utils/html.py(162):     def get_data(self):
+0.17 /testbed/django/utils/html.py(166): def _strip_once(value):
+0.17 /testbed/django/utils/html.py(176): @keep_lazy_text
+0.17 /testbed/django/utils/html.py(191): @keep_lazy_text
+0.17 /testbed/django/utils/html.py(197): def smart_urlquote(url):
+0.17 /testbed/django/utils/html.py(232): @keep_lazy_text
+0.17 /testbed/django/utils/html.py(233): def urlize(text, trim_url_limit=None, nofollow=False, autoescape=False):
+0.17 /testbed/django/utils/html.py(349): def avoid_wrapping(value):
+0.17 /testbed/django/utils/html.py(357): def html_safe(klass):
+0.17 /testbed/django/utils/html.py(362):     if '__html__' in klass.__dict__:
+0.17 /testbed/django/utils/html.py(367):     if '__str__' not in klass.__dict__:
+0.17 /testbed/django/utils/html.py(372):     klass_str = klass.__str__
+0.17 /testbed/django/utils/html.py(373):     klass.__str__ = lambda self: mark_safe(klass_str(self))
+0.17 /testbed/django/utils/html.py(374):     klass.__html__ = lambda self: str(self)
+0.17 /testbed/django/utils/html.py(375):     return klass
+0.17 /testbed/django/utils/html.py(362):     if '__html__' in klass.__dict__:
+0.17 /testbed/django/utils/html.py(367):     if '__str__' not in klass.__dict__:
+0.17 /testbed/django/utils/html.py(372):     klass_str = klass.__str__
+0.17 /testbed/django/utils/html.py(373):     klass.__str__ = lambda self: mark_safe(klass_str(self))
+0.17 /testbed/django/utils/html.py(374):     klass.__html__ = lambda self: str(self)
+0.17 /testbed/django/utils/html.py(375):     return klass
+0.24 /testbed/django/utils/html.py(362):     if '__html__' in klass.__dict__:
+0.24 /testbed/django/utils/html.py(367):     if '__str__' not in klass.__dict__:
+0.24 /testbed/django/utils/html.py(372):     klass_str = klass.__str__
+0.24 /testbed/django/utils/html.py(373):     klass.__str__ = lambda self: mark_safe(klass_str(self))
+0.24 /testbed/django/utils/html.py(374):     klass.__html__ = lambda self: str(self)
+0.24 /testbed/django/utils/html.py(375):     return klass
+0.24 /testbed/django/utils/html.py(362):     if '__html__' in klass.__dict__:
+0.24 /testbed/django/utils/html.py(367):     if '__str__' not in klass.__dict__:
+0.24 /testbed/django/utils/html.py(372):     klass_str = klass.__str__
+0.24 /testbed/django/utils/html.py(373):     klass.__str__ = lambda self: mark_safe(klass_str(self))
+0.24 /testbed/django/utils/html.py(374):     klass.__html__ = lambda self: str(self)
+0.24 /testbed/django/utils/html.py(375):     return klass
+0.24 /testbed/django/utils/html.py(362):     if '__html__' in klass.__dict__:
+0.24 /testbed/django/utils/html.py(367):     if '__str__' not in klass.__dict__:
+0.24 /testbed/django/utils/html.py(372):     klass_str = klass.__str__
+0.24 /testbed/django/utils/html.py(373):     klass.__str__ = lambda self: mark_safe(klass_str(self))
+0.24 /testbed/django/utils/html.py(374):     klass.__html__ = lambda self: str(self)
+0.24 /testbed/django/utils/html.py(375):     return klass
+0.25 /testbed/django/core/validators.py(1): import ipaddress
+0.25 /testbed/django/core/validators.py(2): import re
+0.25 /testbed/django/core/validators.py(3): from pathlib import Path
+0.25 /testbed/django/core/validators.py(4): from urllib.parse import urlsplit, urlunsplit
+0.25 /testbed/django/core/validators.py(6): from django.core.exceptions import ValidationError
+0.25 /testbed/django/core/validators.py(7): from django.utils.deconstruct import deconstructible
+0.25 /testbed/django/core/validators.py(8): from django.utils.encoding import punycode
+0.25 /testbed/django/core/validators.py(9): from django.utils.functional import SimpleLazyObject
+0.25 /testbed/django/core/validators.py(10): from django.utils.ipv6 import is_valid_ipv6_address
+0.25 /testbed/django/core/validators.py(11): from django.utils.translation import gettext_lazy as _, ngettext_lazy
+0.25 /testbed/django/core/validators.py(14): EMPTY_VALUES = (None, '', [], (), {})
+0.25 /testbed/django/core/validators.py(17): def _lazy_re_compile(regex, flags=0):
+0.25 /testbed/django/core/validators.py(29): @deconstructible
+0.25 /testbed/django/core/validators.py(29): @deconstructible
+0.25 /testbed/django/core/validators.py(31):     regex = ''
+0.25 /testbed/django/core/validators.py(32):     message = _('Enter a valid value.')
+0.25 /testbed/django/core/validators.py(33):     code = 'invalid'
+0.25 /testbed/django/core/validators.py(34):     inverse_match = False
+0.25 /testbed/django/core/validators.py(35):     flags = 0
+0.25 /testbed/django/core/validators.py(37):     def __init__(self, regex=None, message=None, code=None, inverse_match=None, flags=None):
+0.25 /testbed/django/core/validators.py(53):     def __call__(self, value):
+0.25 /testbed/django/core/validators.py(63):     def __eq__(self, other):
+0.25 /testbed/django/core/validators.py(74): @deconstructible
+0.25 /testbed/django/core/validators.py(75): class URLValidator(RegexValidator):
+0.25 /testbed/django/core/validators.py(74): @deconstructible
+0.25 /testbed/django/core/validators.py(76):     ul = '\u00a1-\uffff'  # unicode letters range (must not be a raw string)
+0.25 /testbed/django/core/validators.py(79):     ipv4_re = r'(?:25[0-5]|2[0-4]\d|[0-1]?\d?\d)(?:\.(?:25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}'
+0.25 /testbed/django/core/validators.py(80):     ipv6_re = r'\[[0-9a-f:\.]+\]'  # (simple regex, validated later)
+0.25 /testbed/django/core/validators.py(83):     hostname_re = r'[a-z' + ul + r'0-9](?:[a-z' + ul + r'0-9-]{0,61}[a-z' + ul + r'0-9])?'
+0.25 /testbed/django/core/validators.py(85):     domain_re = r'(?:\.(?!-)[a-z' + ul + r'0-9-]{1,63}(?<!-))*'
+0.25 /testbed/django/core/validators.py(89):         r'(?:[a-z' + ul + '-]{2,63}'         # domain label
+0.25 /testbed/django/core/validators.py(94):     host_re = '(' + hostname_re + domain_re + tld_re + '|localhost)'
+0.25 /testbed/django/core/validators.py(96):     regex = _lazy_re_compile(
+0.25 /testbed/django/core/validators.py(99):         r'(?:' + ipv4_re + '|' + ipv6_re + '|' + host_re + ')'
+0.25 /testbed/django/core/validators.py(102):         r'\Z', re.IGNORECASE)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(103):     message = _('Enter a valid URL.')
+0.25 /testbed/django/core/validators.py(104):     schemes = ['http', 'https', 'ftp', 'ftps']
+0.25 /testbed/django/core/validators.py(106):     def __init__(self, schemes=None, **kwargs):
+0.25 /testbed/django/core/validators.py(111):     def __call__(self, value):
+0.25 /testbed/django/core/validators.py(153): integer_validator = RegexValidator(
+0.25 /testbed/django/core/validators.py(154):     _lazy_re_compile(r'^-?\d+\Z'),
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(155):     message=_('Enter a valid integer.'),
+0.25 /testbed/django/core/validators.py(156):     code='invalid',
+0.25 /testbed/django/core/validators.py(38):         if regex is not None:
+0.25 /testbed/django/core/validators.py(39):             self.regex = regex
+0.25 /testbed/django/core/validators.py(40):         if message is not None:
+0.25 /testbed/django/core/validators.py(41):             self.message = message
+0.25 /testbed/django/core/validators.py(42):         if code is not None:
+0.25 /testbed/django/core/validators.py(43):             self.code = code
+0.25 /testbed/django/core/validators.py(44):         if inverse_match is not None:
+0.25 /testbed/django/core/validators.py(46):         if flags is not None:
+0.25 /testbed/django/core/validators.py(48):         if self.flags and not isinstance(self.regex, str):
+0.25 /testbed/django/core/validators.py(51):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(160): def validate_integer(value):
+0.25 /testbed/django/core/validators.py(164): @deconstructible
+0.25 /testbed/django/core/validators.py(164): @deconstructible
+0.25 /testbed/django/core/validators.py(166):     message = _('Enter a valid email address.')
+0.25 /testbed/django/core/validators.py(167):     code = 'invalid'
+0.25 /testbed/django/core/validators.py(168):     user_regex = _lazy_re_compile(
+0.25 /testbed/django/core/validators.py(169):         r"(^[-!#$%&'*+/=?^_`{}|~0-9A-Z]+(\.[-!#$%&'*+/=?^_`{}|~0-9A-Z]+)*\Z"  # dot-atom
+0.25 /testbed/django/core/validators.py(171):         re.IGNORECASE)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(172):     domain_regex = _lazy_re_compile(
+0.25 /testbed/django/core/validators.py(174):         r'((?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+)(?:[A-Z0-9-]{2,63}(?<!-))\Z',
+0.25 /testbed/django/core/validators.py(175):         re.IGNORECASE)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(176):     literal_regex = _lazy_re_compile(
+0.25 /testbed/django/core/validators.py(178):         r'\[([A-f0-9:\.]+)\]\Z',
+0.25 /testbed/django/core/validators.py(179):         re.IGNORECASE)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(180):     domain_whitelist = ['localhost']
+0.25 /testbed/django/core/validators.py(182):     def __init__(self, message=None, code=None, whitelist=None):
+0.25 /testbed/django/core/validators.py(190):     def __call__(self, value):
+0.25 /testbed/django/core/validators.py(211):     def validate_domain_part(self, domain_part):
+0.25 /testbed/django/core/validators.py(225):     def __eq__(self, other):
+0.25 /testbed/django/core/validators.py(234): validate_email = EmailValidator()
+0.25 /testbed/django/core/validators.py(183):         if message is not None:
+0.25 /testbed/django/core/validators.py(185):         if code is not None:
+0.25 /testbed/django/core/validators.py(187):         if whitelist is not None:
+0.25 /testbed/django/core/validators.py(236): slug_re = _lazy_re_compile(r'^[-a-zA-Z0-9_]+\Z')
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(237): validate_slug = RegexValidator(
+0.25 /testbed/django/core/validators.py(238):     slug_re,
+0.25 /testbed/django/core/validators.py(240):     _('Enter a valid “slug” consisting of letters, numbers, underscores or hyphens.'),
+0.25 /testbed/django/core/validators.py(241):     'invalid'
+0.25 /testbed/django/core/validators.py(38):         if regex is not None:
+0.25 /testbed/django/core/validators.py(39):             self.regex = regex
+0.25 /testbed/django/core/validators.py(40):         if message is not None:
+0.25 /testbed/django/core/validators.py(41):             self.message = message
+0.25 /testbed/django/core/validators.py(42):         if code is not None:
+0.25 /testbed/django/core/validators.py(43):             self.code = code
+0.25 /testbed/django/core/validators.py(44):         if inverse_match is not None:
+0.25 /testbed/django/core/validators.py(46):         if flags is not None:
+0.25 /testbed/django/core/validators.py(48):         if self.flags and not isinstance(self.regex, str):
+0.25 /testbed/django/core/validators.py(51):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(244): slug_unicode_re = _lazy_re_compile(r'^[-\w]+\Z')
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(245): validate_unicode_slug = RegexValidator(
+0.25 /testbed/django/core/validators.py(246):     slug_unicode_re,
+0.25 /testbed/django/core/validators.py(247):     _('Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or hyphens.'),
+0.25 /testbed/django/core/validators.py(248):     'invalid'
+0.25 /testbed/django/core/validators.py(38):         if regex is not None:
+0.25 /testbed/django/core/validators.py(39):             self.regex = regex
+0.25 /testbed/django/core/validators.py(40):         if message is not None:
+0.25 /testbed/django/core/validators.py(41):             self.message = message
+0.25 /testbed/django/core/validators.py(42):         if code is not None:
+0.25 /testbed/django/core/validators.py(43):             self.code = code
+0.25 /testbed/django/core/validators.py(44):         if inverse_match is not None:
+0.25 /testbed/django/core/validators.py(46):         if flags is not None:
+0.25 /testbed/django/core/validators.py(48):         if self.flags and not isinstance(self.regex, str):
+0.25 /testbed/django/core/validators.py(51):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(252): def validate_ipv4_address(value):
+0.25 /testbed/django/core/validators.py(259): def validate_ipv6_address(value):
+0.25 /testbed/django/core/validators.py(264): def validate_ipv46_address(value):
+0.25 /testbed/django/core/validators.py(275):     'both': ([validate_ipv46_address], _('Enter a valid IPv4 or IPv6 address.')),
+0.25 /testbed/django/core/validators.py(276):     'ipv4': ([validate_ipv4_address], _('Enter a valid IPv4 address.')),
+0.25 /testbed/django/core/validators.py(277):     'ipv6': ([validate_ipv6_address], _('Enter a valid IPv6 address.')),
+0.25 /testbed/django/core/validators.py(281): def ip_address_validators(protocol, unpack_ipv4):
+0.25 /testbed/django/core/validators.py(296): def int_list_validator(sep=',', message=None, code='invalid', allow_negative=False):
+0.25 /testbed/django/core/validators.py(304): validate_comma_separated_integer_list = int_list_validator(
+0.25 /testbed/django/core/validators.py(305):     message=_('Enter only digits separated by commas.'),
+0.25 /testbed/django/core/validators.py(297):     regexp = _lazy_re_compile(r'^%(neg)s\d+(?:%(sep)s%(neg)s\d+)*\Z' % {
+0.25 /testbed/django/core/validators.py(298):         'neg': '(-)?' if allow_negative else '',
+0.25 /testbed/django/core/validators.py(299):         'sep': re.escape(sep),
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(301):     return RegexValidator(regexp, message=message, code=code)
+0.25 /testbed/django/core/validators.py(38):         if regex is not None:
+0.25 /testbed/django/core/validators.py(39):             self.regex = regex
+0.25 /testbed/django/core/validators.py(40):         if message is not None:
+0.25 /testbed/django/core/validators.py(41):             self.message = message
+0.25 /testbed/django/core/validators.py(42):         if code is not None:
+0.25 /testbed/django/core/validators.py(43):             self.code = code
+0.25 /testbed/django/core/validators.py(44):         if inverse_match is not None:
+0.25 /testbed/django/core/validators.py(46):         if flags is not None:
+0.25 /testbed/django/core/validators.py(48):         if self.flags and not isinstance(self.regex, str):
+0.25 /testbed/django/core/validators.py(51):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.25 /testbed/django/core/validators.py(19):     def _compile():
+0.25 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.25 /testbed/django/core/validators.py(309): @deconstructible
+0.25 /testbed/django/core/validators.py(309): @deconstructible
+0.25 /testbed/django/core/validators.py(311):     message = _('Ensure this value is %(limit_value)s (it is %(show_value)s).')
+0.25 /testbed/django/core/validators.py(312):     code = 'limit_value'
+0.25 /testbed/django/core/validators.py(314):     def __init__(self, limit_value, message=None):
+0.25 /testbed/django/core/validators.py(319):     def __call__(self, value):
+0.25 /testbed/django/core/validators.py(326):     def __eq__(self, other):
+0.25 /testbed/django/core/validators.py(334):     def compare(self, a, b):
+0.25 /testbed/django/core/validators.py(337):     def clean(self, x):
+0.25 /testbed/django/core/validators.py(341): @deconstructible
+0.25 /testbed/django/core/validators.py(342): class MaxValueValidator(BaseValidator):
+0.25 /testbed/django/core/validators.py(341): @deconstructible
+0.25 /testbed/django/core/validators.py(343):     message = _('Ensure this value is less than or equal to %(limit_value)s.')
+0.25 /testbed/django/core/validators.py(344):     code = 'max_value'
+0.25 /testbed/django/core/validators.py(346):     def compare(self, a, b):
+0.25 /testbed/django/core/validators.py(350): @deconstructible
+0.25 /testbed/django/core/validators.py(351): class MinValueValidator(BaseValidator):
+0.25 /testbed/django/core/validators.py(350): @deconstructible
+0.25 /testbed/django/core/validators.py(352):     message = _('Ensure this value is greater than or equal to %(limit_value)s.')
+0.25 /testbed/django/core/validators.py(353):     code = 'min_value'
+0.25 /testbed/django/core/validators.py(355):     def compare(self, a, b):
+0.25 /testbed/django/core/validators.py(359): @deconstructible
+0.25 /testbed/django/core/validators.py(360): class MinLengthValidator(BaseValidator):
+0.25 /testbed/django/core/validators.py(359): @deconstructible
+0.25 /testbed/django/core/validators.py(361):     message = ngettext_lazy(
+0.25 /testbed/django/core/validators.py(362):         'Ensure this value has at least %(limit_value)d character (it has %(show_value)d).',
+0.25 /testbed/django/core/validators.py(363):         'Ensure this value has at least %(limit_value)d characters (it has %(show_value)d).',
+0.25 /testbed/django/core/validators.py(364):         'limit_value')
+0.25 /testbed/django/core/validators.py(365):     code = 'min_length'
+0.25 /testbed/django/core/validators.py(367):     def compare(self, a, b):
+0.25 /testbed/django/core/validators.py(370):     def clean(self, x):
+0.25 /testbed/django/core/validators.py(374): @deconstructible
+0.25 /testbed/django/core/validators.py(375): class MaxLengthValidator(BaseValidator):
+0.25 /testbed/django/core/validators.py(374): @deconstructible
+0.25 /testbed/django/core/validators.py(376):     message = ngettext_lazy(
+0.25 /testbed/django/core/validators.py(377):         'Ensure this value has at most %(limit_value)d character (it has %(show_value)d).',
+0.25 /testbed/django/core/validators.py(378):         'Ensure this value has at most %(limit_value)d characters (it has %(show_value)d).',
+0.25 /testbed/django/core/validators.py(379):         'limit_value')
+0.25 /testbed/django/core/validators.py(380):     code = 'max_length'
+0.25 /testbed/django/core/validators.py(382):     def compare(self, a, b):
+0.25 /testbed/django/core/validators.py(385):     def clean(self, x):
+0.25 /testbed/django/core/validators.py(389): @deconstructible
+0.25 /testbed/django/core/validators.py(389): @deconstructible
+0.25 /testbed/django/core/validators.py(394):     """
+0.25 /testbed/django/core/validators.py(396):         'invalid': _('Enter a number.'),
+0.25 /testbed/django/core/validators.py(397):         'max_digits': ngettext_lazy(
+0.25 /testbed/django/core/validators.py(398):             'Ensure that there are no more than %(max)s digit in total.',
+0.25 /testbed/django/core/validators.py(399):             'Ensure that there are no more than %(max)s digits in total.',
+0.25 /testbed/django/core/validators.py(400):             'max'
+0.25 /testbed/django/core/validators.py(402):         'max_decimal_places': ngettext_lazy(
+0.25 /testbed/django/core/validators.py(403):             'Ensure that there are no more than %(max)s decimal place.',
+0.25 /testbed/django/core/validators.py(404):             'Ensure that there are no more than %(max)s decimal places.',
+0.25 /testbed/django/core/validators.py(405):             'max'
+0.25 /testbed/django/core/validators.py(407):         'max_whole_digits': ngettext_lazy(
+0.25 /testbed/django/core/validators.py(408):             'Ensure that there are no more than %(max)s digit before the decimal point.',
+0.25 /testbed/django/core/validators.py(409):             'Ensure that there are no more than %(max)s digits before the decimal point.',
+0.25 /testbed/django/core/validators.py(410):             'max'
+0.25 /testbed/django/core/validators.py(414):     def __init__(self, max_digits, decimal_places):
+0.25 /testbed/django/core/validators.py(418):     def __call__(self, value):
+0.25 /testbed/django/core/validators.py(459):     def __eq__(self, other):
+0.25 /testbed/django/core/validators.py(467): @deconstructible
+0.25 /testbed/django/core/validators.py(467): @deconstructible
+0.25 /testbed/django/core/validators.py(469):     message = _(
+0.25 /testbed/django/core/validators.py(470):         'File extension “%(extension)s” is not allowed. '
+0.25 /testbed/django/core/validators.py(473):     code = 'invalid_extension'
+0.25 /testbed/django/core/validators.py(475):     def __init__(self, allowed_extensions=None, message=None, code=None):
+0.25 /testbed/django/core/validators.py(484):     def __call__(self, value):
+0.25 /testbed/django/core/validators.py(496):     def __eq__(self, other):
+0.25 /testbed/django/core/validators.py(505): def get_available_image_extensions():
+0.25 /testbed/django/core/validators.py(515): def validate_image_file_extension(value):
+0.25 /testbed/django/core/validators.py(519): @deconstructible
+0.25 /testbed/django/core/validators.py(519): @deconstructible
+0.25 /testbed/django/core/validators.py(521):     """Validate that the string doesn't contain the null character."""
+0.25 /testbed/django/core/validators.py(522):     message = _('Null characters are not allowed.')
+0.25 /testbed/django/core/validators.py(523):     code = 'null_characters_not_allowed'
+0.25 /testbed/django/core/validators.py(525):     def __init__(self, message=None, code=None):
+0.25 /testbed/django/core/validators.py(531):     def __call__(self, value):
+0.25 /testbed/django/core/validators.py(535):     def __eq__(self, other):
+0.26 /testbed/django/core/validators.py(107):         super().__init__(**kwargs)
+0.26 /testbed/django/core/validators.py(38):         if regex is not None:
+0.26 /testbed/django/core/validators.py(40):         if message is not None:
+0.26 /testbed/django/core/validators.py(42):         if code is not None:
+0.26 /testbed/django/core/validators.py(44):         if inverse_match is not None:
+0.26 /testbed/django/core/validators.py(46):         if flags is not None:
+0.26 /testbed/django/core/validators.py(48):         if self.flags and not isinstance(self.regex, str):
+0.26 /testbed/django/core/validators.py(51):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.26 /testbed/django/core/validators.py(19):     def _compile():
+0.26 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.26 /testbed/django/core/validators.py(108):         if schemes is not None:
+0.26 /testbed/django/utils/html.py(362):     if '__html__' in klass.__dict__:
+0.26 /testbed/django/utils/html.py(367):     if '__str__' not in klass.__dict__:
+0.26 /testbed/django/utils/html.py(372):     klass_str = klass.__str__
+0.26 /testbed/django/utils/html.py(373):     klass.__str__ = lambda self: mark_safe(klass_str(self))
+0.26 /testbed/django/utils/html.py(374):     klass.__html__ = lambda self: str(self)
+0.26 /testbed/django/utils/html.py(375):     return klass
+0.26 /testbed/django/utils/html.py(362):     if '__html__' in klass.__dict__:
+0.26 /testbed/django/utils/html.py(367):     if '__str__' not in klass.__dict__:
+0.26 /testbed/django/utils/html.py(372):     klass_str = klass.__str__
+0.26 /testbed/django/utils/html.py(373):     klass.__str__ = lambda self: mark_safe(klass_str(self))
+0.26 /testbed/django/utils/html.py(374):     klass.__html__ = lambda self: str(self)
+0.26 /testbed/django/utils/html.py(375):     return klass
+0.28 /testbed/django/core/validators.py(107):         super().__init__(**kwargs)
+0.28 /testbed/django/core/validators.py(38):         if regex is not None:
+0.28 /testbed/django/core/validators.py(40):         if message is not None:
+0.28 /testbed/django/core/validators.py(42):         if code is not None:
+0.28 /testbed/django/core/validators.py(44):         if inverse_match is not None:
+0.28 /testbed/django/core/validators.py(46):         if flags is not None:
+0.28 /testbed/django/core/validators.py(48):         if self.flags and not isinstance(self.regex, str):
+0.28 /testbed/django/core/validators.py(51):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.28 /testbed/django/core/validators.py(19):     def _compile():
+0.28 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.28 /testbed/django/core/validators.py(108):         if schemes is not None:
+0.36 /testbed/django/core/mail/message.py(1): import mimetypes
+0.36 /testbed/django/core/mail/message.py(2): from email import (
+0.36 /testbed/django/core/mail/message.py(5): from email.errors import HeaderParseError
+0.36 /testbed/django/core/mail/message.py(6): from email.header import Header
+0.36 /testbed/django/core/mail/message.py(7): from email.headerregistry import Address, parser
+0.36 /testbed/django/core/mail/message.py(8): from email.message import Message
+0.36 /testbed/django/core/mail/message.py(9): from email.mime.base import MIMEBase
+0.37 /testbed/django/core/mail/message.py(10): from email.mime.message import MIMEMessage
+0.37 /testbed/django/core/mail/message.py(11): from email.mime.multipart import MIMEMultipart
+0.37 /testbed/django/core/mail/message.py(12): from email.mime.text import MIMEText
+0.37 /testbed/django/core/mail/message.py(13): from email.utils import formatdate, getaddresses, make_msgid
+0.37 /testbed/django/core/mail/message.py(14): from io import BytesIO, StringIO
+0.37 /testbed/django/core/mail/message.py(15): from pathlib import Path
+0.37 /testbed/django/core/mail/message.py(17): from django.conf import settings
+0.37 /testbed/django/core/mail/message.py(18): from django.core.mail.utils import DNS_NAME
+0.37 /testbed/django/core/mail/utils.py(3): """
+0.37 /testbed/django/core/mail/utils.py(5): import socket
+0.37 /testbed/django/core/mail/utils.py(7): from django.utils.encoding import punycode
+0.37 /testbed/django/core/mail/utils.py(12): class CachedDnsName:
+0.37 /testbed/django/core/mail/utils.py(12): class CachedDnsName:
+0.37 /testbed/django/core/mail/utils.py(13):     def __str__(self):
+0.37 /testbed/django/core/mail/utils.py(16):     def get_fqdn(self):
+0.37 /testbed/django/core/mail/utils.py(22): DNS_NAME = CachedDnsName()
+0.37 /testbed/django/core/mail/message.py(19): from django.utils.encoding import force_str, punycode
+0.37 /testbed/django/core/mail/message.py(23): utf8_charset = Charset.Charset('utf-8')
+0.37 /testbed/django/core/mail/message.py(24): utf8_charset.body_encoding = None  # Python defaults to BASE64
+0.37 /testbed/django/core/mail/message.py(25): utf8_charset_qp = Charset.Charset('utf-8')
+0.37 /testbed/django/core/mail/message.py(26): utf8_charset_qp.body_encoding = Charset.QP
+0.37 /testbed/django/core/mail/message.py(30): DEFAULT_ATTACHMENT_MIME_TYPE = 'application/octet-stream'
+0.37 /testbed/django/core/mail/message.py(32): RFC5322_EMAIL_LINE_LENGTH_LIMIT = 998
+0.37 /testbed/django/core/mail/message.py(35): class BadHeaderError(ValueError):
+0.37 /testbed/django/core/mail/message.py(35): class BadHeaderError(ValueError):
+0.37 /testbed/django/core/mail/message.py(36):     pass
+0.37 /testbed/django/core/mail/message.py(41):     'from',
+0.37 /testbed/django/core/mail/message.py(42):     'sender',
+0.37 /testbed/django/core/mail/message.py(43):     'reply-to',
+0.37 /testbed/django/core/mail/message.py(44):     'to',
+0.37 /testbed/django/core/mail/message.py(45):     'cc',
+0.37 /testbed/django/core/mail/message.py(46):     'bcc',
+0.37 /testbed/django/core/mail/message.py(47):     'resent-from',
+0.37 /testbed/django/core/mail/message.py(48):     'resent-sender',
+0.37 /testbed/django/core/mail/message.py(49):     'resent-to',
+0.37 /testbed/django/core/mail/message.py(50):     'resent-cc',
+0.37 /testbed/django/core/mail/message.py(51):     'resent-bcc',
+0.37 /testbed/django/core/mail/message.py(55): def forbid_multi_line_headers(name, val, encoding):
+0.37 /testbed/django/core/mail/message.py(74): def sanitize_address(addr, encoding):
+0.37 /testbed/django/core/mail/message.py(111): class MIMEMixin:
+0.37 /testbed/django/core/mail/message.py(111): class MIMEMixin:
+0.37 /testbed/django/core/mail/message.py(112):     def as_string(self, unixfrom=False, linesep='\n'):
+0.37 /testbed/django/core/mail/message.py(125):     def as_bytes(self, unixfrom=False, linesep='\n'):
+0.37 /testbed/django/core/mail/message.py(139): class SafeMIMEMessage(MIMEMixin, MIMEMessage):
+0.37 /testbed/django/core/mail/message.py(139): class SafeMIMEMessage(MIMEMixin, MIMEMessage):
+0.37 /testbed/django/core/mail/message.py(141):     def __setitem__(self, name, val):
+0.37 /testbed/django/core/mail/message.py(147): class SafeMIMEText(MIMEMixin, MIMEText):
+0.37 /testbed/django/core/mail/message.py(147): class SafeMIMEText(MIMEMixin, MIMEText):
+0.37 /testbed/django/core/mail/message.py(149):     def __init__(self, _text, _subtype='plain', _charset=None):
+0.37 /testbed/django/core/mail/message.py(153):     def __setitem__(self, name, val):
+0.37 /testbed/django/core/mail/message.py(157):     def set_payload(self, payload, charset=None):
+0.37 /testbed/django/core/mail/message.py(169): class SafeMIMEMultipart(MIMEMixin, MIMEMultipart):
+0.37 /testbed/django/core/mail/message.py(169): class SafeMIMEMultipart(MIMEMixin, MIMEMultipart):
+0.37 /testbed/django/core/mail/message.py(171):     def __init__(self, _subtype='mixed', boundary=None, _subparts=None, encoding=None, **_params):
+0.37 /testbed/django/core/mail/message.py(175):     def __setitem__(self, name, val):
+0.37 /testbed/django/core/mail/message.py(180): class EmailMessage:
+0.37 /testbed/django/core/mail/message.py(180): class EmailMessage:
+0.37 /testbed/django/core/mail/message.py(181):     """A container for email information."""
+0.37 /testbed/django/core/mail/message.py(182):     content_subtype = 'plain'
+0.37 /testbed/django/core/mail/message.py(183):     mixed_subtype = 'mixed'
+0.37 /testbed/django/core/mail/message.py(184):     encoding = None     # None => use settings default
+0.37 /testbed/django/core/mail/message.py(188):                  reply_to=None):
+0.37 /testbed/django/core/mail/message.py(230):     def get_connection(self, fail_silently=False):
+0.37 /testbed/django/core/mail/message.py(236):     def message(self):
+0.37 /testbed/django/core/mail/message.py(263):     def recipients(self):
+0.37 /testbed/django/core/mail/message.py(270):     def send(self, fail_silently=False):
+0.37 /testbed/django/core/mail/message.py(278):     def attach(self, filename=None, content=None, mimetype=None):
+0.37 /testbed/django/core/mail/message.py(310):     def attach_file(self, path, mimetype=None):
+0.37 /testbed/django/core/mail/message.py(326):     def _create_message(self, msg):
+0.37 /testbed/django/core/mail/message.py(329):     def _create_attachments(self, msg):
+0.37 /testbed/django/core/mail/message.py(343):     def _create_mime_attachment(self, content, mimetype):
+0.37 /testbed/django/core/mail/message.py(373):     def _create_attachment(self, filename, content, mimetype=None):
+0.37 /testbed/django/core/mail/message.py(387):     def _set_list_header_if_not_empty(self, msg, header, values):
+0.37 /testbed/django/core/mail/message.py(400): class EmailMultiAlternatives(EmailMessage):
+0.37 /testbed/django/core/mail/message.py(400): class EmailMultiAlternatives(EmailMessage):
+0.37 /testbed/django/core/mail/message.py(405):     """
+0.37 /testbed/django/core/mail/message.py(406):     alternative_subtype = 'alternative'
+0.37 /testbed/django/core/mail/message.py(410):                  cc=None, reply_to=None):
+0.37 /testbed/django/core/mail/message.py(421):     def attach_alternative(self, content, mimetype):
+0.37 /testbed/django/core/mail/message.py(427):     def _create_message(self, msg):
+0.37 /testbed/django/core/mail/message.py(430):     def _create_alternatives(self, msg):
+Testing against Django installed in '/testbed/django'
+0.52 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.52 /testbed/django/core/validators.py(316):         if message:
+0.52 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.52 /testbed/django/core/validators.py(316):         if message:
+test_unicode_dns_message_id_encoding (test_coverup_django__django-11532.EmailMessageTest) ... 0.53 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.53 /testbed/django/core/validators.py(316):         if message:
+0.56 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.56 /testbed/django/core/validators.py(316):         if message:
+0.56 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.56 /testbed/django/core/validators.py(316):         if message:
+0.56 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.56 /testbed/django/core/validators.py(316):         if message:
+0.56 /testbed/django/core/validators.py(38):         if regex is not None:
+0.56 /testbed/django/core/validators.py(40):         if message is not None:
+0.56 /testbed/django/core/validators.py(42):         if code is not None:
+0.56 /testbed/django/core/validators.py(44):         if inverse_match is not None:
+0.56 /testbed/django/core/validators.py(46):         if flags is not None:
+0.56 /testbed/django/core/validators.py(48):         if self.flags and not isinstance(self.regex, str):
+0.56 /testbed/django/core/validators.py(51):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.56 /testbed/django/core/validators.py(19):     def _compile():
+0.56 /testbed/django/core/validators.py(26):     return SimpleLazyObject(_compile)
+0.56 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.56 /testbed/django/core/validators.py(316):         if message:
+0.56 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.56 /testbed/django/core/validators.py(316):         if message:
+0.56 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.56 /testbed/django/core/validators.py(316):         if message:
+0.56 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.56 /testbed/django/core/validators.py(316):         if message:
+0.57 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.57 /testbed/django/core/validators.py(316):         if message:
+0.57 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.57 /testbed/django/core/validators.py(316):         if message:
+0.57 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.57 /testbed/django/core/validators.py(316):         if message:
+0.57 /testbed/django/core/validators.py(315):         self.limit_value = limit_value
+0.57 /testbed/django/core/validators.py(316):         if message:
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+0.62 /testbed/django/core/mail/message.py(193):         if to:
+0.62 /testbed/django/core/mail/message.py(194):             if isinstance(to, str):
+0.62 /testbed/django/core/mail/message.py(196):             self.to = list(to)
+0.62 /testbed/django/core/mail/message.py(199):         if cc:
+0.62 /testbed/django/core/mail/message.py(204):             self.cc = []
+0.62 /testbed/django/core/mail/message.py(205):         if bcc:
+0.62 /testbed/django/core/mail/message.py(210):             self.bcc = []
+0.62 /testbed/django/core/mail/message.py(211):         if reply_to:
+0.62 /testbed/django/core/mail/message.py(216):             self.reply_to = []
+0.62 /testbed/django/core/mail/message.py(217):         self.from_email = from_email or settings.DEFAULT_FROM_EMAIL
+0.62 /testbed/django/core/mail/message.py(218):         self.subject = subject
+0.62 /testbed/django/core/mail/message.py(219):         self.body = body or ''
+0.62 /testbed/django/core/mail/message.py(220):         self.attachments = []
+0.62 /testbed/django/core/mail/message.py(221):         if attachments:
+0.62 /testbed/django/core/mail/message.py(227):         self.extra_headers = headers or {}
+0.62 /testbed/django/core/mail/message.py(228):         self.connection = connection
+0.62 /testbed/django/core/mail/message.py(237):         encoding = self.encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(238):         msg = SafeMIMEText(self.body, self.content_subtype, encoding)
+0.62 /testbed/django/core/mail/message.py(150):         self.encoding = _charset
+0.62 /testbed/django/core/mail/message.py(151):         MIMEText.__init__(self, _text, _subtype=_subtype, _charset=_charset)
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(69):         if name.lower() == 'subject':
+0.62 /testbed/django/core/mail/message.py(71):     return name, val
+0.62 /testbed/django/core/mail/message.py(155):         MIMEText.__setitem__(self, name, val)
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(69):         if name.lower() == 'subject':
+0.62 /testbed/django/core/mail/message.py(71):     return name, val
+0.62 /testbed/django/core/mail/message.py(155):         MIMEText.__setitem__(self, name, val)
+0.62 /testbed/django/core/mail/message.py(158):         if charset == 'utf-8' and not isinstance(charset, Charset.Charset):
+0.62 /testbed/django/core/mail/message.py(166):         MIMEText.set_payload(self, payload, charset=charset)
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(69):         if name.lower() == 'subject':
+0.62 /testbed/django/core/mail/message.py(71):     return name, val
+0.62 /testbed/django/core/mail/message.py(155):         MIMEText.__setitem__(self, name, val)
+0.62 /testbed/django/core/mail/message.py(239):         msg = self._create_message(msg)
+0.62 /testbed/django/core/mail/message.py(327):         return self._create_attachments(msg)
+0.62 /testbed/django/core/mail/message.py(330):         if self.attachments:
+0.62 /testbed/django/core/mail/message.py(341):         return msg
+0.62 /testbed/django/core/mail/message.py(240):         msg['Subject'] = self.subject
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(69):         if name.lower() == 'subject':
+0.62 /testbed/django/core/mail/message.py(70):             val = Header(val).encode()
+0.62 /testbed/django/core/mail/message.py(71):     return name, val
+0.62 /testbed/django/core/mail/message.py(155):         MIMEText.__setitem__(self, name, val)
+0.62 /testbed/django/core/mail/message.py(241):         msg['From'] = self.extra_headers.get('From', self.from_email)
+FAIL
+
+======================================================================
+FAIL: test_unicode_dns_message_id_encoding (test_coverup_django__django-11532.EmailMessageTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/django/core/mail/message.py", line 62, in forbid_multi_line_headers
+    val.encode('ascii')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 39-40: ordinal not in range(128)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11532.py", line 15, in test_unicode_dns_message_id_encoding
+    message = email.message()
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 39-40: ordinal not in range(256)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11532.py", line 19, in test_unicode_dns_message_id_encoding
+    self.fail("Expected Message-ID to be encoded correctly, but UnicodeEncodeError was raised.")
+AssertionError: Expected Message-ID to be encoded correctly, but UnicodeEncodeError was raised.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(69):         if name.lower() == 'subject':
+0.62 /testbed/django/core/mail/message.py(71):     return name, val
+0.62 /testbed/django/core/mail/message.py(155):         MIMEText.__setitem__(self, name, val)
+0.62 /testbed/django/core/mail/message.py(242):         self._set_list_header_if_not_empty(msg, 'To', self.to)
+0.62 /testbed/django/core/mail/message.py(392):         if values:
+0.62 /testbed/django/core/mail/message.py(393):             try:
+0.62 /testbed/django/core/mail/message.py(394):                 value = self.extra_headers[header]
+0.62 /testbed/django/core/mail/message.py(395):             except KeyError:
+0.62 /testbed/django/core/mail/message.py(396):                 value = ', '.join(str(v) for v in values)
+0.62 /testbed/django/core/mail/message.py(396):                 value = ', '.join(str(v) for v in values)
+0.62 /testbed/django/core/mail/message.py(396):                 value = ', '.join(str(v) for v in values)
+0.62 /testbed/django/core/mail/message.py(397):             msg[header] = value
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(69):         if name.lower() == 'subject':
+0.62 /testbed/django/core/mail/message.py(71):     return name, val
+0.62 /testbed/django/core/mail/message.py(155):         MIMEText.__setitem__(self, name, val)
+0.62 /testbed/django/core/mail/message.py(243):         self._set_list_header_if_not_empty(msg, 'Cc', self.cc)
+0.62 /testbed/django/core/mail/message.py(392):         if values:
+0.62 /testbed/django/core/mail/message.py(244):         self._set_list_header_if_not_empty(msg, 'Reply-To', self.reply_to)
+0.62 /testbed/django/core/mail/message.py(392):         if values:
+0.62 /testbed/django/core/mail/message.py(248):         header_names = [key.lower() for key in self.extra_headers]
+0.62 /testbed/django/core/mail/message.py(248):         header_names = [key.lower() for key in self.extra_headers]
+0.62 /testbed/django/core/mail/message.py(249):         if 'date' not in header_names:
+0.62 /testbed/django/core/mail/message.py(254):             msg['Date'] = formatdate(localtime=settings.EMAIL_USE_LOCALTIME)
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(69):         if name.lower() == 'subject':
+0.62 /testbed/django/core/mail/message.py(71):     return name, val
+0.62 /testbed/django/core/mail/message.py(155):         MIMEText.__setitem__(self, name, val)
+0.62 /testbed/django/core/mail/message.py(255):         if 'message-id' not in header_names:
+0.62 /testbed/django/core/mail/message.py(257):             msg['Message-ID'] = make_msgid(domain=DNS_NAME)
+0.62 /testbed/django/core/mail/message.py(154):         name, val = forbid_multi_line_headers(name, val, self.encoding)
+0.62 /testbed/django/core/mail/message.py(57):     encoding = encoding or settings.DEFAULT_CHARSET
+0.62 /testbed/django/core/mail/message.py(58):     val = str(val)  # val may be lazy
+0.62 /testbed/django/core/mail/message.py(59):     if '\n' in val or '\r' in val:
+0.62 /testbed/django/core/mail/message.py(61):     try:
+0.62 /testbed/django/core/mail/message.py(62):         val.encode('ascii')
+0.62 /testbed/django/core/mail/message.py(63):     except UnicodeEncodeError:
+0.62 /testbed/django/core/mail/message.py(64):         if name.lower() in ADDRESS_HEADERS:
+0.62 /testbed/django/core/mail/message.py(67):             val = Header(val, encoding).encode()
++ cat coverage.cover
+{"/testbed/django/utils/encoding.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "8": 1, "9": 1, "12": 2, "21": 1, "35": 1, "39": 1, "48": 1, "70": 1, "82": 1, "102": 1, "110": 1, "118": 1, "152": 1, "153": 5, "155": 4, "161": 1, "162": 16, "164": 323, "168": 1, "204": 1, "221": 1, "226": 1, "241": 1, "256": 1, "270": 1, "13": 1, "17": 1, "14": 0, "15": 0, "18": 0, "28": 0, "30": 0, "31": 0, "45": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 0, "61": 0, "62": 0, "64": 0, "65": 0, "66": 0, "67": 0, "76": 0, "78": 0, "79": 0, "90": 0, "91": 0, "92": 0, "94": 0, "95": 0, "96": 0, "97": 0, "98": 0, "99": 0, "103": 0, "104": 0, "105": 0, "107": 0, "111": 0, "112": 0, "113": 0, "115": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "156": 59, "157": 168, "178": 0, "179": 0, "180": 0, "185": 0, "186": 0, "187": 0, "189": 0, "190": 0, "191": 0, "192": 0, "193": 0, "194": 0, "195": 0, "196": 0, "198": 0, "199": 0, "200": 0, "201": 0, "218": 0, "223": 0, "232": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "249": 0, "250": 0, "253": 0, "262": 1, "263": 1, "264": 1, "265": 0, "266": 0, "267": 1}}
+{"/testbed/django/utils/html.py": {"3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "18": 1, "19": 1, "22": 1, "24": 1, "25": 1, "26": 1, "27": 1, "30": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "53": 1, "54": 1, "55": 1, "59": 34, "62": 1, "69": 1, "70": 1, "71": 1, "75": 1, "89": 1, "104": 1, "115": 1, "135": 1, "136": 1, "147": 2, "166": 1, "176": 1, "191": 1, "197": 1, "232": 1, "233": 1, "349": 1, "357": 1, "40": 0, "65": 0, "81": 0, "82": 0, "83": 0, "84": 0, "85": 0, "96": 0, "97": 0, "98": 0, "99": 0, "101": 0, "110": 0, "111": 0, "112": 0, "129": 0, "130": 0, "131": 0, "138": 0, "139": 0, "140": 0, "141": 0, "143": 0, "144": 0, "148": 1, "153": 1, "156": 1, "159": 1, "162": 1, "149": 0, "150": 0, "151": 0, "154": 0, "157": 0, "160": 0, "163": 0, "170": 0, "171": 0, "172": 0, "173": 0, "181": 0, "182": 0, "183": 0, "184": 0, "186": 0, "187": 0, "188": 0, "194": 0, "199": 0, "207": 0, "208": 0, "209": 0, "211": 0, "213": 0, "214": 0, "215": 0, "216": 0, "218": 0, "221": 0, "222": 0, "224": 0, "226": 0, "227": 0, "229": 0, "200": 0, "204": 0, "249": 0, "251": 0, "256": 0, "288": 0, "303": 0, "304": 0, "305": 0, "309": 0, "311": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "327": 0, "330": 0, "331": 0, "332": 0, "333": 0, "334": 0, "335": 0, "336": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "252": 0, "253": 0, "254": 0, "262": 0, "263": 0, "264": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "272": 0, "273": 0, "274": 0, "275": 0, "276": 0, "280": 0, "281": 0, "282": 0, "283": 0, "284": 0, "285": 0, "286": 0, "291": 0, "292": 0, "293": 0, "294": 0, "295": 0, "297": 0, "299": 0, "300": 0, "301": 0, "354": 0, "362": 7, "363": 0, "364": 0, "365": 0, "367": 7, "368": 0, "369": 0, "370": 0, "372": 7, "373": 7, "374": 7, "375": 7}}
+{"/testbed/django/core/validators.py": {"1": 1, "2": 1, "3": 1, "4": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "14": 1, "17": 1, "29": 2, "74": 2, "75": 1, "153": 1, "154": 1, "155": 1, "156": 1, "160": 1, "164": 2, "234": 1, "236": 1, "237": 1, "238": 1, "240": 1, "241": 1, "244": 1, "245": 1, "246": 1, "247": 1, "248": 1, "252": 1, "259": 1, "264": 1, "275": 1, "276": 1, "277": 1, "281": 1, "296": 1, "304": 1, "305": 1, "309": 2, "341": 2, "342": 1, "350": 2, "351": 1, "359": 2, "360": 1, "374": 2, "375": 1, "389": 2, "467": 2, "505": 1, "515": 1, "519": 2, "19": 15, "26": 15, "21": 0, "22": 0, "24": 0, "25": 0, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "37": 1, "53": 1, "63": 1, "38": 7, "39": 4, "40": 7, "41": 4, "42": 7, "43": 4, "44": 7, "45": 0, "46": 7, "47": 0, "48": 7, "49": 0, "51": 7, "58": 0, "59": 0, "60": 0, "61": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0, "70": 0, "76": 1, "79": 1, "80": 1, "83": 1, "85": 1, "89": 1, "94": 1, "96": 1, "99": 1, "102": 1, "103": 1, "104": 1, "106": 1, "111": 1, "107": 2, "108": 2, "109": 0, "113": 0, "114": 0, "115": 0, "118": 0, "119": 0, "120": 0, "122": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "134": 0, "137": 0, "138": 0, "139": 0, "140": 0, "141": 0, "142": 0, "143": 0, "149": 0, "150": 0, "161": 0, "166": 1, "167": 1, "168": 1, "169": 1, "171": 1, "172": 1, "174": 1, "175": 1, "176": 1, "178": 1, "179": 1, "180": 1, "182": 1, "190": 1, "211": 1, "225": 1, "183": 1, "184": 0, "185": 1, "186": 0, "187": 1, "188": 0, "191": 0, "192": 0, "194": 0, "196": 0, "197": 0, "199": 0, "200": 0, "202": 0, "203": 0, "204": 0, "205": 0, "207": 0, "208": 0, "209": 0, "212": 0, "213": 0, "215": 0, "216": 0, "217": 0, "218": 0, "219": 0, "220": 0, "221": 0, "222": 0, "223": 0, "227": 0, "228": 0, "229": 0, "230": 0, "253": 0, "254": 0, "255": 0, "256": 0, "260": 0, "261": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "270": 0, "271": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "292": 0, "293": 0, "297": 1, "298": 1, "299": 1, "301": 1, "311": 1, "312": 1, "314": 1, "319": 1, "326": 1, "334": 1, "337": 1, "315": 14, "316": 14, "317": 0, "320": 0, "321": 0, "322": 0, "323": 0, "324": 0, "328": 0, "329": 0, "330": 0, "331": 0, "335": 0, "338": 0, "343": 1, "344": 1, "346": 1, "347": 0, "352": 1, "353": 1, "355": 1, "356": 0, "361": 1, "362": 1, "363": 1, "364": 1, "365": 1, "367": 1, "370": 1, "368": 0, "371": 0, "376": 1, "377": 1, "378": 1, "379": 1, "380": 1, "382": 1, "385": 1, "383": 0, "386": 0, "396": 1, "397": 1, "398": 1, "399": 1, "400": 1, "402": 1, "403": 1, "404": 1, "405": 1, "407": 1, "408": 1, "409": 1, "410": 1, "414": 1, "418": 1, "459": 1, "415": 0, "416": 0, "419": 0, "420": 0, "421": 0, "422": 0, "424": 0, "425": 0, "432": 0, "433": 0, "435": 0, "436": 0, "437": 0, "439": 0, "440": 0, "441": 0, "442": 0, "443": 0, "445": 0, "446": 0, "447": 0, "448": 0, "449": 0, "451": 0, "452": 0, "453": 0, "454": 0, "455": 0, "456": 0, "461": 0, "462": 0, "463": 0, "469": 1, "470": 1, "473": 1, "475": 1, "484": 1, "496": 1, "476": 0, "477": 0, "478": 0, "479": 0, "480": 0, "481": 0, "482": 0, "485": 0, "486": 0, "487": 0, "488": 0, "489": 0, "491": 0, "492": 0, "498": 0, "499": 0, "500": 0, "501": 0, "506": 0, "507": 0, "508": 0, "509": 0, "511": 0, "512": 0, "516": 0, "522": 1, "523": 1, "525": 1, "531": 1, "535": 1, "526": 0, "527": 0, "528": 0, "529": 0, "532": 0, "533": 0, "537": 0, "538": 0, "539": 0}}
+{"/testbed/django/core/mail/message.py": {"1": 1, "2": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "17": 1, "18": 1, "19": 1, "23": 1, "24": 1, "25": 1, "26": 1, "30": 1, "32": 1, "35": 2, "41": 1, "42": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "55": 1, "74": 1, "111": 2, "139": 2, "147": 2, "169": 2, "180": 2, "400": 2, "36": 1, "57": 8, "58": 8, "59": 8, "60": 0, "61": 8, "62": 8, "63": 1, "64": 1, "65": 0, "67": 1, "69": 7, "70": 1, "71": 7, "78": 0, "79": 0, "80": 0, "81": 0, "82": 0, "83": 0, "84": 0, "86": 0, "88": 0, "89": 0, "90": 0, "92": 0, "93": 0, "94": 0, "96": 0, "97": 0, "99": 0, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0, "107": 0, "108": 0, "112": 1, "125": 1, "120": 0, "121": 0, "122": 0, "123": 0, "133": 0, "134": 0, "135": 0, "136": 0, "141": 1, "143": 0, "144": 0, "149": 1, "153": 1, "157": 1, "150": 1, "151": 1, "154": 8, "155": 7, "158": 1, "159": 0, "160": 0, "161": 0, "165": 0, "166": 1, "171": 1, "175": 1, "172": 0, "173": 0, "176": 0, "177": 0, "182": 1, "183": 1, "184": 1, "188": 1, "230": 1, "236": 1, "263": 1, "270": 1, "278": 1, "310": 1, "326": 1, "329": 1, "343": 1, "373": 1, "387": 1, "193": 1, "194": 1, "195": 0, "196": 1, "198": 0, "199": 1, "200": 0, "201": 0, "202": 0, "204": 1, "205": 1, "206": 0, "207": 0, "208": 0, "210": 1, "211": 1, "212": 0, "213": 0, "214": 0, "216": 1, "217": 1, "218": 1, "219": 1, "220": 1, "221": 1, "222": 0, "223": 0, "224": 0, "226": 0, "227": 1, "228": 1, "231": 0, "232": 0, "233": 0, "234": 0, "237": 1, "238": 1, "239": 1, "240": 1, "241": 1, "242": 1, "243": 1, "244": 1, "248": 2, "249": 1, "254": 1, "255": 1, "257": 1, "258": 0, "259": 0, "260": 0, "261": 0, "268": 0, "272": 0, "275": 0, "276": 0, "290": 0, "291": 0, "292": 0, "293": 0, "295": 0, "296": 0, "297": 0, "299": 0, "300": 0, "301": 0, "302": 0, "303": 0, "306": 0, "308": 0, "321": 0, "322": 0, "323": 0, "324": 0, "327": 1, "330": 1, "331": 0, "332": 0, "333": 0, "334": 0, "335": 0, "336": 0, "337": 0, "338": 0, "340": 0, "341": 1, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "357": 0, "359": 0, "360": 0, "363": 0, "365": 0, "368": 0, "369": 0, "370": 0, "371": 0, "378": 0, "379": 0, "380": 0, "381": 0, "382": 0, "383": 0, "384": 0, "385": 0, "392": 3, "393": 1, "394": 1, "395": 1, "396": 3, "397": 1, "406": 1, "410": 1, "421": 1, "427": 1, "430": 1, "415": 0, "416": 0, "417": 0, "419": 0, "423": 0, "424": 0, "425": 0, "428": 0, "431": 0, "432": 0, "433": 0, "434": 0, "435": 0, "436": 0, "437": 0, "438": 0, "439": 0}}
+{"/testbed/django/core/mail/utils.py": {"5": 1, "7": 1, "12": 2, "22": 1, "13": 1, "16": 1, "14": 0, "17": 0, "18": 0, "19": 0}}
++ git checkout a5308514fb4bc5086c9a16a8a24a945eeebb073c
+Note: switching to 'a5308514fb4bc5086c9a16a8a24a945eeebb073c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a5308514fb Fixed #27801 -- Made createsuperuser fall back to environment variables for password and required fields.
+M	django/core/mail/message.py
+M	django/core/mail/utils.py
+M	django/core/validators.py
+M	django/utils/encoding.py
+M	django/utils/html.py
++ git apply /root/pre_state.patch
+error: unrecognized input

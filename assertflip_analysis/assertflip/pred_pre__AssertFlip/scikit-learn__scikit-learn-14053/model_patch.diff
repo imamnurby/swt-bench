@@ -1,0 +1,30 @@
+diff --git a/dev/null b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-14053.py
+new file mode 100644
+index e69de29..c870b1f 100644
+--- /dev/null
++++ b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-14053.py
+@@ -0,0 +1,24 @@
++import pytest
++from sklearn.tree import DecisionTreeClassifier
++from sklearn.tree.export import export_text
++from sklearn.datasets import load_iris
++
++def test_export_text_single_feature_no_index_error():
++    # Load the iris dataset
++    X, y = load_iris(return_X_y=True)
++    # Select only one feature
++    X = X[:, 0].reshape(-1, 1)
++    
++    # Train a decision tree classifier on the single feature
++    tree = DecisionTreeClassifier()
++    tree.fit(X, y)
++    
++    # Check that no IndexError is raised when calling export_text
++    try:
++        # This should not raise an IndexError when the bug is fixed
++        tree_text = export_text(tree, feature_names=['sepal_length'])
++        assert isinstance(tree_text, str)  # Ensure the output is a string
++    except IndexError:
++        pytest.fail("IndexError was raised unexpectedly")
++
++# Note: This test will fail if the IndexError is raised, indicating the bug is present.

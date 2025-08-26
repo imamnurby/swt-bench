@@ -1,0 +1,44 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-22871.py
+new file mode 100644
+index e69de29..736c1ec 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-22871.py
+@@ -0,0 +1,38 @@
++import matplotlib.pyplot as plt
++import matplotlib.dates as mdates
++from datetime import datetime, timedelta
++import pytest
++
++def test_concise_date_formatter_missing_year():
++    # Use a non-interactive backend for testing
++    plt.switch_backend('Agg')
++
++    # Create a time array starting from February 14, 2021, for 200 days
++    initial = datetime(2021, 2, 14, 0, 0, 0)
++    time_array = [initial + timedelta(days=x) for x in range(200)]
++
++    # Create a corresponding data array
++    data = [-x**2/20000 for x in range(200)]
++
++    # Plot data
++    fig, ax = plt.subplots()
++    ax.plot(time_array, data)
++
++    # Set up AutoDateLocator and ConciseDateFormatter
++    locator = mdates.AutoDateLocator()
++    formatter = mdates.ConciseDateFormatter(locator)
++
++    ax.xaxis.set_major_locator(locator)
++    ax.xaxis.set_major_formatter(formatter)
++    fig.autofmt_xdate()
++
++    # Render the plot to capture the x-axis offset
++    fig.canvas.draw()
++
++    # Get the offset text from the x-axis
++    offset_text = ax.xaxis.get_offset_text().get_text()
++
++    # Assert that the year "2021" is in the offset text
++    assert "2021" in offset_text
++
++    plt.close(fig)

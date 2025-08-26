@@ -1,0 +1,19 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-16485.py
+new file mode 100644
+index e69de29..b614abe 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-16485.py
+@@ -0,0 +1,13 @@
++from decimal import Decimal
++from django.test import SimpleTestCase
++from django.template.defaultfilters import floatformat
++
++class FloatFormatBugTest(SimpleTestCase):
++    def test_floatformat_with_zero_decimal(self):
++        # Test with string '0.00'
++        result = floatformat('0.00', 0)
++        self.assertEqual(result, '0')
++
++        # Test with Decimal('0.00')
++        result = floatformat(Decimal('0.00'), 0)
++        self.assertEqual(result, '0')

@@ -1,0 +1,43 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-16899.py
+new file mode 100644
+index e69de29..0d2af7f 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-16899.py
+@@ -0,0 +1,37 @@
++from django.test import SimpleTestCase
++from django.contrib.admin import ModelAdmin, AdminSite
++from django.core import checks
++from django.db import models
++
++class MockModel(models.Model):
++    name = models.CharField(max_length=100)
++
++    class Meta:
++        app_label = 'test_app'
++
++class MockAdminSite(AdminSite):
++    pass
++
++class MockModelAdmin(ModelAdmin):
++    model = MockModel
++    readonly_fields = ['non_existent_field']
++
++class ReadonlyFieldsErrorMessageTest(SimpleTestCase):
++    def test_readonly_fields_error_message(self):
++        """
++        Test that the error message for readonly_fields includes the field name.
++        This test fails because the current behavior is incorrect and does not include the field name.
++        """
++        admin_site = MockAdminSite()
++        admin_obj = MockModelAdmin(MockModel, admin_site)
++        errors = admin_obj.check()
++
++        # Find the specific error related to readonly_fields
++        readonly_fields_error = next(
++            (error for error in errors if error.id == 'admin.E035'), None
++        )
++
++        self.assertIsNotNone(readonly_fields_error, "Expected an error related to readonly_fields.")
++        self.assertIn("readonly_fields[0]", readonly_fields_error.msg)
++        # Correct behavior: the field name should be included in the error message
++        self.assertIn("non_existent_field", readonly_fields_error.msg)

@@ -1,0 +1,56 @@
+diff --git a/dev/null b/tests/test_coverup_sphinx-doc__sphinx-9658.py
+new file mode 100644
+index e69de29..956d557 100644
+--- /dev/null
++++ b/tests/test_coverup_sphinx-doc__sphinx-9658.py
+@@ -0,0 +1,50 @@
++import pytest
++from unittest import mock
++from sphinx.ext.autodoc import ClassDocumenter
++import sys
++
++def test_incorrect_bases_section(monkeypatch):
++    # Mock the torch.nn.Module class
++    mock_module = mock.MagicMock()
++    mock_module.__name__ = 'torch.nn'
++    mock_module.Module = mock.MagicMock()
++    mock_module.Module.__name__ = 'Module'
++    mock_module.Module.__module__ = 'torch.nn'
++    mock_module.Module.__bases__ = (mock_module,)
++    sys.modules['torch'] = mock_module
++    sys.modules['torch.nn'] = mock_module
++
++    # Create a mock class that inherits from mocked torch.nn.Module
++    class MockedDeepKernel(mock_module.Module):
++        pass
++
++    # Mock the Sphinx environment and configuration
++    mock_env = mock.MagicMock()
++    mock_directive = mock.MagicMock()
++    mock_directive.env = mock_env
++    mock_directive.genopt = mock.MagicMock()
++    mock_directive.state = mock.MagicMock()
++    mock_directive.state.document = mock.MagicMock()
++    mock_directive.state.document.settings = mock.MagicMock()
++    mock_directive.state.document.settings.tab_width = 4
++
++    # Create a ClassDocumenter instance
++    documenter = ClassDocumenter(mock_directive, 'MockedDeepKernel')
++    documenter.object = MockedDeepKernel
++    documenter.objpath = ['MockedDeepKernel']
++    documenter.modname = 'mocked_module'
++    documenter.fullname = 'mocked_module.MockedDeepKernel'
++    documenter.options = mock.MagicMock()
++    documenter.options.show_inheritance = True
++    documenter.doc_as_attr = False
++
++    # Mock the add_line method to capture output
++    captured_lines = []
++    monkeypatch.setattr(documenter, 'add_line', lambda line, source, *lineno: captured_lines.append(line))
++
++    # Call the method to add the directive header
++    documenter.add_directive_header('')
++
++    # Check for the presence of the correct "Bases" section
++    # We expect the correct behavior to show "Bases: torch.nn.Module"
++    assert any('Bases: torch.nn.Module' in line for line in captured_lines)

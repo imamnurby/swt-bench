@@ -1,0 +1,509 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD c98bc4cd3d687fe9b392d8eecd905627191d4f06
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit c98bc4cd3d687fe9b392d8eecd905627191d4f06
+Merge: 1af3c115a fa6a13a7c
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Wed May 20 17:51:06 2020 -0300
+
+    Merge pull request #7234 from mcsitter/master
+
++ git diff c98bc4cd3d687fe9b392d8eecd905627191d4f06
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: py>=1.5.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.4.1.dev338+gc98bc4cd3) (1.11.0)
+Requirement already satisfied: packaging in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.4.1.dev338+gc98bc4cd3) (23.1)
+Requirement already satisfied: attrs>=17.4.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.4.1.dev338+gc98bc4cd3) (23.1.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.4.1.dev338+gc98bc4cd3) (10.1.0)
+Requirement already satisfied: pluggy<1.0,>=0.12 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.4.1.dev338+gc98bc4cd3) (0.13.1)
+Requirement already satisfied: wcwidth in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.4.1.dev338+gc98bc4cd3) (0.2.13)
+Building wheels for collected packages: pytest
+  Building editable for pytest (pyproject.toml): started
+  Building editable for pytest (pyproject.toml): finished with status 'done'
+  Created wheel for pytest: filename=pytest-5.4.1.dev338+gc98bc4cd3-0.editable-py3-none-any.whl size=8012 sha256=39b4580b7386bf8ff3a16b6928d9da04e2829e19f250439f02bf7ff9c8f35583
+  Stored in directory: /tmp/pip-ephem-wheel-cache-vrijhj45/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built pytest
+Installing collected packages: pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 5.4.1.dev338+gc98bc4cd3
+    Uninstalling pytest-5.4.1.dev338+gc98bc4cd3:
+      Successfully uninstalled pytest-5.4.1.dev338+gc98bc4cd3
+Successfully installed pytest-5.4.1.dev338+gc98bc4cd3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch src/_pytest/unittest.py...
+Applied patch src/_pytest/unittest.py cleanly.
++ git apply -v -
+Checking patch testing/test_coverup_pytest-dev__pytest-7236.py...
+Applied patch testing/test_coverup_pytest-dev__pytest-7236.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(src/_pytest/unittest\.py)' -m pytest -rA testing/test_coverup_pytest-dev__pytest-7236.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(src/_pytest/unittest\\.py)']
+0.12 unittest.py(1): """ discovery and running of std-library "unittest" style tests. """
+0.12 unittest.py(2): import sys
+0.12 unittest.py(3): import traceback
+0.12 unittest.py(5): import _pytest._code
+0.12 unittest.py(6): import pytest
+0.12 unittest.py(7): from _pytest.compat import getimfunc
+0.12 unittest.py(8): from _pytest.compat import is_async_function
+0.12 unittest.py(9): from _pytest.config import hookimpl
+0.12 unittest.py(10): from _pytest.outcomes import exit
+0.12 unittest.py(11): from _pytest.outcomes import fail
+0.12 unittest.py(12): from _pytest.outcomes import skip
+0.12 unittest.py(13): from _pytest.outcomes import xfail
+0.12 unittest.py(14): from _pytest.python import Class
+0.12 unittest.py(15): from _pytest.python import Function
+0.12 unittest.py(16): from _pytest.runner import CallInfo
+0.12 unittest.py(17): from _pytest.skipping import skipped_by_mark_key
+0.12 unittest.py(18): from _pytest.skipping import unexpectedsuccess_key
+0.12 unittest.py(21): def pytest_pycollect_makeitem(collector, name, obj):
+0.12 unittest.py(32): class UnitTestCase(Class):
+0.12 unittest.py(32): class UnitTestCase(Class):
+0.12 unittest.py(35):     nofuncargs = True
+0.12 unittest.py(37):     def collect(self):
+0.12 unittest.py(68):     def _inject_setup_teardown_fixtures(self, cls):
+0.12 unittest.py(84): def _make_xunit_fixture(obj, setup_name, teardown_name, scope, pass_self):
+0.12 unittest.py(110): class TestCaseFunction(Function):
+0.12 unittest.py(110): class TestCaseFunction(Function):
+0.12 unittest.py(111):     nofuncargs = True
+0.12 unittest.py(112):     _excinfo = None
+0.12 unittest.py(113):     _testcase = None
+0.12 unittest.py(115):     def setup(self):
+0.12 unittest.py(123):     def teardown(self):
+0.12 unittest.py(130):     def startTest(self, testcase):
+0.12 unittest.py(133):     def _addexcinfo(self, rawexcinfo):
+0.12 unittest.py(166):     def addError(self, testcase, rawexcinfo):
+0.12 unittest.py(174):     def addFailure(self, testcase, rawexcinfo):
+0.12 unittest.py(177):     def addSkip(self, testcase, reason):
+0.12 unittest.py(184):     def addExpectedFailure(self, testcase, rawexcinfo, reason=""):
+0.12 unittest.py(190):     def addUnexpectedSuccess(self, testcase, reason=""):
+0.12 unittest.py(193):     def addSuccess(self, testcase):
+0.12 unittest.py(196):     def stopTest(self, testcase):
+0.12 unittest.py(199):     def _expecting_failure(self, test_method) -> bool:
+0.12 unittest.py(208):     def runtest(self):
+0.12 unittest.py(235):     def _prunetraceback(self, excinfo):
+0.12 unittest.py(244): @hookimpl(tryfirst=True)
+0.12 unittest.py(245): def pytest_runtest_makereport(item, call):
+0.12 unittest.py(266): @hookimpl(hookwrapper=True)
+0.12 unittest.py(267): def pytest_runtest_protocol(item):
+0.12 unittest.py(296): def check_testcase_implements_trial_reporter(done=[]):
+0.12 unittest.py(306): def _is_skipped(obj) -> bool:
+============================= test session starts ==============================
+platform linux -- Python 3.9.23, pytest-5.4.1.dev338+gc98bc4cd3, py-1.11.0, pluggy-0.13.1
+rootdir: /testbed, inifile: tox.ini
+0.25 unittest.py(38):         from unittest import TestLoader
+0.25 unittest.py(40):         cls = self.obj
+0.25 unittest.py(41):         if not getattr(cls, "__test__", True):
+0.25 unittest.py(44):         skipped = _is_skipped(cls)
+0.25 unittest.py(308):     return bool(getattr(obj, "__unittest_skip__", False))
+0.25 unittest.py(45):         if not skipped:
+0.25 unittest.py(46):             self._inject_setup_teardown_fixtures(cls)
+0.25 unittest.py(71):         class_fixture = _make_xunit_fixture(
+0.25 unittest.py(72):             cls, "setUpClass", "tearDownClass", scope="class", pass_self=False
+0.25 unittest.py(71):         class_fixture = _make_xunit_fixture(
+0.25 unittest.py(85):     setup = getattr(obj, setup_name, None)
+0.25 unittest.py(86):     teardown = getattr(obj, teardown_name, None)
+0.25 unittest.py(87):     if setup is None and teardown is None:
+0.25 unittest.py(90):     @pytest.fixture(scope=scope, autouse=True)
+0.25 unittest.py(91):     def fixture(self, request):
+0.25 unittest.py(107):     return fixture
+0.25 unittest.py(74):         if class_fixture:
+0.25 unittest.py(75):             cls.__pytest_class_setup = class_fixture
+0.25 unittest.py(77):         method_fixture = _make_xunit_fixture(
+0.25 unittest.py(78):             cls, "setup_method", "teardown_method", scope="function", pass_self=True
+0.25 unittest.py(77):         method_fixture = _make_xunit_fixture(
+0.25 unittest.py(85):     setup = getattr(obj, setup_name, None)
+0.25 unittest.py(86):     teardown = getattr(obj, teardown_name, None)
+0.25 unittest.py(87):     if setup is None and teardown is None:
+0.25 unittest.py(88):         return None
+0.25 unittest.py(80):         if method_fixture:
+0.25 unittest.py(47):             self._inject_setup_class_fixture()
+0.25 unittest.py(49):         self.session._fixturemanager.parsefactories(self, unittest=True)
+0.25 unittest.py(50):         loader = TestLoader()
+0.25 unittest.py(51):         foundsomething = False
+0.25 unittest.py(52):         for name in loader.getTestCaseNames(self.obj):
+0.25 unittest.py(53):             x = getattr(self.obj, name)
+0.25 unittest.py(54):             if not getattr(x, "__test__", True):
+0.25 unittest.py(56):             funcobj = getimfunc(x)
+0.25 unittest.py(57):             yield TestCaseFunction.from_parent(self, name=name, callobj=funcobj)
+0.25 unittest.py(58):             foundsomething = True
+0.25 unittest.py(52):         for name in loader.getTestCaseNames(self.obj):
+0.25 unittest.py(60):         if not foundsomething:
+collected 2 items
+0.25 unittest.py(268):     if isinstance(item, TestCaseFunction) and "twisted.trial.unittest" in sys.modules:
+0.25 unittest.py(293):         yield
+
+testing/test_coverup_pytest-dev__pytest-7236.py 0.25 unittest.py(246):     if isinstance(item, TestCaseFunction):
+0.25 unittest.py(247):         if item._excinfo:
+0.25 unittest.py(254):     unittest = sys.modules.get("unittest")
+0.25 unittest.py(255):     if unittest and call.excinfo and call.excinfo.errisinstance(unittest.SkipTest):
+0.25 unittest.py(246):     if isinstance(item, TestCaseFunction):
+0.25 unittest.py(247):         if item._excinfo:
+0.25 unittest.py(248):             call.excinfo = item._excinfo.pop(0)
+0.25 unittest.py(249):             try:
+0.25 unittest.py(250):                 del call.result
+0.25 unittest.py(251):             except AttributeError:
+0.25 unittest.py(252):                 pass
+0.25 unittest.py(254):     unittest = sys.modules.get("unittest")
+0.25 unittest.py(255):     if unittest and call.excinfo and call.excinfo.errisinstance(unittest.SkipTest):
+s0.25 unittest.py(246):     if isinstance(item, TestCaseFunction):
+0.25 unittest.py(247):         if item._excinfo:
+0.25 unittest.py(254):     unittest = sys.modules.get("unittest")
+0.25 unittest.py(255):     if unittest and call.excinfo and call.excinfo.errisinstance(unittest.SkipTest):
+0.25 unittest.py(268):     if isinstance(item, TestCaseFunction) and "twisted.trial.unittest" in sys.modules:
+0.25 unittest.py(293):         yield
+0.26 unittest.py(246):     if isinstance(item, TestCaseFunction):
+0.26 unittest.py(254):     unittest = sys.modules.get("unittest")
+0.26 unittest.py(255):     if unittest and call.excinfo and call.excinfo.errisinstance(unittest.SkipTest):
+0.26 unittest.py(246):     if isinstance(item, TestCaseFunction):
+0.26 unittest.py(254):     unittest = sys.modules.get("unittest")
+0.26 unittest.py(255):     if unittest and call.excinfo and call.excinfo.errisinstance(unittest.SkipTest):
+F0.28 unittest.py(246):     if isinstance(item, TestCaseFunction):
+0.28 unittest.py(254):     unittest = sys.modules.get("unittest")
+0.28 unittest.py(255):     if unittest and call.excinfo and call.excinfo.errisinstance(unittest.SkipTest):
+                       [100%]
+
+=================================== FAILURES ===================================
+_______________ test_teardown_executed_on_skipped_test_with_pdb ________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f81891f3190>
+
+    def test_teardown_executed_on_skipped_test_with_pdb(monkeypatch):
+        # Create an instance of the test case
+        test_case = MyTestCase('test_one')
+    
+        # Simulate the --pdb option by setting the _explicit_tearDown attribute
+        test_case._explicit_tearDown = test_case.tearDown
+        setattr(test_case, 'tearDown', lambda *args: None)
+    
+        # Manually call the _explicit_tearDown to simulate the bug
+        try:
+>           test_case._explicit_tearDown()
+
+testing/test_coverup_pytest-dev__pytest-7236.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <test_coverup_pytest-dev__pytest-7236.MyTestCase testMethod=test_one>
+
+    def tearDown(self):
+        # This will raise an error if executed, which should not happen for a skipped test
+>       xxx
+E       NameError: name 'xxx' is not defined
+
+testing/test_coverup_pytest-dev__pytest-7236.py:14: NameError
+
+During handling of the above exception, another exception occurred:
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f81891f3190>
+
+    def test_teardown_executed_on_skipped_test_with_pdb(monkeypatch):
+        # Create an instance of the test case
+        test_case = MyTestCase('test_one')
+    
+        # Simulate the --pdb option by setting the _explicit_tearDown attribute
+        test_case._explicit_tearDown = test_case.tearDown
+        setattr(test_case, 'tearDown', lambda *args: None)
+    
+        # Manually call the _explicit_tearDown to simulate the bug
+        try:
+            test_case._explicit_tearDown()
+        except NameError:
+            # If an exception is raised, the test should fail
+>           assert False, "tearDown should not be executed for a skipped test"
+E           AssertionError: tearDown should not be executed for a skipped test
+E           assert False
+
+testing/test_coverup_pytest-dev__pytest-7236.py:29: AssertionError
+=========================== short test summary info ============================
+SKIPPED [1] testing/test_coverup_pytest-dev__pytest-7236.py:8: hello
+FAILED testing/test_coverup_pytest-dev__pytest-7236.py::test_teardown_executed_on_skipped_test_with_pdb
+========================= 1 failed, 1 skipped in 0.05s =========================
++ cat coverage.cover
+{"/testbed/src/_pytest/unittest.py": {"2": 1, "3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "21": 1, "32": 2, "84": 1, "110": 2, "244": 1, "245": 1, "266": 1, "267": 1, "296": 1, "306": 1, "23": 37, "24": 37, "25": 0, "26": 36, "27": 36, "29": 1, "35": 1, "37": 1, "68": 1, "38": 1, "40": 1, "41": 1, "42": 0, "44": 1, "45": 1, "46": 1, "47": 1, "49": 1, "50": 1, "51": 1, "52": 2, "53": 1, "54": 1, "55": 0, "56": 1, "57": 1, "58": 1, "60": 1, "61": 0, "62": 0, "63": 0, "64": 0, "66": 0, "71": 2, "72": 1, "74": 1, "75": 1, "77": 2, "78": 1, "80": 1, "81": 0, "85": 2, "86": 2, "87": 2, "88": 1, "90": 1, "91": 1, "107": 1, "92": 1, "93": 0, "94": 0, "95": 1, "96": 1, "97": 0, "99": 1, "100": 1, "101": 1, "102": 1, "103": 0, "105": 1, "111": 1, "112": 1, "113": 1, "115": 1, "123": 1, "130": 1, "133": 1, "166": 1, "174": 1, "177": 1, "184": 1, "190": 1, "193": 1, "196": 1, "199": 1, "208": 1, "235": 1, "117": 1, "118": 1, "119": 1, "120": 1, "121": 1, "124": 1, "125": 0, "126": 0, "127": 1, "128": 1, "131": 1, "135": 1, "136": 1, "137": 1, "140": 1, "141": 1, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "151": 0, "152": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 1, "167": 0, "168": 0, "169": 0, "170": 0, "171": 0, "172": 0, "175": 0, "178": 1, "179": 1, "180": 1, "181": 1, "182": 1, "185": 0, "186": 0, "187": 0, "188": 0, "191": 0, "194": 0, "197": 1, "202": 0, "203": 0, "205": 0, "206": 0, "209": 1, "211": 1, "214": 1, "215": 0, "223": 1, "224": 0, "225": 0, "229": 1, "230": 1, "231": 1, "233": 1, "236": 0, "237": 0, "238": 0, "240": 0, "241": 0, "246": 6, "247": 3, "248": 1, "249": 1, "250": 1, "251": 1, "252": 1, "254": 6, "255": 6, "257": 0, "258": 0, "260": 0, "268": 2, "269": 0, "270": 0, "271": 0, "273": 0, "289": 0, "290": 0, "291": 0, "293": 2, "276": 0, "277": 0, "279": 0, "280": 0, "281": 0, "282": 0, "283": 0, "284": 0, "286": 0, "287": 0, "297": 0, "298": 0, "299": 0, "300": 0, "302": 0, "303": 0, "308": 2}}
++ git checkout c98bc4cd3d687fe9b392d8eecd905627191d4f06
+M	src/_pytest/unittest.py
+Note: switching to 'c98bc4cd3d687fe9b392d8eecd905627191d4f06'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at c98bc4cd3 Merge pull request #7234 from mcsitter/master
++ git apply /root/pre_state.patch
+error: unrecognized input

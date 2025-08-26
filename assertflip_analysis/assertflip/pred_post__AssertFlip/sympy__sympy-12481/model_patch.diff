@@ -1,0 +1,14 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-12481.py
+new file mode 100644
+index e69de29..9bcc853 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-12481.py
+@@ -0,0 +1,8 @@
++from sympy.combinatorics.permutations import Permutation
++
++def test_permutation_non_disjoint_cycles_bug():
++    # Test for non-disjoint cycles in Permutation constructor
++    # The expected behavior is to construct the identity permutation
++
++    p = Permutation([[0, 1], [0, 1]])
++    assert p.array_form == [0, 1]  # This should construct an identity permutation

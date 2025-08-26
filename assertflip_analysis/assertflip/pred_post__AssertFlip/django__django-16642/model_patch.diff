@@ -1,0 +1,34 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-16642.py
+new file mode 100644
+index e69de29..4771d3e 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-16642.py
+@@ -0,0 +1,28 @@
++from django.test import SimpleTestCase
++from django.http import FileResponse
++import os
++
++class MimeTypeGuessingTests(SimpleTestCase):
++    def setUp(self):
++        # Create mock files with .Z and .br extensions
++        self.z_file_path = 'test.html.Z'
++        self.br_file_path = 'test.html.br'
++        with open(self.z_file_path, 'wb') as f:
++            f.write(b'Test content for .Z file')
++        with open(self.br_file_path, 'wb') as f:
++            f.write(b'Test content for .br file')
++
++    def tearDown(self):
++        # Clean up the mock files
++        os.remove(self.z_file_path)
++        os.remove(self.br_file_path)
++
++    def test_mime_type_for_z_file(self):
++        with open(self.z_file_path, 'rb') as f:
++            response = FileResponse(f)
++            self.assertNotEqual(response['Content-Type'], 'text/html')
++
++    def test_mime_type_for_br_file(self):
++        with open(self.br_file_path, 'rb') as f:
++            response = FileResponse(f)
++            self.assertNotEqual(response['Content-Type'], 'text/html')

@@ -1,0 +1,630 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 7d49ad76562e8c0597a0eb66046ab423b12888d8
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 7d49ad76562e8c0597a0eb66046ab423b12888d8
+Author: Tobias Kunze <r@rixx.de>
+Date:   Tue Apr 16 10:45:45 2019 +0200
+
+    Fixed #14808 -- Doc'd that trans and blocktrans tags don't escape translations.
+
+diff --git a/docs/topics/i18n/translation.txt b/docs/topics/i18n/translation.txt
+index bafa4bdaf1..6e906bf80e 100644
+--- a/docs/topics/i18n/translation.txt
++++ b/docs/topics/i18n/translation.txt
+@@ -567,6 +567,13 @@ As with all template tags, this tag needs to be loaded in all templates which
+ use translations, even those templates that extend from other templates which
+ have already loaded the ``i18n`` tag.
+ 
++.. warning::
++
++    Translated strings will not be escaped when rendered in a template.
++    This allows you to include HTML in translations, for example for emphasis,
++    but potentially dangerous characters (e.g. ``"``) will also be rendered
++    unchanged.
++
+ .. templatetag:: trans
+ 
+ ``trans`` template tag
++ git diff 7d49ad76562e8c0597a0eb66046ab423b12888d8
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190416084545) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190416084545) (0.4.4)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.0.dev20190416084545
+    Uninstalling Django-3.0.dev20190416084545:
+      Successfully uninstalled Django-3.0.dev20190416084545
+  Running setup.py develop for Django
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed Django-3.0.dev20190416084545
++ git apply -v -
+Checking patch django/contrib/admin/options.py...
+Applied patch django/contrib/admin/options.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-11095.py...
+Applied patch tests/test_coverup_django__django-11095.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/contrib/admin/options\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11095
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/contrib/admin/options\\.py)']
+Testing against Django installed in '/testbed/django'
+0.51 options.py(1): import copy
+0.51 options.py(2): import json
+0.51 options.py(3): import operator
+0.51 options.py(4): import re
+0.51 options.py(5): from functools import partial, reduce, update_wrapper
+0.51 options.py(6): from urllib.parse import quote as urlquote
+0.51 options.py(8): from django import forms
+0.51 options.py(9): from django.conf import settings
+0.51 options.py(10): from django.contrib import messages
+0.51 options.py(11): from django.contrib.admin import helpers, widgets
+0.51 options.py(12): from django.contrib.admin.checks import (
+0.52 options.py(15): from django.contrib.admin.exceptions import DisallowedModelAdminToField
+0.52 options.py(16): from django.contrib.admin.templatetags.admin_urls import add_preserved_filters
+0.52 options.py(17): from django.contrib.admin.utils import (
+0.52 options.py(22): from django.contrib.admin.views.autocomplete import AutocompleteJsonView
+0.52 options.py(23): from django.contrib.admin.widgets import (
+0.52 options.py(26): from django.contrib.auth import get_permission_codename
+0.52 options.py(27): from django.core.exceptions import (
+0.52 options.py(30): from django.core.paginator import Paginator
+0.52 options.py(31): from django.db import models, router, transaction
+0.52 options.py(32): from django.db.models.constants import LOOKUP_SEP
+0.52 options.py(33): from django.db.models.fields import BLANK_CHOICE_DASH
+0.52 options.py(34): from django.forms.formsets import DELETION_FIELD_NAME, all_valid
+0.52 options.py(35): from django.forms.models import (
+0.52 options.py(39): from django.forms.widgets import CheckboxSelectMultiple, SelectMultiple
+0.52 options.py(40): from django.http import HttpResponseRedirect
+0.52 options.py(41): from django.http.response import HttpResponseBase
+0.52 options.py(42): from django.template.response import SimpleTemplateResponse, TemplateResponse
+0.52 options.py(43): from django.urls import reverse
+0.52 options.py(44): from django.utils.decorators import method_decorator
+0.52 options.py(45): from django.utils.html import format_html
+0.52 options.py(46): from django.utils.http import urlencode
+0.52 options.py(47): from django.utils.safestring import mark_safe
+0.52 options.py(48): from django.utils.text import capfirst, format_lazy, get_text_list
+0.52 options.py(49): from django.utils.translation import gettext as _, ngettext
+0.52 options.py(50): from django.views.decorators.csrf import csrf_protect
+0.52 options.py(51): from django.views.generic import RedirectView
+0.52 options.py(53): IS_POPUP_VAR = '_popup'
+0.52 options.py(54): TO_FIELD_VAR = '_to_field'
+0.52 options.py(57): HORIZONTAL, VERTICAL = 1, 2
+0.52 options.py(60): def get_content_type_for_model(obj):
+0.52 options.py(67): def get_ul_class(radio_style):
+0.52 options.py(71): class IncorrectLookupParameters(Exception):
+0.52 options.py(71): class IncorrectLookupParameters(Exception):
+0.52 options.py(72):     pass
+0.52 options.py(79):     models.DateTimeField: {
+0.52 options.py(80):         'form_class': forms.SplitDateTimeField,
+0.52 options.py(81):         'widget': widgets.AdminSplitDateTime
+0.52 options.py(83):     models.DateField: {'widget': widgets.AdminDateWidget},
+0.52 options.py(84):     models.TimeField: {'widget': widgets.AdminTimeWidget},
+0.52 options.py(85):     models.TextField: {'widget': widgets.AdminTextareaWidget},
+0.52 options.py(86):     models.URLField: {'widget': widgets.AdminURLFieldWidget},
+0.52 options.py(87):     models.IntegerField: {'widget': widgets.AdminIntegerFieldWidget},
+0.52 options.py(88):     models.BigIntegerField: {'widget': widgets.AdminBigIntegerFieldWidget},
+0.52 options.py(89):     models.CharField: {'widget': widgets.AdminTextInputWidget},
+0.52 options.py(90):     models.ImageField: {'widget': widgets.AdminFileWidget},
+0.52 options.py(91):     models.FileField: {'widget': widgets.AdminFileWidget},
+0.52 options.py(92):     models.EmailField: {'widget': widgets.AdminEmailInputWidget},
+0.52 options.py(93):     models.UUIDField: {'widget': widgets.AdminUUIDInputWidget},
+0.52 options.py(96): csrf_protect_m = method_decorator(csrf_protect)
+0.52 options.py(99): class BaseModelAdmin(metaclass=forms.MediaDefiningClass):
+0.52 options.py(99): class BaseModelAdmin(metaclass=forms.MediaDefiningClass):
+0.52 options.py(100):     """Functionality common to both ModelAdmin and InlineAdmin."""
+0.52 options.py(102):     autocomplete_fields = ()
+0.52 options.py(103):     raw_id_fields = ()
+0.52 options.py(104):     fields = None
+0.52 options.py(105):     exclude = None
+0.52 options.py(106):     fieldsets = None
+0.52 options.py(107):     form = forms.ModelForm
+0.52 options.py(108):     filter_vertical = ()
+0.52 options.py(109):     filter_horizontal = ()
+0.52 options.py(110):     radio_fields = {}
+0.52 options.py(111):     prepopulated_fields = {}
+0.52 options.py(112):     formfield_overrides = {}
+0.52 options.py(113):     readonly_fields = ()
+0.52 options.py(114):     ordering = None
+0.52 options.py(115):     sortable_by = None
+0.52 options.py(116):     view_on_site = True
+0.52 options.py(117):     show_full_result_count = True
+0.52 options.py(118):     checks_class = BaseModelAdminChecks
+0.52 options.py(120):     def check(self, **kwargs):
+0.52 options.py(123):     def __init__(self):
+0.52 options.py(131):     def formfield_for_dbfield(self, db_field, request, **kwargs):
+0.52 options.py(188):     def formfield_for_choice_field(self, db_field, request, **kwargs):
+0.52 options.py(206):     def get_field_queryset(self, db, db_field, request):
+0.52 options.py(219):     def formfield_for_foreignkey(self, db_field, request, **kwargs):
+0.52 options.py(243):     def formfield_for_manytomany(self, db_field, request, **kwargs):
+0.52 options.py(277):     def get_autocomplete_fields(self, request):
+0.52 options.py(284):     def get_view_on_site_url(self, obj=None):
+0.52 options.py(297):     def get_empty_value_display(self):
+0.52 options.py(306):     def get_exclude(self, request, obj=None):
+0.52 options.py(312):     def get_fields(self, request, obj=None):
+0.52 options.py(322):     def get_fieldsets(self, request, obj=None):
+0.52 options.py(330):     def get_inlines(self, request, obj):
+0.52 options.py(334):     def get_ordering(self, request):
+0.52 options.py(340):     def get_readonly_fields(self, request, obj=None):
+0.52 options.py(346):     def get_prepopulated_fields(self, request, obj=None):
+0.52 options.py(352):     def get_queryset(self, request):
+0.52 options.py(364):     def get_sortable_by(self, request):
+0.52 options.py(368):     def lookup_allowed(self, lookup, value):
+0.52 options.py(422):     def to_field_allowed(self, request, to_field):
+0.52 options.py(467):     def has_add_permission(self, request):
+0.52 options.py(476):     def has_change_permission(self, request, obj=None):
+0.52 options.py(491):     def has_delete_permission(self, request, obj=None):
+0.52 options.py(506):     def has_view_permission(self, request, obj=None):
+0.52 options.py(525):     def has_view_or_change_permission(self, request, obj=None):
+0.52 options.py(528):     def has_module_permission(self, request):
+0.52 options.py(542): class ModelAdmin(BaseModelAdmin):
+0.52 options.py(542): class ModelAdmin(BaseModelAdmin):
+0.52 options.py(543):     """Encapsulate all admin options and functionality for a given model."""
+0.52 options.py(545):     list_display = ('__str__',)
+0.52 options.py(546):     list_display_links = ()
+0.52 options.py(547):     list_filter = ()
+0.52 options.py(548):     list_select_related = False
+0.52 options.py(549):     list_per_page = 100
+0.52 options.py(550):     list_max_show_all = 200
+0.52 options.py(551):     list_editable = ()
+0.52 options.py(552):     search_fields = ()
+0.52 options.py(553):     date_hierarchy = None
+0.52 options.py(554):     save_as = False
+0.52 options.py(555):     save_as_continue = True
+0.52 options.py(556):     save_on_top = False
+0.52 options.py(557):     paginator = Paginator
+0.52 options.py(558):     preserve_filters = True
+0.52 options.py(559):     inlines = []
+0.52 options.py(562):     add_form_template = None
+0.52 options.py(563):     change_form_template = None
+0.52 options.py(564):     change_list_template = None
+0.52 options.py(565):     delete_confirmation_template = None
+0.52 options.py(566):     delete_selected_confirmation_template = None
+0.52 options.py(567):     object_history_template = None
+0.52 options.py(568):     popup_response_template = None
+0.52 options.py(571):     actions = []
+0.52 options.py(572):     action_form = helpers.ActionForm
+0.52 options.py(573):     actions_on_top = True
+0.52 options.py(574):     actions_on_bottom = False
+0.52 options.py(575):     actions_selection_counter = True
+0.52 options.py(576):     checks_class = ModelAdminChecks
+0.52 options.py(578):     def __init__(self, model, admin_site):
+0.52 options.py(584):     def __str__(self):
+0.52 options.py(587):     def get_inline_instances(self, request, obj=None):
+0.52 options.py(602):     def get_urls(self):
+0.52 options.py(627):     @property
+0.52 options.py(631):     @property
+0.52 options.py(646):     def get_model_perms(self, request):
+0.52 options.py(659):     def _get_form_for_get_fields(self, request, obj):
+0.52 options.py(662):     def get_form(self, request, obj=None, change=False, **kwargs):
+0.52 options.py(710):     def get_changelist(self, request, **kwargs):
+0.52 options.py(717):     def get_changelist_instance(self, request):
+0.52 options.py(745):     def get_object(self, request, object_id, from_field=None):
+0.52 options.py(760):     def get_changelist_form(self, request, **kwargs):
+0.52 options.py(773):     def get_changelist_formset(self, request, **kwargs):
+0.52 options.py(787):     def get_formsets_with_inlines(self, request, obj=None):
+0.52 options.py(794):     def get_paginator(self, request, queryset, per_page, orphans=0, allow_empty_first_page=True):
+0.52 options.py(797):     def log_addition(self, request, object, message):
+0.52 options.py(813):     def log_change(self, request, object, message):
+0.52 options.py(829):     def log_deletion(self, request, object, object_repr):
+0.52 options.py(845):     def action_checkbox(self, obj):
+0.52 options.py(850):     action_checkbox.short_description = mark_safe('<input type="checkbox" id="action-toggle">')
+0.52 options.py(852):     def _get_base_actions(self):
+0.52 options.py(865):     def _filter_actions_by_permissions(self, request, actions):
+0.52 options.py(881):     def get_actions(self, request):
+0.52 options.py(893):     def get_action_choices(self, request, default_choices=BLANK_CHOICE_DASH):
+0.52 options.py(904):     def get_action(self, action):
+0.52 options.py(934):     def get_list_display(self, request):
+0.52 options.py(941):     def get_list_display_links(self, request, list_display):
+0.52 options.py(953):     def get_list_filter(self, request):
+0.52 options.py(960):     def get_list_select_related(self, request):
+0.52 options.py(967):     def get_search_fields(self, request):
+0.52 options.py(974):     def get_search_results(self, request, queryset, search_term):
+0.52 options.py(1022):     def get_preserved_filters(self, request):
+0.52 options.py(1040):     def construct_change_message(self, request, form, formsets, add=False):
+0.52 options.py(1046):     def message_user(self, request, message, level=messages.INFO, extra_tags='',
+0.52 options.py(1047):                      fail_silently=False):
+0.52 options.py(1071):     def save_form(self, request, form, change):
+0.52 options.py(1078):     def save_model(self, request, obj, form, change):
+0.52 options.py(1084):     def delete_model(self, request, obj):
+0.52 options.py(1090):     def delete_queryset(self, request, queryset):
+0.52 options.py(1094):     def save_formset(self, request, form, formset, change):
+0.52 options.py(1100):     def save_related(self, request, form, formsets, change):
+0.52 options.py(1112):     def render_change_form(self, request, context, add=False, change=False, form_url='', obj=None):
+0.52 options.py(1159):     def response_add(self, request, obj, post_url_continue=None):
+0.52 options.py(1236):     def response_change(self, request, obj):
+0.52 options.py(1311):     def _response_post_save(self, request, obj):
+0.52 options.py(1324):     def response_post_save_add(self, request, obj):
+0.52 options.py(1331):     def response_post_save_change(self, request, obj):
+0.52 options.py(1338):     def response_action(self, request, queryset):
+0.52 options.py(1405):     def response_delete(self, request, obj_display, obj_id):
+0.52 options.py(1446):     def render_delete_form(self, request, context):
+0.52 options.py(1467):     def get_inline_formsets(self, request, formsets, inline_instances, obj=None):
+0.52 options.py(1485):     def get_changeform_initial_data(self, request):
+0.52 options.py(1500):     def _get_obj_does_not_exist_redirect(self, request, opts, object_id):
+0.52 options.py(1513):     @csrf_protect_m
+0.52 options.py(1514):     def changeform_view(self, request, object_id=None, form_url='', extra_context=None):
+0.52 options.py(1518):     def _changeform_view(self, request, object_id, form_url, extra_context):
+0.52 options.py(1624):     def autocomplete_view(self, request):
+0.52 options.py(1627):     def add_view(self, request, form_url='', extra_context=None):
+0.52 options.py(1630):     def change_view(self, request, object_id, form_url='', extra_context=None):
+0.52 options.py(1633):     def _get_edited_object_pks(self, request, prefix):
+0.52 options.py(1638):     def _get_list_editable_queryset(self, request, prefix):
+0.52 options.py(1654):     @csrf_protect_m
+0.52 options.py(1655):     def changelist_view(self, request, extra_context=None):
+0.52 options.py(1809):     def get_deleted_objects(self, objs, request):
+0.52 options.py(1816):     @csrf_protect_m
+0.52 options.py(1817):     def delete_view(self, request, object_id, extra_context=None):
+0.52 options.py(1821):     def _delete_view(self, request, object_id, extra_context):
+0.52 options.py(1879):     def history_view(self, request, object_id, extra_context=None):
+0.52 options.py(1918):     def _create_formsets(self, request, obj, change):
+0.52 options.py(1964): class InlineModelAdmin(BaseModelAdmin):
+0.52 options.py(1964): class InlineModelAdmin(BaseModelAdmin):
+0.52 options.py(1971):     """
+0.52 options.py(1972):     model = None
+0.52 options.py(1973):     fk_name = None
+0.52 options.py(1974):     formset = BaseInlineFormSet
+0.52 options.py(1975):     extra = 3
+0.52 options.py(1976):     min_num = None
+0.52 options.py(1977):     max_num = None
+0.52 options.py(1978):     template = None
+0.52 options.py(1979):     verbose_name = None
+0.52 options.py(1980):     verbose_name_plural = None
+0.52 options.py(1981):     can_delete = True
+0.52 options.py(1982):     show_change_link = False
+0.52 options.py(1983):     checks_class = InlineModelAdminChecks
+0.52 options.py(1984):     classes = None
+0.52 options.py(1986):     def __init__(self, parent_model, admin_site):
+0.52 options.py(1997):     @property
+0.52 options.py(2008):     def get_extra(self, request, obj=None, **kwargs):
+0.52 options.py(2012):     def get_min_num(self, request, obj=None, **kwargs):
+0.52 options.py(2016):     def get_max_num(self, request, obj=None, **kwargs):
+0.52 options.py(2020):     def get_formset(self, request, obj=None, **kwargs):
+0.52 options.py(2109):     def _get_form_for_get_fields(self, request, obj=None):
+0.52 options.py(2112):     def get_queryset(self, request):
+0.52 options.py(2118):     def _has_any_perms_for_target_model(self, request, perms):
+0.52 options.py(2136):     def has_add_permission(self, request, obj):
+0.52 options.py(2145):     def has_change_permission(self, request, obj=None):
+0.52 options.py(2151):     def has_delete_permission(self, request, obj=None):
+0.52 options.py(2157):     def has_view_permission(self, request, obj=None):
+0.52 options.py(2165): class StackedInline(InlineModelAdmin):
+0.52 options.py(2165): class StackedInline(InlineModelAdmin):
+0.52 options.py(2166):     template = 'admin/edit_inline/stacked.html'
+0.52 options.py(2169): class TabularInline(InlineModelAdmin):
+0.52 options.py(2169): class TabularInline(InlineModelAdmin):
+0.52 options.py(2170):     template = 'admin/edit_inline/tabular.html'
+Skipping setup of unused database(s): default, other.test_get_inline_instances_without_get_inlines (test_coverup_django__django-11095.TestModelAdmin) ... 
+System check identified no issues (0 silenced).
+0.63 options.py(579):         self.model = model
+0.63 options.py(580):         self.opts = model._meta
+0.63 options.py(581):         self.admin_site = admin_site
+0.63 options.py(582):         super().__init__()
+0.63 options.py(126):         overrides = copy.deepcopy(FORMFIELD_FOR_DBFIELD_DEFAULTS)
+0.63 options.py(127):         for k, v in self.formfield_overrides.items():
+0.63 options.py(129):         self.formfield_overrides = overrides
+0.63 options.py(588):         inline_instances = []
+0.63 options.py(589):         for inline_class in self.get_inlines(request, obj):
+0.63 options.py(332):         return self.inlines
+0.63 options.py(590):             inline = inline_class(self.model, self.admin_site)
+0.63 options.py(1987):         self.admin_site = admin_site
+0.63 options.py(1988):         self.parent_model = parent_model
+0.63 options.py(1989):         self.opts = self.model._meta
+0.63 options.py(1990):         self.has_registered_model = admin_site.is_registered(self.model)
+0.63 options.py(1991):         super().__init__()
+0.63 options.py(126):         overrides = copy.deepcopy(FORMFIELD_FOR_DBFIELD_DEFAULTS)
+0.63 options.py(127):         for k, v in self.formfield_overrides.items():
+0.63 options.py(129):         self.formfield_overrides = overrides
+0.63 options.py(1992):         if self.verbose_name is None:
+0.63 options.py(1993):             self.verbose_name = self.model._meta.verbose_name
+0.63 options.py(1994):         if self.verbose_name_plural is None:
+0.63 options.py(1995):             self.verbose_name_plural = self.model._meta.verbose_name_plural
+0.63 options.py(591):             if request:
+0.63 options.py(592):                 if not (inline.has_view_or_change_permission(request, obj) or
+0.63 options.py(596):                 if not inline.has_add_permission(request, obj):
+0.63 options.py(598):             inline_instances.append(inline)
+0.63 options.py(589):         for inline_class in self.get_inlines(request, obj):
+0.63 options.py(600):         return inline_instances
+FAIL
+
+======================================================================
+FAIL: test_get_inline_instances_without_get_inlines (test_coverup_django__django-11095.TestModelAdmin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11095.py", line 44, in test_get_inline_instances_without_get_inlines
+    self.assertNotEqual(len(inline_instances), 1)
+AssertionError: 1 == 1
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
++ cat coverage.cover
+{"/testbed/django/contrib/admin/options.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 1, "16": 1, "17": 1, "22": 1, "23": 1, "26": 1, "27": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "53": 1, "54": 1, "57": 1, "60": 1, "67": 1, "71": 2, "79": 1, "80": 1, "81": 1, "83": 1, "84": 1, "85": 1, "86": 1, "87": 1, "88": 1, "89": 1, "90": 1, "91": 1, "92": 1, "93": 1, "96": 1, "99": 2, "542": 2, "1964": 2, "2165": 2, "2169": 2, "63": 0, "64": 0, "68": 0, "72": 1, "102": 1, "103": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "110": 1, "111": 1, "112": 1, "113": 1, "114": 1, "115": 1, "116": 1, "117": 1, "118": 1, "120": 1, "123": 1, "131": 1, "188": 1, "206": 1, "219": 1, "243": 1, "277": 1, "284": 1, "297": 1, "306": 1, "312": 1, "322": 1, "330": 1, "334": 1, "340": 1, "346": 1, "352": 1, "364": 1, "368": 1, "422": 1, "467": 1, "476": 1, "491": 1, "506": 1, "525": 1, "528": 1, "121": 0, "126": 2, "127": 2, "128": 0, "129": 2, "140": 0, "141": 0, "144": 0, "149": 0, "150": 0, "153": 0, "154": 0, "155": 0, "156": 0, "162": 0, "163": 0, "164": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "170": 0, "172": 0, "173": 0, "176": 0, "180": 0, "181": 0, "182": 0, "183": 0, "186": 0, "193": 0, "195": 0, "196": 0, "197": 0, "199": 0, "200": 0, "201": 0, "202": 0, "204": 0, "212": 0, "213": 0, "214": 0, "215": 0, "216": 0, "217": 0, "223": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "231": 0, "232": 0, "234": 0, "236": 0, "237": 0, "238": 0, "239": 0, "241": 0, "249": 0, "250": 0, "251": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "258": 0, "259": 0, "260": 0, "261": 0, "264": 0, "265": 0, "266": 0, "267": 0, "269": 0, "270": 0, "271": 0, "272": 0, "273": 0, "274": 0, "275": 0, "282": 0, "285": 0, "286": 0, "288": 0, "289": 0, "290": 0, "292": 0, "293": 0, "294": 0, "301": 0, "302": 0, "303": 0, "304": 0, "310": 0, "316": 0, "317": 0, "319": 0, "320": 0, "326": 0, "327": 0, "328": 0, "332": 1, "338": 0, "344": 0, "350": 0, "357": 0, "359": 0, "360": 0, "361": 0, "362": 0, "366": 0, "369": 0, "371": 0, "375": 0, "377": 0, "378": 0, "379": 0, "380": 0, "382": 0, "383": 0, "384": 0, "385": 0, "386": 0, "387": 0, "390": 0, "394": 0, "395": 0, "396": 0, "397": 0, "400": 0, "401": 0, "402": 0, "404": 0, "406": 0, "407": 0, "408": 0, "409": 0, "410": 0, "411": 0, "412": 0, "414": 0, "418": 0, "419": 0, "420": 0, "427": 0, "429": 0, "430": 0, "431": 0, "432": 0, "436": 0, "437": 0, "441": 0, "442": 0, "443": 0, "447": 0, "448": 0, "449": 0, "450": 0, "451": 0, "454": 0, "457": 0, "458": 0, "459": 0, "460": 0, "461": 0, "462": 0, "463": 0, "465": 0, "455": 0, "472": 0, "473": 0, "474": 0, "487": 0, "488": 0, "489": 0, "502": 0, "503": 0, "504": 0, "517": 0, "518": 0, "519": 0, "521": 0, "522": 0, "526": 0, "539": 0, "545": 1, "546": 1, "547": 1, "548": 1, "549": 1, "550": 1, "551": 1, "552": 1, "553": 1, "554": 1, "555": 1, "556": 1, "557": 1, "558": 1, "559": 1, "562": 1, "563": 1, "564": 1, "565": 1, "566": 1, "567": 1, "568": 1, "571": 1, "572": 1, "573": 1, "574": 1, "575": 1, "576": 1, "578": 1, "584": 1, "587": 1, "602": 1, "627": 1, "631": 1, "646": 1, "659": 1, "662": 1, "710": 1, "717": 1, "745": 1, "760": 1, "773": 1, "787": 1, "794": 1, "797": 1, "813": 1, "829": 1, "845": 1, "850": 1, "852": 1, "865": 1, "881": 1, "893": 1, "904": 1, "934": 1, "941": 1, "953": 1, "960": 1, "967": 1, "974": 1, "1022": 1, "1040": 1, "1046": 1, "1047": 1, "1071": 1, "1078": 1, "1084": 1, "1090": 1, "1094": 1, "1100": 1, "1112": 1, "1159": 1, "1236": 1, "1311": 1, "1324": 1, "1331": 1, "1338": 1, "1405": 1, "1446": 1, "1467": 1, "1485": 1, "1500": 1, "1513": 1, "1514": 1, "1518": 1, "1624": 1, "1627": 1, "1630": 1, "1633": 1, "1638": 1, "1654": 1, "1655": 1, "1809": 1, "1816": 1, "1817": 1, "1821": 1, "1879": 1, "1918": 1, "579": 1, "580": 1, "581": 1, "582": 1, "585": 0, "588": 1, "589": 2, "590": 1, "591": 1, "592": 1, "593": 0, "594": 0, "595": 0, "596": 1, "597": 0, "598": 1, "600": 1, "603": 0, "605": 0, "611": 0, "614": 0, "615": 0, "616": 0, "617": 0, "618": 0, "619": 0, "621": 0, "622": 0, "625": 0, "606": 0, "608": 0, "609": 0, "607": 0, "629": 0, "633": 0, "635": 0, "636": 0, "637": 0, "638": 0, "639": 0, "640": 0, "641": 0, "642": 0, "644": 0, "653": 0, "654": 0, "655": 0, "656": 0, "660": 0, "667": 0, "668": 0, "670": 0, "671": 0, "672": 0, "673": 0, "674": 0, "677": 0, "678": 0, "679": 0, "682": 0, "685": 0, "688": 0, "689": 0, "692": 0, "693": 0, "694": 0, "695": 0, "696": 0, "699": 0, "700": 0, "702": 0, "703": 0, "704": 0, "705": 0, "706": 0, "707": 0, "714": 0, "715": 0, "722": 0, "723": 0, "725": 0, "726": 0, "727": 0, "728": 0, "729": 0, "730": 0, "731": 0, "732": 0, "733": 0, "734": 0, "735": 0, "736": 0, "737": 0, "738": 0, "739": 0, "740": 0, "741": 0, "742": 0, "751": 0, "752": 0, "753": 0, "754": 0, "755": 0, "756": 0, "757": 0, "758": 0, "765": 0, "766": 0, "768": 0, "769": 0, "771": 0, "779": 0, "780": 0, "782": 0, "783": 0, "784": 0, "791": 0, "792": 0, "795": 0, "803": 0, "804": 0, "805": 0, "806": 0, "807": 0, "808": 0, "809": 0, "810": 0, "819": 0, "820": 0, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "826": 0, "836": 0, "837": 0, "838": 0, "839": 0, "840": 0, "841": 0, "842": 0, "849": 0, "854": 0, "857": 0, "858": 0, "859": 0, "861": 0, "863": 0, "867": 0, "868": 0, "869": 0, "870": 0, "871": 0, "872": 0, "874": 0, "875": 0, "877": 0, "878": 0, "879": 0, "888": 0, "889": 0, "890": 0, "891": 0, "898": 0, "899": 0, "900": 0, "901": 0, "902": 0, "911": 0, "912": 0, "913": 0, "918": 0, "919": 0, "923": 0, "924": 0, "925": 0, "926": 0, "928": 0, "929": 0, "931": 0, "932": 0, "939": 0, "947": 0, "948": 0, "951": 0, "958": 0, "965": 0, "972": 0, "980": 0, "1009": 0, "1010": 0, "1011": 0, "1012": 0, "1013": 0, "1014": 0, "1015": 0, "1016": 0, "1017": 0, "1018": 0, "1020": 0, "981": 0, "982": 0, "983": 0, "984": 0, "985": 0, "986": 0, "988": 0, "989": 0, "991": 0, "992": 0, "993": 0, "994": 0, "995": 0, "996": 0, "997": 0, "999": 0, "1000": 0, "1002": 0, "1003": 0, "1005": 0, "1007": 0, "1026": 0, "1027": 0, "1028": 0, "1029": 0, "1030": 0, "1031": 0, "1032": 0, "1034": 0, "1036": 0, "1037": 0, "1038": 0, "1044": 0, "1057": 0, "1059": 0, "1060": 0, "1061": 0, "1062": 0, "1063": 0, "1064": 0, "1065": 0, "1066": 0, "1069": 0, "1076": 0, "1082": 0, "1088": 0, "1092": 0, "1098": 0, "1108": 0, "1109": 0, "1110": 0, "1113": 0, "1114": 0, "1115": 0, "1116": 0, "1117": 0, "1118": 0, "1119": 0, "1120": 0, "1121": 0, "1122": 0, "1123": 0, "1124": 0, "1125": 0, "1126": 0, "1127": 0, "1128": 0, "1129": 0, "1130": 0, "1131": 0, "1132": 0, "1133": 0, "1135": 0, "1136": 0, "1137": 0, "1138": 0, "1139": 0, "1140": 0, "1141": 0, "1142": 0, "1143": 0, "1144": 0, "1146": 0, "1147": 0, "1149": 0, "1151": 0, "1153": 0, "1154": 0, "1155": 0, "1156": 0, "1157": 0, "1163": 0, "1164": 0, "1165": 0, "1166": 0, "1167": 0, "1168": 0, "1171": 0, "1172": 0, "1174": 0, "1176": 0, "1177": 0, "1182": 0, "1183": 0, "1184": 0, "1185": 0, "1187": 0, "1188": 0, "1189": 0, "1190": 0, "1191": 0, "1193": 0, "1194": 0, "1195": 0, "1196": 0, "1198": 0, "1201": 0, "1203": 0, "1204": 0, "1206": 0, "1207": 0, "1208": 0, "1209": 0, "1210": 0, "1211": 0, "1212": 0, "1213": 0, "1214": 0, "1216": 0, "1218": 0, "1219": 0, "1220": 0, "1221": 0, "1223": 0, "1224": 0, "1225": 0, "1226": 0, "1229": 0, "1230": 0, "1231": 0, "1233": 0, "1234": 0, "1241": 0, "1242": 0, "1243": 0, "1244": 0, "1245": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1253": 0, "1254": 0, "1255": 0, "1256": 0, "1258": 0, "1261": 0, "1262": 0, "1265": 0, "1266": 0, "1268": 0, "1269": 0, "1270": 0, "1271": 0, "1273": 0, "1274": 0, "1275": 0, "1276": 0, "1278": 0, "1279": 0, "1280": 0, "1281": 0, "1283": 0, "1284": 0, "1285": 0, "1286": 0, "1287": 0, "1288": 0, "1289": 0, "1291": 0, "1292": 0, "1293": 0, "1294": 0, "1296": 0, "1297": 0, "1298": 0, "1299": 0, "1300": 0, "1301": 0, "1304": 0, "1305": 0, "1306": 0, "1308": 0, "1309": 0, "1312": 0, "1313": 0, "1314": 0, "1315": 0, "1316": 0, "1317": 0, "1318": 0, "1320": 0, "1321": 0, "1322": 0, "1329": 0, "1336": 0, "1348": 0, "1349": 0, "1350": 0, "1351": 0, "1354": 0, "1355": 0, "1356": 0, "1359": 0, "1360": 0, "1361": 0, "1365": 0, "1367": 0, "1368": 0, "1371": 0, "1372": 0, "1373": 0, "1374": 0, "1379": 0, "1380": 0, "1382": 0, "1384": 0, "1385": 0, "1387": 0, "1389": 0, "1391": 0, "1396": 0, "1397": 0, "1399": 0, "1401": 0, "1402": 0, "1403": 0, "1409": 0, "1411": 0, "1412": 0, "1413": 0, "1414": 0, "1416": 0, "1417": 0, "1418": 0, "1419": 0, "1421": 0, "1424": 0, "1425": 0, "1426": 0, "1427": 0, "1428": 0, "1430": 0, "1433": 0, "1434": 0, "1435": 0, "1436": 0, "1438": 0, "1439": 0, "1440": 0, "1443": 0, "1444": 0, "1447": 0, "1448": 0, "1450": 0, "1451": 0, "1452": 0, "1453": 0, "1454": 0, "1457": 0, "1458": 0, "1459": 0, "1460": 0, "1461": 0, "1462": 0, "1464": 0, "1468": 0, "1469": 0, "1470": 0, "1471": 0, "1472": 0, "1473": 0, "1474": 0, "1475": 0, "1476": 0, "1477": 0, "1478": 0, "1479": 0, "1480": 0, "1482": 0, "1483": 0, "1489": 0, "1490": 0, "1491": 0, "1492": 0, "1493": 0, "1494": 0, "1496": 0, "1497": 0, "1498": 0, "1505": 0, "1506": 0, "1507": 0, "1509": 0, "1510": 0, "1511": 0, "1515": 0, "1516": 0, "1519": 0, "1520": 0, "1521": 0, "1523": 0, "1524": 0, "1526": 0, "1527": 0, "1529": 0, "1531": 0, "1532": 0, "1533": 0, "1534": 0, "1537": 0, "1539": 0, "1540": 0, "1542": 0, "1543": 0, "1545": 0, "1546": 0, "1547": 0, "1548": 0, "1549": 0, "1550": 0, "1552": 0, "1553": 0, "1554": 0, "1555": 0, "1556": 0, "1557": 0, "1558": 0, "1559": 0, "1560": 0, "1562": 0, "1563": 0, "1565": 0, "1567": 0, "1568": 0, "1569": 0, "1570": 0, "1572": 0, "1573": 0, "1575": 0, "1576": 0, "1578": 0, "1579": 0, "1580": 0, "1581": 0, "1583": 0, "1584": 0, "1585": 0, "1586": 0, "1588": 0, "1589": 0, "1590": 0, "1592": 0, "1593": 0, "1594": 0, "1595": 0, "1597": 0, "1599": 0, "1600": 0, "1601": 0, "1602": 0, "1603": 0, "1604": 0, "1605": 0, "1606": 0, "1607": 0, "1608": 0, "1609": 0, "1614": 0, "1615": 0, "1616": 0, "1618": 0, "1620": 0, "1622": 0, "1625": 0, "1628": 0, "1631": 0, "1635": 0, "1636": 0, "1643": 0, "1644": 0, "1645": 0, "1646": 0, "1647": 0, "1648": 0, "1649": 0, "1651": 0, "1652": 0, "1659": 0, "1660": 0, "1661": 0, "1662": 0, "1663": 0, "1665": 0, "1666": 0, "1667": 0, "1674": 0, "1675": 0, "1676": 0, "1678": 0, "1684": 0, "1685": 0, "1687": 0, "1689": 0, "1690": 0, "1691": 0, "1692": 0, "1693": 0, "1694": 0, "1696": 0, "1698": 0, "1700": 0, "1701": 0, "1704": 0, "1705": 0, "1706": 0, "1707": 0, "1708": 0, "1709": 0, "1710": 0, "1712": 0, "1714": 0, "1718": 0, "1723": 0, "1726": 0, "1727": 0, "1728": 0, "1729": 0, "1730": 0, "1731": 0, "1732": 0, "1733": 0, "1734": 0, "1735": 0, "1736": 0, "1737": 0, "1738": 0, "1739": 0, "1740": 0, "1741": 0, "1743": 0, "1744": 0, "1745": 0, "1746": 0, "1747": 0, "1749": 0, "1750": 0, "1752": 0, "1754": 0, "1757": 0, "1758": 0, "1759": 0, "1762": 0, "1763": 0, "1765": 0, "1768": 0, "1769": 0, "1770": 0, "1771": 0, "1773": 0, "1775": 0, "1776": 0, "1777": 0, "1778": 0, "1782": 0, "1783": 0, "1784": 0, "1785": 0, "1786": 0, "1787": 0, "1788": 0, "1789": 0, "1790": 0, "1791": 0, "1792": 0, "1793": 0, "1794": 0, "1795": 0, "1796": 0, "1797": 0, "1798": 0, "1801": 0, "1803": 0, "1804": 0, "1805": 0, "1806": 0, "1807": 0, "1814": 0, "1818": 0, "1819": 0, "1823": 0, "1824": 0, "1826": 0, "1827": 0, "1828": 0, "1830": 0, "1832": 0, "1833": 0, "1835": 0, "1836": 0, "1840": 0, "1842": 0, "1843": 0, "1844": 0, "1845": 0, "1846": 0, "1847": 0, "1848": 0, "1849": 0, "1851": 0, "1853": 0, "1855": 0, "1856": 0, "1858": 0, "1861": 0, "1862": 0, "1863": 0, "1864": 0, "1865": 0, "1866": 0, "1867": 0, "1868": 0, "1869": 0, "1870": 0, "1871": 0, "1872": 0, "1873": 0, "1874": 0, "1877": 0, "1881": 0, "1883": 0, "1884": 0, "1885": 0, "1886": 0, "1888": 0, "1889": 0, "1892": 0, "1893": 0, "1894": 0, "1895": 0, "1896": 0, "1897": 0, "1900": 0, "1901": 0, "1902": 0, "1903": 0, "1904": 0, "1905": 0, "1906": 0, "1907": 0, "1910": 0, "1912": 0, "1913": 0, "1914": 0, "1915": 0, "1916": 0, "1920": 0, "1921": 0, "1922": 0, "1923": 0, "1924": 0, "1925": 0, "1926": 0, "1927": 0, "1928": 0, "1929": 0, "1930": 0, "1932": 0, "1933": 0, "1934": 0, "1936": 0, "1937": 0, "1938": 0, "1939": 0, "1940": 0, "1942": 0, "1944": 0, "1953": 0, "1954": 0, "1955": 0, "1956": 0, "1957": 0, "1958": 0, "1959": 0, "1960": 0, "1961": 0, "1947": 0, "1948": 0, "1972": 1, "1973": 1, "1974": 1, "1975": 1, "1976": 1, "1977": 1, "1978": 1, "1979": 1, "1980": 1, "1981": 1, "1982": 1, "1983": 1, "1984": 1, "1986": 1, "1997": 1, "2008": 1, "2012": 1, "2016": 1, "2020": 1, "2109": 1, "2112": 1, "2118": 1, "2136": 1, "2145": 1, "2151": 1, "2157": 1, "1987": 1, "1988": 1, "1989": 1, "1990": 1, "1991": 1, "1992": 1, "1993": 1, "1994": 1, "1995": 1, "1999": 0, "2000": 0, "2001": 0, "2002": 0, "2003": 0, "2004": 0, "2005": 0, "2006": 0, "2010": 0, "2014": 0, "2018": 0, "2022": 0, "2023": 0, "2025": 0, "2026": 0, "2027": 0, "2028": 0, "2029": 0, "2032": 0, "2035": 0, "2036": 0, "2038": 0, "2039": 0, "2040": 0, "2041": 0, "2042": 0, "2043": 0, "2044": 0, "2045": 0, "2046": 0, "2047": 0, "2048": 0, "2051": 0, "2052": 0, "2053": 0, "2055": 0, "2102": 0, "2104": 0, "2105": 0, "2107": 0, "2057": 0, "2089": 0, "2094": 0, "2063": 0, "2064": 0, "2065": 0, "2066": 0, "2067": 0, "2068": 0, "2069": 0, "2070": 0, "2071": 0, "2072": 0, "2075": 0, "2076": 0, "2077": 0, "2080": 0, "2081": 0, "2082": 0, "2084": 0, "2087": 0, "2090": 0, "2091": 0, "2092": 0, "2096": 0, "2097": 0, "2098": 0, "2099": 0, "2100": 0, "2110": 0, "2113": 0, "2114": 0, "2115": 0, "2116": 0, "2125": 0, "2127": 0, "2128": 0, "2129": 0, "2130": 0, "2131": 0, "2132": 0, "2133": 0, "2137": 0, "2142": 0, "2143": 0, "2146": 0, "2148": 0, "2149": 0, "2152": 0, "2154": 0, "2155": 0, "2158": 0, "2161": 0, "2162": 0, "2166": 1, "2170": 1}}
++ git checkout 7d49ad76562e8c0597a0eb66046ab423b12888d8
+Note: switching to '7d49ad76562e8c0597a0eb66046ab423b12888d8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7d49ad7656 Fixed #14808 -- Doc'd that trans and blocktrans tags don't escape translations.
+M	django/contrib/admin/options.py
++ git apply /root/pre_state.patch
+error: unrecognized input

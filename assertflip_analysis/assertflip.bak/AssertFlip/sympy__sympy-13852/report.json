@@ -1,0 +1,46 @@
+{
+    "sympy__sympy-13852": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.3333333333333333,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.125,
+        "coverage_delta_pred": 0.20833333333333334,
+        "coverage_delta_gold": 0.875,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_sympy__sympy-13852.py:test_expand_func_polylog_bug",
+                "test_expand_func_polylog_bug"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_lerchphi_expansion",
+                "test_derivatives",
+                "test_rewriting",
+                "test_zeta_series",
+                "test_issue_10475",
+                "test_polylog_expansion",
+                "test_polylog_values"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

@@ -1,0 +1,25 @@
+diff --git a/dev/null b/astropy/tests/test_coverup_astropy__astropy-13236.py
+new file mode 100644
+index e69de29..d06f892 100644
+--- /dev/null
++++ b/astropy/tests/test_coverup_astropy__astropy-13236.py
+@@ -0,0 +1,19 @@
++import pytest
++import numpy as np
++from astropy.table import Table, Column
++
++def test_structured_array_transformation():
++    # Create a structured numpy array with multiple fields
++    structured_array = np.array([(1, 2.0), (3, 4.0)], dtype=[('a', 'i4'), ('b', 'f4')])
++    
++    # Initialize a Table object
++    table = Table()
++    
++    # Add the structured array to the table
++    table['structured'] = structured_array
++    
++    # Check the type of the column in the table
++    column_type = type(table['structured'])
++    
++    # Assert that the column type is Column, indicating it has not been transformed
++    assert column_type is Column, "BUG: the structured array should be added as a Column but is currently transformed due to the bug"

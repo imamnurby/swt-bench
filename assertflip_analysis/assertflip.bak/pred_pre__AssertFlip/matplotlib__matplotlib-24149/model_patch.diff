@@ -1,0 +1,26 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24149.py
+new file mode 100644
+index e69de29..31f9d25 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24149.py
+@@ -0,0 +1,20 @@
++import pytest
++import numpy as np
++import matplotlib.pyplot as plt
++
++def test_bar_with_nan_values_does_not_raise():
++    # Set up a plot
++    fig, ax = plt.subplots()
++
++    # Test input with NaN values
++    x = [np.nan]
++    height = [np.nan]
++
++    # Ensure no exception is raised
++    try:
++        ax.bar(x, height)
++    except StopIteration:
++        pytest.fail("StopIteration was raised")
++
++    # Cleanup
++    plt.close(fig)

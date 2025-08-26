@@ -1,0 +1,49 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24637.py
+new file mode 100644
+index e69de29..2531315 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24637.py
+@@ -0,0 +1,43 @@
++import pytest
++import matplotlib.pyplot as plt
++from matplotlib.offsetbox import OffsetImage, AnnotationBbox
++import os
++
++def test_annotationbbox_gid_in_svg(tmpdir):
++    # Setup: Create a figure and axis
++    fig, ax = plt.subplots()
++
++    # Load an image (using a placeholder array as we don't have the actual image)
++    arr_img = [[1, 2], [3, 4]]  # Placeholder for an actual image
++
++    # Define position for the AnnotationBbox
++    xy = [0.3, 0.55]
++
++    # Create an OffsetImage and set it to the axis
++    imagebox = OffsetImage(arr_img, zoom=0.1)
++    imagebox.image.axes = ax
++
++    # Instantiate an AnnotationBbox with the OffsetImage and position
++    ab = AnnotationBbox(imagebox, xy, xybox=(120., -80.), xycoords='data',
++                        boxcoords="offset points", pad=0.5,
++                        arrowprops=dict(arrowstyle="->", connectionstyle="angle,angleA=0,angleB=90,rad=3"))
++
++    # Set a gid for the AnnotationBbox
++    ab.set_gid('My_label')
++
++    # Add the AnnotationBbox to the axis
++    ax.add_artist(ab)
++
++    # Save the figure to an SVG file
++    svg_path = os.path.join(tmpdir, "example.svg")
++    fig.savefig(svg_path, format="svg")
++
++    # Read the contents of the saved SVG file
++    with open(svg_path, 'r') as svg_file:
++        svg_content = svg_file.read()
++
++    # Assert that the gid is present in the SVG content
++    assert 'id="My_label"' in svg_content
++
++    # Cleanup: Close the figure
++    plt.close(fig)

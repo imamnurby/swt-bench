@@ -1,0 +1,1062 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD a7e7043c8746933dafce652507d3b821801cdc7d
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit a7e7043c8746933dafce652507d3b821801cdc7d
+Author: SwastikTripathi <88632085+SwastikTripathi@users.noreply.github.com>
+Date:   Fri Nov 12 22:23:25 2021 +0530
+
+    Fixed #33229 -- Fixed BaseDatabaseOperations.adapt_datetimefield_value()/adapt_timefield_value() crash with expressions.
+
+diff --git a/django/db/backends/base/operations.py b/django/db/backends/base/operations.py
+index 279297ac85..27fe486e2f 100644
+--- a/django/db/backends/base/operations.py
++++ b/django/db/backends/base/operations.py
+@@ -505,6 +505,10 @@ class BaseDatabaseOperations:
+         """
+         if value is None:
+             return None
++        # Expression values are adapted by the database.
++        if hasattr(value, 'resolve_expression'):
++            return value
++
+         return str(value)
+ 
+     def adapt_timefield_value(self, value):
+@@ -514,6 +518,10 @@ class BaseDatabaseOperations:
+         """
+         if value is None:
+             return None
++        # Expression values are adapted by the database.
++        if hasattr(value, 'resolve_expression'):
++            return value
++
+         if timezone.is_aware(value):
+             raise ValueError("Django does not support timezone-aware times.")
+         return str(value)
+diff --git a/tests/backends/base/test_operations.py b/tests/backends/base/test_operations.py
+index b7b7b9e3fc..535cb20f41 100644
+--- a/tests/backends/base/test_operations.py
++++ b/tests/backends/base/test_operations.py
+@@ -3,7 +3,7 @@ import decimal
+ from django.core.management.color import no_style
+ from django.db import NotSupportedError, connection, transaction
+ from django.db.backends.base.operations import BaseDatabaseOperations
+-from django.db.models import DurationField
++from django.db.models import DurationField, Value
+ from django.test import (
+     SimpleTestCase, TestCase, TransactionTestCase, override_settings,
+     skipIfDBFeature,
+@@ -72,9 +72,17 @@ class SimpleDatabaseOperationTests(SimpleTestCase):
+     def test_adapt_timefield_value_none(self):
+         self.assertIsNone(self.ops.adapt_timefield_value(None))
+ 
+-    def test_adapt_datetimefield_value(self):
++    def test_adapt_timefield_value_expression(self):
++        value = Value(timezone.now().time())
++        self.assertEqual(self.ops.adapt_timefield_value(value), value)
++
++    def test_adapt_datetimefield_value_none(self):
+         self.assertIsNone(self.ops.adapt_datetimefield_value(None))
+ 
++    def test_adapt_datetimefield_value_expression(self):
++        value = Value(timezone.now())
++        self.assertEqual(self.ops.adapt_datetimefield_value(value), value)
++
+     def test_adapt_timefield_value(self):
+         msg = 'Django does not support timezone-aware times.'
+         with self.assertRaisesMessage(ValueError, msg):
++ git diff a7e7043c8746933dafce652507d3b821801cdc7d
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20211119084757) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.1.dev20211119084757) (0.5.3)
+Requirement already satisfied: typing_extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from asgiref>=3.3.2->Django==4.1.dev20211119084757) (4.14.1)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.1.dev20211119084757-0.editable-py3-none-any.whl size=26878 sha256=3081266d8817ae7dd9dba0b797095aae00abf01f0859f3a591000ce091c3b36a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-1xb6zns2/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.1.dev20211119084757
+    Uninstalling Django-4.1.dev20211119084757:
+      Successfully uninstalled Django-4.1.dev20211119084757
+Successfully installed Django-4.1.dev20211119084757
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch django/db/migrations/autodetector.py...
+Applied patch django/db/migrations/autodetector.py cleanly.
++ git apply -v -
+<stdin>:26: trailing whitespace.
+        
+<stdin>:30: trailing whitespace.
+        
+Checking patch tests/test_coverup_django__django-15104.py...
+Applied patch tests/test_coverup_django__django-15104.py cleanly.
+warning: 2 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/migrations/autodetector\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-15104
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/migrations/autodetector\\.py)']
+Testing against Django installed in '/testbed/django'
+0.64 autodetector.py(1): import functools
+0.64 autodetector.py(2): import re
+0.64 autodetector.py(3): from itertools import chain
+0.64 autodetector.py(5): from django.conf import settings
+0.64 autodetector.py(6): from django.db import models
+0.64 autodetector.py(7): from django.db.migrations import operations
+0.64 autodetector.py(8): from django.db.migrations.migration import Migration
+0.64 autodetector.py(9): from django.db.migrations.operations.models import AlterModelOptions
+0.64 autodetector.py(10): from django.db.migrations.optimizer import MigrationOptimizer
+0.64 autodetector.py(11): from django.db.migrations.questioner import MigrationQuestioner
+0.65 autodetector.py(12): from django.db.migrations.utils import (
+0.65 autodetector.py(15): from django.utils.topological_sort import stable_topological_sort
+0.65 autodetector.py(18): class MigrationAutodetector:
+0.65 autodetector.py(18): class MigrationAutodetector:
+0.65 autodetector.py(19):     """
+0.65 autodetector.py(31):     def __init__(self, from_state, to_state, questioner=None):
+0.65 autodetector.py(37):     def changes(self, graph, trim_to_apps=None, convert_apps=None, migration_name=None):
+0.65 autodetector.py(49):     def deep_deconstruct(self, obj):
+0.65 autodetector.py(89):     def only_relation_agnostic_fields(self, fields):
+0.65 autodetector.py(103):     def _detect_changes(self, convert_apps=None, graph=None):
+0.65 autodetector.py(203):     def _prepare_field_lists(self):
+0.65 autodetector.py(227):     def _generate_through_model_map(self):
+0.65 autodetector.py(237):     @staticmethod
+0.65 autodetector.py(238):     def _resolve_dependency(dependency):
+0.65 autodetector.py(248):     def _build_migration_list(self, graph=None):
+0.65 autodetector.py(335):     def _sort_migrations(self):
+0.65 autodetector.py(356):     def _optimize_migrations(self):
+0.65 autodetector.py(372):     def check_dependency(self, operation, dependency):
+0.65 autodetector.py(435):     def add_operation(self, app_label, operation, dependencies=None, beginning=False):
+0.65 autodetector.py(443):     def swappable_first_key(self, item):
+0.65 autodetector.py(466):     def generate_renamed_models(self):
+0.65 autodetector.py(520):     def generate_created_models(self):
+0.65 autodetector.py(690):     def generate_created_proxies(self):
+0.65 autodetector.py(723):     def generate_deleted_models(self):
+0.65 autodetector.py(808):     def generate_deleted_proxies(self):
+0.65 autodetector.py(821):     def generate_renamed_fields(self):
+0.65 autodetector.py(874):     def generate_added_fields(self):
+0.65 autodetector.py(879):     def _generate_added_field(self, app_label, model_name, field_name):
+0.65 autodetector.py(918):     def generate_removed_fields(self):
+0.65 autodetector.py(923):     def _generate_removed_field(self, app_label, model_name, field_name):
+0.65 autodetector.py(939):     def generate_altered_fields(self):
+0.65 autodetector.py(1024):     def create_altered_indexes(self):
+0.65 autodetector.py(1042):     def generate_added_indexes(self):
+0.65 autodetector.py(1053):     def generate_removed_indexes(self):
+0.65 autodetector.py(1064):     def create_altered_constraints(self):
+0.65 autodetector.py(1082):     def generate_added_constraints(self):
+0.65 autodetector.py(1093):     def generate_removed_constraints(self):
+0.65 autodetector.py(1104):     @staticmethod
+0.65 autodetector.py(1105):     def _get_dependencies_for_foreign_key(app_label, model_name, field, project_state):
+0.65 autodetector.py(1135):     def _get_altered_foo_together_operations(self, option_name):
+0.65 autodetector.py(1171):     def _generate_removed_altered_foo_together(self, operation):
+0.65 autodetector.py(1187):     def generate_removed_altered_unique_together(self):
+0.65 autodetector.py(1190):     def generate_removed_altered_index_together(self):
+0.65 autodetector.py(1193):     def _generate_altered_foo_together(self, operation):
+0.65 autodetector.py(1209):     def generate_altered_unique_together(self):
+0.65 autodetector.py(1212):     def generate_altered_index_together(self):
+0.65 autodetector.py(1215):     def generate_altered_db_table(self):
+0.65 autodetector.py(1232):     def generate_altered_options(self):
+0.65 autodetector.py(1268):     def generate_altered_order_with_respect_to(self):
+0.65 autodetector.py(1295):     def generate_altered_managers(self):
+0.65 autodetector.py(1309):     def arrange_for_graph(self, changes, graph, migration_name=None):
+0.65 autodetector.py(1359):     def _trim_to_apps(self, changes, app_labels):
+0.65 autodetector.py(1384):     @classmethod
+0.65 autodetector.py(1385):     def parse_number(cls, name):
+Found 1 test(s).
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+System check identified no issues (0 silenced).
+test_reproduction (test_coverup_django__django-15104.ReproTestCase) ... 0.77 autodetector.py(32):         self.from_state = from_state
+0.77 autodetector.py(33):         self.to_state = to_state
+0.77 autodetector.py(34):         self.questioner = questioner or MigrationQuestioner()
+0.77 autodetector.py(35):         self.existing_apps = {app for app, model in from_state.models}
+0.77 autodetector.py(35):         self.existing_apps = {app for app, model in from_state.models}
+0.77 autodetector.py(35):         self.existing_apps = {app for app, model in from_state.models}
+0.77 autodetector.py(122):         self.generated_operations = {}
+0.77 autodetector.py(123):         self.altered_indexes = {}
+0.77 autodetector.py(124):         self.altered_constraints = {}
+0.77 autodetector.py(128):         self.old_model_keys = set()
+0.77 autodetector.py(129):         self.old_proxy_keys = set()
+0.77 autodetector.py(130):         self.old_unmanaged_keys = set()
+0.77 autodetector.py(131):         self.new_model_keys = set()
+0.77 autodetector.py(132):         self.new_proxy_keys = set()
+0.77 autodetector.py(133):         self.new_unmanaged_keys = set()
+0.77 autodetector.py(134):         for (app_label, model_name), model_state in self.from_state.models.items():
+0.77 autodetector.py(135):             if not model_state.options.get('managed', True):
+0.77 autodetector.py(137):             elif app_label not in self.from_state.real_apps:
+0.77 autodetector.py(138):                 if model_state.options.get('proxy'):
+0.77 autodetector.py(141):                     self.old_model_keys.add((app_label, model_name))
+0.77 autodetector.py(134):         for (app_label, model_name), model_state in self.from_state.models.items():
+0.77 autodetector.py(143):         for (app_label, model_name), model_state in self.to_state.models.items():
+0.77 autodetector.py(144):             if not model_state.options.get('managed', True):
+0.77 autodetector.py(147):                 app_label not in self.from_state.real_apps or
+0.77 autodetector.py(146):             elif (
+0.77 autodetector.py(150):                 if model_state.options.get('proxy'):
+0.77 autodetector.py(153):                     self.new_model_keys.add((app_label, model_name))
+0.77 autodetector.py(143):         for (app_label, model_name), model_state in self.to_state.models.items():
+0.77 autodetector.py(144):             if not model_state.options.get('managed', True):
+0.77 autodetector.py(147):                 app_label not in self.from_state.real_apps or
+0.77 autodetector.py(146):             elif (
+0.77 autodetector.py(150):                 if model_state.options.get('proxy'):
+0.77 autodetector.py(153):                     self.new_model_keys.add((app_label, model_name))
+0.77 autodetector.py(143):         for (app_label, model_name), model_state in self.to_state.models.items():
+0.77 autodetector.py(155):         self.from_state.resolve_fields_and_relations()
+0.77 autodetector.py(156):         self.to_state.resolve_fields_and_relations()
+0.77 autodetector.py(159):         self.generate_renamed_models()
+0.77 autodetector.py(472):         self.renamed_models = {}
+0.77 autodetector.py(473):         self.renamed_models_rel = {}
+0.77 autodetector.py(474):         added_models = self.new_model_keys - self.old_model_keys
+0.77 autodetector.py(475):         for app_label, model_name in sorted(added_models):
+0.77 autodetector.py(476):             model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(477):             model_fields_def = self.only_relation_agnostic_fields(model_state.fields)
+0.77 autodetector.py(95):         fields_def = []
+0.77 autodetector.py(96):         for name, field in sorted(fields.items()):
+0.77 autodetector.py(97):             deconstruction = self.deep_deconstruct(field)
+0.77 autodetector.py(55):         if isinstance(obj, list):
+0.77 autodetector.py(57):         elif isinstance(obj, tuple):
+0.77 autodetector.py(59):         elif isinstance(obj, dict):
+0.77 autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.77 autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.77 autodetector.py(68):         elif isinstance(obj, type):
+0.77 autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.77 autodetector.py(73):             deconstructed = obj.deconstruct()
+0.77 autodetector.py(74):             if isinstance(obj, models.Field):
+0.77 autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.77 autodetector.py(77):             path, args, kwargs = deconstructed
+0.77 autodetector.py(79):                 path,
+0.77 autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.77 autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.77 autodetector.py(81):                 {
+0.77 autodetector.py(83):                     for key, value in kwargs.items()
+0.77 autodetector.py(81):                 {
+0.77 autodetector.py(81):                 {
+0.77 autodetector.py(83):                     for key, value in kwargs.items()
+0.77 autodetector.py(82):                     key: self.deep_deconstruct(value)
+0.77 autodetector.py(55):         if isinstance(obj, list):
+0.77 autodetector.py(57):         elif isinstance(obj, tuple):
+0.77 autodetector.py(59):         elif isinstance(obj, dict):
+0.77 autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.77 autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.77 autodetector.py(68):         elif isinstance(obj, type):
+0.77 autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.77 autodetector.py(87):             return obj
+0.77 autodetector.py(81):                 {
+0.77 autodetector.py(78):             return (
+0.77 autodetector.py(98):             if field.remote_field and field.remote_field.model:
+0.77 autodetector.py(99):                 deconstruction[2].pop('to', None)
+0.77 autodetector.py(100):             fields_def.append(deconstruction)
+0.77 autodetector.py(96):         for name, field in sorted(fields.items()):
+0.77 autodetector.py(101):         return fields_def
+0.77 autodetector.py(479):             removed_models = self.old_model_keys - self.new_model_keys
+0.77 autodetector.py(480):             for rem_app_label, rem_model_name in removed_models:
+0.77 autodetector.py(475):         for app_label, model_name in sorted(added_models):
+0.77 autodetector.py(162):         self._prepare_field_lists()
+0.77 autodetector.py(209):         self.kept_model_keys = self.old_model_keys & self.new_model_keys
+0.77 autodetector.py(210):         self.kept_proxy_keys = self.old_proxy_keys & self.new_proxy_keys
+0.77 autodetector.py(211):         self.kept_unmanaged_keys = self.old_unmanaged_keys & self.new_unmanaged_keys
+0.77 autodetector.py(212):         self.through_users = {}
+0.77 autodetector.py(213):         self.old_field_keys = {
+0.77 autodetector.py(215):             for app_label, model_name in self.kept_model_keys
+0.77 autodetector.py(213):         self.old_field_keys = {
+0.77 autodetector.py(213):         self.old_field_keys = {
+0.77 autodetector.py(215):             for app_label, model_name in self.kept_model_keys
+0.77 autodetector.py(216):             for field_name in self.from_state.models[
+0.77 autodetector.py(217):                 app_label,
+0.77 autodetector.py(218):                 self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(217):                 app_label,
+0.77 autodetector.py(216):             for field_name in self.from_state.models[
+0.77 autodetector.py(213):         self.old_field_keys = {
+0.77 autodetector.py(221):         self.new_field_keys = {
+0.77 autodetector.py(223):             for app_label, model_name in self.kept_model_keys
+0.77 autodetector.py(221):         self.new_field_keys = {
+0.77 autodetector.py(221):         self.new_field_keys = {
+0.77 autodetector.py(223):             for app_label, model_name in self.kept_model_keys
+0.77 autodetector.py(224):             for field_name in self.to_state.models[app_label, model_name].fields
+0.77 autodetector.py(221):         self.new_field_keys = {
+0.77 autodetector.py(163):         self._generate_through_model_map()
+0.77 autodetector.py(229):         for app_label, model_name in sorted(self.old_model_keys):
+0.77 autodetector.py(230):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(231):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(232):             for field_name, field in old_model_state.fields.items():
+0.77 autodetector.py(229):         for app_label, model_name in sorted(self.old_model_keys):
+0.77 autodetector.py(166):         self.generate_deleted_models()
+0.77 autodetector.py(733):         new_keys = self.new_model_keys | self.new_unmanaged_keys
+0.77 autodetector.py(734):         deleted_models = self.old_model_keys - new_keys
+0.77 autodetector.py(735):         deleted_unmanaged_models = self.old_unmanaged_keys - new_keys
+0.77 autodetector.py(736):         all_deleted_models = chain(sorted(deleted_models), sorted(deleted_unmanaged_models))
+0.77 autodetector.py(737):         for app_label, model_name in all_deleted_models:
+0.77 autodetector.py(167):         self.generate_created_models()
+0.77 autodetector.py(530):         old_keys = self.old_model_keys | self.old_unmanaged_keys
+0.77 autodetector.py(531):         added_models = self.new_model_keys - old_keys
+0.77 autodetector.py(532):         added_unmanaged_models = self.new_unmanaged_keys - old_keys
+0.77 autodetector.py(533):         all_added_models = chain(
+0.77 autodetector.py(534):             sorted(added_models, key=self.swappable_first_key, reverse=True),
+0.77 autodetector.py(448):         try:
+0.77 autodetector.py(449):             model_state = self.to_state.models[item]
+0.77 autodetector.py(450):             base_names = {
+0.77 autodetector.py(452):                 for base in model_state.bases
+0.77 autodetector.py(450):             base_names = {
+0.77 autodetector.py(450):             base_names = {
+0.77 autodetector.py(452):                 for base in model_state.bases
+0.77 autodetector.py(451):                 base if isinstance(base, str) else base.__name__
+0.77 autodetector.py(450):             base_names = {
+0.77 autodetector.py(454):             string_version = "%s.%s" % (item[0], item[1])
+0.77 autodetector.py(456):                 model_state.options.get('swappable') or
+0.77 autodetector.py(455):             if (
+0.77 autodetector.py(457):                 "AbstractUser" in base_names or
+0.77 autodetector.py(455):             if (
+0.77 autodetector.py(458):                 "AbstractBaseUser" in base_names or
+0.77 autodetector.py(455):             if (
+0.77 autodetector.py(459):                 settings.AUTH_USER_MODEL.lower() == string_version.lower()
+0.77 autodetector.py(455):             if (
+0.77 autodetector.py(464):         return item
+0.77 autodetector.py(535):             sorted(added_unmanaged_models, key=self.swappable_first_key, reverse=True)
+0.77 autodetector.py(533):         all_added_models = chain(
+0.77 autodetector.py(537):         for app_label, model_name in all_added_models:
+0.77 autodetector.py(538):             model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(540):             related_fields = {}
+0.77 autodetector.py(541):             primary_key_rel = None
+0.77 autodetector.py(542):             for field_name, field in model_state.fields.items():
+0.77 autodetector.py(543):                 if field.remote_field:
+0.77 autodetector.py(544):                     if field.remote_field.model:
+0.77 autodetector.py(545):                         if field.primary_key:
+0.77 autodetector.py(547):                         elif not field.remote_field.parent_link:
+0.77 autodetector.py(548):                             related_fields[field_name] = field
+0.77 autodetector.py(549):                     if getattr(field.remote_field, 'through', None):
+0.77 autodetector.py(542):             for field_name, field in model_state.fields.items():
+0.77 autodetector.py(553):             indexes = model_state.options.pop('indexes')
+0.77 autodetector.py(554):             constraints = model_state.options.pop('constraints')
+0.77 autodetector.py(555):             unique_together = model_state.options.pop('unique_together', None)
+0.77 autodetector.py(556):             index_together = model_state.options.pop('index_together', None)
+0.77 autodetector.py(557):             order_with_respect_to = model_state.options.pop('order_with_respect_to', None)
+0.77 autodetector.py(560):                 (app_label, model_name, None, False),
+0.77 autodetector.py(559):             dependencies = [
+0.77 autodetector.py(563):             for base in model_state.bases:
+0.77 autodetector.py(564):                 if isinstance(base, str) and "." in base:
+0.77 autodetector.py(563):             for base in model_state.bases:
+0.77 autodetector.py(578):             if primary_key_rel:
+0.77 autodetector.py(585):             self.add_operation(
+0.77 autodetector.py(586):                 app_label,
+0.77 autodetector.py(587):                 operations.CreateModel(
+0.77 autodetector.py(588):                     name=model_state.name,
+0.77 autodetector.py(589):                     fields=[d for d in model_state.fields.items() if d[0] not in related_fields],
+0.77 autodetector.py(589):                     fields=[d for d in model_state.fields.items() if d[0] not in related_fields],
+0.77 autodetector.py(589):                     fields=[d for d in model_state.fields.items() if d[0] not in related_fields],
+0.77 autodetector.py(590):                     options=model_state.options,
+0.77 autodetector.py(591):                     bases=model_state.bases,
+0.77 autodetector.py(592):                     managers=model_state.managers,
+0.77 autodetector.py(587):                 operations.CreateModel(
+0.77 autodetector.py(594):                 dependencies=dependencies,
+0.77 autodetector.py(595):                 beginning=True,
+0.77 autodetector.py(585):             self.add_operation(
+0.77 autodetector.py(437):         operation._auto_deps = dependencies or []
+0.77 autodetector.py(438):         if beginning:
+0.77 autodetector.py(439):             self.generated_operations.setdefault(app_label, []).insert(0, operation)
+0.77 autodetector.py(599):             if not model_state.options.get('managed', True):
+0.77 autodetector.py(603):             for name, field in sorted(related_fields.items()):
+0.77 autodetector.py(604):                 dependencies = self._get_dependencies_for_foreign_key(
+0.77 autodetector.py(605):                     app_label, model_name, field, self.to_state,
+0.77 autodetector.py(604):                 dependencies = self._get_dependencies_for_foreign_key(
+0.77 autodetector.py(1106):         remote_field_model = None
+0.77 autodetector.py(1107):         if hasattr(field.remote_field, 'model'):
+0.77 autodetector.py(1108):             remote_field_model = field.remote_field.model
+0.77 autodetector.py(1119):         swappable_setting = getattr(field, 'swappable_setting', None)
+0.77 autodetector.py(1120):         if swappable_setting is not None:
+0.77 autodetector.py(1124):             dep_app_label, dep_object_name = resolve_relation(
+0.77 autodetector.py(1125):                 remote_field_model, app_label, model_name,
+0.77 autodetector.py(1124):             dep_app_label, dep_object_name = resolve_relation(
+0.77 autodetector.py(1127):         dependencies = [(dep_app_label, dep_object_name, None, True)]
+0.77 autodetector.py(1128):         if getattr(field.remote_field, 'through', None):
+0.77 autodetector.py(1133):         return dependencies
+0.77 autodetector.py(608):                 dependencies.append((app_label, model_name, None, True))
+0.77 autodetector.py(610):                 self.add_operation(
+0.77 autodetector.py(611):                     app_label,
+0.77 autodetector.py(612):                     operations.AddField(
+0.77 autodetector.py(613):                         model_name=model_name,
+0.77 autodetector.py(614):                         name=name,
+0.77 autodetector.py(615):                         field=field,
+0.77 autodetector.py(612):                     operations.AddField(
+0.77 autodetector.py(617):                     dependencies=list(set(dependencies)),
+0.77 autodetector.py(610):                 self.add_operation(
+0.77 autodetector.py(437):         operation._auto_deps = dependencies or []
+0.77 autodetector.py(438):         if beginning:
+0.77 autodetector.py(441):             self.generated_operations.setdefault(app_label, []).append(operation)
+0.77 autodetector.py(603):             for name, field in sorted(related_fields.items()):
+0.77 autodetector.py(620):             if order_with_respect_to:
+0.77 autodetector.py(632):             related_dependencies = [
+0.77 autodetector.py(634):                 for name in sorted(related_fields)
+0.77 autodetector.py(632):             related_dependencies = [
+0.77 autodetector.py(632):             related_dependencies = [
+0.77 autodetector.py(634):                 for name in sorted(related_fields)
+0.77 autodetector.py(633):                 (app_label, model_name, name, True)
+0.77 autodetector.py(632):             related_dependencies = [
+0.77 autodetector.py(636):             related_dependencies.append((app_label, model_name, None, True))
+0.77 autodetector.py(637):             for index in indexes:
+0.77 autodetector.py(646):             for constraint in constraints:
+0.77 autodetector.py(655):             if unique_together:
+0.77 autodetector.py(664):             if index_together:
+0.77 autodetector.py(675):             relations = self.to_state.relations
+0.77 autodetector.py(676):             if (app_label, model_name) in self.old_proxy_keys:
+0.77 autodetector.py(537):         for app_label, model_name in all_added_models:
+0.77 autodetector.py(168):         self.generate_deleted_proxies()
+0.77 autodetector.py(810):         deleted = self.old_proxy_keys - self.new_proxy_keys
+0.77 autodetector.py(811):         for app_label, model_name in sorted(deleted):
+0.77 autodetector.py(169):         self.generate_created_proxies()
+0.77 autodetector.py(696):         added = self.new_proxy_keys - self.old_proxy_keys
+0.77 autodetector.py(697):         for app_label, model_name in sorted(added):
+0.77 autodetector.py(170):         self.generate_altered_options()
+0.77 autodetector.py(1238):         models_to_check = self.kept_model_keys.union(
+0.77 autodetector.py(1239):             self.kept_proxy_keys,
+0.77 autodetector.py(1240):             self.kept_unmanaged_keys,
+0.77 autodetector.py(1242):             self.old_unmanaged_keys & self.new_model_keys,
+0.77 autodetector.py(1244):             self.old_model_keys & self.new_unmanaged_keys,
+0.77 autodetector.py(1238):         models_to_check = self.kept_model_keys.union(
+0.77 autodetector.py(1247):         for app_label, model_name in sorted(models_to_check):
+0.77 autodetector.py(1248):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1249):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1250):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1251):             old_options = {
+0.77 autodetector.py(1252):                 key: value for key, value in old_model_state.options.items()
+0.77 autodetector.py(1251):             old_options = {
+0.77 autodetector.py(1251):             old_options = {
+0.77 autodetector.py(1252):                 key: value for key, value in old_model_state.options.items()
+0.77 autodetector.py(1253):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.77 autodetector.py(1251):             old_options = {
+0.77 autodetector.py(1252):                 key: value for key, value in old_model_state.options.items()
+0.77 autodetector.py(1253):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.77 autodetector.py(1251):             old_options = {
+0.77 autodetector.py(1255):             new_options = {
+0.77 autodetector.py(1256):                 key: value for key, value in new_model_state.options.items()
+0.77 autodetector.py(1255):             new_options = {
+0.77 autodetector.py(1255):             new_options = {
+0.77 autodetector.py(1256):                 key: value for key, value in new_model_state.options.items()
+0.77 autodetector.py(1257):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.77 autodetector.py(1255):             new_options = {
+0.77 autodetector.py(1256):                 key: value for key, value in new_model_state.options.items()
+0.77 autodetector.py(1257):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.77 autodetector.py(1255):             new_options = {
+0.77 autodetector.py(1259):             if old_options != new_options:
+0.77 autodetector.py(1247):         for app_label, model_name in sorted(models_to_check):
+0.77 autodetector.py(171):         self.generate_altered_managers()
+0.77 autodetector.py(1296):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1297):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1298):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1299):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1300):             if old_model_state.managers != new_model_state.managers:
+0.77 autodetector.py(1296):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(176):         self.create_altered_indexes()
+0.77 autodetector.py(1025):         option_name = operations.AddIndex.option_name
+0.77 autodetector.py(1026):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1027):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1028):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1029):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1031):             old_indexes = old_model_state.options[option_name]
+0.77 autodetector.py(1032):             new_indexes = new_model_state.options[option_name]
+0.77 autodetector.py(1033):             add_idx = [idx for idx in new_indexes if idx not in old_indexes]
+0.77 autodetector.py(1033):             add_idx = [idx for idx in new_indexes if idx not in old_indexes]
+0.77 autodetector.py(1034):             rem_idx = [idx for idx in old_indexes if idx not in new_indexes]
+0.77 autodetector.py(1034):             rem_idx = [idx for idx in old_indexes if idx not in new_indexes]
+0.77 autodetector.py(1036):             self.altered_indexes.update({
+0.77 autodetector.py(1037):                 (app_label, model_name): {
+0.77 autodetector.py(1038):                     'added_indexes': add_idx, 'removed_indexes': rem_idx,
+0.77 autodetector.py(1037):                 (app_label, model_name): {
+0.77 autodetector.py(1036):             self.altered_indexes.update({
+0.77 autodetector.py(1026):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(177):         self.create_altered_constraints()
+0.77 autodetector.py(1065):         option_name = operations.AddConstraint.option_name
+0.77 autodetector.py(1066):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1067):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1068):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1069):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1071):             old_constraints = old_model_state.options[option_name]
+0.77 autodetector.py(1072):             new_constraints = new_model_state.options[option_name]
+0.77 autodetector.py(1073):             add_constraints = [c for c in new_constraints if c not in old_constraints]
+0.77 autodetector.py(1073):             add_constraints = [c for c in new_constraints if c not in old_constraints]
+0.77 autodetector.py(1074):             rem_constraints = [c for c in old_constraints if c not in new_constraints]
+0.77 autodetector.py(1074):             rem_constraints = [c for c in old_constraints if c not in new_constraints]
+0.77 autodetector.py(1076):             self.altered_constraints.update({
+0.77 autodetector.py(1077):                 (app_label, model_name): {
+0.77 autodetector.py(1078):                     'added_constraints': add_constraints, 'removed_constraints': rem_constraints,
+0.77 autodetector.py(1077):                 (app_label, model_name): {
+0.77 autodetector.py(1076):             self.altered_constraints.update({
+0.77 autodetector.py(1066):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(179):         self.generate_removed_constraints()
+0.77 autodetector.py(1094):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.77 autodetector.py(1095):             for constraint in alt_constraints['removed_constraints']:
+0.77 autodetector.py(1094):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.77 autodetector.py(180):         self.generate_removed_indexes()
+0.77 autodetector.py(1054):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.77 autodetector.py(1055):             for index in alt_indexes['removed_indexes']:
+0.77 autodetector.py(1054):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.77 autodetector.py(182):         self.generate_renamed_fields()
+0.77 autodetector.py(823):         self.renamed_fields = {}
+0.77 autodetector.py(824):         for app_label, model_name, field_name in sorted(self.new_field_keys - self.old_field_keys):
+0.77 autodetector.py(184):         self.generate_removed_altered_unique_together()
+0.77 autodetector.py(1188):         self._generate_removed_altered_foo_together(operations.AlterUniqueTogether)
+0.77 autodetector.py(1178):         ) in self._get_altered_foo_together_operations(operation.option_name):
+0.77 autodetector.py(1172):         for (
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1137):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1138):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1139):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1142):             old_value = old_model_state.options.get(option_name)
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1151):             new_value = new_model_state.options.get(option_name)
+0.77 autodetector.py(1152):             new_value = set(new_value) if new_value else set()
+0.77 autodetector.py(1154):             if old_value != new_value:
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(185):         self.generate_removed_altered_index_together()
+0.77 autodetector.py(1191):         self._generate_removed_altered_foo_together(operations.AlterIndexTogether)
+0.77 autodetector.py(1178):         ) in self._get_altered_foo_together_operations(operation.option_name):
+0.77 autodetector.py(1172):         for (
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1137):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1138):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1139):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1142):             old_value = old_model_state.options.get(option_name)
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1151):             new_value = new_model_state.options.get(option_name)
+0.77 autodetector.py(1152):             new_value = set(new_value) if new_value else set()
+0.77 autodetector.py(1154):             if old_value != new_value:
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(187):         self.generate_removed_fields()
+0.77 autodetector.py(920):         for app_label, model_name, field_name in sorted(self.old_field_keys - self.new_field_keys):
+0.77 autodetector.py(188):         self.generate_added_fields()
+0.77 autodetector.py(876):         for app_label, model_name, field_name in sorted(self.new_field_keys - self.old_field_keys):
+0.77 autodetector.py(189):         self.generate_altered_fields()
+0.77 autodetector.py(944):         for app_label, model_name, field_name in sorted(self.old_field_keys & self.new_field_keys):
+0.77 autodetector.py(190):         self.generate_altered_order_with_respect_to()
+0.77 autodetector.py(1269):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1270):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1271):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1272):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1273):             if (old_model_state.options.get("order_with_respect_to") !=
+0.77 autodetector.py(1274):                     new_model_state.options.get("order_with_respect_to")):
+0.77 autodetector.py(1273):             if (old_model_state.options.get("order_with_respect_to") !=
+0.77 autodetector.py(1269):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(191):         self.generate_altered_unique_together()
+0.77 autodetector.py(1210):         self._generate_altered_foo_together(operations.AlterUniqueTogether)
+0.77 autodetector.py(1200):         ) in self._get_altered_foo_together_operations(operation.option_name):
+0.77 autodetector.py(1194):         for (
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1137):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1138):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1139):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1142):             old_value = old_model_state.options.get(option_name)
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1151):             new_value = new_model_state.options.get(option_name)
+0.77 autodetector.py(1152):             new_value = set(new_value) if new_value else set()
+0.77 autodetector.py(1154):             if old_value != new_value:
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(192):         self.generate_altered_index_together()
+0.77 autodetector.py(1213):         self._generate_altered_foo_together(operations.AlterIndexTogether)
+0.77 autodetector.py(1200):         ) in self._get_altered_foo_together_operations(operation.option_name):
+0.77 autodetector.py(1194):         for (
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(1137):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1138):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1139):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1142):             old_value = old_model_state.options.get(option_name)
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1149):             } if old_value else set()
+0.77 autodetector.py(1143):             old_value = {
+0.77 autodetector.py(1151):             new_value = new_model_state.options.get(option_name)
+0.77 autodetector.py(1152):             new_value = set(new_value) if new_value else set()
+0.77 autodetector.py(1154):             if old_value != new_value:
+0.77 autodetector.py(1136):         for app_label, model_name in sorted(self.kept_model_keys):
+0.77 autodetector.py(193):         self.generate_added_indexes()
+0.77 autodetector.py(1043):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.77 autodetector.py(1044):             for index in alt_indexes['added_indexes']:
+0.77 autodetector.py(1043):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.77 autodetector.py(194):         self.generate_added_constraints()
+0.77 autodetector.py(1083):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.77 autodetector.py(1084):             for constraint in alt_constraints['added_constraints']:
+0.77 autodetector.py(1083):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.77 autodetector.py(195):         self.generate_altered_db_table()
+0.77 autodetector.py(1216):         models_to_check = self.kept_model_keys.union(self.kept_proxy_keys, self.kept_unmanaged_keys)
+0.77 autodetector.py(1217):         for app_label, model_name in sorted(models_to_check):
+0.77 autodetector.py(1218):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.77 autodetector.py(1219):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.77 autodetector.py(1220):             new_model_state = self.to_state.models[app_label, model_name]
+0.77 autodetector.py(1221):             old_db_table_name = old_model_state.options.get('db_table')
+0.77 autodetector.py(1222):             new_db_table_name = new_model_state.options.get('db_table')
+0.77 autodetector.py(1223):             if old_db_table_name != new_db_table_name:
+0.77 autodetector.py(1217):         for app_label, model_name in sorted(models_to_check):
+0.77 autodetector.py(197):         self._sort_migrations()
+0.77 autodetector.py(340):         for app_label, ops in sorted(self.generated_operations.items()):
+0.77 autodetector.py(342):             dependency_graph = {op: set() for op in ops}
+0.77 autodetector.py(342):             dependency_graph = {op: set() for op in ops}
+0.77 autodetector.py(342):             dependency_graph = {op: set() for op in ops}
+0.77 autodetector.py(342):             dependency_graph = {op: set() for op in ops}
+0.77 autodetector.py(343):             for op in ops:
+0.77 autodetector.py(344):                 for dep in op._auto_deps:
+0.77 autodetector.py(347):                     dep = self._resolve_dependency(dep)[0]
+0.77 autodetector.py(243):         if dependency[0] != '__setting__':
+0.77 autodetector.py(244):             return dependency, False
+0.77 autodetector.py(348):                     if dep[0] == app_label:
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(350):                             if self.check_dependency(op2, dep):
+0.77 autodetector.py(378):         if dependency[2] is None and dependency[3] is True:
+0.77 autodetector.py(384):         elif dependency[2] is not None and dependency[3] is True:
+0.77 autodetector.py(398):         elif dependency[2] is not None and dependency[3] is False:
+0.77 autodetector.py(405):         elif dependency[2] is None and dependency[3] is False:
+0.77 autodetector.py(407):                 isinstance(operation, operations.DeleteModel) and
+0.77 autodetector.py(406):             return (
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(350):                             if self.check_dependency(op2, dep):
+0.77 autodetector.py(378):         if dependency[2] is None and dependency[3] is True:
+0.77 autodetector.py(384):         elif dependency[2] is not None and dependency[3] is True:
+0.77 autodetector.py(398):         elif dependency[2] is not None and dependency[3] is False:
+0.77 autodetector.py(405):         elif dependency[2] is None and dependency[3] is False:
+0.77 autodetector.py(407):                 isinstance(operation, operations.DeleteModel) and
+0.77 autodetector.py(406):             return (
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(344):                 for dep in op._auto_deps:
+0.77 autodetector.py(343):             for op in ops:
+0.77 autodetector.py(344):                 for dep in op._auto_deps:
+0.77 autodetector.py(347):                     dep = self._resolve_dependency(dep)[0]
+0.77 autodetector.py(243):         if dependency[0] != '__setting__':
+0.77 autodetector.py(244):             return dependency, False
+0.77 autodetector.py(348):                     if dep[0] == app_label:
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(350):                             if self.check_dependency(op2, dep):
+0.77 autodetector.py(378):         if dependency[2] is None and dependency[3] is True:
+0.77 autodetector.py(380):                 isinstance(operation, operations.CreateModel) and
+0.77 autodetector.py(381):                 operation.name_lower == dependency[1].lower()
+0.77 autodetector.py(379):             return (
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(350):                             if self.check_dependency(op2, dep):
+0.77 autodetector.py(378):         if dependency[2] is None and dependency[3] is True:
+0.77 autodetector.py(380):                 isinstance(operation, operations.CreateModel) and
+0.77 autodetector.py(379):             return (
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(344):                 for dep in op._auto_deps:
+0.77 autodetector.py(347):                     dep = self._resolve_dependency(dep)[0]
+0.77 autodetector.py(243):         if dependency[0] != '__setting__':
+0.77 autodetector.py(244):             return dependency, False
+0.77 autodetector.py(348):                     if dep[0] == app_label:
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(350):                             if self.check_dependency(op2, dep):
+0.77 autodetector.py(378):         if dependency[2] is None and dependency[3] is True:
+0.77 autodetector.py(380):                 isinstance(operation, operations.CreateModel) and
+0.77 autodetector.py(381):                 operation.name_lower == dependency[1].lower()
+0.77 autodetector.py(379):             return (
+0.77 autodetector.py(351):                                 dependency_graph[op].add(op2)
+0.77 autodetector.py(349):                         for op2 in ops:
+0.77 autodetector.py(350):                             if self.check_dependency(op2, dep):
+0.77 autodetector.py(378):         if dependency[2] is None and dependency[3] is True:
+0.78 autodetector.py(380):                 isinstance(operation, operations.CreateModel) and
+0.78 autodetector.py(379):             return (
+0.78 autodetector.py(349):                         for op2 in ops:
+0.78 autodetector.py(344):                 for dep in op._auto_deps:
+0.78 autodetector.py(343):             for op in ops:
+0.78 autodetector.py(354):             self.generated_operations[app_label] = stable_topological_sort(ops, dependency_graph)
+0.78 autodetector.py(340):         for app_label, ops in sorted(self.generated_operations.items()):
+0.78 autodetector.py(198):         self._build_migration_list(graph)
+0.78 FAIL
+
+======================================================================
+FAIL: test_reproduction (test_coverup_django__django-15104.ReproTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-15104.py", line 27, in test_reproduction
+    self.assertEqual(len(changes['testapp']), 0)
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+autodetector.py(259):         self.migrations = {}
+0.78 autodetector.py(260):         num_ops = sum(len(x) for x in self.generated_operations.values())
+0.78 autodetector.py(260):         num_ops = sum(len(x) for x in self.generated_operations.values())
+0.78 autodetector.py(260):         num_ops = sum(len(x) for x in self.generated_operations.values())
+0.78 autodetector.py(261):         chop_mode = False
+0.78 autodetector.py(262):         while num_ops:
+0.78 autodetector.py(269):             for app_label in sorted(self.generated_operations):
+0.78 autodetector.py(270):                 chopped = []
+0.78 autodetector.py(271):                 dependencies = set()
+0.78 autodetector.py(272):                 for operation in list(self.generated_operations[app_label]):
+0.78 autodetector.py(273):                     deps_satisfied = True
+0.78 autodetector.py(274):                     operation_dependencies = set()
+0.78 autodetector.py(275):                     for dep in operation._auto_deps:
+0.78 autodetector.py(280):                         original_dep = dep
+0.78 autodetector.py(281):                         dep, is_swappable_dep = self._resolve_dependency(dep)
+0.78 autodetector.py(243):         if dependency[0] != '__setting__':
+0.78 autodetector.py(244):             return dependency, False
+0.78 autodetector.py(282):                         if dep[0] != app_label:
+0.78 autodetector.py(275):                     for dep in operation._auto_deps:
+0.78 autodetector.py(309):                     if deps_satisfied:
+0.78 autodetector.py(310):                         chopped.append(operation)
+0.78 autodetector.py(311):                         dependencies.update(operation_dependencies)
+0.78 autodetector.py(312):                         del self.generated_operations[app_label][0]
+0.78 autodetector.py(272):                 for operation in list(self.generated_operations[app_label]):
+0.78 autodetector.py(273):                     deps_satisfied = True
+0.78 autodetector.py(274):                     operation_dependencies = set()
+0.78 autodetector.py(275):                     for dep in operation._auto_deps:
+0.78 autodetector.py(280):                         original_dep = dep
+0.78 autodetector.py(281):                         dep, is_swappable_dep = self._resolve_dependency(dep)
+0.78 autodetector.py(243):         if dependency[0] != '__setting__':
+0.78 autodetector.py(244):             return dependency, False
+0.78 autodetector.py(282):                         if dep[0] != app_label:
+0.78 autodetector.py(275):                     for dep in operation._auto_deps:
+0.78 autodetector.py(280):                         original_dep = dep
+0.78 autodetector.py(281):                         dep, is_swappable_dep = self._resolve_dependency(dep)
+0.78 autodetector.py(243):         if dependency[0] != '__setting__':
+0.78 autodetector.py(244):             return dependency, False
+0.78 autodetector.py(282):                         if dep[0] != app_label:
+0.78 autodetector.py(275):                     for dep in operation._auto_deps:
+0.78 autodetector.py(309):                     if deps_satisfied:
+0.78 autodetector.py(310):                         chopped.append(operation)
+0.78 autodetector.py(311):                         dependencies.update(operation_dependencies)
+0.78 autodetector.py(312):                         del self.generated_operations[app_label][0]
+0.78 autodetector.py(272):                 for operation in list(self.generated_operations[app_label]):
+0.78 autodetector.py(316):                 if dependencies or chopped:
+0.78 autodetector.py(317):                     if not self.generated_operations[app_label] or chop_mode:
+0.78 autodetector.py(318):                         subclass = type("Migration", (Migration,), {"operations": [], "dependencies": []})
+0.78 autodetector.py(319):                         instance = subclass("auto_%i" % (len(self.migrations.get(app_label, [])) + 1), app_label)
+0.78 autodetector.py(320):                         instance.dependencies = list(dependencies)
+0.78 autodetector.py(321):                         instance.operations = chopped
+0.78 autodetector.py(322):                         instance.initial = app_label not in self.existing_apps
+0.78 autodetector.py(323):                         self.migrations.setdefault(app_label, []).append(instance)
+0.78 autodetector.py(324):                         chop_mode = False
+0.78 autodetector.py(269):             for app_label in sorted(self.generated_operations):
+0.78 autodetector.py(327):             new_num_ops = sum(len(x) for x in self.generated_operations.values())
+0.78 autodetector.py(327):             new_num_ops = sum(len(x) for x in self.generated_operations.values())
+0.78 autodetector.py(327):             new_num_ops = sum(len(x) for x in self.generated_operations.values())
+0.78 autodetector.py(328):             if new_num_ops == num_ops:
+0.78 autodetector.py(333):             num_ops = new_num_ops
+0.78 autodetector.py(262):         while num_ops:
+0.78 autodetector.py(199):         self._optimize_migrations()
+0.78 autodetector.py(358):         for app_label, migrations in self.migrations.items():
+0.78 autodetector.py(359):             for m1, m2 in zip(migrations, migrations[1:]):
+0.78 autodetector.py(358):         for app_label, migrations in self.migrations.items():
+0.78 autodetector.py(363):         for migrations in self.migrations.values():
+0.78 autodetector.py(364):             for migration in migrations:
+0.78 autodetector.py(365):                 migration.dependencies = list(set(migration.dependencies))
+0.78 autodetector.py(364):             for migration in migrations:
+0.78 autodetector.py(363):         for migrations in self.migrations.values():
+0.78 autodetector.py(368):         for app_label, migrations in self.migrations.items():
+0.78 autodetector.py(369):             for migration in migrations:
+0.78 autodetector.py(370):                 migration.operations = MigrationOptimizer().optimize(migration.operations, app_label)
+0.78 autodetector.py(369):             for migration in migrations:
+0.78 autodetector.py(368):         for app_label, migrations in self.migrations.items():
+0.78 autodetector.py(201):         return self.migrations
++ cat coverage.cover
+{"/testbed/django/db/migrations/autodetector.py": {"1": 1, "2": 1, "3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 1, "18": 2, "31": 1, "37": 1, "49": 1, "89": 1, "103": 1, "203": 1, "227": 1, "237": 1, "238": 1, "248": 1, "335": 1, "356": 1, "372": 1, "435": 1, "443": 1, "466": 1, "520": 1, "690": 1, "723": 1, "808": 1, "821": 1, "874": 1, "879": 1, "918": 1, "923": 1, "939": 1, "1024": 1, "1042": 1, "1053": 1, "1064": 1, "1082": 1, "1093": 1, "1104": 1, "1105": 1, "1135": 1, "1171": 1, "1187": 1, "1190": 1, "1193": 1, "1209": 1, "1212": 1, "1215": 1, "1232": 1, "1268": 1, "1295": 1, "1309": 1, "1359": 1, "1384": 1, "1385": 1, "32": 1, "33": 1, "34": 1, "35": 3, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "55": 2, "56": 0, "57": 2, "58": 0, "59": 2, "60": 0, "62": 0, "64": 2, "65": 0, "66": 2, "67": 0, "68": 2, "71": 0, "72": 2, "73": 1, "74": 1, "76": 1, "77": 1, "79": 1, "80": 2, "81": 4, "83": 2, "78": 1, "87": 1, "61": 0, "82": 1, "95": 1, "96": 2, "97": 1, "98": 1, "99": 1, "100": 1, "101": 1, "122": 1, "123": 1, "124": 1, "128": 1, "129": 1, "130": 1, "131": 1, "132": 1, "133": 1, "134": 2, "135": 1, "136": 0, "137": 1, "138": 1, "139": 0, "141": 1, "143": 3, "144": 2, "145": 0, "147": 2, "146": 2, "148": 0, "150": 2, "151": 0, "153": 2, "155": 1, "156": 1, "159": 1, "162": 1, "163": 1, "166": 1, "167": 1, "168": 1, "169": 1, "170": 1, "171": 1, "176": 1, "177": 1, "179": 1, "180": 1, "182": 1, "184": 1, "185": 1, "187": 1, "188": 1, "189": 1, "190": 1, "191": 1, "192": 1, "193": 1, "194": 1, "195": 1, "197": 1, "198": 1, "199": 1, "201": 1, "209": 1, "210": 1, "211": 1, "212": 1, "213": 4, "215": 2, "221": 4, "223": 2, "216": 2, "217": 2, "218": 1, "214": 0, "224": 1, "222": 0, "229": 2, "230": 1, "231": 1, "232": 1, "233": 0, "234": 0, "235": 0, "243": 6, "244": 6, "245": 0, "246": 0, "259": 1, "260": 3, "261": 1, "262": 2, "269": 2, "270": 1, "271": 1, "272": 3, "273": 2, "274": 2, "275": 5, "280": 3, "281": 3, "282": 3, "285": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "292": 0, "293": 0, "294": 0, "295": 0, "299": 0, "303": 0, "304": 0, "306": 0, "308": 0, "309": 2, "310": 2, "311": 2, "312": 2, "314": 0, "316": 1, "317": 1, "318": 1, "319": 1, "320": 1, "321": 1, "322": 1, "323": 1, "324": 1, "326": 0, "327": 3, "328": 1, "329": 0, "330": 0, "332": 0, "333": 1, "340": 2, "342": 4, "343": 3, "344": 5, "347": 3, "348": 3, "349": 9, "350": 6, "351": 1, "354": 1, "358": 2, "359": 1, "360": 0, "363": 2, "364": 2, "365": 1, "368": 2, "369": 2, "370": 1, "378": 6, "380": 4, "381": 2, "379": 4, "384": 2, "387": 0, "388": 0, "389": 0, "386": 0, "392": 0, "393": 0, "394": 0, "385": 0, "398": 2, "400": 0, "401": 0, "402": 0, "399": 0, "405": 2, "407": 2, "408": 0, "406": 2, "411": 0, "413": 0, "414": 0, "415": 0, "412": 0, "418": 0, "420": 0, "421": 0, "422": 0, "419": 0, "425": 0, "427": 0, "428": 0, "429": 0, "426": 0, "433": 0, "437": 2, "438": 2, "439": 1, "441": 1, "448": 1, "449": 1, "450": 4, "452": 2, "454": 1, "456": 1, "455": 4, "457": 1, "458": 1, "459": 1, "461": 0, "462": 0, "463": 0, "464": 1, "451": 1, "472": 1, "473": 1, "474": 1, "475": 2, "476": 1, "477": 1, "479": 1, "480": 1, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "489": 0, "492": 0, "493": 0, "494": 0, "495": 0, "496": 0, "499": 0, "500": 0, "501": 0, "502": 0, "503": 0, "505": 0, "507": 0, "508": 0, "509": 0, "510": 0, "512": 0, "513": 0, "514": 0, "516": 0, "517": 0, "518": 0, "490": 0, "488": 0, "530": 1, "531": 1, "532": 1, "533": 2, "534": 1, "535": 1, "537": 2, "538": 1, "540": 1, "541": 1, "542": 2, "543": 1, "544": 1, "545": 1, "546": 0, "547": 1, "548": 1, "549": 1, "550": 0, "553": 1, "554": 1, "555": 1, "556": 1, "557": 1, "560": 1, "559": 1, "563": 2, "564": 1, "565": 0, "566": 0, "569": 0, "570": 0, "571": 0, "572": 0, "573": 0, "574": 0, "575": 0, "576": 0, "578": 1, "579": 0, "580": 0, "581": 0, "582": 0, "585": 2, "586": 1, "587": 2, "588": 1, "589": 3, "590": 1, "591": 1, "592": 1, "594": 1, "595": 1, "599": 1, "600": 0, "603": 2, "604": 2, "605": 1, "608": 1, "610": 2, "611": 1, "612": 2, "613": 1, "614": 1, "615": 1, "617": 1, "620": 1, "621": 0, "622": 0, "623": 0, "624": 0, "625": 0, "628": 0, "629": 0, "627": 0, "632": 4, "634": 2, "636": 1, "637": 1, "638": 0, "639": 0, "640": 0, "641": 0, "642": 0, "644": 0, "646": 1, "647": 0, "648": 0, "649": 0, "650": 0, "651": 0, "653": 0, "655": 1, "656": 0, "657": 0, "658": 0, "659": 0, "660": 0, "662": 0, "664": 1, "665": 0, "666": 0, "667": 0, "668": 0, "669": 0, "671": 0, "675": 1, "676": 1, "677": 0, "678": 0, "679": 0, "680": 0, "681": 0, "682": 0, "683": 0, "684": 0, "685": 0, "687": 0, "633": 1, "696": 1, "697": 1, "698": 0, "699": 0, "702": 0, "701": 0, "705": 0, "706": 0, "707": 0, "708": 0, "710": 0, "711": 0, "712": 0, "713": 0, "714": 0, "715": 0, "716": 0, "717": 0, "720": 0, "733": 1, "734": 1, "735": 1, "736": 1, "737": 1, "738": 0, "740": 0, "741": 0, "742": 0, "743": 0, "744": 0, "745": 0, "746": 0, "748": 0, "749": 0, "750": 0, "751": 0, "752": 0, "753": 0, "754": 0, "755": 0, "758": 0, "759": 0, "760": 0, "761": 0, "762": 0, "763": 0, "767": 0, "768": 0, "769": 0, "770": 0, "771": 0, "772": 0, "779": 0, "780": 0, "782": 0, "781": 0, "784": 0, "785": 0, "786": 0, "788": 0, "789": 0, "790": 0, "793": 0, "794": 0, "796": 0, "797": 0, "798": 0, "800": 0, "801": 0, "802": 0, "803": 0, "805": 0, "810": 1, "811": 1, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "817": 0, "823": 1, "824": 1, "825": 0, "826": 0, "827": 0, "828": 0, "830": 0, "831": 0, "832": 0, "833": 0, "834": 0, "835": 0, "836": 0, "837": 0, "838": 0, "839": 0, "840": 0, "841": 0, "844": 0, "845": 0, "846": 0, "850": 0, "851": 0, "852": 0, "853": 0, "854": 0, "855": 0, "856": 0, "857": 0, "858": 0, "861": 0, "862": 0, "863": 0, "864": 0, "865": 0, "866": 0, "869": 0, "870": 0, "871": 0, "872": 0, "876": 1, "877": 0, "880": 0, "882": 0, "883": 0, "884": 0, "885": 0, "889": 0, "891": 0, "892": 0, "893": 0, "890": 0, "895": 0, "896": 0, "897": 0, "898": 0, "900": 0, "902": 0, "901": 0, "903": 0, "904": 0, "906": 0, "907": 0, "908": 0, "909": 0, "910": 0, "911": 0, "912": 0, "913": 0, "915": 0, "920": 1, "921": 0, "924": 0, "925": 0, "926": 0, "927": 0, "928": 0, "934": 0, "935": 0, "933": 0, "944": 1, "946": 0, "947": 0, "948": 0, "949": 0, "950": 0, "953": 0, "954": 0, "955": 0, "956": 0, "958": 0, "959": 0, "960": 0, "961": 0, "965": 0, "966": 0, "968": 0, "969": 0, "970": 0, "971": 0, "973": 0, "975": 0, "977": 0, "979": 0, "980": 0, "983": 0, "982": 0, "984": 0, "986": 0, "987": 0, "988": 0, "989": 0, "990": 0, "994": 0, "995": 0, "996": 0, "997": 0, "999": 0, "1000": 0, "1001": 0, "1002": 0, "1003": 0, "1004": 0, "1005": 0, "1006": 0, "1008": 0, "1009": 0, "1010": 0, "1011": 0, "1012": 0, "1013": 0, "1014": 0, "1015": 0, "1017": 0, "1021": 0, "1022": 0, "972": 0, "976": 0, "1025": 1, "1026": 2, "1027": 1, "1028": 1, "1029": 1, "1031": 1, "1032": 1, "1033": 2, "1034": 2, "1036": 2, "1037": 2, "1038": 1, "1043": 2, "1044": 1, "1045": 0, "1046": 0, "1047": 0, "1048": 0, "1049": 0, "1054": 2, "1055": 1, "1056": 0, "1057": 0, "1058": 0, "1059": 0, "1060": 0, "1065": 1, "1066": 2, "1067": 1, "1068": 1, "1069": 1, "1071": 1, "1072": 1, "1073": 2, "1074": 2, "1076": 2, "1077": 2, "1078": 1, "1083": 2, "1084": 1, "1085": 0, "1086": 0, "1087": 0, "1088": 0, "1089": 0, "1094": 2, "1095": 1, "1096": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1106": 1, "1107": 1, "1108": 1, "1110": 0, "1111": 0, "1112": 0, "1114": 0, "1116": 0, "1117": 0, "1119": 1, "1120": 1, "1121": 0, "1122": 0, "1124": 2, "1125": 1, "1127": 1, "1128": 1, "1129": 0, "1130": 0, "1132": 0, "1133": 1, "1113": 0, "1136": 8, "1137": 4, "1138": 4, "1139": 4, "1142": 4, "1149": 8, "1143": 8, "1148": 0, "1151": 4, "1152": 4, "1154": 4, "1155": 0, "1156": 0, "1157": 0, "1158": 0, "1159": 0, "1160": 0, "1161": 0, "1164": 0, "1165": 0, "1166": 0, "1167": 0, "1168": 0, "1163": 0, "1144": 0, "1146": 0, "1145": 0, "1178": 2, "1172": 2, "1173": 0, "1174": 0, "1175": 0, "1176": 0, "1177": 0, "1179": 0, "1180": 0, "1181": 0, "1182": 0, "1183": 0, "1184": 0, "1188": 1, "1191": 1, "1200": 2, "1194": 2, "1195": 0, "1196": 0, "1197": 0, "1198": 0, "1199": 0, "1201": 0, "1202": 0, "1203": 0, "1204": 0, "1205": 0, "1206": 0, "1210": 1, "1213": 1, "1216": 1, "1217": 2, "1218": 1, "1219": 1, "1220": 1, "1221": 1, "1222": 1, "1223": 1, "1224": 0, "1225": 0, "1226": 0, "1227": 0, "1228": 0, "1238": 2, "1239": 1, "1240": 1, "1242": 1, "1244": 1, "1247": 2, "1248": 1, "1249": 1, "1250": 1, "1251": 5, "1252": 3, "1255": 5, "1256": 3, "1259": 1, "1260": 0, "1261": 0, "1262": 0, "1263": 0, "1264": 0, "1253": 2, "1257": 2, "1269": 2, "1270": 1, "1271": 1, "1272": 1, "1273": 2, "1274": 1, "1277": 0, "1278": 0, "1279": 0, "1280": 0, "1281": 0, "1282": 0, "1283": 0, "1286": 0, "1287": 0, "1288": 0, "1289": 0, "1290": 0, "1292": 0, "1296": 2, "1297": 1, "1298": 1, "1299": 1, "1300": 1, "1301": 0, "1302": 0, "1303": 0, "1304": 0, "1305": 0, "1315": 0, "1316": 0, "1317": 0, "1318": 0, "1319": 0, "1321": 0, "1322": 0, "1323": 0, "1324": 0, "1325": 0, "1327": 0, "1329": 0, "1330": 0, "1331": 0, "1332": 0, "1334": 0, "1335": 0, "1337": 0, "1339": 0, "1340": 0, "1341": 0, "1342": 0, "1343": 0, "1344": 0, "1345": 0, "1346": 0, "1348": 0, "1349": 0, "1350": 0, "1351": 0, "1352": 0, "1354": 0, "1355": 0, "1356": 0, "1357": 0, "1367": 0, "1368": 0, "1369": 0, "1370": 0, "1371": 0, "1372": 0, "1374": 0, "1375": 0, "1376": 0, "1377": 0, "1379": 0, "1380": 0, "1381": 0, "1382": 0, "1391": 0, "1392": 0, "1393": 0, "1394": 0, "1395": 0, "1396": 0}}
++ git checkout a7e7043c8746933dafce652507d3b821801cdc7d
+M	django/db/migrations/autodetector.py
+Note: switching to 'a7e7043c8746933dafce652507d3b821801cdc7d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a7e7043c87 Fixed #33229 -- Fixed BaseDatabaseOperations.adapt_datetimefield_value()/adapt_timefield_value() crash with expressions.
++ git apply /root/pre_state.patch
+error: unrecognized input

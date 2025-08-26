@@ -1,0 +1,49 @@
+{
+    "sympy__sympy-13798": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.65,
+        "coverage_gold": 0.9,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 0.65,
+        "coverage_delta_gold": 0.9,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_latex_custom_mul_symbol",
+                "test_coverup_sympy__sympy-13798.py:test_latex_custom_mul_symbol"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_latex_indexed",
+                "test_latex_derivatives",
+                "test_issue_8470",
+                "test_latex_NDimArray",
+                "test_latex_FourierSeries",
+                "test_TensorProduct_printing",
+                "test_latex_FormalPowerSeries",
+                "test_issue_13559",
+                "test_latex_matrix_with_functions",
+                "test_latex_basic"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

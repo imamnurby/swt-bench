@@ -1,0 +1,582 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD e64c1d8055a3e476122633da141f16b50f0c4a2d
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit e64c1d8055a3e476122633da141f16b50f0c4a2d
+Author: William Schwartz <wkschwartz@gmail.com>
+Date:   Mon Dec 28 16:05:18 2020 -0600
+
+    Fixed #32302 -- Allowed migrations to be loaded from regular packages with no __file__ attribute.
+    
+    The migrations loader prevents the use of PEP-420 namespace packages
+    for holding apps' migrations modules. Previously the loader tested for
+    this only by checking that app.migrations.__file__ is present. This
+    prevented migrations' being found in frozen Python environments that
+    don't set __file__ on any modules. Now the loader *additionally* checks
+    whether app.migrations.__path__ is a list because namespace packages
+    use a different type for __path__. Namespace packages continue to be
+    forbidden, and, in fact, users of normal Python environments should
+    experience no change whatsoever.
+
+diff --git a/django/db/migrations/loader.py b/django/db/migrations/loader.py
+index 95a5062ec9..eb370164f3 100644
+--- a/django/db/migrations/loader.py
++++ b/django/db/migrations/loader.py
+@@ -88,15 +88,19 @@ class MigrationLoader:
+                     continue
+                 raise
+             else:
+-                # Empty directories are namespaces.
+-                # getattr() needed on PY36 and older (replace w/attribute access).
+-                if getattr(module, '__file__', None) is None:
+-                    self.unmigrated_apps.add(app_config.label)
+-                    continue
+                 # Module is not a package (e.g. migrations.py).
+                 if not hasattr(module, '__path__'):
+                     self.unmigrated_apps.add(app_config.label)
+                     continue
++                # Empty directories are namespaces. Namespace packages have no
++                # __file__ and don't use a list for __path__. See
++                # https://docs.python.org/3/reference/import.html#namespace-packages
++                if (
++                    getattr(module, '__file__', None) is None and
++                    not isinstance(module.__path__, list)
++                ):
++                    self.unmigrated_apps.add(app_config.label)
++                    continue
+                 # Force a reload if it's already loaded (tests need this)
+                 if was_loaded:
+                     reload(module)
+diff --git a/tests/migrations/test_loader.py b/tests/migrations/test_loader.py
+index 27a052ddac..d8f07851d2 100644
+--- a/tests/migrations/test_loader.py
++++ b/tests/migrations/test_loader.py
+@@ -1,5 +1,6 @@
+ import compileall
+ import os
++from importlib import import_module
+ 
+ from django.db import connection, connections
+ from django.db.migrations.exceptions import (
+@@ -512,6 +513,35 @@ class LoaderTests(TestCase):
+         migrations = [name for app, name in loader.disk_migrations if app == 'migrations']
+         self.assertEqual(migrations, [])
+ 
++    @override_settings(MIGRATION_MODULES={'migrations': 'migrations.test_migrations'})
++    def test_loading_package_without__file__(self):
++        """
++        To support frozen environments, MigrationLoader loads migrations from
++        regular packages with no __file__ attribute.
++        """
++        test_module = import_module('migrations.test_migrations')
++        loader = MigrationLoader(connection)
++        # __file__ == __spec__.origin or the latter is None and former is
++        # undefined.
++        module_file = test_module.__file__
++        module_origin = test_module.__spec__.origin
++        module_has_location = test_module.__spec__.has_location
++        try:
++            del test_module.__file__
++            test_module.__spec__.origin = None
++            test_module.__spec__.has_location = False
++            loader.load_disk()
++            migrations = [
++                name
++                for app, name in loader.disk_migrations
++                if app == 'migrations'
++            ]
++            self.assertCountEqual(migrations, ['0001_initial', '0002_second'])
++        finally:
++            test_module.__file__ = module_file
++            test_module.__spec__.origin = module_origin
++            test_module.__spec__.has_location = module_has_location
++
+ 
+ class PycLoaderTests(MigrationTestBase):
+ 
++ git diff e64c1d8055a3e476122633da141f16b50f0c4a2d
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: asgiref>=3.2.10 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (3.4.1)
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (2025.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (0.4.4)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref>=3.2.10->Django==3.2) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.2
+    Uninstalling Django-3.2:
+      Successfully uninstalled Django-3.2
+  Running setup.py develop for Django
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed Django-3.2
++ git apply -v -
+Checking patch tests/test_coverup_django__django-13821.py...
+Applied patch tests/test_coverup_django__django-13821.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/backends/sqlite3/base\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-13821
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/backends/sqlite3/base\\.py)']
+Testing against Django installed in '/testbed/django'
+0.57 base.py(3): """
+0.57 base.py(4): import datetime
+0.57 base.py(5): import decimal
+0.57 base.py(6): import functools
+0.57 base.py(7): import hashlib
+0.57 base.py(8): import math
+0.57 base.py(9): import operator
+0.57 base.py(10): import random
+0.57 base.py(11): import re
+0.57 base.py(12): import statistics
+0.57 base.py(13): import warnings
+0.57 base.py(14): from itertools import chain
+0.57 base.py(15): from sqlite3 import dbapi2 as Database
+0.57 base.py(17): import pytz
+0.57 base.py(19): from django.core.exceptions import ImproperlyConfigured
+0.57 base.py(20): from django.db import IntegrityError
+0.57 base.py(21): from django.db.backends import utils as backend_utils
+0.57 base.py(22): from django.db.backends.base.base import BaseDatabaseWrapper
+0.58 base.py(23): from django.utils import timezone
+0.58 base.py(24): from django.utils.asyncio import async_unsafe
+0.58 base.py(25): from django.utils.dateparse import parse_datetime, parse_time
+0.58 base.py(26): from django.utils.duration import duration_microseconds
+0.58 base.py(27): from django.utils.regex_helper import _lazy_re_compile
+0.58 base.py(28): from django.utils.version import PY38
+0.58 base.py(30): from .client import DatabaseClient
+0.58 base.py(31): from .creation import DatabaseCreation
+0.58 base.py(32): from .features import DatabaseFeatures
+0.58 base.py(33): from .introspection import DatabaseIntrospection
+0.59 base.py(34): from .operations import DatabaseOperations
+0.60 base.py(35): from .schema import DatabaseSchemaEditor
+0.61 base.py(38): def decoder(conv_func):
+0.61 base.py(45): def none_guard(func):
+0.61 base.py(58): def list_aggregate(function):
+0.61 base.py(66): def check_sqlite_version():
+0.61 base.py(71): check_sqlite_version()
+0.61 base.py(67):     if Database.sqlite_version_info < (3, 8, 3):
+0.61 base.py(73): Database.register_converter("bool", b'1'.__eq__)
+0.61 base.py(74): Database.register_converter("time", decoder(parse_time))
+0.61 base.py(42):     return lambda s: conv_func(s.decode())
+0.61 base.py(75): Database.register_converter("datetime", decoder(parse_datetime))
+0.61 base.py(42):     return lambda s: conv_func(s.decode())
+0.61 base.py(76): Database.register_converter("timestamp", decoder(parse_datetime))
+0.61 base.py(42):     return lambda s: conv_func(s.decode())
+0.61 base.py(78): Database.register_adapter(decimal.Decimal, str)
+0.61 base.py(81): class DatabaseWrapper(BaseDatabaseWrapper):
+0.61 base.py(81): class DatabaseWrapper(BaseDatabaseWrapper):
+0.61 base.py(82):     vendor = 'sqlite'
+0.61 base.py(83):     display_name = 'SQLite'
+0.61 base.py(88):         'AutoField': 'integer',
+0.61 base.py(89):         'BigAutoField': 'integer',
+0.61 base.py(90):         'BinaryField': 'BLOB',
+0.61 base.py(91):         'BooleanField': 'bool',
+0.61 base.py(92):         'CharField': 'varchar(%(max_length)s)',
+0.61 base.py(93):         'DateField': 'date',
+0.61 base.py(94):         'DateTimeField': 'datetime',
+0.61 base.py(95):         'DecimalField': 'decimal',
+0.61 base.py(96):         'DurationField': 'bigint',
+0.61 base.py(97):         'FileField': 'varchar(%(max_length)s)',
+0.61 base.py(98):         'FilePathField': 'varchar(%(max_length)s)',
+0.61 base.py(99):         'FloatField': 'real',
+0.61 base.py(100):         'IntegerField': 'integer',
+0.61 base.py(101):         'BigIntegerField': 'bigint',
+0.61 base.py(102):         'IPAddressField': 'char(15)',
+0.61 base.py(103):         'GenericIPAddressField': 'char(39)',
+0.61 base.py(104):         'JSONField': 'text',
+0.61 base.py(105):         'NullBooleanField': 'bool',
+0.61 base.py(106):         'OneToOneField': 'integer',
+0.61 base.py(107):         'PositiveBigIntegerField': 'bigint unsigned',
+0.61 base.py(108):         'PositiveIntegerField': 'integer unsigned',
+0.61 base.py(109):         'PositiveSmallIntegerField': 'smallint unsigned',
+0.61 base.py(110):         'SlugField': 'varchar(%(max_length)s)',
+0.61 base.py(111):         'SmallAutoField': 'integer',
+0.61 base.py(112):         'SmallIntegerField': 'smallint',
+0.61 base.py(113):         'TextField': 'text',
+0.61 base.py(114):         'TimeField': 'time',
+0.61 base.py(115):         'UUIDField': 'char(32)',
+0.61 base.py(118):         'PositiveBigIntegerField': '"%(column)s" >= 0',
+0.61 base.py(119):         'JSONField': '(JSON_VALID("%(column)s") OR "%(column)s" IS NULL)',
+0.61 base.py(120):         'PositiveIntegerField': '"%(column)s" >= 0',
+0.61 base.py(121):         'PositiveSmallIntegerField': '"%(column)s" >= 0',
+0.61 base.py(124):         'AutoField': 'AUTOINCREMENT',
+0.61 base.py(125):         'BigAutoField': 'AUTOINCREMENT',
+0.61 base.py(126):         'SmallAutoField': 'AUTOINCREMENT',
+0.61 base.py(132):         'exact': '= %s',
+0.61 base.py(133):         'iexact': "LIKE %s ESCAPE '\\'",
+0.61 base.py(134):         'contains': "LIKE %s ESCAPE '\\'",
+0.61 base.py(135):         'icontains': "LIKE %s ESCAPE '\\'",
+0.61 base.py(136):         'regex': 'REGEXP %s',
+0.61 base.py(137):         'iregex': "REGEXP '(?i)' || %s",
+0.61 base.py(138):         'gt': '> %s',
+0.61 base.py(139):         'gte': '>= %s',
+0.61 base.py(140):         'lt': '< %s',
+0.61 base.py(141):         'lte': '<= %s',
+0.61 base.py(142):         'startswith': "LIKE %s ESCAPE '\\'",
+0.61 base.py(143):         'endswith': "LIKE %s ESCAPE '\\'",
+0.61 base.py(144):         'istartswith': "LIKE %s ESCAPE '\\'",
+0.61 base.py(145):         'iendswith': "LIKE %s ESCAPE '\\'",
+0.61 base.py(156):     pattern_esc = r"REPLACE(REPLACE(REPLACE({}, '\', '\\'), '%%', '\%%'), '_', '\_')"
+0.61 base.py(158):         'contains': r"LIKE '%%' || {} || '%%' ESCAPE '\'",
+0.61 base.py(159):         'icontains': r"LIKE '%%' || UPPER({}) || '%%' ESCAPE '\'",
+0.61 base.py(160):         'startswith': r"LIKE {} || '%%' ESCAPE '\'",
+0.61 base.py(161):         'istartswith': r"LIKE UPPER({}) || '%%' ESCAPE '\'",
+0.61 base.py(162):         'endswith': r"LIKE '%%' || {} ESCAPE '\'",
+0.61 base.py(163):         'iendswith': r"LIKE '%%' || UPPER({}) ESCAPE '\'",
+0.61 base.py(166):     Database = Database
+0.61 base.py(167):     SchemaEditorClass = DatabaseSchemaEditor
+0.61 base.py(169):     client_class = DatabaseClient
+0.61 base.py(170):     creation_class = DatabaseCreation
+0.61 base.py(171):     features_class = DatabaseFeatures
+0.61 base.py(172):     introspection_class = DatabaseIntrospection
+0.61 base.py(173):     ops_class = DatabaseOperations
+0.61 base.py(175):     def get_connection_params(self):
+0.61 base.py(205):     @async_unsafe
+0.61 base.py(268):     def init_connection_state(self):
+0.61 base.py(271):     def create_cursor(self, name=None):
+0.61 base.py(274):     @async_unsafe
+0.61 base.py(283):     def _savepoint_allowed(self):
+0.61 base.py(291):     def _set_autocommit(self, autocommit):
+0.61 base.py(303):     def disable_constraint_checking(self):
+0.61 base.py(312):     def enable_constraint_checking(self):
+0.61 base.py(316):     def check_constraints(self, table_names=None):
+0.61 base.py(392):     def is_usable(self):
+0.61 base.py(395):     def _start_transaction_under_autocommit(self):
+0.61 base.py(404):     def is_in_memory_db(self):
+0.61 base.py(408): FORMAT_QMARK_REGEX = _lazy_re_compile(r'(?<!%)%s')
+0.61 base.py(411): class SQLiteCursorWrapper(Database.Cursor):
+0.61 base.py(411): class SQLiteCursorWrapper(Database.Cursor):
+0.61 base.py(416):     """
+0.61 base.py(417):     def execute(self, query, params=None):
+0.61 base.py(423):     def executemany(self, query, param_list):
+0.61 base.py(427):     def convert_query(self, query):
+0.61 base.py(431): def _sqlite_datetime_parse(dt, tzname=None, conn_tzname=None):
+0.61 base.py(453): def _sqlite_date_trunc(lookup_type, dt, tzname, conn_tzname):
+0.61 base.py(471): def _sqlite_time_trunc(lookup_type, dt, tzname, conn_tzname):
+0.61 base.py(490): def _sqlite_datetime_cast_date(dt, tzname, conn_tzname):
+0.61 base.py(497): def _sqlite_datetime_cast_time(dt, tzname, conn_tzname):
+0.61 base.py(504): def _sqlite_datetime_extract(lookup_type, dt, tzname=None, conn_tzname=None):
+0.61 base.py(522): def _sqlite_datetime_trunc(lookup_type, dt, tzname, conn_tzname):
+0.61 base.py(546): def _sqlite_time_extract(lookup_type, dt):
+0.61 base.py(556): @none_guard
+0.61 base.py(52):     @functools.wraps(func)
+0.61 base.py(55):     return wrapper
+0.61 base.py(577): @none_guard
+0.61 base.py(52):     @functools.wraps(func)
+0.61 base.py(55):     return wrapper
+0.61 base.py(593): @none_guard
+0.61 base.py(52):     @functools.wraps(func)
+0.61 base.py(55):     return wrapper
+0.61 base.py(600): @none_guard
+0.61 base.py(52):     @functools.wraps(func)
+0.61 base.py(55):     return wrapper
+0.61 base.py(605): @none_guard
+0.61 base.py(52):     @functools.wraps(func)
+0.61 base.py(55):     return wrapper
+0.61 base.py(612): @none_guard
+0.61 base.py(52):     @functools.wraps(func)
+0.61 base.py(55):     return wrapper
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+test_sqlite_version_below_3_9_0 (test_coverup_django__django-13821.SQLiteVersionTest) ... FAIL
+
+======================================================================
+FAIL: test_sqlite_version_below_3_9_0 (test_coverup_django__django-13821.SQLiteVersionTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-13821.py", line 15, in test_sqlite_version_below_3_9_0
+    check_sqlite_version()
+AssertionError: ImproperlyConfigured not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+0.67 base.py(67):     if Database.sqlite_version_info < (3, 8, 3):
++ cat coverage.cover
+{"/testbed/django/db/backends/sqlite3/base.py": {"4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "17": 1, "19": 1, "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "38": 1, "45": 1, "58": 1, "66": 1, "71": 1, "73": 1, "74": 1, "75": 1, "76": 1, "78": 1, "81": 2, "408": 1, "411": 2, "431": 1, "453": 1, "471": 1, "490": 1, "497": 1, "504": 1, "522": 1, "546": 1, "556": 1, "577": 1, "593": 1, "600": 1, "605": 1, "612": 1, "42": 3, "52": 6, "55": 6, "54": 0, "63": 0, "67": 2, "68": 0, "82": 1, "83": 1, "88": 1, "89": 1, "90": 1, "91": 1, "92": 1, "93": 1, "94": 1, "95": 1, "96": 1, "97": 1, "98": 1, "99": 1, "100": 1, "101": 1, "102": 1, "103": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "110": 1, "111": 1, "112": 1, "113": 1, "114": 1, "115": 1, "118": 1, "119": 1, "120": 1, "121": 1, "124": 1, "125": 1, "126": 1, "132": 1, "133": 1, "134": 1, "135": 1, "136": 1, "137": 1, "138": 1, "139": 1, "140": 1, "141": 1, "142": 1, "143": 1, "144": 1, "145": 1, "156": 1, "158": 1, "159": 1, "160": 1, "161": 1, "162": 1, "163": 1, "166": 1, "167": 1, "169": 1, "170": 1, "171": 1, "172": 1, "173": 1, "175": 1, "205": 1, "268": 1, "271": 1, "274": 1, "283": 1, "291": 1, "303": 1, "312": 1, "316": 1, "392": 1, "395": 1, "404": 1, "176": 0, "177": 0, "178": 0, "179": 0, "184": 0, "185": 0, "186": 0, "194": 0, "195": 0, "196": 0, "200": 0, "202": 0, "203": 0, "207": 0, "208": 0, "209": 0, "210": 0, "211": 0, "214": 0, "215": 0, "216": 0, "217": 0, "218": 0, "219": 0, "220": 0, "221": 0, "222": 0, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "231": 0, "232": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "240": 0, "241": 0, "242": 0, "243": 0, "244": 0, "245": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "260": 0, "261": 0, "262": 0, "263": 0, "264": 0, "265": 0, "266": 0, "269": 0, "272": 0, "276": 0, "280": 0, "281": 0, "289": 0, "292": 0, "293": 0, "297": 0, "300": 0, "301": 0, "304": 0, "305": 0, "309": 0, "310": 0, "313": 0, "314": 0, "324": 0, "325": 0, "326": 0, "327": 0, "329": 0, "330": 0, "334": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "347": 0, "349": 0, "351": 0, "352": 0, "355": 0, "356": 0, "360": 0, "361": 0, "362": 0, "363": 0, "364": 0, "365": 0, "366": 0, "367": 0, "368": 0, "369": 0, "375": 0, "377": 0, "378": 0, "379": 0, "382": 0, "383": 0, "384": 0, "387": 0, "388": 0, "393": 0, "402": 0, "405": 0, "417": 1, "423": 1, "427": 1, "418": 0, "419": 0, "420": 0, "421": 0, "424": 0, "425": 0, "428": 0, "432": 0, "433": 0, "434": 0, "435": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "442": 0, "443": 0, "444": 0, "445": 0, "446": 0, "447": 0, "448": 0, "449": 0, "450": 0, "454": 0, "455": 0, "456": 0, "457": 0, "458": 0, "459": 0, "460": 0, "461": 0, "462": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "468": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "477": 0, "478": 0, "479": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "491": 0, "492": 0, "493": 0, "494": 0, "498": 0, "499": 0, "500": 0, "501": 0, "505": 0, "506": 0, "507": 0, "508": 0, "509": 0, "510": 0, "511": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "519": 0, "523": 0, "524": 0, "525": 0, "526": 0, "527": 0, "528": 0, "529": 0, "530": 0, "531": 0, "532": 0, "533": 0, "534": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "543": 0, "547": 0, "548": 0, "549": 0, "550": 0, "551": 0, "552": 0, "553": 0, "563": 0, "564": 0, "565": 0, "566": 0, "567": 0, "569": 0, "570": 0, "571": 0, "574": 0, "579": 0, "580": 0, "588": 0, "589": 0, "595": 0, "596": 0, "597": 0, "602": 0, "607": 0, "608": 0, "609": 0, "614": 0}}
++ git checkout e64c1d8055a3e476122633da141f16b50f0c4a2d
+Note: switching to 'e64c1d8055a3e476122633da141f16b50f0c4a2d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at e64c1d8055 Fixed #32302 -- Allowed migrations to be loaded from regular packages with no __file__ attribute.
++ git apply /root/pre_state.patch
+error: unrecognized input

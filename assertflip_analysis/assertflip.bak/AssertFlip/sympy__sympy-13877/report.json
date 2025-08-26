@@ -1,0 +1,82 @@
+{
+    "sympy__sympy-13877": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.6666666666666666,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.3333333333333333,
+        "coverage_delta_pred": 0.3333333333333333,
+        "coverage_delta_gold": 0.6666666666666666,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_determinant_nan_and_typeerror",
+                "test_coverup_sympy__sympy-13877.py:test_determinant_nan_and_typeerror"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_DeferredVector_not_iterable"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_as_real_imag",
+                "test_matrix_norm",
+                "test_limit",
+                "test_getattr",
+                "test_jacobian_hessian",
+                "test_inverse",
+                "test_jacobian2",
+                "test_diff",
+                "test_division",
+                "test_diagonalization",
+                "test_inv_iszerofunc",
+                "test_issue_9422",
+                "test_QR",
+                "test_applyfunc",
+                "test_QR_non_square",
+                "test_GramSchmidt",
+                "test_util",
+                "test_issue_3749",
+                "test_wronskian",
+                "test_eigen",
+                "test_issue_10220",
+                "test_deprecated",
+                "test_jacobian_metrics",
+                "test_power",
+                "test_QRsolve",
+                "test_zip_row_op",
+                "test_jordan_form",
+                "test_exp",
+                "test_expand",
+                "test_issue_4564",
+                "test_normalize_sort_diogonalization",
+                "test_pinv_solve",
+                "test_multiplication",
+                "test_jordan_form_complex_issue_9274",
+                "test_refine",
+                "test_zeros_ones_fill",
+                "test_diagonal_solve",
+                "test_inv_block",
+                "test_issue_5320",
+                "test_print_nonzero",
+                "test_determinant"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

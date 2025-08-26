@@ -1,0 +1,50 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15375.py
+new file mode 100644
+index e69de29..9740fc9 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15375.py
+@@ -0,0 +1,44 @@
++from django.test import TestCase
++from django.db import models, connection
++from django.db.models import Sum, F
++from django.db.utils import OperationalError
++
++# Define a test model similar to the one mentioned in the issue ticket
++class Book(models.Model):
++    id = models.AutoField(primary_key=True)
++    title = models.CharField(max_length=100)
++
++    class Meta:
++        app_label = 'test_app'
++        # Ensure the table is created for the test
++        managed = True
++
++class AggregateDefaultAfterAnnotateTest(TestCase):
++    databases = '__all__'
++
++    @classmethod
++    def setUpTestData(cls):
++        # Create test data
++        with connection.cursor() as cursor:
++            cursor.execute('PRAGMA foreign_keys = OFF;')
++            cursor.execute('CREATE TABLE test_app_book (id INTEGER PRIMARY KEY AUTOINCREMENT, title VARCHAR(100));')
++            cursor.execute('INSERT INTO test_app_book (title) VALUES ("Book 1"), ("Book 2"), ("Book 3");')
++
++    def test_aggregate_with_default_after_annotate(self):
++        """
++        Test that using aggregate() with 'default' after annotate() works without raising an OperationalError.
++        """
++        try:
++            # Attempt to trigger the bug by using annotate followed by aggregate with default
++            result = Book.objects.annotate(idx=F("id")).aggregate(Sum("id", default=0))
++            # Check that the result is as expected, indicating the bug is fixed
++            self.assertEqual(result, {'id__sum': 6})
++        except OperationalError as e:
++            # Fail the test if OperationalError is raised, indicating the bug is present
++            self.fail(f"OperationalError was raised: {e}")
++
++    def tearDown(self):
++        # Clean up the test data
++        with connection.cursor() as cursor:
++            cursor.execute('DROP TABLE test_app_book;')
++

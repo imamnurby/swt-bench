@@ -1,0 +1,53 @@
+{
+    "sympy__sympy-22080": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.8571428571428571,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.42857142857142855,
+        "coverage_delta_pred": 0.42857142857142855,
+        "coverage_delta_gold": 0.5714285714285714,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_lambdify_mod_bug"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_imps_errors",
+                "test_logaddexp_opt",
+                "test_exp2_opt",
+                "test_sinc_opts",
+                "test_imps_wrong_args",
+                "test_bad_args",
+                "test_issue_12092",
+                "test_matsolve",
+                "test_logaddexp2_opt",
+                "test_mpmath_transl",
+                "test_math_transl"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_PythonCodePrinter",
+                "test_create_expand_pow_optimization",
+                "test_empty_modules"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

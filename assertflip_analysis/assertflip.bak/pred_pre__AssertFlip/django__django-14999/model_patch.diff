@@ -1,0 +1,51 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-14999.py
+new file mode 100644
+index e69de29..96dac57 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14999.py
+@@ -0,0 +1,45 @@
++from django.test import TestCase
++from django.db import connection, models
++from django.db.migrations.state import ProjectState
++from django.db.migrations.operations.models import RenameModel
++from django.db.migrations.state import ModelState
++
++class RenameModelNoopTests(TestCase):
++    databases = {'default'}
++
++    def setUp(self):
++        self.app_label = 'testapp'
++        self.old_name = 'OldModel'
++        self.new_name = 'NewModel'
++        self.db_table = 'custom_table_name'
++        self.state = ProjectState()
++        self.state.add_model(ModelState(
++            self.app_label,
++            self.old_name,
++            [
++                ('id', models.AutoField(primary_key=True)),
++                ('name', models.CharField(max_length=255)),
++            ],
++            options={'db_table': self.db_table},
++        ))
++
++    def test_rename_model_with_db_table_noop(self):
++        # Apply the RenameModel operation
++        migration = RenameModel(self.old_name, self.new_name)
++        with connection.cursor() as cursor:
++            # Disable foreign key checks for SQLite
++            cursor.execute('PRAGMA foreign_keys = OFF;')
++
++            # Simulate the database forwards operation
++            from_state = self.state.clone()
++            to_state = from_state.clone()
++            migration.state_forwards(self.app_label, to_state)
++            migration.database_forwards(self.app_label, connection.schema_editor(), from_state, to_state)
++
++            # Check if the table was not recreated (correct behavior)
++            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name=%s", [self.db_table])
++            result = cursor.fetchone()
++            self.assertIsNotNone(result)  # The table should exist, indicating no recreation
++
++            # Re-enable foreign key checks
++            cursor.execute('PRAGMA foreign_keys = ON;')

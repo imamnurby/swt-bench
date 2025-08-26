@@ -1,0 +1,19 @@
+diff --git a/dev/null b/xarray/tests/test_coverup_pydata__xarray-4356.py
+new file mode 100644
+index e69de29..c291fa2 100644
+--- /dev/null
++++ b/xarray/tests/test_coverup_pydata__xarray-4356.py
+@@ -0,0 +1,13 @@
++import pytest
++import xarray as xr
++
++def test_sum_with_min_count_multiple_dimensions():
++    # Create a 2D DataArray
++    da = xr.DataArray([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]], dims=["dim_0", "dim_1"])
++    
++    # Attempt to sum over multiple dimensions with min_count
++    result = da.sum(dim=["dim_0", "dim_1"], min_count=1)
++    
++    # Check if the result is as expected when the bug is fixed
++    expected_result = xr.DataArray(21.0)
++    xr.testing.assert_identical(result, expected_result)

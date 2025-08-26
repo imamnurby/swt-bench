@@ -1,0 +1,44 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-13346.py
+new file mode 100644
+index e69de29..8104cc6 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-13346.py
+@@ -0,0 +1,38 @@
++from django.test import TestCase
++from django.db import models, connection
++
++class JSONFieldInLookupTest(TestCase):
++    databases = {'default'}
++
++    @classmethod
++    def setUpTestData(cls):
++        # Define the model within the test class to ensure it is created
++        class TestModel(models.Model):
++            our_field = models.JSONField()
++
++            class Meta:
++                app_label = 'myapp'
++
++        cls.TestModel = TestModel
++
++        # Create the table for the model
++        with connection.cursor() as cursor:
++            cursor.execute('CREATE TABLE myapp_testmodel (id INTEGER PRIMARY KEY AUTOINCREMENT, our_field JSON);')
++
++        # Insert test data with 'our_field' containing a key with a value of 0
++        cls.TestModel.objects.create(our_field={'key': 0})
++        cls.TestModel.objects.create(our_field={'key': 0})
++        cls.TestModel.objects.create(our_field={'key': 0})
++        cls.TestModel.objects.create(our_field={'key': 1})
++
++    def test_in_lookup_on_key_transform(self):
++        # Test with __in lookup on key transform
++        first_filter = {'our_field__key__in': [0]}
++        first_items = self.TestModel.objects.filter(**first_filter)
++        # Assert that the correct behavior occurs
++        self.assertEqual(len(first_items), 3)  # This should return 3 items as expected
++
++        # Control test to show that the key lookup works without __in
++        second_filter = {'our_field__key': 0}
++        second_items = self.TestModel.objects.filter(**second_filter)
++        self.assertEqual(len(second_items), 3)  # This should return 3 items as expected

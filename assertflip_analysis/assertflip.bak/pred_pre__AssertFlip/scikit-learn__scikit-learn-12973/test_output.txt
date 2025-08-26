@@ -1,0 +1,696 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a
+Author: Thomas Fan <thomasjpfan@gmail.com>
+Date:   Sun Jan 13 10:41:28 2019 -0500
+
+    MAINT Removes total_seconds completely in benchmarks (#12969)
+
+diff --git a/benchmarks/bench_glm.py b/benchmarks/bench_glm.py
+index 660c208402..afb9f0d3bb 100644
+--- a/benchmarks/bench_glm.py
++++ b/benchmarks/bench_glm.py
+@@ -7,7 +7,6 @@ Data comes from a random square matrix.
+ from datetime import datetime
+ import numpy as np
+ from sklearn import linear_model
+-from sklearn.utils.bench import total_seconds
+ 
+ 
+ if __name__ == '__main__':
+@@ -34,17 +33,17 @@ if __name__ == '__main__':
+         start = datetime.now()
+         ridge = linear_model.Ridge(alpha=1.)
+         ridge.fit(X, Y)
+-        time_ridge[i] = total_seconds(datetime.now() - start)
++        time_ridge[i] = (datetime.now() - start).total_seconds()
+ 
+         start = datetime.now()
+         ols = linear_model.LinearRegression()
+         ols.fit(X, Y)
+-        time_ols[i] = total_seconds(datetime.now() - start)
++        time_ols[i] = (datetime.now() - start).total_seconds()
+ 
+         start = datetime.now()
+         lasso = linear_model.LassoLars()
+         lasso.fit(X, Y)
+-        time_lasso[i] = total_seconds(datetime.now() - start)
++        time_lasso[i] = (datetime.now() - start).total_seconds()
+ 
+     plt.figure('scikit-learn GLM benchmark results')
+     plt.xlabel('Dimensions')
+diff --git a/benchmarks/bench_isotonic.py b/benchmarks/bench_isotonic.py
+index 5124104a7f..caa7d43a7d 100644
+--- a/benchmarks/bench_isotonic.py
++++ b/benchmarks/bench_isotonic.py
+@@ -16,7 +16,6 @@ import numpy as np
+ import gc
+ from datetime import datetime
+ from sklearn.isotonic import isotonic_regression
+-from sklearn.utils.bench import total_seconds
+ from scipy.special import expit
+ import matplotlib.pyplot as plt
+ import argparse
+@@ -55,8 +54,7 @@ def bench_isotonic_regression(Y):
+ 
+     tstart = datetime.now()
+     isotonic_regression(Y)
+-    delta = datetime.now() - tstart
+-    return total_seconds(delta)
++    return (datetime.now() - tstart).total_seconds()
+ 
+ 
+ if __name__ == '__main__':
+diff --git a/doc/developers/utilities.rst b/doc/developers/utilities.rst
+index d42fb46ca5..6b6c0a4361 100644
+--- a/doc/developers/utilities.rst
++++ b/doc/developers/utilities.rst
+@@ -173,12 +173,6 @@ Graph Routines
+   connectivity matrix is a ``scipy.sparse.csr_matrix``.
+ 
+ 
+-Benchmarking
+-------------
+-
+-- :func:`bench.total_seconds`:  Used in ``benchmarks/bench_glm.py``.
+-
+-
+ Testing Functions
+ =================
+ 
+diff --git a/doc/modules/classes.rst b/doc/modules/classes.rst
+index e09ca0422d..2eebaec335 100644
+--- a/doc/modules/classes.rst
++++ b/doc/modules/classes.rst
+@@ -1429,7 +1429,6 @@ Low-level methods
+    utils.arrayfuncs.min_pos
+    utils.as_float_array
+    utils.assert_all_finite
+-   utils.bench.total_seconds
+    utils.check_X_y
+    utils.check_array
+    utils.check_consistent_length
++ git diff a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file '/tmp/pip-pip-egg-info-jjfe5vbe/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.11.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.21.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.17.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.21.dev0) (1.5.2)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.21.dev0
+    Uninstalling scikit-learn-0.21.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.21.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    blis_info:
+      libraries blis not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_info:
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    creating /tmp/tmp0bjsxpao/tmp
+    creating /tmp/tmp0bjsxpao/tmp/tmp0bjsxpao
+    compile options: '-c'
+    gcc: /tmp/tmp0bjsxpao/source.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ /tmp/tmp0bjsxpao/tmp/tmp0bjsxpao/source.o -L/opt/miniconda3/envs/testbed/lib -lopenblas -o /tmp/tmp0bjsxpao/a.out
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.preprocessing._csr_polynomial_expansion" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn._isotonic" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    resetting extension 'sklearn.svm.liblinear' language from 'c' to 'c++'.
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.21.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed scikit-learn-0.21.dev0
++ git apply -v -
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-12973.py...
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-12973.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/linear_model/least_angle\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-12973.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/linear_model/least_angle\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-12973.py F         [100%]
+
+=================================== FAILURES ===================================
+_______________________ test_lassolarsic_copy_X_behavior _______________________
+
+    def test_lassolarsic_copy_X_behavior():
+        # Create a small dataset
+        X = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
+        y = np.array([1, 2, 3], dtype=float)
+    
+        # Initialize LassoLarsIC with copy_X=False
+        model = LassoLarsIC(copy_X=False)
+    
+        # Fit the model
+        model.fit(X, y)
+    
+        # Modify X after fitting
+        X[0, 0] = 999
+    
+        # Check if the model's internal state reflects the changes to X
+        # Since copy_X=False, changes to X should affect the model's state
+        # Correct behavior: The model's coefficients should change if X is modified
+>       assert model.coef_[0] == 0, "Model's internal state should reflect changes to X"
+E       AssertionError: Model's internal state should reflect changes to X
+E       assert 0.5000000000000001 == 0
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-12973.py:22: AssertionError
+----------------------------- Captured stdout call -----------------------------
+0.95 least_angle.py(1471):         self.criterion = criterion
+0.95 least_angle.py(1472):         self.fit_intercept = fit_intercept
+0.95 least_angle.py(1473):         self.positive = positive
+0.95 least_angle.py(1474):         self.max_iter = max_iter
+0.95 least_angle.py(1475):         self.verbose = verbose
+0.95 least_angle.py(1476):         self.normalize = normalize
+0.95 least_angle.py(1477):         self.copy_X = copy_X
+0.95 least_angle.py(1478):         self.precompute = precompute
+0.95 least_angle.py(1479):         self.eps = eps
+0.95 least_angle.py(1480):         self.fit_path = True
+0.95 least_angle.py(1501):         X, y = check_X_y(X, y, y_numeric=True)
+0.95 least_angle.py(1503):         X, y, Xmean, ymean, Xstd = LinearModel._preprocess_data(
+0.95 least_angle.py(1504):             X, y, self.fit_intercept, self.normalize, self.copy_X)
+0.95 least_angle.py(1505):         max_iter = self.max_iter
+0.95 least_angle.py(1507):         Gram = self.precompute
+0.95 least_angle.py(1509):         alphas_, active_, coef_path_, self.n_iter_ = lars_path(
+0.95 least_angle.py(1510):             X, y, Gram=Gram, copy_X=copy_X, copy_Gram=True, alpha_min=0.0,
+0.95 least_angle.py(1511):             method='lasso', verbose=self.verbose, max_iter=max_iter,
+0.95 least_angle.py(1512):             eps=self.eps, return_n_iter=True, positive=self.positive)
+0.95 least_angle.py(145):     if method == 'lar' and positive:
+0.95 least_angle.py(151):     n_features = X.shape[1]
+0.95 least_angle.py(152):     n_samples = y.size
+0.95 least_angle.py(153):     max_features = min(max_iter, n_features)
+0.95 least_angle.py(155):     if return_path:
+0.95 least_angle.py(156):         coefs = np.zeros((max_features + 1, n_features))
+0.95 least_angle.py(157):         alphas = np.zeros(max_features + 1)
+0.95 least_angle.py(162):     n_iter, n_active = 0, 0
+0.95 least_angle.py(163):     active, indices = list(), np.arange(n_features)
+0.95 least_angle.py(165):     sign_active = np.empty(max_features, dtype=np.int8)
+0.95 least_angle.py(166):     drop = False
+0.95 least_angle.py(170):     L = np.empty((max_features, max_features), dtype=X.dtype)
+0.95 least_angle.py(171):     swap, nrm2 = linalg.get_blas_funcs(('swap', 'nrm2'), (X,))
+0.95 least_angle.py(172):     solve_cholesky, = get_lapack_funcs(('potrs',), (X,))
+0.95 least_angle.py(174):     if Gram is None or Gram is False:
+0.95 least_angle.py(182):     elif isinstance(Gram, str) and Gram == 'auto' or Gram is True:
+0.95 least_angle.py(183):         if Gram is True or X.shape[0] > X.shape[1]:
+0.95 least_angle.py(184):             Gram = np.dot(X.T, X)
+0.95 least_angle.py(190):     if Xy is None:
+0.95 least_angle.py(191):         Cov = np.dot(X.T, y)
+0.95 least_angle.py(195):     if verbose:
+0.95 least_angle.py(202):     tiny32 = np.finfo(np.float32).tiny  # to avoid division by 0 warning
+0.95 least_angle.py(203):     equality_tolerance = np.finfo(np.float32).eps
+0.95 least_angle.py(205):     while True:
+0.95 least_angle.py(206):         if Cov.size:
+0.95 least_angle.py(207):             if positive:
+0.95 least_angle.py(210):                 C_idx = np.argmax(np.abs(Cov))
+0.95 least_angle.py(212):             C_ = Cov[C_idx]
+0.95 least_angle.py(214):             if positive:
+0.95 least_angle.py(217):                 C = np.fabs(C_)
+0.95 least_angle.py(221):         if return_path:
+0.95 least_angle.py(222):             alpha = alphas[n_iter, np.newaxis]
+0.95 least_angle.py(223):             coef = coefs[n_iter]
+0.95 least_angle.py(224):             prev_alpha = alphas[n_iter - 1, np.newaxis]
+0.95 least_angle.py(225):             prev_coef = coefs[n_iter - 1]
+0.95 least_angle.py(227):         alpha[0] = C / n_samples
+0.95 least_angle.py(228):         if alpha[0] <= alpha_min + equality_tolerance:  # early stopping
+0.95 least_angle.py(242):         if n_iter >= max_iter or n_active >= n_features:
+0.95 least_angle.py(245):         if not drop:
+0.95 least_angle.py(256):             if positive:
+0.95 least_angle.py(259):                 sign_active[n_active] = np.sign(C_)
+0.95 least_angle.py(260):             m, n = n_active, C_idx + n_active
+0.95 least_angle.py(262):             Cov[C_idx], Cov[0] = swap(Cov[C_idx], Cov[0])
+0.95 least_angle.py(263):             indices[n], indices[m] = indices[m], indices[n]
+0.95 least_angle.py(264):             Cov_not_shortened = Cov
+0.95 least_angle.py(265):             Cov = Cov[1:]  # remove Cov[0]
+0.95 least_angle.py(267):             if Gram is None:
+0.95 least_angle.py(275):                 Gram[m], Gram[n] = swap(Gram[m], Gram[n])
+0.95 least_angle.py(276):                 Gram[:, m], Gram[:, n] = swap(Gram[:, m], Gram[:, n])
+0.95 least_angle.py(277):                 c = Gram[n_active, n_active]
+0.95 least_angle.py(278):                 L[n_active, :n_active] = Gram[n_active, :n_active]
+0.95 least_angle.py(281):             if n_active:
+0.95 least_angle.py(288):             v = np.dot(L[n_active, :n_active], L[n_active, :n_active])
+0.95 least_angle.py(289):             diag = max(np.sqrt(np.abs(c - v)), eps)
+0.95 least_angle.py(290):             L[n_active, n_active] = diag
+0.95 least_angle.py(292):             if diag < 1e-7:
+0.95 least_angle.py(317):             active.append(indices[n_active])
+0.95 least_angle.py(318):             n_active += 1
+0.95 least_angle.py(320):             if verbose > 1:
+0.95 least_angle.py(324):         if method == 'lasso' and n_iter > 0 and prev_alpha[0] < alpha[0]:
+0.95 least_angle.py(339):         least_squares, info = solve_cholesky(L[:n_active, :n_active],
+0.95 least_angle.py(340):                                              sign_active[:n_active],
+0.95 least_angle.py(341):                                              lower=True)
+0.95 least_angle.py(343):         if least_squares.size == 1 and least_squares == 0:
+0.95 least_angle.py(349):             AA = 1. / np.sqrt(np.sum(least_squares * sign_active[:n_active]))
+0.95 least_angle.py(351):             if not np.isfinite(AA):
+0.95 least_angle.py(363):             least_squares *= AA
+0.95 least_angle.py(365):         if Gram is None:
+0.95 least_angle.py(375):             corr_eq_dir = np.dot(Gram[:n_active, n_active:].T,
+0.95 least_angle.py(376):                                  least_squares)
+0.95 least_angle.py(378):         g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+0.95 least_angle.py(379):         if positive:
+0.95 least_angle.py(382):             g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+0.95 least_angle.py(383):             gamma_ = min(g1, g2, C / AA)
+0.95 least_angle.py(386):         drop = False
+0.95 least_angle.py(387):         z = -coef[active] / (least_squares + tiny32)
+0.95 least_angle.py(388):         z_pos = arrayfuncs.min_pos(z)
+0.95 least_angle.py(389):         if z_pos < gamma_:
+0.95 least_angle.py(400):         n_iter += 1
+0.95 least_angle.py(402):         if return_path:
+0.95 least_angle.py(403):             if n_iter >= coefs.shape[0]:
+0.95 least_angle.py(411):             coef = coefs[n_iter]
+0.95 least_angle.py(412):             prev_coef = coefs[n_iter - 1]
+0.95 least_angle.py(419):         coef[active] = prev_coef[active] + gamma_ * least_squares
+0.95 least_angle.py(422):         Cov -= gamma_ * corr_eq_dir
+0.95 least_angle.py(425):         if drop and method == 'lasso':
+0.95 least_angle.py(206):         if Cov.size:
+0.95 least_angle.py(207):             if positive:
+0.95 least_angle.py(210):                 C_idx = np.argmax(np.abs(Cov))
+0.95 least_angle.py(212):             C_ = Cov[C_idx]
+0.95 least_angle.py(214):             if positive:
+0.95 least_angle.py(217):                 C = np.fabs(C_)
+0.95 least_angle.py(221):         if return_path:
+0.95 least_angle.py(222):             alpha = alphas[n_iter, np.newaxis]
+0.95 least_angle.py(223):             coef = coefs[n_iter]
+0.95 least_angle.py(224):             prev_alpha = alphas[n_iter - 1, np.newaxis]
+0.95 least_angle.py(225):             prev_coef = coefs[n_iter - 1]
+0.95 least_angle.py(227):         alpha[0] = C / n_samples
+0.95 least_angle.py(228):         if alpha[0] <= alpha_min + equality_tolerance:  # early stopping
+0.95 least_angle.py(229):             if abs(alpha[0] - alpha_min) > equality_tolerance:
+0.95 least_angle.py(238):             if return_path:
+0.95 least_angle.py(239):                 coefs[n_iter] = coef
+0.95 least_angle.py(240):             break
+0.95 least_angle.py(473):     if return_path:
+0.95 least_angle.py(475):         alphas = alphas[:n_iter + 1]
+0.95 least_angle.py(476):         coefs = coefs[:n_iter + 1]
+0.95 least_angle.py(478):         if return_n_iter:
+0.95 least_angle.py(479):             return alphas, active, coefs.T, n_iter
+0.95 least_angle.py(1514):         n_samples = X.shape[0]
+0.95 least_angle.py(1516):         if self.criterion == 'aic':
+0.95 least_angle.py(1517):             K = 2  # AIC
+0.95 least_angle.py(1523):         R = y[:, np.newaxis] - np.dot(X, coef_path_)  # residuals
+0.95 least_angle.py(1524):         mean_squared_error = np.mean(R ** 2, axis=0)
+0.95 least_angle.py(1525):         sigma2 = np.var(y)
+0.95 least_angle.py(1527):         df = np.zeros(coef_path_.shape[1], dtype=np.int)  # Degrees of freedom
+0.95 least_angle.py(1528):         for k, coef in enumerate(coef_path_.T):
+0.95 least_angle.py(1529):             mask = np.abs(coef) > np.finfo(coef.dtype).eps
+0.95 least_angle.py(1530):             if not np.any(mask):
+0.95 least_angle.py(1531):                 continue
+0.95 least_angle.py(1528):         for k, coef in enumerate(coef_path_.T):
+0.95 least_angle.py(1529):             mask = np.abs(coef) > np.finfo(coef.dtype).eps
+0.95 least_angle.py(1530):             if not np.any(mask):
+0.95 least_angle.py(1535):             df[k] = np.sum(mask)
+0.95 least_angle.py(1528):         for k, coef in enumerate(coef_path_.T):
+0.95 least_angle.py(1537):         self.alphas_ = alphas_
+0.95 least_angle.py(1538):         eps64 = np.finfo('float64').eps
+0.95 least_angle.py(1539):         self.criterion_ = (n_samples * mean_squared_error / (sigma2 + eps64) +
+0.95 least_angle.py(1540):                            K * df)  # Eqns. 2.15--16 in (Zou et al, 2007)
+0.95 least_angle.py(1541):         n_best = np.argmin(self.criterion_)
+0.95 least_angle.py(1543):         self.alpha_ = alphas_[n_best]
+0.95 least_angle.py(1544):         self.coef_ = coef_path_[:, n_best]
+0.95 least_angle.py(1545):         self._set_intercept(Xmean, ymean, Xstd)
+0.95 least_angle.py(1546):         return self
+=========================== short test summary info ============================
+FAILED sklearn/tests/test_coverup_scikit-learn__scikit-learn-12973.py::test_lassolarsic_copy_X_behavior
+============================== 1 failed in 0.88s ===============================
++ cat coverage.cover
+{"/testbed/sklearn/linear_model/least_angle.py": {"5": 1, "13": 1, "14": 1, "15": 1, "17": 1, "18": 1, "19": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "28": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "492": 2, "710": 2, "850": 1, "856": 1, "857": 1, "858": 1, "859": 1, "969": 2, "1188": 2, "1351": 2, "145": 1, "146": 0, "149": 0, "151": 1, "152": 1, "153": 1, "155": 1, "156": 1, "157": 1, "159": 0, "160": 0, "162": 1, "163": 1, "165": 1, "166": 1, "170": 1, "171": 1, "172": 1, "174": 1, "175": 0, "176": 0, "180": 0, "182": 1, "183": 1, "184": 1, "186": 0, "187": 0, "188": 0, "190": 1, "191": 1, "193": 0, "195": 1, "196": 0, "197": 0, "199": 0, "200": 0, "202": 1, "203": 1, "205": 1, "206": 2, "207": 2, "208": 0, "210": 2, "212": 2, "214": 2, "215": 0, "217": 2, "219": 0, "221": 2, "222": 2, "223": 2, "224": 2, "225": 2, "227": 2, "228": 2, "229": 1, "231": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 1, "239": 1, "240": 1, "242": 1, "243": 0, "245": 1, "256": 1, "257": 0, "259": 1, "260": 1, "262": 1, "263": 1, "264": 1, "265": 1, "267": 1, "268": 0, "269": 0, "271": 0, "275": 1, "276": 1, "277": 1, "278": 1, "281": 1, "282": 0, "283": 0, "284": 0, "285": 0, "286": 0, "288": 1, "289": 1, "290": 1, "292": 1, "302": 0, "308": 0, "309": 0, "312": 0, "313": 0, "314": 0, "315": 0, "317": 1, "318": 1, "320": 1, "321": 0, "322": 0, "324": 1, "329": 0, "334": 0, "335": 0, "336": 0, "339": 1, "340": 1, "341": 1, "343": 1, "345": 0, "346": 0, "349": 1, "351": 1, "353": 0, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "359": 0, "360": 0, "361": 0, "362": 0, "363": 1, "365": 1, "367": 0, "370": 0, "375": 1, "376": 1, "378": 1, "379": 1, "380": 0, "382": 1, "383": 1, "386": 1, "387": 1, "388": 1, "389": 1, "391": 0, "394": 0, "396": 0, "397": 0, "398": 0, "400": 1, "402": 1, "403": 1, "404": 0, "406": 0, "407": 0, "408": 0, "409": 0, "410": 0, "411": 1, "412": 1, "415": 0, "416": 0, "417": 0, "419": 1, "422": 1, "425": 1, "428": 0, "429": 0, "431": 0, "433": 0, "435": 0, "437": 0, "438": 0, "439": 0, "441": 0, "444": 0, "445": 0, "447": 0, "449": 0, "450": 0, "451": 0, "452": 0, "453": 0, "454": 0, "463": 0, "464": 0, "465": 0, "467": 0, "468": 0, "469": 0, "470": 0, "471": 0, "473": 1, "475": 1, "476": 1, "478": 1, "479": 1, "481": 0, "483": 0, "484": 0, "486": 0, "590": 1, "592": 1, "593": 1, "594": 1, "595": 1, "606": 1, "616": 1, "674": 1, "596": 0, "597": 0, "598": 0, "599": 0, "600": 0, "601": 0, "602": 0, "603": 0, "604": 0, "608": 0, "609": 0, "610": 0, "611": 0, "612": 0, "614": 0, "618": 0, "620": 0, "621": 0, "623": 0, "624": 0, "626": 0, "628": 0, "630": 0, "631": 0, "632": 0, "634": 0, "635": 0, "636": 0, "637": 0, "638": 0, "639": 0, "640": 0, "641": 0, "642": 0, "643": 0, "644": 0, "645": 0, "646": 0, "647": 0, "648": 0, "649": 0, "651": 0, "653": 0, "654": 0, "655": 0, "657": 0, "658": 0, "659": 0, "660": 0, "661": 0, "662": 0, "663": 0, "664": 0, "665": 0, "666": 0, "667": 0, "668": 0, "669": 0, "671": 0, "672": 0, "695": 0, "697": 0, "698": 0, "699": 0, "700": 0, "702": 0, "704": 0, "705": 0, "707": 0, "829": 1, "831": 1, "832": 1, "833": 1, "834": 1, "835": 0, "836": 0, "837": 0, "838": 0, "839": 0, "840": 0, "841": 0, "842": 0, "843": 0, "844": 0, "851": 0, "852": 0, "853": 0, "939": 0, "940": 0, "941": 0, "942": 0, "944": 0, "945": 0, "946": 0, "947": 0, "948": 0, "949": 0, "950": 0, "951": 0, "952": 0, "954": 0, "955": 0, "956": 0, "957": 0, "959": 0, "960": 0, "961": 0, "962": 0, "963": 0, "964": 0, "965": 0, "966": 0, "1090": 1, "1092": 1, "1093": 1, "1094": 1, "1095": 1, "1107": 1, "1096": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1101": 0, "1102": 0, "1103": 0, "1104": 0, "1105": 0, "1123": 0, "1124": 0, "1125": 0, "1128": 0, "1131": 0, "1132": 0, "1133": 0, "1135": 0, "1136": 0, "1138": 0, "1139": 0, "1144": 0, "1145": 0, "1147": 0, "1149": 0, "1150": 0, "1152": 0, "1153": 0, "1154": 0, "1155": 0, "1156": 0, "1157": 0, "1158": 0, "1159": 0, "1160": 0, "1161": 0, "1162": 0, "1163": 0, "1164": 0, "1165": 0, "1166": 0, "1168": 0, "1169": 0, "1170": 0, "1172": 0, "1173": 0, "1176": 0, "1177": 0, "1178": 0, "1183": 0, "1184": 0, "1185": 0, "1330": 1, "1332": 1, "1333": 1, "1334": 1, "1335": 1, "1336": 0, "1337": 0, "1338": 0, "1339": 0, "1340": 0, "1341": 0, "1342": 0, "1343": 0, "1344": 0, "1345": 0, "1346": 0, "1468": 1, "1469": 1, "1470": 1, "1482": 1, "1471": 1, "1472": 1, "1473": 1, "1474": 1, "1475": 1, "1476": 1, "1477": 1, "1478": 1, "1479": 1, "1480": 1, "1501": 1, "1503": 1, "1504": 1, "1505": 1, "1507": 1, "1509": 1, "1510": 1, "1511": 1, "1512": 1, "1514": 1, "1516": 1, "1517": 1, "1518": 0, "1519": 0, "1521": 0, "1523": 1, "1524": 1, "1525": 1, "1527": 1, "1528": 3, "1529": 2, "1530": 2, "1531": 1, "1535": 1, "1537": 1, "1538": 1, "1539": 1, "1540": 1, "1541": 1, "1543": 1, "1544": 1, "1545": 1, "1546": 1}}
++ git checkout a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a
+Note: switching to 'a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a7b8b9e9e1 MAINT Removes total_seconds completely in benchmarks (#12969)
++ git apply /root/pre_state.patch
+error: unrecognized input

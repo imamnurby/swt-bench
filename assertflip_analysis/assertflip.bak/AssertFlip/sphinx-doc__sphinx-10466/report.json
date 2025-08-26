@@ -1,0 +1,50 @@
+{
+    "sphinx-doc__sphinx-10466": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 0.0,
+        "coverage_delta_gold": 1.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "file"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "tests/test_coverup_sphinx-doc__sphinx-10466.py::test_message_locations_duplicates"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "tests/test_build_gettext.py::test_Catalog_duplicated_message"
+            ],
+            "PASS_TO_PASS": [
+                "tests/test_build_gettext.py::test_gettext_template_msgid_order_in_sphinxpot",
+                "tests/test_build_gettext.py::test_gettext_disable_index_entries",
+                "tests/test_build_gettext.py::test_build_gettext",
+                "tests/test_build_gettext.py::test_gettext_index_entries",
+                "tests/test_build_gettext.py::test_gettext_template",
+                "tests/test_build_gettext.py::test_build_single_pot"
+            ],
+            "FAIL_TO_FAIL": [
+                "[1]"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

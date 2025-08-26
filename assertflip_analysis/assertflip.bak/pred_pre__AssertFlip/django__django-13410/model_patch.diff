@@ -1,0 +1,26 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-13410.py
+new file mode 100644
+index e69de29..efb8c6a 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-13410.py
+@@ -0,0 +1,20 @@
++from django.test import SimpleTestCase
++import os
++import tempfile
++import fcntl
++from django.core.files.locks import lock, unlock
++
++class LockFunctionTest(SimpleTestCase):
++    def test_lock_function_returns_true_on_success(self):
++        # Create a temporary file
++        temp_file = tempfile.NamedTemporaryFile(delete=False)
++        try:
++            # Attempt to acquire a lock using LOCK_EX | LOCK_NB
++            result = lock(temp_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
++            
++            # Assert that the lock function returns True, indicating success
++            self.assertTrue(result)
++        finally:
++            # Clean up: close and delete the temporary file
++            temp_file.close()
++            os.unlink(temp_file.name)

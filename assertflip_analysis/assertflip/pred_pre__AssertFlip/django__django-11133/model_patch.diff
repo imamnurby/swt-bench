@@ -1,0 +1,22 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11133.py
+new file mode 100644
+index e69de29..f2589f7 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11133.py
+@@ -0,0 +1,16 @@
++from django.test import SimpleTestCase
++from django.http import HttpResponse
++
++class HttpResponseMemoryViewTest(SimpleTestCase):
++    def test_memoryview_content(self):
++        # Create a memoryview object
++        memory_content = memoryview(b"My Content")
++        
++        # Initialize HttpResponse with memoryview
++        response = HttpResponse(memory_content)
++        
++        # Access the content of the response
++        content = response.content
++        
++        # Assert that the content is correctly represented as the original byte string
++        self.assertEqual(content, b'My Content', "Content is not correctly represented as the original byte string")

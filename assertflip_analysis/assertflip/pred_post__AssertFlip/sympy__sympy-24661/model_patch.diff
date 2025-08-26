@@ -1,0 +1,12 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-24661.py
+new file mode 100644
+index e69de29..e457ef1 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-24661.py
+@@ -0,0 +1,6 @@
++from sympy.parsing.sympy_parser import parse_expr
++from sympy import Lt
++
++def test_parse_expr_evaluate_false_ignored_for_relationals():
++    result = parse_expr('1 < 2', evaluate=False)
++    assert result == Lt(1, 2, evaluate=False)

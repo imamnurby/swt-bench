@@ -1,0 +1,60 @@
+diff --git a/dev/null b/tests/test_coverup_sphinx-doc__sphinx-8721.py
+new file mode 100644
+index e69de29..51ecbd4 100644
+--- /dev/null
++++ b/tests/test_coverup_sphinx-doc__sphinx-8721.py
+@@ -0,0 +1,54 @@
++import os
++import pytest
++from sphinx.application import Sphinx
++
++def test_viewcode_pages_generated_for_epub_when_disabled(tmpdir):
++    # Setup a minimal Sphinx project
++    srcdir = tmpdir.mkdir("src")
++    conf_file = srcdir.join("conf.py")
++    conf_file.write("""
++extensions = ['sphinx.ext.viewcode']
++viewcode_enable_epub = False
++""")
++    index_file = srcdir.join("index.rst")
++    index_file.write("""
++Welcome to the test documentation!
++==================================
++
++.. toctree::
++   :maxdepth: 2
++   :caption: Contents:
++
++   module1
++""")
++    module_file = srcdir.join("module1.rst")
++    module_file.write("""
++Module 1
++========
++
++.. automodule:: module1
++    :members:
++""")
++    py_module_file = srcdir.join("module1.py")
++    py_module_file.write("""
++def foo():
++    pass
++""")
++
++    # Build the Sphinx project
++    app = Sphinx(
++        srcdir=str(srcdir),
++        confdir=str(srcdir),
++        outdir=str(tmpdir.join("out")),
++        doctreedir=str(tmpdir.join("doctree")),
++        buildername='epub'
++    )
++    app.build()
++
++    # Check for the presence of viewcode pages in the EPUB output
++    epub_output_dir = tmpdir.join("out")
++    viewcode_page = epub_output_dir.join("_modules/module1.html")
++    
++    # Assert that the viewcode page is not present, which is the expected behavior
++    assert viewcode_page.exists(), "BUG: viewcode page should not be generated for EPUB when viewcode_enable_epub=False"
++

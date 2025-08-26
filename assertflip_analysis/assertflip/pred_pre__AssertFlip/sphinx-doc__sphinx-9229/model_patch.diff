@@ -1,0 +1,113 @@
+diff --git a/dev/null b/tests/test_coverup_sphinx-doc__sphinx-9229.py
+new file mode 100644
+index e69de29..0dd9a09 100644
+--- /dev/null
++++ b/tests/test_coverup_sphinx-doc__sphinx-9229.py
+@@ -0,0 +1,107 @@
++import os
++import pytest
++from sphinx.application import Sphinx
++
++@pytest.fixture
++def setup_sphinx(tmpdir):
++    # Setup a temporary directory for Sphinx
++    srcdir = tmpdir.mkdir("src")
++    confdir = srcdir
++    outdir = tmpdir.mkdir("out")
++    doctreedir = tmpdir.mkdir("doctree")
++
++    # Create conf.py
++    conf_content = """
++import os
++import sys
++sys.path.insert(0, os.path.abspath('.'))
++extensions = ['sphinx.ext.autodoc']
++"""
++    conf_file = srcdir.join("conf.py")
++    conf_file.write(conf_content)
++
++    # Create index.rst
++    index_content = """
++.. toctree::
++   :maxdepth: 2
++
++   file
++"""
++    index_file = srcdir.join("index.rst")
++    index_file.write(index_content)
++
++    # Create file.rst to include the module
++    file_rst_content = """
++file module
++===========
++
++.. automodule:: file
++    :members:
++"""
++    file_rst = srcdir.join("file.rst")
++    file_rst.write(file_rst_content)
++
++    # Create file.py with type aliases and docstrings
++    file_content = """
++from pathlib import Path
++from typing import Any, Callable, Dict, Union
++
++ScaffoldOpts = Dict[str, Any]
++\"\"\"Dictionary with PyScaffold's options, see ``pyscaffold.api.create_project``.
++Should be treated as immutable (if required, copy before changing).
++
++Please notice some behaviours given by the options **SHOULD** be observed. For example,
++files should be overwritten when the **force** option is ``True``. Similarly when
++**pretend** is ``True``, no operation should be really performed, but any action should
++be logged as if realized.
++\"\"\"
++
++FileContents = Union[str, None]
++\"\"\"When the file content is ``None``, the file should not be written to
++disk (empty files are represented by an empty string \"\" as content).
++\"\"\"
++
++FileOp = Callable[[Path, FileContents, ScaffoldOpts], Union[Path, None]]
++\"\"\"Signature of functions considered file operations::
++
++    Callable[[Path, FileContents, ScaffoldOpts], Union[Path, None]]
++
++- **path** (:obj:`pathlib.Path`): file path potentially to be written to/changed
++  in the disk.
++- **contents** (:obj:`FileContents`): usually a string that represents a text content
++  of the file. :obj:`None` indicates the file should not be written.
++- **opts** (:obj:`ScaffoldOpts`): a dict with PyScaffold's options.
++
++If the file is written (or more generally changed, such as new access permissions),
++by convention they should return the :obj:`file path <pathlib.Path>`.
++If no file was touched, :obj:`None` should be returned. Please notice a **FileOp**
++might return :obj:`None` if a pre-existing file in the disk is not modified.
++
++.. note::
++    A **FileOp** usually has side effects (e.g. write a file to the disk), see
++    :obj:`FileFileContents` and :obj:`ScaffoldOpts` for other conventions.
++\"\"\"
++"""
++    file_py = srcdir.join("file.py")
++    file_py.write(file_content)
++
++    return str(srcdir), str(confdir), str(outdir), str(doctreedir)
++
++def test_type_alias_docstring_bug(setup_sphinx):
++    srcdir, confdir, outdir, doctreedir = setup_sphinx
++
++    # Initialize Sphinx application
++    app = Sphinx(srcdir, confdir, outdir, doctreedir, buildername='html')
++    app.build()
++
++    # Check the generated HTML for the presence of the expected docstrings
++    html_file = os.path.join(outdir, 'file.html')
++    assert os.path.exists(html_file), "HTML file was not generated."
++
++    with open(html_file, 'r') as f:
++        html_content = f.read()
++
++    # Assert that the docstrings are present, indicating the bug is fixed
++    assert "Dictionary with PyScaffold's options" in html_content, "Expected docstring for ScaffoldOpts not found."
++    assert "When the file content is ``None``" in html_content, "Expected docstring for FileContents not found."
++    assert "Signature of functions considered file operations" in html_content, "Expected docstring for FileOp not found."

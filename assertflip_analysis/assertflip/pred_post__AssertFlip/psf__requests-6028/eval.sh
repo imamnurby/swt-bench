@@ -1,0 +1,69 @@
+#!/bin/bash
+set -uxo pipefail
+source /opt/miniconda3/bin/activate
+conda activate testbed
+cd /testbed
+git diff HEAD 0192aac24123735b3eaf9b08df46429bb770c283 >> /root/pre_state.patch
+git config --global --add safe.directory /testbed
+cd /testbed
+git status
+git show
+git diff 0192aac24123735b3eaf9b08df46429bb770c283
+source /opt/miniconda3/bin/activate
+conda activate testbed
+python -m pip install .
+git apply -v - <<'EOF_114329324912'
+diff --git a/requests/utils.py b/requests/utils.py
+--- a/requests/utils.py
++++ b/requests/utils.py
+@@ -974,6 +974,10 @@ def prepend_scheme_if_needed(url, new_scheme):
+     if not netloc:
+         netloc, path = path, netloc
+ 
++    if auth:
++        # parse_url doesn't provide the netloc with auth
++        # so we'll add it ourselves.
++        netloc = '@'.join([auth, netloc])
+     if scheme is None:
+         scheme = new_scheme
+     if path is None:
+
+EOF_114329324912
+git apply -v - <<'EOF_114329324912'
+diff --git a/dev/null b/test_coverup_psf__requests-6028.py
+new file mode 100644
+index e69de29..75d7278 100644
+--- /dev/null
++++ b/test_coverup_psf__requests-6028.py
+@@ -0,0 +1,25 @@
++import pytest
++from requests import Session
++from requests.auth import HTTPProxyAuth
++from unittest.mock import patch
++
++def test_proxy_authentication_bug():
++    # Setup: Mock the proxy server and request
++    proxies = {
++        'http': 'http://user:pass@proxy.example.com:8080',
++        'https': 'https://user:pass@proxy.example.com:8080',
++    }
++    auth = HTTPProxyAuth('user', 'pass')
++
++    # Mock the proxy_headers method to simulate the bug
++    with patch('requests.adapters.HTTPAdapter.proxy_headers', return_value={}):
++        with patch('requests.sessions.Session.send') as mock_send:
++            mock_response = mock_send.return_value
++            mock_response.status_code = 407  # Simulate the bug: Proxy Authentication Required
++
++            # Create a session and make a request
++            session = Session()
++            response = session.get('https://example.org/', proxies=proxies, auth=auth)
++
++            # Assert the correct behavior occurs
++            assert response.status_code == 200  # Expecting a status code of 200 when the bug is fixed
+
+EOF_114329324912
+python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(requests/utils\.py)' -m pytest --no-header -rA  -p no:cacheprovider test_coverup_psf__requests-6028.py
+cat coverage.cover
+git checkout 0192aac24123735b3eaf9b08df46429bb770c283
+git apply /root/pre_state.patch

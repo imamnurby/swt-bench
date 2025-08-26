@@ -1,0 +1,47 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15572.py
+new file mode 100644
+index e69de29..9d2d820 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15572.py
+@@ -0,0 +1,41 @@
++from django.test import SimpleTestCase, override_settings
++from django.utils.autoreload import autoreload_started, file_changed
++from django.dispatch import receiver
++from pathlib import Path
++import os
++
++class TemplateAutoreloadTests(SimpleTestCase):
++
++    @override_settings(TEMPLATES=[{
++        'BACKEND': 'django.template.backends.django.DjangoTemplates',
++        'DIRS': [''],  # Set DIRS to contain an empty string
++    }])
++    def test_autoreload_with_empty_template_dir(self):
++        """
++        Test that autoreload does not trigger when TEMPLATES DIRS contains an empty string.
++        """
++
++        # Simulate the environment variable TEMPLATES_DIRS to return an empty string
++        os.environ['TEMPLATES_DIRS'] = ''
++
++        # Start the autoreload mechanism
++        autoreload_triggered = []
++
++        @receiver(autoreload_started)
++        def on_autoreload_started(sender, **kwargs):
++            autoreload_triggered.append(True)
++
++        # Simulate a file change event
++        @receiver(file_changed)
++        def on_file_changed(sender, file_path, **kwargs):
++            # Convert file_path to a Path object to avoid AttributeError
++            file_path = Path(file_path)
++            # Simulate a non-Python file change
++            if file_path.suffix != '.py':
++                autoreload_triggered.append(True)
++
++        # Trigger a file change event
++        file_changed.send(sender=self.__class__, file_path=Path('template.html'))
++
++        # Assert that the autoreload mechanism does not trigger
++        self.assertFalse(autoreload_triggered, "Autoreload should not trigger due to the empty string in TEMPLATES DIRS.")

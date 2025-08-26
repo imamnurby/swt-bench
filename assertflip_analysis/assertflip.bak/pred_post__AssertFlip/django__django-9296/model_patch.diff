@@ -1,0 +1,22 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-9296.py
+new file mode 100644
+index e69de29..0cbb4f6 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-9296.py
+@@ -0,0 +1,16 @@
++from django.test import SimpleTestCase
++from django.core.paginator import Paginator
++
++class PaginatorIterationTest(SimpleTestCase):
++    def test_paginator_iteration_yields_pages(self):
++        """
++        Test that iterating over a Paginator object yields pages
++        due to the presence of the __iter__ method.
++        """
++        object_list = list(range(1, 101))  # Sample object list
++        paginator = Paginator(object_list, per_page=10)
++
++        pages = list(paginator)
++        self.assertEqual(len(pages), paginator.num_pages)
++        for page in pages:
++            self.assertTrue(hasattr(page, 'object_list'))

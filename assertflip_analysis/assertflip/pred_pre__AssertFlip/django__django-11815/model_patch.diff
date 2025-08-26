@@ -1,0 +1,31 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11815.py
+new file mode 100644
+index e69de29..5efb023 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11815.py
+@@ -0,0 +1,25 @@
++from django.test import SimpleTestCase
++from django.db.migrations.serializer import EnumSerializer
++from enum import Enum
++from django.utils.translation import gettext_lazy as _
++
++class Status(Enum):
++    GOOD = _('Good')  # 'Good' will be translated
++    BAD = _('Bad')    # 'Bad' will be translated
++
++    def __str__(self):
++        return self.name
++
++class MigrationTest(SimpleTestCase):
++    def test_enum_serialization_bug(self):
++        """
++        Test to expose the bug where the migration file uses the translated value
++        of an Enum object instead of its name, which causes issues when the value
++        is translated to another language.
++        """
++        # Use EnumSerializer directly to simulate the serialization process
++        serializer = EnumSerializer(Status.GOOD)
++        serialized_value, _ = serializer.serialize()
++
++        # Check if the serialized value contains the enum name instead of the translated value
++        self.assertIn("Status['GOOD']", serialized_value)

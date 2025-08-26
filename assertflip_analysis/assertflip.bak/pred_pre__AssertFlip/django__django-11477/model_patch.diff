@@ -1,0 +1,30 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11477.py
+new file mode 100644
+index e69de29..5ab2af4 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11477.py
+@@ -0,0 +1,24 @@
++from django.test import SimpleTestCase
++from django.urls import reverse, path
++from django.conf import settings
++from django.urls import include, re_path
++
++# Mock view function
++def mock_view(request, optional_param=None):
++    pass
++
++class TranslateUrlBugTest(SimpleTestCase):
++    def setUp(self):
++        # Set up URL patterns with optional named groups
++        self.url_patterns = [
++            re_path(r'^path/(?P<optional_param>\d+)?/$', mock_view, name='mock_view')
++        ]
++        settings.ROOT_URLCONF = self.url_patterns
++
++    def test_translate_url_with_missing_optional_param(self):
++        # Attempt to reverse URL without optional parameters
++        url = reverse('mock_view')
++        
++        # Assert that the URL is correctly formed
++        self.assertEqual(url, '/path/')  # Expecting '/path/' and should pass when the bug is fixed
++

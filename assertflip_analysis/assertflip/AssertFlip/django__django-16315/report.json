@@ -1,0 +1,95 @@
+{
+    "django__django-16315": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 1.0,
+        "coverage_delta_gold": 1.0,
+        "added_f2p": 1,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_django__django-16315 (unittest.loader._FailedTest)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [
+                "testbed/django/db/models/sql/compiler.py(1671):             (self.field_as_sql(field, v)"
+            ],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_bulk_create_with_mixed_case_db_columns (test_coverup_django__django-16315.TestBulkCreateWithUpdateConflicts)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "test_update_conflicts_unique_fields_update_fields_db_column (bulk_create.tests.BulkCreateTests)"
+            ],
+            "PASS_TO_PASS": [
+                "test_bulk_insert_nullable_fields (bulk_create.tests.BulkCreateTests)",
+                "test_set_state (bulk_create.tests.BulkCreateTests)",
+                "test_efficiency (bulk_create.tests.BulkCreateTests)",
+                "test_bulk_insert_expressions (bulk_create.tests.BulkCreateTests)",
+                "test_set_pk_and_query_efficiency (bulk_create.tests.BulkCreateTests)",
+                "test_simple (bulk_create.tests.BulkCreateTests)",
+                "test_non_auto_increment_pk_efficiency (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_two_fields_unique_fields_first (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_two_fields_unique_fields_both (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unique_two_fields_unique_fields_one (bulk_create.tests.BulkCreateTests)",
+                "test_invalid_batch_size_exception (bulk_create.tests.BulkCreateTests)",
+                "test_explicit_batch_size_efficiency (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_pk_in_update_fields (bulk_create.tests.BulkCreateTests)",
+                "test_unsaved_parent (bulk_create.tests.BulkCreateTests)",
+                "testbed/django/db/models/sql/compiler.py(1671):             (self.field_as_sql(field, v)",
+                "test_nullable_fk_after_parent_bulk_create (bulk_create.tests.BulkCreateTests)",
+                "test_set_pk_and_insert_single_item (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_invalid_unique_fields (bulk_create.tests.BulkCreateTests)",
+                "test_large_batch_efficiency (bulk_create.tests.BulkCreateTests)",
+                "test_large_batch_mixed_efficiency (bulk_create.tests.BulkCreateTests)",
+                "test_explicit_batch_size (bulk_create.tests.BulkCreateTests)",
+                "test_multi_table_inheritance_unsupported (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_nonexistent_update_fields (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unique_two_fields_unique_fields_both (bulk_create.tests.BulkCreateTests)",
+                "test_long_non_ascii_text (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_two_fields_unique_fields_second (bulk_create.tests.BulkCreateTests)",
+                "test_proxy_inheritance_supported (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unique_fields_pk (bulk_create.tests.BulkCreateTests)",
+                "test_empty_model (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_invalid_update_fields (bulk_create.tests.BulkCreateTests)",
+                "test_long_and_short_text (bulk_create.tests.BulkCreateTests)",
+                "test_ignore_update_conflicts_exclusive (bulk_create.tests.BulkCreateTests)",
+                "test_set_state_with_pk_specified (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_no_update_fields (bulk_create.tests.BulkCreateTests)",
+                "test_explicit_batch_size_respects_max_batch_size (bulk_create.tests.BulkCreateTests)",
+                "test_non_auto_increment_pk (bulk_create.tests.BulkCreateTests)",
+                "test_ignore_conflicts_ignore (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unique_fields (bulk_create.tests.BulkCreateTests)",
+                "test_large_single_field_batch (bulk_create.tests.BulkCreateTests)",
+                "test_nullable_fk_after_parent (bulk_create.tests.BulkCreateTests)",
+                "test_large_batch_mixed (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unique_fields_required (bulk_create.tests.BulkCreateTests)",
+                "test_large_batch (bulk_create.tests.BulkCreateTests)"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_ignore_conflicts_value_error (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_two_fields_no_unique_fields (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unsupported (bulk_create.tests.BulkCreateTests)",
+                "test_zero_as_autoval (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unique_field_unsupported (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_no_unique_fields (bulk_create.tests.BulkCreateTests)",
+                "test_update_conflicts_unique_two_fields_unique_no_unique_fields (bulk_create.tests.BulkCreateTests)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

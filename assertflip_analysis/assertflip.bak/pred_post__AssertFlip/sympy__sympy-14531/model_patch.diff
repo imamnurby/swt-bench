@@ -1,0 +1,19 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-14531.py
+new file mode 100644
+index e69de29..9957fd2 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-14531.py
+@@ -0,0 +1,13 @@
++from sympy import Symbol, S, Eq, Limit
++from sympy.printing.str import sstr
++
++def test_sstr_eq_sympy_integers_bug():
++    x = Symbol('x')
++    y = S(1)/2
++    result = sstr(Eq(x, y), sympy_integers=True)
++    assert result == "Eq(x, S(1)/2)"
++
++def test_sstr_limit_sympy_integers_bug():
++    x = Symbol('x')
++    result = sstr(Limit(x, x, S(1)/2), sympy_integers=True)
++    assert result == "Limit(x, x, S(1)/2)"

@@ -1,0 +1,33 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15104.py
+new file mode 100644
+index e69de29..f20af66 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15104.py
+@@ -0,0 +1,27 @@
++from django.db import models
++from django.db.migrations.autodetector import MigrationAutodetector
++from django.db.migrations.state import ModelState, ProjectState
++from django.test import TestCase
++
++class CustomFKField(models.ForeignKey):
++    def __init__(self, *args, **kwargs):
++        kwargs['to'] = 'testapp.HardcodedModel'
++        super().__init__(*args, **kwargs)
++
++    def deconstruct(self):
++        name, path, args, kwargs = super().deconstruct()
++        del kwargs["to"]
++        return name, path, args, kwargs
++
++class ReproTestCase(TestCase):
++    def test_reproduction(self):
++        before = ProjectState()
++        before.add_model(ModelState('testapp', 'HardcodedModel', []))
++        
++        after = ProjectState()
++        after.add_model(ModelState('testapp', 'HardcodedModel', []))
++        after.add_model(ModelState('testapp', 'TestModel', [('custom', CustomFKField(on_delete=models.CASCADE))]))
++        
++        changes = MigrationAutodetector(before, after)._detect_changes()
++        # The test should fail if KeyError is raised, indicating the bug is present
++        self.assertEqual(len(changes['testapp']), 0)

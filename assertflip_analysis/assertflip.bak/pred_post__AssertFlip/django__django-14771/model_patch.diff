@@ -1,0 +1,61 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-14771.py
+new file mode 100644
+index e69de29..69f07a0 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14771.py
+@@ -0,0 +1,55 @@
++from django.test import SimpleTestCase
++import subprocess
++import os
++import time
++
++class AutoReloaderXOptionsTest(SimpleTestCase):
++    def test_auto_reloader_x_options(self):
++        """
++        Test that the auto-reloader correctly passes the -X utf8 option on Windows.
++        The test should fail if the bug is present, indicating incorrect behavior.
++        """
++        # Create a temporary manage.py file with a print statement for the encoding
++        manage_py_content = """
++import sys
++with open(__file__, mode="r") as stream:
++    print("=== %s" % stream.encoding)
++"""
++        with open('manage.py', 'w') as f:
++            f.write(manage_py_content)
++
++        # Run the Django server with the -X utf8 option and auto-reloader enabled
++        process = subprocess.Popen(
++            ['python', '-X', 'utf8', 'manage.py', 'runserver', '0.0.0.0:8005', '-v3'],
++            stdout=subprocess.PIPE,
++            stderr=subprocess.PIPE,
++            text=True
++        )
++
++        # Allow some time for the server to start
++        time.sleep(5)
++
++        # Capture the initial output
++        stdout, stderr = process.communicate(timeout=10)
++
++        # Check if the initial output contains 'UTF-8'
++        initial_encoding = '=== utf-8' in stdout
++
++        # Modify the manage.py file to trigger the auto-reloader
++        with open('manage.py', 'a') as f:
++            f.write("# Trigger reload\n")
++
++        # Allow some time for the reload to occur
++        time.sleep(5)
++
++        # Capture the output after reload
++        stdout, stderr = process.communicate(timeout=10)
++
++        # Check if the output after reload contains 'utf-8', which indicates the bug is present
++        reload_encoding_bug = '=== utf-8' in stdout
++
++        # Assert that the encoding does not remain 'utf-8', indicating the bug
++        self.assertFalse(initial_encoding and reload_encoding_bug)
++
++        # Cleanup: remove the manage.py file
++        os.remove('manage.py')

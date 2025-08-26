@@ -1,0 +1,25 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11451.py
+new file mode 100644
+index e69de29..f2fe49d 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11451.py
+@@ -0,0 +1,19 @@
++from django.test import TestCase
++from django.contrib.auth.backends import ModelBackend
++from django.contrib.auth import get_user_model
++from unittest.mock import patch
++
++class ModelBackendAuthenticateTest(TestCase):
++    def test_authenticate_with_none_username(self):
++        backend = ModelBackend()
++        UserModel = get_user_model()
++
++        with patch.object(UserModel._default_manager, 'get_by_natural_key', side_effect=UserModel.DoesNotExist) as mock_get_by_natural_key:
++            # Call authenticate with username=None and password=None
++            result = backend.authenticate(request=None, username=None, password=None)
++
++            # Assert that get_by_natural_key is NOT called, which is the correct behavior
++            mock_get_by_natural_key.assert_not_called()
++
++            # The authenticate method should not perform any database queries when username is None.
++            self.assertIsNone(result)

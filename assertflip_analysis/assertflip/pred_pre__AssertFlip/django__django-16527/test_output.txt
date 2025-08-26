@@ -1,0 +1,415 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD bd366ca2aeffa869b7dbc0b0aa01caea75e6dc31
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit bd366ca2aeffa869b7dbc0b0aa01caea75e6dc31
+Author: Dan Glass <38985237+super-lumic@users.noreply.github.com>
+Date:   Mon Feb 6 09:41:08 2023 +0000
+
+    Made PostgreSQL's SchemaEditor._create_index_sql() respect the "sql" argument.
+
+diff --git a/django/db/backends/postgresql/schema.py b/django/db/backends/postgresql/schema.py
+index 321fa530aa..19f8b225e2 100644
+--- a/django/db/backends/postgresql/schema.py
++++ b/django/db/backends/postgresql/schema.py
+@@ -353,7 +353,7 @@ class DatabaseSchemaEditor(BaseDatabaseSchemaEditor):
+         include=None,
+         expressions=None,
+     ):
+-        sql = (
++        sql = sql or (
+             self.sql_create_index
+             if not concurrently
+             else self.sql_create_index_concurrently
++ git diff bd366ca2aeffa869b7dbc0b0aa01caea75e6dc31
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.6.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230206094108) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230206094108) (0.5.3)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-5.0.dev20230206094108-0.editable-py3-none-any.whl size=27416 sha256=436b7f7a1d9be8c945539c650959a0f8ff4a3b70423f7b95cdfecdde5bb208c3
+  Stored in directory: /tmp/pip-ephem-wheel-cache-1ib8cd5j/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 5.0.dev20230206094108
+    Uninstalling Django-5.0.dev20230206094108:
+      Successfully uninstalled Django-5.0.dev20230206094108
+Successfully installed Django-5.0.dev20230206094108
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-16527.py...
+Applied patch tests/test_coverup_django__django-16527.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/contrib/admin/templatetags/admin_modify\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16527
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/contrib/admin/templatetags/admin_modify\\.py)']
+Testing against Django installed in '/testbed/django'
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(1): import json
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(3): from django import template
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(4): from django.template.context import Context
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(6): from .base import InclusionAdminNode
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(8): register = template.Library()
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(11): def prepopulated_fields_js(context):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(51): @register.tag(name="prepopulated_fields_js")
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(52): def prepopulated_fields_js_tag(parser, token):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(51): @register.tag(name="prepopulated_fields_js")
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(52): def prepopulated_fields_js_tag(parser, token):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(61): def submit_row(context):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(115): @register.tag(name="submit_row")
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(116): def submit_row_tag(parser, token):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(115): @register.tag(name="submit_row")
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(116): def submit_row_tag(parser, token):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(122): @register.tag(name="change_form_object_tools")
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(123): def change_form_object_tools_tag(parser, token):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(122): @register.tag(name="change_form_object_tools")
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(123): def change_form_object_tools_tag(parser, token):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(133): @register.filter
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(134): def cell_count(inline_admin_form):
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(133): @register.filter
+0.61 /testbed/django/contrib/admin/templatetags/admin_modify.py(134): def cell_count(inline_admin_form):
+Found 1 test(s).
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+test_show_save_as_new_without_add_permission (test_coverup_django__django-16527.SubmitRowTests.test_show_save_as_new_without_add_permission) ... FAIL
+
+======================================================================
+FAIL: test_show_save_as_new_without_add_permission (test_coverup_django__django-16527.SubmitRowTests.test_show_save_as_new_without_add_permission)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-16527.py", line 28, in test_show_save_as_new_without_add_permission
+    self.assertFalse(result_context['show_save_as_new'])
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(65):     add = context["add"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(66):     change = context["change"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(67):     is_popup = context["is_popup"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(68):     save_as = context["save_as"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(69):     show_save = context.get("show_save", True)
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(70):     show_save_and_add_another = context.get("show_save_and_add_another", True)
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(71):     show_save_and_continue = context.get("show_save_and_continue", True)
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(72):     has_add_permission = context["has_add_permission"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(73):     has_change_permission = context["has_change_permission"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(74):     has_view_permission = context["has_view_permission"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(75):     has_editable_inline_admin_formsets = context["has_editable_inline_admin_formsets"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(77):         (has_change_permission and change)
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(76):     can_save = (
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(82):         has_add_permission
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(81):     can_save_and_add_another = (
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(89):         not is_popup and can_save and has_view_permission and show_save_and_continue
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(88):     can_save_and_continue = (
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(91):     can_change = has_change_permission or has_editable_inline_admin_formsets
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(92):     ctx = Context(context)
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(93):     ctx.update(
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(95):             "can_change": can_change,
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(97):                 not is_popup
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(98):                 and context["has_delete_permission"]
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(97):                 not is_popup
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(99):                 and change
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(97):                 not is_popup
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(100):                 and context.get("show_delete", True)
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(102):             "show_save_as_new": not is_popup
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(103):             and has_change_permission
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(102):             "show_save_as_new": not is_popup
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(104):             and change
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(102):             "show_save_as_new": not is_popup
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(105):             and save_as,
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(106):             "show_save_and_add_another": can_save_and_add_another,
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(107):             "show_save_and_continue": can_save_and_continue,
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(108):             "show_save": show_save and can_save,
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(109):             "show_close": not (show_save and can_save),
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(94):         {
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(93):     ctx.update(
+0.65 /testbed/django/contrib/admin/templatetags/admin_modify.py(112):     return ctx
++ cat coverage.cover
+{"/testbed/django/contrib/admin/templatetags/admin_modify.py": {"0": 0, "1": 1, "3": 1, "4": 1, "6": 1, "8": 1, "11": 1, "51": 2, "52": 2, "61": 1, "115": 2, "116": 2, "122": 2, "123": 2, "133": 2, "134": 2, "16": 0, "17": 0, "18": 0, "19": 0, "20": 0, "21": 0, "22": 0, "23": 0, "25": 0, "26": 0, "27": 0, "29": 0, "30": 0, "31": 0, "32": 0, "34": 0, "35": 0, "37": 0, "38": 0, "28": 0, "42": 0, "44": 0, "45": 0, "43": 0, "48": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "65": 1, "66": 1, "67": 1, "68": 1, "69": 1, "70": 1, "71": 1, "72": 1, "73": 1, "74": 1, "75": 1, "77": 1, "78": 0, "79": 0, "76": 1, "82": 1, "83": 0, "84": 0, "85": 0, "86": 0, "81": 1, "89": 1, "88": 1, "91": 1, "92": 1, "93": 2, "95": 1, "97": 3, "98": 1, "99": 1, "100": 1, "102": 3, "103": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "94": 1, "112": 1, "117": 0, "118": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "136": 0, "137": 0, "139": 0, "140": 0, "141": 0, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "149": 0, "150": 0}}
++ git checkout bd366ca2aeffa869b7dbc0b0aa01caea75e6dc31
+Note: switching to 'bd366ca2aeffa869b7dbc0b0aa01caea75e6dc31'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at bd366ca2ae Made PostgreSQL's SchemaEditor._create_index_sql() respect the "sql" argument.
++ git apply /root/pre_state.patch
+error: unrecognized input

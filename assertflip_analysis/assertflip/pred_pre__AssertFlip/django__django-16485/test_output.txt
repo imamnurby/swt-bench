@@ -1,0 +1,839 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 39f83765e12b0e5d260b7939fc3fe281d879b279
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 39f83765e12b0e5d260b7939fc3fe281d879b279
+Author: Nick Pope <nick@nickpope.me.uk>
+Date:   Mon Mar 8 13:36:14 2021 +0000
+
+    Refs #32528 -- Simplified MigrationAutodetector._sort_migrations().
+
+diff --git a/django/db/migrations/autodetector.py b/django/db/migrations/autodetector.py
+index 1cb3a19f64..5a5f5a14fb 100644
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -391,10 +391,9 @@ class MigrationAutodetector:
+                     # Resolve intra-app dependencies to handle circular
+                     # references involving a swappable model.
+                     dep = self._resolve_dependency(dep)[0]
+-                    if dep[0] == app_label:
+-                        for op2 in ops:
+-                            if self.check_dependency(op2, dep):
+-                                ts.add(op, op2)
++                    if dep[0] != app_label:
++                        continue
++                    ts.add(op, *(x for x in ops if self.check_dependency(x, dep)))
+             self.generated_operations[app_label] = list(ts.static_order())
+ 
+     def _optimize_migrations(self):
++ git diff 39f83765e12b0e5d260b7939fc3fe281d879b279
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.6.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230119053428) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230119053428) (0.5.3)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-5.0.dev20230119053428-0.editable-py3-none-any.whl size=27380 sha256=00f19464379bdbf49765f9fea11d08c6c5ad113410ef10f34109d9355b389a75
+  Stored in directory: /tmp/pip-ephem-wheel-cache-nb5__g37/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 5.0.dev20230119053428
+    Uninstalling Django-5.0.dev20230119053428:
+      Successfully uninstalled Django-5.0.dev20230119053428
+Successfully installed Django-5.0.dev20230119053428
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-16485.py...
+Applied patch tests/test_coverup_django__django-16485.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/template/defaultfilters\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16485
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/template/defaultfilters\\.py)']
+0.37 /testbed/django/template/defaultfilters.py(1): """Default variable filters."""
+0.38 /testbed/django/template/defaultfilters.py(2): import random as random_module
+0.38 /testbed/django/template/defaultfilters.py(3): import re
+0.38 /testbed/django/template/defaultfilters.py(4): import types
+0.38 /testbed/django/template/defaultfilters.py(5): import warnings
+0.38 /testbed/django/template/defaultfilters.py(6): from decimal import ROUND_HALF_UP, Context, Decimal, InvalidOperation
+0.38 /testbed/django/template/defaultfilters.py(7): from functools import wraps
+0.38 /testbed/django/template/defaultfilters.py(8): from inspect import unwrap
+0.38 /testbed/django/template/defaultfilters.py(9): from operator import itemgetter
+0.38 /testbed/django/template/defaultfilters.py(10): from pprint import pformat
+0.38 /testbed/django/template/defaultfilters.py(11): from urllib.parse import quote
+0.38 /testbed/django/template/defaultfilters.py(13): from django.utils import formats
+0.38 /testbed/django/template/defaultfilters.py(14): from django.utils.dateformat import format, time_format
+0.38 /testbed/django/template/defaultfilters.py(15): from django.utils.deprecation import RemovedInDjango51Warning
+0.38 /testbed/django/template/defaultfilters.py(16): from django.utils.encoding import iri_to_uri
+0.38 /testbed/django/template/defaultfilters.py(17): from django.utils.html import avoid_wrapping, conditional_escape, escape, escapejs
+0.38 /testbed/django/template/defaultfilters.py(18): from django.utils.html import json_script as _json_script
+0.38 /testbed/django/template/defaultfilters.py(19): from django.utils.html import linebreaks, strip_tags
+0.38 /testbed/django/template/defaultfilters.py(20): from django.utils.html import urlize as _urlize
+0.38 /testbed/django/template/defaultfilters.py(21): from django.utils.safestring import SafeData, mark_safe
+0.38 /testbed/django/template/defaultfilters.py(22): from django.utils.text import Truncator, normalize_newlines, phone2numeric
+0.38 /testbed/django/template/defaultfilters.py(23): from django.utils.text import slugify as _slugify
+0.38 /testbed/django/template/defaultfilters.py(24): from django.utils.text import wrap
+0.38 /testbed/django/template/defaultfilters.py(25): from django.utils.timesince import timesince, timeuntil
+0.38 /testbed/django/template/defaultfilters.py(26): from django.utils.translation import gettext, ngettext
+0.38 /testbed/django/template/defaultfilters.py(28): from .base import VARIABLE_ATTRIBUTE_SEPARATOR
+0.38 /testbed/django/template/defaultfilters.py(29): from .library import Library
+0.38 /testbed/django/template/defaultfilters.py(31): register = Library()
+0.38 /testbed/django/template/defaultfilters.py(39): def stringfilter(func):
+0.38 /testbed/django/template/defaultfilters.py(61): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(62): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(63): def addslashes(value):
+0.38 /testbed/django/template/defaultfilters.py(62): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(61): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(63): def addslashes(value):
+0.38 /testbed/django/template/defaultfilters.py(72): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(73): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(74): def capfirst(value):
+0.38 /testbed/django/template/defaultfilters.py(73): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(72): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(74): def capfirst(value):
+0.38 /testbed/django/template/defaultfilters.py(79): @register.filter("escapejs")
+0.38 /testbed/django/template/defaultfilters.py(80): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(81): def escapejs_filter(value):
+0.38 /testbed/django/template/defaultfilters.py(80): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(79): @register.filter("escapejs")
+0.38 /testbed/django/template/defaultfilters.py(81): def escapejs_filter(value):
+0.38 /testbed/django/template/defaultfilters.py(86): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(87): def json_script(value, element_id=None):
+0.38 /testbed/django/template/defaultfilters.py(86): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(87): def json_script(value, element_id=None):
+0.38 /testbed/django/template/defaultfilters.py(95): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(96): def floatformat(text, arg=-1):
+0.38 /testbed/django/template/defaultfilters.py(95): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(96): def floatformat(text, arg=-1):
+0.38 /testbed/django/template/defaultfilters.py(209): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(210): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(211): def iriencode(value):
+0.38 /testbed/django/template/defaultfilters.py(210): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(209): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(211): def iriencode(value):
+0.38 /testbed/django/template/defaultfilters.py(216): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(217): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(218): def linenumbers(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(217): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(216): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(218): def linenumbers(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(233): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(234): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(235): def lower(value):
+0.38 /testbed/django/template/defaultfilters.py(234): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(233): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(235): def lower(value):
+0.38 /testbed/django/template/defaultfilters.py(240): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(241): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(242): def make_list(value):
+0.38 /testbed/django/template/defaultfilters.py(241): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(240): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(242): def make_list(value):
+0.38 /testbed/django/template/defaultfilters.py(252): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(253): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(254): def slugify(value):
+0.38 /testbed/django/template/defaultfilters.py(253): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(252): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(254): def slugify(value):
+0.38 /testbed/django/template/defaultfilters.py(263): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(264): def stringformat(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(263): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(264): def stringformat(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(282): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(283): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(284): def title(value):
+0.38 /testbed/django/template/defaultfilters.py(283): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(282): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(284): def title(value):
+0.38 /testbed/django/template/defaultfilters.py(290): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(291): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(292): def truncatechars(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(291): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(290): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(292): def truncatechars(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(301): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(302): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(303): def truncatechars_html(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(302): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(301): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(303): def truncatechars_html(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(315): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(316): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(317): def truncatewords(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(316): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(315): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(317): def truncatewords(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(329): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(330): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(331): def truncatewords_html(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(330): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(329): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(331): def truncatewords_html(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(343): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(344): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(345): def upper(value):
+0.38 /testbed/django/template/defaultfilters.py(344): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(343): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(345): def upper(value):
+0.38 /testbed/django/template/defaultfilters.py(350): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(351): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(352): def urlencode(value, safe=None):
+0.38 /testbed/django/template/defaultfilters.py(351): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(350): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(352): def urlencode(value, safe=None):
+0.38 /testbed/django/template/defaultfilters.py(367): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(368): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(369): def urlize(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(368): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(367): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(369): def urlize(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(374): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(375): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(376): def urlizetrunc(value, limit, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(375): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(374): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(376): def urlizetrunc(value, limit, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(388): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(389): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(390): def wordcount(value):
+0.38 /testbed/django/template/defaultfilters.py(389): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(388): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(390): def wordcount(value):
+0.38 /testbed/django/template/defaultfilters.py(395): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(396): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(397): def wordwrap(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(396): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(395): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(397): def wordwrap(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(402): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(403): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(404): def ljust(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(403): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(402): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(404): def ljust(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(409): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(410): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(411): def rjust(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(410): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(409): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(411): def rjust(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(416): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(417): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(418): def center(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(417): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(416): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(418): def center(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(423): @register.filter
+0.38 /testbed/django/template/defaultfilters.py(424): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(425): def cut(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(424): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(423): @register.filter
+0.38 /testbed/django/template/defaultfilters.py(425): def cut(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(439): @register.filter("escape", is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(440): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(441): def escape_filter(value):
+0.38 /testbed/django/template/defaultfilters.py(440): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(439): @register.filter("escape", is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(441): def escape_filter(value):
+0.38 /testbed/django/template/defaultfilters.py(446): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(447): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(448): def force_escape(value):
+0.38 /testbed/django/template/defaultfilters.py(447): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(446): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(448): def force_escape(value):
+0.38 /testbed/django/template/defaultfilters.py(457): @register.filter("linebreaks", is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(458): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(459): def linebreaks_filter(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(458): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(457): @register.filter("linebreaks", is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(459): def linebreaks_filter(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(469): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(470): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(471): def linebreaksbr(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(470): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(469): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(471): def linebreaksbr(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(483): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(484): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(485): def safe(value):
+0.38 /testbed/django/template/defaultfilters.py(484): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(483): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(485): def safe(value):
+0.38 /testbed/django/template/defaultfilters.py(490): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(491): def safeseq(value):
+0.38 /testbed/django/template/defaultfilters.py(490): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(491): def safeseq(value):
+0.38 /testbed/django/template/defaultfilters.py(500): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(501): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(502): def striptags(value):
+0.38 /testbed/django/template/defaultfilters.py(501): @stringfilter
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(45):     @wraps(func)
+0.38 /testbed/django/template/defaultfilters.py(46):     def _dec(first, *args, **kwargs):
+0.38 /testbed/django/template/defaultfilters.py(53):     return _dec
+0.38 /testbed/django/template/defaultfilters.py(500): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(502): def striptags(value):
+0.38 /testbed/django/template/defaultfilters.py(512): def _property_resolver(arg):
+0.38 /testbed/django/template/defaultfilters.py(550): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(551): def dictsort(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(550): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(551): def dictsort(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(562): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(563): def dictsortreversed(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(562): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(563): def dictsortreversed(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(574): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(575): def first(value):
+0.38 /testbed/django/template/defaultfilters.py(574): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(575): def first(value):
+0.38 /testbed/django/template/defaultfilters.py(583): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(584): def join(value, arg, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(583): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(584): def join(value, arg, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(595): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(596): def last(value):
+0.38 /testbed/django/template/defaultfilters.py(595): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(596): def last(value):
+0.38 /testbed/django/template/defaultfilters.py(604): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(605): def length(value):
+0.38 /testbed/django/template/defaultfilters.py(604): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(605): def length(value):
+0.38 /testbed/django/template/defaultfilters.py(613): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(614): def length_is(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(613): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(614): def length_is(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(627): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(628): def random(value):
+0.38 /testbed/django/template/defaultfilters.py(627): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(628): def random(value):
+0.38 /testbed/django/template/defaultfilters.py(633): @register.filter("slice", is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(634): def slice_filter(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(633): @register.filter("slice", is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(634): def slice_filter(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(651): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(652): def unordered_list(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(651): @register.filter(is_safe=True, needs_autoescape=True)
+0.38 /testbed/django/template/defaultfilters.py(652): def unordered_list(value, autoescape=True):
+0.38 /testbed/django/template/defaultfilters.py(727): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(728): def add(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(727): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(728): def add(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(739): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(740): def get_digit(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(739): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(740): def get_digit(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(765): @register.filter(expects_localtime=True, is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(766): def date(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(765): @register.filter(expects_localtime=True, is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(766): def date(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(779): @register.filter(expects_localtime=True, is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(780): def time(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(779): @register.filter(expects_localtime=True, is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(780): def time(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(793): @register.filter("timesince", is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(794): def timesince_filter(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(793): @register.filter("timesince", is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(794): def timesince_filter(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(806): @register.filter("timeuntil", is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(807): def timeuntil_filter(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(806): @register.filter("timeuntil", is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(807): def timeuntil_filter(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(822): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(823): def default(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(822): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(823): def default(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(828): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(829): def default_if_none(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(828): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(829): def default_if_none(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(836): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(837): def divisibleby(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(836): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(837): def divisibleby(value, arg):
+0.38 /testbed/django/template/defaultfilters.py(842): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(843): def yesno(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(842): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(843): def yesno(value, arg=None):
+0.38 /testbed/django/template/defaultfilters.py(881): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(882): def filesizeformat(bytes_):
+0.38 /testbed/django/template/defaultfilters.py(881): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(882): def filesizeformat(bytes_):
+0.38 /testbed/django/template/defaultfilters.py(924): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(925): def pluralize(value, arg="s"):
+0.38 /testbed/django/template/defaultfilters.py(924): @register.filter(is_safe=False)
+0.38 /testbed/django/template/defaultfilters.py(925): def pluralize(value, arg="s"):
+0.38 /testbed/django/template/defaultfilters.py(966): @register.filter("phone2numeric", is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(967): def phone2numeric_filter(value):
+0.38 /testbed/django/template/defaultfilters.py(966): @register.filter("phone2numeric", is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(967): def phone2numeric_filter(value):
+0.38 /testbed/django/template/defaultfilters.py(972): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(973): def pprint(value):
+0.38 /testbed/django/template/defaultfilters.py(972): @register.filter(is_safe=True)
+0.38 /testbed/django/template/defaultfilters.py(973): def pprint(value):
+Testing against Django installed in '/testbed/django'
+Found 1 test(s).
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+test_floatformat_with_zero_decimal (test_coverup_django__django-16485.FloatFormatBugTest.test_floatformat_with_zero_decimal) ... ERROR
+
+======================================================================
+ERROR: test_floatformat_with_zero_decimal (test_coverup_django__django-16485.FloatFormatBugTest.test_floatformat_with_zero_decimal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-16485.py", line 8, in test_floatformat_with_zero_decimal
+    result = floatformat('0.00', 0)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/testbed/django/template/defaultfilters.py", line 190, in floatformat
+    rounded_d = d.quantize(exp, ROUND_HALF_UP, Context(prec=prec))
+                                               ^^^^^^^^^^^^^^^^^^
+ValueError: valid range for prec is [1, MAX_PREC]
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+0.63 /testbed/django/template/defaultfilters.py(139):     force_grouping = False
+0.63 /testbed/django/template/defaultfilters.py(140):     use_l10n = True
+0.63 /testbed/django/template/defaultfilters.py(141):     if isinstance(arg, str):
+0.63 /testbed/django/template/defaultfilters.py(153):     try:
+0.63 /testbed/django/template/defaultfilters.py(154):         input_val = str(text)
+0.63 /testbed/django/template/defaultfilters.py(155):         d = Decimal(input_val)
+0.63 /testbed/django/template/defaultfilters.py(161):     try:
+0.63 /testbed/django/template/defaultfilters.py(162):         p = int(arg)
+0.63 /testbed/django/template/defaultfilters.py(166):     try:
+0.63 /testbed/django/template/defaultfilters.py(167):         m = int(d) - d
+0.63 /testbed/django/template/defaultfilters.py(171):     if not m and p < 0:
+0.63 /testbed/django/template/defaultfilters.py(181):     exp = Decimal(1).scaleb(-abs(p))
+0.63 /testbed/django/template/defaultfilters.py(183):     tupl = d.as_tuple()
+0.63 /testbed/django/template/defaultfilters.py(184):     units = len(tupl[1])
+0.63 /testbed/django/template/defaultfilters.py(185):     units += -tupl[2] if m else tupl[2]
+0.63 /testbed/django/template/defaultfilters.py(186):     prec = abs(p) + units + 1
+0.63 /testbed/django/template/defaultfilters.py(190):     rounded_d = d.quantize(exp, ROUND_HALF_UP, Context(prec=prec))
++ cat coverage.cover
+{"/testbed/django/template/defaultfilters.py": {"0": 0, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "28": 1, "29": 1, "31": 1, "39": 1, "61": 2, "62": 2, "63": 2, "72": 2, "73": 2, "74": 2, "79": 2, "80": 2, "81": 2, "86": 2, "87": 2, "95": 2, "96": 2, "209": 2, "210": 2, "211": 2, "216": 2, "217": 2, "218": 2, "233": 2, "234": 2, "235": 2, "240": 2, "241": 2, "242": 2, "252": 2, "253": 2, "254": 2, "263": 2, "264": 2, "282": 2, "283": 2, "284": 2, "290": 2, "291": 2, "292": 2, "301": 2, "302": 2, "303": 2, "315": 2, "316": 2, "317": 2, "329": 2, "330": 2, "331": 2, "343": 2, "344": 2, "345": 2, "350": 2, "351": 2, "352": 2, "367": 2, "368": 2, "369": 2, "374": 2, "375": 2, "376": 2, "388": 2, "389": 2, "390": 2, "395": 2, "396": 2, "397": 2, "402": 2, "403": 2, "404": 2, "409": 2, "410": 2, "411": 2, "416": 2, "417": 2, "418": 2, "423": 2, "424": 2, "425": 2, "439": 2, "440": 2, "441": 2, "446": 2, "447": 2, "448": 2, "457": 2, "458": 2, "459": 2, "469": 2, "470": 2, "471": 2, "483": 2, "484": 2, "485": 2, "490": 2, "491": 2, "500": 2, "501": 2, "502": 2, "512": 1, "550": 2, "551": 2, "562": 2, "563": 2, "574": 2, "575": 2, "583": 2, "584": 2, "595": 2, "596": 2, "604": 2, "605": 2, "613": 2, "614": 2, "627": 2, "628": 2, "633": 2, "634": 2, "651": 2, "652": 2, "727": 2, "728": 2, "739": 2, "740": 2, "765": 2, "766": 2, "779": 2, "780": 2, "793": 2, "794": 2, "806": 2, "807": 2, "822": 2, "823": 2, "828": 2, "829": 2, "836": 2, "837": 2, "842": 2, "843": 2, "881": 2, "882": 2, "924": 2, "925": 2, "966": 2, "967": 2, "972": 2, "973": 2, "45": 58, "46": 58, "53": 29, "47": 0, "48": 0, "49": 0, "50": 0, "51": 0, "69": 0, "76": 0, "83": 0, "92": 0, "139": 1, "140": 1, "141": 1, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "150": 0, "151": 0, "152": 0, "153": 1, "154": 1, "155": 1, "156": 0, "157": 0, "158": 0, "159": 0, "160": 0, "161": 1, "162": 1, "163": 0, "164": 0, "166": 1, "167": 1, "168": 0, "169": 0, "171": 1, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "177": 0, "181": 1, "183": 1, "184": 1, "185": 1, "186": 1, "190": 1, "191": 0, "192": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "203": 0, "204": 0, "213": 0, "220": 0, "223": 0, "224": 0, "225": 0, "226": 0, "228": 0, "229": 0, "230": 0, "237": 0, "249": 0, "260": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "279": 0, "286": 0, "287": 0, "294": 0, "295": 0, "296": 0, "297": 0, "298": 0, "308": 0, "309": 0, "310": 0, "311": 0, "312": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "336": 0, "337": 0, "338": 0, "339": 0, "340": 0, "347": 0, "361": 0, "362": 0, "363": 0, "364": 0, "371": 0, "383": 0, "384": 0, "392": 0, "399": 0, "406": 0, "413": 0, "420": 0, "427": 0, "428": 0, "429": 0, "430": 0, "431": 0, "443": 0, "454": 0, "465": 0, "466": 0, "476": 0, "477": 0, "478": 0, "479": 0, "480": 0, "487": 0, "497": 0, "504": 0, "530": 0, "531": 0, "547": 0, "532": 0, "533": 0, "534": 0, "535": 0, "537": 0, "545": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "543": 0, "556": 0, "557": 0, "558": 0, "559": 0, "568": 0, "569": 0, "570": 0, "571": 0, "577": 0, "578": 0, "579": 0, "580": 0, "586": 0, "587": 0, "588": 0, "589": 0, "590": 0, "591": 0, "592": 0, "598": 0, "599": 0, "600": 0, "601": 0, "607": 0, "608": 0, "609": 0, "610": 0, "616": 0, "617": 0, "619": 0, "621": 0, "622": 0, "623": 0, "624": 0, "630": 0, "638": 0, "639": 0, "640": 0, "641": 0, "642": 0, "644": 0, "645": 0, "647": 0, "648": 0, "673": 0, "674": 0, "677": 0, "680": 0, "704": 0, "719": 0, "678": 0, "681": 0, "682": 0, "683": 0, "684": 0, "685": 0, "686": 0, "687": 0, "688": 0, "689": 0, "690": 0, "691": 0, "692": 0, "696": 0, "697": 0, "698": 0, "693": 0, "694": 0, "699": 0, "700": 0, "701": 0, "702": 0, "705": 0, "706": 0, "707": 0, "708": 0, "709": 0, "711": 0, "712": 0, "713": 0, "714": 0, "710": 0, "716": 0, "717": 0, "730": 0, "731": 0, "732": 0, "733": 0, "734": 0, "735": 0, "736": 0, "747": 0, "748": 0, "749": 0, "750": 0, "751": 0, "752": 0, "753": 0, "754": 0, "755": 0, "756": 0, "757": 0, "768": 0, "769": 0, "770": 0, "771": 0, "772": 0, "773": 0, "774": 0, "775": 0, "776": 0, "782": 0, "783": 0, "784": 0, "785": 0, "786": 0, "787": 0, "788": 0, "789": 0, "790": 0, "796": 0, "797": 0, "798": 0, "799": 0, "800": 0, "801": 0, "802": 0, "803": 0, "809": 0, "810": 0, "811": 0, "812": 0, "813": 0, "814": 0, "825": 0, "831": 0, "832": 0, "833": 0, "839": 0, "858": 0, "860": 0, "861": 0, "862": 0, "863": 0, "864": 0, "865": 0, "866": 0, "868": 0, "869": 0, "870": 0, "871": 0, "872": 0, "873": 0, "887": 0, "888": 0, "889": 0, "890": 0, "891": 0, "893": 0, "896": 0, "897": 0, "898": 0, "899": 0, "900": 0, "902": 0, "903": 0, "904": 0, "906": 0, "907": 0, "908": 0, "909": 0, "910": 0, "911": 0, "912": 0, "913": 0, "914": 0, "915": 0, "917": 0, "919": 0, "920": 0, "921": 0, "894": 0, "947": 0, "948": 0, "949": 0, "950": 0, "951": 0, "952": 0, "954": 0, "955": 0, "956": 0, "957": 0, "958": 0, "959": 0, "960": 0, "961": 0, "962": 0, "963": 0, "969": 0, "975": 0, "976": 0, "977": 0, "978": 0}}
++ git checkout 39f83765e12b0e5d260b7939fc3fe281d879b279
+Note: switching to '39f83765e12b0e5d260b7939fc3fe281d879b279'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 39f83765e1 Refs #32528 -- Simplified MigrationAutodetector._sort_migrations().
++ git apply /root/pre_state.patch
+error: unrecognized input

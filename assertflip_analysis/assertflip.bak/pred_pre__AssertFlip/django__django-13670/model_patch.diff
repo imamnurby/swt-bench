@@ -1,0 +1,20 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-13670.py
+new file mode 100644
+index e69de29..2bf18fb 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-13670.py
+@@ -0,0 +1,14 @@
++from django.test import SimpleTestCase
++from django.utils import dateformat
++import datetime
++
++class DateFormatYearTest(SimpleTestCase):
++    def test_year_format_bug(self):
++        # Create a datetime object with a year less than 1000
++        dt = datetime.datetime(123, 4, 5)
++        
++        # Format using dateformat with 'y' character
++        formatted_year = dateformat.format(dt, "y")
++        
++        # Assert the correct behavior: expecting two digits with leading zero
++        self.assertEqual(formatted_year, '23')

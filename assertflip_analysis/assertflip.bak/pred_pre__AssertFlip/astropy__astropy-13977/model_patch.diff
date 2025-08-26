@@ -1,0 +1,40 @@
+diff --git a/dev/null b/astropy/tests/test_coverup_astropy__astropy-13977.py
+new file mode 100644
+index e69de29..a14f3f0 100644
+--- /dev/null
++++ b/astropy/tests/test_coverup_astropy__astropy-13977.py
+@@ -0,0 +1,34 @@
++import pytest
++import numpy as np
++import astropy.units as u
++import dataclasses
++
++@dataclasses.dataclass
++class DuckArray(np.lib.mixins.NDArrayOperatorsMixin):
++    ndarray: u.Quantity
++
++    @property
++    def unit(self) -> u.UnitBase:
++        return self.ndarray.unit
++
++    def __array_ufunc__(self, function, method, *inputs, **kwargs):
++        inputs = [inp.ndarray if isinstance(inp, DuckArray) else inp for inp in inputs]
++        for inp in inputs:
++            if isinstance(inp, np.ndarray):
++                result = inp.__array_ufunc__(function, method, *inputs, **kwargs)
++                if result is not NotImplemented:
++                    return DuckArray(result)
++        return NotImplemented
++
++def test_quantity_duckarray_incompatible_units():
++    # Create a DuckArray with 1 mm
++    duck_array = DuckArray(1 * u.mm)
++    # Create a Quantity with 1 m
++    quantity = 1 * u.m
++
++    # Perform the operation that triggers the bug
++    result = quantity + duck_array
++    # Check that the result is a DuckArray with the correct unit conversion
++    assert isinstance(result, DuckArray)
++    assert result.ndarray.unit == u.m
++    assert result.ndarray.value == 1.001  # 1 m + 0.001 m (1 mm in meters)

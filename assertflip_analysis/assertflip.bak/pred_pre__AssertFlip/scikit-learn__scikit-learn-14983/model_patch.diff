@@ -1,0 +1,24 @@
+diff --git a/dev/null b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-14983.py
+new file mode 100644
+index e69de29..65e0362 100644
+--- /dev/null
++++ b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-14983.py
+@@ -0,0 +1,18 @@
++import pytest
++from sklearn.model_selection import RepeatedKFold, RepeatedStratifiedKFold
++
++def test_repeated_kfold_repr():
++    rkf = RepeatedKFold()
++    # Capture the __repr__ output
++    repr_output = repr(rkf)
++    # Assert that the output is the correct representation
++    assert repr_output == "RepeatedKFold(n_splits=5, n_repeats=10, random_state=None)", \
++        "The __repr__ output is incorrect"
++
++def test_repeated_stratified_kfold_repr():
++    rskf = RepeatedStratifiedKFold()
++    # Capture the __repr__ output
++    repr_output = repr(rskf)
++    # Assert that the output is the correct representation
++    assert repr_output == "RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=None)", \
++        "The __repr__ output is incorrect"

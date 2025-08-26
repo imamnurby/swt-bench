@@ -1,0 +1,576 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD b7da588e883e12b8ac3bb8a486e654e30fc1c6c8
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit b7da588e883e12b8ac3bb8a486e654e30fc1c6c8
+Author: Tim Schilling <schillingt@better-simple.com>
+Date:   Thu Oct 8 14:44:34 2020 -0500
+
+    Fixed #32091 -- Fixed admin search bar width on filtered admin page.
+
+diff --git a/django/contrib/admin/static/admin/css/responsive.css b/django/contrib/admin/static/admin/css/responsive.css
+index 7ffa871fc8..b1acdc6feb 100644
+--- a/django/contrib/admin/static/admin/css/responsive.css
++++ b/django/contrib/admin/static/admin/css/responsive.css
+@@ -120,7 +120,8 @@ input[type="submit"], button {
+     }
+ 
+     #changelist-search .quiet {
+-        width: 100%;
++        width: 0;
++        flex: 1 0 auto;
+         margin: 5px 0 0 25px;
+     }
+ 
+diff --git a/docs/releases/3.1.3.txt b/docs/releases/3.1.3.txt
+index e2bb2d0df3..e1665c2ee5 100644
+--- a/docs/releases/3.1.3.txt
++++ b/docs/releases/3.1.3.txt
+@@ -12,6 +12,9 @@ Bugfixes
+ * Fixed a regression in Django 3.1.2 that caused the incorrect height of the
+   admin changelist search bar (:ticket:`32072`).
+ 
++* Fixed a regression in Django 3.1.2 that caused the incorrect width of the
++  admin changelist search bar on a filtered page (:ticket:`32091`).
++
+ * Fixed displaying Unicode characters in
+   :class:`forms.JSONField <django.forms.JSONField>` and read-only
+   :class:`models.JSONField <django.db.models.JSONField>` values in the admin
+diff --git a/tests/admin_views/tests.py b/tests/admin_views/tests.py
+index 94646f2034..6ab401bede 100644
+--- a/tests/admin_views/tests.py
++++ b/tests/admin_views/tests.py
+@@ -4931,6 +4931,17 @@ class SeleniumTests(AdminSeleniumTestCase):
+             ['Roboto', 'Lucida Grande', 'Verdana', 'Arial', 'sans-serif'],
+         )
+ 
++    def test_search_input_filtered_page(self):
++        Person.objects.create(name='Guido van Rossum', gender=1, alive=True)
++        Person.objects.create(name='Grace Hopper', gender=1, alive=False)
++        self.admin_login(username='super', password='secret', login_url=reverse('admin:index'))
++        person_url = reverse('admin:admin_views_person_changelist') + '?q=Gui'
++        self.selenium.get(self.live_server_url + person_url)
++        self.assertGreater(
++            self.selenium.find_element_by_id('searchbar').rect['width'],
++            50,
++        )
++
+ 
+ @override_settings(ROOT_URLCONF='admin_views.urls')
+ class ReadonlyTest(AdminFieldExtractionMixin, TestCase):
++ git diff b7da588e883e12b8ac3bb8a486e654e30fc1c6c8
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: asgiref>=3.2.10 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (3.4.1)
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (2025.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (0.4.4)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref>=3.2.10->Django==3.2) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.2
+    Uninstalling Django-3.2:
+      Successfully uninstalled Django-3.2
+  Running setup.py develop for Django
+Successfully installed Django-3.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch tests/test_coverup_django__django-13516.py...
+<stdin>:50: new blank line at EOF.
++
+Applied patch tests/test_coverup_django__django-13516.py cleanly.
+warning: 1 line adds whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/core/management/base\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-13516
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/core/management/base\\.py)']
+0.33 /testbed/django/core/management/base.py(4): """
+0.33 /testbed/django/core/management/base.py(5): import os
+0.33 /testbed/django/core/management/base.py(6): import sys
+0.33 /testbed/django/core/management/base.py(7): import warnings
+0.33 /testbed/django/core/management/base.py(8): from argparse import ArgumentParser, HelpFormatter
+0.33 /testbed/django/core/management/base.py(9): from io import TextIOBase
+0.33 /testbed/django/core/management/base.py(11): import django
+0.33 /testbed/django/core/management/base.py(12): from django.core import checks
+0.33 /testbed/django/core/management/base.py(13): from django.core.exceptions import ImproperlyConfigured
+0.33 /testbed/django/core/management/base.py(14): from django.core.management.color import color_style, no_style
+0.34 /testbed/django/core/management/base.py(15): from django.db import DEFAULT_DB_ALIAS, connections
+0.34 /testbed/django/core/management/base.py(16): from django.utils.deprecation import RemovedInDjango41Warning
+0.34 /testbed/django/core/management/base.py(18): ALL_CHECKS = '__all__'
+0.34 /testbed/django/core/management/base.py(21): class CommandError(Exception):
+0.34 /testbed/django/core/management/base.py(21): class CommandError(Exception):
+0.34 /testbed/django/core/management/base.py(32):     """
+0.34 /testbed/django/core/management/base.py(33):     def __init__(self, *args, returncode=1, **kwargs):
+0.34 /testbed/django/core/management/base.py(38): class SystemCheckError(CommandError):
+0.34 /testbed/django/core/management/base.py(38): class SystemCheckError(CommandError):
+0.34 /testbed/django/core/management/base.py(41):     """
+0.34 /testbed/django/core/management/base.py(42):     pass
+0.34 /testbed/django/core/management/base.py(45): class CommandParser(ArgumentParser):
+0.34 /testbed/django/core/management/base.py(45): class CommandParser(ArgumentParser):
+0.34 /testbed/django/core/management/base.py(50):     """
+0.34 /testbed/django/core/management/base.py(51):     def __init__(self, *, missing_args_message=None, called_from_command_line=None, **kwargs):
+0.34 /testbed/django/core/management/base.py(56):     def parse_args(self, args=None, namespace=None):
+0.34 /testbed/django/core/management/base.py(63):     def error(self, message):
+0.34 /testbed/django/core/management/base.py(70): def handle_default_options(options):
+0.34 /testbed/django/core/management/base.py(82): def no_translations(handle_func):
+0.34 /testbed/django/core/management/base.py(97): class DjangoHelpFormatter(HelpFormatter):
+0.34 /testbed/django/core/management/base.py(97): class DjangoHelpFormatter(HelpFormatter):
+0.34 /testbed/django/core/management/base.py(101):     """
+0.34 /testbed/django/core/management/base.py(103):         '--version', '--verbosity', '--traceback', '--settings', '--pythonpath',
+0.34 /testbed/django/core/management/base.py(104):         '--no-color', '--force-color', '--skip-checks',
+0.34 /testbed/django/core/management/base.py(107):     def _reordered_actions(self, actions):
+0.34 /testbed/django/core/management/base.py(113):     def add_usage(self, usage, actions, *args, **kwargs):
+0.34 /testbed/django/core/management/base.py(116):     def add_arguments(self, actions):
+0.34 /testbed/django/core/management/base.py(120): class OutputWrapper(TextIOBase):
+0.34 /testbed/django/core/management/base.py(120): class OutputWrapper(TextIOBase):
+0.34 /testbed/django/core/management/base.py(123):     """
+0.34 /testbed/django/core/management/base.py(124):     @property
+0.34 /testbed/django/core/management/base.py(128):     @style_func.setter
+0.34 /testbed/django/core/management/base.py(135):     def __init__(self, out, ending='\n'):
+0.34 /testbed/django/core/management/base.py(140):     def __getattr__(self, name):
+0.34 /testbed/django/core/management/base.py(143):     def isatty(self):
+0.34 /testbed/django/core/management/base.py(146):     def write(self, msg='', style_func=None, ending=None):
+0.34 /testbed/django/core/management/base.py(154): class BaseCommand:
+0.34 /testbed/django/core/management/base.py(154): class BaseCommand:
+0.34 /testbed/django/core/management/base.py(224):     """
+0.34 /testbed/django/core/management/base.py(226):     help = ''
+0.34 /testbed/django/core/management/base.py(229):     _called_from_command_line = False
+0.34 /testbed/django/core/management/base.py(230):     output_transaction = False  # Whether to wrap the output in a "BEGIN; COMMIT;"
+0.34 /testbed/django/core/management/base.py(231):     requires_migrations_checks = False
+0.34 /testbed/django/core/management/base.py(232):     requires_system_checks = '__all__'
+0.34 /testbed/django/core/management/base.py(235):     base_stealth_options = ('stderr', 'stdout')
+0.34 /testbed/django/core/management/base.py(237):     stealth_options = ()
+0.34 /testbed/django/core/management/base.py(239):     def __init__(self, stdout=None, stderr=None, no_color=False, force_color=False):
+0.34 /testbed/django/core/management/base.py(263):     def get_version(self):
+0.34 /testbed/django/core/management/base.py(271):     def create_parser(self, prog_name, subcommand, **kwargs):
+0.34 /testbed/django/core/management/base.py(319):     def add_arguments(self, parser):
+0.34 /testbed/django/core/management/base.py(325):     def print_help(self, prog_name, subcommand):
+0.34 /testbed/django/core/management/base.py(333):     def run_from_argv(self, argv):
+0.34 /testbed/django/core/management/base.py(369):     def execute(self, *args, **options):
+0.34 /testbed/django/core/management/base.py(406):     def check(self, app_configs=None, tags=None, display_num_errors=False,
+0.34 /testbed/django/core/management/base.py(407):               include_deployment_checks=False, fail_level=checks.ERROR,
+0.34 /testbed/django/core/management/base.py(408):               databases=None):
+0.34 /testbed/django/core/management/base.py(475):     def check_migrations(self):
+0.34 /testbed/django/core/management/base.py(502):     def handle(self, *args, **options):
+0.34 /testbed/django/core/management/base.py(510): class AppCommand(BaseCommand):
+0.34 /testbed/django/core/management/base.py(510): class AppCommand(BaseCommand):
+0.34 /testbed/django/core/management/base.py(517):     """
+0.34 /testbed/django/core/management/base.py(518):     missing_args_message = "Enter at least one application label."
+0.34 /testbed/django/core/management/base.py(520):     def add_arguments(self, parser):
+0.34 /testbed/django/core/management/base.py(523):     def handle(self, *app_labels, **options):
+0.34 /testbed/django/core/management/base.py(536):     def handle_app_config(self, app_config, **options):
+0.34 /testbed/django/core/management/base.py(546): class LabelCommand(BaseCommand):
+0.34 /testbed/django/core/management/base.py(546): class LabelCommand(BaseCommand):
+0.34 /testbed/django/core/management/base.py(557):     """
+0.34 /testbed/django/core/management/base.py(558):     label = 'label'
+0.34 /testbed/django/core/management/base.py(559):     missing_args_message = "Enter at least one %s." % label
+0.34 /testbed/django/core/management/base.py(561):     def add_arguments(self, parser):
+0.34 /testbed/django/core/management/base.py(564):     def handle(self, *labels, **options):
+0.34 /testbed/django/core/management/base.py(572):     def handle_label(self, label, **options):
+Testing against Django installed in '/testbed/django'
+0.62 /testbed/django/core/management/base.py(84):     def wrapped(*args, **kwargs):
+0.62 /testbed/django/core/management/base.py(94):     return wrapped
+Skipping setup of unused database(s): default, other.
+0.63 /testbed/django/core/management/base.py(240):         self.stdout = OutputWrapper(stdout or sys.stdout)
+0.63 /testbed/django/core/management/base.py(136):         self._out = out
+0.63 /testbed/django/core/management/base.py(137):         self.style_func = None
+0.63 /testbed/django/core/management/base.py(130):         if style_func and self.isatty():
+0.63 /testbed/django/core/management/base.py(133):             self._style_func = lambda x: x
+0.63 /testbed/django/core/management/base.py(138):         self.ending = ending
+0.63 /testbed/django/core/management/base.py(241):         self.stderr = OutputWrapper(stderr or sys.stderr)
+0.63 /testbed/django/core/management/base.py(136):         self._out = out
+0.63 /testbed/django/core/management/base.py(137):         self.style_func = None
+0.63 /testbed/django/core/management/base.py(130):         if style_func and self.isatty():
+0.63 /testbed/django/core/management/base.py(133):             self._style_func = lambda x: x
+0.63 /testbed/django/core/management/base.py(138):         self.ending = ending
+0.63 /testbed/django/core/management/base.py(242):         if no_color and force_color:
+0.63 /testbed/django/core/management/base.py(244):         if no_color:
+0.63 /testbed/django/core/management/base.py(247):             self.style = color_style(force_color)
+0.63 /testbed/django/core/management/base.py(248):             self.stderr.style_func = self.style.ERROR
+0.63 /testbed/django/core/management/base.py(130):         if style_func and self.isatty():
+0.63 /testbed/django/core/management/base.py(144):         return hasattr(self._out, 'isatty') and self._out.isatty()
+0.63 /testbed/django/core/management/base.py(133):             self._style_func = lambda x: x
+0.63 /testbed/django/core/management/base.py(249):         if self.requires_system_checks in [False, True]:
+0.63 /testbed/django/core/management/base.py(258):             not isinstance(self.requires_system_checks, (list, tuple)) and
+0.63 /testbed/django/core/management/base.py(276):         parser = CommandParser(
+0.63 /testbed/django/core/management/base.py(277):             prog='%s %s' % (os.path.basename(prog_name), subcommand),
+0.63 /testbed/django/core/management/base.py(278):             description=self.help or None,
+0.63 /testbed/django/core/management/base.py(279):             formatter_class=DjangoHelpFormatter,
+0.63 /testbed/django/core/management/base.py(280):             missing_args_message=getattr(self, 'missing_args_message', None),
+0.63 /testbed/django/core/management/base.py(281):             called_from_command_line=getattr(self, '_called_from_command_line', None),
+0.63 /testbed/django/core/management/base.py(282):             **kwargs
+0.63 /testbed/django/core/management/base.py(52):         self.missing_args_message = missing_args_message
+0.63 /testbed/django/core/management/base.py(53):         self.called_from_command_line = called_from_command_line
+0.63 /testbed/django/core/management/base.py(54):         super().__init__(**kwargs)
+0.63 /testbed/django/core/management/base.py(284):         parser.add_argument('--version', action='version', version=self.get_version())
+0.63 /testbed/django/core/management/base.py(269):         return django.get_version()
+0.63 /testbed/django/core/management/base.py(285):         parser.add_argument(
+0.63 /testbed/django/core/management/base.py(286):             '-v', '--verbosity', default=1,
+0.63 /testbed/django/core/management/base.py(287):             type=int, choices=[0, 1, 2, 3],
+0.63 /testbed/django/core/management/base.py(288):             help='Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output',
+0.63 /testbed/django/core/management/base.py(290):         parser.add_argument(
+0.63 /testbed/django/core/management/base.py(291):             '--settings',
+0.63 /testbed/django/core/management/base.py(293):                 'The Python path to a settings module, e.g. '
+0.63 /testbed/django/core/management/base.py(298):         parser.add_argument(
+0.63 /testbed/django/core/management/base.py(299):             '--pythonpath',
+0.63 /testbed/django/core/management/base.py(300):             help='A directory to add to the Python path, e.g. "/home/djangoprojects/myproject".',
+0.63 /testbed/django/core/management/base.py(302):         parser.add_argument('--traceback', action='store_true', help='Raise on CommandError exceptions')
+0.63 /testbed/django/core/management/base.py(303):         parser.add_argument(
+0.63 /testbed/django/core/management/base.py(304):             '--no-color', action='store_true',
+0.63 /testbed/django/core/management/base.py(305):             help="Don't colorize the command output.",
+0.63 /testbed/django/core/management/base.py(307):         parser.add_argument(
+0.63 /testbed/django/core/management/base.py(308):             '--force-color', action='store_true',
+0.63 /testbed/django/core/management/base.py(309):             help='Force colorization of the command output.',
+0.63 /testbed/django/core/management/base.py(311):         if self.requires_system_checks:
+0.63 /testbed/django/core/management/base.py(316):         self.add_arguments(parser)
+0.63 /testbed/django/core/management/base.py(317):         return parser
+0.63 /testbed/django/core/management/base.py(58):         if (self.missing_args_message and
+0.63 /testbed/django/core/management/base.py(61):         return super().parse_args(args, namespace)
+0.63 /testbed/django/core/management/base.py(375):         if options['force_color'] and options['no_color']:
+0.63 /testbed/django/core/management/base.py(377):         if options['force_color']:
+0.63 /testbed/django/core/management/base.py(379):         elif options['no_color']:
+0.63 /testbed/django/core/management/base.py(382):         if options.get('stdout'):
+0.63 /testbed/django/core/management/base.py(384):         if options.get('stderr'):
+0.63 /testbed/django/core/management/base.py(387):         if self.requires_system_checks and not options['skip_checks']:
+0.63 /testbed/django/core/management/base.py(392):         if self.requires_migrations_checks:
+0.63 /testbed/django/core/management/base.py(394):         output = self.handle(*args, **options)
+0.63 /testbed/django/core/management/base.py(415):         all_issues = checks.run_checks(
+0.63 /testbed/django/core/management/base.py(416):             app_configs=app_configs,
+0.63 /testbed/django/core/management/base.py(417):             tags=tags,
+0.63 /testbed/django/core/management/base.py(418):             include_deployment_checks=include_deployment_checks,
+0.63 /testbed/django/core/management/base.py(419):             databases=databases,
+0.66 /testbed/django/core/management/base.py(422):         header, body, footer = "", "", ""
+0.66 /testbed/django/core/management/base.py(423):         visible_issue_count = 0  # excludes silenced warnings
+0.66 /testbed/django/core/management/base.py(425):         if all_issues:
+0.66 /testbed/django/core/management/base.py(450):         if visible_issue_count:
+0.66 /testbed/django/core/management/base.py(453):         if display_num_errors:
+0.66 /testbed/django/core/management/base.py(454):             if visible_issue_count:
+0.66 /testbed/django/core/management/base.py(456):             footer += "System check identified %s (%s silenced)." % (
+0.66 /testbed/django/core/management/base.py(457):                 "no issues" if visible_issue_count == 0 else
+0.66 /testbed/django/core/management/base.py(460):                 len(all_issues) - visible_issue_count,
+0.66 /testbed/django/core/management/base.py(463):         if any(e.is_serious(fail_level) and not e.is_silenced() for e in all_issues):
+0.66 /testbed/django/core/management/base.py(463):         if any(e.is_serious(fail_level) and not e.is_silenced() for e in all_issues):
+0.66 /testbed/django/core/management/base.py(467):             msg = header + body + footer
+0.66 /testbed/django/core/management/base.py(469):         if msg:
+0.66 /testbed/django/core/management/base.py(470):             if visible_issue_count:
+0.66 /testbed/django/core/management/base.py(473):                 self.stdout.write(msg)
+0.66 /testbed/django/core/management/base.py(147):         ending = self.ending if ending is None else ending
+0.66 /testbed/django/core/management/base.py(148):         if ending and not msg.endswith(ending):
+0.66 /testbed/django/core/management/base.py(149):             msg += ending
+0.66 /testbed/django/core/management/base.py(150):         style_func = style_func or self.style_func
+0.66 /testbed/django/core/management/base.py(126):         return self._style_func
+0.66 /testbed/django/core/management/base.py(151):         self._out.write(style_func(msg))
+0.66 /testbed/django/core/management/base.py(133):             self._style_func = lambda x: x
+test_migration_flush_behavior (test_coverup_django__django-13516.MigrationFlushTest) ... FAIL
+
+======================================================================
+FAIL: test_migration_flush_behavior (test_coverup_django__django-13516.MigrationFlushTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-13516.py", line 35, in test_migration_flush_behavior
+    mock_stdout.flush.assert_called()
+  File "/opt/miniconda3/envs/testbed/lib/python3.6/unittest/mock.py", line 786, in assert_called
+    raise AssertionError(msg)
+AssertionError: Expected 'flush' to have been called.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)
+System check identified no issues (0 silenced).
+0.66 /testbed/django/core/management/base.py(395):         if output:
+0.66 /testbed/django/core/management/base.py(404):         return output
+0.67 /testbed/django/core/management/base.py(141):         return getattr(self._out, name)
+0.67 /testbed/django/core/management/base.py(141):         return getattr(self._out, name)
+0.67 /testbed/django/core/management/base.py(141):         return getattr(self._out, name)
+0.67 /testbed/django/core/management/base.py(141):         return getattr(self._out, name)
+0.67 /testbed/django/core/management/base.py(141):         return getattr(self._out, name)
+0.67 /testbed/django/core/management/base.py(141):         return getattr(self._out, name)
++ cat coverage.cover
+{"/testbed/django/core/management/base.py": {"5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "18": 1, "21": 2, "38": 2, "45": 2, "70": 1, "82": 1, "97": 2, "120": 2, "154": 2, "510": 2, "546": 2, "33": 1, "34": 0, "35": 0, "42": 1, "51": 1, "56": 1, "63": 1, "52": 1, "53": 1, "54": 1, "58": 1, "59": 0, "60": 0, "61": 1, "64": 0, "65": 0, "67": 0, "76": 0, "77": 0, "78": 0, "79": 0, "84": 1, "94": 1, "85": 0, "86": 0, "87": 0, "88": 0, "89": 0, "91": 0, "92": 0, "93": 0, "103": 1, "104": 1, "107": 1, "113": 1, "116": 1, "108": 0, "109": 0, "110": 0, "114": 0, "117": 0, "124": 1, "128": 1, "135": 1, "140": 1, "143": 1, "146": 1, "126": 2, "130": 6, "131": 0, "133": 8, "136": 4, "137": 4, "138": 4, "141": 7, "144": 2, "147": 2, "148": 2, "149": 1, "150": 2, "151": 2, "226": 1, "229": 1, "230": 1, "231": 1, "232": 1, "235": 1, "237": 1, "239": 1, "263": 1, "271": 1, "319": 1, "325": 1, "333": 1, "369": 1, "406": 1, "407": 1, "408": 1, "475": 1, "502": 1, "240": 2, "241": 2, "242": 2, "243": 0, "244": 2, "245": 0, "247": 2, "248": 2, "249": 2, "250": 0, "251": 0, "254": 0, "256": 0, "258": 2, "259": 0, "261": 0, "269": 1, "276": 1, "277": 1, "278": 1, "279": 1, "280": 1, "281": 1, "282": 1, "284": 1, "285": 1, "286": 1, "287": 1, "288": 1, "290": 1, "291": 1, "293": 1, "298": 1, "299": 1, "300": 1, "302": 1, "303": 1, "304": 1, "305": 1, "307": 1, "308": 1, "309": 1, "311": 1, "312": 0, "313": 0, "314": 0, "316": 1, "317": 1, "323": 0, "330": 0, "331": 0, "341": 0, "342": 0, "344": 0, "345": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "352": 0, "353": 0, "356": 0, "357": 0, "359": 0, "360": 0, "362": 0, "363": 0, "364": 0, "367": 0, "375": 1, "376": 0, "377": 1, "378": 0, "379": 1, "380": 0, "381": 0, "382": 1, "383": 0, "384": 1, "385": 0, "387": 1, "388": 0, "389": 0, "391": 0, "392": 1, "393": 0, "394": 1, "395": 1, "396": 0, "397": 0, "398": 0, "399": 0, "400": 0, "401": 0, "403": 0, "404": 1, "415": 1, "416": 1, "417": 1, "418": 1, "419": 1, "422": 1, "423": 1, "425": 1, "426": 0, "427": 0, "428": 0, "429": 0, "430": 0, "432": 0, "433": 0, "434": 0, "435": 0, "436": 0, "439": 0, "440": 0, "441": 0, "443": 0, "446": 0, "447": 0, "448": 0, "450": 1, "451": 0, "453": 1, "454": 1, "455": 0, "456": 1, "457": 1, "458": 0, "459": 0, "460": 1, "463": 2, "464": 0, "465": 0, "467": 1, "469": 1, "470": 1, "471": 0, "473": 1, "480": 0, "481": 0, "482": 0, "483": 0, "485": 0, "487": 0, "488": 0, "489": 0, "490": 0, "491": 0, "492": 0, "495": 0, "496": 0, "500": 0, "507": 0, "518": 1, "520": 1, "523": 1, "536": 1, "521": 0, "524": 0, "525": 0, "526": 0, "527": 0, "528": 0, "529": 0, "530": 0, "531": 0, "532": 0, "533": 0, "534": 0, "541": 0, "542": 0, "558": 1, "559": 1, "561": 1, "564": 1, "572": 1, "562": 0, "565": 0, "566": 0, "567": 0, "568": 0, "569": 0, "570": 0, "577": 0}}
++ git checkout b7da588e883e12b8ac3bb8a486e654e30fc1c6c8
+Note: switching to 'b7da588e883e12b8ac3bb8a486e654e30fc1c6c8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at b7da588e88 Fixed #32091 -- Fixed admin search bar width on filtered admin page.
++ git apply /root/pre_state.patch
+error: unrecognized input

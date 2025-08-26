@@ -1,0 +1,1026 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD f4e93919e4608cfc50849a1f764fd856e0917401
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit f4e93919e4608cfc50849a1f764fd856e0917401
+Author: Mariusz Felisiak <felisiak.mariusz@gmail.com>
+Date:   Mon Jul 27 06:39:02 2020 +0200
+
+    Fixed #31815 -- Fixed schema value encoding on PostgreSQL.
+
+diff --git a/django/db/backends/postgresql/schema.py b/django/db/backends/postgresql/schema.py
+index 7687c37fe7..e77915b3b1 100644
+--- a/django/db/backends/postgresql/schema.py
++++ b/django/db/backends/postgresql/schema.py
+@@ -38,8 +38,11 @@ class DatabaseSchemaEditor(BaseDatabaseSchemaEditor):
+     def quote_value(self, value):
+         if isinstance(value, str):
+             value = value.replace('%', '%%')
++        adapted = psycopg2.extensions.adapt(value)
++        if hasattr(adapted, 'encoding'):
++            adapted.encoding = 'utf8'
+         # getquoted() returns a quoted bytestring of the adapted value.
+-        return psycopg2.extensions.adapt(value).getquoted().decode()
++        return adapted.getquoted().decode()
+ 
+     def _field_indexes_sql(self, model, field):
+         output = super()._field_indexes_sql(model, field)
+diff --git a/tests/constraints/models.py b/tests/constraints/models.py
+index 1460673a18..f8a4ebe675 100644
+--- a/tests/constraints/models.py
++++ b/tests/constraints/models.py
+@@ -4,6 +4,7 @@ from django.db import models
+ class Product(models.Model):
+     price = models.IntegerField(null=True)
+     discounted_price = models.IntegerField(null=True)
++    unit = models.CharField(max_length=15, null=True)
+ 
+     class Meta:
+         required_db_features = {
+@@ -31,6 +32,13 @@ class Product(models.Model):
+                 ),
+                 name='%(app_label)s_price_neq_500_wrap',
+             ),
++            models.CheckConstraint(
++                check=models.Q(
++                    models.Q(unit__isnull=True) |
++                    models.Q(unit__in=['μg/mL', 'ng/mL'])
++                ),
++                name='unicode_unit_list',
++            ),
+         ]
+ 
+ 
+diff --git a/tests/constraints/tests.py b/tests/constraints/tests.py
+index d9e91bdf49..2796a0f30b 100644
+--- a/tests/constraints/tests.py
++++ b/tests/constraints/tests.py
+@@ -88,6 +88,12 @@ class CheckConstraintTests(TestCase):
+         with self.assertRaises(IntegrityError):
+             Product.objects.create(price=10, discounted_price=20)
+ 
++    @skipUnlessDBFeature('supports_table_check_constraints')
++    def test_database_constraint_unicode(self):
++        Product.objects.create(price=10, discounted_price=5, unit='μg/mL')
++        with self.assertRaises(IntegrityError):
++            Product.objects.create(price=10, discounted_price=7, unit='l')
++
+     @skipUnlessDBFeature('supports_table_check_constraints')
+     def test_database_constraint_expression(self):
+         Product.objects.create(price=999, discounted_price=5)
++ git diff f4e93919e4608cfc50849a1f764fd856e0917401
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: asgiref>=3.2.10 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (3.4.1)
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (2025.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.2) (0.4.4)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref>=3.2.10->Django==3.2) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.2
+    Uninstalling Django-3.2:
+      Successfully uninstalled Django-3.2
+  Running setup.py develop for Django
+Successfully installed Django-3.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch tests/test_coverup_django__django-13212.py...
+Applied patch tests/test_coverup_django__django-13212.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/forms/fields\.py|django/core/validators\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-13212
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/forms/fields\\.py|django/core/validators\\.py)']
+0.06 validators.py(1): import ipaddress
+0.06 validators.py(2): import re
+0.06 validators.py(3): import warnings
+0.06 validators.py(4): from pathlib import Path
+0.06 validators.py(5): from urllib.parse import urlsplit, urlunsplit
+0.06 validators.py(7): from django.core.exceptions import ValidationError
+0.06 validators.py(8): from django.utils.deconstruct import deconstructible
+0.06 validators.py(9): from django.utils.deprecation import RemovedInDjango41Warning
+0.06 validators.py(10): from django.utils.encoding import punycode
+0.07 validators.py(11): from django.utils.ipv6 import is_valid_ipv6_address
+0.08 validators.py(12): from django.utils.regex_helper import _lazy_re_compile
+0.08 validators.py(13): from django.utils.translation import gettext_lazy as _, ngettext_lazy
+0.08 validators.py(16): EMPTY_VALUES = (None, '', [], (), {})
+0.08 validators.py(19): @deconstructible
+0.08 validators.py(19): @deconstructible
+0.08 validators.py(21):     regex = ''
+0.08 validators.py(22):     message = _('Enter a valid value.')
+0.08 validators.py(23):     code = 'invalid'
+0.08 validators.py(24):     inverse_match = False
+0.08 validators.py(25):     flags = 0
+0.08 validators.py(27):     def __init__(self, regex=None, message=None, code=None, inverse_match=None, flags=None):
+0.08 validators.py(43):     def __call__(self, value):
+0.08 validators.py(53):     def __eq__(self, other):
+0.08 validators.py(64): @deconstructible
+0.08 validators.py(65): class URLValidator(RegexValidator):
+0.08 validators.py(64): @deconstructible
+0.08 validators.py(66):     ul = '\u00a1-\uffff'  # Unicode letters range (must not be a raw string).
+0.08 validators.py(69):     ipv4_re = r'(?:25[0-5]|2[0-4]\d|[0-1]?\d?\d)(?:\.(?:25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}'
+0.08 validators.py(70):     ipv6_re = r'\[[0-9a-f:.]+\]'  # (simple regex, validated later)
+0.08 validators.py(73):     hostname_re = r'[a-z' + ul + r'0-9](?:[a-z' + ul + r'0-9-]{0,61}[a-z' + ul + r'0-9])?'
+0.08 validators.py(75):     domain_re = r'(?:\.(?!-)[a-z' + ul + r'0-9-]{1,63}(?<!-))*'
+0.08 validators.py(79):         r'(?:[a-z' + ul + '-]{2,63}'         # domain label
+0.08 validators.py(84):     host_re = '(' + hostname_re + domain_re + tld_re + '|localhost)'
+0.08 validators.py(86):     regex = _lazy_re_compile(
+0.08 validators.py(89):         r'(?:' + ipv4_re + '|' + ipv6_re + '|' + host_re + ')'
+0.08 validators.py(92):         r'\Z', re.IGNORECASE)
+0.08 validators.py(93):     message = _('Enter a valid URL.')
+0.08 validators.py(94):     schemes = ['http', 'https', 'ftp', 'ftps']
+0.08 validators.py(96):     def __init__(self, schemes=None, **kwargs):
+0.08 validators.py(101):     def __call__(self, value):
+0.08 validators.py(145): integer_validator = RegexValidator(
+0.08 validators.py(146):     _lazy_re_compile(r'^-?\d+\Z'),
+0.08 validators.py(147):     message=_('Enter a valid integer.'),
+0.08 validators.py(148):     code='invalid',
+0.08 validators.py(28):         if regex is not None:
+0.08 validators.py(29):             self.regex = regex
+0.08 validators.py(30):         if message is not None:
+0.08 validators.py(31):             self.message = message
+0.08 validators.py(32):         if code is not None:
+0.08 validators.py(33):             self.code = code
+0.08 validators.py(34):         if inverse_match is not None:
+0.08 validators.py(36):         if flags is not None:
+0.08 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.08 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.08 validators.py(152): def validate_integer(value):
+0.08 validators.py(156): @deconstructible
+0.08 validators.py(156): @deconstructible
+0.08 validators.py(158):     message = _('Enter a valid email address.')
+0.08 validators.py(159):     code = 'invalid'
+0.08 validators.py(160):     user_regex = _lazy_re_compile(
+0.08 validators.py(161):         r"(^[-!#$%&'*+/=?^_`{}|~0-9A-Z]+(\.[-!#$%&'*+/=?^_`{}|~0-9A-Z]+)*\Z"  # dot-atom
+0.08 validators.py(163):         re.IGNORECASE)
+0.08 validators.py(164):     domain_regex = _lazy_re_compile(
+0.08 validators.py(166):         r'((?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+)(?:[A-Z0-9-]{2,63}(?<!-))\Z',
+0.08 validators.py(167):         re.IGNORECASE)
+0.08 validators.py(168):     literal_regex = _lazy_re_compile(
+0.08 validators.py(170):         r'\[([A-f0-9:.]+)\]\Z',
+0.08 validators.py(171):         re.IGNORECASE)
+0.08 validators.py(172):     domain_allowlist = ['localhost']
+0.08 validators.py(174):     @property
+0.08 validators.py(184):     @domain_whitelist.setter
+0.08 validators.py(194):     def __init__(self, message=None, code=None, allowlist=None, *, whitelist=None):
+0.08 validators.py(209):     def __call__(self, value):
+0.08 validators.py(230):     def validate_domain_part(self, domain_part):
+0.08 validators.py(244):     def __eq__(self, other):
+0.08 validators.py(253): validate_email = EmailValidator()
+0.08 validators.py(195):         if whitelist is not None:
+0.08 validators.py(202):         if message is not None:
+0.08 validators.py(204):         if code is not None:
+0.08 validators.py(206):         if allowlist is not None:
+0.08 validators.py(255): slug_re = _lazy_re_compile(r'^[-a-zA-Z0-9_]+\Z')
+0.08 validators.py(256): validate_slug = RegexValidator(
+0.08 validators.py(257):     slug_re,
+0.08 validators.py(259):     _('Enter a valid “slug” consisting of letters, numbers, underscores or hyphens.'),
+0.08 validators.py(260):     'invalid'
+0.08 validators.py(28):         if regex is not None:
+0.08 validators.py(29):             self.regex = regex
+0.08 validators.py(30):         if message is not None:
+0.08 validators.py(31):             self.message = message
+0.08 validators.py(32):         if code is not None:
+0.08 validators.py(33):             self.code = code
+0.08 validators.py(34):         if inverse_match is not None:
+0.08 validators.py(36):         if flags is not None:
+0.08 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.08 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.08 validators.py(263): slug_unicode_re = _lazy_re_compile(r'^[-\w]+\Z')
+0.08 validators.py(264): validate_unicode_slug = RegexValidator(
+0.08 validators.py(265):     slug_unicode_re,
+0.08 validators.py(266):     _('Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or hyphens.'),
+0.08 validators.py(267):     'invalid'
+0.08 validators.py(28):         if regex is not None:
+0.08 validators.py(29):             self.regex = regex
+0.08 validators.py(30):         if message is not None:
+0.08 validators.py(31):             self.message = message
+0.08 validators.py(32):         if code is not None:
+0.08 validators.py(33):             self.code = code
+0.08 validators.py(34):         if inverse_match is not None:
+0.08 validators.py(36):         if flags is not None:
+0.08 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.08 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.08 validators.py(271): def validate_ipv4_address(value):
+0.08 validators.py(278): def validate_ipv6_address(value):
+0.08 validators.py(283): def validate_ipv46_address(value):
+0.08 validators.py(294):     'both': ([validate_ipv46_address], _('Enter a valid IPv4 or IPv6 address.')),
+0.08 validators.py(295):     'ipv4': ([validate_ipv4_address], _('Enter a valid IPv4 address.')),
+0.08 validators.py(296):     'ipv6': ([validate_ipv6_address], _('Enter a valid IPv6 address.')),
+0.08 validators.py(300): def ip_address_validators(protocol, unpack_ipv4):
+0.08 validators.py(315): def int_list_validator(sep=',', message=None, code='invalid', allow_negative=False):
+0.08 validators.py(323): validate_comma_separated_integer_list = int_list_validator(
+0.08 validators.py(324):     message=_('Enter only digits separated by commas.'),
+0.08 validators.py(316):     regexp = _lazy_re_compile(r'^%(neg)s\d+(?:%(sep)s%(neg)s\d+)*\Z' % {
+0.08 validators.py(317):         'neg': '(-)?' if allow_negative else '',
+0.08 validators.py(318):         'sep': re.escape(sep),
+0.08 validators.py(320):     return RegexValidator(regexp, message=message, code=code)
+0.08 validators.py(28):         if regex is not None:
+0.08 validators.py(29):             self.regex = regex
+0.08 validators.py(30):         if message is not None:
+0.08 validators.py(31):             self.message = message
+0.08 validators.py(32):         if code is not None:
+0.08 validators.py(33):             self.code = code
+0.08 validators.py(34):         if inverse_match is not None:
+0.08 validators.py(36):         if flags is not None:
+0.08 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.08 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.08 validators.py(328): @deconstructible
+0.08 validators.py(328): @deconstructible
+0.08 validators.py(330):     message = _('Ensure this value is %(limit_value)s (it is %(show_value)s).')
+0.08 validators.py(331):     code = 'limit_value'
+0.08 validators.py(333):     def __init__(self, limit_value, message=None):
+0.08 validators.py(338):     def __call__(self, value):
+0.08 validators.py(345):     def __eq__(self, other):
+0.08 validators.py(354):     def compare(self, a, b):
+0.08 validators.py(357):     def clean(self, x):
+0.08 validators.py(361): @deconstructible
+0.08 validators.py(362): class MaxValueValidator(BaseValidator):
+0.08 validators.py(361): @deconstructible
+0.08 validators.py(363):     message = _('Ensure this value is less than or equal to %(limit_value)s.')
+0.08 validators.py(364):     code = 'max_value'
+0.08 validators.py(366):     def compare(self, a, b):
+0.08 validators.py(370): @deconstructible
+0.08 validators.py(371): class MinValueValidator(BaseValidator):
+0.08 validators.py(370): @deconstructible
+0.08 validators.py(372):     message = _('Ensure this value is greater than or equal to %(limit_value)s.')
+0.08 validators.py(373):     code = 'min_value'
+0.08 validators.py(375):     def compare(self, a, b):
+0.08 validators.py(379): @deconstructible
+0.08 validators.py(380): class MinLengthValidator(BaseValidator):
+0.08 validators.py(379): @deconstructible
+0.08 validators.py(381):     message = ngettext_lazy(
+0.08 validators.py(382):         'Ensure this value has at least %(limit_value)d character (it has %(show_value)d).',
+0.08 validators.py(383):         'Ensure this value has at least %(limit_value)d characters (it has %(show_value)d).',
+0.08 validators.py(384):         'limit_value')
+0.08 validators.py(385):     code = 'min_length'
+0.08 validators.py(387):     def compare(self, a, b):
+0.08 validators.py(390):     def clean(self, x):
+0.08 validators.py(394): @deconstructible
+0.08 validators.py(395): class MaxLengthValidator(BaseValidator):
+0.08 validators.py(394): @deconstructible
+0.08 validators.py(396):     message = ngettext_lazy(
+0.08 validators.py(397):         'Ensure this value has at most %(limit_value)d character (it has %(show_value)d).',
+0.08 validators.py(398):         'Ensure this value has at most %(limit_value)d characters (it has %(show_value)d).',
+0.08 validators.py(399):         'limit_value')
+0.08 validators.py(400):     code = 'max_length'
+0.08 validators.py(402):     def compare(self, a, b):
+0.08 validators.py(405):     def clean(self, x):
+0.08 validators.py(409): @deconstructible
+0.08 validators.py(409): @deconstructible
+0.08 validators.py(414):     """
+0.08 validators.py(416):         'invalid': _('Enter a number.'),
+0.08 validators.py(417):         'max_digits': ngettext_lazy(
+0.08 validators.py(418):             'Ensure that there are no more than %(max)s digit in total.',
+0.08 validators.py(419):             'Ensure that there are no more than %(max)s digits in total.',
+0.08 validators.py(420):             'max'
+0.08 validators.py(422):         'max_decimal_places': ngettext_lazy(
+0.08 validators.py(423):             'Ensure that there are no more than %(max)s decimal place.',
+0.08 validators.py(424):             'Ensure that there are no more than %(max)s decimal places.',
+0.08 validators.py(425):             'max'
+0.08 validators.py(427):         'max_whole_digits': ngettext_lazy(
+0.08 validators.py(428):             'Ensure that there are no more than %(max)s digit before the decimal point.',
+0.08 validators.py(429):             'Ensure that there are no more than %(max)s digits before the decimal point.',
+0.08 validators.py(430):             'max'
+0.08 validators.py(434):     def __init__(self, max_digits, decimal_places):
+0.08 validators.py(438):     def __call__(self, value):
+0.08 validators.py(479):     def __eq__(self, other):
+0.08 validators.py(487): @deconstructible
+0.08 validators.py(487): @deconstructible
+0.08 validators.py(489):     message = _(
+0.08 validators.py(490):         'File extension “%(extension)s” is not allowed. '
+0.08 validators.py(493):     code = 'invalid_extension'
+0.08 validators.py(495):     def __init__(self, allowed_extensions=None, message=None, code=None):
+0.08 validators.py(504):     def __call__(self, value):
+0.08 validators.py(516):     def __eq__(self, other):
+0.08 validators.py(525): def get_available_image_extensions():
+0.08 validators.py(535): def validate_image_file_extension(value):
+0.08 validators.py(539): @deconstructible
+0.08 validators.py(539): @deconstructible
+0.08 validators.py(541):     """Validate that the string doesn't contain the null character."""
+0.08 validators.py(542):     message = _('Null characters are not allowed.')
+0.08 validators.py(543):     code = 'null_characters_not_allowed'
+0.08 validators.py(545):     def __init__(self, message=None, code=None):
+0.08 validators.py(551):     def __call__(self, value):
+0.08 validators.py(555):     def __eq__(self, other):
+0.26 fields.py(3): """
+0.26 fields.py(5): import copy
+0.26 fields.py(6): import datetime
+0.26 fields.py(7): import json
+0.26 fields.py(8): import math
+0.26 fields.py(9): import operator
+0.26 fields.py(10): import os
+0.26 fields.py(11): import re
+0.26 fields.py(12): import uuid
+0.26 fields.py(13): from decimal import Decimal, DecimalException
+0.26 fields.py(14): from io import BytesIO
+0.26 fields.py(15): from urllib.parse import urlsplit, urlunsplit
+0.26 fields.py(17): from django.core import validators
+0.26 fields.py(18): from django.core.exceptions import ValidationError
+0.26 fields.py(19): from django.forms.boundfield import BoundField
+0.26 fields.py(20): from django.forms.utils import from_current_timezone, to_current_timezone
+0.26 fields.py(21): from django.forms.widgets import (
+0.26 fields.py(28): from django.utils import formats
+0.26 fields.py(29): from django.utils.dateparse import parse_datetime, parse_duration
+0.26 fields.py(30): from django.utils.duration import duration_string
+0.26 fields.py(31): from django.utils.ipv6 import clean_ipv6_address
+0.26 fields.py(32): from django.utils.regex_helper import _lazy_re_compile
+0.26 fields.py(33): from django.utils.translation import gettext_lazy as _, ngettext_lazy
+0.26 fields.py(43):     'UUIDField',
+0.26 fields.py(47): class Field:
+0.26 fields.py(47): class Field:
+0.26 fields.py(48):     widget = TextInput  # Default widget to use when rendering this type of Field.
+0.26 fields.py(49):     hidden_widget = HiddenInput  # Default widget to use when rendering this as "hidden".
+0.26 fields.py(50):     default_validators = []  # Default set of validators
+0.26 fields.py(54):         'required': _('This field is required.'),
+0.26 fields.py(56):     empty_values = list(validators.EMPTY_VALUES)
+0.26 fields.py(58):     def __init__(self, *, required=True, widget=None, label=None, initial=None,
+0.26 fields.py(59):                  help_text='', error_messages=None, show_hidden_initial=False,
+0.26 fields.py(60):                  validators=(), localize=False, disabled=False, label_suffix=None):
+0.26 fields.py(120):     def prepare_value(self, value):
+0.26 fields.py(123):     def to_python(self, value):
+0.26 fields.py(126):     def validate(self, value):
+0.26 fields.py(130):     def run_validators(self, value):
+0.26 fields.py(144):     def clean(self, value):
+0.26 fields.py(154):     def bound_data(self, data, initial):
+0.26 fields.py(167):     def widget_attrs(self, widget):
+0.26 fields.py(175):     def has_changed(self, initial, data):
+0.26 fields.py(194):     def get_bound_field(self, form, field_name):
+0.26 fields.py(201):     def __deepcopy__(self, memo):
+0.26 fields.py(210): class CharField(Field):
+0.26 fields.py(210): class CharField(Field):
+0.26 fields.py(211):     def __init__(self, *, max_length=None, min_length=None, strip=True, empty_value='', **kwargs):
+0.26 fields.py(223):     def to_python(self, value):
+0.26 fields.py(233):     def widget_attrs(self, widget):
+0.26 fields.py(244): class IntegerField(Field):
+0.26 fields.py(244): class IntegerField(Field):
+0.26 fields.py(245):     widget = NumberInput
+0.26 fields.py(247):         'invalid': _('Enter a whole number.'),
+0.26 fields.py(249):     re_decimal = _lazy_re_compile(r'\.0*\s*$')
+0.26 fields.py(251):     def __init__(self, *, max_value=None, min_value=None, **kwargs):
+0.26 fields.py(263):     def to_python(self, value):
+0.26 fields.py(280):     def widget_attrs(self, widget):
+0.26 fields.py(290): class FloatField(IntegerField):
+0.26 fields.py(290): class FloatField(IntegerField):
+0.26 fields.py(292):         'invalid': _('Enter a number.'),
+0.26 fields.py(295):     def to_python(self, value):
+0.26 fields.py(311):     def validate(self, value):
+0.26 fields.py(318):     def widget_attrs(self, widget):
+0.26 fields.py(325): class DecimalField(IntegerField):
+0.26 fields.py(325): class DecimalField(IntegerField):
+0.26 fields.py(327):         'invalid': _('Enter a number.'),
+0.26 fields.py(330):     def __init__(self, *, max_value=None, min_value=None, max_digits=None, decimal_places=None, **kwargs):
+0.26 fields.py(335):     def to_python(self, value):
+0.26 fields.py(353):     def validate(self, value):
+0.26 fields.py(360):     def widget_attrs(self, widget):
+0.26 fields.py(373): class BaseTemporalField(Field):
+0.26 fields.py(373): class BaseTemporalField(Field):
+0.26 fields.py(375):     def __init__(self, *, input_formats=None, **kwargs):
+0.26 fields.py(380):     def to_python(self, value):
+0.26 fields.py(390):     def strptime(self, value, format):
+0.26 fields.py(394): class DateField(BaseTemporalField):
+0.26 fields.py(394): class DateField(BaseTemporalField):
+0.26 fields.py(395):     widget = DateInput
+0.26 fields.py(396):     input_formats = formats.get_format_lazy('DATE_INPUT_FORMATS')
+0.26 fields.py(398):         'invalid': _('Enter a valid date.'),
+0.26 fields.py(401):     def to_python(self, value):
+0.26 fields.py(414):     def strptime(self, value, format):
+0.26 fields.py(418): class TimeField(BaseTemporalField):
+0.26 fields.py(418): class TimeField(BaseTemporalField):
+0.26 fields.py(419):     widget = TimeInput
+0.26 fields.py(420):     input_formats = formats.get_format_lazy('TIME_INPUT_FORMATS')
+0.26 fields.py(422):         'invalid': _('Enter a valid time.')
+0.26 fields.py(425):     def to_python(self, value):
+0.26 fields.py(436):     def strptime(self, value, format):
+0.26 fields.py(440): class DateTimeFormatsIterator:
+0.26 fields.py(440): class DateTimeFormatsIterator:
+0.26 fields.py(441):     def __iter__(self):
+0.26 fields.py(446): class DateTimeField(BaseTemporalField):
+0.26 fields.py(446): class DateTimeField(BaseTemporalField):
+0.26 fields.py(447):     widget = DateTimeInput
+0.26 fields.py(448):     input_formats = DateTimeFormatsIterator()
+0.26 fields.py(450):         'invalid': _('Enter a valid date/time.'),
+0.26 fields.py(453):     def prepare_value(self, value):
+0.26 fields.py(458):     def to_python(self, value):
+0.26 fields.py(478):     def strptime(self, value, format):
+0.26 fields.py(482): class DurationField(Field):
+0.26 fields.py(482): class DurationField(Field):
+0.26 fields.py(484):         'invalid': _('Enter a valid duration.'),
+0.26 fields.py(485):         'overflow': _('The number of days must be between {min_days} and {max_days}.')
+0.26 fields.py(488):     def prepare_value(self, value):
+0.26 fields.py(493):     def to_python(self, value):
+0.26 fields.py(510): class RegexField(CharField):
+0.26 fields.py(510): class RegexField(CharField):
+0.26 fields.py(511):     def __init__(self, regex, **kwargs):
+0.26 fields.py(519):     def _get_regex(self):
+0.26 fields.py(522):     def _set_regex(self, regex):
+0.26 fields.py(531):     regex = property(_get_regex, _set_regex)
+0.26 fields.py(534): class EmailField(CharField):
+0.26 fields.py(534): class EmailField(CharField):
+0.26 fields.py(535):     widget = EmailInput
+0.26 fields.py(536):     default_validators = [validators.validate_email]
+0.26 fields.py(538):     def __init__(self, **kwargs):
+0.26 fields.py(542): class FileField(Field):
+0.26 fields.py(542): class FileField(Field):
+0.26 fields.py(543):     widget = ClearableFileInput
+0.26 fields.py(545):         'invalid': _("No file was submitted. Check the encoding type on the form."),
+0.26 fields.py(546):         'missing': _("No file was submitted."),
+0.26 fields.py(547):         'empty': _("The submitted file is empty."),
+0.26 fields.py(548):         'max_length': ngettext_lazy(
+0.26 fields.py(549):             'Ensure this filename has at most %(max)d character (it has %(length)d).',
+0.26 fields.py(550):             'Ensure this filename has at most %(max)d characters (it has %(length)d).',
+0.26 fields.py(551):             'max'),
+0.26 fields.py(552):         'contradiction': _('Please either submit a file or check the clear checkbox, not both.')
+0.26 fields.py(555):     def __init__(self, *, max_length=None, allow_empty_file=False, **kwargs):
+0.26 fields.py(560):     def to_python(self, data):
+0.26 fields.py(581):     def clean(self, data, initial=None):
+0.26 fields.py(600):     def bound_data(self, data, initial):
+0.26 fields.py(605):     def has_changed(self, initial, data):
+0.26 fields.py(609): class ImageField(FileField):
+0.26 fields.py(609): class ImageField(FileField):
+0.26 fields.py(610):     default_validators = [validators.validate_image_file_extension]
+0.26 fields.py(612):         'invalid_image': _(
+0.26 fields.py(613):             "Upload a valid image. The file you uploaded was either not an "
+0.26 fields.py(618):     def to_python(self, data):
+0.26 fields.py(661):     def widget_attrs(self, widget):
+0.26 fields.py(668): class URLField(CharField):
+0.26 fields.py(668): class URLField(CharField):
+0.26 fields.py(669):     widget = URLInput
+0.26 fields.py(671):         'invalid': _('Enter a valid URL.'),
+0.26 fields.py(673):     default_validators = [validators.URLValidator()]
+0.26 validators.py(97):         super().__init__(**kwargs)
+0.26 validators.py(28):         if regex is not None:
+0.26 validators.py(30):         if message is not None:
+0.26 validators.py(32):         if code is not None:
+0.26 validators.py(34):         if inverse_match is not None:
+0.26 validators.py(36):         if flags is not None:
+0.26 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.26 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.26 validators.py(98):         if schemes is not None:
+0.26 fields.py(675):     def __init__(self, **kwargs):
+0.26 fields.py(678):     def to_python(self, value):
+0.26 fields.py(710): class BooleanField(Field):
+0.26 fields.py(710): class BooleanField(Field):
+0.26 fields.py(711):     widget = CheckboxInput
+0.26 fields.py(713):     def to_python(self, value):
+0.26 fields.py(725):     def validate(self, value):
+0.26 fields.py(729):     def has_changed(self, initial, data):
+0.26 fields.py(737): class NullBooleanField(BooleanField):
+0.26 fields.py(737): class NullBooleanField(BooleanField):
+0.26 fields.py(741):     """
+0.26 fields.py(742):     widget = NullBooleanSelect
+0.26 fields.py(744):     def to_python(self, value):
+0.26 fields.py(760):     def validate(self, value):
+0.26 fields.py(764): class CallableChoiceIterator:
+0.26 fields.py(764): class CallableChoiceIterator:
+0.26 fields.py(765):     def __init__(self, choices_func):
+0.26 fields.py(768):     def __iter__(self):
+0.26 fields.py(772): class ChoiceField(Field):
+0.26 fields.py(772): class ChoiceField(Field):
+0.26 fields.py(773):     widget = Select
+0.26 fields.py(775):         'invalid_choice': _('Select a valid choice. %(value)s is not one of the available choices.'),
+0.26 fields.py(778):     def __init__(self, *, choices=(), **kwargs):
+0.26 fields.py(782):     def __deepcopy__(self, memo):
+0.26 fields.py(787):     def _get_choices(self):
+0.26 fields.py(790):     def _set_choices(self, value):
+0.26 fields.py(801):     choices = property(_get_choices, _set_choices)
+0.26 fields.py(803):     def to_python(self, value):
+0.26 fields.py(809):     def validate(self, value):
+0.26 fields.py(819):     def valid_value(self, value):
+0.26 fields.py(834): class TypedChoiceField(ChoiceField):
+0.26 fields.py(834): class TypedChoiceField(ChoiceField):
+0.26 fields.py(835):     def __init__(self, *, coerce=lambda val: val, empty_value='', **kwargs):
+0.26 fields.py(840):     def _coerce(self, value):
+0.26 fields.py(856):     def clean(self, value):
+0.26 fields.py(861): class MultipleChoiceField(ChoiceField):
+0.26 fields.py(861): class MultipleChoiceField(ChoiceField):
+0.26 fields.py(862):     hidden_widget = MultipleHiddenInput
+0.26 fields.py(863):     widget = SelectMultiple
+0.26 fields.py(865):         'invalid_choice': _('Select a valid choice. %(value)s is not one of the available choices.'),
+0.26 fields.py(866):         'invalid_list': _('Enter a list of values.'),
+0.26 fields.py(869):     def to_python(self, value):
+0.26 fields.py(876):     def validate(self, value):
+0.26 fields.py(889):     def has_changed(self, initial, data):
+0.26 fields.py(903): class TypedMultipleChoiceField(MultipleChoiceField):
+0.26 fields.py(903): class TypedMultipleChoiceField(MultipleChoiceField):
+0.26 fields.py(904):     def __init__(self, *, coerce=lambda val: val, **kwargs):
+0.26 fields.py(909):     def _coerce(self, value):
+0.26 fields.py(928):     def clean(self, value):
+0.26 fields.py(932):     def validate(self, value):
+0.26 fields.py(939): class ComboField(Field):
+0.26 fields.py(939): class ComboField(Field):
+0.26 fields.py(942):     """
+0.26 fields.py(943):     def __init__(self, fields, **kwargs):
+0.26 fields.py(952):     def clean(self, value):
+0.26 fields.py(963): class MultiValueField(Field):
+0.26 fields.py(963): class MultiValueField(Field):
+0.26 fields.py(979):     """
+0.26 fields.py(981):         'invalid': _('Enter a list of values.'),
+0.26 fields.py(982):         'incomplete': _('Enter a complete value.'),
+0.26 fields.py(985):     def __init__(self, fields, *, require_all_fields=True, **kwargs):
+0.26 fields.py(1000):     def __deepcopy__(self, memo):
+0.26 fields.py(1005):     def validate(self, value):
+0.26 fields.py(1008):     def clean(self, value):
+0.26 fields.py(1062):     def compress(self, data_list):
+0.26 fields.py(1073):     def has_changed(self, initial, data):
+0.26 fields.py(1091): class FilePathField(ChoiceField):
+0.26 fields.py(1091): class FilePathField(ChoiceField):
+0.26 fields.py(1092):     def __init__(self, path, *, match=None, recursive=False, allow_files=True,
+0.26 fields.py(1093):                  allow_folders=False, **kwargs):
+0.26 fields.py(1135): class SplitDateTimeField(MultiValueField):
+0.26 fields.py(1135): class SplitDateTimeField(MultiValueField):
+0.26 fields.py(1136):     widget = SplitDateTimeWidget
+0.26 fields.py(1137):     hidden_widget = SplitHiddenDateTimeWidget
+0.26 fields.py(1139):         'invalid_date': _('Enter a valid date.'),
+0.26 fields.py(1140):         'invalid_time': _('Enter a valid time.'),
+0.26 fields.py(1143):     def __init__(self, *, input_date_formats=None, input_time_formats=None, **kwargs):
+0.26 fields.py(1158):     def compress(self, data_list):
+0.26 fields.py(1171): class GenericIPAddressField(CharField):
+0.26 fields.py(1171): class GenericIPAddressField(CharField):
+0.26 fields.py(1172):     def __init__(self, *, protocol='both', unpack_ipv4=False, **kwargs):
+0.26 fields.py(1177):     def to_python(self, value):
+0.26 fields.py(1186): class SlugField(CharField):
+0.26 fields.py(1186): class SlugField(CharField):
+0.26 fields.py(1187):     default_validators = [validators.validate_slug]
+0.26 fields.py(1189):     def __init__(self, *, allow_unicode=False, **kwargs):
+0.26 fields.py(1196): class UUIDField(CharField):
+0.26 fields.py(1196): class UUIDField(CharField):
+0.26 fields.py(1198):         'invalid': _('Enter a valid UUID.'),
+0.26 fields.py(1201):     def prepare_value(self, value):
+0.26 fields.py(1206):     def to_python(self, value):
+0.26 fields.py(1218): class InvalidJSONInput(str):
+0.26 fields.py(1218): class InvalidJSONInput(str):
+0.26 fields.py(1219):     pass
+0.26 fields.py(1222): class JSONString(str):
+0.26 fields.py(1222): class JSONString(str):
+0.26 fields.py(1223):     pass
+0.26 fields.py(1226): class JSONField(CharField):
+0.26 fields.py(1226): class JSONField(CharField):
+0.26 fields.py(1228):         'invalid': _('Enter a valid JSON.'),
+0.26 fields.py(1230):     widget = Textarea
+0.26 fields.py(1232):     def __init__(self, encoder=None, decoder=None, **kwargs):
+0.26 fields.py(1237):     def to_python(self, value):
+0.26 fields.py(1257):     def bound_data(self, data, initial):
+0.26 fields.py(1265):     def prepare_value(self, value):
+0.26 fields.py(1270):     def has_changed(self, initial, data):
+0.29 validators.py(97):         super().__init__(**kwargs)
+0.29 validators.py(28):         if regex is not None:
+0.29 validators.py(30):         if message is not None:
+0.29 validators.py(32):         if code is not None:
+0.29 validators.py(34):         if inverse_match is not None:
+0.29 validators.py(36):         if flags is not None:
+0.29 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.29 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.29 validators.py(98):         if schemes is not None:
+0.30 validators.py(334):         self.limit_value = limit_value
+0.30 validators.py(335):         if message:
+0.30 validators.py(334):         self.limit_value = limit_value
+0.30 validators.py(335):         if message:
+0.30 validators.py(334):         self.limit_value = limit_value
+0.30 validators.py(335):         if message:
+0.30 validators.py(334):         self.limit_value = limit_value
+0.30 validators.py(335):         if message:
+Testing against Django installed in '/testbed/django'
+0.48 validators.py(97):         super().__init__(**kwargs)
+0.48 validators.py(28):         if regex is not None:
+0.48 validators.py(30):         if message is not None:
+0.48 validators.py(32):         if code is not None:
+0.48 validators.py(34):         if inverse_match is not None:
+0.48 validators.py(36):         if flags is not None:
+0.48 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.48 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.48 validators.py(98):         if schemes is not None:
+0.48 validators.py(102):         if not isinstance(value, str):
+0.48 validators.py(103):             raise ValidationError(self.message, code=self.code)
+0.53 fields.py(779):         super().__init__(**kwargs)
+0.53 fields.py(84):         self.required, self.label, self.initial = required, label, initial
+0.53 fields.py(85):         self.show_hidden_initial = show_hidden_initial
+0.53 fields.py(86):         self.help_text = help_text
+0.53 fields.py(87):         self.disabled = disabled
+0.53 fields.py(88):         self.label_suffix = label_suffix
+0.53 fields.py(89):         widget = widget or self.widget
+0.53 fields.py(90):         if isinstance(widget, type):
+0.53 fields.py(91):             widget = widget()
+0.53 fields.py(96):         self.localize = localize
+0.53 fields.py(97):         if self.localize:
+0.53 fields.py(101):         widget.is_required = self.required
+0.53 fields.py(104):         extra_attrs = self.widget_attrs(widget)
+0.53 fields.py(173):         return {}
+0.53 fields.py(105):         if extra_attrs:
+0.53 fields.py(108):         self.widget = widget
+0.53 fields.py(110):         messages = {}
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+0.53 fields.py(112):             messages.update(getattr(c, 'default_error_messages', {}))
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+0.53 fields.py(112):             messages.update(getattr(c, 'default_error_messages', {}))
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+0.53 fields.py(112):             messages.update(getattr(c, 'default_error_messages', {}))
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+test_email_validator_includes_value_in_error (test_coverup_django__django-13212.EmailValidatorTest) ... FAIL
+
+======================================================================
+FAIL: test_email_validator_includes_value_in_error (test_coverup_django__django-13212.EmailValidatorTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-13212.py", line 19, in test_email_validator_includes_value_in_error
+    self.assertIn(invalid_email, error_message)
+AssertionError: 'invalid-email' not found in "['%(value)s is not a valid email address.']"
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+0.53 fields.py(113):         messages.update(error_messages or {})
+0.53 fields.py(114):         self.error_messages = messages
+0.53 fields.py(116):         self.validators = [*self.default_validators, *validators]
+0.53 fields.py(118):         super().__init__()
+0.53 fields.py(780):         self.choices = choices
+0.53 fields.py(794):         if callable(value):
+0.53 fields.py(797):             value = list(value)
+0.53 fields.py(799):         self._choices = self.widget.choices = value
+0.53 fields.py(84):         self.required, self.label, self.initial = required, label, initial
+0.53 fields.py(85):         self.show_hidden_initial = show_hidden_initial
+0.53 fields.py(86):         self.help_text = help_text
+0.53 fields.py(87):         self.disabled = disabled
+0.53 fields.py(88):         self.label_suffix = label_suffix
+0.53 fields.py(89):         widget = widget or self.widget
+0.53 fields.py(90):         if isinstance(widget, type):
+0.53 fields.py(93):             widget = copy.deepcopy(widget)
+0.53 fields.py(96):         self.localize = localize
+0.53 fields.py(97):         if self.localize:
+0.53 fields.py(101):         widget.is_required = self.required
+0.53 fields.py(104):         extra_attrs = self.widget_attrs(widget)
+0.53 fields.py(173):         return {}
+0.53 fields.py(105):         if extra_attrs:
+0.53 fields.py(108):         self.widget = widget
+0.53 fields.py(110):         messages = {}
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+0.53 fields.py(112):             messages.update(getattr(c, 'default_error_messages', {}))
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+0.53 fields.py(112):             messages.update(getattr(c, 'default_error_messages', {}))
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+0.53 fields.py(112):             messages.update(getattr(c, 'default_error_messages', {}))
+0.53 fields.py(111):         for c in reversed(self.__class__.__mro__):
+0.53 fields.py(113):         messages.update(error_messages or {})
+0.53 fields.py(114):         self.error_messages = messages
+0.53 fields.py(116):         self.validators = [*self.default_validators, *validators]
+0.53 fields.py(118):         super().__init__()
+0.55 validators.py(334):         self.limit_value = limit_value
+0.55 validators.py(335):         if message:
+0.55 validators.py(334):         self.limit_value = limit_value
+0.55 validators.py(335):         if message:
+0.56 validators.py(334):         self.limit_value = limit_value
+0.56 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(28):         if regex is not None:
+0.60 validators.py(30):         if message is not None:
+0.60 validators.py(32):         if code is not None:
+0.60 validators.py(34):         if inverse_match is not None:
+0.60 validators.py(36):         if flags is not None:
+0.60 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.60 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.60 validators.py(334):         self.limit_value = limit_value
+0.60 validators.py(335):         if message:
+0.61 validators.py(334):         self.limit_value = limit_value
+0.61 validators.py(335):         if message:
+Skipping setup of unused database(s): default, other.
+0.62 validators.py(97):         super().__init__(**kwargs)
+0.62 validators.py(28):         if regex is not None:
+0.62 validators.py(30):         if message is not None:
+0.62 validators.py(32):         if code is not None:
+0.62 validators.py(34):         if inverse_match is not None:
+0.62 validators.py(36):         if flags is not None:
+0.62 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.62 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.62 validators.py(98):         if schemes is not None:
+0.62 validators.py(102):         if not isinstance(value, str):
+0.62 validators.py(105):         scheme = value.split('://')[0].lower()
+0.62 validators.py(106):         if scheme not in self.schemes:
+0.62 validators.py(107):             raise ValidationError(self.message, code=self.code)
+0.62 validators.py(97):         super().__init__(**kwargs)
+0.62 validators.py(28):         if regex is not None:
+0.62 validators.py(30):         if message is not None:
+0.62 validators.py(32):         if code is not None:
+0.62 validators.py(34):         if inverse_match is not None:
+0.62 validators.py(36):         if flags is not None:
+0.62 validators.py(38):         if self.flags and not isinstance(self.regex, str):
+0.62 validators.py(41):         self.regex = _lazy_re_compile(self.regex, self.flags)
+0.62 validators.py(98):         if schemes is not None:
+0.62 validators.py(102):         if not isinstance(value, str):
+0.62 validators.py(105):         scheme = value.split('://')[0].lower()
+0.62 validators.py(106):         if scheme not in self.schemes:
+0.62 validators.py(107):             raise ValidationError(self.message, code=self.code)
+System check identified no issues (0 silenced).
+0.65 validators.py(195):         if whitelist is not None:
+0.65 validators.py(202):         if message is not None:
+0.65 validators.py(203):             self.message = message
+0.65 validators.py(204):         if code is not None:
+0.65 validators.py(206):         if allowlist is not None:
+0.65 validators.py(210):         if not value or '@' not in value:
+0.65 validators.py(211):             raise ValidationError(self.message, code=self.code)
++ cat coverage.cover
+{"/testbed/django/core/validators.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "16": 1, "19": 2, "64": 2, "65": 1, "145": 1, "146": 1, "147": 1, "148": 1, "152": 1, "156": 2, "253": 1, "255": 1, "256": 1, "257": 1, "259": 1, "260": 1, "263": 1, "264": 1, "265": 1, "266": 1, "267": 1, "271": 1, "278": 1, "283": 1, "294": 1, "295": 1, "296": 1, "300": 1, "315": 1, "323": 1, "324": 1, "328": 2, "361": 2, "362": 1, "370": 2, "371": 1, "379": 2, "380": 1, "394": 2, "395": 1, "409": 2, "487": 2, "525": 1, "535": 1, "539": 2, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "27": 1, "43": 1, "53": 1, "28": 10, "29": 4, "30": 10, "31": 4, "32": 10, "33": 4, "34": 10, "35": 0, "36": 10, "37": 0, "38": 10, "39": 0, "41": 10, "48": 0, "49": 0, "50": 0, "51": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 0, "66": 1, "69": 1, "70": 1, "73": 1, "75": 1, "79": 1, "84": 1, "86": 1, "89": 1, "92": 1, "93": 1, "94": 1, "96": 1, "101": 1, "97": 5, "98": 5, "99": 0, "102": 3, "103": 1, "105": 2, "106": 2, "107": 2, "110": 0, "111": 0, "112": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "120": 0, "121": 0, "122": 0, "123": 0, "124": 0, "126": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "141": 0, "142": 0, "153": 0, "158": 1, "159": 1, "160": 1, "161": 1, "163": 1, "164": 1, "166": 1, "167": 1, "168": 1, "170": 1, "171": 1, "172": 1, "174": 1, "184": 1, "194": 1, "209": 1, "230": 1, "244": 1, "176": 0, "177": 0, "179": 0, "180": 0, "182": 0, "186": 0, "187": 0, "189": 0, "190": 0, "192": 0, "195": 2, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "202": 2, "203": 1, "204": 2, "205": 0, "206": 2, "207": 0, "210": 1, "211": 1, "213": 0, "215": 0, "216": 0, "218": 0, "219": 0, "221": 0, "222": 0, "223": 0, "224": 0, "226": 0, "227": 0, "228": 0, "231": 0, "232": 0, "234": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "240": 0, "241": 0, "242": 0, "246": 0, "247": 0, "248": 0, "249": 0, "272": 0, "273": 0, "274": 0, "275": 0, "279": 0, "280": 0, "284": 0, "285": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "310": 0, "311": 0, "312": 0, "316": 1, "317": 1, "318": 1, "320": 1, "330": 1, "331": 1, "333": 1, "338": 1, "345": 1, "354": 1, "357": 1, "334": 18, "335": 18, "336": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "346": 0, "347": 0, "349": 0, "350": 0, "351": 0, "355": 0, "358": 0, "363": 1, "364": 1, "366": 1, "367": 0, "372": 1, "373": 1, "375": 1, "376": 0, "381": 1, "382": 1, "383": 1, "384": 1, "385": 1, "387": 1, "390": 1, "388": 0, "391": 0, "396": 1, "397": 1, "398": 1, "399": 1, "400": 1, "402": 1, "405": 1, "403": 0, "406": 0, "416": 1, "417": 1, "418": 1, "419": 1, "420": 1, "422": 1, "423": 1, "424": 1, "425": 1, "427": 1, "428": 1, "429": 1, "430": 1, "434": 1, "438": 1, "479": 1, "435": 0, "436": 0, "439": 0, "440": 0, "441": 0, "442": 0, "444": 0, "445": 0, "452": 0, "453": 0, "455": 0, "456": 0, "457": 0, "459": 0, "460": 0, "461": 0, "462": 0, "463": 0, "465": 0, "466": 0, "467": 0, "468": 0, "469": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "481": 0, "482": 0, "483": 0, "489": 1, "490": 1, "493": 1, "495": 1, "504": 1, "516": 1, "496": 0, "497": 0, "498": 0, "499": 0, "500": 0, "501": 0, "502": 0, "505": 0, "506": 0, "507": 0, "508": 0, "509": 0, "511": 0, "512": 0, "518": 0, "519": 0, "520": 0, "521": 0, "526": 0, "527": 0, "528": 0, "529": 0, "531": 0, "532": 0, "536": 0, "542": 1, "543": 1, "545": 1, "551": 1, "555": 1, "546": 0, "547": 0, "548": 0, "549": 0, "552": 0, "553": 0, "557": 0, "558": 0, "559": 0}}
+{"/testbed/django/forms/fields.py": {"5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "43": 1, "47": 2, "210": 2, "244": 2, "290": 2, "325": 2, "373": 2, "394": 2, "418": 2, "440": 2, "446": 2, "482": 2, "510": 2, "534": 2, "542": 2, "609": 2, "668": 2, "710": 2, "737": 2, "764": 2, "772": 2, "834": 2, "861": 2, "903": 2, "939": 2, "963": 2, "1091": 2, "1135": 2, "1171": 2, "1186": 2, "1196": 2, "1218": 2, "1222": 2, "1226": 2, "48": 1, "49": 1, "50": 1, "54": 1, "56": 1, "58": 1, "59": 1, "60": 1, "120": 1, "123": 1, "126": 1, "130": 1, "144": 1, "154": 1, "167": 1, "175": 1, "194": 1, "201": 1, "84": 2, "85": 2, "86": 2, "87": 2, "88": 2, "89": 2, "90": 2, "91": 1, "93": 1, "96": 2, "97": 2, "98": 0, "101": 2, "104": 2, "105": 2, "106": 0, "108": 2, "110": 2, "111": 8, "112": 6, "113": 2, "114": 2, "116": 2, "118": 2, "121": 0, "124": 0, "127": 0, "128": 0, "131": 0, "132": 0, "133": 0, "134": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "141": 0, "142": 0, "149": 0, "150": 0, "151": 0, "152": 0, "163": 0, "164": 0, "165": 0, "173": 2, "179": 0, "180": 0, "181": 0, "182": 0, "183": 0, "184": 0, "185": 0, "186": 0, "190": 0, "191": 0, "192": 0, "199": 0, "202": 0, "203": 0, "204": 0, "205": 0, "206": 0, "207": 0, "211": 1, "223": 1, "233": 1, "212": 0, "213": 0, "214": 0, "215": 0, "216": 0, "217": 0, "218": 0, "219": 0, "220": 0, "221": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "231": 0, "234": 0, "235": 0, "237": 0, "238": 0, "240": 0, "241": 0, "245": 1, "247": 1, "249": 1, "251": 1, "263": 1, "280": 1, "252": 0, "253": 0, "255": 0, "256": 0, "258": 0, "259": 0, "260": 0, "261": 0, "268": 0, "269": 0, "270": 0, "271": 0, "272": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "281": 0, "282": 0, "283": 0, "284": 0, "285": 0, "286": 0, "287": 0, "292": 1, "295": 1, "311": 1, "318": 1, "300": 0, "301": 0, "302": 0, "303": 0, "304": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "312": 0, "313": 0, "314": 0, "315": 0, "316": 0, "319": 0, "320": 0, "321": 0, "322": 0, "327": 1, "330": 1, "335": 1, "353": 1, "360": 1, "331": 0, "332": 0, "333": 0, "342": 0, "343": 0, "344": 0, "345": 0, "346": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "361": 0, "362": 0, "363": 0, "366": 0, "368": 0, "369": 0, "370": 0, "375": 1, "380": 1, "390": 1, "376": 0, "377": 0, "378": 0, "381": 0, "383": 0, "384": 0, "385": 0, "386": 0, "387": 0, "388": 0, "391": 0, "395": 1, "396": 1, "398": 1, "401": 1, "414": 1, "406": 0, "407": 0, "408": 0, "409": 0, "410": 0, "411": 0, "412": 0, "415": 0, "419": 1, "420": 1, "422": 1, "425": 1, "436": 1, "430": 0, "431": 0, "432": 0, "433": 0, "434": 0, "437": 0, "441": 1, "442": 0, "443": 0, "447": 1, "448": 1, "450": 1, "453": 1, "458": 1, "478": 1, "454": 0, "455": 0, "456": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "468": 0, "469": 0, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "479": 0, "484": 1, "485": 1, "488": 1, "493": 1, "489": 0, "490": 0, "491": 0, "494": 0, "495": 0, "496": 0, "497": 0, "498": 0, "499": 0, "500": 0, "501": 0, "502": 0, "503": 0, "504": 0, "505": 0, "506": 0, "507": 0, "511": 1, "519": 1, "522": 1, "531": 1, "515": 0, "516": 0, "517": 0, "520": 0, "523": 0, "524": 0, "525": 0, "526": 0, "527": 0, "528": 0, "529": 0, "535": 1, "536": 1, "538": 1, "539": 0, "543": 1, "545": 1, "546": 1, "547": 1, "548": 1, "549": 1, "550": 1, "551": 1, "552": 1, "555": 1, "560": 1, "581": 1, "600": 1, "605": 1, "556": 0, "557": 0, "558": 0, "561": 0, "562": 0, "565": 0, "566": 0, "567": 0, "568": 0, "569": 0, "571": 0, "572": 0, "573": 0, "574": 0, "575": 0, "576": 0, "577": 0, "579": 0, "583": 0, "584": 0, "587": 0, "588": 0, "589": 0, "595": 0, "596": 0, "597": 0, "598": 0, "601": 0, "602": 0, "603": 0, "606": 0, "610": 1, "612": 1, "613": 1, "618": 1, "661": 1, "623": 0, "624": 0, "625": 0, "627": 0, "631": 0, "632": 0, "634": 0, "635": 0, "637": 0, "639": 0, "642": 0, "644": 0, "647": 0, "650": 0, "651": 0, "653": 0, "654": 0, "655": 0, "656": 0, "657": 0, "658": 0, "659": 0, "662": 0, "663": 0, "664": 0, "665": 0, "669": 1, "671": 1, "673": 1, "675": 1, "678": 1, "676": 0, "680": 0, "692": 0, "693": 0, "694": 0, "695": 0, "697": 0, "698": 0, "701": 0, "702": 0, "705": 0, "706": 0, "707": 0, "685": 0, "686": 0, "687": 0, "690": 0, "711": 1, "713": 1, "725": 1, "729": 1, "719": 0, "720": 0, "722": 0, "723": 0, "726": 0, "727": 0, "730": 0, "731": 0, "734": 0, "742": 1, "744": 1, "760": 1, "753": 0, "754": 0, "755": 0, "756": 0, "758": 0, "761": 0, "765": 1, "768": 1, "766": 0, "769": 0, "773": 1, "775": 1, "778": 1, "782": 1, "787": 1, "790": 1, "801": 1, "803": 1, "809": 1, "819": 1, "779": 1, "780": 1, "783": 0, "784": 0, "785": 0, "788": 0, "794": 1, "795": 0, "797": 1, "799": 1, "805": 0, "806": 0, "807": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "821": 0, "822": 0, "823": 0, "825": 0, "826": 0, "827": 0, "829": 0, "830": 0, "831": 0, "835": 1, "840": 1, "856": 1, "836": 0, "837": 0, "838": 0, "844": 0, "845": 0, "846": 0, "847": 0, "848": 0, "849": 0, "850": 0, "851": 0, "852": 0, "854": 0, "857": 0, "858": 0, "862": 1, "863": 1, "865": 1, "866": 1, "869": 1, "876": 1, "889": 1, "870": 0, "871": 0, "872": 0, "873": 0, "874": 0, "878": 0, "879": 0, "881": 0, "882": 0, "883": 0, "884": 0, "885": 0, "886": 0, "890": 0, "891": 0, "892": 0, "893": 0, "894": 0, "895": 0, "896": 0, "897": 0, "898": 0, "899": 0, "900": 0, "904": 1, "909": 1, "928": 1, "932": 1, "905": 0, "906": 0, "907": 0, "914": 0, "915": 0, "916": 0, "917": 0, "918": 0, "919": 0, "920": 0, "921": 0, "922": 0, "923": 0, "924": 0, "926": 0, "929": 0, "930": 0, "933": 0, "934": 0, "935": 0, "936": 0, "943": 1, "952": 1, "944": 0, "948": 0, "949": 0, "950": 0, "957": 0, "958": 0, "959": 0, "960": 0, "981": 1, "982": 1, "985": 1, "1000": 1, "1005": 1, "1008": 1, "1062": 1, "1073": 1, "986": 0, "987": 0, "988": 0, "989": 0, "990": 0, "991": 0, "992": 0, "993": 0, "997": 0, "998": 0, "1001": 0, "1002": 0, "1003": 0, "1006": 0, "1017": 0, "1018": 0, "1019": 0, "1020": 0, "1021": 0, "1022": 0, "1023": 0, "1024": 0, "1026": 0, "1028": 0, "1029": 0, "1030": 0, "1031": 0, "1032": 0, "1033": 0, "1034": 0, "1035": 0, "1038": 0, "1039": 0, "1040": 0, "1044": 0, "1045": 0, "1046": 0, "1047": 0, "1048": 0, "1049": 0, "1053": 0, "1054": 0, "1055": 0, "1057": 0, "1058": 0, "1059": 0, "1060": 0, "1071": 0, "1074": 0, "1075": 0, "1076": 0, "1077": 0, "1079": 0, "1080": 0, "1081": 0, "1082": 0, "1083": 0, "1084": 0, "1085": 0, "1086": 0, "1087": 0, "1088": 0, "1092": 1, "1093": 1, "1094": 0, "1095": 0, "1096": 0, "1098": 0, "1099": 0, "1101": 0, "1103": 0, "1104": 0, "1106": 0, "1107": 0, "1108": 0, "1109": 0, "1110": 0, "1111": 0, "1112": 0, "1113": 0, "1114": 0, "1115": 0, "1116": 0, "1117": 0, "1118": 0, "1119": 0, "1121": 0, "1122": 0, "1123": 0, "1124": 0, "1125": 0, "1126": 0, "1127": 0, "1128": 0, "1129": 0, "1130": 0, "1132": 0, "1136": 1, "1137": 1, "1139": 1, "1140": 1, "1143": 1, "1158": 1, "1144": 0, "1145": 0, "1146": 0, "1147": 0, "1149": 0, "1150": 0, "1151": 0, "1152": 0, "1153": 0, "1154": 0, "1156": 0, "1159": 0, "1162": 0, "1163": 0, "1164": 0, "1165": 0, "1166": 0, "1167": 0, "1168": 0, "1172": 1, "1177": 1, "1173": 0, "1174": 0, "1175": 0, "1178": 0, "1179": 0, "1180": 0, "1181": 0, "1182": 0, "1183": 0, "1187": 1, "1189": 1, "1190": 0, "1191": 0, "1192": 0, "1193": 0, "1198": 1, "1201": 1, "1206": 1, "1202": 0, "1203": 0, "1204": 0, "1207": 0, "1208": 0, "1209": 0, "1210": 0, "1211": 0, "1212": 0, "1213": 0, "1214": 0, "1215": 0, "1219": 1, "1223": 1, "1228": 1, "1230": 1, "1232": 1, "1237": 1, "1257": 1, "1265": 1, "1270": 1, "1233": 0, "1234": 0, "1235": 0, "1238": 0, "1239": 0, "1240": 0, "1241": 0, "1242": 0, "1243": 0, "1244": 0, "1245": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1252": 0, "1253": 0, "1255": 0, "1258": 0, "1259": 0, "1260": 0, "1261": 0, "1262": 0, "1263": 0, "1266": 0, "1267": 0, "1268": 0, "1271": 0, "1272": 0, "1276": 0, "1277": 0}}
++ git checkout f4e93919e4608cfc50849a1f764fd856e0917401
+Note: switching to 'f4e93919e4608cfc50849a1f764fd856e0917401'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f4e93919e4 Fixed #31815 -- Fixed schema value encoding on PostgreSQL.
++ git apply /root/pre_state.patch
+error: unrecognized input

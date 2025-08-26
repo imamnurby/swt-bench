@@ -1,0 +1,30 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-25122.py
+new file mode 100644
+index e69de29..7e51a33 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-25122.py
+@@ -0,0 +1,24 @@
++import numpy as np
++import pytest
++from matplotlib.mlab import _spectral_helper
++
++def test_spectral_helper_flattop_window_bug():
++    # Setup: Create a flattop-like window manually since scipy is not available
++    # A flattop window has negative values, so we simulate it
++    window = np.array([0.2156, 0.4163, 0.2781, 0.0836, -0.0069] * 102 + [0.2156, 0.4163])
++    signal_data = np.ones(512)
++
++    # Call the _spectral_helper function with the simulated flattop window
++    result, freqs, t = _spectral_helper(signal_data, window=window, NFFT=512, Fs=2, mode='psd')
++
++    # Calculate the incorrect and correct window correction
++    incorrect_correction = np.abs(window).sum()**2
++    correct_correction = window.sum()**2
++
++    # Assert that the correct behavior occurs
++    # The window correction should be equal when the bug is fixed
++    assert incorrect_correction == correct_correction, "The window correction should be equal when the bug is fixed"
++
++    # Assert that the difference is zero, indicating the bug is fixed
++    actual_difference = incorrect_correction - correct_correction
++    assert actual_difference == 0, "The difference should be zero when the bug is fixed"

@@ -1,0 +1,44 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-12713.py
+new file mode 100644
+index e69de29..fc9747d 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-12713.py
+@@ -0,0 +1,38 @@
++from django.test import SimpleTestCase
++from django import forms
++from django.contrib.admin import ModelAdmin, AdminSite
++from django.db import models
++
++class CustomWidget(forms.Widget):
++    pass
++
++class TestModel(models.Model):
++    name = models.CharField(max_length=100)
++    related = models.ManyToManyField('self')
++
++    class Meta:
++        app_label = 'test_app'
++
++class TestModelAdmin(ModelAdmin):
++    def formfield_for_manytomany(self, db_field, request, **kwargs):
++        return super().formfield_for_manytomany(db_field, request, **kwargs)
++
++class MockAdminSite(AdminSite):
++    _registry = {}
++
++class FormFieldForManyToManyTests(SimpleTestCase):
++    def test_custom_widget_used(self):
++        """
++        Test that formfield_for_manytomany uses a custom widget
++        when one is provided in kwargs, ensuring the bug is fixed.
++        """
++        admin_site = MockAdminSite()
++        model_admin = TestModelAdmin(TestModel, admin_site)
++        custom_widget = CustomWidget()
++        form_field = model_admin.formfield_for_manytomany(
++            TestModel._meta.get_field('related'),
++            None,
++            widget=custom_widget
++        )
++        # The test should pass if the custom widget is used, ensuring the bug is fixed
++        self.assertEqual(form_field.widget, custom_widget)

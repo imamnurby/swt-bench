@@ -1,0 +1,518 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 5e17a90c19f7eecfa10c1ab872648ae7e2131323
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 5e17a90c19f7eecfa10c1ab872648ae7e2131323
+Merge: f20387eb16 c2099bf0aa
+Author: Chris Smith <smichr@gmail.com>
+Date:   Thu Dec 6 09:42:21 2018 -0600
+
+    Merge pull request #15592 from rationa-kunal/print_parens
+    
+    add parentheses while pretty printing MatMul and KroneckerProduct
+
++ git diff 5e17a90c19f7eecfa10c1ab872648ae7e2131323
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.4.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.4.dev0
+    Uninstalling sympy-1.4.dev0:
+      Successfully uninstalled sympy-1.4.dev0
+  DEPRECATION: Legacy editable install of sympy==1.4.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:12: trailing whitespace.
+    
+<stdin>:15: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-15599.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-15599.py cleanly.
+warning: 2 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/core/mod\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-15599.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/core/mod\\.py)']
+0.21 /testbed/sympy/core/mod.py(1): from __future__ import print_function, division
+0.21 /testbed/sympy/core/mod.py(3): from sympy.core.numbers import nan
+0.21 /testbed/sympy/core/mod.py(4): from .function import Function
+0.21 /testbed/sympy/core/mod.py(7): class Mod(Function):
+0.21 /testbed/sympy/core/mod.py(7): class Mod(Function):
+0.21 /testbed/sympy/core/mod.py(8):     """Represents a modulo operation on symbolic expressions.
+0.21 /testbed/sympy/core/mod.py(26):     @classmethod
+0.21 /testbed/sympy/core/mod.py(27):     def eval(cls, p, q):
+0.21 /testbed/sympy/core/mod.py(199):     def _eval_is_integer(self):
+0.21 /testbed/sympy/core/mod.py(205):     def _eval_is_nonnegative(self):
+0.21 /testbed/sympy/core/mod.py(209):     def _eval_is_nonpositive(self):
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        57896239
+hash randomization: on (PYTHONHASHSEED=3144383880)
+
+sympy/polys/tests/test_coverup_sympy__sympy-15599.py[1] 
+test_mod_simplification_bug 0.63 /testbed/sympy/core/mod.py(28):         from sympy.core.add import Add
+0.63 /testbed/sympy/core/mod.py(29):         from sympy.core.mul import Mul
+0.63 /testbed/sympy/core/mod.py(30):         from sympy.core.singleton import S
+0.63 /testbed/sympy/core/mod.py(31):         from sympy.core.exprtools import gcd_terms
+0.63 /testbed/sympy/core/mod.py(32):         from sympy.polys.polytools import gcd
+0.63 /testbed/sympy/core/mod.py(34):         def doit(p, q):
+0.63 /testbed/sympy/core/mod.py(91):         rv = doit(p, q)
+0.63 /testbed/sympy/core/mod.py(39):             if q == S.Zero:
+0.63 /testbed/sympy/core/mod.py(41):             if p.is_infinite or q.is_infinite or p is nan or q is nan:
+0.63 /testbed/sympy/core/mod.py(43):             if p == S.Zero or p == q or p == -q or (p.is_integer and q == 1):
+0.63 /testbed/sympy/core/mod.py(46):             if q.is_Number:
+0.63 /testbed/sympy/core/mod.py(47):                 if p.is_Number:
+0.63 /testbed/sympy/core/mod.py(49):                 if q == 2:
+0.63 /testbed/sympy/core/mod.py(50):                     if p.is_even:
+0.63 /testbed/sympy/core/mod.py(52):                     elif p.is_odd:
+0.63 /testbed/sympy/core/mod.py(55):             if hasattr(p, '_eval_Mod'):
+0.63 /testbed/sympy/core/mod.py(61):             r = p/q
+0.63 /testbed/sympy/core/mod.py(62):             try:
+0.63 /testbed/sympy/core/mod.py(63):                 d = int(r)
+0.63 /testbed/sympy/core/mod.py(64):             except TypeError:
+0.63 /testbed/sympy/core/mod.py(65):                 pass
+0.63 /testbed/sympy/core/mod.py(75):             d = abs(p)
+0.63 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.63 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.63 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.64 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.64 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.64 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.64 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.64 /testbed/sympy/core/mod.py(92):         if rv is not None:
+0.64 /testbed/sympy/core/mod.py(96):         if isinstance(p, cls):
+0.64 /testbed/sympy/core/mod.py(103):         elif isinstance(-p, cls):
+0.64 /testbed/sympy/core/mod.py(110):         elif isinstance(p, Add):
+0.64 /testbed/sympy/core/mod.py(120):         elif isinstance(p, Mul):
+0.64 /testbed/sympy/core/mod.py(122):             both_l = non_mod_l, mod_l = [], []
+0.64 /testbed/sympy/core/mod.py(123):             for arg in p.args:
+0.64 /testbed/sympy/core/mod.py(124):                 both_l[isinstance(arg, cls)].append(arg)
+0.64 /testbed/sympy/core/mod.py(123):             for arg in p.args:
+0.64 /testbed/sympy/core/mod.py(124):                 both_l[isinstance(arg, cls)].append(arg)
+0.64 /testbed/sympy/core/mod.py(123):             for arg in p.args:
+0.64 /testbed/sympy/core/mod.py(126):             if mod_l and all(inner.args[1] == q for inner in mod_l):
+0.64 /testbed/sympy/core/mod.py(145):         G = gcd(p, q)
+0.64 /testbed/sympy/core/mod.py(146):         if G != 1:
+0.64 /testbed/sympy/core/mod.py(149):         pwas, qwas = p, q
+0.64 /testbed/sympy/core/mod.py(153):         if p.is_Add:
+0.64 /testbed/sympy/core/mod.py(168):             cp, p = p.as_coeff_Mul()
+0.64 /testbed/sympy/core/mod.py(169):             cq, q = q.as_coeff_Mul()
+0.64 /testbed/sympy/core/mod.py(170):             ok = False
+0.64 /testbed/sympy/core/mod.py(171):             if not cp.is_Rational or not cq.is_Rational:
+0.64 /testbed/sympy/core/mod.py(177):             if not ok:
+0.64 /testbed/sympy/core/mod.py(178):                 p = cp*p
+0.64 /testbed/sympy/core/mod.py(179):                 q = cq*q
+0.64 /testbed/sympy/core/mod.py(182):         if p.could_extract_minus_sign() and q.could_extract_minus_sign():
+0.64 /testbed/sympy/core/mod.py(186):         rv = doit(p, q)
+0.64 /testbed/sympy/core/mod.py(39):             if q == S.Zero:
+0.64 /testbed/sympy/core/mod.py(41):             if p.is_infinite or q.is_infinite or p is nan or q is nan:
+0.64 /testbed/sympy/core/mod.py(43):             if p == S.Zero or p == q or p == -q or (p.is_integer and q == 1):
+0.64 /testbed/sympy/core/mod.py(46):             if q.is_Number:
+0.64 /testbed/sympy/core/mod.py(47):                 if p.is_Number:
+0.64 /testbed/sympy/core/mod.py(49):                 if q == 2:
+0.64 /testbed/sympy/core/mod.py(50):                     if p.is_even:
+0.64 /testbed/sympy/core/mod.py(52):                     elif p.is_odd:
+0.64 /testbed/sympy/core/mod.py(55):             if hasattr(p, '_eval_Mod'):
+0.64 /testbed/sympy/core/mod.py(61):             r = p/q
+0.64 /testbed/sympy/core/mod.py(62):             try:
+0.64 /testbed/sympy/core/mod.py(63):                 d = int(r)
+0.64 /testbed/sympy/core/mod.py(64):             except TypeError:
+0.64 /testbed/sympy/core/mod.py(65):                 pass
+0.64 /testbed/sympy/core/mod.py(75):             d = abs(p)
+0.64 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.64 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.64 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.65 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.65 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.65 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.65 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.65 /testbed/sympy/core/mod.py(187):         if rv is not None:
+0.65 /testbed/sympy/core/mod.py(191):         if G.is_Float and G == 1:
+0.65 /testbed/sympy/core/mod.py(194):         elif G.is_Mul and G.args[0].is_Float and G.args[0] == 1:
+0.65 /testbed/sympy/core/mod.py(197):         return G*cls(p, q, evaluate=(p, q) != (pwas, qwas))
+0.65 /testbed/sympy/core/mod.py(28):         from sympy.core.add import Add
+0.65 /testbed/sympy/core/mod.py(29):         from sympy.core.mul import Mul
+0.65 /testbed/sympy/core/mod.py(30):         from sympy.core.singleton import S
+0.65 /testbed/sympy/core/mod.py(31):         from sympy.core.exprtools import gcd_terms
+0.65 /testbed/sympy/core/mod.py(32):         from sympy.polys.polytools import gcd
+0.65 /testbed/sympy/core/mod.py(34):         def doit(p, q):
+0.65 /testbed/sympy/core/mod.py(91):         rv = doit(p, q)
+0.65 /testbed/sympy/core/mod.py(39):             if q == S.Zero:
+0.65 /testbed/sympy/core/mod.py(41):             if p.is_infinite or q.is_infinite or p is nan or q is nan:
+0.65 /testbed/sympy/core/mod.py(43):             if p == S.Zero or p == q or p == -q or (p.is_integer and q == 1):
+0.65 /testbed/sympy/core/mod.py(46):             if q.is_Number:
+0.65 /testbed/sympy/core/mod.py(47):                 if p.is_Number:
+0.65 /testbed/sympy/core/mod.py(49):                 if q == 2:
+0.65 /testbed/sympy/core/mod.py(50):                     if p.is_even:
+0.65 /testbed/sympy/core/mod.py(52):                     elif p.is_odd:
+0.65 /testbed/sympy/core/mod.py(55):             if hasattr(p, '_eval_Mod'):
+0.65 /testbed/sympy/core/mod.py(61):             r = p/q
+0.65 /testbed/sympy/core/mod.py(62):             try:
+0.65 /testbed/sympy/core/mod.py(63):                 d = int(r)
+0.65 /testbed/sympy/core/mod.py(64):             except TypeError:
+0.65 /testbed/sympy/core/mod.py(65):                 pass
+0.65 /testbed/sympy/core/mod.py(75):             d = abs(p)
+0.65 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.65 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.65 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.65 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.65 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.65 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.66 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.66 /testbed/sympy/core/mod.py(92):         if rv is not None:
+0.66 /testbed/sympy/core/mod.py(96):         if isinstance(p, cls):
+0.66 /testbed/sympy/core/mod.py(103):         elif isinstance(-p, cls):
+0.66 /testbed/sympy/core/mod.py(110):         elif isinstance(p, Add):
+0.66 /testbed/sympy/core/mod.py(120):         elif isinstance(p, Mul):
+0.66 /testbed/sympy/core/mod.py(145):         G = gcd(p, q)
+0.66 /testbed/sympy/core/mod.py(146):         if G != 1:
+0.66 /testbed/sympy/core/mod.py(149):         pwas, qwas = p, q
+0.66 /testbed/sympy/core/mod.py(153):         if p.is_Add:
+0.66 /testbed/sympy/core/mod.py(168):             cp, p = p.as_coeff_Mul()
+0.66 /testbed/sympy/core/mod.py(169):             cq, q = q.as_coeff_Mul()
+0.66 /testbed/sympy/core/mod.py(170):             ok = False
+0.66 /testbed/sympy/core/mod.py(171):             if not cp.is_Rational or not cq.is_Rational:
+0.66 /testbed/sympy/core/mod.py(177):             if not ok:
+0.66 /testbed/sympy/core/mod.py(178):                 p = cp*p
+0.66 /testbed/sympy/core/mod.py(179):                 q = cq*q
+0.66 /testbed/sympy/core/mod.py(182):         if p.could_extract_minus_sign() and q.could_extract_minus_sign():
+0.66 /testbed/sympy/core/mod.py(186):         rv = doit(p, q)
+0.66 /testbed/sympy/core/mod.py(39):             if q == S.Zero:
+0.66 /testbed/sympy/core/mod.py(41):             if p.is_infinite or q.is_infinite or p is nan or q is nan:
+0.66 /testbed/sympy/core/mod.py(43):             if p == S.Zero or p == q or p == -q or (p.is_integer and q == 1):
+0.66 /testbed/sympy/core/mod.py(46):             if q.is_Number:
+0.66 /testbed/sympy/core/mod.py(47):                 if p.is_Number:
+0.66 /testbed/sympy/core/mod.py(49):                 if q == 2:
+0.66 /testbed/sympy/core/mod.py(50):                     if p.is_even:
+0.66 /testbed/sympy/core/mod.py(52):                     elif p.is_odd:
+0.66 /testbed/sympy/core/mod.py(55):             if hasattr(p, '_eval_Mod'):
+0.66 /testbed/sympy/core/mod.py(61):             r = p/q
+0.66 /testbed/sympy/core/mod.py(62):             try:
+0.66 /testbed/sympy/core/mod.py(63):                 d = int(r)
+0.66 /testbed/sympy/core/mod.py(64):             except TypeError:
+0.66 /testbed/sympy/core/mod.py(65):                 pass
+0.66 /testbed/sympy/core/mod.py(75):             d = abs(p)
+0.66 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.66 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.66 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.66 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.66 /testbed/sympy/core/mod.py(77):                 d -= abs(q)
+0.66 /testbed/sympy/core/mod.py(78):                 if d.is_negative:
+0.66 /testbed/sympy/core/mod.py(76):             for _ in range(2):
+0.66 /testbed/sympy/core/mod.py(187):         if rv is not None:
+0.66 /testbed/sympy/core/mod.py(191):         if G.is_Float and G == 1:
+0.66 /testbed/sympy/core/mod.py(194):         elif G.is_Mul and G.args[0].is_Float and G.args[0] == 1:
+0.66 /testbed/sympy/core/mod.py(197):         return G*cls(p, q, evaluate=(p, q) != (pwas, qwas))
+F                                             [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-15599.py:test_mod_simplification_bug 
+Traceback (most recent call last):
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-15599.py", line 11, in test_mod_simplification_bug
+    assert expr == Mod(i, 2)
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.04 seconds ==============
+DO *NOT* COMMIT!
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/core/mod\\.py)']
+0.31 /testbed/sympy/core/mod.py(1): from __future__ import print_function, division
+0.31 /testbed/sympy/core/mod.py(3): from sympy.core.numbers import nan
+0.31 /testbed/sympy/core/mod.py(4): from .function import Function
+0.31 /testbed/sympy/core/mod.py(7): class Mod(Function):
+0.31 /testbed/sympy/core/mod.py(7): class Mod(Function):
+0.31 /testbed/sympy/core/mod.py(8):     """Represents a modulo operation on symbolic expressions.
+0.31 /testbed/sympy/core/mod.py(26):     @classmethod
+0.31 /testbed/sympy/core/mod.py(27):     def eval(cls, p, q):
+0.31 /testbed/sympy/core/mod.py(199):     def _eval_is_integer(self):
+0.31 /testbed/sympy/core/mod.py(205):     def _eval_is_nonnegative(self):
+0.31 /testbed/sympy/core/mod.py(209):     def _eval_is_nonpositive(self):
++ cat coverage.cover
+{"/testbed/sympy/core/mod.py": {"1": 1, "3": 1, "4": 1, "7": 2, "26": 1, "27": 1, "199": 1, "205": 1, "209": 1, "28": 2, "29": 2, "30": 2, "31": 2, "32": 2, "34": 2, "91": 2, "92": 2, "93": 0, "96": 2, "97": 0, "98": 0, "99": 0, "100": 0, "102": 0, "103": 2, "104": 0, "105": 0, "106": 0, "107": 0, "109": 0, "110": 2, "112": 0, "113": 0, "114": 0, "116": 0, "117": 0, "118": 0, "120": 2, "122": 1, "123": 3, "124": 2, "126": 1, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "145": 2, "146": 2, "147": 0, "148": 0, "149": 2, "153": 2, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "160": 0, "161": 0, "162": 0, "168": 2, "169": 2, "170": 2, "171": 2, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "177": 2, "178": 2, "179": 2, "182": 2, "183": 0, "186": 2, "187": 2, "188": 0, "191": 2, "192": 0, "193": 0, "194": 2, "195": 0, "196": 0, "197": 2, "39": 4, "40": 0, "41": 4, "42": 0, "43": 4, "44": 0, "46": 4, "47": 4, "48": 0, "49": 4, "50": 4, "51": 0, "52": 4, "53": 0, "55": 4, "56": 0, "57": 0, "58": 0, "61": 4, "62": 4, "63": 4, "64": 4, "65": 4, "67": 0, "68": 0, "69": 0, "70": 0, "71": 0, "75": 4, "76": 12, "77": 8, "78": 8, "79": 0, "80": 0, "81": 0, "82": 0, "83": 0, "84": 0, "85": 0, "86": 0, "87": 0, "88": 0, "89": 0, "200": 0, "201": 0, "202": 0, "203": 0, "206": 0, "207": 0, "210": 0, "211": 0}}
+{"/testbed/sympy/core/mod.py": {"1": 1, "3": 1, "4": 1, "7": 2, "26": 1, "27": 1, "199": 1, "205": 1, "209": 1, "28": 0, "29": 0, "30": 0, "31": 0, "32": 0, "34": 0, "91": 0, "92": 0, "93": 0, "96": 0, "97": 0, "98": 0, "99": 0, "100": 0, "102": 0, "103": 0, "104": 0, "105": 0, "106": 0, "107": 0, "109": 0, "110": 0, "112": 0, "113": 0, "114": 0, "116": 0, "117": 0, "118": 0, "120": 0, "122": 0, "123": 0, "124": 0, "126": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "160": 0, "161": 0, "162": 0, "168": 0, "169": 0, "170": 0, "171": 0, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "177": 0, "178": 0, "179": 0, "182": 0, "183": 0, "186": 0, "187": 0, "188": 0, "191": 0, "192": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "39": 0, "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "51": 0, "52": 0, "53": 0, "55": 0, "56": 0, "57": 0, "58": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "67": 0, "68": 0, "69": 0, "70": 0, "71": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0, "80": 0, "81": 0, "82": 0, "83": 0, "84": 0, "85": 0, "86": 0, "87": 0, "88": 0, "89": 0, "200": 0, "201": 0, "202": 0, "203": 0, "206": 0, "207": 0, "210": 0, "211": 0}}
++ git checkout 5e17a90c19f7eecfa10c1ab872648ae7e2131323
+Note: switching to '5e17a90c19f7eecfa10c1ab872648ae7e2131323'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5e17a90c19 Merge pull request #15592 from rationa-kunal/print_parens
++ git apply /root/pre_state.patch
+error: unrecognized input

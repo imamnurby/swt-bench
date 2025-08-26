@@ -1,0 +1,26 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-19954.py
+new file mode 100644
+index e69de29..e194fc1 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-19954.py
+@@ -0,0 +1,20 @@
++from sympy.combinatorics import DihedralGroup
++
++def test_sylow_subgroup_no_index_error():
++    # Create a DihedralGroup instance with a parameter known to trigger the bug
++    G = DihedralGroup(18)
++    
++    # Assert that calling sylow_subgroup(p=2) does not raise an IndexError
++    try:
++        G.sylow_subgroup(p=2)
++    except IndexError:
++        assert False, "sylow_subgroup(p=2) raised IndexError unexpectedly"
++    
++    # Repeat the test for another known problematic parameter
++    G = DihedralGroup(50)
++    
++    # Assert that calling sylow_subgroup(p=2) does not raise an IndexError
++    try:
++        G.sylow_subgroup(p=2)
++    except IndexError:
++        assert False, "sylow_subgroup(p=2) raised IndexError unexpectedly"

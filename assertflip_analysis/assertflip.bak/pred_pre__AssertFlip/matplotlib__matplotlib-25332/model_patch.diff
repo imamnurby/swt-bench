@@ -1,0 +1,38 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-25332.py
+new file mode 100644
+index e69de29..9b39d4e 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-25332.py
+@@ -0,0 +1,32 @@
++import pytest
++import matplotlib.pyplot as plt
++import pickle
++
++def test_pickle_figure_after_align_labels():
++    # Create a figure and add subplots
++    fig = plt.figure()
++    ax1 = fig.add_subplot(211)
++    ax2 = fig.add_subplot(212)
++    
++    # Plot data and set labels
++    time = [0, 1, 2, 3, 4]
++    speed = [40000, 4300, 4500, 4700, 4800]
++    acc = [10, 11, 12, 13, 14]
++    ax1.plot(time, speed)
++    ax1.set_ylabel('speed')
++    ax2.plot(time, acc)
++    ax2.set_ylabel('acc')
++    
++    # Call align_labels to trigger the bug
++    fig.align_labels()
++    
++    # Attempt to pickle the figure and expect it to succeed
++    try:
++        pickle.dumps(fig)
++    except TypeError:
++        pytest.fail("Pickling failed due to TypeError, bug is present.")
++    
++    # Cleanup: Close the figure
++    plt.close(fig)
++
++# The test will fail if a TypeError is raised, indicating the bug is present.

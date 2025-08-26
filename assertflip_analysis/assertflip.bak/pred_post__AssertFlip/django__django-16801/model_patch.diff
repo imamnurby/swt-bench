@@ -1,0 +1,33 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-16801.py
+new file mode 100644
+index e69de29..5981a07 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-16801.py
+@@ -0,0 +1,27 @@
++from django.test import SimpleTestCase
++from django.db import models
++from django.db.models.signals import post_init
++
++class ImageFieldPostInitSignalTest(SimpleTestCase):
++    def setUp(self):
++        # Dynamically create a model within a test app
++        class TestModel(models.Model):
++            image = models.ImageField()
++
++            class Meta:
++                app_label = 'test_app'
++
++        self.TestModel = TestModel
++
++    def test_post_init_signal_unnecessary_connection(self):
++        """
++        Test to check if the post_init signal is connected even when width_field and height_field are not set.
++        This test should fail if the post_init signal is unnecessarily connected.
++        """
++        # Check if the post_init signal is connected to the TestModel
++        connected_receivers = post_init.receivers
++        image_field_connected = any(
++            receiver[1]() == self.TestModel._meta.get_field('image').update_dimension_fields for receiver in connected_receivers
++        )
++        # Assert that the post_init signal is not connected, which is the correct behavior
++        self.assertFalse(image_field_connected, "BUG: post_init signal should not be connected when width_field and height_field are not set.")

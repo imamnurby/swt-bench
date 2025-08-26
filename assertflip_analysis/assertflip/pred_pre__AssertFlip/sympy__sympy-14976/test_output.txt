@@ -1,0 +1,1640 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 9cbea134220b0b951587e11b63e2c832c7246cbc
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 9cbea134220b0b951587e11b63e2c832c7246cbc
+Merge: 5a55f03696 8b44c4b038
+Author: Aaron Meurer <asmeurer@gmail.com>
+Date:   Wed Jul 25 11:56:51 2018 -0500
+
+    Merge pull request #14971 from cbm755/rf_ff_hiprec_fix
+    
+    RisingFactorial/FallingFactorial: fix high-precision floats
+
++ git diff 9cbea134220b0b951587e11b63e2c832c7246cbc
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.2.1.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.2.1.dev0
+    Uninstalling sympy-1.2.1.dev0:
+      Successfully uninstalled sympy-1.2.1.dev0
+  DEPRECATION: Legacy editable install of sympy==1.2.1.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:15: trailing whitespace.
+    
+<stdin>:18: trailing whitespace.
+    
+<stdin>:21: trailing whitespace.
+    
+<stdin>:24: trailing whitespace.
+    
+<stdin>:27: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-14976.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-14976.py cleanly.
+warning: squelched 1 whitespace error
+warning: 6 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/printing/pycode\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-14976.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/printing/pycode\\.py)']
+0.46 /testbed/sympy/printing/pycode.py(1): """
+0.46 /testbed/sympy/printing/pycode.py(8): from collections import defaultdict
+0.46 /testbed/sympy/printing/pycode.py(9): from functools import wraps
+0.46 /testbed/sympy/printing/pycode.py(10): from itertools import chain
+0.46 /testbed/sympy/printing/pycode.py(11): from sympy.core import sympify, S
+0.46 /testbed/sympy/printing/pycode.py(12): from .precedence import precedence
+0.46 /testbed/sympy/printing/pycode.py(13): from .codeprinter import CodePrinter
+0.47 /testbed/sympy/printing/pycode.py(15): _kw_py2and3 = {
+0.47 /testbed/sympy/printing/pycode.py(21): _kw_only_py2 = {'exec', 'print'}
+0.47 /testbed/sympy/printing/pycode.py(22): _kw_only_py3 = {'False', 'nonlocal', 'True'}
+0.47 /testbed/sympy/printing/pycode.py(25):     'Abs': 'abs',
+0.47 /testbed/sympy/printing/pycode.py(24): _known_functions = {
+0.47 /testbed/sympy/printing/pycode.py(28):     'acos': 'acos',
+0.47 /testbed/sympy/printing/pycode.py(29):     'acosh': 'acosh',
+0.47 /testbed/sympy/printing/pycode.py(30):     'asin': 'asin',
+0.47 /testbed/sympy/printing/pycode.py(31):     'asinh': 'asinh',
+0.47 /testbed/sympy/printing/pycode.py(32):     'atan': 'atan',
+0.47 /testbed/sympy/printing/pycode.py(33):     'atan2': 'atan2',
+0.47 /testbed/sympy/printing/pycode.py(34):     'atanh': 'atanh',
+0.47 /testbed/sympy/printing/pycode.py(35):     'ceiling': 'ceil',
+0.47 /testbed/sympy/printing/pycode.py(36):     'cos': 'cos',
+0.47 /testbed/sympy/printing/pycode.py(37):     'cosh': 'cosh',
+0.47 /testbed/sympy/printing/pycode.py(38):     'erf': 'erf',
+0.47 /testbed/sympy/printing/pycode.py(39):     'erfc': 'erfc',
+0.47 /testbed/sympy/printing/pycode.py(40):     'exp': 'exp',
+0.47 /testbed/sympy/printing/pycode.py(41):     'expm1': 'expm1',
+0.47 /testbed/sympy/printing/pycode.py(42):     'factorial': 'factorial',
+0.47 /testbed/sympy/printing/pycode.py(43):     'floor': 'floor',
+0.47 /testbed/sympy/printing/pycode.py(44):     'gamma': 'gamma',
+0.47 /testbed/sympy/printing/pycode.py(45):     'hypot': 'hypot',
+0.47 /testbed/sympy/printing/pycode.py(46):     'loggamma': 'lgamma',
+0.47 /testbed/sympy/printing/pycode.py(47):     'log': 'log',
+0.47 /testbed/sympy/printing/pycode.py(48):     'log10': 'log10',
+0.47 /testbed/sympy/printing/pycode.py(49):     'log1p': 'log1p',
+0.47 /testbed/sympy/printing/pycode.py(50):     'log2': 'log2',
+0.47 /testbed/sympy/printing/pycode.py(51):     'sin': 'sin',
+0.47 /testbed/sympy/printing/pycode.py(52):     'sinh': 'sinh',
+0.47 /testbed/sympy/printing/pycode.py(53):     'Sqrt': 'sqrt',
+0.47 /testbed/sympy/printing/pycode.py(54):     'tan': 'tan',
+0.47 /testbed/sympy/printing/pycode.py(55):     'tanh': 'tanh'
+0.47 /testbed/sympy/printing/pycode.py(27): _known_functions_math = {
+0.47 /testbed/sympy/printing/pycode.py(59):     'Exp1': 'e',
+0.47 /testbed/sympy/printing/pycode.py(60):     'Pi': 'pi',
+0.47 /testbed/sympy/printing/pycode.py(58): _known_constants_math = {
+0.47 /testbed/sympy/printing/pycode.py(66): def _print_known_func(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(72): def _print_known_const(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(77): class PythonCodePrinter(CodePrinter):
+0.47 /testbed/sympy/printing/pycode.py(77): class PythonCodePrinter(CodePrinter):
+0.47 /testbed/sympy/printing/pycode.py(78):     printmethod = "_pythoncode"
+0.47 /testbed/sympy/printing/pycode.py(79):     language = "Python"
+0.47 /testbed/sympy/printing/pycode.py(80):     standard = "python3"
+0.47 /testbed/sympy/printing/pycode.py(81):     reserved_words = _kw_py2and3.union(_kw_only_py3)
+0.47 /testbed/sympy/printing/pycode.py(82):     modules = None  # initialized to a set in __init__
+0.47 /testbed/sympy/printing/pycode.py(83):     tab = '    '
+0.47 /testbed/sympy/printing/pycode.py(84):     _kf = dict(chain(
+0.47 /testbed/sympy/printing/pycode.py(85):         _known_functions.items(),
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.47 /testbed/sympy/printing/pycode.py(84):     _kf = dict(chain(
+0.47 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.47 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.47 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.47 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.47 /testbed/sympy/printing/pycode.py(89):     _operators = {'and': 'and', 'or': 'or', 'not': 'not'}
+0.47 /testbed/sympy/printing/pycode.py(90):     _default_settings = dict(
+0.47 /testbed/sympy/printing/pycode.py(91):         CodePrinter._default_settings,
+0.47 /testbed/sympy/printing/pycode.py(92):         user_functions={},
+0.47 /testbed/sympy/printing/pycode.py(93):         precision=17,
+0.47 /testbed/sympy/printing/pycode.py(94):         inline=True,
+0.47 /testbed/sympy/printing/pycode.py(95):         fully_qualified_modules=True,
+0.47 /testbed/sympy/printing/pycode.py(96):         contract=False
+0.47 /testbed/sympy/printing/pycode.py(90):     _default_settings = dict(
+0.47 /testbed/sympy/printing/pycode.py(99):     def __init__(self, settings=None):
+0.47 /testbed/sympy/printing/pycode.py(107):     def _get_statement(self, codestring):
+0.47 /testbed/sympy/printing/pycode.py(110):     def _declare_number_const(self, name, value):
+0.47 /testbed/sympy/printing/pycode.py(113):     def _module_format(self, fqn, register=True):
+0.47 /testbed/sympy/printing/pycode.py(123):     def _format_code(self, lines):
+0.47 /testbed/sympy/printing/pycode.py(126):     def _get_statement(self, codestring):
+0.47 /testbed/sympy/printing/pycode.py(129):     def _get_comment(self, text):
+0.47 /testbed/sympy/printing/pycode.py(132):     def _print_NaN(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(135):     def _print_Infinity(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(138):     def _print_sign(self, e):
+0.47 /testbed/sympy/printing/pycode.py(142):     def _print_NegativeInfinity(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(145):     def _print_ComplexInfinity(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(148):     def _print_Mod(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(152):     def _print_Piecewise(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(175):     def _print_Relational(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(191):     def _print_ITE(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(195):     def _print_Sum(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(206):     def _print_ImaginaryUnit(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(209):     def _print_MatrixBase(self, expr):
+0.47 /testbed/sympy/printing/pycode.py(222):         lambda self, expr: self._print_MatrixBase(expr)
+0.47 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(215):         _print_MutableSparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(216):         _print_ImmutableSparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(217):         _print_Matrix = \
+0.47 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(218):         _print_DenseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(219):         _print_MutableDenseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(220):         _print_ImmutableMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(221):         _print_ImmutableDenseMatrix = \
+0.47 /testbed/sympy/printing/pycode.py(224):     def _indent_codestring(self, codestring):
+0.47 /testbed/sympy/printing/pycode.py(227):     def _print_FunctionDefinition(self, fd):
+0.47 /testbed/sympy/printing/pycode.py(235):     def _print_While(self, whl):
+0.47 /testbed/sympy/printing/pycode.py(242):     def _print_Declaration(self, decl):
+0.47 /testbed/sympy/printing/pycode.py(248):     def _print_Return(self, ret):
+0.47 /testbed/sympy/printing/pycode.py(252):     def _print_Print(self, prnt):
+0.47 /testbed/sympy/printing/pycode.py(261):     def _print_Stream(self, strm):
+0.47 /testbed/sympy/printing/pycode.py(269):     def _print_NoneToken(self, arg):
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(276): for k in _known_constants_math:
+0.47 /testbed/sympy/printing/pycode.py(277):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_const)
+0.47 /testbed/sympy/printing/pycode.py(276): for k in _known_constants_math:
+0.47 /testbed/sympy/printing/pycode.py(277):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_const)
+0.47 /testbed/sympy/printing/pycode.py(276): for k in _known_constants_math:
+0.47 /testbed/sympy/printing/pycode.py(280): def pycode(expr, **settings):
+0.47 /testbed/sympy/printing/pycode.py(304): _not_in_mpmath = 'log1p log2'.split()
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.47 /testbed/sympy/printing/pycode.py(306): _known_functions_mpmath = dict(_in_mpmath, **{
+0.47 /testbed/sympy/printing/pycode.py(307):     'sign': 'sign',
+0.47 /testbed/sympy/printing/pycode.py(306): _known_functions_mpmath = dict(_in_mpmath, **{
+0.47 /testbed/sympy/printing/pycode.py(310):     'Pi': 'pi'
+0.47 /testbed/sympy/printing/pycode.py(309): _known_constants_mpmath = {
+0.47 /testbed/sympy/printing/pycode.py(314): class MpmathPrinter(PythonCodePrinter):
+0.47 /testbed/sympy/printing/pycode.py(314): class MpmathPrinter(PythonCodePrinter):
+0.47 /testbed/sympy/printing/pycode.py(315):     """
+0.47 /testbed/sympy/printing/pycode.py(318):     printmethod = "_mpmathcode"
+0.47 /testbed/sympy/printing/pycode.py(320):     _kf = dict(chain(
+0.47 /testbed/sympy/printing/pycode.py(321):         _known_functions.items(),
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.47 /testbed/sympy/printing/pycode.py(320):     _kf = dict(chain(
+0.47 /testbed/sympy/printing/pycode.py(325):     def _print_Float(self, e):
+0.47 /testbed/sympy/printing/pycode.py(335):     def _print_uppergamma(self, e):
+0.47 /testbed/sympy/printing/pycode.py(342):     def _print_lowergamma(self, e):
+0.47 /testbed/sympy/printing/pycode.py(348):     def _print_log2(self, e):
+0.47 /testbed/sympy/printing/pycode.py(352):     def _print_log1p(self, e):
+0.47 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.47 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.47 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(359): for k in _known_constants_mpmath:
+0.48 /testbed/sympy/printing/pycode.py(360):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_const)
+0.48 /testbed/sympy/printing/pycode.py(359): for k in _known_constants_mpmath:
+0.48 /testbed/sympy/printing/pycode.py(363): _not_in_numpy = 'erf erfc factorial gamma lgamma'.split()
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.48 /testbed/sympy/printing/pycode.py(365): _known_functions_numpy = dict(_in_numpy, **{
+0.48 /testbed/sympy/printing/pycode.py(366):     'acos': 'arccos',
+0.48 /testbed/sympy/printing/pycode.py(367):     'acosh': 'arccosh',
+0.48 /testbed/sympy/printing/pycode.py(368):     'asin': 'arcsin',
+0.48 /testbed/sympy/printing/pycode.py(369):     'asinh': 'arcsinh',
+0.48 /testbed/sympy/printing/pycode.py(370):     'atan': 'arctan',
+0.48 /testbed/sympy/printing/pycode.py(371):     'atan2': 'arctan2',
+0.48 /testbed/sympy/printing/pycode.py(372):     'atanh': 'arctanh',
+0.48 /testbed/sympy/printing/pycode.py(373):     'exp2': 'exp2',
+0.48 /testbed/sympy/printing/pycode.py(374):     'sign': 'sign',
+0.48 /testbed/sympy/printing/pycode.py(365): _known_functions_numpy = dict(_in_numpy, **{
+0.48 /testbed/sympy/printing/pycode.py(378): class NumPyPrinter(PythonCodePrinter):
+0.48 /testbed/sympy/printing/pycode.py(378): class NumPyPrinter(PythonCodePrinter):
+0.48 /testbed/sympy/printing/pycode.py(379):     """
+0.48 /testbed/sympy/printing/pycode.py(383):     printmethod = "_numpycode"
+0.48 /testbed/sympy/printing/pycode.py(385):     _kf = dict(chain(
+0.48 /testbed/sympy/printing/pycode.py(386):         PythonCodePrinter._kf.items(),
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.48 /testbed/sympy/printing/pycode.py(385):     _kf = dict(chain(
+0.48 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.48 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.48 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.48 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.48 /testbed/sympy/printing/pycode.py(392):     def _print_seq(self, seq):
+0.48 /testbed/sympy/printing/pycode.py(399):     def _print_MatMul(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(403):     def _print_DotProduct(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(416):     def _print_Piecewise(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(426):     def _print_Relational(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(443):     def _print_And(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(450):     def _print_Or(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(457):     def _print_Not(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(464):     def _print_Min(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(467):     def _print_Max(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(470):     def _print_Pow(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(476):     def _print_arg(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(479):     def _print_im(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(482):     def _print_Mod(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(486):     def _print_re(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(489):     def _print_sinc(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(492):     def _print_MatrixBase(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(502): for k in NumPyPrinter._kc:
+0.48 /testbed/sympy/printing/pycode.py(503):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_const)
+0.48 /testbed/sympy/printing/pycode.py(502): for k in NumPyPrinter._kc:
+0.48 /testbed/sympy/printing/pycode.py(503):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_const)
+0.48 /testbed/sympy/printing/pycode.py(502): for k in NumPyPrinter._kc:
+0.48 /testbed/sympy/printing/pycode.py(507):     'erf': 'erf',
+0.48 /testbed/sympy/printing/pycode.py(508):     'erfc': 'erfc',
+0.48 /testbed/sympy/printing/pycode.py(509):     'gamma': 'gamma',
+0.48 /testbed/sympy/printing/pycode.py(510):     'loggamma': 'gammaln'
+0.48 /testbed/sympy/printing/pycode.py(506): _known_functions_scipy_special = {
+0.48 /testbed/sympy/printing/pycode.py(513):     'GoldenRatio': 'golden_ratio'
+0.48 /testbed/sympy/printing/pycode.py(512): _known_constants_scipy_constants = {
+0.48 /testbed/sympy/printing/pycode.py(516): class SciPyPrinter(NumPyPrinter):
+0.48 /testbed/sympy/printing/pycode.py(516): class SciPyPrinter(NumPyPrinter):
+0.48 /testbed/sympy/printing/pycode.py(518):     _kf = dict(chain(
+0.48 /testbed/sympy/printing/pycode.py(519):         NumPyPrinter._kf.items(),
+0.48 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.48 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.48 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.48 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.48 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.48 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.48 /testbed/sympy/printing/pycode.py(518):     _kf = dict(chain(
+0.48 /testbed/sympy/printing/pycode.py(522):     _kc = {k: 'scipy.constants.' + v for k, v in _known_constants_scipy_constants.items()}
+0.48 /testbed/sympy/printing/pycode.py(522):     _kc = {k: 'scipy.constants.' + v for k, v in _known_constants_scipy_constants.items()}
+0.48 /testbed/sympy/printing/pycode.py(522):     _kc = {k: 'scipy.constants.' + v for k, v in _known_constants_scipy_constants.items()}
+0.48 /testbed/sympy/printing/pycode.py(524):     def _print_SparseMatrix(self, expr):
+0.48 /testbed/sympy/printing/pycode.py(536):     _print_ImmutableSparseMatrix = _print_SparseMatrix
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.48 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.48 /testbed/sympy/printing/pycode.py(542): for k in SciPyPrinter._kc:
+0.48 /testbed/sympy/printing/pycode.py(543):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_const)
+0.48 /testbed/sympy/printing/pycode.py(542): for k in SciPyPrinter._kc:
+0.48 ['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/printing/pycode\\.py)']
+0.26 /testbed/sympy/printing/pycode.py(1): """
+0.26 /testbed/sympy/printing/pycode.py(8): from collections import defaultdict
+0.26 /testbed/sympy/printing/pycode.py(9): from functools import wraps
+0.26 /testbed/sympy/printing/pycode.py(10): from itertools import chain
+0.26 /testbed/sympy/printing/pycode.py(11): from sympy.core import sympify, S
+0.26 /testbed/sympy/printing/pycode.py(12): from .precedence import precedence
+0.26 /testbed/sympy/printing/pycode.py(13): from .codeprinter import CodePrinter
+0.27 /testbed/sympy/printing/pycode.py(15): _kw_py2and3 = {
+0.27 /testbed/sympy/printing/pycode.py(21): _kw_only_py2 = {'exec', 'print'}
+0.27 /testbed/sympy/printing/pycode.py(22): _kw_only_py3 = {'False', 'nonlocal', 'True'}
+0.27 /testbed/sympy/printing/pycode.py(25):     'Abs': 'abs',
+0.27 /testbed/sympy/printing/pycode.py(24): _known_functions = {
+0.27 /testbed/sympy/printing/pycode.py(28):     'acos': 'acos',
+0.27 /testbed/sympy/printing/pycode.py(29):     'acosh': 'acosh',
+0.27 /testbed/sympy/printing/pycode.py(30):     'asin': 'asin',
+0.27 /testbed/sympy/printing/pycode.py(31):     'asinh': 'asinh',
+0.27 /testbed/sympy/printing/pycode.py(32):     'atan': 'atan',
+0.27 /testbed/sympy/printing/pycode.py(33):     'atan2': 'atan2',
+0.27 /testbed/sympy/printing/pycode.py(34):     'atanh': 'atanh',
+0.27 /testbed/sympy/printing/pycode.py(35):     'ceiling': 'ceil',
+0.27 /testbed/sympy/printing/pycode.py(36):     'cos': 'cos',
+0.27 /testbed/sympy/printing/pycode.py(37):     'cosh': 'cosh',
+0.27 /testbed/sympy/printing/pycode.py(38):     'erf': 'erf',
+0.27 /testbed/sympy/printing/pycode.py(39):     'erfc': 'erfc',
+0.27 /testbed/sympy/printing/pycode.py(40):     'exp': 'exp',
+0.27 /testbed/sympy/printing/pycode.py(41):     'expm1': 'expm1',
+0.27 /testbed/sympy/printing/pycode.py(42):     'factorial': 'factorial',
+0.27 /testbed/sympy/printing/pycode.py(43):     'floor': 'floor',
+0.27 /testbed/sympy/printing/pycode.py(44):     'gamma': 'gamma',
+0.27 /testbed/sympy/printing/pycode.py(45):     'hypot': 'hypot',
+0.27 /testbed/sympy/printing/pycode.py(46):     'loggamma': 'lgamma',
+0.27 /testbed/sympy/printing/pycode.py(47):     'log': 'log',
+0.27 /testbed/sympy/printing/pycode.py(48):     'log10': 'log10',
+0.27 /testbed/sympy/printing/pycode.py(49):     'log1p': 'log1p',
+0.27 /testbed/sympy/printing/pycode.py(50):     'log2': 'log2',
+0.27 /testbed/sympy/printing/pycode.py(51):     'sin': 'sin',
+0.27 /testbed/sympy/printing/pycode.py(52):     'sinh': 'sinh',
+0.27 /testbed/sympy/printing/pycode.py(53):     'Sqrt': 'sqrt',
+0.27 /testbed/sympy/printing/pycode.py(54):     'tan': 'tan',
+0.27 /testbed/sympy/printing/pycode.py(55):     'tanh': 'tanh'
+0.27 /testbed/sympy/printing/pycode.py(27): _known_functions_math = {
+0.27 /testbed/sympy/printing/pycode.py(59):     'Exp1': 'e',
+0.27 /testbed/sympy/printing/pycode.py(60):     'Pi': 'pi',
+0.27 /testbed/sympy/printing/pycode.py(58): _known_constants_math = {
+0.27 /testbed/sympy/printing/pycode.py(66): def _print_known_func(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(72): def _print_known_const(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(77): class PythonCodePrinter(CodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(77): class PythonCodePrinter(CodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(78):     printmethod = "_pythoncode"
+0.27 /testbed/sympy/printing/pycode.py(79):     language = "Python"
+0.27 /testbed/sympy/printing/pycode.py(80):     standard = "python3"
+0.27 /testbed/sympy/printing/pycode.py(81):     reserved_words = _kw_py2and3.union(_kw_only_py3)
+0.27 /testbed/sympy/printing/pycode.py(82):     modules = None  # initialized to a set in __init__
+0.27 /testbed/sympy/printing/pycode.py(83):     tab = '    '
+0.27 /testbed/sympy/printing/pycode.py(84):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(85):         _known_functions.items(),
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(86):         [(k, 'math.' + v) for k, v in _known_functions_math.items()]
+0.27 /testbed/sympy/printing/pycode.py(84):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(88):     _kc = {k: 'math.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(89):     _operators = {'and': 'and', 'or': 'or', 'not': 'not'}
+0.27 /testbed/sympy/printing/pycode.py(90):     _default_settings = dict(
+0.27 /testbed/sympy/printing/pycode.py(91):         CodePrinter._default_settings,
+0.27 /testbed/sympy/printing/pycode.py(92):         user_functions={},
+0.27 /testbed/sympy/printing/pycode.py(93):         precision=17,
+0.27 /testbed/sympy/printing/pycode.py(94):         inline=True,
+0.27 /testbed/sympy/printing/pycode.py(95):         fully_qualified_modules=True,
+0.27 /testbed/sympy/printing/pycode.py(96):         contract=False
+0.27 /testbed/sympy/printing/pycode.py(90):     _default_settings = dict(
+0.27 /testbed/sympy/printing/pycode.py(99):     def __init__(self, settings=None):
+0.27 /testbed/sympy/printing/pycode.py(107):     def _get_statement(self, codestring):
+0.27 /testbed/sympy/printing/pycode.py(110):     def _declare_number_const(self, name, value):
+0.27 /testbed/sympy/printing/pycode.py(113):     def _module_format(self, fqn, register=True):
+0.27 /testbed/sympy/printing/pycode.py(123):     def _format_code(self, lines):
+0.27 /testbed/sympy/printing/pycode.py(126):     def _get_statement(self, codestring):
+0.27 /testbed/sympy/printing/pycode.py(129):     def _get_comment(self, text):
+0.27 /testbed/sympy/printing/pycode.py(132):     def _print_NaN(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(135):     def _print_Infinity(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(138):     def _print_sign(self, e):
+0.27 /testbed/sympy/printing/pycode.py(142):     def _print_NegativeInfinity(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(145):     def _print_ComplexInfinity(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(148):     def _print_Mod(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(152):     def _print_Piecewise(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(175):     def _print_Relational(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(191):     def _print_ITE(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(195):     def _print_Sum(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(206):     def _print_ImaginaryUnit(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(209):     def _print_MatrixBase(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(222):         lambda self, expr: self._print_MatrixBase(expr)
+0.27 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(215):         _print_MutableSparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(216):         _print_ImmutableSparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(217):         _print_Matrix = \
+0.27 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(218):         _print_DenseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(219):         _print_MutableDenseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(214):     _print_SparseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(220):         _print_ImmutableMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(221):         _print_ImmutableDenseMatrix = \
+0.27 /testbed/sympy/printing/pycode.py(224):     def _indent_codestring(self, codestring):
+0.27 /testbed/sympy/printing/pycode.py(227):     def _print_FunctionDefinition(self, fd):
+0.27 /testbed/sympy/printing/pycode.py(235):     def _print_While(self, whl):
+0.27 /testbed/sympy/printing/pycode.py(242):     def _print_Declaration(self, decl):
+0.27 /testbed/sympy/printing/pycode.py(248):     def _print_Return(self, ret):
+0.27 /testbed/sympy/printing/pycode.py(252):     def _print_Print(self, prnt):
+0.27 /testbed/sympy/printing/pycode.py(261):     def _print_Stream(self, strm):
+0.27 /testbed/sympy/printing/pycode.py(269):     def _print_NoneToken(self, arg):
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(274):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(273): for k in PythonCodePrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(276): for k in _known_constants_math:
+0.27 /testbed/sympy/printing/pycode.py(277):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_const)
+0.27 /testbed/sympy/printing/pycode.py(276): for k in _known_constants_math:
+0.27 /testbed/sympy/printing/pycode.py(277):     setattr(PythonCodePrinter, '_print_%s' % k, _print_known_const)
+0.27 /testbed/sympy/printing/pycode.py(276): for k in _known_constants_math:
+0.27 /testbed/sympy/printing/pycode.py(280): def pycode(expr, **settings):
+0.27 /testbed/sympy/printing/pycode.py(304): _not_in_mpmath = 'log1p log2'.split()
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(305): _in_mpmath = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_mpmath]
+0.27 /testbed/sympy/printing/pycode.py(306): _known_functions_mpmath = dict(_in_mpmath, **{
+0.27 /testbed/sympy/printing/pycode.py(307):     'sign': 'sign',
+0.27 /testbed/sympy/printing/pycode.py(306): _known_functions_mpmath = dict(_in_mpmath, **{
+0.27 /testbed/sympy/printing/pycode.py(310):     'Pi': 'pi'
+0.27 /testbed/sympy/printing/pycode.py(309): _known_constants_mpmath = {
+0.27 /testbed/sympy/printing/pycode.py(314): class MpmathPrinter(PythonCodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(314): class MpmathPrinter(PythonCodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(315):     """
+0.27 /testbed/sympy/printing/pycode.py(318):     printmethod = "_mpmathcode"
+0.27 /testbed/sympy/printing/pycode.py(320):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(321):         _known_functions.items(),
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(322):         [(k, 'mpmath.' + v) for k, v in _known_functions_mpmath.items()]
+0.27 /testbed/sympy/printing/pycode.py(320):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(325):     def _print_Float(self, e):
+0.27 /testbed/sympy/printing/pycode.py(335):     def _print_uppergamma(self, e):
+0.27 /testbed/sympy/printing/pycode.py(342):     def _print_lowergamma(self, e):
+0.27 /testbed/sympy/printing/pycode.py(348):     def _print_log2(self, e):
+0.27 /testbed/sympy/printing/pycode.py(352):     def _print_log1p(self, e):
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(357):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(356): for k in MpmathPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(359): for k in _known_constants_mpmath:
+0.27 /testbed/sympy/printing/pycode.py(360):     setattr(MpmathPrinter, '_print_%s' % k, _print_known_const)
+0.27 /testbed/sympy/printing/pycode.py(359): for k in _known_constants_mpmath:
+0.27 /testbed/sympy/printing/pycode.py(363): _not_in_numpy = 'erf erfc factorial gamma lgamma'.split()
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(364): _in_numpy = [(k, v) for k, v in _known_functions_math.items() if k not in _not_in_numpy]
+0.27 /testbed/sympy/printing/pycode.py(365): _known_functions_numpy = dict(_in_numpy, **{
+0.27 /testbed/sympy/printing/pycode.py(366):     'acos': 'arccos',
+0.27 /testbed/sympy/printing/pycode.py(367):     'acosh': 'arccosh',
+0.27 /testbed/sympy/printing/pycode.py(368):     'asin': 'arcsin',
+0.27 /testbed/sympy/printing/pycode.py(369):     'asinh': 'arcsinh',
+0.27 /testbed/sympy/printing/pycode.py(370):     'atan': 'arctan',
+0.27 /testbed/sympy/printing/pycode.py(371):     'atan2': 'arctan2',
+0.27 /testbed/sympy/printing/pycode.py(372):     'atanh': 'arctanh',
+0.27 /testbed/sympy/printing/pycode.py(373):     'exp2': 'exp2',
+0.27 /testbed/sympy/printing/pycode.py(374):     'sign': 'sign',
+0.27 /testbed/sympy/printing/pycode.py(365): _known_functions_numpy = dict(_in_numpy, **{
+0.27 /testbed/sympy/printing/pycode.py(378): class NumPyPrinter(PythonCodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(378): class NumPyPrinter(PythonCodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(379):     """
+0.27 /testbed/sympy/printing/pycode.py(383):     printmethod = "_numpycode"
+0.27 /testbed/sympy/printing/pycode.py(385):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(386):         PythonCodePrinter._kf.items(),
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(387):         [(k, 'numpy.' + v) for k, v in _known_functions_numpy.items()]
+0.27 /testbed/sympy/printing/pycode.py(385):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(389):     _kc = {k: 'numpy.'+v for k, v in _known_constants_math.items()}
+0.27 /testbed/sympy/printing/pycode.py(392):     def _print_seq(self, seq):
+0.27 /testbed/sympy/printing/pycode.py(399):     def _print_MatMul(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(403):     def _print_DotProduct(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(416):     def _print_Piecewise(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(426):     def _print_Relational(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(443):     def _print_And(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(450):     def _print_Or(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(457):     def _print_Not(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(464):     def _print_Min(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(467):     def _print_Max(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(470):     def _print_Pow(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(476):     def _print_arg(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(479):     def _print_im(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(482):     def _print_Mod(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(486):     def _print_re(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(489):     def _print_sinc(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(492):     def _print_MatrixBase(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(500):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(499): for k in NumPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(502): for k in NumPyPrinter._kc:
+0.27 /testbed/sympy/printing/pycode.py(503):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_const)
+0.27 /testbed/sympy/printing/pycode.py(502): for k in NumPyPrinter._kc:
+0.27 /testbed/sympy/printing/pycode.py(503):     setattr(NumPyPrinter, '_print_%s' % k, _print_known_const)
+0.27 /testbed/sympy/printing/pycode.py(502): for k in NumPyPrinter._kc:
+0.27 /testbed/sympy/printing/pycode.py(507):     'erf': 'erf',
+0.27 /testbed/sympy/printing/pycode.py(508):     'erfc': 'erfc',
+0.27 /testbed/sympy/printing/pycode.py(509):     'gamma': 'gamma',
+0.27 /testbed/sympy/printing/pycode.py(510):     'loggamma': 'gammaln'
+0.27 /testbed/sympy/printing/pycode.py(506): _known_functions_scipy_special = {
+0.27 /testbed/sympy/printing/pycode.py(513):     'GoldenRatio': 'golden_ratio'
+0.27 /testbed/sympy/printing/pycode.py(512): _known_constants_scipy_constants = {
+0.27 /testbed/sympy/printing/pycode.py(516): class SciPyPrinter(NumPyPrinter):
+0.27 /testbed/sympy/printing/pycode.py(516): class SciPyPrinter(NumPyPrinter):
+0.27 /testbed/sympy/printing/pycode.py(518):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(519):         NumPyPrinter._kf.items(),
+0.27 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.27 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.27 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.27 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.27 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.27 /testbed/sympy/printing/pycode.py(520):         [(k, 'scipy.special.' + v) for k, v in _known_functions_scipy_special.items()]
+0.27 /testbed/sympy/printing/pycode.py(518):     _kf = dict(chain(
+0.27 /testbed/sympy/printing/pycode.py(522):     _kc = {k: 'scipy.constants.' + v for k, v in _known_constants_scipy_constants.items()}
+0.27 /testbed/sympy/printing/pycode.py(522):     _kc = {k: 'scipy.constants.' + v for k, v in _known_constants_scipy_constants.items()}
+0.27 /testbed/sympy/printing/pycode.py(522):     _kc = {k: 'scipy.constants.' + v for k, v in _known_constants_scipy_constants.items()}
+0.27 /testbed/sympy/printing/pycode.py(524):     def _print_SparseMatrix(self, expr):
+0.27 /testbed/sympy/printing/pycode.py(536):     _print_ImmutableSparseMatrix = _print_SparseMatrix
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(540):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_func)
+0.27 /testbed/sympy/printing/pycode.py(539): for k in SciPyPrinter._kf:
+0.27 /testbed/sympy/printing/pycode.py(542): for k in SciPyPrinter._kc:
+0.27 /testbed/sympy/printing/pycode.py(543):     setattr(SciPyPrinter, '_print_%s' % k, _print_known_const)
+0.27 /testbed/sympy/printing/pycode.py(542): for k in SciPyPrinter._kc:
+0.27 /testbed/sympy/printing/pycode.py(546): class SymPyPrinter(PythonCodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(546): class SymPyPrinter(PythonCodePrinter):
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(549):         _known_functions.items(),
+0.27 /testbed/sympy/printing/pycode.py(550):         _known_functions_math.items()
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.27 /testbed/sympy/printing/pycode.py(553):     def _print_Function(self, expr):
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        85819960
+hash randomization: on (PYTHONHASHSEED=1025777962)
+
+sympy/polys/tests/test_coverup_sympy__sympy-14976.py[1] 
+test_lambdify_mpmath_rational_precision 0.46 /testbed/sympy/printing/pycode.py(100):         super(PythonCodePrinter, self).__init__(settings)
+0.46 /testbed/sympy/printing/pycode.py(101):         self.module_imports = defaultdict(set)
+0.46 /testbed/sympy/printing/pycode.py(102):         self.known_functions = dict(self._kf, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(103):             'user_functions', {}))
+0.46 /testbed/sympy/printing/pycode.py(102):         self.known_functions = dict(self._kf, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(104):         self.known_constants = dict(self._kc, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(105):             'user_constants', {}))
+0.46 /testbed/sympy/printing/pycode.py(104):         self.known_constants = dict(self._kc, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(100):         super(PythonCodePrinter, self).__init__(settings)
+0.46 /testbed/sympy/printing/pycode.py(101):         self.module_imports = defaultdict(set)
+0.46 /testbed/sympy/printing/pycode.py(102):         self.known_functions = dict(self._kf, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(103):             'user_functions', {}))
+0.46 /testbed/sympy/printing/pycode.py(102):         self.known_functions = dict(self._kf, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(104):         self.known_constants = dict(self._kc, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(105):             'user_constants', {}))
+0.46 /testbed/sympy/printing/pycode.py(104):         self.known_constants = dict(self._kc, **(settings or {}).get(
+0.46 /testbed/sympy/printing/pycode.py(124):         return lines
+0.46 /testbed/sympy/printing/pycode.py(130):         return "  # {0}".format(text)
+0.46 /testbed/sympy/printing/pycode.py(130):         return "  # {0}".format(text)
+0.46 /testbed/sympy/printing/pycode.py(124):         return lines
+F                                 [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-14976.py:test_lambdify_mpmath_rational_precision 
+Traceback (most recent call last):
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-14976.py", line 17, in test_lambdify_mpmath_rational_precision
+    assert '232/3' not in source_code  # The rational should be evaluated to a float
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.02 seconds ==============
+DO *NOT* COMMIT!
+/testbed/sympy/printing/pycode.py(546): class SymPyPrinter(PythonCodePrinter):
+0.48 /testbed/sympy/printing/pycode.py(546): class SymPyPrinter(PythonCodePrinter):
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(549):         _known_functions.items(),
+0.48 /testbed/sympy/printing/pycode.py(550):         _known_functions_math.items()
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(548):     _kf = dict([(k, 'sympy.' + v) for k, v in chain(
+0.48 /testbed/sympy/printing/pycode.py(553):     def _print_Function(self, expr):
++ cat coverage.cover
+{"/testbed/sympy/printing/pycode.py": {"8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "15": 1, "21": 1, "22": 1, "25": 1, "24": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "53": 1, "54": 1, "55": 1, "27": 1, "59": 1, "60": 1, "58": 1, "66": 1, "72": 1, "77": 2, "273": 30, "274": 29, "276": 3, "277": 2, "280": 1, "304": 1, "305": 30, "306": 2, "307": 1, "310": 1, "309": 1, "314": 2, "356": 29, "357": 28, "359": 2, "360": 1, "363": 1, "364": 30, "365": 2, "366": 1, "367": 1, "368": 1, "369": 1, "370": 1, "371": 1, "372": 1, "373": 1, "374": 1, "378": 2, "499": 32, "500": 31, "502": 3, "503": 2, "507": 1, "508": 1, "509": 1, "510": 1, "506": 1, "513": 1, "512": 1, "516": 2, "539": 32, "540": 31, "542": 2, "543": 1, "546": 2, "67": 0, "68": 0, "69": 0, "73": 0, "74": 0, "78": 1, "79": 1, "80": 1, "81": 1, "82": 1, "83": 1, "84": 2, "85": 1, "86": 30, "88": 4, "89": 1, "90": 2, "91": 1, "92": 1, "93": 1, "94": 1, "95": 1, "96": 1, "99": 1, "107": 1, "110": 1, "113": 1, "123": 1, "126": 1, "129": 1, "132": 1, "135": 1, "138": 1, "142": 1, "145": 1, "148": 1, "152": 1, "175": 1, "191": 1, "195": 1, "206": 1, "209": 1, "222": 1, "214": 6, "215": 1, "216": 1, "217": 1, "218": 1, "219": 1, "220": 1, "221": 1, "224": 1, "227": 1, "235": 1, "242": 1, "248": 1, "252": 1, "261": 1, "269": 1, "100": 2, "101": 2, "102": 4, "103": 2, "104": 4, "105": 2, "108": 0, "111": 0, "114": 0, "115": 0, "116": 0, "118": 0, "119": 0, "121": 0, "124": 2, "127": 0, "130": 2, "133": 0, "136": 0, "139": 0, "140": 0, "143": 0, "146": 0, "149": 0, "150": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "170": 0, "172": 0, "173": 0, "178": 0, "179": 0, "180": 0, "181": 0, "182": 0, "183": 0, "177": 0, "185": 0, "186": 0, "187": 0, "188": 0, "189": 0, "192": 0, "193": 0, "196": 0, "201": 0, "202": 0, "203": 0, "204": 0, "197": 0, "198": 0, "199": 0, "200": 0, "207": 0, "210": 0, "211": 0, "212": 0, "225": 0, "228": 0, "229": 0, "230": 0, "231": 0, "232": 0, "236": 0, "237": 0, "238": 0, "239": 0, "243": 0, "244": 0, "245": 0, "249": 0, "250": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "258": 0, "259": 0, "262": 0, "263": 0, "264": 0, "265": 0, "267": 0, "270": 0, "301": 0, "318": 1, "320": 2, "321": 1, "322": 29, "325": 1, "335": 1, "342": 1, "348": 1, "352": 1, "331": 0, "332": 0, "336": 0, "337": 0, "338": 0, "339": 0, "340": 0, "343": 0, "344": 0, "345": 0, "346": 0, "349": 0, "350": 0, "353": 0, "354": 0, "383": 1, "385": 2, "386": 1, "387": 28, "389": 4, "392": 1, "399": 1, "403": 1, "416": 1, "426": 1, "443": 1, "450": 1, "457": 1, "464": 1, "467": 1, "470": 1, "476": 1, "479": 1, "482": 1, "486": 1, "489": 1, "492": 1, "396": 0, "397": 0, "401": 0, "406": 0, "407": 0, "408": 0, "409": 0, "410": 0, "412": 0, "413": 0, "414": 0, "418": 0, "419": 0, "424": 0, "429": 0, "430": 0, "431": 0, "432": 0, "433": 0, "434": 0, "428": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "448": 0, "455": 0, "462": 0, "465": 0, "468": 0, "471": 0, "472": 0, "474": 0, "477": 0, "480": 0, "483": 0, "484": 0, "487": 0, "490": 0, "493": 0, "494": 0, "495": 0, "496": 0, "518": 2, "519": 1, "520": 6, "522": 3, "524": 1, "536": 1, "525": 0, "526": 0, "527": 0, "528": 0, "529": 0, "531": 0, "532": 0, "533": 0, "548": 32, "549": 1, "550": 1, "553": 1, "554": 0, "555": 0, "556": 0}}
+{"/testbed/sympy/printing/pycode.py": {"8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "15": 1, "21": 1, "22": 1, "25": 1, "24": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "53": 1, "54": 1, "55": 1, "27": 1, "59": 1, "60": 1, "58": 1, "66": 1, "72": 1, "77": 2, "273": 30, "274": 29, "276": 3, "277": 2, "280": 1, "304": 1, "305": 30, "306": 2, "307": 1, "310": 1, "309": 1, "314": 2, "356": 29, "357": 28, "359": 2, "360": 1, "363": 1, "364": 30, "365": 2, "366": 1, "367": 1, "368": 1, "369": 1, "370": 1, "371": 1, "372": 1, "373": 1, "374": 1, "378": 2, "499": 32, "500": 31, "502": 3, "503": 2, "507": 1, "508": 1, "509": 1, "510": 1, "506": 1, "513": 1, "512": 1, "516": 2, "539": 32, "540": 31, "542": 2, "543": 1, "546": 2, "67": 0, "68": 0, "69": 0, "73": 0, "74": 0, "78": 1, "79": 1, "80": 1, "81": 1, "82": 1, "83": 1, "84": 2, "85": 1, "86": 30, "88": 4, "89": 1, "90": 2, "91": 1, "92": 1, "93": 1, "94": 1, "95": 1, "96": 1, "99": 1, "107": 1, "110": 1, "113": 1, "123": 1, "126": 1, "129": 1, "132": 1, "135": 1, "138": 1, "142": 1, "145": 1, "148": 1, "152": 1, "175": 1, "191": 1, "195": 1, "206": 1, "209": 1, "222": 1, "214": 6, "215": 1, "216": 1, "217": 1, "218": 1, "219": 1, "220": 1, "221": 1, "224": 1, "227": 1, "235": 1, "242": 1, "248": 1, "252": 1, "261": 1, "269": 1, "100": 0, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0, "108": 0, "111": 0, "114": 0, "115": 0, "116": 0, "118": 0, "119": 0, "121": 0, "124": 0, "127": 0, "130": 0, "133": 0, "136": 0, "139": 0, "140": 0, "143": 0, "146": 0, "149": 0, "150": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "170": 0, "172": 0, "173": 0, "178": 0, "179": 0, "180": 0, "181": 0, "182": 0, "183": 0, "177": 0, "185": 0, "186": 0, "187": 0, "188": 0, "189": 0, "192": 0, "193": 0, "196": 0, "201": 0, "202": 0, "203": 0, "204": 0, "197": 0, "198": 0, "199": 0, "200": 0, "207": 0, "210": 0, "211": 0, "212": 0, "225": 0, "228": 0, "229": 0, "230": 0, "231": 0, "232": 0, "236": 0, "237": 0, "238": 0, "239": 0, "243": 0, "244": 0, "245": 0, "249": 0, "250": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "258": 0, "259": 0, "262": 0, "263": 0, "264": 0, "265": 0, "267": 0, "270": 0, "301": 0, "318": 1, "320": 2, "321": 1, "322": 29, "325": 1, "335": 1, "342": 1, "348": 1, "352": 1, "331": 0, "332": 0, "336": 0, "337": 0, "338": 0, "339": 0, "340": 0, "343": 0, "344": 0, "345": 0, "346": 0, "349": 0, "350": 0, "353": 0, "354": 0, "383": 1, "385": 2, "386": 1, "387": 28, "389": 4, "392": 1, "399": 1, "403": 1, "416": 1, "426": 1, "443": 1, "450": 1, "457": 1, "464": 1, "467": 1, "470": 1, "476": 1, "479": 1, "482": 1, "486": 1, "489": 1, "492": 1, "396": 0, "397": 0, "401": 0, "406": 0, "407": 0, "408": 0, "409": 0, "410": 0, "412": 0, "413": 0, "414": 0, "418": 0, "419": 0, "424": 0, "429": 0, "430": 0, "431": 0, "432": 0, "433": 0, "434": 0, "428": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "448": 0, "455": 0, "462": 0, "465": 0, "468": 0, "471": 0, "472": 0, "474": 0, "477": 0, "480": 0, "483": 0, "484": 0, "487": 0, "490": 0, "493": 0, "494": 0, "495": 0, "496": 0, "518": 2, "519": 1, "520": 6, "522": 3, "524": 1, "536": 1, "525": 0, "526": 0, "527": 0, "528": 0, "529": 0, "531": 0, "532": 0, "533": 0, "548": 32, "549": 1, "550": 1, "553": 1, "554": 0, "555": 0, "556": 0}}
++ git checkout 9cbea134220b0b951587e11b63e2c832c7246cbc
+Note: switching to '9cbea134220b0b951587e11b63e2c832c7246cbc'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 9cbea13422 Merge pull request #14971 from cbm755/rf_ff_hiprec_fix
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,491 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 22623bd8c265b78b161542663ee980738441c307
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	build/
+
+nothing added to commit but untracked files present (use "git add" to track)
++ git show
+commit 22623bd8c265b78b161542663ee980738441c307
+Merge: beec48c8 ab2e7df8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jan 24 10:00:24 2013 -0800
+
+    Merge pull request #1099 from sprt/master
+    
+    Make hooks work with prepared requests
+
++ git diff 22623bd8c265b78b161542663ee980738441c307
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install .
+Processing /testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: requests
+  DEPRECATION: Building 'requests' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'requests'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+  Building wheel for requests (setup.py): started
+  Building wheel for requests (setup.py): finished with status 'done'
+  Created wheel for requests: filename=requests-1.1.0-py3-none-any.whl size=362769 sha256=2c3cfffb8540e08aa5cbfdfe0cef450ecaf614e8aecf07a5d325c5b308b5383e
+  Stored in directory: /tmp/pip-ephem-wheel-cache-nqoc3p24/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built requests
+Installing collected packages: requests
+  Attempting uninstall: requests
+    Found existing installation: requests 1.1.0
+    Uninstalling requests-1.1.0:
+      Successfully uninstalled requests-1.1.0
+Successfully installed requests-1.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch test_coverup_psf__requests-1142.py...
+<stdin>:40: new blank line at EOF.
++
+Applied patch test_coverup_psf__requests-1142.py cleanly.
+warning: 1 line adds whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(requests/models\.py)' -m pytest --no-header -rA -p no:cacheprovider test_coverup_psf__requests-1142.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(requests/models\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+test_coverup_psf__requests-1142.py 0.24 models.py(266):         return '<PreparedRequest [%s]>' % (self.method)
+F                                     [100%]
+
+=================================== FAILURES ===================================
+___________ test_get_request_does_not_include_content_length_header ____________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fb8edc00ca0>
+
+    def test_get_request_does_not_include_content_length_header(monkeypatch):
+        # Mock the adapter's send method to capture the prepared request
+        class MockAdapter:
+            def send(self, request, **kwargs):
+                # Assert that the 'Content-Length' header is NOT present, which is the correct behavior
+                assert 'Content-Length' not in request.headers
+                # Return a mock response object
+                class MockResponse:
+                    status_code = 503  # Simulate the server returning a 503 error due to 'Content-Length'
+                    headers = request.headers
+                    cookies = {}
+                return MockResponse()
+    
+        # Mock the get_adapter method to return the mock adapter
+        def mock_get_adapter(self, url):
+            return MockAdapter()
+    
+        # Use monkeypatch to replace the get_adapter method with the mock_get_adapter
+        monkeypatch.setattr(Session, 'get_adapter', mock_get_adapter)
+    
+        # Create a session and send a GET request
+        session = Session()
+>       response = session.get('http://example.com')
+
+test_coverup_psf__requests-1142.py:27: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+requests/sessions.py:308: in get
+    return self.request('GET', url, **kwargs)
+requests/sessions.py:280: in request
+    resp = self.send(prep, stream=stream, timeout=timeout, verify=verify, cert=cert, proxies=proxies)
+requests/sessions.py:373: in send
+    r = adapter.send(request, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <test_coverup_psf__requests-1142.test_get_request_does_not_include_content_length_header.<locals>.MockAdapter object at 0x7fb8edc2e340>
+request = <PreparedRequest [GET]>
+kwargs = {'cert': None, 'proxies': OrderedDict(), 'stream': False, 'timeout': None, ...}
+@py_assert0 = 'Content-Length'
+@py_assert4 = {'User-Agent': 'python-requests/1.1.0 CPython/3.9.23 Linux/5.15.0-139-generic', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'Content-Length': '0'}
+@py_assert2 = False
+@py_format6 = "'Content-Length' not in {'User-Agent': 'python-requests/1.1.0 CPython/3.9.23 Linux/5.15.0-139-generic', 'Accept-Encod...ept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'Content-Length': '0'} = <PreparedRequest [GET]>.headers\n}"
+@py_format8 = "assert 'Content-Length' not in {'User-Agent': 'python-requests/1.1.0 CPython/3.9.23 Linux/5.15.0-139-generic', 'Accep...ept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'Content-Length': '0'} = <PreparedRequest [GET]>.headers\n}"
+
+    def send(self, request, **kwargs):
+        # Assert that the 'Content-Length' header is NOT present, which is the correct behavior
+>       assert 'Content-Length' not in request.headers
+E       AssertionError: assert 'Content-Length' not in {'User-Agent': 'python-requests/1.1.0 CPython/3.9.23 Linux/5.15.0-139-generic', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'Content-Length': '0'}
+E        +  where {'User-Agent': 'python-requests/1.1.0 CPython/3.9.23 Linux/5.15.0-139-generic', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'Content-Length': '0'} = <PreparedRequest [GET]>.headers
+
+test_coverup_psf__requests-1142.py:10: AssertionError
+----------------------------- Captured stdout call -----------------------------
+0.18 models.py(193):         data = [] if data is None else data
+0.18 models.py(194):         files = [] if files is None else files
+0.18 models.py(195):         headers = {} if headers is None else headers
+0.18 models.py(196):         params = {} if params is None else params
+0.18 models.py(197):         hooks = {} if hooks is None else hooks
+0.18 models.py(199):         self.hooks = default_hooks()
+0.18 models.py(200):         for (k, v) in list(hooks.items()):
+0.18 models.py(203):         self.method = method
+0.18 models.py(204):         self.url = url
+0.18 models.py(205):         self.headers = headers
+0.18 models.py(206):         self.files = files
+0.18 models.py(207):         self.data = data
+0.18 models.py(208):         self.params = params
+0.18 models.py(209):         self.auth = auth
+0.18 models.py(210):         self.cookies = cookies
+0.18 models.py(211):         self.hooks = hooks
+0.18 models.py(218):         p = PreparedRequest()
+0.18 models.py(255):         self.method = None
+0.18 models.py(257):         self.url = None
+0.18 models.py(259):         self.headers = None
+0.18 models.py(261):         self.body = None
+0.18 models.py(263):         self.hooks = default_hooks()
+0.18 models.py(220):         p.prepare_method(self.method)
+0.18 models.py(270):         self.method = method
+0.18 models.py(271):         if self.method is not None:
+0.18 models.py(272):             self.method = self.method.upper()
+0.18 models.py(221):         p.prepare_url(self.url, self.params)
+0.18 models.py(277):         try:
+0.18 models.py(278):             url = unicode(url)
+0.18 models.py(279):         except NameError:
+0.18 models.py(281):             url = str(url)
+0.18 models.py(286):         scheme, netloc, path, _params, query, fragment = urlparse(url)
+0.18 models.py(288):         if not (scheme and netloc):
+0.18 models.py(291):         try:
+0.18 models.py(292):             netloc = netloc.encode('idna').decode('utf-8')
+0.18 models.py(297):         if not path:
+0.18 models.py(298):             path = '/'
+0.18 models.py(300):         if is_py2:
+0.18 models.py(314):         enc_params = self._encode_params(params)
+0.18 models.py(68):         if isinstance(data, (str, bytes)):
+0.18 models.py(70):         elif hasattr(data, 'read'):
+0.18 models.py(72):         elif hasattr(data, '__iter__'):
+0.18 models.py(73):             result = []
+0.18 models.py(74):             for k, vs in to_key_val_list(data):
+0.18 models.py(82):             return urlencode(result, doseq=True)
+0.18 models.py(315):         if enc_params:
+0.18 models.py(321):         url = requote_uri(urlunparse([scheme, netloc, path, _params, query, fragment]))
+0.18 models.py(322):         self.url = url
+0.18 models.py(222):         p.prepare_headers(self.headers)
+0.18 models.py(327):         if headers:
+0.18 models.py(328):             self.headers = CaseInsensitiveDict(headers)
+0.18 models.py(223):         p.prepare_cookies(self.cookies)
+0.18 models.py(416):         if isinstance(cookies, cookielib.CookieJar):
+0.18 models.py(417):             cookies = cookies
+0.18 models.py(421):         if 'cookie' not in self.headers:
+0.18 models.py(422):             cookie_header = get_cookie_header(cookies, self)
+0.18 models.py(423):             if cookie_header is not None:
+0.18 models.py(224):         p.prepare_body(self.data, self.files)
+0.18 models.py(339):         body = None
+0.18 models.py(340):         content_type = None
+0.18 models.py(341):         length = None
+0.18 models.py(342):         is_stream = False
+0.18 models.py(344):         is_stream = all([
+0.18 models.py(345):             hasattr(data, '__iter__'),
+0.18 models.py(346):             not isinstance(data, basestring),
+0.18 models.py(347):             not isinstance(data, dict)
+0.18 models.py(344):         is_stream = all([
+0.18 models.py(350):         try:
+0.18 models.py(351):             length = str(super_len(data))
+0.18 models.py(355):         if is_stream:
+0.18 models.py(370):             if files:
+0.18 models.py(373):                 if data:
+0.18 models.py(380):             self.prepare_content_length(body)
+0.18 models.py(389):         self.headers['Content-Length'] = '0'
+0.18 models.py(390):         if hasattr(body, 'seek') and hasattr(body, 'tell'):
+0.18 models.py(394):         elif body is not None:
+0.18 models.py(383):             if (content_type) and (not 'content-type' in self.headers):
+0.18 models.py(386):         self.body = body
+0.18 models.py(227):         p.prepare_auth(self.auth)
+0.18 models.py(399):         if auth:
+0.18 models.py(229):         p.prepare_hooks(self.hooks)
+0.18 models.py(428):         for event in hooks:
+0.18 models.py(429):             self.register_hook(event, hooks[event])
+0.18 models.py(140):         if isinstance(hook, collections.Callable):
+0.18 models.py(142):         elif hasattr(hook, '__iter__'):
+0.18 models.py(143):             self.hooks[event].extend(h for h in hook if isinstance(h, collections.Callable))
+0.18 models.py(143):             self.hooks[event].extend(h for h in hook if isinstance(h, collections.Callable))
+0.18 models.py(428):         for event in hooks:
+0.18 models.py(231):         return p
+0.18 models.py(266):         return '<PreparedRequest [%s]>' % (self.method)
+=============================== warnings summary ===============================
+requests/packages/urllib3/_collections.py:7
+  /testbed/requests/packages/urllib3/_collections.py:7: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+    from collections import MutableMapping
+
+test_coverup_psf__requests-1142.py::test_get_request_does_not_include_content_length_header
+  /testbed/requests/models.py:140: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+    if isinstance(hook, collections.Callable):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED test_coverup_psf__requests-1142.py::test_get_request_does_not_include_content_length_header
+======================== 1 failed, 2 warnings in 0.13s =========================
+/testbed/requests/models.py:560: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if self.status_code is 0:
++ cat coverage.cover
+{"/testbed/requests/models.py": {"3": 1, "10": 1, "11": 1, "13": 1, "14": 1, "15": 1, "16": 1, "18": 1, "19": 1, "20": 1, "21": 1, "22": 1, "26": 1, "30": 1, "31": 1, "32": 1, "34": 1, "37": 2, "136": 2, "157": 2, "234": 2, "432": 2, "38": 1, "39": 1, "59": 1, "60": 1, "86": 1, "87": 1, "42": 0, "44": 0, "46": 0, "47": 0, "48": 0, "50": 0, "52": 0, "53": 0, "54": 0, "55": 0, "57": 0, "68": 1, "69": 0, "70": 1, "71": 0, "72": 1, "73": 1, "74": 1, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0, "80": 0, "81": 0, "82": 1, "84": 0, "95": 0, "96": 0, "98": 0, "99": 0, "100": 0, "102": 0, "103": 0, "104": 0, "105": 0, "107": 0, "109": 0, "111": 0, "112": 0, "113": 0, "114": 0, "116": 0, "118": 0, "119": 0, "120": 0, "121": 0, "122": 0, "123": 0, "125": 0, "126": 0, "128": 0, "129": 0, "131": 0, "133": 0, "137": 1, "145": 1, "140": 1, "141": 0, "142": 1, "143": 2, "150": 0, "151": 0, "152": 0, "153": 0, "154": 0, "181": 1, "182": 1, "183": 1, "184": 1, "185": 1, "186": 1, "187": 1, "188": 1, "189": 1, "180": 1, "213": 1, "216": 1, "193": 1, "194": 1, "195": 1, "196": 1, "197": 1, "199": 1, "200": 1, "201": 0, "203": 1, "204": 1, "205": 1, "206": 1, "207": 1, "208": 1, "209": 1, "210": 1, "211": 1, "214": 0, "218": 1, "220": 1, "221": 1, "222": 1, "223": 1, "224": 1, "227": 1, "229": 1, "231": 1, "253": 1, "265": 1, "268": 1, "274": 1, "324": 1, "332": 1, "388": 1, "397": 1, "413": 1, "426": 1, "255": 1, "257": 1, "259": 1, "261": 1, "263": 1, "266": 2, "270": 1, "271": 1, "272": 1, "277": 1, "278": 1, "279": 1, "281": 1, "282": 0, "283": 0, "286": 1, "288": 1, "289": 0, "291": 1, "292": 1, "293": 0, "294": 0, "297": 1, "298": 1, "300": 1, "301": 0, "302": 0, "303": 0, "304": 0, "305": 0, "306": 0, "307": 0, "308": 0, "309": 0, "310": 0, "311": 0, "312": 0, "314": 1, "315": 1, "316": 0, "317": 0, "319": 0, "321": 1, "322": 1, "327": 1, "328": 1, "330": 0, "339": 1, "340": 1, "341": 1, "342": 1, "344": 2, "345": 1, "346": 1, "347": 1, "350": 1, "351": 1, "352": 0, "353": 0, "355": 1, "356": 0, "358": 0, "359": 0, "361": 0, "362": 0, "364": 0, "370": 1, "371": 0, "373": 1, "374": 0, "375": 0, "376": 0, "378": 0, "380": 1, "383": 1, "384": 0, "386": 1, "389": 1, "390": 1, "391": 0, "392": 0, "393": 0, "394": 1, "395": 0, "399": 1, "400": 0, "402": 0, "405": 0, "408": 0, "411": 0, "416": 1, "417": 1, "419": 0, "421": 1, "422": 1, "423": 1, "424": 0, "428": 2, "429": 1, "437": 1, "472": 1, "475": 1, "479": 1, "483": 1, "484": 1, "491": 1, "492": 1, "497": 1, "522": 1, "549": 1, "550": 1, "573": 1, "574": 1, "606": 1, "622": 1, "623": 1, "640": 1, "656": 1, "438": 0, "440": 0, "441": 0, "444": 0, "449": 0, "454": 0, "457": 0, "460": 0, "465": 0, "467": 0, "470": 0, "473": 0, "477": 0, "481": 0, "485": 0, "486": 0, "487": 0, "488": 0, "489": 0, "495": 0, "503": 0, "505": 0, "507": 0, "515": 0, "517": 0, "518": 0, "520": 0, "509": 0, "510": 0, "511": 0, "512": 0, "513": 0, "528": 0, "530": 0, "531": 0, "532": 0, "534": 0, "535": 0, "536": 0, "538": 0, "539": 0, "541": 0, "543": 0, "544": 0, "546": 0, "547": 0, "553": 0, "555": 0, "556": 0, "557": 0, "558": 0, "560": 0, "561": 0, "563": 0, "565": 0, "566": 0, "568": 0, "571": 0, "582": 0, "583": 0, "585": 0, "586": 0, "589": 0, "590": 0, "593": 0, "594": 0, "595": 0, "602": 0, "604": 0, "612": 0, "617": 0, "618": 0, "619": 0, "620": 0, "626": 0, "629": 0, "631": 0, "632": 0, "634": 0, "635": 0, "636": 0, "638": 0, "643": 0, "645": 0, "646": 0, "648": 0, "649": 0, "651": 0, "652": 0, "653": 0, "654": 0, "657": 0}}
++ git checkout 22623bd8c265b78b161542663ee980738441c307
+Note: switching to '22623bd8c265b78b161542663ee980738441c307'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 22623bd8 Merge pull request #1099 from sprt/master
++ git apply /root/pre_state.patch
+error: unrecognized input

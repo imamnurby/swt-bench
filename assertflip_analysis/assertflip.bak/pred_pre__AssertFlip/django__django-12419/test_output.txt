@@ -1,0 +1,706 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 7fa1a93c6c8109010a6ff3f604fda83b604e0e97
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 7fa1a93c6c8109010a6ff3f604fda83b604e0e97
+Author: Mariusz Felisiak <felisiak.mariusz@gmail.com>
+Date:   Wed Feb 5 14:31:30 2020 +0100
+
+    Refs #28214 -- Added test for escaping JSONField key lookups.
+    
+    Thanks mrsanders for the report.
+    
+    Fixed in 7deeabc7c7526786df6894429ce89a9c4b614086.
+
+diff --git a/tests/postgres_tests/test_json.py b/tests/postgres_tests/test_json.py
+index 0ffa05f981..2ff765e918 100644
+--- a/tests/postgres_tests/test_json.py
++++ b/tests/postgres_tests/test_json.py
+@@ -411,6 +411,10 @@ class TestQuerying(PostgreSQLTestCase):
+                     **{lookup: value},
+                 ).exists())
+ 
++    def test_key_escape(self):
++        obj = JSONModel.objects.create(field={'%total': 10})
++        self.assertEqual(JSONModel.objects.filter(**{'field__%total': 10}).get(), obj)
++
+ 
+ @isolate_apps('postgres_tests')
+ class TestChecks(PostgreSQLSimpleTestCase):
++ git diff 7fa1a93c6c8109010a6ff3f604fda83b604e0e97
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: asgiref>=3.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (3.4.1)
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (2025.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (0.4.4)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref>=3.2->Django==3.1) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.1
+    Uninstalling Django-3.1:
+      Successfully uninstalled Django-3.1
+  Running setup.py develop for Django
+Successfully installed Django-3.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch tests/test_coverup_django__django-12419.py...
+Applied patch tests/test_coverup_django__django-12419.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/conf/global_settings\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-12419
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/conf/global_settings\\.py)']
+0.04 global_settings.py(4): """
+0.04 global_settings.py(9): def gettext_noop(s):
+0.04 global_settings.py(17): DEBUG = False
+0.04 global_settings.py(22): DEBUG_PROPAGATE_EXCEPTIONS = False
+0.04 global_settings.py(26): ADMINS = []
+0.04 global_settings.py(31): INTERNAL_IPS = []
+0.04 global_settings.py(35): ALLOWED_HOSTS = []
+0.04 global_settings.py(41): TIME_ZONE = 'America/Chicago'
+0.04 global_settings.py(44): USE_TZ = False
+0.04 global_settings.py(48): LANGUAGE_CODE = 'en-us'
+0.04 global_settings.py(52):     ('af', gettext_noop('Afrikaans')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(53):     ('ar', gettext_noop('Arabic')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(54):     ('ar-dz', gettext_noop('Algerian Arabic')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(55):     ('ast', gettext_noop('Asturian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(56):     ('az', gettext_noop('Azerbaijani')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(57):     ('bg', gettext_noop('Bulgarian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(58):     ('be', gettext_noop('Belarusian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(59):     ('bn', gettext_noop('Bengali')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(60):     ('br', gettext_noop('Breton')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(61):     ('bs', gettext_noop('Bosnian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(62):     ('ca', gettext_noop('Catalan')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(63):     ('cs', gettext_noop('Czech')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(64):     ('cy', gettext_noop('Welsh')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(65):     ('da', gettext_noop('Danish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(66):     ('de', gettext_noop('German')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(67):     ('dsb', gettext_noop('Lower Sorbian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(68):     ('el', gettext_noop('Greek')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(69):     ('en', gettext_noop('English')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(70):     ('en-au', gettext_noop('Australian English')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(71):     ('en-gb', gettext_noop('British English')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(72):     ('eo', gettext_noop('Esperanto')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(73):     ('es', gettext_noop('Spanish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(74):     ('es-ar', gettext_noop('Argentinian Spanish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(75):     ('es-co', gettext_noop('Colombian Spanish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(76):     ('es-mx', gettext_noop('Mexican Spanish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(77):     ('es-ni', gettext_noop('Nicaraguan Spanish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(78):     ('es-ve', gettext_noop('Venezuelan Spanish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(79):     ('et', gettext_noop('Estonian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(80):     ('eu', gettext_noop('Basque')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(81):     ('fa', gettext_noop('Persian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(82):     ('fi', gettext_noop('Finnish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(83):     ('fr', gettext_noop('French')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(84):     ('fy', gettext_noop('Frisian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(85):     ('ga', gettext_noop('Irish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(86):     ('gd', gettext_noop('Scottish Gaelic')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(87):     ('gl', gettext_noop('Galician')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(88):     ('he', gettext_noop('Hebrew')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(89):     ('hi', gettext_noop('Hindi')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(90):     ('hr', gettext_noop('Croatian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(91):     ('hsb', gettext_noop('Upper Sorbian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(92):     ('hu', gettext_noop('Hungarian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(93):     ('hy', gettext_noop('Armenian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(94):     ('ia', gettext_noop('Interlingua')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(95):     ('id', gettext_noop('Indonesian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(96):     ('io', gettext_noop('Ido')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(97):     ('is', gettext_noop('Icelandic')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(98):     ('it', gettext_noop('Italian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(99):     ('ja', gettext_noop('Japanese')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(100):     ('ka', gettext_noop('Georgian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(101):     ('kab', gettext_noop('Kabyle')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(102):     ('kk', gettext_noop('Kazakh')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(103):     ('km', gettext_noop('Khmer')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(104):     ('kn', gettext_noop('Kannada')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(105):     ('ko', gettext_noop('Korean')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(106):     ('lb', gettext_noop('Luxembourgish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(107):     ('lt', gettext_noop('Lithuanian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(108):     ('lv', gettext_noop('Latvian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(109):     ('mk', gettext_noop('Macedonian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(110):     ('ml', gettext_noop('Malayalam')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(111):     ('mn', gettext_noop('Mongolian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(112):     ('mr', gettext_noop('Marathi')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(113):     ('my', gettext_noop('Burmese')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(114):     ('nb', gettext_noop('Norwegian Bokmål')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(115):     ('ne', gettext_noop('Nepali')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(116):     ('nl', gettext_noop('Dutch')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(117):     ('nn', gettext_noop('Norwegian Nynorsk')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(118):     ('os', gettext_noop('Ossetic')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(119):     ('pa', gettext_noop('Punjabi')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(120):     ('pl', gettext_noop('Polish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(121):     ('pt', gettext_noop('Portuguese')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(122):     ('pt-br', gettext_noop('Brazilian Portuguese')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(123):     ('ro', gettext_noop('Romanian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(124):     ('ru', gettext_noop('Russian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(125):     ('sk', gettext_noop('Slovak')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(126):     ('sl', gettext_noop('Slovenian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(127):     ('sq', gettext_noop('Albanian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(128):     ('sr', gettext_noop('Serbian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(129):     ('sr-latn', gettext_noop('Serbian Latin')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(130):     ('sv', gettext_noop('Swedish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(131):     ('sw', gettext_noop('Swahili')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(132):     ('ta', gettext_noop('Tamil')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(133):     ('te', gettext_noop('Telugu')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(134):     ('th', gettext_noop('Thai')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(135):     ('tr', gettext_noop('Turkish')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(136):     ('tt', gettext_noop('Tatar')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(137):     ('udm', gettext_noop('Udmurt')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(138):     ('uk', gettext_noop('Ukrainian')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(139):     ('ur', gettext_noop('Urdu')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(140):     ('uz', gettext_noop('Uzbek')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(141):     ('vi', gettext_noop('Vietnamese')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(142):     ('zh-hans', gettext_noop('Simplified Chinese')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(143):     ('zh-hant', gettext_noop('Traditional Chinese')),
+0.04 global_settings.py(10):     return s
+0.04 global_settings.py(147): LANGUAGES_BIDI = ["he", "ar", "ar-dz", "fa", "ur"]
+0.04 global_settings.py(151): USE_I18N = True
+0.04 global_settings.py(152): LOCALE_PATHS = []
+0.04 global_settings.py(155): LANGUAGE_COOKIE_NAME = 'django_language'
+0.04 global_settings.py(156): LANGUAGE_COOKIE_AGE = None
+0.04 global_settings.py(157): LANGUAGE_COOKIE_DOMAIN = None
+0.04 global_settings.py(158): LANGUAGE_COOKIE_PATH = '/'
+0.04 global_settings.py(159): LANGUAGE_COOKIE_SECURE = False
+0.04 global_settings.py(160): LANGUAGE_COOKIE_HTTPONLY = False
+0.04 global_settings.py(161): LANGUAGE_COOKIE_SAMESITE = None
+0.04 global_settings.py(166): USE_L10N = False
+0.04 global_settings.py(170): MANAGERS = ADMINS
+0.04 global_settings.py(174): DEFAULT_CHARSET = 'utf-8'
+0.04 global_settings.py(177): SERVER_EMAIL = 'root@localhost'
+0.04 global_settings.py(180): DATABASES = {}
+0.04 global_settings.py(183): DATABASE_ROUTERS = []
+0.04 global_settings.py(189): EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+0.04 global_settings.py(192): EMAIL_HOST = 'localhost'
+0.04 global_settings.py(195): EMAIL_PORT = 25
+0.04 global_settings.py(198): EMAIL_USE_LOCALTIME = False
+0.04 global_settings.py(201): EMAIL_HOST_USER = ''
+0.04 global_settings.py(202): EMAIL_HOST_PASSWORD = ''
+0.04 global_settings.py(203): EMAIL_USE_TLS = False
+0.04 global_settings.py(204): EMAIL_USE_SSL = False
+0.04 global_settings.py(205): EMAIL_SSL_CERTFILE = None
+0.04 global_settings.py(206): EMAIL_SSL_KEYFILE = None
+0.04 global_settings.py(207): EMAIL_TIMEOUT = None
+0.04 global_settings.py(210): INSTALLED_APPS = []
+0.04 global_settings.py(212): TEMPLATES = []
+0.04 global_settings.py(215): FORM_RENDERER = 'django.forms.renderers.DjangoTemplates'
+0.04 global_settings.py(219): DEFAULT_FROM_EMAIL = 'webmaster@localhost'
+0.04 global_settings.py(223): EMAIL_SUBJECT_PREFIX = '[Django] '
+0.04 global_settings.py(226): APPEND_SLASH = True
+0.04 global_settings.py(229): PREPEND_WWW = False
+0.04 global_settings.py(232): FORCE_SCRIPT_NAME = None
+0.04 global_settings.py(244): DISALLOWED_USER_AGENTS = []
+0.04 global_settings.py(246): ABSOLUTE_URL_OVERRIDES = {}
+0.04 global_settings.py(258): IGNORABLE_404_URLS = []
+0.04 global_settings.py(263): SECRET_KEY = ''
+0.04 global_settings.py(266): DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
+0.04 global_settings.py(270): MEDIA_ROOT = ''
+0.04 global_settings.py(274): MEDIA_URL = ''
+0.04 global_settings.py(278): STATIC_ROOT = None
+0.04 global_settings.py(282): STATIC_URL = None
+0.04 global_settings.py(286):     'django.core.files.uploadhandler.MemoryFileUploadHandler',
+0.04 global_settings.py(287):     'django.core.files.uploadhandler.TemporaryFileUploadHandler',
+0.04 global_settings.py(292): FILE_UPLOAD_MAX_MEMORY_SIZE = 2621440  # i.e. 2.5 MB
+0.04 global_settings.py(296): DATA_UPLOAD_MAX_MEMORY_SIZE = 2621440  # i.e. 2.5 MB
+0.04 global_settings.py(300): DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000
+0.04 global_settings.py(305): FILE_UPLOAD_TEMP_DIR = None
+0.04 global_settings.py(309): FILE_UPLOAD_PERMISSIONS = 0o644
+0.04 global_settings.py(314): FILE_UPLOAD_DIRECTORY_PERMISSIONS = None
+0.04 global_settings.py(320): FORMAT_MODULE_PATH = None
+0.04 global_settings.py(324): DATE_FORMAT = 'N j, Y'
+0.04 global_settings.py(328): DATETIME_FORMAT = 'N j, Y, P'
+0.04 global_settings.py(332): TIME_FORMAT = 'P'
+0.04 global_settings.py(337): YEAR_MONTH_FORMAT = 'F Y'
+0.04 global_settings.py(342): MONTH_DAY_FORMAT = 'F j'
+0.04 global_settings.py(346): SHORT_DATE_FORMAT = 'm/d/Y'
+0.04 global_settings.py(351): SHORT_DATETIME_FORMAT = 'm/d/Y P'
+0.04 global_settings.py(358):     '%Y-%m-%d', '%m/%d/%Y', '%m/%d/%y',  # '2006-10-25', '10/25/2006', '10/25/06'
+0.04 global_settings.py(359):     '%b %d %Y', '%b %d, %Y',             # 'Oct 25 2006', 'Oct 25, 2006'
+0.04 global_settings.py(360):     '%d %b %Y', '%d %b, %Y',             # '25 Oct 2006', '25 Oct, 2006'
+0.04 global_settings.py(361):     '%B %d %Y', '%B %d, %Y',             # 'October 25 2006', 'October 25, 2006'
+0.04 global_settings.py(362):     '%d %B %Y', '%d %B, %Y',             # '25 October 2006', '25 October, 2006'
+0.04 global_settings.py(370):     '%H:%M:%S',     # '14:30:59'
+0.04 global_settings.py(371):     '%H:%M:%S.%f',  # '14:30:59.000200'
+0.04 global_settings.py(372):     '%H:%M',        # '14:30'
+0.04 global_settings.py(381):     '%Y-%m-%d %H:%M:%S',     # '2006-10-25 14:30:59'
+0.04 global_settings.py(382):     '%Y-%m-%d %H:%M:%S.%f',  # '2006-10-25 14:30:59.000200'
+0.04 global_settings.py(383):     '%Y-%m-%d %H:%M',        # '2006-10-25 14:30'
+0.04 global_settings.py(384):     '%m/%d/%Y %H:%M:%S',     # '10/25/2006 14:30:59'
+0.04 global_settings.py(385):     '%m/%d/%Y %H:%M:%S.%f',  # '10/25/2006 14:30:59.000200'
+0.04 global_settings.py(386):     '%m/%d/%Y %H:%M',        # '10/25/2006 14:30'
+0.04 global_settings.py(387):     '%m/%d/%y %H:%M:%S',     # '10/25/06 14:30:59'
+0.04 global_settings.py(388):     '%m/%d/%y %H:%M:%S.%f',  # '10/25/06 14:30:59.000200'
+0.04 global_settings.py(389):     '%m/%d/%y %H:%M',        # '10/25/06 14:30'
+0.04 global_settings.py(394): FIRST_DAY_OF_WEEK = 0
+0.04 global_settings.py(397): DECIMAL_SEPARATOR = '.'
+0.04 global_settings.py(400): USE_THOUSAND_SEPARATOR = False
+0.04 global_settings.py(404): NUMBER_GROUPING = 0
+0.04 global_settings.py(407): THOUSAND_SEPARATOR = ','
+0.04 global_settings.py(410): DEFAULT_TABLESPACE = ''
+0.04 global_settings.py(411): DEFAULT_INDEX_TABLESPACE = ''
+0.04 global_settings.py(414): X_FRAME_OPTIONS = 'DENY'
+0.04 global_settings.py(416): USE_X_FORWARDED_HOST = False
+0.04 global_settings.py(417): USE_X_FORWARDED_PORT = False
+test_default_referrer_policy (test_coverup_django__django-12419.SecurityMiddlewareReferrerPolicyTest) ... FAIL
+
+======================================================================
+FAIL: test_default_referrer_policy (test_coverup_django__django-12419.SecurityMiddlewareReferrerPolicyTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-12419.py", line 22, in test_default_referrer_policy
+    self.assertEqual(response.get('Referrer-Policy'), 'same-origin')
+AssertionError: None != 'same-origin'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+0.04 global_settings.py(424): WSGI_APPLICATION = None
+0.04 global_settings.py(433): SECURE_PROXY_SSL_HEADER = None
+0.04 global_settings.py(442): MIDDLEWARE = []
+0.04 global_settings.py(449): SESSION_CACHE_ALIAS = 'default'
+0.04 global_settings.py(451): SESSION_COOKIE_NAME = 'sessionid'
+0.04 global_settings.py(453): SESSION_COOKIE_AGE = 60 * 60 * 24 * 7 * 2
+0.04 global_settings.py(455): SESSION_COOKIE_DOMAIN = None
+0.04 global_settings.py(457): SESSION_COOKIE_SECURE = False
+0.04 global_settings.py(459): SESSION_COOKIE_PATH = '/'
+0.04 global_settings.py(461): SESSION_COOKIE_HTTPONLY = True
+0.04 global_settings.py(464): SESSION_COOKIE_SAMESITE = 'Lax'
+0.04 global_settings.py(466): SESSION_SAVE_EVERY_REQUEST = False
+0.04 global_settings.py(468): SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+0.04 global_settings.py(470): SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+0.04 global_settings.py(473): SESSION_FILE_PATH = None
+0.04 global_settings.py(475): SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+0.04 global_settings.py(483):     'default': {
+0.04 global_settings.py(484):         'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+0.04 global_settings.py(487): CACHE_MIDDLEWARE_KEY_PREFIX = ''
+0.04 global_settings.py(488): CACHE_MIDDLEWARE_SECONDS = 600
+0.04 global_settings.py(489): CACHE_MIDDLEWARE_ALIAS = 'default'
+0.04 global_settings.py(495): AUTH_USER_MODEL = 'auth.User'
+0.04 global_settings.py(497): AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend']
+0.04 global_settings.py(499): LOGIN_URL = '/accounts/login/'
+0.04 global_settings.py(501): LOGIN_REDIRECT_URL = '/accounts/profile/'
+0.04 global_settings.py(503): LOGOUT_REDIRECT_URL = None
+0.04 global_settings.py(506): PASSWORD_RESET_TIMEOUT_DAYS = 3
+0.04 global_settings.py(510): PASSWORD_RESET_TIMEOUT = 60 * 60 * 24 * 3
+0.04 global_settings.py(516):     'django.contrib.auth.hashers.PBKDF2PasswordHasher',
+0.04 global_settings.py(517):     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
+0.04 global_settings.py(518):     'django.contrib.auth.hashers.Argon2PasswordHasher',
+0.04 global_settings.py(519):     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+0.04 global_settings.py(522): AUTH_PASSWORD_VALIDATORS = []
+0.04 global_settings.py(528): SIGNING_BACKEND = 'django.core.signing.TimestampSigner'
+0.04 global_settings.py(536): CSRF_FAILURE_VIEW = 'django.views.csrf.csrf_failure'
+0.04 global_settings.py(539): CSRF_COOKIE_NAME = 'csrftoken'
+0.04 global_settings.py(540): CSRF_COOKIE_AGE = 60 * 60 * 24 * 7 * 52
+0.04 global_settings.py(541): CSRF_COOKIE_DOMAIN = None
+0.04 global_settings.py(542): CSRF_COOKIE_PATH = '/'
+0.04 global_settings.py(543): CSRF_COOKIE_SECURE = False
+0.04 global_settings.py(544): CSRF_COOKIE_HTTPONLY = False
+0.04 global_settings.py(545): CSRF_COOKIE_SAMESITE = 'Lax'
+0.04 global_settings.py(546): CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
+0.04 global_settings.py(547): CSRF_TRUSTED_ORIGINS = []
+0.04 global_settings.py(548): CSRF_USE_SESSIONS = False
+0.04 global_settings.py(555): MESSAGE_STORAGE = 'django.contrib.messages.storage.fallback.FallbackStorage'
+0.04 global_settings.py(565): LOGGING_CONFIG = 'logging.config.dictConfig'
+0.04 global_settings.py(568): LOGGING = {}
+0.04 global_settings.py(572): DEFAULT_EXCEPTION_REPORTER = 'django.views.debug.ExceptionReporter'
+0.04 global_settings.py(576): DEFAULT_EXCEPTION_REPORTER_FILTER = 'django.views.debug.SafeExceptionReporterFilter'
+0.04 global_settings.py(583): TEST_RUNNER = 'django.test.runner.DiscoverRunner'
+0.04 global_settings.py(587): TEST_NON_SERIALIZED_APPS = []
+0.04 global_settings.py(594): FIXTURE_DIRS = []
+0.04 global_settings.py(601): STATICFILES_DIRS = []
+0.04 global_settings.py(604): STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+0.04 global_settings.py(609):     'django.contrib.staticfiles.finders.FileSystemFinder',
+0.04 global_settings.py(610):     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+0.04 global_settings.py(619): MIGRATION_MODULES = {}
+0.04 global_settings.py(629): SILENCED_SYSTEM_CHECKS = []
+0.04 global_settings.py(634): SECURE_BROWSER_XSS_FILTER = False
+0.04 global_settings.py(635): SECURE_CONTENT_TYPE_NOSNIFF = True
+0.04 global_settings.py(636): SECURE_HSTS_INCLUDE_SUBDOMAINS = False
+0.04 global_settings.py(637): SECURE_HSTS_PRELOAD = False
+0.04 global_settings.py(638): SECURE_HSTS_SECONDS = 0
+0.04 global_settings.py(639): SECURE_REDIRECT_EXEMPT = []
+0.04 global_settings.py(640): SECURE_REFERRER_POLICY = None
+0.04 global_settings.py(641): SECURE_SSL_HOST = None
+0.04 global_settings.py(642): SECURE_SSL_REDIRECT = False
+Testing against Django installed in '/testbed/django'
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
++ cat coverage.cover
+{"/testbed/django/conf/global_settings.py": {"9": 1, "17": 1, "22": 1, "26": 1, "31": 1, "35": 1, "41": 1, "44": 1, "48": 1, "52": 1, "53": 1, "54": 1, "55": 1, "56": 1, "57": 1, "58": 1, "59": 1, "60": 1, "61": 1, "62": 1, "63": 1, "64": 1, "65": 1, "66": 1, "67": 1, "68": 1, "69": 1, "70": 1, "71": 1, "72": 1, "73": 1, "74": 1, "75": 1, "76": 1, "77": 1, "78": 1, "79": 1, "80": 1, "81": 1, "82": 1, "83": 1, "84": 1, "85": 1, "86": 1, "87": 1, "88": 1, "89": 1, "90": 1, "91": 1, "92": 1, "93": 1, "94": 1, "95": 1, "96": 1, "97": 1, "98": 1, "99": 1, "100": 1, "101": 1, "102": 1, "103": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "110": 1, "111": 1, "112": 1, "113": 1, "114": 1, "115": 1, "116": 1, "117": 1, "118": 1, "119": 1, "120": 1, "121": 1, "122": 1, "123": 1, "124": 1, "125": 1, "126": 1, "127": 1, "128": 1, "129": 1, "130": 1, "131": 1, "132": 1, "133": 1, "134": 1, "135": 1, "136": 1, "137": 1, "138": 1, "139": 1, "140": 1, "141": 1, "142": 1, "143": 1, "147": 1, "151": 1, "152": 1, "155": 1, "156": 1, "157": 1, "158": 1, "159": 1, "160": 1, "161": 1, "166": 1, "170": 1, "174": 1, "177": 1, "180": 1, "183": 1, "189": 1, "192": 1, "195": 1, "198": 1, "201": 1, "202": 1, "203": 1, "204": 1, "205": 1, "206": 1, "207": 1, "210": 1, "212": 1, "215": 1, "219": 1, "223": 1, "226": 1, "229": 1, "232": 1, "244": 1, "246": 1, "258": 1, "263": 1, "266": 1, "270": 1, "274": 1, "278": 1, "282": 1, "286": 1, "287": 1, "292": 1, "296": 1, "300": 1, "305": 1, "309": 1, "314": 1, "320": 1, "324": 1, "328": 1, "332": 1, "337": 1, "342": 1, "346": 1, "351": 1, "358": 1, "359": 1, "360": 1, "361": 1, "362": 1, "370": 1, "371": 1, "372": 1, "381": 1, "382": 1, "383": 1, "384": 1, "385": 1, "386": 1, "387": 1, "388": 1, "389": 1, "394": 1, "397": 1, "400": 1, "404": 1, "407": 1, "410": 1, "411": 1, "414": 1, "416": 1, "417": 1, "424": 1, "433": 1, "442": 1, "449": 1, "451": 1, "453": 1, "455": 1, "457": 1, "459": 1, "461": 1, "464": 1, "466": 1, "468": 1, "470": 1, "473": 1, "475": 1, "483": 1, "484": 1, "487": 1, "488": 1, "489": 1, "495": 1, "497": 1, "499": 1, "501": 1, "503": 1, "506": 1, "510": 1, "516": 1, "517": 1, "518": 1, "519": 1, "522": 1, "528": 1, "536": 1, "539": 1, "540": 1, "541": 1, "542": 1, "543": 1, "544": 1, "545": 1, "546": 1, "547": 1, "548": 1, "555": 1, "565": 1, "568": 1, "572": 1, "576": 1, "583": 1, "587": 1, "594": 1, "601": 1, "604": 1, "609": 1, "610": 1, "619": 1, "629": 1, "634": 1, "635": 1, "636": 1, "637": 1, "638": 1, "639": 1, "640": 1, "641": 1, "642": 1, "10": 92}}
++ git checkout 7fa1a93c6c8109010a6ff3f604fda83b604e0e97
+Note: switching to '7fa1a93c6c8109010a6ff3f604fda83b604e0e97'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7fa1a93c6c Refs #28214 -- Added test for escaping JSONField key lookups.
++ git apply /root/pre_state.patch
+error: unrecognized input

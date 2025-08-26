@@ -1,0 +1,453 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD ba80d1e493f21431b4bf729b3e0452cd47eb9566
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit ba80d1e493f21431b4bf729b3e0452cd47eb9566
+Merge: f8e7019fed e3fc1f64ca
+Author: Francesco Bonazzi <franz.bonazzi@gmail.com>
+Date:   Sat Jan 4 22:23:37 2020 +0100
+
+    Merge pull request #18224 from Upabjojr/fix_tensor_index_structure
+    
+    Tensor module: refactory to allow mixing PartialDerivative and TensAdd
+
++ git diff ba80d1e493f21431b4bf729b3e0452cd47eb9566
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.6.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.6.dev0
+    Uninstalling sympy-1.6.dev0:
+      Successfully uninstalled sympy-1.6.dev0
+  DEPRECATION: Legacy editable install of sympy==1.6.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-18199.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-18199.py cleanly.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/ntheory/residue_ntheory\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-18199.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/ntheory/residue_ntheory\\.py)']
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1): from __future__ import print_function, division
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(3): from sympy.core.compatibility import as_int, range
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(4): from sympy.core.function import Function
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(5): from sympy.core.numbers import igcd, igcdex, mod_inverse
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(6): from sympy.core.power import isqrt
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(7): from sympy.core.singleton import S
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(8): from .primetest import isprime
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(9): from .factor_ import factorint, trailing, totient, multiplicity
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(10): from random import randint, Random
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(14): def n_order(a, n):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(57): def _primitive_root_prime_iter(p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(87): def primitive_root(p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(153): def is_primitive_root(a, p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(184): def _sqrt_mod_tonelli_shanks(a, p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(216): def sqrt_mod(a, p, all_roots=False):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(268): def _product(*iters):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(302): def sqrt_mod_iter(a, p, domain=int):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(362): def _sqrt_mod_prime_power(a, p, k):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(479): def _sqrt_mod1(a, p, n):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(584): def is_quad_residue(a, p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(620): def is_nthpow_residue(a, n, m):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(650): def _is_nthpow_residue_bign(a, n, m):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(665): def _is_nthpow_residue_bign_prime_power(a, n, p, k):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(690): def _nthroot_mod2(s, q, p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(700): def _nthroot_mod1(s, q, p, all_roots):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(746): def nthroot_mod(a, n, p, all_roots=False):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(810): def quadratic_residues(p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(828): def legendre_symbol(a, p):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(874): def jacobi_symbol(m, n):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(962): class mobius(Function):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(962): class mobius(Function):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(963):     """
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1002):     @classmethod
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1003):     def eval(cls, n):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1020): def _discrete_log_trial_mul(n, a, b, order=None):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1059): def _discrete_log_shanks_steps(n, a, b, order=None):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1105): def _discrete_log_pollard_rho(n, a, b, order=None, retries=10, rseed=None):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1208): def _discrete_log_pohlig_hellman(n, a, b, order=None):
+0.27 /testbed/sympy/ntheory/residue_ntheory.py(1257): def discrete_log(n, a, b, order=None, prime_order=None):
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        82338921
+hash randomization: on (PYTHONHASHSEED=867548873)
+
+sympy/polys/tests/test_coverup_sympy__sympy-18199.py[1] 
+test_nthroot_mod_missing_zero_root 0.43 /testbed/sympy/ntheory/residue_ntheory.py(769):     from sympy.core.numbers import igcdex
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(770):     a, n, p = as_int(a), as_int(n), as_int(p)
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(771):     if n == 2:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(774):     if not is_nthpow_residue(a, n, p):
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(630):     a, n, m = as_int(a), as_int(n), as_int(m)
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(631):     if m <= 0:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(633):     if n < 0:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(635):     if a < 0:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(637):     if n == 0:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(641):     if a % m == 0:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(642):         return True
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(776):     if not isprime(p):
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(779):     if (p - 1) % n == 0:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(783):     pa = n
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(784):     pb = p - 1
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(785):     b = 1
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(786):     if pa < pb:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(787):         a, pa, b, pb = b, pb, a, pa
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(788):     while pb:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(792):         q, r = divmod(pa, pb)
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(793):         c = pow(b, q, p)
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(794):         c = igcdex(c, p)[0]
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(795):         c = (c * a) % p
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(796):         pa, pb = pb, r
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(797):         a, b = b, c
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(788):     while pb:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(792):         q, r = divmod(pa, pb)
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(793):         c = pow(b, q, p)
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(794):         c = igcdex(c, p)[0]
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(795):         c = (c * a) % p
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(796):         pa, pb = pb, r
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(797):         a, b = b, c
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(788):     while pb:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(798):     if pa == 1:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(799):         if all_roots:
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(800):             res = [a]
+0.43 /testbed/sympy/ntheory/residue_ntheory.py(807):     return res
+F                                      [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-18199.py:test_nthroot_mod_missing_zero_root 
+Traceback (most recent call last):
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-18199.py", line 8, in test_nthroot_mod_missing_zero_root
+    assert 0 not in roots  # This assertion should fail because the bug is present
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.01 seconds ==============
+DO *NOT* COMMIT!
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/ntheory/residue_ntheory\\.py)']
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1): from __future__ import print_function, division
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(3): from sympy.core.compatibility import as_int, range
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(4): from sympy.core.function import Function
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(5): from sympy.core.numbers import igcd, igcdex, mod_inverse
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(6): from sympy.core.power import isqrt
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(7): from sympy.core.singleton import S
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(8): from .primetest import isprime
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(9): from .factor_ import factorint, trailing, totient, multiplicity
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(10): from random import randint, Random
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(14): def n_order(a, n):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(57): def _primitive_root_prime_iter(p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(87): def primitive_root(p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(153): def is_primitive_root(a, p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(184): def _sqrt_mod_tonelli_shanks(a, p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(216): def sqrt_mod(a, p, all_roots=False):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(268): def _product(*iters):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(302): def sqrt_mod_iter(a, p, domain=int):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(362): def _sqrt_mod_prime_power(a, p, k):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(479): def _sqrt_mod1(a, p, n):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(584): def is_quad_residue(a, p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(620): def is_nthpow_residue(a, n, m):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(650): def _is_nthpow_residue_bign(a, n, m):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(665): def _is_nthpow_residue_bign_prime_power(a, n, p, k):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(690): def _nthroot_mod2(s, q, p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(700): def _nthroot_mod1(s, q, p, all_roots):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(746): def nthroot_mod(a, n, p, all_roots=False):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(810): def quadratic_residues(p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(828): def legendre_symbol(a, p):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(874): def jacobi_symbol(m, n):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(962): class mobius(Function):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(962): class mobius(Function):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(963):     """
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1002):     @classmethod
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1003):     def eval(cls, n):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1020): def _discrete_log_trial_mul(n, a, b, order=None):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1059): def _discrete_log_shanks_steps(n, a, b, order=None):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1105): def _discrete_log_pollard_rho(n, a, b, order=None, retries=10, rseed=None):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1208): def _discrete_log_pohlig_hellman(n, a, b, order=None):
+0.52 /testbed/sympy/ntheory/residue_ntheory.py(1257): def discrete_log(n, a, b, order=None, prime_order=None):
++ cat coverage.cover
+{"/testbed/sympy/ntheory/residue_ntheory.py": {"1": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "14": 1, "57": 1, "87": 1, "153": 1, "184": 1, "216": 1, "268": 1, "302": 1, "362": 1, "479": 1, "584": 1, "620": 1, "650": 1, "665": 1, "690": 1, "700": 1, "746": 1, "810": 1, "828": 1, "874": 1, "962": 2, "1020": 1, "1059": 1, "1105": 1, "1208": 1, "1257": 1, "29": 0, "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0, "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "75": 0, "76": 0, "77": 0, "78": 0, "80": 0, "81": 0, "83": 0, "84": 0, "110": 0, "111": 0, "112": 0, "113": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "120": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "142": 0, "143": 0, "144": 0, "146": 0, "147": 0, "148": 0, "150": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "181": 0, "194": 0, "195": 0, "198": 0, "199": 0, "200": 0, "201": 0, "203": 0, "204": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 0, "210": 0, "212": 0, "213": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "255": 0, "257": 0, "258": 0, "259": 0, "260": 0, "261": 0, "262": 0, "263": 0, "264": 0, "265": 0, "281": 0, "282": 0, "283": 0, "284": 0, "286": 0, "288": 0, "289": 0, "290": 0, "291": 0, "293": 0, "294": 0, "295": 0, "297": 0, "299": 0, "320": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "328": 0, "329": 0, "330": 0, "331": 0, "332": 0, "334": 0, "335": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "346": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "355": 0, "357": 0, "358": 0, "359": 0, "387": 0, "388": 0, "390": 0, "391": 0, "393": 0, "394": 0, "395": 0, "396": 0, "397": 0, "399": 0, "400": 0, "401": 0, "402": 0, "403": 0, "404": 0, "406": 0, "407": 0, "408": 0, "409": 0, "411": 0, "415": 0, "417": 0, "419": 0, "420": 0, "421": 0, "422": 0, "423": 0, "424": 0, "425": 0, "426": 0, "427": 0, "431": 0, "435": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "442": 0, "444": 0, "445": 0, "446": 0, "447": 0, "449": 0, "450": 0, "451": 0, "452": 0, "453": 0, "454": 0, "455": 0, "456": 0, "457": 0, "460": 0, "461": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "468": 0, "469": 0, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "485": 0, "486": 0, "487": 0, "489": 0, "490": 0, "491": 0, "492": 0, "497": 0, "499": 0, "500": 0, "505": 0, "508": 0, "509": 0, "510": 0, "511": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "527": 0, "528": 0, "529": 0, "530": 0, "531": 0, "532": 0, "533": 0, "543": 0, "544": 0, "545": 0, "546": 0, "547": 0, "548": 0, "549": 0, "559": 0, "561": 0, "562": 0, "563": 0, "564": 0, "565": 0, "566": 0, "567": 0, "568": 0, "570": 0, "581": 0, "493": 0, "494": 0, "495": 0, "496": 0, "501": 0, "502": 0, "503": 0, "504": 0, "519": 0, "520": 0, "521": 0, "522": 0, "523": 0, "524": 0, "525": 0, "526": 0, "534": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "550": 0, "551": 0, "552": 0, "553": 0, "554": 0, "555": 0, "556": 0, "557": 0, "558": 0, "571": 0, "572": 0, "573": 0, "574": 0, "575": 0, "576": 0, "577": 0, "578": 0, "579": 0, "580": 0, "601": 0, "602": 0, "603": 0, "604": 0, "605": 0, "606": 0, "607": 0, "608": 0, "609": 0, "610": 0, "611": 0, "612": 0, "613": 0, "615": 0, "617": 0, "630": 1, "631": 1, "632": 0, "633": 1, "634": 0, "635": 1, "636": 0, "637": 1, "638": 0, "639": 0, "640": 0, "641": 1, "642": 1, "643": 0, "644": 0, "645": 0, "646": 0, "647": 0, "654": 0, "656": 0, "657": 0, "658": 0, "659": 0, "660": 0, "661": 0, "662": 0, "672": 0, "673": 0, "674": 0, "675": 0, "676": 0, "677": 0, "678": 0, "680": 0, "681": 0, "682": 0, "683": 0, "684": 0, "685": 0, "686": 0, "687": 0, "691": 0, "692": 0, "693": 0, "694": 0, "695": 0, "696": 0, "697": 0, "710": 0, "711": 0, "712": 0, "714": 0, "715": 0, "717": 0, "718": 0, "719": 0, "720": 0, "722": 0, "723": 0, "724": 0, "725": 0, "726": 0, "727": 0, "728": 0, "729": 0, "730": 0, "731": 0, "733": 0, "734": 0, "736": 0, "737": 0, "738": 0, "739": 0, "740": 0, "741": 0, "742": 0, "743": 0, "769": 1, "770": 1, "771": 1, "772": 0, "774": 1, "775": 0, "776": 1, "777": 0, "779": 1, "780": 0, "783": 1, "784": 1, "785": 1, "786": 1, "787": 1, "788": 3, "792": 2, "793": 2, "794": 2, "795": 2, "796": 2, "797": 2, "798": 1, "799": 1, "800": 1, "802": 0, "803": 0, "804": 0, "806": 0, "807": 1, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "863": 0, "864": 0, "865": 0, "866": 0, "867": 0, "868": 0, "869": 0, "870": 0, "871": 0, "931": 0, "932": 0, "933": 0, "934": 0, "935": 0, "936": 0, "937": 0, "938": 0, "939": 0, "940": 0, "941": 0, "943": 0, "944": 0, "945": 0, "946": 0, "947": 0, "948": 0, "949": 0, "950": 0, "951": 0, "952": 0, "953": 0, "954": 0, "955": 0, "956": 0, "957": 0, "958": 0, "959": 0, "1002": 1, "1003": 1, "1004": 0, "1005": 0, "1006": 0, "1008": 0, "1009": 0, "1010": 0, "1011": 0, "1012": 0, "1013": 0, "1014": 0, "1015": 0, "1016": 0, "1017": 0, "1047": 0, "1048": 0, "1049": 0, "1050": 0, "1051": 0, "1052": 0, "1053": 0, "1054": 0, "1055": 0, "1056": 0, "1085": 0, "1086": 0, "1087": 0, "1088": 0, "1089": 0, "1090": 0, "1091": 0, "1092": 0, "1093": 0, "1094": 0, "1095": 0, "1096": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1101": 0, "1102": 0, "1131": 0, "1132": 0, "1134": 0, "1135": 0, "1136": 0, "1137": 0, "1138": 0, "1140": 0, "1141": 0, "1142": 0, "1143": 0, "1145": 0, "1146": 0, "1147": 0, "1148": 0, "1149": 0, "1150": 0, "1151": 0, "1152": 0, "1153": 0, "1155": 0, "1156": 0, "1157": 0, "1159": 0, "1160": 0, "1161": 0, "1162": 0, "1163": 0, "1164": 0, "1165": 0, "1166": 0, "1167": 0, "1169": 0, "1170": 0, "1172": 0, "1173": 0, "1174": 0, "1175": 0, "1176": 0, "1177": 0, "1178": 0, "1179": 0, "1181": 0, "1182": 0, "1184": 0, "1185": 0, "1186": 0, "1187": 0, "1188": 0, "1189": 0, "1190": 0, "1191": 0, "1193": 0, "1194": 0, "1196": 0, "1197": 0, "1198": 0, "1199": 0, "1200": 0, "1201": 0, "1202": 0, "1203": 0, "1204": 0, "1205": 0, "1235": 0, "1236": 0, "1237": 0, "1239": 0, "1240": 0, "1242": 0, "1243": 0, "1245": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1253": 0, "1254": 0, "1288": 0, "1289": 0, "1290": 0, "1292": 0, "1293": 0, "1295": 0, "1296": 0, "1297": 0, "1298": 0, "1299": 0, "1300": 0, "1302": 0}}
+{"/testbed/sympy/ntheory/residue_ntheory.py": {"1": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "14": 1, "57": 1, "87": 1, "153": 1, "184": 1, "216": 1, "268": 1, "302": 1, "362": 1, "479": 1, "584": 1, "620": 1, "650": 1, "665": 1, "690": 1, "700": 1, "746": 1, "810": 1, "828": 1, "874": 1, "962": 2, "1020": 1, "1059": 1, "1105": 1, "1208": 1, "1257": 1, "29": 0, "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0, "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "75": 0, "76": 0, "77": 0, "78": 0, "80": 0, "81": 0, "83": 0, "84": 0, "110": 0, "111": 0, "112": 0, "113": 0, "114": 0, "115": 0, "116": 0, "117": 0, "118": 0, "119": 0, "120": 0, "123": 0, "124": 0, "125": 0, "126": 0, "127": 0, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "135": 0, "136": 0, "137": 0, "138": 0, "139": 0, "140": 0, "142": 0, "143": 0, "144": 0, "146": 0, "147": 0, "148": 0, "150": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "181": 0, "194": 0, "195": 0, "198": 0, "199": 0, "200": 0, "201": 0, "203": 0, "204": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 0, "210": 0, "212": 0, "213": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "255": 0, "257": 0, "258": 0, "259": 0, "260": 0, "261": 0, "262": 0, "263": 0, "264": 0, "265": 0, "281": 0, "282": 0, "283": 0, "284": 0, "286": 0, "288": 0, "289": 0, "290": 0, "291": 0, "293": 0, "294": 0, "295": 0, "297": 0, "299": 0, "320": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "328": 0, "329": 0, "330": 0, "331": 0, "332": 0, "334": 0, "335": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "346": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "355": 0, "357": 0, "358": 0, "359": 0, "387": 0, "388": 0, "390": 0, "391": 0, "393": 0, "394": 0, "395": 0, "396": 0, "397": 0, "399": 0, "400": 0, "401": 0, "402": 0, "403": 0, "404": 0, "406": 0, "407": 0, "408": 0, "409": 0, "411": 0, "415": 0, "417": 0, "419": 0, "420": 0, "421": 0, "422": 0, "423": 0, "424": 0, "425": 0, "426": 0, "427": 0, "431": 0, "435": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "442": 0, "444": 0, "445": 0, "446": 0, "447": 0, "449": 0, "450": 0, "451": 0, "452": 0, "453": 0, "454": 0, "455": 0, "456": 0, "457": 0, "460": 0, "461": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "468": 0, "469": 0, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "485": 0, "486": 0, "487": 0, "489": 0, "490": 0, "491": 0, "492": 0, "497": 0, "499": 0, "500": 0, "505": 0, "508": 0, "509": 0, "510": 0, "511": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "527": 0, "528": 0, "529": 0, "530": 0, "531": 0, "532": 0, "533": 0, "543": 0, "544": 0, "545": 0, "546": 0, "547": 0, "548": 0, "549": 0, "559": 0, "561": 0, "562": 0, "563": 0, "564": 0, "565": 0, "566": 0, "567": 0, "568": 0, "570": 0, "581": 0, "493": 0, "494": 0, "495": 0, "496": 0, "501": 0, "502": 0, "503": 0, "504": 0, "519": 0, "520": 0, "521": 0, "522": 0, "523": 0, "524": 0, "525": 0, "526": 0, "534": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "550": 0, "551": 0, "552": 0, "553": 0, "554": 0, "555": 0, "556": 0, "557": 0, "558": 0, "571": 0, "572": 0, "573": 0, "574": 0, "575": 0, "576": 0, "577": 0, "578": 0, "579": 0, "580": 0, "601": 0, "602": 0, "603": 0, "604": 0, "605": 0, "606": 0, "607": 0, "608": 0, "609": 0, "610": 0, "611": 0, "612": 0, "613": 0, "615": 0, "617": 0, "630": 0, "631": 0, "632": 0, "633": 0, "634": 0, "635": 0, "636": 0, "637": 0, "638": 0, "639": 0, "640": 0, "641": 0, "642": 0, "643": 0, "644": 0, "645": 0, "646": 0, "647": 0, "654": 0, "656": 0, "657": 0, "658": 0, "659": 0, "660": 0, "661": 0, "662": 0, "672": 0, "673": 0, "674": 0, "675": 0, "676": 0, "677": 0, "678": 0, "680": 0, "681": 0, "682": 0, "683": 0, "684": 0, "685": 0, "686": 0, "687": 0, "691": 0, "692": 0, "693": 0, "694": 0, "695": 0, "696": 0, "697": 0, "710": 0, "711": 0, "712": 0, "714": 0, "715": 0, "717": 0, "718": 0, "719": 0, "720": 0, "722": 0, "723": 0, "724": 0, "725": 0, "726": 0, "727": 0, "728": 0, "729": 0, "730": 0, "731": 0, "733": 0, "734": 0, "736": 0, "737": 0, "738": 0, "739": 0, "740": 0, "741": 0, "742": 0, "743": 0, "769": 0, "770": 0, "771": 0, "772": 0, "774": 0, "775": 0, "776": 0, "777": 0, "779": 0, "780": 0, "783": 0, "784": 0, "785": 0, "786": 0, "787": 0, "788": 0, "792": 0, "793": 0, "794": 0, "795": 0, "796": 0, "797": 0, "798": 0, "799": 0, "800": 0, "802": 0, "803": 0, "804": 0, "806": 0, "807": 0, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "863": 0, "864": 0, "865": 0, "866": 0, "867": 0, "868": 0, "869": 0, "870": 0, "871": 0, "931": 0, "932": 0, "933": 0, "934": 0, "935": 0, "936": 0, "937": 0, "938": 0, "939": 0, "940": 0, "941": 0, "943": 0, "944": 0, "945": 0, "946": 0, "947": 0, "948": 0, "949": 0, "950": 0, "951": 0, "952": 0, "953": 0, "954": 0, "955": 0, "956": 0, "957": 0, "958": 0, "959": 0, "1002": 1, "1003": 1, "1004": 0, "1005": 0, "1006": 0, "1008": 0, "1009": 0, "1010": 0, "1011": 0, "1012": 0, "1013": 0, "1014": 0, "1015": 0, "1016": 0, "1017": 0, "1047": 0, "1048": 0, "1049": 0, "1050": 0, "1051": 0, "1052": 0, "1053": 0, "1054": 0, "1055": 0, "1056": 0, "1085": 0, "1086": 0, "1087": 0, "1088": 0, "1089": 0, "1090": 0, "1091": 0, "1092": 0, "1093": 0, "1094": 0, "1095": 0, "1096": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1101": 0, "1102": 0, "1131": 0, "1132": 0, "1134": 0, "1135": 0, "1136": 0, "1137": 0, "1138": 0, "1140": 0, "1141": 0, "1142": 0, "1143": 0, "1145": 0, "1146": 0, "1147": 0, "1148": 0, "1149": 0, "1150": 0, "1151": 0, "1152": 0, "1153": 0, "1155": 0, "1156": 0, "1157": 0, "1159": 0, "1160": 0, "1161": 0, "1162": 0, "1163": 0, "1164": 0, "1165": 0, "1166": 0, "1167": 0, "1169": 0, "1170": 0, "1172": 0, "1173": 0, "1174": 0, "1175": 0, "1176": 0, "1177": 0, "1178": 0, "1179": 0, "1181": 0, "1182": 0, "1184": 0, "1185": 0, "1186": 0, "1187": 0, "1188": 0, "1189": 0, "1190": 0, "1191": 0, "1193": 0, "1194": 0, "1196": 0, "1197": 0, "1198": 0, "1199": 0, "1200": 0, "1201": 0, "1202": 0, "1203": 0, "1204": 0, "1205": 0, "1235": 0, "1236": 0, "1237": 0, "1239": 0, "1240": 0, "1242": 0, "1243": 0, "1245": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1253": 0, "1254": 0, "1288": 0, "1289": 0, "1290": 0, "1292": 0, "1293": 0, "1295": 0, "1296": 0, "1297": 0, "1298": 0, "1299": 0, "1300": 0, "1302": 0}}
++ git checkout ba80d1e493f21431b4bf729b3e0452cd47eb9566
+Note: switching to 'ba80d1e493f21431b4bf729b3e0452cd47eb9566'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at ba80d1e493 Merge pull request #18224 from Upabjojr/fix_tensor_index_structure
++ git apply /root/pre_state.patch
+error: unrecognized input

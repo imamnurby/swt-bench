@@ -1,0 +1,20 @@
+diff --git a/dev/null b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-12585.py
+new file mode 100644
+index e69de29..727fd06 100644
+--- /dev/null
++++ b/sklearn/tests/test_coverup_scikit-learn__scikit-learn-12585.py
+@@ -0,0 +1,14 @@
++import pytest
++from sklearn.preprocessing import StandardScaler
++from sklearn.base import clone
++
++def test_clone_with_class_type_parameter():
++    # Attempt to clone an estimator with a class type parameter
++    try:
++        clone(StandardScaler(with_mean=StandardScaler))
++    except TypeError as e:
++        # If a TypeError is raised, the test should fail because the bug is present
++        pytest.fail("TypeError was raised, indicating the presence of the bug")
++    else:
++        # No exception should be raised, indicating the bug is fixed
++        pass

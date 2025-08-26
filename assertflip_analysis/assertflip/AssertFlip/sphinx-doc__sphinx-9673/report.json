@@ -1,0 +1,66 @@
+{
+    "sphinx-doc__sphinx-9673": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 1.0,
+        "coverage_delta_gold": 1.0,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "file"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "tests/test_coverup_sphinx-doc__sphinx-9673.py::test_missing_return_type_in_documentation"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_no_undoc"
+            ],
+            "PASS_TO_PASS": [
+                "tests/test_ext_autodoc_configs.py::test_autodoc_default_options_with_values",
+                "tests/test_ext_autodoc_configs.py::test_autoclass_content_and_docstring_signature_both",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_description",
+                "tests/test_ext_autodoc_configs.py::test_autoclass_content_both",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_with_documented_init_no_undoc",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_inherit_docstrings",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_docstring_signature",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_type_aliases",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_with_documented_init",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_class_signature_mixed",
+                "tests/test_ext_autodoc_configs.py::test_mocked_module_imports",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_and_type_aliases",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_both",
+                "tests/test_ext_autodoc_configs.py::test_autoclass_content_and_docstring_signature_init",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_class_signature_separated_new",
+                "tests/test_ext_autodoc_configs.py::test_autoclass_content_and_docstring_signature_class",
+                "tests/test_ext_autodoc_configs.py::test_autoclass_content_class",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_none_for_overload",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_for_invalid_node",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_class_signature_separated_init",
+                "tests/test_ext_autodoc_configs.py::test_autoclass_content_init",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_none",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_typehints_signature",
+                "tests/test_ext_autodoc_configs.py::test_autodoc_default_options"
+            ],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

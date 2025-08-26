@@ -1,0 +1,1131 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 37b0e66c871e8fb032a9c7086b2a1d5419838154
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 37b0e66c871e8fb032a9c7086b2a1d5419838154
+Author: Albert Thomas <albertthomas88@gmail.com>
+Date:   Sat Mar 2 08:52:17 2019 +0100
+
+    [MRG] add implementation details for Isolation Forest (#13364)
+    
+    * add implementation details of Isolation Forest
+    
+    * fix formula syntax
+
+diff --git a/doc/modules/outlier_detection.rst b/doc/modules/outlier_detection.rst
+index 69f7a275ab..b27b0c8a59 100644
+--- a/doc/modules/outlier_detection.rst
++++ b/doc/modules/outlier_detection.rst
+@@ -239,7 +239,13 @@ Random partitioning produces noticeably shorter paths for anomalies.
+ Hence, when a forest of random trees collectively produce shorter path
+ lengths for particular samples, they are highly likely to be anomalies.
+ 
+-This strategy is illustrated below.
++The implementation of :class:`ensemble.IsolationForest` is based on an ensemble
++of :class:`tree.ExtraTreeRegressor`. Following Isolation Forest original paper,
++the maximum depth of each tree is set to :math:`\lceil \log_2(n) \rceil` where
++:math:`n` is the number of samples used to build the tree (see (Liu et al.,
++2008) for more details).
++
++This algorithm is illustrated below.
+ 
+ .. figure:: ../auto_examples/ensemble/images/sphx_glr_plot_isolation_forest_001.png
+    :target: ../auto_examples/ensemble/plot_isolation_forest.html
+diff --git a/sklearn/ensemble/iforest.py b/sklearn/ensemble/iforest.py
+index 7050fb18f9..4f04df5699 100644
+--- a/sklearn/ensemble/iforest.py
++++ b/sklearn/ensemble/iforest.py
+@@ -142,6 +142,13 @@ class IsolationForest(BaseBagging, OutlierMixin):
+         ``offset_ = -0.5``, making the decision function independent from the
+         contamination parameter.
+ 
++    Notes
++    -----
++    The implementation is based on an ensemble of ExtraTreeRegressor. The
++    maximum depth of each tree is set to ``ceil(log_2(n))`` where
++    :math:`n` is the number of samples used to build the tree
++    (see (Liu et al., 2008) for more details).
++
+     References
+     ----------
+     .. [1] Liu, Fei Tony, Ting, Kai Ming and Zhou, Zhi-Hua. "Isolation forest."
++ git diff 37b0e66c871e8fb032a9c7086b2a1d5419838154
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file '/tmp/pip-pip-egg-info-287qaq2i/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.11.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.21.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.17.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.21.dev0) (1.5.2)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.21.dev0
+    Uninstalling scikit-learn-0.21.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.21.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    blis_info:
+      libraries blis not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_info:
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    creating /tmp/tmpi0lki63c/tmp
+    creating /tmp/tmpi0lki63c/tmp/tmpi0lki63c
+    compile options: '-c'
+    gcc: /tmp/tmpi0lki63c/source.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ /tmp/tmpi0lki63c/tmp/tmpi0lki63c/source.o -L/opt/miniconda3/envs/testbed/lib -lopenblas -o /tmp/tmpi0lki63c/a.out
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.preprocessing._csr_polynomial_expansion" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils._cython_blas" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn._isotonic" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.21.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+Successfully installed scikit-learn-0.21.dev0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch sklearn/linear_model/huber.py...
+Applied patch sklearn/linear_model/huber.py cleanly.
++ git apply -v -
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-13328.py...
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-13328.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/linear_model/huber\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-13328.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/linear_model/huber\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-13328.py .         [100%]
+
+==================================== PASSES ====================================
+_________________ test_huber_regressor_fit_with_boolean_array __________________
+----------------------------- Captured stdout call -----------------------------
+0.84 /testbed/sklearn/linear_model/huber.py(227):         self.epsilon = epsilon
+0.84 /testbed/sklearn/linear_model/huber.py(228):         self.max_iter = max_iter
+0.84 /testbed/sklearn/linear_model/huber.py(229):         self.alpha = alpha
+0.84 /testbed/sklearn/linear_model/huber.py(230):         self.warm_start = warm_start
+0.84 /testbed/sklearn/linear_model/huber.py(231):         self.fit_intercept = fit_intercept
+0.84 /testbed/sklearn/linear_model/huber.py(232):         self.tol = tol
+0.84 /testbed/sklearn/linear_model/huber.py(253):         X, y = check_X_y(
+0.84 /testbed/sklearn/linear_model/huber.py(254):             X, y, copy=False, accept_sparse=['csr'], y_numeric=True,
+0.84 /testbed/sklearn/linear_model/huber.py(255):             dtype=[np.float64, np.float32])
+0.84 /testbed/sklearn/linear_model/huber.py(256):         if sample_weight is not None:
+0.84 /testbed/sklearn/linear_model/huber.py(260):             sample_weight = np.ones_like(y)
+0.84 /testbed/sklearn/linear_model/huber.py(262):         if self.epsilon < 1.0:
+0.84 /testbed/sklearn/linear_model/huber.py(267):         if self.warm_start and hasattr(self, 'coef_'):
+0.84 /testbed/sklearn/linear_model/huber.py(271):             if self.fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(272):                 parameters = np.zeros(X.shape[1] + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(277):             parameters[-1] = 1
+0.84 /testbed/sklearn/linear_model/huber.py(282):         bounds = np.tile([-np.inf, np.inf], (parameters.shape[0], 1))
+0.84 /testbed/sklearn/linear_model/huber.py(283):         bounds[-1][0] = np.finfo(np.float64).eps * 10
+0.84 /testbed/sklearn/linear_model/huber.py(285):         parameters, f, dict_ = optimize.fmin_l_bfgs_b(
+0.84 /testbed/sklearn/linear_model/huber.py(286):             _huber_loss_and_gradient, parameters,
+0.84 /testbed/sklearn/linear_model/huber.py(287):             args=(X, y, self.epsilon, self.alpha, sample_weight),
+0.84 /testbed/sklearn/linear_model/huber.py(288):             maxiter=self.max_iter, pgtol=self.tol, bounds=bounds,
+0.84 /testbed/sklearn/linear_model/huber.py(289):             iprint=0)
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.84 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.84 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.84 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.84 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.84 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.84 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.84 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.84 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.84 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.84 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.84 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.84 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.84 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.84 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.84 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.84 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.84 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.84 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.84 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.84 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.84 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.84 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.84 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.84 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.84 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.84 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.84 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.84 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.84 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.84 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.84 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.84 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.84 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.84 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.84 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.84 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.84 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.84 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.84 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.84 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.84 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.84 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.84 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.84 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.84 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.84 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.84 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.84 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.84 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.84 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.84 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.84 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.84 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.84 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.84 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.84 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.84 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.84 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.84 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.84 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.84 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.84 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.84 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.84 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.84 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.84 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.84 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.84 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.84 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.84 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.84 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.84 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.84 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.84 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.84 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.84 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.84 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.84 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.85 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.85 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.85 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.85 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.85 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.85 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.85 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.85 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.85 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.85 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.85 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.85 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.85 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.85 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.85 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.85 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.85 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.85 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.85 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.85 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.85 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.85 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.85 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.85 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.85 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.85 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.85 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.85 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.85 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.85 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.85 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.85 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.85 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.85 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.85 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.85 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.85 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.85 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.85 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.85 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.85 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.85 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.85 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.85 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.85 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.85 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.85 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.85 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.85 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.85 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.85 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.85 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.85 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.85 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.85 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.85 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.85 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.85 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.85 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.85 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.85 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.85 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.85 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.85 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.85 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.85 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.85 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.85 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.85 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.85 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.85 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.85 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.85 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.85 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.85 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.85 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.85 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.85 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.85 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.85 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.85 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.85 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.85 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.85 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.85 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.85 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.85 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.85 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.85 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.85 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.85 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.85 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.85 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.85 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.85 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.85 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.85 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.85 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.85 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.85 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.85 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.85 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.85 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.85 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.85 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.85 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.85 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.85 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.85 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.85 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.85 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.85 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.85 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.85 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.85 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.85 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.85 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.85 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.85 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.85 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.85 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.85 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.85 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.85 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.85 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.85 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.85 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.85 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.85 /testbed/sklearn/linear_model/huber.py(51):     _, n_features = X.shape
+0.85 /testbed/sklearn/linear_model/huber.py(52):     fit_intercept = (n_features + 2 == w.shape[0])
+0.85 /testbed/sklearn/linear_model/huber.py(53):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(54):         intercept = w[-2]
+0.85 /testbed/sklearn/linear_model/huber.py(55):     sigma = w[-1]
+0.85 /testbed/sklearn/linear_model/huber.py(56):     w = w[:n_features]
+0.85 /testbed/sklearn/linear_model/huber.py(57):     n_samples = np.sum(sample_weight)
+0.85 /testbed/sklearn/linear_model/huber.py(61):     linear_loss = y - safe_sparse_dot(X, w)
+0.85 /testbed/sklearn/linear_model/huber.py(62):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(63):         linear_loss -= intercept
+0.85 /testbed/sklearn/linear_model/huber.py(64):     abs_linear_loss = np.abs(linear_loss)
+0.85 /testbed/sklearn/linear_model/huber.py(65):     outliers_mask = abs_linear_loss > epsilon * sigma
+0.85 /testbed/sklearn/linear_model/huber.py(69):     outliers = abs_linear_loss[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(70):     num_outliers = np.count_nonzero(outliers_mask)
+0.85 /testbed/sklearn/linear_model/huber.py(71):     n_non_outliers = X.shape[0] - num_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(75):     outliers_sw = sample_weight[outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(76):     n_sw_outliers = np.sum(outliers_sw)
+0.85 /testbed/sklearn/linear_model/huber.py(77):     outlier_loss = (2. * epsilon * np.sum(outliers_sw * outliers) -
+0.85 /testbed/sklearn/linear_model/huber.py(78):                     sigma * n_sw_outliers * epsilon ** 2)
+0.85 /testbed/sklearn/linear_model/huber.py(82):     non_outliers = linear_loss[~outliers_mask]
+0.85 /testbed/sklearn/linear_model/huber.py(83):     weighted_non_outliers = sample_weight[~outliers_mask] * non_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(84):     weighted_loss = np.dot(weighted_non_outliers.T, non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(85):     squared_loss = weighted_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(87):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(88):         grad = np.zeros(n_features + 2)
+0.85 /testbed/sklearn/linear_model/huber.py(93):     X_non_outliers = -axis0_safe_slice(X, ~outliers_mask, n_non_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(95):         2. / sigma * safe_sparse_dot(weighted_non_outliers, X_non_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(98):     signed_outliers = np.ones_like(outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(99):     signed_outliers_mask = linear_loss[outliers_mask] < 0
+0.85 /testbed/sklearn/linear_model/huber.py(100):     signed_outliers[signed_outliers_mask] = -1.0
+0.85 /testbed/sklearn/linear_model/huber.py(101):     X_outliers = axis0_safe_slice(X, outliers_mask, num_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(102):     sw_outliers = sample_weight[outliers_mask] * signed_outliers
+0.85 /testbed/sklearn/linear_model/huber.py(103):     grad[:n_features] -= 2. * epsilon * (
+0.85 /testbed/sklearn/linear_model/huber.py(104):         safe_sparse_dot(sw_outliers, X_outliers))
+0.85 /testbed/sklearn/linear_model/huber.py(107):     grad[:n_features] += alpha * 2. * w
+0.85 /testbed/sklearn/linear_model/huber.py(110):     grad[-1] = n_samples
+0.85 /testbed/sklearn/linear_model/huber.py(111):     grad[-1] -= n_sw_outliers * epsilon ** 2
+0.85 /testbed/sklearn/linear_model/huber.py(112):     grad[-1] -= squared_loss / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(115):     if fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(116):         grad[-2] = -2. * np.sum(weighted_non_outliers) / sigma
+0.85 /testbed/sklearn/linear_model/huber.py(117):         grad[-2] -= 2. * epsilon * np.sum(sw_outliers)
+0.85 /testbed/sklearn/linear_model/huber.py(119):     loss = n_samples * sigma + squared_loss + outlier_loss
+0.85 /testbed/sklearn/linear_model/huber.py(120):     loss += alpha * np.dot(w, w)
+0.85 /testbed/sklearn/linear_model/huber.py(121):     return loss, grad
+0.85 /testbed/sklearn/linear_model/huber.py(290):         if dict_['warnflag'] == 2:
+0.85 /testbed/sklearn/linear_model/huber.py(296):         self.n_iter_ = min(dict_['nit'], self.max_iter)
+0.85 /testbed/sklearn/linear_model/huber.py(297):         self.scale_ = parameters[-1]
+0.85 /testbed/sklearn/linear_model/huber.py(298):         if self.fit_intercept:
+0.85 /testbed/sklearn/linear_model/huber.py(299):             self.intercept_ = parameters[-2]
+0.85 /testbed/sklearn/linear_model/huber.py(302):         self.coef_ = parameters[:X.shape[1]]
+0.85 /testbed/sklearn/linear_model/huber.py(304):         residual = np.abs(
+0.85 /testbed/sklearn/linear_model/huber.py(305):             y - safe_sparse_dot(X, self.coef_) - self.intercept_)
+0.85 /testbed/sklearn/linear_model/huber.py(306):         self.outliers_ = residual > self.scale_ * self.epsilon
+0.85 /testbed/sklearn/linear_model/huber.py(307):         return self
+=========================== short test summary info ============================
+PASSED sklearn/tests/test_coverup_scikit-learn__scikit-learn-13328.py::test_huber_regressor_fit_with_boolean_array
+============================== 1 passed in 0.68s ===============================
++ cat coverage.cover
+{"/testbed/sklearn/linear_model/huber.py": {"4": 1, "6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "16": 1, "124": 2, "51": 14, "52": 14, "53": 14, "54": 14, "55": 14, "56": 14, "57": 14, "61": 14, "62": 14, "63": 14, "64": 14, "65": 14, "69": 14, "70": 14, "71": 14, "75": 14, "76": 14, "77": 14, "78": 14, "82": 14, "83": 14, "84": 14, "85": 14, "87": 14, "88": 14, "90": 0, "93": 14, "95": 14, "98": 14, "99": 14, "100": 14, "101": 14, "102": 14, "103": 14, "104": 14, "107": 14, "110": 14, "111": 14, "112": 14, "115": 14, "116": 14, "117": 14, "119": 14, "120": 14, "121": 14, "226": 1, "234": 1, "227": 1, "228": 1, "229": 1, "230": 1, "231": 1, "232": 1, "253": 1, "254": 1, "255": 1, "256": 1, "257": 0, "258": 0, "260": 1, "262": 1, "263": 0, "264": 0, "265": 0, "267": 1, "268": 0, "269": 0, "271": 1, "272": 1, "274": 0, "277": 1, "282": 1, "283": 1, "285": 1, "286": 1, "287": 1, "288": 1, "289": 1, "290": 1, "291": 0, "293": 0, "296": 1, "297": 1, "298": 1, "299": 1, "301": 0, "302": 1, "304": 1, "305": 1, "306": 1, "307": 1}}
++ git checkout 37b0e66c871e8fb032a9c7086b2a1d5419838154
+Note: switching to '37b0e66c871e8fb032a9c7086b2a1d5419838154'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 37b0e66c87 [MRG] add implementation details for Isolation Forest (#13364)
+M	sklearn/linear_model/huber.py
++ git apply /root/pre_state.patch
+error: unrecognized input

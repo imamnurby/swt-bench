@@ -1,0 +1,2722 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 3eacf948e0f95ef957862568d87ce082f378e186
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 3eacf948e0f95ef957862568d87ce082f378e186
+Author: Stephen Tierney <sjtrny@gmail.com>
+Date:   Mon Aug 12 22:23:07 2019 +1000
+
+    Set diagonal of precomputed matrix to zero in silhoutte_samples (#12258)
+
+diff --git a/doc/whats_new/v0.22.rst b/doc/whats_new/v0.22.rst
+index 188e52a27d..7be27894ab 100644
+--- a/doc/whats_new/v0.22.rst
++++ b/doc/whats_new/v0.22.rst
+@@ -224,8 +224,15 @@ Changelog
+   to return root mean squared error.
+   :pr:`13467` by :user:`Urvang Patel <urvang96>`.
+ 
++:mod:`sklearn.metrics`
++......................
++
++- |Fix| Raise a ValueError in :func:`metrics.silhouette_score` when a
++  precomputed distance matrix contains non-zero diagonal entries.
++  :pr:`12258` by :user:`Stephen Tierney <sjtrny>`.
++
+ :mod:`sklearn.model_selection`
+-...............................
++..............................
+ 
+ - |Enhancement| :class:`model_selection.learning_curve` now accepts parameter
+   ``return_times`` which can be used to retrieve computation times in order to
+diff --git a/sklearn/metrics/cluster/tests/test_unsupervised.py b/sklearn/metrics/cluster/tests/test_unsupervised.py
+index 02a4e85501..8e88247db7 100644
+--- a/sklearn/metrics/cluster/tests/test_unsupervised.py
++++ b/sklearn/metrics/cluster/tests/test_unsupervised.py
+@@ -168,6 +168,22 @@ def test_non_numpy_labels():
+         silhouette_score(list(X), list(y)) == silhouette_score(X, y))
+ 
+ 
++def test_silhouette_nonzero_diag():
++    # Construct a zero-diagonal matrix
++    dists = pairwise_distances(
++        np.array([[0.2, 0.1, 0.12, 1.34, 1.11, 1.6]]).transpose())
++
++    # Construct a nonzero-diagonal distance matrix
++    diag_dists = dists.copy()
++    np.fill_diagonal(diag_dists, 1)
++
++    labels = [0, 0, 0, 1, 1, 1]
++
++    assert_raise_message(ValueError, "distance matrix contains non-zero",
++                         silhouette_samples,
++                         diag_dists, labels, metric='precomputed')
++
++
+ def assert_raises_on_only_one_label(func):
+     """Assert message when there is only one label"""
+     rng = np.random.RandomState(seed=0)
+diff --git a/sklearn/metrics/cluster/unsupervised.py b/sklearn/metrics/cluster/unsupervised.py
+index 05206ab42a..0e12c06b41 100644
+--- a/sklearn/metrics/cluster/unsupervised.py
++++ b/sklearn/metrics/cluster/unsupervised.py
+@@ -185,7 +185,8 @@ def silhouette_samples(X, labels, metric='euclidean', **kwds):
+         The metric to use when calculating distance between instances in a
+         feature array. If metric is a string, it must be one of the options
+         allowed by :func:`sklearn.metrics.pairwise.pairwise_distances`. If X is
+-        the distance array itself, use "precomputed" as the metric.
++        the distance array itself, use "precomputed" as the metric. Precomputed
++        distance matrices must have 0 along the diagonal.
+ 
+     `**kwds` : optional keyword parameters
+         Any further parameters are passed directly to the distance function.
+@@ -210,6 +211,15 @@ def silhouette_samples(X, labels, metric='euclidean', **kwds):
+ 
+     """
+     X, labels = check_X_y(X, labels, accept_sparse=['csc', 'csr'])
++
++    # Check for diagonal entries in precomputed distance matrix
++    if metric == 'precomputed':
++        if np.any(np.diagonal(X)):
++            raise ValueError(
++                'The precomputed distance matrix contains non-zero '
++                'elements on the diagonal. Use np.fill_diagonal(X, 0).'
++            )
++
+     le = LabelEncoder()
+     labels = le.fit_transform(labels)
+     n_samples = len(labels)
++ git diff 3eacf948e0f95ef957862568d87ce082f378e186
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file '/tmp/pip-pip-egg-info-ypj60t32/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.11.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.17.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.5.2)
+Requirement already satisfied: joblib>=0.11 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.1.1)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.22.dev0
+    Uninstalling scikit-learn-0.22.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.22.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    compile options: '-c'
+    extra options: '-fopenmp'
+    gcc: test_openmp.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ objects/test_openmp.o -o test_openmp -fopenmp
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.preprocessing._csr_polynomial_expansion" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._gradient_boosting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.histogram" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.splitting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._binning" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._predictor" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._loss" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.types" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.utils" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils._cython_blas" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn._isotonic" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.22.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed scikit-learn-0.22.dev0
++ git apply -v -
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-9288.py...
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-9288.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/cluster/k_means_\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-9288.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/cluster/k_means_\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-9288.py F          [100%]
+
+=================================== FAILURES ===================================
+__________________ test_kmeans_inertia_with_different_n_jobs ___________________
+
+    def test_kmeans_inertia_with_different_n_jobs():
+        # Generate synthetic dataset
+        X, _ = make_blobs(n_samples=10000, centers=10, n_features=2, random_state=2)
+    
+        # Run KMeans with n_jobs=1
+        kmeans_1 = KMeans(n_clusters=10, random_state=2, n_jobs=1)
+        kmeans_1.fit(X)
+        inertia_1 = kmeans_1.inertia_
+    
+        # Run KMeans with n_jobs=2
+        kmeans_2 = KMeans(n_clusters=10, random_state=2, n_jobs=2)
+        kmeans_2.fit(X)
+        inertia_2 = kmeans_2.inertia_
+    
+        # Assert that the inertia values are the same
+>       assert inertia_1 == inertia_2, "Inertia values should be the same with different n_jobs settings"
+E       AssertionError: Inertia values should be the same with different n_jobs settings
+E       assert 17815.004991244623 == 17815.060435554242
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-9288.py:20: AssertionError
+----------------------------- Captured stdout call -----------------------------
+0.81 k_means_.py(912):         self.n_clusters = n_clusters
+0.81 k_means_.py(913):         self.init = init
+0.81 k_means_.py(914):         self.max_iter = max_iter
+0.81 k_means_.py(915):         self.tol = tol
+0.81 k_means_.py(916):         self.precompute_distances = precompute_distances
+0.81 k_means_.py(917):         self.n_init = n_init
+0.81 k_means_.py(918):         self.verbose = verbose
+0.81 k_means_.py(919):         self.random_state = random_state
+0.81 k_means_.py(920):         self.copy_x = copy_x
+0.81 k_means_.py(921):         self.n_jobs = n_jobs
+0.81 k_means_.py(922):         self.algorithm = algorithm
+0.81 k_means_.py(953):         random_state = check_random_state(self.random_state)
+0.81 k_means_.py(956):             k_means(
+0.81 k_means_.py(957):                 X, n_clusters=self.n_clusters, sample_weight=sample_weight,
+0.81 k_means_.py(958):                 init=self.init, n_init=self.n_init,
+0.81 k_means_.py(959):                 max_iter=self.max_iter, verbose=self.verbose,
+0.81 k_means_.py(960):                 precompute_distances=self.precompute_distances,
+0.81 k_means_.py(961):                 tol=self.tol, random_state=random_state, copy_x=self.copy_x,
+0.81 k_means_.py(962):                 n_jobs=self.n_jobs, algorithm=self.algorithm,
+0.81 k_means_.py(963):                 return_n_iter=True)
+0.81 k_means_.py(291):     if n_init <= 0:
+0.81 k_means_.py(294):     random_state = check_random_state(random_state)
+0.81 k_means_.py(296):     if max_iter <= 0:
+0.81 k_means_.py(301):     order = "C" if copy_x else None
+0.81 k_means_.py(302):     X = check_array(X, accept_sparse='csr', dtype=[np.float64, np.float32],
+0.81 k_means_.py(303):                     order=order, copy=copy_x)
+0.81 k_means_.py(305):     if _num_samples(X) < n_clusters:
+0.81 k_means_.py(309):     tol = _tolerance(X, tol)
+0.81 k_means_.py(156):     if sp.issparse(X):
+0.81 k_means_.py(159):         variances = np.var(X, axis=0)
+0.81 k_means_.py(160):     return np.mean(variances) * tol
+0.81 k_means_.py(315):     if precompute_distances == 'auto':
+0.81 k_means_.py(316):         n_samples = X.shape[0]
+0.81 k_means_.py(317):         precompute_distances = (n_clusters * n_samples) < 12e6
+0.81 k_means_.py(326):     if hasattr(init, '__array__'):
+0.81 k_means_.py(338):     if not sp.issparse(X):
+0.81 k_means_.py(339):         X_mean = X.mean(axis=0)
+0.81 k_means_.py(341):         X -= X_mean
+0.81 k_means_.py(343):         if hasattr(init, '__array__'):
+0.81 k_means_.py(347):     x_squared_norms = row_norms(X, squared=True)
+0.81 k_means_.py(349):     best_labels, best_inertia, best_centers = None, None, None
+0.81 k_means_.py(350):     if n_clusters == 1:
+0.81 k_means_.py(354):     if algorithm == "auto":
+0.81 k_means_.py(355):         algorithm = "full" if sp.issparse(X) else 'elkan'
+0.81 k_means_.py(356):     if algorithm == "full":
+0.81 k_means_.py(358):     elif algorithm == "elkan":
+0.81 k_means_.py(359):         kmeans_single = _kmeans_single_elkan
+0.81 k_means_.py(363):     if effective_n_jobs(n_jobs) == 1:
+0.81 k_means_.py(366):         for it in range(n_init):
+0.81 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+0.81 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+0.81 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+0.81 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+0.81 k_means_.py(372):                 random_state=random_state)
+0.81 k_means_.py(421):     if sp.issparse(X):
+0.81 k_means_.py(423):     random_state = check_random_state(random_state)
+0.81 k_means_.py(424):     if x_squared_norms is None:
+0.81 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+0.81 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+0.81 k_means_.py(717):     random_state = check_random_state(random_state)
+0.81 k_means_.py(718):     n_samples = X.shape[0]
+0.81 k_means_.py(720):     if x_squared_norms is None:
+0.81 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+0.81 k_means_.py(734):     elif n_samples < k:
+0.81 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+0.81 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+0.81 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+0.81 k_means_.py(77):     n_samples, n_features = X.shape
+0.81 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+0.81 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+0.81 k_means_.py(84):     if n_local_trials is None:
+0.81 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+0.81 k_means_.py(91):     center_id = random_state.randint(n_samples)
+0.81 k_means_.py(92):     if sp.issparse(X):
+0.81 k_means_.py(95):         centers[0] = X[center_id]
+0.81 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+0.81 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+0.81 k_means_.py(100):         squared=True)
+0.82 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+0.82 k_means_.py(104):     for c in range(1, n_clusters):
+0.82 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.82 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.82 k_means_.py(109):                                         rand_vals)
+0.82 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.82 k_means_.py(112):                 out=candidate_ids)
+0.82 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.82 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.82 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.82 k_means_.py(120):                    out=distance_to_candidates)
+0.82 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.82 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.82 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.82 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.82 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.82 k_means_.py(130):         if sp.issparse(X):
+0.82 k_means_.py(133):             centers[c] = X[best_candidate]
+0.82 k_means_.py(104):     for c in range(1, n_clusters):
+0.82 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.82 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.82 k_means_.py(109):                                         rand_vals)
+0.82 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.82 k_means_.py(112):                 out=candidate_ids)
+0.82 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.82 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.82 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.82 k_means_.py(120):                    out=distance_to_candidates)
+0.82 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.82 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.82 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.82 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.82 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.82 k_means_.py(130):         if sp.issparse(X):
+0.82 k_means_.py(133):             centers[c] = X[best_candidate]
+0.82 k_means_.py(104):     for c in range(1, n_clusters):
+0.82 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.82 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.82 k_means_.py(109):                                         rand_vals)
+0.82 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.82 k_means_.py(112):                 out=candidate_ids)
+0.82 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.82 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.82 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.82 k_means_.py(120):                    out=distance_to_candidates)
+0.82 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.82 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.82 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.82 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.82 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.82 k_means_.py(130):         if sp.issparse(X):
+0.82 k_means_.py(133):             centers[c] = X[best_candidate]
+0.82 k_means_.py(104):     for c in range(1, n_clusters):
+0.82 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.82 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.82 k_means_.py(109):                                         rand_vals)
+0.82 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.82 k_means_.py(112):                 out=candidate_ids)
+0.82 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.82 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.82 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.82 k_means_.py(120):                    out=distance_to_candidates)
+0.82 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.82 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.83 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.83 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.83 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.83 k_means_.py(130):         if sp.issparse(X):
+0.83 k_means_.py(133):             centers[c] = X[best_candidate]
+0.83 k_means_.py(104):     for c in range(1, n_clusters):
+0.83 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.83 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.83 k_means_.py(109):                                         rand_vals)
+0.83 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.83 k_means_.py(112):                 out=candidate_ids)
+0.83 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.83 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.83 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.83 k_means_.py(120):                    out=distance_to_candidates)
+0.83 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.83 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.83 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.83 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.83 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.83 k_means_.py(130):         if sp.issparse(X):
+0.83 k_means_.py(133):             centers[c] = X[best_candidate]
+0.83 k_means_.py(104):     for c in range(1, n_clusters):
+0.83 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.83 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.83 k_means_.py(109):                                         rand_vals)
+0.83 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.83 k_means_.py(112):                 out=candidate_ids)
+0.83 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.83 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.83 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.83 k_means_.py(120):                    out=distance_to_candidates)
+0.83 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.83 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.83 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.83 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.83 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.83 k_means_.py(130):         if sp.issparse(X):
+0.83 k_means_.py(133):             centers[c] = X[best_candidate]
+0.83 k_means_.py(104):     for c in range(1, n_clusters):
+0.83 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.83 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.83 k_means_.py(109):                                         rand_vals)
+0.83 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.83 k_means_.py(112):                 out=candidate_ids)
+0.83 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.83 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.83 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.83 k_means_.py(120):                    out=distance_to_candidates)
+0.83 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.83 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.83 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.83 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.83 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.83 k_means_.py(130):         if sp.issparse(X):
+0.83 k_means_.py(133):             centers[c] = X[best_candidate]
+0.83 k_means_.py(104):     for c in range(1, n_clusters):
+0.83 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.83 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.83 k_means_.py(109):                                         rand_vals)
+0.83 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.83 k_means_.py(112):                 out=candidate_ids)
+0.83 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.83 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.83 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.83 k_means_.py(120):                    out=distance_to_candidates)
+0.83 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.83 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.83 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.83 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.83 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.83 k_means_.py(130):         if sp.issparse(X):
+0.83 k_means_.py(133):             centers[c] = X[best_candidate]
+0.83 k_means_.py(104):     for c in range(1, n_clusters):
+0.83 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.83 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.83 k_means_.py(109):                                         rand_vals)
+0.83 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.83 k_means_.py(112):                 out=candidate_ids)
+0.83 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.83 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.83 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.83 k_means_.py(120):                    out=distance_to_candidates)
+0.83 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.83 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.83 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.83 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.83 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.83 k_means_.py(130):         if sp.issparse(X):
+0.83 k_means_.py(133):             centers[c] = X[best_candidate]
+0.83 k_means_.py(104):     for c in range(1, n_clusters):
+0.83 k_means_.py(135):     return centers
+0.83 k_means_.py(756):     if sp.issparse(centers):
+0.83 k_means_.py(759):     _validate_center_shape(X, k, centers)
+0.83 k_means_.py(143):     if len(centers) != n_centers:
+0.83 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+0.83 k_means_.py(760):     return centers
+0.83 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+0.83 k_means_.py(430):     if verbose:
+0.83 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+0.83 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+0.83 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+0.83 k_means_.py(169):     if not sample_weight_was_none:
+0.83 k_means_.py(175):     return sample_weight
+0.83 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+0.83 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+0.83 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+0.85 k_means_.py(437):     if sample_weight is None:
+0.85 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+0.85 k_means_.py(443):     return labels, inertia, centers, n_iter
+0.85 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+0.85 k_means_.py(375):                 best_labels = labels.copy()
+0.85 k_means_.py(376):                 best_centers = centers.copy()
+0.85 k_means_.py(377):                 best_inertia = inertia
+0.85 k_means_.py(378):                 best_n_iter = n_iter_
+0.85 k_means_.py(366):         for it in range(n_init):
+0.85 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+0.85 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+0.85 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+0.85 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+0.85 k_means_.py(372):                 random_state=random_state)
+0.85 k_means_.py(421):     if sp.issparse(X):
+0.85 k_means_.py(423):     random_state = check_random_state(random_state)
+0.85 k_means_.py(424):     if x_squared_norms is None:
+0.85 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+0.85 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+0.85 k_means_.py(717):     random_state = check_random_state(random_state)
+0.85 k_means_.py(718):     n_samples = X.shape[0]
+0.85 k_means_.py(720):     if x_squared_norms is None:
+0.85 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+0.85 k_means_.py(734):     elif n_samples < k:
+0.85 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+0.85 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+0.85 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+0.85 k_means_.py(77):     n_samples, n_features = X.shape
+0.85 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+0.85 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+0.85 k_means_.py(84):     if n_local_trials is None:
+0.85 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+0.85 k_means_.py(91):     center_id = random_state.randint(n_samples)
+0.85 k_means_.py(92):     if sp.issparse(X):
+0.85 k_means_.py(95):         centers[0] = X[center_id]
+0.85 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+0.85 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+0.85 k_means_.py(100):         squared=True)
+0.86 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+0.86 k_means_.py(104):     for c in range(1, n_clusters):
+0.86 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.86 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.86 k_means_.py(109):                                         rand_vals)
+0.86 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.86 k_means_.py(112):                 out=candidate_ids)
+0.86 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.86 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.86 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.86 k_means_.py(120):                    out=distance_to_candidates)
+0.86 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.86 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.86 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.86 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.86 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.86 k_means_.py(130):         if sp.issparse(X):
+0.86 k_means_.py(133):             centers[c] = X[best_candidate]
+0.86 k_means_.py(104):     for c in range(1, n_clusters):
+0.86 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.86 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.86 k_means_.py(109):                                         rand_vals)
+0.86 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.86 k_means_.py(112):                 out=candidate_ids)
+0.86 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.86 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.86 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.86 k_means_.py(120):                    out=distance_to_candidates)
+0.86 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.86 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.86 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.86 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.86 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.86 k_means_.py(130):         if sp.issparse(X):
+0.86 k_means_.py(133):             centers[c] = X[best_candidate]
+0.86 k_means_.py(104):     for c in range(1, n_clusters):
+0.86 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.86 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.86 k_means_.py(109):                                         rand_vals)
+0.86 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.86 k_means_.py(112):                 out=candidate_ids)
+0.86 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.86 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.86 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.86 k_means_.py(120):                    out=distance_to_candidates)
+0.86 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.86 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.86 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.86 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.86 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.86 k_means_.py(130):         if sp.issparse(X):
+0.86 k_means_.py(133):             centers[c] = X[best_candidate]
+0.86 k_means_.py(104):     for c in range(1, n_clusters):
+0.86 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.86 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.86 k_means_.py(109):                                         rand_vals)
+0.86 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.86 k_means_.py(112):                 out=candidate_ids)
+0.86 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.86 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.86 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.86 k_means_.py(120):                    out=distance_to_candidates)
+0.86 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.86 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.86 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.86 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.86 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.86 k_means_.py(130):         if sp.issparse(X):
+0.86 k_means_.py(133):             centers[c] = X[best_candidate]
+0.86 k_means_.py(104):     for c in range(1, n_clusters):
+0.86 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.86 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.87 k_means_.py(109):                                         rand_vals)
+0.87 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.87 k_means_.py(112):                 out=candidate_ids)
+0.87 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.87 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.87 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.87 k_means_.py(120):                    out=distance_to_candidates)
+0.87 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.87 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.87 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.87 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.87 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.87 k_means_.py(130):         if sp.issparse(X):
+0.87 k_means_.py(133):             centers[c] = X[best_candidate]
+0.87 k_means_.py(104):     for c in range(1, n_clusters):
+0.87 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.87 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.87 k_means_.py(109):                                         rand_vals)
+0.87 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.87 k_means_.py(112):                 out=candidate_ids)
+0.87 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.87 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.87 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.87 k_means_.py(120):                    out=distance_to_candidates)
+0.87 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.87 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.87 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.87 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.87 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.87 k_means_.py(130):         if sp.issparse(X):
+0.87 k_means_.py(133):             centers[c] = X[best_candidate]
+0.87 k_means_.py(104):     for c in range(1, n_clusters):
+0.87 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.87 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.87 k_means_.py(109):                                         rand_vals)
+0.87 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.87 k_means_.py(112):                 out=candidate_ids)
+0.87 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.87 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.87 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.87 k_means_.py(120):                    out=distance_to_candidates)
+0.87 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.87 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.87 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.87 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.87 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.87 k_means_.py(130):         if sp.issparse(X):
+0.87 k_means_.py(133):             centers[c] = X[best_candidate]
+0.87 k_means_.py(104):     for c in range(1, n_clusters):
+0.87 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.87 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.87 k_means_.py(109):                                         rand_vals)
+0.87 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.87 k_means_.py(112):                 out=candidate_ids)
+0.87 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.87 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.87 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.87 k_means_.py(120):                    out=distance_to_candidates)
+0.87 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.87 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.87 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.87 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.87 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.87 k_means_.py(130):         if sp.issparse(X):
+0.87 k_means_.py(133):             centers[c] = X[best_candidate]
+0.87 k_means_.py(104):     for c in range(1, n_clusters):
+0.87 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.87 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.87 k_means_.py(109):                                         rand_vals)
+0.87 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.87 k_means_.py(112):                 out=candidate_ids)
+0.87 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.87 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.87 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.87 k_means_.py(120):                    out=distance_to_candidates)
+0.87 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.87 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.87 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.87 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.87 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.87 k_means_.py(130):         if sp.issparse(X):
+0.87 k_means_.py(133):             centers[c] = X[best_candidate]
+0.87 k_means_.py(104):     for c in range(1, n_clusters):
+0.87 k_means_.py(135):     return centers
+0.87 k_means_.py(756):     if sp.issparse(centers):
+0.87 k_means_.py(759):     _validate_center_shape(X, k, centers)
+0.87 k_means_.py(143):     if len(centers) != n_centers:
+0.87 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+0.87 k_means_.py(760):     return centers
+0.87 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+0.87 k_means_.py(430):     if verbose:
+0.87 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+0.87 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+0.87 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+0.87 k_means_.py(169):     if not sample_weight_was_none:
+0.87 k_means_.py(175):     return sample_weight
+0.87 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+0.87 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+0.87 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+0.90 k_means_.py(437):     if sample_weight is None:
+0.90 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+0.90 k_means_.py(443):     return labels, inertia, centers, n_iter
+0.90 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+0.90 k_means_.py(375):                 best_labels = labels.copy()
+0.90 k_means_.py(376):                 best_centers = centers.copy()
+0.90 k_means_.py(377):                 best_inertia = inertia
+0.90 k_means_.py(378):                 best_n_iter = n_iter_
+0.90 k_means_.py(366):         for it in range(n_init):
+0.90 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+0.90 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+0.90 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+0.90 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+0.90 k_means_.py(372):                 random_state=random_state)
+0.90 k_means_.py(421):     if sp.issparse(X):
+0.90 k_means_.py(423):     random_state = check_random_state(random_state)
+0.90 k_means_.py(424):     if x_squared_norms is None:
+0.90 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+0.90 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+0.90 k_means_.py(717):     random_state = check_random_state(random_state)
+0.90 k_means_.py(718):     n_samples = X.shape[0]
+0.90 k_means_.py(720):     if x_squared_norms is None:
+0.90 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+0.90 k_means_.py(734):     elif n_samples < k:
+0.90 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+0.90 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+0.90 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+0.90 k_means_.py(77):     n_samples, n_features = X.shape
+0.90 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+0.90 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+0.90 k_means_.py(84):     if n_local_trials is None:
+0.90 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+0.90 k_means_.py(91):     center_id = random_state.randint(n_samples)
+0.90 k_means_.py(92):     if sp.issparse(X):
+0.90 k_means_.py(95):         centers[0] = X[center_id]
+0.90 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+0.90 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+0.90 k_means_.py(100):         squared=True)
+0.93 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.93 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.93 k_means_.py(120):                    out=distance_to_candidates)
+0.93 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.93 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.93 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.93 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.93 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.93 k_means_.py(130):         if sp.issparse(X):
+0.93 k_means_.py(133):             centers[c] = X[best_candidate]
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.93 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.93 k_means_.py(120):                    out=distance_to_candidates)
+0.93 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.93 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.93 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.93 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.93 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.93 k_means_.py(130):         if sp.issparse(X):
+0.93 k_means_.py(133):             centers[c] = X[best_candidate]
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.93 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.93 k_means_.py(120):                    out=distance_to_candidates)
+0.93 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.93 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.93 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.93 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.93 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.93 k_means_.py(130):         if sp.issparse(X):
+0.93 k_means_.py(133):             centers[c] = X[best_candidate]
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.93 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.93 k_means_.py(120):                    out=distance_to_candidates)
+0.93 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.93 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.93 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.93 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.93 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.93 k_means_.py(130):         if sp.issparse(X):
+0.93 k_means_.py(133):             centers[c] = X[best_candidate]
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.93 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.93 k_means_.py(120):                    out=distance_to_candidates)
+0.93 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.93 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.93 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.93 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.93 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.93 k_means_.py(130):         if sp.issparse(X):
+0.93 k_means_.py(133):             centers[c] = X[best_candidate]
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.93 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.93 k_means_.py(120):                    out=distance_to_candidates)
+0.93 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.93 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.93 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.93 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.93 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.93 k_means_.py(130):         if sp.issparse(X):
+0.93 k_means_.py(133):             centers[c] = X[best_candidate]
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.93 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.93 k_means_.py(120):                    out=distance_to_candidates)
+0.93 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.93 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.93 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.93 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.93 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.93 k_means_.py(130):         if sp.issparse(X):
+0.93 k_means_.py(133):             centers[c] = X[best_candidate]
+0.93 k_means_.py(104):     for c in range(1, n_clusters):
+0.93 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.93 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.93 k_means_.py(109):                                         rand_vals)
+0.93 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.93 k_means_.py(112):                 out=candidate_ids)
+0.93 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.93 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.94 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.94 k_means_.py(120):                    out=distance_to_candidates)
+0.94 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.94 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.94 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.94 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.94 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.94 k_means_.py(130):         if sp.issparse(X):
+0.94 k_means_.py(133):             centers[c] = X[best_candidate]
+0.94 k_means_.py(104):     for c in range(1, n_clusters):
+0.94 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.94 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.94 k_means_.py(109):                                         rand_vals)
+0.94 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.94 k_means_.py(112):                 out=candidate_ids)
+0.94 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.94 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.94 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.94 k_means_.py(120):                    out=distance_to_candidates)
+0.94 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.94 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.94 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.94 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.94 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.94 k_means_.py(130):         if sp.issparse(X):
+0.94 k_means_.py(133):             centers[c] = X[best_candidate]
+0.94 k_means_.py(104):     for c in range(1, n_clusters):
+0.94 k_means_.py(135):     return centers
+0.94 k_means_.py(756):     if sp.issparse(centers):
+0.94 k_means_.py(759):     _validate_center_shape(X, k, centers)
+0.94 k_means_.py(143):     if len(centers) != n_centers:
+0.94 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+0.94 k_means_.py(760):     return centers
+0.94 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+0.94 k_means_.py(430):     if verbose:
+0.94 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+0.94 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+0.94 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+0.94 k_means_.py(169):     if not sample_weight_was_none:
+0.94 k_means_.py(175):     return sample_weight
+0.94 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+0.94 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+0.94 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+0.99 k_means_.py(437):     if sample_weight is None:
+0.99 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+0.99 k_means_.py(443):     return labels, inertia, centers, n_iter
+0.99 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+0.99 k_means_.py(366):         for it in range(n_init):
+0.99 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+0.99 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+0.99 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+0.99 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+0.99 k_means_.py(372):                 random_state=random_state)
+0.99 k_means_.py(421):     if sp.issparse(X):
+0.99 k_means_.py(423):     random_state = check_random_state(random_state)
+0.99 k_means_.py(424):     if x_squared_norms is None:
+0.99 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+0.99 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+0.99 k_means_.py(717):     random_state = check_random_state(random_state)
+0.99 k_means_.py(718):     n_samples = X.shape[0]
+0.99 k_means_.py(720):     if x_squared_norms is None:
+0.99 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+0.99 k_means_.py(734):     elif n_samples < k:
+0.99 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+0.99 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+0.99 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+0.99 k_means_.py(77):     n_samples, n_features = X.shape
+0.99 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+0.99 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+0.99 k_means_.py(84):     if n_local_trials is None:
+0.99 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+0.99 k_means_.py(91):     center_id = random_state.randint(n_samples)
+0.99 k_means_.py(92):     if sp.issparse(X):
+0.99 k_means_.py(95):         centers[0] = X[center_id]
+0.99 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+0.99 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+0.99 k_means_.py(100):         squared=True)
+0.99 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+0.99 k_means_.py(104):     for c in range(1, n_clusters):
+0.99 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.99 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.99 k_means_.py(109):                                         rand_vals)
+0.99 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.99 k_means_.py(112):                 out=candidate_ids)
+0.99 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.99 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.99 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.99 k_means_.py(120):                    out=distance_to_candidates)
+0.99 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.99 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.99 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.99 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.99 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.99 k_means_.py(130):         if sp.issparse(X):
+0.99 k_means_.py(133):             centers[c] = X[best_candidate]
+0.99 k_means_.py(104):     for c in range(1, n_clusters):
+0.99 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.99 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.99 k_means_.py(109):                                         rand_vals)
+0.99 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.99 k_means_.py(112):                 out=candidate_ids)
+0.99 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.99 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.99 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.99 k_means_.py(120):                    out=distance_to_candidates)
+0.99 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.99 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.99 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.99 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.99 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.99 k_means_.py(130):         if sp.issparse(X):
+0.99 k_means_.py(133):             centers[c] = X[best_candidate]
+0.99 k_means_.py(104):     for c in range(1, n_clusters):
+0.99 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.99 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.99 k_means_.py(109):                                         rand_vals)
+0.99 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.99 k_means_.py(112):                 out=candidate_ids)
+0.99 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.99 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+0.99 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+0.99 k_means_.py(120):                    out=distance_to_candidates)
+0.99 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+0.99 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+0.99 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+0.99 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+0.99 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+0.99 k_means_.py(130):         if sp.issparse(X):
+0.99 k_means_.py(133):             centers[c] = X[best_candidate]
+0.99 k_means_.py(104):     for c in range(1, n_clusters):
+0.99 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+0.99 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+0.99 k_means_.py(109):                                         rand_vals)
+0.99 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+0.99 k_means_.py(112):                 out=candidate_ids)
+0.99 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+0.99 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.00 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.00 k_means_.py(120):                    out=distance_to_candidates)
+1.00 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.00 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.00 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.00 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.00 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.00 k_means_.py(130):         if sp.issparse(X):
+1.00 k_means_.py(133):             centers[c] = X[best_candidate]
+1.00 k_means_.py(104):     for c in range(1, n_clusters):
+1.00 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.00 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.00 k_means_.py(109):                                         rand_vals)
+1.00 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.00 k_means_.py(112):                 out=candidate_ids)
+1.00 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.00 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.00 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.00 k_means_.py(120):                    out=distance_to_candidates)
+1.00 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.00 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.00 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.00 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.00 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.00 k_means_.py(130):         if sp.issparse(X):
+1.00 k_means_.py(133):             centers[c] = X[best_candidate]
+1.00 k_means_.py(104):     for c in range(1, n_clusters):
+1.00 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.00 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.00 k_means_.py(109):                                         rand_vals)
+1.00 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.00 k_means_.py(112):                 out=candidate_ids)
+1.00 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.00 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.00 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.00 k_means_.py(120):                    out=distance_to_candidates)
+1.00 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.00 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.00 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.00 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.00 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.00 k_means_.py(130):         if sp.issparse(X):
+1.00 k_means_.py(133):             centers[c] = X[best_candidate]
+1.00 k_means_.py(104):     for c in range(1, n_clusters):
+1.00 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.00 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.00 k_means_.py(109):                                         rand_vals)
+1.00 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.00 k_means_.py(112):                 out=candidate_ids)
+1.00 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.00 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.00 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.00 k_means_.py(120):                    out=distance_to_candidates)
+1.00 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.00 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.00 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.00 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.00 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.00 k_means_.py(130):         if sp.issparse(X):
+1.00 k_means_.py(133):             centers[c] = X[best_candidate]
+1.00 k_means_.py(104):     for c in range(1, n_clusters):
+1.00 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.00 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.00 k_means_.py(109):                                         rand_vals)
+1.00 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.00 k_means_.py(112):                 out=candidate_ids)
+1.00 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.00 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.00 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.00 k_means_.py(120):                    out=distance_to_candidates)
+1.00 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.00 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.00 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.00 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.00 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.00 k_means_.py(130):         if sp.issparse(X):
+1.00 k_means_.py(133):             centers[c] = X[best_candidate]
+1.00 k_means_.py(104):     for c in range(1, n_clusters):
+1.00 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.00 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.00 k_means_.py(109):                                         rand_vals)
+1.00 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.00 k_means_.py(112):                 out=candidate_ids)
+1.00 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.00 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.00 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.00 k_means_.py(120):                    out=distance_to_candidates)
+1.00 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.00 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.00 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.00 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.00 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.00 k_means_.py(130):         if sp.issparse(X):
+1.00 k_means_.py(133):             centers[c] = X[best_candidate]
+1.00 k_means_.py(104):     for c in range(1, n_clusters):
+1.00 k_means_.py(135):     return centers
+1.00 k_means_.py(756):     if sp.issparse(centers):
+1.00 k_means_.py(759):     _validate_center_shape(X, k, centers)
+1.00 k_means_.py(143):     if len(centers) != n_centers:
+1.00 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+1.00 k_means_.py(760):     return centers
+1.00 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+1.00 k_means_.py(430):     if verbose:
+1.00 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+1.00 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+1.00 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+1.00 k_means_.py(169):     if not sample_weight_was_none:
+1.00 k_means_.py(175):     return sample_weight
+1.00 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+1.00 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+1.00 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+1.02 k_means_.py(437):     if sample_weight is None:
+1.02 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+1.02 k_means_.py(443):     return labels, inertia, centers, n_iter
+1.02 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+1.02 k_means_.py(366):         for it in range(n_init):
+1.02 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+1.02 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+1.02 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+1.02 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+1.02 k_means_.py(372):                 random_state=random_state)
+1.02 k_means_.py(421):     if sp.issparse(X):
+1.02 k_means_.py(423):     random_state = check_random_state(random_state)
+1.02 k_means_.py(424):     if x_squared_norms is None:
+1.02 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+1.02 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+1.02 k_means_.py(717):     random_state = check_random_state(random_state)
+1.02 k_means_.py(718):     n_samples = X.shape[0]
+1.02 k_means_.py(720):     if x_squared_norms is None:
+1.02 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+1.02 k_means_.py(734):     elif n_samples < k:
+1.02 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+1.02 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+1.02 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+1.02 k_means_.py(77):     n_samples, n_features = X.shape
+1.02 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+1.02 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+1.02 k_means_.py(84):     if n_local_trials is None:
+1.02 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+1.02 k_means_.py(91):     center_id = random_state.randint(n_samples)
+1.02 k_means_.py(92):     if sp.issparse(X):
+1.02 k_means_.py(95):         centers[0] = X[center_id]
+1.02 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+1.02 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+1.02 k_means_.py(100):         squared=True)
+1.02 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+1.02 k_means_.py(104):     for c in range(1, n_clusters):
+1.02 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.02 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.02 k_means_.py(109):                                         rand_vals)
+1.02 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.02 k_means_.py(112):                 out=candidate_ids)
+1.02 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.02 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.02 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.02 k_means_.py(120):                    out=distance_to_candidates)
+1.02 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.02 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.02 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.02 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.02 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.02 k_means_.py(130):         if sp.issparse(X):
+1.02 k_means_.py(133):             centers[c] = X[best_candidate]
+1.02 k_means_.py(104):     for c in range(1, n_clusters):
+1.02 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.02 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.02 k_means_.py(109):                                         rand_vals)
+1.02 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.02 k_means_.py(112):                 out=candidate_ids)
+1.02 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.02 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.03 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.03 k_means_.py(109):                                         rand_vals)
+1.03 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.03 k_means_.py(112):                 out=candidate_ids)
+1.03 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.03 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.03 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.03 k_means_.py(109):                                         rand_vals)
+1.03 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.03 k_means_.py(112):                 out=candidate_ids)
+1.03 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.03 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.03 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.03 k_means_.py(109):                                         rand_vals)
+1.03 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.03 k_means_.py(112):                 out=candidate_ids)
+1.03 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.03 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.03 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.03 k_means_.py(109):                                         rand_vals)
+1.03 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.03 k_means_.py(112):                 out=candidate_ids)
+1.03 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.03 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.03 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.03 k_means_.py(109):                                         rand_vals)
+1.03 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.03 k_means_.py(112):                 out=candidate_ids)
+1.03 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.03 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.03 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.03 k_means_.py(109):                                         rand_vals)
+1.03 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.03 k_means_.py(112):                 out=candidate_ids)
+1.03 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.03 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.03 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.03 k_means_.py(109):                                         rand_vals)
+1.03 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.03 k_means_.py(112):                 out=candidate_ids)
+1.03 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.03 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.03 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.03 k_means_.py(120):                    out=distance_to_candidates)
+1.03 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.03 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.03 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.03 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.03 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.03 k_means_.py(130):         if sp.issparse(X):
+1.03 k_means_.py(133):             centers[c] = X[best_candidate]
+1.03 k_means_.py(104):     for c in range(1, n_clusters):
+1.03 k_means_.py(135):     return centers
+1.03 k_means_.py(756):     if sp.issparse(centers):
+1.03 k_means_.py(759):     _validate_center_shape(X, k, centers)
+1.03 k_means_.py(143):     if len(centers) != n_centers:
+1.03 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+1.03 k_means_.py(760):     return centers
+1.03 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+1.03 k_means_.py(430):     if verbose:
+1.03 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+1.03 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+1.03 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+1.03 k_means_.py(169):     if not sample_weight_was_none:
+1.03 k_means_.py(175):     return sample_weight
+1.03 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+1.03 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+1.03 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+1.04 k_means_.py(437):     if sample_weight is None:
+1.04 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+1.04 k_means_.py(443):     return labels, inertia, centers, n_iter
+1.04 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+1.04 k_means_.py(366):         for it in range(n_init):
+1.04 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+1.04 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+1.04 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+1.04 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+1.04 k_means_.py(372):                 random_state=random_state)
+1.04 k_means_.py(421):     if sp.issparse(X):
+1.04 k_means_.py(423):     random_state = check_random_state(random_state)
+1.04 k_means_.py(424):     if x_squared_norms is None:
+1.04 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+1.04 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+1.04 k_means_.py(717):     random_state = check_random_state(random_state)
+1.04 k_means_.py(718):     n_samples = X.shape[0]
+1.04 k_means_.py(720):     if x_squared_norms is None:
+1.04 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+1.04 k_means_.py(734):     elif n_samples < k:
+1.04 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+1.04 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+1.04 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+1.04 k_means_.py(77):     n_samples, n_features = X.shape
+1.04 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+1.04 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+1.04 k_means_.py(84):     if n_local_trials is None:
+1.04 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+1.04 k_means_.py(91):     center_id = random_state.randint(n_samples)
+1.04 k_means_.py(92):     if sp.issparse(X):
+1.04 k_means_.py(95):         centers[0] = X[center_id]
+1.04 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+1.04 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+1.04 k_means_.py(100):         squared=True)
+1.04 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+1.04 k_means_.py(104):     for c in range(1, n_clusters):
+1.04 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.04 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.04 k_means_.py(109):                                         rand_vals)
+1.04 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.04 k_means_.py(112):                 out=candidate_ids)
+1.04 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.04 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.04 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.04 k_means_.py(120):                    out=distance_to_candidates)
+1.04 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.04 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.04 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.04 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.04 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.04 k_means_.py(130):         if sp.issparse(X):
+1.04 k_means_.py(133):             centers[c] = X[best_candidate]
+1.04 k_means_.py(104):     for c in range(1, n_clusters):
+1.04 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.04 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.04 k_means_.py(109):                                         rand_vals)
+1.04 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.04 k_means_.py(112):                 out=candidate_ids)
+1.04 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.04 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.04 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.04 k_means_.py(120):                    out=distance_to_candidates)
+1.04 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.04 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.04 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.04 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.04 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.04 k_means_.py(130):         if sp.issparse(X):
+1.04 k_means_.py(133):             centers[c] = X[best_candidate]
+1.04 k_means_.py(104):     for c in range(1, n_clusters):
+1.04 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.04 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.04 k_means_.py(109):                                         rand_vals)
+1.04 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.04 k_means_.py(112):                 out=candidate_ids)
+1.04 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.04 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.04 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.04 k_means_.py(120):                    out=distance_to_candidates)
+1.04 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.04 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.04 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.04 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.04 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.04 k_means_.py(130):         if sp.issparse(X):
+1.04 k_means_.py(133):             centers[c] = X[best_candidate]
+1.04 k_means_.py(104):     for c in range(1, n_clusters):
+1.04 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.04 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.05 k_means_.py(109):                                         rand_vals)
+1.05 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.05 k_means_.py(112):                 out=candidate_ids)
+1.05 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.05 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.05 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.05 k_means_.py(120):                    out=distance_to_candidates)
+1.05 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.05 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.05 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.05 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.05 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.05 k_means_.py(130):         if sp.issparse(X):
+1.05 k_means_.py(133):             centers[c] = X[best_candidate]
+1.05 k_means_.py(104):     for c in range(1, n_clusters):
+1.05 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.05 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.05 k_means_.py(109):                                         rand_vals)
+1.05 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.05 k_means_.py(112):                 out=candidate_ids)
+1.05 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.05 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.05 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.05 k_means_.py(120):                    out=distance_to_candidates)
+1.05 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.05 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.05 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.05 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.05 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.05 k_means_.py(130):         if sp.issparse(X):
+1.05 k_means_.py(133):             centers[c] = X[best_candidate]
+1.05 k_means_.py(104):     for c in range(1, n_clusters):
+1.05 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.05 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.05 k_means_.py(109):                                         rand_vals)
+1.05 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.05 k_means_.py(112):                 out=candidate_ids)
+1.05 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.05 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.05 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.05 k_means_.py(120):                    out=distance_to_candidates)
+1.05 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.05 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.05 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.05 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.05 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.05 k_means_.py(130):         if sp.issparse(X):
+1.05 k_means_.py(133):             centers[c] = X[best_candidate]
+1.05 k_means_.py(104):     for c in range(1, n_clusters):
+1.05 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.05 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.05 k_means_.py(109):                                         rand_vals)
+1.05 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.05 k_means_.py(112):                 out=candidate_ids)
+1.05 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.05 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.05 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.05 k_means_.py(120):                    out=distance_to_candidates)
+1.05 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.05 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.05 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.05 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.05 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.05 k_means_.py(130):         if sp.issparse(X):
+1.05 k_means_.py(133):             centers[c] = X[best_candidate]
+1.05 k_means_.py(104):     for c in range(1, n_clusters):
+1.05 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.05 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.05 k_means_.py(109):                                         rand_vals)
+1.05 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.05 k_means_.py(112):                 out=candidate_ids)
+1.05 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.05 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.05 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.05 k_means_.py(120):                    out=distance_to_candidates)
+1.05 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.05 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.05 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.05 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.05 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.05 k_means_.py(130):         if sp.issparse(X):
+1.05 k_means_.py(133):             centers[c] = X[best_candidate]
+1.05 k_means_.py(104):     for c in range(1, n_clusters):
+1.05 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.05 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.05 k_means_.py(109):                                         rand_vals)
+1.05 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.05 k_means_.py(112):                 out=candidate_ids)
+1.05 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.05 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.05 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.05 k_means_.py(120):                    out=distance_to_candidates)
+1.05 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.05 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.05 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.05 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.05 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.05 k_means_.py(130):         if sp.issparse(X):
+1.05 k_means_.py(133):             centers[c] = X[best_candidate]
+1.05 k_means_.py(104):     for c in range(1, n_clusters):
+1.05 k_means_.py(135):     return centers
+1.05 k_means_.py(756):     if sp.issparse(centers):
+1.05 k_means_.py(759):     _validate_center_shape(X, k, centers)
+1.05 k_means_.py(143):     if len(centers) != n_centers:
+1.05 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+1.05 k_means_.py(760):     return centers
+1.05 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+1.05 k_means_.py(430):     if verbose:
+1.05 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+1.05 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+1.05 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+1.05 k_means_.py(169):     if not sample_weight_was_none:
+1.05 k_means_.py(175):     return sample_weight
+1.05 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+1.05 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+1.05 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+1.06 k_means_.py(437):     if sample_weight is None:
+1.06 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+1.06 k_means_.py(443):     return labels, inertia, centers, n_iter
+1.06 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+1.06 k_means_.py(366):         for it in range(n_init):
+1.06 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+1.06 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+1.06 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+1.06 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+1.06 k_means_.py(372):                 random_state=random_state)
+1.06 k_means_.py(421):     if sp.issparse(X):
+1.06 k_means_.py(423):     random_state = check_random_state(random_state)
+1.06 k_means_.py(424):     if x_squared_norms is None:
+1.06 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+1.06 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+1.06 k_means_.py(717):     random_state = check_random_state(random_state)
+1.06 k_means_.py(718):     n_samples = X.shape[0]
+1.06 k_means_.py(720):     if x_squared_norms is None:
+1.06 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+1.06 k_means_.py(734):     elif n_samples < k:
+1.06 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+1.06 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+1.06 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+1.06 k_means_.py(77):     n_samples, n_features = X.shape
+1.06 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+1.06 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+1.06 k_means_.py(84):     if n_local_trials is None:
+1.06 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+1.06 k_means_.py(91):     center_id = random_state.randint(n_samples)
+1.06 k_means_.py(92):     if sp.issparse(X):
+1.06 k_means_.py(95):         centers[0] = X[center_id]
+1.06 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+1.06 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+1.06 k_means_.py(100):         squared=True)
+1.06 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+1.06 k_means_.py(104):     for c in range(1, n_clusters):
+1.06 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.06 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.06 k_means_.py(109):                                         rand_vals)
+1.06 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.06 k_means_.py(112):                 out=candidate_ids)
+1.06 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.06 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.06 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.06 k_means_.py(120):                    out=distance_to_candidates)
+1.06 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.06 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.06 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.06 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.06 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.06 k_means_.py(130):         if sp.issparse(X):
+1.06 k_means_.py(133):             centers[c] = X[best_candidate]
+1.06 k_means_.py(104):     for c in range(1, n_clusters):
+1.06 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.06 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.06 k_means_.py(109):                                         rand_vals)
+1.06 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.06 k_means_.py(112):                 out=candidate_ids)
+1.06 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.06 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.06 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.06 k_means_.py(120):                    out=distance_to_candidates)
+1.06 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.06 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.06 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.06 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.06 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.06 k_means_.py(130):         if sp.issparse(X):
+1.06 k_means_.py(133):             centers[c] = X[best_candidate]
+1.06 k_means_.py(104):     for c in range(1, n_clusters):
+1.06 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.06 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.06 k_means_.py(109):                                         rand_vals)
+1.06 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.06 k_means_.py(112):                 out=candidate_ids)
+1.06 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.06 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.06 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.06 k_means_.py(120):                    out=distance_to_candidates)
+1.06 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.06 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.06 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.06 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.06 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.06 k_means_.py(130):         if sp.issparse(X):
+1.06 k_means_.py(133):             centers[c] = X[best_candidate]
+1.06 k_means_.py(104):     for c in range(1, n_clusters):
+1.06 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.06 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.06 k_means_.py(109):                                         rand_vals)
+1.06 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.06 k_means_.py(112):                 out=candidate_ids)
+1.06 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.06 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.06 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.06 k_means_.py(120):                    out=distance_to_candidates)
+1.06 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.06 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.06 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.06 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.06 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.06 k_means_.py(130):         if sp.issparse(X):
+1.06 k_means_.py(133):             centers[c] = X[best_candidate]
+1.06 k_means_.py(104):     for c in range(1, n_clusters):
+1.06 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.06 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.06 k_means_.py(109):                                         rand_vals)
+1.06 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.06 k_means_.py(112):                 out=candidate_ids)
+1.06 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.06 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.07 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.07 k_means_.py(120):                    out=distance_to_candidates)
+1.07 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.07 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.07 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.07 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.07 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.07 k_means_.py(130):         if sp.issparse(X):
+1.07 k_means_.py(133):             centers[c] = X[best_candidate]
+1.07 k_means_.py(104):     for c in range(1, n_clusters):
+1.07 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.07 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.07 k_means_.py(109):                                         rand_vals)
+1.07 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.07 k_means_.py(112):                 out=candidate_ids)
+1.07 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.07 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.07 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.07 k_means_.py(120):                    out=distance_to_candidates)
+1.07 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.07 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.07 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.07 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.07 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.07 k_means_.py(130):         if sp.issparse(X):
+1.07 k_means_.py(133):             centers[c] = X[best_candidate]
+1.07 k_means_.py(104):     for c in range(1, n_clusters):
+1.07 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.07 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.07 k_means_.py(109):                                         rand_vals)
+1.07 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.07 k_means_.py(112):                 out=candidate_ids)
+1.07 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.07 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.07 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.07 k_means_.py(120):                    out=distance_to_candidates)
+1.07 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.07 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.07 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.07 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.07 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.07 k_means_.py(130):         if sp.issparse(X):
+1.07 k_means_.py(133):             centers[c] = X[best_candidate]
+1.07 k_means_.py(104):     for c in range(1, n_clusters):
+1.07 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.07 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.07 k_means_.py(109):                                         rand_vals)
+1.07 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.07 k_means_.py(112):                 out=candidate_ids)
+1.07 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.07 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.07 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.07 k_means_.py(120):                    out=distance_to_candidates)
+1.07 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.07 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.07 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.07 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.07 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.07 k_means_.py(130):         if sp.issparse(X):
+1.07 k_means_.py(133):             centers[c] = X[best_candidate]
+1.07 k_means_.py(104):     for c in range(1, n_clusters):
+1.07 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.07 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.07 k_means_.py(109):                                         rand_vals)
+1.07 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.07 k_means_.py(112):                 out=candidate_ids)
+1.07 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.07 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.07 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.07 k_means_.py(120):                    out=distance_to_candidates)
+1.07 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.07 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.07 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.07 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.07 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.07 k_means_.py(130):         if sp.issparse(X):
+1.07 k_means_.py(133):             centers[c] = X[best_candidate]
+1.07 k_means_.py(104):     for c in range(1, n_clusters):
+1.07 k_means_.py(135):     return centers
+1.07 k_means_.py(756):     if sp.issparse(centers):
+1.07 k_means_.py(759):     _validate_center_shape(X, k, centers)
+1.07 k_means_.py(143):     if len(centers) != n_centers:
+1.07 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+1.07 k_means_.py(760):     return centers
+1.07 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+1.07 k_means_.py(430):     if verbose:
+1.07 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+1.07 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+1.07 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+1.07 k_means_.py(169):     if not sample_weight_was_none:
+1.07 k_means_.py(175):     return sample_weight
+1.07 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+1.07 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+1.07 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+1.09 k_means_.py(437):     if sample_weight is None:
+1.09 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+1.09 k_means_.py(443):     return labels, inertia, centers, n_iter
+1.09 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+1.09 k_means_.py(366):         for it in range(n_init):
+1.09 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+1.09 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+1.09 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+1.09 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+1.09 k_means_.py(372):                 random_state=random_state)
+1.09 k_means_.py(421):     if sp.issparse(X):
+1.09 k_means_.py(423):     random_state = check_random_state(random_state)
+1.09 k_means_.py(424):     if x_squared_norms is None:
+1.09 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+1.09 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+1.09 k_means_.py(717):     random_state = check_random_state(random_state)
+1.09 k_means_.py(718):     n_samples = X.shape[0]
+1.09 k_means_.py(720):     if x_squared_norms is None:
+1.09 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+1.09 k_means_.py(734):     elif n_samples < k:
+1.09 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+1.09 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+1.09 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+1.09 k_means_.py(77):     n_samples, n_features = X.shape
+1.09 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+1.09 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+1.09 k_means_.py(84):     if n_local_trials is None:
+1.09 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+1.09 k_means_.py(91):     center_id = random_state.randint(n_samples)
+1.09 k_means_.py(92):     if sp.issparse(X):
+1.09 k_means_.py(95):         centers[0] = X[center_id]
+1.09 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+1.09 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+1.09 k_means_.py(100):         squared=True)
+1.09 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+1.09 k_means_.py(104):     for c in range(1, n_clusters):
+1.09 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.09 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.09 k_means_.py(109):                                         rand_vals)
+1.09 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.09 k_means_.py(112):                 out=candidate_ids)
+1.09 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.09 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.09 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.09 k_means_.py(120):                    out=distance_to_candidates)
+1.09 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.09 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.09 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.09 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.09 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.09 k_means_.py(130):         if sp.issparse(X):
+1.09 k_means_.py(133):             centers[c] = X[best_candidate]
+1.09 k_means_.py(104):     for c in range(1, n_clusters):
+1.09 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.09 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.09 k_means_.py(109):                                         rand_vals)
+1.09 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.09 k_means_.py(112):                 out=candidate_ids)
+1.09 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.09 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.09 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.09 k_means_.py(120):                    out=distance_to_candidates)
+1.09 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.09 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.09 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.09 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.09 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.09 k_means_.py(130):         if sp.issparse(X):
+1.09 k_means_.py(133):             centers[c] = X[best_candidate]
+1.09 k_means_.py(104):     for c in range(1, n_clusters):
+1.09 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.09 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.09 k_means_.py(109):                                         rand_vals)
+1.09 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.09 k_means_.py(112):                 out=candidate_ids)
+1.09 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.09 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.09 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.09 k_means_.py(120):                    out=distance_to_candidates)
+1.09 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.09 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.09 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.09 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.09 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.09 k_means_.py(130):         if sp.issparse(X):
+1.09 k_means_.py(133):             centers[c] = X[best_candidate]
+1.09 k_means_.py(104):     for c in range(1, n_clusters):
+1.09 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.09 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.09 k_means_.py(109):                                         rand_vals)
+1.09 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.09 k_means_.py(112):                 out=candidate_ids)
+1.09 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.09 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.09 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.09 k_means_.py(120):                    out=distance_to_candidates)
+1.09 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.09 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.09 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.09 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.09 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.09 k_means_.py(130):         if sp.issparse(X):
+1.09 k_means_.py(133):             centers[c] = X[best_candidate]
+1.09 k_means_.py(104):     for c in range(1, n_clusters):
+1.09 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.09 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.09 k_means_.py(109):                                         rand_vals)
+1.09 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.09 k_means_.py(112):                 out=candidate_ids)
+1.09 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.09 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.09 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.09 k_means_.py(120):                    out=distance_to_candidates)
+1.09 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.09 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.09 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.09 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.09 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.09 k_means_.py(130):         if sp.issparse(X):
+1.09 k_means_.py(133):             centers[c] = X[best_candidate]
+1.09 k_means_.py(104):     for c in range(1, n_clusters):
+1.09 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.09 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.09 k_means_.py(109):                                         rand_vals)
+1.09 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.09 k_means_.py(112):                 out=candidate_ids)
+1.09 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.09 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.09 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.09 k_means_.py(120):                    out=distance_to_candidates)
+1.09 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.09 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.09 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.09 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.09 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.09 k_means_.py(130):         if sp.issparse(X):
+1.09 k_means_.py(133):             centers[c] = X[best_candidate]
+1.09 k_means_.py(104):     for c in range(1, n_clusters):
+1.09 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.09 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.09 k_means_.py(109):                                         rand_vals)
+1.09 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.09 k_means_.py(112):                 out=candidate_ids)
+1.09 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.09 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.10 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.10 k_means_.py(120):                    out=distance_to_candidates)
+1.10 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.10 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.10 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.10 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.10 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.10 k_means_.py(130):         if sp.issparse(X):
+1.10 k_means_.py(133):             centers[c] = X[best_candidate]
+1.10 k_means_.py(104):     for c in range(1, n_clusters):
+1.10 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.10 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.10 k_means_.py(109):                                         rand_vals)
+1.10 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.10 k_means_.py(112):                 out=candidate_ids)
+1.10 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.10 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.10 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.10 k_means_.py(120):                    out=distance_to_candidates)
+1.10 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.10 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.10 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.10 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.10 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.10 k_means_.py(130):         if sp.issparse(X):
+1.10 k_means_.py(133):             centers[c] = X[best_candidate]
+1.10 k_means_.py(104):     for c in range(1, n_clusters):
+1.10 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.10 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.10 k_means_.py(109):                                         rand_vals)
+1.10 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.10 k_means_.py(112):                 out=candidate_ids)
+1.10 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.10 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.10 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.10 k_means_.py(120):                    out=distance_to_candidates)
+1.10 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.10 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.10 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.10 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.10 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.10 k_means_.py(130):         if sp.issparse(X):
+1.10 k_means_.py(133):             centers[c] = X[best_candidate]
+1.10 k_means_.py(104):     for c in range(1, n_clusters):
+1.10 k_means_.py(135):     return centers
+1.10 k_means_.py(756):     if sp.issparse(centers):
+1.10 k_means_.py(759):     _validate_center_shape(X, k, centers)
+1.10 k_means_.py(143):     if len(centers) != n_centers:
+1.10 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+1.10 k_means_.py(760):     return centers
+1.10 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+1.10 k_means_.py(430):     if verbose:
+1.10 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+1.10 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+1.10 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+1.10 k_means_.py(169):     if not sample_weight_was_none:
+1.10 k_means_.py(175):     return sample_weight
+1.10 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+1.10 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+1.10 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+1.11 k_means_.py(437):     if sample_weight is None:
+1.11 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+1.11 k_means_.py(443):     return labels, inertia, centers, n_iter
+1.11 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+1.11 k_means_.py(366):         for it in range(n_init):
+1.11 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+1.11 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+1.11 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+1.11 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+1.11 k_means_.py(372):                 random_state=random_state)
+1.11 k_means_.py(421):     if sp.issparse(X):
+1.11 k_means_.py(423):     random_state = check_random_state(random_state)
+1.11 k_means_.py(424):     if x_squared_norms is None:
+1.11 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+1.11 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+1.11 k_means_.py(717):     random_state = check_random_state(random_state)
+1.11 k_means_.py(718):     n_samples = X.shape[0]
+1.11 k_means_.py(720):     if x_squared_norms is None:
+1.11 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+1.11 k_means_.py(734):     elif n_samples < k:
+1.11 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+1.11 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+1.11 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+1.11 k_means_.py(77):     n_samples, n_features = X.shape
+1.11 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+1.11 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+1.11 k_means_.py(84):     if n_local_trials is None:
+1.11 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+1.11 k_means_.py(91):     center_id = random_state.randint(n_samples)
+1.11 k_means_.py(92):     if sp.issparse(X):
+1.11 k_means_.py(95):         centers[0] = X[center_id]
+1.11 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+1.11 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+1.11 k_means_.py(100):         squared=True)
+1.11 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.11 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.11 k_means_.py(109):                                         rand_vals)
+1.11 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.11 k_means_.py(112):                 out=candidate_ids)
+1.11 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.11 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.11 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.11 k_means_.py(120):                    out=distance_to_candidates)
+1.11 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.11 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.11 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.11 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.11 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.11 k_means_.py(130):         if sp.issparse(X):
+1.11 k_means_.py(133):             centers[c] = X[best_candidate]
+1.11 k_means_.py(104):     for c in range(1, n_clusters):
+1.11 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.12 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.12 k_means_.py(109):                                         rand_vals)
+1.12 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.12 k_means_.py(112):                 out=candidate_ids)
+1.12 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.12 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.12 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.12 k_means_.py(120):                    out=distance_to_candidates)
+1.12 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.12 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.12 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.12 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.12 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.12 k_means_.py(130):         if sp.issparse(X):
+1.12 k_means_.py(133):             centers[c] = X[best_candidate]
+1.12 k_means_.py(104):     for c in range(1, n_clusters):
+1.12 k_means_.py(135):     return centers
+1.12 k_means_.py(756):     if sp.issparse(centers):
+1.12 k_means_.py(759):     _validate_center_shape(X, k, centers)
+1.12 k_means_.py(143):     if len(centers) != n_centers:
+1.12 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+1.12 k_means_.py(760):     return centers
+1.12 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+1.12 k_means_.py(430):     if verbose:
+1.12 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+1.12 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+1.12 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+1.12 k_means_.py(169):     if not sample_weight_was_none:
+1.12 k_means_.py(175):     return sample_weight
+1.12 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+1.12 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+1.12 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+1.13 k_means_.py(437):     if sample_weight is None:
+1.13 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+1.13 k_means_.py(443):     return labels, inertia, centers, n_iter
+1.13 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+1.13 k_means_.py(366):         for it in range(n_init):
+1.13 k_means_.py(368):             labels, inertia, centers, n_iter_ = kmeans_single(
+1.13 k_means_.py(369):                 X, sample_weight, n_clusters, max_iter=max_iter, init=init,
+1.13 k_means_.py(370):                 verbose=verbose, precompute_distances=precompute_distances,
+1.13 k_means_.py(371):                 tol=tol, x_squared_norms=x_squared_norms,
+1.13 k_means_.py(372):                 random_state=random_state)
+1.13 k_means_.py(421):     if sp.issparse(X):
+1.13 k_means_.py(423):     random_state = check_random_state(random_state)
+1.13 k_means_.py(424):     if x_squared_norms is None:
+1.13 k_means_.py(427):     centers = _init_centroids(X, n_clusters, init, random_state=random_state,
+1.13 k_means_.py(428):                               x_squared_norms=x_squared_norms)
+1.13 k_means_.py(717):     random_state = check_random_state(random_state)
+1.13 k_means_.py(718):     n_samples = X.shape[0]
+1.13 k_means_.py(720):     if x_squared_norms is None:
+1.13 k_means_.py(723):     if init_size is not None and init_size < n_samples:
+1.13 k_means_.py(734):     elif n_samples < k:
+1.13 k_means_.py(738):     if isinstance(init, str) and init == 'k-means++':
+1.13 k_means_.py(739):         centers = _k_init(X, k, random_state=random_state,
+1.13 k_means_.py(740):                           x_squared_norms=x_squared_norms)
+1.13 k_means_.py(77):     n_samples, n_features = X.shape
+1.13 k_means_.py(79):     centers = np.empty((n_clusters, n_features), dtype=X.dtype)
+1.13 k_means_.py(81):     assert x_squared_norms is not None, 'x_squared_norms None in _k_init'
+1.13 k_means_.py(84):     if n_local_trials is None:
+1.13 k_means_.py(88):         n_local_trials = 2 + int(np.log(n_clusters))
+1.13 k_means_.py(91):     center_id = random_state.randint(n_samples)
+1.13 k_means_.py(92):     if sp.issparse(X):
+1.13 k_means_.py(95):         centers[0] = X[center_id]
+1.13 k_means_.py(98):     closest_dist_sq = euclidean_distances(
+1.13 k_means_.py(99):         centers[0, np.newaxis], X, Y_norm_squared=x_squared_norms,
+1.13 k_means_.py(100):         squared=True)
+1.13 k_means_.py(101):     current_pot = closest_dist_sq.sum()
+1.13 k_means_.py(104):     for c in range(1, n_clusters):
+1.13 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.13 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.13 k_means_.py(109):                                         rand_vals)
+1.13 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.13 k_means_.py(112):                 out=candidate_ids)
+1.13 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.13 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.13 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.13 k_means_.py(120):                    out=distance_to_candidates)
+1.13 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.13 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.13 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.13 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.13 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.13 k_means_.py(130):         if sp.issparse(X):
+1.13 k_means_.py(133):             centers[c] = X[best_candidate]
+1.13 k_means_.py(104):     for c in range(1, n_clusters):
+1.13 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.13 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.13 k_means_.py(109):                                         rand_vals)
+1.13 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.13 k_means_.py(112):                 out=candidate_ids)
+1.13 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.13 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.14 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.14 k_means_.py(109):                                         rand_vals)
+1.14 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.14 k_means_.py(112):                 out=candidate_ids)
+1.14 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.14 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.14 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.14 k_means_.py(109):                                         rand_vals)
+1.14 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.14 k_means_.py(112):                 out=candidate_ids)
+1.14 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.14 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.14 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.14 k_means_.py(109):                                         rand_vals)
+1.14 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.14 k_means_.py(112):                 out=candidate_ids)
+1.14 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.14 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.14 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.14 k_means_.py(109):                                         rand_vals)
+1.14 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.14 k_means_.py(112):                 out=candidate_ids)
+1.14 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.14 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.14 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.14 k_means_.py(109):                                         rand_vals)
+1.14 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.14 k_means_.py(112):                 out=candidate_ids)
+1.14 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.14 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.14 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.14 k_means_.py(109):                                         rand_vals)
+1.14 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.14 k_means_.py(112):                 out=candidate_ids)
+1.14 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.14 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(107):         rand_vals = random_state.random_sample(n_local_trials) * current_pot
+1.14 k_means_.py(108):         candidate_ids = np.searchsorted(stable_cumsum(closest_dist_sq),
+1.14 k_means_.py(109):                                         rand_vals)
+1.14 k_means_.py(111):         np.clip(candidate_ids, None, closest_dist_sq.size - 1,
+1.14 k_means_.py(112):                 out=candidate_ids)
+1.14 k_means_.py(115):         distance_to_candidates = euclidean_distances(
+1.14 k_means_.py(116):             X[candidate_ids], X, Y_norm_squared=x_squared_norms, squared=True)
+1.14 k_means_.py(119):         np.minimum(closest_dist_sq, distance_to_candidates,
+1.14 k_means_.py(120):                    out=distance_to_candidates)
+1.14 k_means_.py(121):         candidates_pot = distance_to_candidates.sum(axis=1)
+1.14 k_means_.py(124):         best_candidate = np.argmin(candidates_pot)
+1.14 k_means_.py(125):         current_pot = candidates_pot[best_candidate]
+1.14 k_means_.py(126):         closest_dist_sq = distance_to_candidates[best_candidate]
+1.14 k_means_.py(127):         best_candidate = candidate_ids[best_candidate]
+1.14 k_means_.py(130):         if sp.issparse(X):
+1.14 k_means_.py(133):             centers[c] = X[best_candidate]
+1.14 k_means_.py(104):     for c in range(1, n_clusters):
+1.14 k_means_.py(135):     return centers
+1.14 k_means_.py(756):     if sp.issparse(centers):
+1.14 k_means_.py(759):     _validate_center_shape(X, k, centers)
+1.14 k_means_.py(143):     if len(centers) != n_centers:
+1.14 k_means_.py(147):     if centers.shape[1] != X.shape[1]:
+1.14 k_means_.py(760):     return centers
+1.14 k_means_.py(429):     centers = np.ascontiguousarray(centers)
+1.14 k_means_.py(430):     if verbose:
+1.14 k_means_.py(433):     checked_sample_weight = _check_normalize_sample_weight(sample_weight, X)
+1.14 k_means_.py(166):     sample_weight_was_none = sample_weight is None
+1.14 k_means_.py(168):     sample_weight = _check_sample_weight(sample_weight, X, dtype=X.dtype)
+1.14 k_means_.py(169):     if not sample_weight_was_none:
+1.14 k_means_.py(175):     return sample_weight
+1.14 k_means_.py(434):     centers, labels, n_iter = k_means_elkan(X, checked_sample_weight,
+1.14 k_means_.py(435):                                             n_clusters, centers, tol=tol,
+1.14 k_means_.py(436):                                             max_iter=max_iter, verbose=verbose)
+1.15 k_means_.py(437):     if sample_weight is None:
+1.15 k_means_.py(438):         inertia = np.sum((X - centers[labels]) ** 2, dtype=np.float64)
+1.15 k_means_.py(443):     return labels, inertia, centers, n_iter
+1.15 k_means_.py(374):             if best_inertia is None or inertia < best_inertia:
+1.15 k_means_.py(366):         for it in range(n_init):
+1.15 k_means_.py(399):     if not sp.issparse(X):
+1.15 k_means_.py(400):         if not copy_x:
+1.15 k_means_.py(402):         best_centers += X_mean
+1.15 k_means_.py(404):     distinct_clusters = len(set(best_labels))
+1.16 k_means_.py(405):     if distinct_clusters < n_clusters:
+1.16 k_means_.py(411):     if return_n_iter:
+1.16 k_means_.py(412):         return best_centers, best_labels, best_inertia, best_n_iter
+1.16 k_means_.py(964):         return self
+1.16 k_means_.py(912):         self.n_clusters = n_clusters
+1.16 k_means_.py(913):         self.init = init
+1.16 k_means_.py(914):         self.max_iter = max_iter
+1.16 k_means_.py(915):         self.tol = tol
+1.16 k_means_.py(916):         self.precompute_distances = precompute_distances
+1.16 k_means_.py(917):         self.n_init = n_init
+1.16 k_means_.py(918):         self.verbose = verbose
+1.16 k_means_.py(919):         self.random_state = random_state
+1.16 k_means_.py(920):         self.copy_x = copy_x
+1.16 k_means_.py(921):         self.n_jobs = n_jobs
+1.16 k_means_.py(922):         self.algorithm = algorithm
+1.16 k_means_.py(953):         random_state = check_random_state(self.random_state)
+1.16 k_means_.py(956):             k_means(
+1.16 k_means_.py(957):                 X, n_clusters=self.n_clusters, sample_weight=sample_weight,
+1.16 k_means_.py(958):                 init=self.init, n_init=self.n_init,
+1.16 k_means_.py(959):                 max_iter=self.max_iter, verbose=self.verbose,
+1.16 k_means_.py(960):                 precompute_distances=self.precompute_distances,
+1.16 k_means_.py(961):                 tol=self.tol, random_state=random_state, copy_x=self.copy_x,
+1.16 k_means_.py(962):                 n_jobs=self.n_jobs, algorithm=self.algorithm,
+1.16 k_means_.py(963):                 return_n_iter=True)
+1.16 k_means_.py(291):     if n_init <= 0:
+1.16 k_means_.py(294):     random_state = check_random_state(random_state)
+1.16 k_means_.py(296):     if max_iter <= 0:
+1.16 k_means_.py(301):     order = "C" if copy_x else None
+1.16 k_means_.py(302):     X = check_array(X, accept_sparse='csr', dtype=[np.float64, np.float32],
+1.16 k_means_.py(303):                     order=order, copy=copy_x)
+1.16 k_means_.py(305):     if _num_samples(X) < n_clusters:
+1.16 k_means_.py(309):     tol = _tolerance(X, tol)
+1.16 k_means_.py(156):     if sp.issparse(X):
+1.16 k_means_.py(159):         variances = np.var(X, axis=0)
+1.16 k_means_.py(160):     return np.mean(variances) * tol
+1.16 k_means_.py(315):     if precompute_distances == 'auto':
+1.16 k_means_.py(316):         n_samples = X.shape[0]
+1.16 k_means_.py(317):         precompute_distances = (n_clusters * n_samples) < 12e6
+1.16 k_means_.py(326):     if hasattr(init, '__array__'):
+1.16 k_means_.py(338):     if not sp.issparse(X):
+1.16 k_means_.py(339):         X_mean = X.mean(axis=0)
+1.16 k_means_.py(341):         X -= X_mean
+1.16 k_means_.py(343):         if hasattr(init, '__array__'):
+1.16 k_means_.py(347):     x_squared_norms = row_norms(X, squared=True)
+1.16 k_means_.py(349):     best_labels, best_inertia, best_centers = None, None, None
+1.16 k_means_.py(350):     if n_clusters == 1:
+1.16 k_means_.py(354):     if algorithm == "auto":
+1.16 k_means_.py(355):         algorithm = "full" if sp.issparse(X) else 'elkan'
+1.16 k_means_.py(356):     if algorithm == "full":
+1.16 k_means_.py(358):     elif algorithm == "elkan":
+1.16 k_means_.py(359):         kmeans_single = _kmeans_single_elkan
+1.16 k_means_.py(363):     if effective_n_jobs(n_jobs) == 1:
+1.16 k_means_.py(381):         seeds = random_state.randint(np.iinfo(np.int32).max, size=n_init)
+1.16 k_means_.py(382):         results = Parallel(n_jobs=n_jobs, verbose=0)(
+1.16 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.16 k_means_.py(390):             for seed in seeds)
+1.17 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.17 k_means_.py(390):             for seed in seeds)
+1.17 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.17 k_means_.py(390):             for seed in seeds)
+1.19 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.20 k_means_.py(390):             for seed in seeds)
+1.20 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.20 k_means_.py(390):             for seed in seeds)
+1.63 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.63 k_means_.py(390):             for seed in seeds)
+1.63 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.63 k_means_.py(390):             for seed in seeds)
+1.69 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.69 k_means_.py(390):             for seed in seeds)
+1.69 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.69 k_means_.py(390):             for seed in seeds)
+1.72 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.72 k_means_.py(390):             for seed in seeds)
+1.72 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.72 k_means_.py(390):             for seed in seeds)
+1.75 k_means_.py(383):             delayed(kmeans_single)(X, sample_weight, n_clusters,
+1.77 k_means_.py(392):         labels, inertia, centers, n_iters = zip(*results)
+1.77 k_means_.py(393):         best = np.argmin(inertia)
+1.77 k_means_.py(394):         best_labels = labels[best]
+1.77 k_means_.py(395):         best_inertia = inertia[best]
+1.77 k_means_.py(396):         best_centers = centers[best]
+1.77 k_means_.py(397):         best_n_iter = n_iters[best]
+1.77 k_means_.py(399):     if not sp.issparse(X):
+1.77 k_means_.py(400):         if not copy_x:
+1.77 k_means_.py(402):         best_centers += X_mean
+1.77 k_means_.py(404):     distinct_clusters = len(set(best_labels))
+1.77 k_means_.py(405):     if distinct_clusters < n_clusters:
+1.77 k_means_.py(411):     if return_n_iter:
+1.77 k_means_.py(412):         return best_centers, best_labels, best_inertia, best_n_iter
+1.77 k_means_.py(964):         return self
+=========================== short test summary info ============================
+FAILED sklearn/tests/test_coverup_scikit-learn__scikit-learn-9288.py::test_kmeans_inertia_with_different_n_jobs
+========================= 1 failed, 1 warning in 1.49s =========================
++ cat coverage.cover
+{"/testbed/sklearn/cluster/k_means_.py": {"14": 1, "16": 1, "17": 1, "18": 1, "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "41": 1, "141": 1, "154": 1, "163": 1, "181": 1, "420": 1, "449": 1, "575": 1, "624": 1, "684": 1, "763": 2, "1105": 1, "1247": 1, "1311": 2, "77": 10, "79": 10, "81": 10, "84": 10, "88": 10, "91": 10, "92": 10, "93": 0, "95": 10, "98": 10, "99": 10, "100": 10, "101": 10, "104": 100, "107": 90, "108": 90, "109": 90, "111": 90, "112": 90, "115": 90, "116": 90, "119": 90, "120": 90, "121": 90, "124": 90, "125": 90, "126": 90, "127": 90, "130": 90, "131": 0, "133": 90, "135": 10, "143": 10, "144": 0, "146": 0, "147": 10, "148": 0, "149": 0, "151": 0, "156": 2, "157": 0, "159": 2, "160": 2, "166": 10, "168": 10, "169": 10, "172": 0, "173": 0, "174": 0, "175": 10, "291": 2, "292": 0, "293": 0, "294": 2, "296": 2, "297": 0, "298": 0, "301": 2, "302": 2, "303": 2, "305": 2, "306": 0, "307": 0, "309": 2, "315": 2, "316": 2, "317": 2, "318": 0, "319": 0, "321": 0, "323": 0, "326": 2, "327": 0, "328": 0, "330": 0, "331": 0, "332": 0, "334": 0, "335": 0, "338": 2, "339": 2, "341": 2, "343": 2, "344": 0, "347": 2, "349": 2, "350": 2, "353": 0, "354": 2, "355": 2, "356": 2, "357": 0, "358": 2, "359": 2, "361": 0, "362": 0, "363": 2, "366": 11, "368": 10, "369": 10, "370": 10, "371": 10, "372": 10, "374": 10, "375": 2, "376": 2, "377": 2, "378": 2, "381": 1, "382": 1, "383": 12, "390": 11, "392": 1, "393": 1, "394": 1, "395": 1, "396": 1, "397": 1, "399": 2, "400": 2, "401": 0, "402": 2, "404": 2, "405": 2, "406": 0, "408": 0, "409": 0, "411": 2, "412": 2, "414": 0, "421": 10, "422": 0, "423": 10, "424": 10, "425": 0, "427": 10, "428": 10, "429": 10, "430": 10, "431": 0, "433": 10, "434": 10, "435": 10, "436": 10, "437": 10, "438": 10, "440": 0, "441": 0, "442": 0, "443": 10, "516": 0, "518": 0, "520": 0, "522": 0, "523": 0, "524": 0, "525": 0, "529": 0, "532": 0, "533": 0, "536": 0, "537": 0, "538": 0, "541": 0, "542": 0, "543": 0, "545": 0, "546": 0, "548": 0, "549": 0, "551": 0, "552": 0, "553": 0, "554": 0, "556": 0, "557": 0, "558": 0, "559": 0, "561": 0, "562": 0, "564": 0, "568": 0, "569": 0, "570": 0, "572": 0, "607": 0, "612": 0, "613": 0, "615": 0, "616": 0, "618": 0, "619": 0, "620": 0, "660": 0, "661": 0, "664": 0, "665": 0, "666": 0, "668": 0, "669": 0, "670": 0, "671": 0, "673": 0, "674": 0, "675": 0, "676": 0, "677": 0, "678": 0, "679": 0, "680": 0, "717": 10, "718": 10, "720": 10, "721": 0, "723": 10, "724": 0, "725": 0, "726": 0, "727": 0, "728": 0, "729": 0, "730": 0, "731": 0, "732": 0, "733": 0, "734": 10, "735": 0, "736": 0, "738": 10, "739": 10, "740": 10, "741": 0, "742": 0, "743": 0, "744": 0, "747": 0, "748": 0, "749": 0, "750": 0, "752": 0, "754": 0, "756": 10, "757": 0, "759": 10, "760": 10, "910": 1, "924": 1, "935": 1, "966": 1, "991": 1, "1019": 1, "1041": 1, "1045": 1, "1073": 1, "912": 2, "913": 2, "914": 2, "915": 2, "916": 2, "917": 2, "918": 2, "919": 2, "920": 2, "921": 2, "922": 2, "925": 0, "926": 0, "927": 0, "928": 0, "929": 0, "931": 0, "933": 0, "953": 2, "956": 2, "957": 2, "958": 2, "959": 2, "960": 2, "961": 2, "962": 2, "963": 2, "964": 2, "989": 0, "1017": 0, "1036": 0, "1038": 0, "1039": 0, "1043": 0, "1066": 0, "1068": 0, "1069": 0, "1070": 0, "1071": 0, "1093": 0, "1095": 0, "1096": 0, "1097": 0, "1098": 0, "1168": 0, "1169": 0, "1170": 0, "1172": 0, "1173": 0, "1175": 0, "1177": 0, "1179": 0, "1180": 0, "1181": 0, "1182": 0, "1184": 0, "1185": 0, "1186": 0, "1187": 0, "1188": 0, "1190": 0, "1191": 0, "1192": 0, "1193": 0, "1194": 0, "1196": 0, "1200": 0, "1204": 0, "1205": 0, "1206": 0, "1207": 0, "1210": 0, "1211": 0, "1212": 0, "1214": 0, "1215": 0, "1217": 0, "1218": 0, "1219": 0, "1222": 0, "1225": 0, "1226": 0, "1227": 0, "1230": 0, "1235": 0, "1238": 0, "1239": 0, "1240": 0, "1242": 0, "1251": 0, "1252": 0, "1258": 0, "1259": 0, "1260": 0, "1261": 0, "1262": 0, "1264": 0, "1265": 0, "1266": 0, "1267": 0, "1270": 0, "1272": 0, "1274": 0, "1275": 0, "1276": 0, "1280": 0, "1281": 0, "1282": 0, "1283": 0, "1284": 0, "1287": 0, "1288": 0, "1289": 0, "1290": 0, "1291": 0, "1293": 0, "1295": 0, "1296": 0, "1297": 0, "1298": 0, "1300": 0, "1301": 0, "1304": 0, "1305": 0, "1306": 0, "1307": 0, "1308": 0, "1453": 1, "1465": 1, "1616": 1, "1648": 1, "1715": 1, "1455": 0, "1456": 0, "1457": 0, "1459": 0, "1460": 0, "1461": 0, "1462": 0, "1463": 0, "1483": 0, "1484": 0, "1485": 0, "1486": 0, "1487": 0, "1488": 0, "1489": 0, "1491": 0, "1493": 0, "1494": 0, "1495": 0, "1496": 0, "1497": 0, "1498": 0, "1501": 0, "1502": 0, "1504": 0, "1506": 0, "1507": 0, "1512": 0, "1514": 0, "1517": 0, "1519": 0, "1520": 0, "1521": 0, "1523": 0, "1524": 0, "1525": 0, "1526": 0, "1527": 0, "1528": 0, "1530": 0, "1531": 0, "1532": 0, "1533": 0, "1536": 0, "1537": 0, "1538": 0, "1539": 0, "1540": 0, "1541": 0, "1548": 0, "1549": 0, "1550": 0, "1551": 0, "1552": 0, "1555": 0, "1556": 0, "1557": 0, "1558": 0, "1559": 0, "1563": 0, "1564": 0, "1565": 0, "1566": 0, "1567": 0, "1568": 0, "1569": 0, "1570": 0, "1571": 0, "1572": 0, "1575": 0, "1579": 0, "1581": 0, "1582": 0, "1585": 0, "1586": 0, "1587": 0, "1588": 0, "1589": 0, "1595": 0, "1596": 0, "1597": 0, "1598": 0, "1599": 0, "1602": 0, "1603": 0, "1604": 0, "1605": 0, "1606": 0, "1608": 0, "1610": 0, "1612": 0, "1614": 0, "1638": 0, "1639": 0, "1640": 0, "1641": 0, "1642": 0, "1643": 0, "1644": 0, "1645": 0, "1646": 0, "1666": 0, "1667": 0, "1668": 0, "1669": 0, "1670": 0, "1672": 0, "1673": 0, "1675": 0, "1677": 0, "1678": 0, "1679": 0, "1680": 0, "1681": 0, "1684": 0, "1685": 0, "1686": 0, "1687": 0, "1689": 0, "1690": 0, "1691": 0, "1692": 0, "1697": 0, "1698": 0, "1699": 0, "1701": 0, "1702": 0, "1703": 0, "1704": 0, "1705": 0, "1706": 0, "1707": 0, "1709": 0, "1710": 0, "1711": 0, "1713": 0, "1736": 0, "1738": 0, "1739": 0}}
++ git checkout 3eacf948e0f95ef957862568d87ce082f378e186
+Note: switching to '3eacf948e0f95ef957862568d87ce082f378e186'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3eacf948e0 Set diagonal of precomputed matrix to zero in silhoutte_samples (#12258)
++ git apply /root/pre_state.patch
+error: unrecognized input

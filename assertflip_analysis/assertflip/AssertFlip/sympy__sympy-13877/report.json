@@ -1,0 +1,82 @@
+{
+    "sympy__sympy-13877": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.6666666666666666,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.3333333333333333,
+        "coverage_delta_pred": 0.3333333333333333,
+        "coverage_delta_gold": 0.6666666666666666,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_determinant_nan_and_typeerror",
+                "test_coverup_sympy__sympy-13877.py:test_determinant_nan_and_typeerror"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [
+                "test_DeferredVector_not_iterable"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_exp",
+                "test_power",
+                "test_util",
+                "test_as_real_imag",
+                "test_applyfunc",
+                "test_normalize_sort_diogonalization",
+                "test_division",
+                "test_diff",
+                "test_inv_iszerofunc",
+                "test_multiplication",
+                "test_deprecated",
+                "test_QRsolve",
+                "test_issue_3749",
+                "test_eigen",
+                "test_getattr",
+                "test_issue_5320",
+                "test_issue_4564",
+                "test_QR_non_square",
+                "test_jacobian_hessian",
+                "test_wronskian",
+                "test_inverse",
+                "test_QR",
+                "test_expand",
+                "test_pinv_solve",
+                "test_jacobian2",
+                "test_diagonalization",
+                "test_zeros_ones_fill",
+                "test_jordan_form",
+                "test_issue_10220",
+                "test_GramSchmidt",
+                "test_refine",
+                "test_jacobian_metrics",
+                "test_matrix_norm",
+                "test_inv_block",
+                "test_issue_9422",
+                "test_diagonal_solve",
+                "test_jordan_form_complex_issue_9274",
+                "test_limit",
+                "test_zip_row_op",
+                "test_print_nonzero",
+                "test_determinant"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

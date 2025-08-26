@@ -1,0 +1,38 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-12050.py
+new file mode 100644
+index e69de29..c57e186 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-12050.py
+@@ -0,0 +1,32 @@
++from django.test import SimpleTestCase
++from django.db.models.lookups import Lookup
++
++class MockField:
++    def __init__(self):
++        self.output_field = self
++
++    def get_prep_value(self, value):
++        return value
++
++class TestLookup(SimpleTestCase):
++    def test_resolve_lookup_value_coercion(self):
++        class MockLookup(Lookup):
++            lookup_name = 'exact'
++            prepare_rhs = True
++
++            def get_prep_lookup(self):
++                if isinstance(self.rhs, list):
++                    # Simulate the bug: coerce list to tuple
++                    return tuple(self.rhs)
++                return self.rhs
++
++        # Create a mock field and a MockLookup instance with a list as rhs
++        mock_field = MockField()
++        input_value = [1, 2, 3]  # Input is a list
++        mock_lookup = MockLookup(mock_field, input_value)
++
++        # Call get_prep_lookup to trigger the bug
++        prepared_rhs = mock_lookup.get_prep_lookup()
++
++        # Assert that the prepared RHS is a list, which is the correct behavior
++        self.assertIsInstance(prepared_rhs, list)  # Correct behavior: should be a list

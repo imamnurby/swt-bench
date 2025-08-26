@@ -1,0 +1,38 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-14608.py
+new file mode 100644
+index e69de29..fd0e62a 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14608.py
+@@ -0,0 +1,32 @@
++from django import forms
++from django.test import SimpleTestCase
++from django.forms import formset_factory, BaseFormSet, ValidationError
++from django.forms.utils import ErrorList
++
++class CustomErrorList(ErrorList):
++    def __init__(self, initlist=None, error_class=None):
++        super().__init__(initlist, error_class='nonform')
++
++class SimpleForm(forms.Form):
++    field = forms.CharField()
++
++class CustomFormSet(BaseFormSet):
++    def clean(self):
++        # Simulate a non-form error
++        raise ValidationError('Non-form error')
++
++class FormSetNonFormErrorsTest(SimpleTestCase):
++    def test_nonform_css_class_presence(self):
++        TestFormSet = formset_factory(SimpleForm, formset=CustomFormSet, extra=1)
++        formset_data = {
++            'form-TOTAL_FORMS': '1',
++            'form-INITIAL_FORMS': '0',
++            'form-MIN_NUM_FORMS': '0',
++            'form-MAX_NUM_FORMS': '1000',
++            'form-0-field': '',  # This will trigger a non-form error
++        }
++        formset = TestFormSet(data=formset_data)
++        formset.is_valid()  # Trigger full_clean and error processing
++
++        non_form_errors = formset.non_form_errors()
++        self.assertIn('nonform', non_form_errors.error_class)

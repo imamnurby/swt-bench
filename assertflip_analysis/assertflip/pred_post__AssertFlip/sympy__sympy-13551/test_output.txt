@@ -1,0 +1,486 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 9476425b9e34363c2d9ac38e9f04aa75ae54a775
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 9476425b9e34363c2d9ac38e9f04aa75ae54a775
+Merge: 97571bba21 022b33f03b
+Author: Chris Smith <smichr@gmail.com>
+Date:   Sun Oct 29 05:34:50 2017 -0500
+
+    Merge pull request #13548 from shu121197/patch-1
+    
+    Update definitions.py
+
++ git diff 9476425b9e34363c2d9ac38e9f04aa75ae54a775
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.1.2.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.1.2.dev0
+    Uninstalling sympy-1.1.2.dev0:
+      Successfully uninstalled sympy-1.1.2.dev0
+  DEPRECATION: Legacy editable install of sympy==1.1.2.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/concrete/products.py...
+Applied patch sympy/concrete/products.py cleanly.
++ git apply -v -
+<stdin>:14: trailing whitespace.
+    
+<stdin>:17: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-13551.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-13551.py cleanly.
+warning: 2 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/concrete/products\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-13551.p
+/testbed/sympy/core/basic.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, defaultdict
+/testbed/sympy/core/containers.py:271: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  class OrderedSet(collections.MutableSet):
+/testbed/sympy/plotting/plot.py:28: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Callable
+/testbed/sympy/core/basic.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, defaultdict
+/testbed/sympy/core/containers.py:271: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  class OrderedSet(collections.MutableSet):
+/testbed/sympy/plotting/plot.py:28: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Callable
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/concrete/products\\.py)']
+0.31 /testbed/sympy/concrete/products.py(1): from __future__ import print_function, division
+0.31 /testbed/sympy/concrete/products.py(3): from sympy.tensor.indexed import Idx
+0.31 /testbed/sympy/concrete/products.py(4): from sympy.core.mul import Mul
+0.31 /testbed/sympy/concrete/products.py(5): from sympy.core.singleton import S
+0.31 /testbed/sympy/concrete/products.py(6): from sympy.core.symbol import symbols
+0.31 /testbed/sympy/concrete/products.py(7): from sympy.concrete.expr_with_intlimits import ExprWithIntLimits
+0.31 /testbed/sympy/concrete/products.py(8): from sympy.functions.elementary.exponential import exp, log
+0.31 /testbed/sympy/concrete/products.py(9): from sympy.polys import quo, roots
+0.31 /testbed/sympy/concrete/products.py(10): from sympy.simplify import powsimp
+0.31 /testbed/sympy/concrete/products.py(11): from sympy.core.compatibility import range
+0.31 /testbed/sympy/concrete/products.py(14): class Product(ExprWithIntLimits):
+0.31 /testbed/sympy/concrete/products.py(14): class Product(ExprWithIntLimits):
+0.31 /testbed/sympy/concrete/products.py(15):     r"""Represents unevaluated products.
+0.31 /testbed/sympy/concrete/products.py(189):     __slots__ = ['is_commutative']
+0.31 /testbed/sympy/concrete/products.py(191):     def __new__(cls, function, *symbols, **assumptions):
+0.31 /testbed/sympy/concrete/products.py(195):     def _eval_rewrite_as_Sum(self, *args):
+0.31 /testbed/sympy/concrete/products.py(199):     @property
+0.31 /testbed/sympy/concrete/products.py(200):     def term(self):
+0.31 /testbed/sympy/concrete/products.py(202):     function = term
+0.31 /testbed/sympy/concrete/products.py(204):     def _eval_is_zero(self):
+0.31 /testbed/sympy/concrete/products.py(208):     def doit(self, **hints):
+0.31 /testbed/sympy/concrete/products.py(228):     def _eval_adjoint(self):
+0.31 /testbed/sympy/concrete/products.py(233):     def _eval_conjugate(self):
+0.31 /testbed/sympy/concrete/products.py(236):     def _eval_product(self, term, limits):
+0.31 /testbed/sympy/concrete/products.py(329):     def _eval_simplify(self, ratio, measure):
+0.31 /testbed/sympy/concrete/products.py(333):     def _eval_transpose(self):
+0.31 /testbed/sympy/concrete/products.py(338):     def is_convergent(self):
+0.31 /testbed/sympy/concrete/products.py(397):     def reverse_order(expr, *indices):
+0.31 /testbed/sympy/concrete/products.py(481): def product(*args, **kwargs):
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        23399834
+hash randomization: on (PYTHONHASHSEED=1731362139)
+
+sympy/polys/tests/test_coverup_sympy__sympy-13551.py[1] 
+test_product_bug_exposure 0.36 /testbed/sympy/concrete/products.py(192):         obj = ExprWithIntLimits.__new__(cls, function, *symbols, **assumptions)
+0.36 /testbed/sympy/concrete/products.py(193):         return obj
+0.36 /testbed/sympy/concrete/products.py(209):         f = self.function
+0.36 /testbed/sympy/concrete/products.py(201):         return self._args[0]
+0.36 /testbed/sympy/concrete/products.py(210):         for index, limit in enumerate(self.limits):
+0.36 /testbed/sympy/concrete/products.py(211):             i, a, b = limit
+0.36 /testbed/sympy/concrete/products.py(212):             dif = b - a
+0.36 /testbed/sympy/concrete/products.py(213):             if dif.is_Integer and dif < 0:
+0.36 /testbed/sympy/concrete/products.py(217):             g = self._eval_product(f, (i, a, b))
+0.36 /testbed/sympy/concrete/products.py(237):         from sympy.concrete.delta import deltaproduct, _has_simple_delta
+0.36 /testbed/sympy/concrete/products.py(238):         from sympy.concrete.summations import summation
+0.36 /testbed/sympy/concrete/products.py(239):         from sympy.functions import KroneckerDelta, RisingFactorial
+0.36 /testbed/sympy/concrete/products.py(241):         (k, a, n) = limits
+0.36 /testbed/sympy/concrete/products.py(243):         if k not in term.free_symbols:
+0.36 /testbed/sympy/concrete/products.py(248):         if a == n:
+0.36 /testbed/sympy/concrete/products.py(251):         if term.has(KroneckerDelta) and _has_simple_delta(term, limits[0]):
+0.36 /testbed/sympy/concrete/products.py(254):         dif = n - a
+0.36 /testbed/sympy/concrete/products.py(255):         if dif.is_Integer:
+0.36 /testbed/sympy/concrete/products.py(258):         elif term.is_polynomial(k):
+0.36 /testbed/sympy/concrete/products.py(277):         elif term.is_Add:
+0.36 /testbed/sympy/concrete/products.py(278):             p, q = term.as_numer_denom()
+0.37 /testbed/sympy/concrete/products.py(279):             q = self._eval_product(q, (k, a, n))
+0.37 /testbed/sympy/concrete/products.py(237):         from sympy.concrete.delta import deltaproduct, _has_simple_delta
+0.37 /testbed/sympy/concrete/products.py(238):         from sympy.concrete.summations import summation
+0.37 /testbed/sympy/concrete/products.py(239):         from sympy.functions import KroneckerDelta, RisingFactorial
+0.37 /testbed/sympy/concrete/products.py(241):         (k, a, n) = limits
+0.37 /testbed/sympy/concrete/products.py(243):         if k not in term.free_symbols:
+0.37 /testbed/sympy/concrete/products.py(248):         if a == n:
+0.37 /testbed/sympy/concrete/products.py(251):         if term.has(KroneckerDelta) and _has_simple_delta(term, limits[0]):
+0.37 /testbed/sympy/concrete/products.py(254):         dif = n - a
+0.37 /testbed/sympy/concrete/products.py(255):         if dif.is_Integer:
+0.37 /testbed/sympy/concrete/products.py(258):         elif term.is_polynomial(k):
+0.37 /testbed/sympy/concrete/products.py(277):         elif term.is_Add:
+0.37 /testbed/sympy/concrete/products.py(291):         elif term.is_Mul:
+0.37 /testbed/sympy/concrete/products.py(310):         elif term.is_Pow:
+0.37 /testbed/sympy/concrete/products.py(311):             if not term.base.has(k):
+0.37 /testbed/sympy/concrete/products.py(312):                 s = summation(term.exp, (k, a, n))
+0.37 /testbed/sympy/concrete/products.py(314):                 return term.base**s
+0.38 /testbed/sympy/concrete/products.py(280):             if q.is_Number:
+0.38 /testbed/sympy/concrete/products.py(288):                 p = self._eval_product(p, (k, a, n))
+0.38 /testbed/sympy/concrete/products.py(237):         from sympy.concrete.delta import deltaproduct, _has_simple_delta
+0.38 /testbed/sympy/concrete/products.py(238):         from sympy.concrete.summations import summation
+0.38 /testbed/sympy/concrete/products.py(239):         from sympy.functions import KroneckerDelta, RisingFactorial
+0.38 /testbed/sympy/concrete/products.py(241):         (k, a, n) = limits
+0.38 /testbed/sympy/concrete/products.py(243):         if k not in term.free_symbols:
+0.38 /testbed/sympy/concrete/products.py(248):         if a == n:
+0.38 /testbed/sympy/concrete/products.py(251):         if term.has(KroneckerDelta) and _has_simple_delta(term, limits[0]):
+0.38 /testbed/sympy/concrete/products.py(254):         dif = n - a
+0.38 /testbed/sympy/concrete/products.py(255):         if dif.is_Integer:
+0.38 /testbed/sympy/concrete/products.py(258):         elif term.is_polynomial(k):
+0.38 /testbed/sympy/concrete/products.py(277):         elif term.is_Add:
+0.38 /testbed/sympy/concrete/products.py(278):             p, q = term.as_numer_denom()
+0.38 /testbed/sympy/concrete/products.py(279):             q = self._eval_product(q, (k, a, n))
+0.38 /testbed/sympy/concrete/products.py(237):         from sympy.concrete.delta import deltaproduct, _has_simple_delta
+0.38 /testbed/sympy/concrete/products.py(238):         from sympy.concrete.summations import summation
+0.38 /testbed/sympy/concrete/products.py(239):         from sympy.functions import KroneckerDelta, RisingFactorial
+0.38 /testbed/sympy/concrete/products.py(241):         (k, a, n) = limits
+0.38 /testbed/sympy/concrete/products.py(243):         if k not in term.free_symbols:
+0.38 /testbed/sympy/concrete/products.py(244):             if (term - 1).is_zero:
+0.38 /testbed/sympy/concrete/products.py(245):                 return S.One
+0.38 /testbed/sympy/concrete/products.py(280):             if q.is_Number:
+0.38 /testbed/sympy/concrete/products.py(285):                 from sympy.concrete.summations import Sum
+0.38 /testbed/sympy/concrete/products.py(286):                 p = exp(Sum(log(p), (k, a, n)))
+0.38 /testbed/sympy/concrete/products.py(289):             return p / q
+0.38 /testbed/sympy/concrete/products.py(289):             return p / q
+0.39 /testbed/sympy/concrete/products.py(218):             if g in (None, S.NaN):
+0.39 /testbed/sympy/concrete/products.py(221):                 f = g
+0.39 /testbed/sympy/concrete/products.py(210):         for index, limit in enumerate(self.limits):
+0.39 /testbed/sympy/concrete/products.py(223):         if hints.get('deep', True):
+0.39 /testbed/sympy/concrete/products.py(224):             return f.doit(**hints)
+F                                               [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-13551.py:test_product_bug_exposure 
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-13551.py", line 13, in test_product_bug_exposure
+    assert result == 15/2  # This is the correct expected result
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.77 seconds ==============
+DO *NOT* COMMIT!
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/concrete/products\\.py)']
+0.76 /testbed/sympy/concrete/products.py(1): from __future__ import print_function, division
+0.76 /testbed/sympy/concrete/products.py(3): from sympy.tensor.indexed import Idx
+0.76 /testbed/sympy/concrete/products.py(4): from sympy.core.mul import Mul
+0.76 /testbed/sympy/concrete/products.py(5): from sympy.core.singleton import S
+0.76 /testbed/sympy/concrete/products.py(6): from sympy.core.symbol import symbols
+0.76 /testbed/sympy/concrete/products.py(7): from sympy.concrete.expr_with_intlimits import ExprWithIntLimits
+0.76 /testbed/sympy/concrete/products.py(8): from sympy.functions.elementary.exponential import exp, log
+0.76 /testbed/sympy/concrete/products.py(9): from sympy.polys import quo, roots
+0.76 /testbed/sympy/concrete/products.py(10): from sympy.simplify import powsimp
+0.76 /testbed/sympy/concrete/products.py(11): from sympy.core.compatibility import range
+0.76 /testbed/sympy/concrete/products.py(14): class Product(ExprWithIntLimits):
+0.76 /testbed/sympy/concrete/products.py(14): class Product(ExprWithIntLimits):
+0.76 /testbed/sympy/concrete/products.py(15):     r"""Represents unevaluated products.
+0.76 /testbed/sympy/concrete/products.py(189):     __slots__ = ['is_commutative']
+0.76 /testbed/sympy/concrete/products.py(191):     def __new__(cls, function, *symbols, **assumptions):
+0.76 /testbed/sympy/concrete/products.py(195):     def _eval_rewrite_as_Sum(self, *args):
+0.76 /testbed/sympy/concrete/products.py(199):     @property
+0.76 /testbed/sympy/concrete/products.py(200):     def term(self):
+0.76 /testbed/sympy/concrete/products.py(202):     function = term
+0.76 /testbed/sympy/concrete/products.py(204):     def _eval_is_zero(self):
+0.76 /testbed/sympy/concrete/products.py(208):     def doit(self, **hints):
+0.76 /testbed/sympy/concrete/products.py(228):     def _eval_adjoint(self):
+0.76 /testbed/sympy/concrete/products.py(233):     def _eval_conjugate(self):
+0.76 /testbed/sympy/concrete/products.py(236):     def _eval_product(self, term, limits):
+0.76 /testbed/sympy/concrete/products.py(329):     def _eval_simplify(self, ratio, measure):
+0.76 /testbed/sympy/concrete/products.py(333):     def _eval_transpose(self):
+0.76 /testbed/sympy/concrete/products.py(338):     def is_convergent(self):
+0.76 /testbed/sympy/concrete/products.py(397):     def reverse_order(expr, *indices):
+0.76 /testbed/sympy/concrete/products.py(481): def product(*args, **kwargs):
++ cat coverage.cover
+{"/testbed/sympy/concrete/products.py": {"1": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "14": 2, "481": 1, "189": 1, "191": 1, "195": 1, "199": 1, "200": 1, "202": 1, "204": 1, "208": 1, "228": 1, "233": 1, "236": 1, "329": 1, "333": 1, "338": 1, "397": 1, "192": 1, "193": 1, "196": 0, "197": 0, "201": 1, "206": 0, "209": 1, "210": 2, "211": 1, "212": 1, "213": 1, "214": 0, "215": 0, "217": 1, "218": 1, "219": 0, "221": 1, "223": 1, "224": 1, "226": 0, "229": 0, "230": 0, "231": 0, "234": 0, "237": 4, "238": 4, "239": 4, "241": 4, "243": 4, "244": 1, "245": 1, "246": 0, "248": 3, "249": 0, "251": 3, "252": 0, "254": 3, "255": 3, "256": 0, "258": 3, "259": 0, "261": 0, "263": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "271": 0, "272": 0, "273": 0, "275": 0, "277": 3, "278": 2, "279": 2, "280": 2, "285": 1, "286": 1, "288": 1, "289": 2, "291": 1, "292": 0, "294": 0, "295": 0, "297": 0, "298": 0, "300": 0, "302": 0, "303": 0, "305": 0, "306": 0, "307": 0, "308": 0, "310": 1, "311": 1, "312": 1, "314": 1, "315": 0, "316": 0, "318": 0, "319": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "327": 0, "330": 0, "331": 0, "334": 0, "335": 0, "336": 0, "383": 0, "385": 0, "386": 0, "387": 0, "388": 0, "389": 0, "390": 0, "391": 0, "392": 0, "393": 0, "394": 0, "395": 0, "463": 0, "465": 0, "466": 0, "467": 0, "469": 0, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "478": 0, "512": 0, "514": 0, "515": 0, "517": 0}}
+{"/testbed/sympy/concrete/products.py": {"1": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "14": 2, "481": 1, "189": 1, "191": 1, "195": 1, "199": 1, "200": 1, "202": 1, "204": 1, "208": 1, "228": 1, "233": 1, "236": 1, "329": 1, "333": 1, "338": 1, "397": 1, "192": 0, "193": 0, "196": 0, "197": 0, "201": 0, "206": 0, "209": 0, "210": 0, "211": 0, "212": 0, "213": 0, "214": 0, "215": 0, "217": 0, "218": 0, "219": 0, "221": 0, "223": 0, "224": 0, "226": 0, "229": 0, "230": 0, "231": 0, "234": 0, "237": 0, "238": 0, "239": 0, "241": 0, "243": 0, "244": 0, "245": 0, "246": 0, "248": 0, "249": 0, "251": 0, "252": 0, "254": 0, "255": 0, "256": 0, "258": 0, "259": 0, "261": 0, "263": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "271": 0, "272": 0, "273": 0, "275": 0, "277": 0, "278": 0, "279": 0, "280": 0, "285": 0, "286": 0, "288": 0, "289": 0, "291": 0, "292": 0, "294": 0, "295": 0, "297": 0, "298": 0, "300": 0, "302": 0, "303": 0, "305": 0, "306": 0, "307": 0, "308": 0, "310": 0, "311": 0, "312": 0, "314": 0, "315": 0, "316": 0, "318": 0, "319": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "327": 0, "330": 0, "331": 0, "334": 0, "335": 0, "336": 0, "383": 0, "385": 0, "386": 0, "387": 0, "388": 0, "389": 0, "390": 0, "391": 0, "392": 0, "393": 0, "394": 0, "395": 0, "463": 0, "465": 0, "466": 0, "467": 0, "469": 0, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "478": 0, "512": 0, "514": 0, "515": 0, "517": 0}}
++ git checkout 9476425b9e34363c2d9ac38e9f04aa75ae54a775
+Note: switching to '9476425b9e34363c2d9ac38e9f04aa75ae54a775'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 9476425b9e Merge pull request #13548 from shu121197/patch-1
+M	sympy/concrete/products.py
++ git apply /root/pre_state.patch
+error: unrecognized input

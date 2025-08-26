@@ -1,0 +1,30 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24026.py
+new file mode 100644
+index e69de29..1844a7c 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-24026.py
+@@ -0,0 +1,24 @@
++import pytest
++import matplotlib.pyplot as plt
++from matplotlib.patches import Rectangle
++import numpy as np
++
++def test_stackplot_color_cycle_reference():
++    # Setup: Create a matplotlib figure and axes
++    fig, ax = plt.subplots()
++    
++    # Use color cycle references in plot and patch
++    ax.plot([1, 3], [1, 3], color='C0')
++    ax.add_patch(Rectangle(xy=(1.5, 1.5), width=0.5, height=0.5, facecolor='C1'))
++    
++    # Data for stackplot
++    my_data = np.array([[1, 1, 1], [1, 2, 3], [4, 3, 2]])
++    
++    # Check that stackplot does not raise an error when using color cycle references
++    try:
++        ax.stackplot([1, 2, 3], my_data, colors=['C2', 'C3', 'C4'])
++    except ValueError as e:
++        pytest.fail(f"Unexpected ValueError: {e}")
++    
++    # Cleanup: Close the figure to avoid resource warning
++    plt.close(fig)

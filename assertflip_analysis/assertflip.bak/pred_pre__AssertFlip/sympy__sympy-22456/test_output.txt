@@ -1,0 +1,2668 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD a3475b3f9ac662cd425157dd3bdb93ad7111c090
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit a3475b3f9ac662cd425157dd3bdb93ad7111c090
+Merge: 7ade01165f f4a486823a
+Author: Oscar Benjamin <oscar.j.benjamin@gmail.com>
+Date:   Sun Nov 14 18:24:59 2021 +0000
+
+    Merge pull request #22492 from oscargus/importcleanup_concrete_integrals
+    
+    Reordered imports and moved to top level
+
++ git diff a3475b3f9ac662cd425157dd3bdb93ad7111c090
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.10.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.10.dev0
+    Uninstalling sympy-1.10.dev0:
+      Successfully uninstalled sympy-1.10.dev0
+  DEPRECATION: Legacy editable install of sympy==1.10.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-22456.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-22456.py cleanly.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/codegen/ast\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-22456.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/codegen/ast\\.py)']
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        60636531
+hash randomization: on (PYTHONHASHSEED=2463051966)
+
+0.38 ast.py(1): """
+0.38 ast.py(129): from typing import Any, Dict as tDict, List
+0.38 ast.py(131): from collections import defaultdict
+0.38 ast.py(133): from sympy.core.relational import (Ge, Gt, Le, Lt)
+0.38 ast.py(134): from sympy.core import Symbol, Tuple, Dummy
+0.38 ast.py(135): from sympy.core.basic import Basic
+0.38 ast.py(136): from sympy.core.expr import Expr
+0.38 ast.py(137): from sympy.core.numbers import Float, Integer, oo
+0.38 ast.py(138): from sympy.core.sympify import _sympify, sympify, SympifyError
+0.38 ast.py(139): from sympy.utilities.iterables import (iterable, topological_sort,
+0.38 ast.py(143): def _mk_Tuple(args):
+0.38 ast.py(163): class CodegenAST(Basic):
+0.38 ast.py(163): class CodegenAST(Basic):
+0.38 ast.py(164):     pass
+0.38 ast.py(167): class Token(CodegenAST):
+0.38 ast.py(167): class Token(CodegenAST):
+0.38 ast.py(168):     """ Base class for the AST types.
+0.38 ast.py(185):     __slots__ = ()
+0.38 ast.py(186):     defaults = {}  # type: tDict[str, Any]
+0.38 ast.py(187):     not_in_args = []  # type: List[str]
+0.38 ast.py(188):     indented_args = ['body']
+0.38 ast.py(190):     @property
+0.38 ast.py(191):     def is_Atom(self):
+0.38 ast.py(194):     @classmethod
+0.38 ast.py(195):     def _get_constructor(cls, attr):
+0.38 ast.py(199):     @classmethod
+0.38 ast.py(200):     def _construct(cls, attr, arg):
+0.38 ast.py(211):     def __new__(cls, *args, **kwargs):
+0.38 ast.py(257):     def __eq__(self, other):
+0.38 ast.py(265):     def _hashable_content(self):
+0.38 ast.py(268):     def __hash__(self):
+0.38 ast.py(271):     def _joiner(self, k, indent_level):
+0.38 ast.py(274):     def _indented(self, printer, k, v, *args, **kwargs):
+0.38 ast.py(291):     def _sympyrepr(self, printer, *args, joiner=', ', **kwargs):
+0.38 ast.py(314):     _sympystr = _sympyrepr
+0.38 ast.py(316):     def __repr__(self):  # sympy.core.Basic.__repr__ uses sstr
+0.38 ast.py(320):     def kwargs(self, exclude=(), apply=None):
+0.38 ast.py(339): class BreakToken(Token):
+0.38 ast.py(339): class BreakToken(Token):
+0.38 ast.py(340):     """ Represents 'break' in C/Python ('exit' in Fortran).
+0.38 ast.py(355): break_ = BreakToken()
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(358): class ContinueToken(Token):
+0.38 ast.py(358): class ContinueToken(Token):
+0.38 ast.py(359):     """ Represents 'continue' in C/Python ('cycle' in Fortran)
+0.38 ast.py(374): continue_ = ContinueToken()
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(376): class NoneToken(Token):
+0.38 ast.py(376): class NoneToken(Token):
+0.38 ast.py(377):     """ The AST equivalence of Python's NoneType
+0.38 ast.py(390):     def __eq__(self, other):
+0.38 ast.py(393):     def _hashable_content(self):
+0.38 ast.py(396):     def __hash__(self):
+0.38 ast.py(400): none = NoneToken()
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(403): class AssignmentBase(CodegenAST):
+0.38 ast.py(403): class AssignmentBase(CodegenAST):
+0.38 ast.py(404):     """ Abstract base class for Assignment and AugmentedAssignment.
+0.38 ast.py(413):     def __new__(cls, lhs, rhs):
+0.38 ast.py(421):     @property
+0.38 ast.py(422):     def lhs(self):
+0.38 ast.py(425):     @property
+0.38 ast.py(426):     def rhs(self):
+0.38 ast.py(429):     @classmethod
+0.38 ast.py(430):     def _check_args(cls, lhs, rhs):
+0.38 ast.py(460): class Assignment(AssignmentBase):
+0.38 ast.py(460): class Assignment(AssignmentBase):
+0.38 ast.py(461):     """
+0.38 ast.py(497):     op = ':='
+0.38 ast.py(500): class AugmentedAssignment(AssignmentBase):
+0.38 ast.py(500): class AugmentedAssignment(AssignmentBase):
+0.38 ast.py(501):     """
+0.38 ast.py(511):     binop = None  # type: str
+0.38 ast.py(513):     @property
+0.38 ast.py(514):     def op(self):
+0.38 ast.py(518): class AddAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(518): class AddAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(519):     binop = '+'
+0.38 ast.py(522): class SubAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(522): class SubAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(523):     binop = '-'
+0.38 ast.py(526): class MulAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(526): class MulAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(527):     binop = '*'
+0.38 ast.py(530): class DivAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(530): class DivAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(531):     binop = '/'
+0.38 ast.py(534): class ModAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(534): class ModAugmentedAssignment(AugmentedAssignment):
+0.38 ast.py(535):     binop = '%'
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(541):         AddAugmentedAssignment, SubAugmentedAssignment, MulAugmentedAssignment,
+0.38 ast.py(542):         DivAugmentedAssignment, ModAugmentedAssignment
+0.38 ast.py(540):     cls.binop: cls for cls in [
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(540):     cls.binop: cls for cls in [
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(540):     cls.binop: cls for cls in [
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(540):     cls.binop: cls for cls in [
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(540):     cls.binop: cls for cls in [
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(540):     cls.binop: cls for cls in [
+0.38 ast.py(539): augassign_classes = {
+0.38 ast.py(547): def aug_assign(lhs, op, rhs):
+0.38 ast.py(590): class CodeBlock(CodegenAST):
+0.38 ast.py(590): class CodeBlock(CodegenAST):
+0.38 ast.py(591):     """
+0.38 ast.py(631):     def __new__(cls, *args):
+0.38 ast.py(646):     def __iter__(self):
+0.38 ast.py(649):     def _sympyrepr(self, printer, *args, **kwargs):
+0.38 ast.py(656):     _sympystr = _sympyrepr
+0.38 ast.py(658):     @property
+0.38 ast.py(659):     def free_symbols(self):
+0.38 ast.py(662):     @classmethod
+0.38 ast.py(663):     def topological_sort(cls, assignments):
+0.38 ast.py(746):     def cse(self, symbols=None, optimizations=None, postprocess=None,
+0.38 ast.py(810): class For(Token):
+0.38 ast.py(810): class For(Token):
+0.38 ast.py(811):     """Represents a 'for-loop' in the code.
+0.38 ast.py(853):     __slots__ = ('target', 'iterable', 'body')
+0.38 ast.py(854):     _construct_target = staticmethod(_sympify)
+0.38 ast.py(856):     @classmethod
+0.38 ast.py(857):     def _construct_body(cls, itr):
+0.38 ast.py(863):     @classmethod
+0.38 ast.py(864):     def _construct_iterable(cls, itr):
+0.38 ast.py(872): class String(Token):
+0.38 ast.py(872): class String(Token):
+0.38 ast.py(873):     """ SymPy object representing a string.
+0.38 ast.py(897):     __slots__ = ('text',)
+0.38 ast.py(898):     not_in_args = ['text']
+0.38 ast.py(899):     is_Atom = True
+0.38 ast.py(901):     @classmethod
+0.38 ast.py(902):     def _construct_text(cls, text):
+0.38 ast.py(907):     def _sympystr(self, printer, *args, **kwargs):
+0.38 ast.py(911): class QuotedString(String):
+0.38 ast.py(911): class QuotedString(String):
+0.38 ast.py(912):     """ Represents a string which should be printed with quotes. """
+0.38 ast.py(914): class Comment(String):
+0.38 ast.py(914): class Comment(String):
+0.38 ast.py(915):     """ Represents a comment. """
+0.38 ast.py(917): class Node(Token):
+0.38 ast.py(917): class Node(Token):
+0.38 ast.py(918):     """ Subclass of Token, carrying the attribute 'attrs' (Tuple)
+0.38 ast.py(938):     __slots__ = ('attrs',)
+0.38 ast.py(940):     defaults = {'attrs': Tuple()}  # type: tDict[str, Any]
+0.38 ast.py(942):     _construct_attrs = staticmethod(_mk_Tuple)
+0.38 ast.py(944):     def attr_params(self, looking_for):
+0.38 ast.py(951): class Type(Token):
+0.38 ast.py(951): class Type(Token):
+0.38 ast.py(952):     """ Represents a type.
+0.38 ast.py(1006):     __slots__ = ('name',)
+0.38 ast.py(1008):     _construct_name = String
+0.38 ast.py(1010):     def _sympystr(self, printer, *args, **kwargs):
+0.38 ast.py(1013):     @classmethod
+0.38 ast.py(1014):     def from_expr(cls, expr):
+0.38 ast.py(1056):     def _check(self, value):
+0.38 ast.py(1059):     def cast_check(self, value, rtol=None, atol=0, precision_targets=None):
+0.38 ast.py(1127): class IntBaseType(Type):
+0.38 ast.py(1127): class IntBaseType(Type):
+0.38 ast.py(1128):     """ Integer base type, contains no size information. """
+0.38 ast.py(1129):     __slots__ = ('name',)
+0.38 ast.py(1130):     cast_nocheck = lambda self, i: Integer(int(i))
+0.38 ast.py(1133): class _SizedIntType(IntBaseType):
+0.38 ast.py(1133): class _SizedIntType(IntBaseType):
+0.38 ast.py(1134):     __slots__ = ('name', 'nbits',)
+0.38 ast.py(1136):     _construct_nbits = Integer
+0.38 ast.py(1138):     def _check(self, value):
+0.38 ast.py(1145): class SignedIntType(_SizedIntType):
+0.38 ast.py(1145): class SignedIntType(_SizedIntType):
+0.38 ast.py(1146):     """ Represents a signed integer type. """
+0.38 ast.py(1147):     @property
+0.38 ast.py(1148):     def min(self):
+0.38 ast.py(1151):     @property
+0.38 ast.py(1152):     def max(self):
+0.38 ast.py(1156): class UnsignedIntType(_SizedIntType):
+0.38 ast.py(1156): class UnsignedIntType(_SizedIntType):
+0.38 ast.py(1157):     """ Represents an unsigned integer type. """
+0.38 ast.py(1158):     @property
+0.38 ast.py(1159):     def min(self):
+0.38 ast.py(1162):     @property
+0.38 ast.py(1163):     def max(self):
+0.38 ast.py(1166): two = Integer(2)
+0.38 ast.py(1168): class FloatBaseType(Type):
+0.38 ast.py(1168): class FloatBaseType(Type):
+0.38 ast.py(1169):     """ Represents a floating point number type. """
+0.38 ast.py(1170):     cast_nocheck = Float
+0.38 ast.py(1172): class FloatType(FloatBaseType):
+0.38 ast.py(1172): class FloatType(FloatBaseType):
+0.38 ast.py(1173):     """ Represents a floating point type with fixed bit width.
+0.38 ast.py(1213):     __slots__ = ('name', 'nbits', 'nmant', 'nexp',)
+0.38 ast.py(1215):     _construct_nbits = _construct_nmant = _construct_nexp = Integer
+0.38 ast.py(1218):     @property
+0.38 ast.py(1219):     def max_exponent(self):
+0.38 ast.py(1224):     @property
+0.38 ast.py(1225):     def min_exponent(self):
+0.38 ast.py(1230):     @property
+0.38 ast.py(1231):     def max(self):
+0.38 ast.py(1235):     @property
+0.38 ast.py(1236):     def tiny(self):
+0.38 ast.py(1244):     @property
+0.38 ast.py(1245):     def eps(self):
+0.38 ast.py(1249):     @property
+0.38 ast.py(1250):     def dig(self):
+0.38 ast.py(1259):     @property
+0.38 ast.py(1260):     def decimal_dig(self):
+0.38 ast.py(1274):     def cast_nocheck(self, value):
+0.38 ast.py(1282):     def _check(self, value):
+0.38 ast.py(1290): class ComplexBaseType(FloatBaseType):
+0.38 ast.py(1290): class ComplexBaseType(FloatBaseType):
+0.38 ast.py(1292):     def cast_nocheck(self, value):
+0.38 ast.py(1300):     def _check(self, value):
+0.38 ast.py(1306): class ComplexType(ComplexBaseType, FloatType):
+0.38 ast.py(1306): class ComplexType(ComplexBaseType, FloatType):
+0.38 ast.py(1307):     """ Represents a complex floating point number. """
+0.38 ast.py(1311): intc = IntBaseType('intc')
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1312): intp = IntBaseType('intp')
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1313): int8 = SignedIntType('int8', 8)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1314): int16 = SignedIntType('int16', 16)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1315): int32 = SignedIntType('int32', 32)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1316): int64 = SignedIntType('int64', 64)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1317): uint8 = UnsignedIntType('uint8', 8)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1318): uint16 = UnsignedIntType('uint16', 16)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1319): uint32 = UnsignedIntType('uint32', 32)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1320): uint64 = UnsignedIntType('uint64', 64)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1321): float16 = FloatType('float16', 16, nexp=5, nmant=10)  # IEEE 754 binary16, Half precision
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1322): float32 = FloatType('float32', 32, nexp=8, nmant=23)  # IEEE 754 binary32, Single precision
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1323): float64 = FloatType('float64', 64, nexp=11, nmant=52)  # IEEE 754 binary64, Double precision
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1324): float80 = FloatType('float80', 80, nexp=15, nmant=63)  # x86 extended precision (1 integer part bit), "long double"
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1325): float128 = FloatType('float128', 128, nexp=15, nmant=112)  # IEEE 754 binary128, Quadruple precision
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1326): float256 = FloatType('float256', 256, nexp=19, nmant=236)  # IEEE 754 binary256, Octuple precision
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1328): complex64 = ComplexType('complex64', nbits=64, **float32.kwargs(exclude=('name', 'nbits')))
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(333):         if apply is not None:
+0.38 ast.py(336):             return kwargs
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1329): complex128 = ComplexType('complex128', nbits=128, **float64.kwargs(exclude=('name', 'nbits')))
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(332):         kwargs = {k: getattr(self, k) for k in self.__slots__ if k not in exclude}
+0.38 ast.py(333):         if apply is not None:
+0.38 ast.py(336):             return kwargs
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(230):             if attrname in kwargs:
+0.38 ast.py(231):                 argval = kwargs.pop(attrname)
+0.38 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1332): untyped = Type('untyped')
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1333): real = FloatBaseType('real')
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1334): integer = IntBaseType('integer')
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1335): complex_ = ComplexBaseType('complex')
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.38 ast.py(219):         attrvals = []
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(223):             if attrname in kwargs:
+0.38 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.38 ast.py(203):         if arg == None:
+0.38 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.38 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.38 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.38 ast.py(903):         if not isinstance(text, str):
+0.38 ast.py(905):         return text
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.38 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.38 ast.py(241):         if kwargs:
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(247):             if attr not in cls.not_in_args
+0.38 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.38 ast.py(245):         basic_args = [
+0.38 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(253):             setattr(obj, attr, arg)
+0.38 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.38 ast.py(255):         return obj
+0.38 ast.py(1336): bool_ = Type('bool')
+0.38 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.38 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(903):         if not isinstance(text, str):
+0.39 ast.py(905):         return text
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(1339): class Attribute(Token):
+0.39 ast.py(1339): class Attribute(Token):
+0.39 ast.py(1340):     """ Attribute (possibly parametrized)
+0.39 ast.py(1366):     __slots__ = ('name', 'parameters')
+0.39 ast.py(1367):     defaults = {'parameters': Tuple()}
+0.39 ast.py(1369):     _construct_name = String
+0.39 ast.py(1370):     _construct_parameters = staticmethod(_mk_Tuple)
+0.39 ast.py(1372):     def _sympystr(self, printer, *args, **kwargs):
+0.39 ast.py(1379): value_const = Attribute('value_const')
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(903):         if not isinstance(text, str):
+0.39 ast.py(905):         return text
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(230):             if attrname in kwargs:
+0.39 ast.py(233):             elif attrname in cls.defaults:
+0.39 ast.py(234):                 argval = cls.defaults[attrname]
+0.39 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(159):     args = [String(arg) if isinstance(arg, str) else arg for arg in args]
+0.39 ast.py(159):     args = [String(arg) if isinstance(arg, str) else arg for arg in args]
+0.39 ast.py(160):     return Tuple(*args)
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(1380): pointer_const = Attribute('pointer_const')
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(903):         if not isinstance(text, str):
+0.39 ast.py(905):         return text
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(230):             if attrname in kwargs:
+0.39 ast.py(233):             elif attrname in cls.defaults:
+0.39 ast.py(234):                 argval = cls.defaults[attrname]
+0.39 ast.py(239):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(159):     args = [String(arg) if isinstance(arg, str) else arg for arg in args]
+0.39 ast.py(159):     args = [String(arg) if isinstance(arg, str) else arg for arg in args]
+0.39 ast.py(160):     return Tuple(*args)
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(1383): class Variable(Node):
+0.39 ast.py(1383): class Variable(Node):
+0.39 ast.py(1384):     """ Represents a variable.
+0.39 ast.py(1433):     __slots__ = ('symbol', 'type', 'value') + Node.__slots__
+0.39 ast.py(1435):     defaults = Node.defaults.copy()
+0.39 ast.py(1436):     defaults.update({'type': untyped, 'value': none})
+0.39 ast.py(1438):     _construct_symbol = staticmethod(sympify)
+0.39 ast.py(1439):     _construct_value = staticmethod(sympify)
+0.39 ast.py(1441):     @classmethod
+0.39 ast.py(1442):     def deduced(cls, symbol, value=None, attrs=Tuple(), cast_check=True):
+0.39 ast.py(1486):     def as_Declaration(self, **kwargs):
+0.39 ast.py(1518):     def _relation(self, rhs, op):
+0.39 ast.py(1525):     __lt__ = lambda self, other: self._relation(other, Lt)
+0.39 ast.py(1526):     __le__ = lambda self, other: self._relation(other, Le)
+0.39 ast.py(1527):     __ge__ = lambda self, other: self._relation(other, Ge)
+0.39 ast.py(1528):     __gt__ = lambda self, other: self._relation(other, Gt)
+0.39 ast.py(1530): class Pointer(Variable):
+0.39 ast.py(1530): class Pointer(Variable):
+0.39 ast.py(1531):     """ Represents a pointer. See ``Variable``.
+0.39 ast.py(1547):     def __getitem__(self, key):
+0.39 ast.py(1554): class Element(Token):
+0.39 ast.py(1554): class Element(Token):
+0.39 ast.py(1555):     """ Element in (a possibly N-dimensional) array.
+0.39 ast.py(1573):     __slots__ = ('symbol', 'indices', 'strides', 'offset')
+0.39 ast.py(1574):     defaults = {'strides': none, 'offset': none}
+0.39 ast.py(1575):     _construct_symbol = staticmethod(sympify)
+0.39 ast.py(1576):     _construct_indices = staticmethod(lambda arg: Tuple(*arg))
+0.39 ast.py(1577):     _construct_strides = staticmethod(lambda arg: Tuple(*arg))
+0.39 ast.py(1578):     _construct_offset = staticmethod(sympify)
+0.39 ast.py(1581): class Declaration(Token):
+0.39 ast.py(1581): class Declaration(Token):
+0.39 ast.py(1582):     """ Represents a variable declaration
+0.39 ast.py(1604):     __slots__ = ('variable',)
+0.39 ast.py(1605):     _construct_variable = Variable
+0.39 ast.py(1608): class While(Token):
+0.39 ast.py(1608): class While(Token):
+0.39 ast.py(1609):     """ Represents a 'for-loop' in the code.
+0.39 ast.py(1635):     __slots__ = ('condition', 'body')
+0.39 ast.py(1636):     _construct_condition = staticmethod(lambda cond: _sympify(cond))
+0.39 ast.py(1638):     @classmethod
+0.39 ast.py(1639):     def _construct_body(cls, itr):
+0.39 ast.py(1646): class Scope(Token):
+0.39 ast.py(1646): class Scope(Token):
+0.39 ast.py(1647):     """ Represents a scope in the code.
+0.39 ast.py(1656):     __slots__ = ('body',)
+0.39 ast.py(1658):     @classmethod
+0.39 ast.py(1659):     def _construct_body(cls, itr):
+0.39 ast.py(1666): class Stream(Token):
+0.39 ast.py(1666): class Stream(Token):
+0.39 ast.py(1667):     """ Represents a stream.
+0.39 ast.py(1689):     __slots__ = ('name',)
+0.39 ast.py(1690):     _construct_name = String
+0.39 ast.py(1692): stdout = Stream('stdout')
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(903):         if not isinstance(text, str):
+0.39 ast.py(905):         return text
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(1693): stderr = Stream('stderr')
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.39 ast.py(216):         if len(args) > len(cls.__slots__):
+0.39 ast.py(219):         attrvals = []
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(223):             if attrname in kwargs:
+0.39 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.39 ast.py(203):         if arg == None:
+0.39 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.39 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.39 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.39 ast.py(903):         if not isinstance(text, str):
+0.39 ast.py(905):         return text
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.39 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.39 ast.py(241):         if kwargs:
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(247):             if attr not in cls.not_in_args
+0.39 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.39 ast.py(245):         basic_args = [
+0.39 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(253):             setattr(obj, attr, arg)
+0.39 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.39 ast.py(255):         return obj
+0.39 ast.py(1696): class Print(Token):
+0.39 ast.py(1696): class Print(Token):
+0.39 ast.py(1697):     """ Represents print command in the code.
+0.39 ast.py(1715):     __slots__ = ('print_args', 'format_string', 'file')
+0.39 ast.py(1716):     defaults = {'format_string': none, 'file': none}
+0.39 ast.py(1718):     _construct_print_args = staticmethod(_mk_Tuple)
+0.39 ast.py(1719):     _construct_format_string = QuotedString
+0.39 ast.py(1720):     _construct_file = Stream
+0.39 ast.py(1723): class FunctionPrototype(Node):
+0.39 ast.py(1723): class FunctionPrototype(Node):
+0.39 ast.py(1724):     """ Represents a function prototype
+0.39 ast.py(1749):     __slots__ = ('return_type', 'name', 'parameters', 'attrs')
+0.39 ast.py(1751):     _construct_return_type = Type
+0.39 ast.py(1752):     _construct_name = String
+0.39 ast.py(1754):     @staticmethod
+0.39 ast.py(1755):     def _construct_parameters(args):
+0.39 ast.py(1765):     @classmethod
+0.39 ast.py(1766):     def from_FunctionDefinition(cls, func_def):
+0.39 ast.py(1772): class FunctionDefinition(FunctionPrototype):
+0.39 ast.py(1772): class FunctionDefinition(FunctionPrototype):
+0.39 ast.py(1773):     """ Represents a function definition in the code.
+0.39 ast.py(1802):     __slots__ = FunctionPrototype.__slots__[:-1] + ('body', 'attrs')
+0.39 ast.py(1804):     @classmethod
+0.39 ast.py(1805):     def _construct_body(cls, itr):
+0.39 ast.py(1811):     @classmethod
+0.39 ast.py(1812):     def from_FunctionPrototype(cls, func_proto, body):
+0.39 ast.py(1818): class Return(Token):
+0.39 ast.py(1818): class Return(Token):
+0.39 ast.py(1819):     """ Represents a return command in the code.
+0.39 ast.py(1837):     __slots__ = ('return',)
+0.39 ast.py(1838):     _construct_return=staticmethod(_sympify)
+0.39 ast.py(1841): class FunctionCall(Token, Expr):
+0.39 ast.py(1841): class FunctionCall(Token, Expr):
+0.39 ast.py(1842):     """ Represents a call to a function in the code.
+0.39 ast.py(1860):     __slots__ = ('name', 'function_args')
+0.39 ast.py(1862):     _construct_name = String
+0.39 ast.py(1863):     _construct_function_args = staticmethod(lambda args: Tuple(*args))
+sympy/polys/tests/test_coverup_sympy__sympy-22456.py[1] 
+test_string_argument_invariance_bug 0.40 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.40 ast.py(216):         if len(args) > len(cls.__slots__):
+0.40 ast.py(219):         attrvals = []
+0.40 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.40 ast.py(223):             if attrname in kwargs:
+0.40 ast.py(226):             attrvals.append(cls._construct(attrname, argval))
+0.40 ast.py(203):         if arg == None:
+0.40 ast.py(206):             if isinstance(arg, Dummy):  # SymPy's replace uses Dummy instances
+0.40 ast.py(209):                 return cls._get_constructor(attr)(arg)
+0.40 ast.py(197):         return getattr(cls, '_construct_%s' % attr, lambda x: x)
+0.40 ast.py(903):         if not isinstance(text, str):
+0.40 ast.py(905):         return text
+0.40 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.40 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.40 ast.py(241):         if kwargs:
+0.40 ast.py(245):         basic_args = [
+0.40 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.40 ast.py(245):         basic_args = [
+0.40 ast.py(245):         basic_args = [
+0.40 ast.py(246):             val for attr, val in zip(cls.__slots__, attrvals)
+0.40 ast.py(247):             if attr not in cls.not_in_args
+0.40 ast.py(245):         basic_args = [
+0.40 ast.py(249):         obj = CodegenAST.__new__(cls, *basic_args)
+0.40 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.40 ast.py(253):             setattr(obj, attr, arg)
+0.40 ast.py(252):         for attr, arg in zip(cls.__slots__, attrvals):
+0.40 ast.py(255):         return obj
+0.40 ast.py(213):         if len(args) == 1 and not kwargs and isinstance(args[0], cls):
+0.40 ast.py(216):         if len(args) > len(cls.__slots__):
+0.40 ast.py(219):         attrvals = []
+0.40 ast.py(222):         for attrname, argval in zip(cls.__slots__, args):
+0.40 ast.py(229):         for attrname in cls.__slots__[len(args):]:
+0.40 ast.py(230):             if attrname in kwargs:
+0.40 ast.py(233):             elif attrname in cls.defaults:
+0.40 ast.py(237):                 raise TypeError('No value for %r given and attribute has no default' % attrname)
+E                                     [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-22456.py:test_string_argument_invariance_bug 
+Traceback (most recent call last):
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-22456.py", line 12, in test_string_argument_invariance_bug
+    reconstructed_string = original_string.func(*args)
+  File "/testbed/sympy/codegen/ast.py", line 237, in __new__
+    raise TypeError('No value for %r given and attribute has no default' % attrname)
+TypeError: No value for 'text' given and attribute has no default
+
+=========== tests finished: 0 passed, 1 exceptions, in 0.03 seconds ============
+DO *NOT* COMMIT!
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/codegen/ast\\.py)']
++ cat coverage.cover
+{"/testbed/sympy/codegen/ast.py": {"129": 1, "131": 1, "133": 1, "134": 1, "135": 1, "136": 1, "137": 1, "138": 1, "139": 1, "143": 1, "163": 2, "167": 2, "339": 2, "355": 1, "358": 2, "374": 1, "376": 2, "400": 1, "403": 2, "460": 2, "500": 2, "518": 2, "522": 2, "526": 2, "530": 2, "534": 2, "539": 8, "541": 1, "542": 1, "540": 6, "547": 1, "590": 2, "810": 2, "872": 2, "911": 2, "914": 2, "917": 2, "951": 2, "1127": 2, "1133": 2, "1145": 2, "1156": 2, "1166": 1, "1168": 2, "1172": 2, "1290": 2, "1306": 2, "1311": 1, "1312": 1, "1313": 1, "1314": 1, "1315": 1, "1316": 1, "1317": 1, "1318": 1, "1319": 1, "1320": 1, "1321": 1, "1322": 1, "1323": 1, "1324": 1, "1325": 1, "1326": 1, "1328": 1, "1329": 1, "1332": 1, "1333": 1, "1334": 1, "1335": 1, "1336": 1, "1339": 2, "1379": 1, "1380": 1, "1383": 2, "1530": 2, "1554": 2, "1581": 2, "1608": 2, "1646": 2, "1666": 2, "1692": 1, "1693": 1, "1696": 2, "1723": 2, "1772": 2, "1818": 2, "1841": 2, "159": 4, "160": 2, "164": 1, "185": 1, "186": 1, "187": 1, "188": 1, "190": 1, "191": 1, "194": 1, "195": 1, "199": 1, "200": 1, "211": 1, "257": 1, "265": 1, "268": 1, "271": 1, "274": 1, "291": 1, "314": 1, "316": 1, "320": 1, "192": 0, "197": 89, "203": 89, "204": 0, "206": 89, "207": 0, "209": 89, "213": 59, "214": 0, "216": 59, "217": 0, "219": 59, "222": 128, "223": 69, "224": 0, "226": 69, "229": 79, "230": 21, "231": 18, "233": 3, "234": 2, "237": 1, "239": 20, "241": 58, "242": 0, "245": 263, "246": 208, "249": 58, "252": 147, "253": 89, "255": 58, "247": 89, "258": 0, "259": 0, "260": 0, "261": 0, "262": 0, "263": 0, "266": 0, "269": 0, "272": 0, "275": 0, "276": 0, "282": 0, "283": 0, "284": 0, "285": 0, "287": 0, "289": 0, "277": 0, "278": 0, "280": 0, "292": 0, "293": 0, "294": 0, "295": 0, "297": 0, "299": 0, "300": 0, "301": 0, "304": 0, "305": 0, "307": 0, "308": 0, "309": 0, "310": 0, "312": 0, "317": 0, "318": 0, "332": 12, "333": 2, "334": 0, "336": 2, "390": 1, "393": 1, "396": 1, "391": 0, "394": 0, "397": 0, "413": 1, "421": 1, "422": 1, "425": 1, "426": 1, "429": 1, "430": 1, "414": 0, "415": 0, "417": 0, "419": 0, "423": 0, "427": 0, "435": 0, "437": 0, "440": 0, "441": 0, "442": 0, "447": 0, "448": 0, "451": 0, "452": 0, "453": 0, "454": 0, "455": 0, "456": 0, "457": 0, "497": 1, "511": 1, "513": 1, "514": 1, "515": 0, "519": 1, "523": 1, "527": 1, "531": 1, "535": 1, "585": 0, "586": 0, "587": 0, "631": 1, "646": 1, "649": 1, "656": 1, "658": 1, "659": 1, "662": 1, "663": 1, "746": 1, "632": 0, "633": 0, "634": 0, "635": 0, "636": 0, "637": 0, "638": 0, "640": 0, "642": 0, "643": 0, "644": 0, "647": 0, "650": 0, "651": 0, "652": 0, "653": 0, "654": 0, "660": 0, "699": 0, "701": 0, "703": 0, "704": 0, "724": 0, "728": 0, "729": 0, "730": 0, "731": 0, "734": 0, "735": 0, "736": 0, "737": 0, "738": 0, "739": 0, "741": 0, "744": 0, "779": 0, "782": 0, "784": 0, "786": 0, "787": 0, "789": 0, "790": 0, "791": 0, "792": 0, "795": 0, "796": 0, "797": 0, "798": 0, "800": 0, "801": 0, "802": 0, "804": 0, "805": 0, "806": 0, "807": 0, "853": 1, "854": 1, "856": 1, "857": 1, "863": 1, "864": 1, "858": 0, "859": 0, "861": 0, "865": 0, "866": 0, "867": 0, "868": 0, "869": 0, "897": 1, "898": 1, "899": 1, "901": 1, "902": 1, "907": 1, "903": 28, "904": 0, "905": 28, "908": 0, "938": 1, "940": 1, "942": 1, "944": 1, "946": 0, "947": 0, "948": 0, "1006": 1, "1008": 1, "1010": 1, "1013": 1, "1014": 1, "1056": 1, "1059": 1, "1011": 0, "1043": 0, "1044": 0, "1045": 0, "1046": 0, "1047": 0, "1048": 0, "1049": 0, "1050": 0, "1051": 0, "1052": 0, "1054": 0, "1057": 0, "1106": 0, "1108": 0, "1109": 0, "1111": 0, "1112": 0, "1114": 0, "1117": 0, "1118": 0, "1120": 0, "1121": 0, "1122": 0, "1124": 0, "1115": 0, "1129": 1, "1130": 1, "1134": 1, "1136": 1, "1138": 1, "1139": 0, "1140": 0, "1141": 0, "1142": 0, "1147": 1, "1148": 1, "1151": 1, "1152": 1, "1149": 0, "1153": 0, "1158": 1, "1159": 1, "1162": 1, "1163": 1, "1160": 0, "1164": 0, "1170": 1, "1213": 1, "1215": 1, "1218": 1, "1219": 1, "1224": 1, "1225": 1, "1230": 1, "1231": 1, "1235": 1, "1236": 1, "1244": 1, "1245": 1, "1249": 1, "1250": 1, "1259": 1, "1260": 1, "1274": 1, "1282": 1, "1222": 0, "1228": 0, "1233": 0, "1241": 0, "1247": 0, "1256": 0, "1257": 0, "1271": 0, "1272": 0, "1276": 0, "1277": 0, "1278": 0, "1279": 0, "1280": 0, "1283": 0, "1284": 0, "1285": 0, "1286": 0, "1287": 0, "1288": 0, "1292": 1, "1300": 1, "1294": 0, "1296": 0, "1297": 0, "1295": 0, "1301": 0, "1302": 0, "1303": 0, "1366": 1, "1367": 1, "1369": 1, "1370": 1, "1372": 1, "1373": 0, "1374": 0, "1375": 0, "1376": 0, "1377": 0, "1433": 1, "1435": 1, "1436": 1, "1438": 1, "1439": 1, "1441": 1, "1442": 1, "1486": 1, "1518": 1, "1525": 1, "1526": 1, "1527": 1, "1528": 1, "1474": 0, "1475": 0, "1477": 0, "1478": 0, "1479": 0, "1480": 0, "1482": 0, "1483": 0, "1484": 0, "1514": 0, "1515": 0, "1516": 0, "1519": 0, "1520": 0, "1521": 0, "1522": 0, "1523": 0, "1547": 1, "1548": 0, "1549": 0, "1550": 0, "1551": 0, "1573": 1, "1574": 1, "1575": 1, "1576": 1, "1577": 1, "1578": 1, "1604": 1, "1605": 1, "1635": 1, "1636": 1, "1638": 1, "1639": 1, "1640": 0, "1641": 0, "1643": 0, "1656": 1, "1658": 1, "1659": 1, "1660": 0, "1661": 0, "1663": 0, "1689": 1, "1690": 1, "1715": 1, "1716": 1, "1718": 1, "1719": 1, "1720": 1, "1749": 1, "1751": 1, "1752": 1, "1754": 1, "1755": 1, "1765": 1, "1766": 1, "1756": 0, "1763": 0, "1757": 0, "1758": 0, "1759": 0, "1760": 0, "1762": 0, "1767": 0, "1768": 0, "1769": 0, "1802": 1, "1804": 1, "1805": 1, "1811": 1, "1812": 1, "1806": 0, "1807": 0, "1809": 0, "1813": 0, "1814": 0, "1815": 0, "1837": 1, "1838": 1, "1860": 1, "1862": 1, "1863": 1}}
++ git checkout a3475b3f9ac662cd425157dd3bdb93ad7111c090
+Note: switching to 'a3475b3f9ac662cd425157dd3bdb93ad7111c090'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a3475b3f9a Merge pull request #22492 from oscargus/importcleanup_concrete_integrals
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,33 @@
+diff --git a/dev/null b/tests/test_coverup_pylint-dev__pylint-6903.py
+new file mode 100644
+index e69de29..6933e91 100644
+--- /dev/null
++++ b/tests/test_coverup_pylint-dev__pylint-6903.py
+@@ -0,0 +1,27 @@
++import pytest
++import multiprocessing
++from unittest import mock
++from pylint.lint.run import _query_cpu
++
++def mock_open(read_data):
++    m = mock.mock_open(read_data=read_data)
++    m.return_value.__iter__ = lambda self: iter(self.readline, '')
++    return m
++
++def test_query_cpu_returns_non_zero(monkeypatch):
++    # Mock the file reads to simulate the conditions that lead to the bug
++    with mock.patch('builtins.open', mock_open(read_data='-1')) as mock_file:
++        with mock.patch('pathlib.Path.is_file', return_value=True):
++            # Call the function that triggers the bug
++            cpu_count = _query_cpu()
++            
++            # Assert that _query_cpu() does not return 0
++            assert cpu_count != 0, "BUG: _query_cpu() should not return 0"
++
++            # Attempt to initialize multiprocessing.Pool with the returned value
++            # This should not raise an error if the bug is fixed
++            try:
++                multiprocessing.Pool(cpu_count)
++            except ValueError as e:
++                pytest.fail(f"BUG: multiprocessing.Pool raised ValueError: {e}")
++

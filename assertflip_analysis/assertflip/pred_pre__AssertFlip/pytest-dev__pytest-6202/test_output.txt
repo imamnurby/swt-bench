@@ -1,0 +1,701 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 3a668ea6ff24b0c8f00498c3144c63bac561d925
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 3a668ea6ff24b0c8f00498c3144c63bac561d925
+Merge: 19a15a94e c9a96cdee
+Author: Anthony Sottile <asottile@umich.edu>
+Date:   Fri Nov 15 14:57:08 2019 -0800
+
+    Merge pull request #6198 from asottile/release-5.2.4
+    
+    Preparing release version 5.2.4
+
++ git diff 3a668ea6ff24b0c8f00498c3144c63bac561d925
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: py>=1.5.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.2.5.dev1+g3a668ea6f) (1.11.0)
+Requirement already satisfied: packaging in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.2.5.dev1+g3a668ea6f) (23.1)
+Requirement already satisfied: attrs>=17.4.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.2.5.dev1+g3a668ea6f) (23.1.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.2.5.dev1+g3a668ea6f) (10.1.0)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.2.5.dev1+g3a668ea6f) (1.4.1)
+Requirement already satisfied: pluggy<1.0,>=0.12 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.2.5.dev1+g3a668ea6f) (0.13.1)
+Requirement already satisfied: wcwidth in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==5.2.5.dev1+g3a668ea6f) (0.2.6)
+Building wheels for collected packages: pytest
+  Building editable for pytest (pyproject.toml): started
+  Building editable for pytest (pyproject.toml): finished with status 'done'
+  Created wheel for pytest: filename=pytest-5.2.5.dev1+g3a668ea6f-0.editable-py3-none-any.whl size=5020 sha256=80da4e4d9d81396724af6c49661fa9f7f140b7992c7114674d46d64cdc98ff93
+  Stored in directory: /tmp/pip-ephem-wheel-cache-6jsip84t/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built pytest
+Installing collected packages: pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 5.2.5.dev1+g3a668ea6f
+    Uninstalling pytest-5.2.5.dev1+g3a668ea6f:
+      Successfully uninstalled pytest-5.2.5.dev1+g3a668ea6f
+Successfully installed pytest-5.2.5.dev1+g3a668ea6f
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch testing/test_coverup_pytest-dev__pytest-6202.py...
+Applied patch testing/test_coverup_pytest-dev__pytest-6202.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(src/_pytest/python\.py)' -m pytest -rA testing/test_coverup_pytest-dev__pytest-6202.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(src/_pytest/python\\.py)']
+0.13 /testbed/src/_pytest/python.py(1): """ Python test discovery, setup and run of test functions. """
+0.13 /testbed/src/_pytest/python.py(2): import enum
+0.13 /testbed/src/_pytest/python.py(3): import fnmatch
+0.13 /testbed/src/_pytest/python.py(4): import inspect
+0.13 /testbed/src/_pytest/python.py(5): import os
+0.13 /testbed/src/_pytest/python.py(6): import sys
+0.13 /testbed/src/_pytest/python.py(7): import warnings
+0.13 /testbed/src/_pytest/python.py(8): from collections import Counter
+0.13 /testbed/src/_pytest/python.py(9): from collections.abc import Sequence
+0.13 /testbed/src/_pytest/python.py(10): from functools import partial
+0.13 /testbed/src/_pytest/python.py(11): from textwrap import dedent
+0.13 /testbed/src/_pytest/python.py(13): import py
+0.13 /testbed/src/_pytest/python.py(15): import _pytest
+0.13 /testbed/src/_pytest/python.py(16): from _pytest import fixtures
+0.13 /testbed/src/_pytest/python.py(17): from _pytest import nodes
+0.13 /testbed/src/_pytest/python.py(18): from _pytest._code import filter_traceback
+0.13 /testbed/src/_pytest/python.py(19): from _pytest.compat import ascii_escaped
+0.13 /testbed/src/_pytest/python.py(20): from _pytest.compat import get_default_arg_names
+0.13 /testbed/src/_pytest/python.py(21): from _pytest.compat import get_real_func
+0.13 /testbed/src/_pytest/python.py(22): from _pytest.compat import getfslineno
+0.13 /testbed/src/_pytest/python.py(23): from _pytest.compat import getimfunc
+0.13 /testbed/src/_pytest/python.py(24): from _pytest.compat import getlocation
+0.13 /testbed/src/_pytest/python.py(25): from _pytest.compat import is_generator
+0.13 /testbed/src/_pytest/python.py(26): from _pytest.compat import iscoroutinefunction
+0.13 /testbed/src/_pytest/python.py(27): from _pytest.compat import NOTSET
+0.13 /testbed/src/_pytest/python.py(28): from _pytest.compat import REGEX_TYPE
+0.13 /testbed/src/_pytest/python.py(29): from _pytest.compat import safe_getattr
+0.13 /testbed/src/_pytest/python.py(30): from _pytest.compat import safe_isclass
+0.13 /testbed/src/_pytest/python.py(31): from _pytest.compat import STRING_TYPES
+0.13 /testbed/src/_pytest/python.py(32): from _pytest.config import hookimpl
+0.13 /testbed/src/_pytest/python.py(33): from _pytest.main import FSHookProxy
+0.13 /testbed/src/_pytest/python.py(34): from _pytest.mark import MARK_GEN
+0.13 /testbed/src/_pytest/python.py(35): from _pytest.mark.structures import get_unpacked_marks
+0.13 /testbed/src/_pytest/python.py(36): from _pytest.mark.structures import normalize_mark_list
+0.13 /testbed/src/_pytest/python.py(37): from _pytest.outcomes import fail
+0.13 /testbed/src/_pytest/python.py(38): from _pytest.outcomes import skip
+0.13 /testbed/src/_pytest/python.py(39): from _pytest.pathlib import parts
+0.13 /testbed/src/_pytest/python.py(40): from _pytest.warning_types import PytestCollectionWarning
+0.13 /testbed/src/_pytest/python.py(41): from _pytest.warning_types import PytestUnhandledCoroutineWarning
+0.13 /testbed/src/_pytest/python.py(44): def pyobj_property(name):
+0.13 /testbed/src/_pytest/python.py(56): def pytest_addoption(parser):
+0.13 /testbed/src/_pytest/python.py(111): def pytest_cmdline_main(config):
+0.13 /testbed/src/_pytest/python.py(120): def pytest_generate_tests(metafunc):
+0.13 /testbed/src/_pytest/python.py(132): def pytest_configure(config):
+0.13 /testbed/src/_pytest/python.py(152): @hookimpl(trylast=True)
+0.13 /testbed/src/_pytest/python.py(153): def pytest_pyfunc_call(pyfuncitem):
+0.13 /testbed/src/_pytest/python.py(176): def pytest_collect_file(path, parent):
+0.13 /testbed/src/_pytest/python.py(188): def path_matches_patterns(path, patterns):
+0.13 /testbed/src/_pytest/python.py(193): def pytest_pycollect_makemodule(path, parent):
+0.13 /testbed/src/_pytest/python.py(199): @hookimpl(hookwrapper=True)
+0.13 /testbed/src/_pytest/python.py(200): def pytest_pycollect_makeitem(collector, name, obj):
+0.13 /testbed/src/_pytest/python.py(238): def pytest_make_parametrize_id(config, val, argname=None):
+0.13 /testbed/src/_pytest/python.py(242): class PyobjContext:
+0.13 /testbed/src/_pytest/python.py(242): class PyobjContext:
+0.13 /testbed/src/_pytest/python.py(243):     module = pyobj_property("Module")
+0.13 /testbed/src/_pytest/python.py(45):     def get(self):
+0.13 /testbed/src/_pytest/python.py(50):     doc = "python {} object this node was collected from (can be None).".format(
+0.13 /testbed/src/_pytest/python.py(51):         name.lower()
+0.13 /testbed/src/_pytest/python.py(50):     doc = "python {} object this node was collected from (can be None).".format(
+0.13 /testbed/src/_pytest/python.py(53):     return property(get, None, None, doc)
+0.13 /testbed/src/_pytest/python.py(244):     cls = pyobj_property("Class")
+0.13 /testbed/src/_pytest/python.py(45):     def get(self):
+0.13 /testbed/src/_pytest/python.py(50):     doc = "python {} object this node was collected from (can be None).".format(
+0.13 /testbed/src/_pytest/python.py(51):         name.lower()
+0.13 /testbed/src/_pytest/python.py(50):     doc = "python {} object this node was collected from (can be None).".format(
+0.13 /testbed/src/_pytest/python.py(53):     return property(get, None, None, doc)
+0.13 /testbed/src/_pytest/python.py(245):     instance = pyobj_property("Instance")
+0.13 /testbed/src/_pytest/python.py(45):     def get(self):
+0.13 /testbed/src/_pytest/python.py(50):     doc = "python {} object this node was collected from (can be None).".format(
+0.13 /testbed/src/_pytest/python.py(51):         name.lower()
+0.13 /testbed/src/_pytest/python.py(50):     doc = "python {} object this node was collected from (can be None).".format(
+0.13 /testbed/src/_pytest/python.py(53):     return property(get, None, None, doc)
+0.13 /testbed/src/_pytest/python.py(248): class PyobjMixin(PyobjContext):
+0.13 /testbed/src/_pytest/python.py(248): class PyobjMixin(PyobjContext):
+0.13 /testbed/src/_pytest/python.py(249):     _ALLOW_MARKERS = True
+0.13 /testbed/src/_pytest/python.py(251):     @property
+0.13 /testbed/src/_pytest/python.py(252):     def obj(self):
+0.13 /testbed/src/_pytest/python.py(263):     @obj.setter
+0.13 /testbed/src/_pytest/python.py(264):     def obj(self, value):
+0.13 /testbed/src/_pytest/python.py(267):     def _getobj(self):
+0.13 /testbed/src/_pytest/python.py(271):     def getmodpath(self, stopatmodule=True, includemodule=False):
+0.13 /testbed/src/_pytest/python.py(291):     def reportinfo(self):
+0.13 /testbed/src/_pytest/python.py(308): class PyCollector(PyobjMixin, nodes.Collector):
+0.13 /testbed/src/_pytest/python.py(308): class PyCollector(PyobjMixin, nodes.Collector):
+0.13 /testbed/src/_pytest/python.py(309):     def funcnamefilter(self, name):
+0.13 /testbed/src/_pytest/python.py(312):     def isnosetest(self, obj):
+0.13 /testbed/src/_pytest/python.py(321):     def classnamefilter(self, name):
+0.13 /testbed/src/_pytest/python.py(324):     def istestfunction(self, obj, name):
+0.13 /testbed/src/_pytest/python.py(336):     def istestclass(self, obj, name):
+0.13 /testbed/src/_pytest/python.py(339):     def _matches_prefix_or_glob_option(self, option_name, name):
+0.13 /testbed/src/_pytest/python.py(356):     def collect(self):
+0.13 /testbed/src/_pytest/python.py(381):     def _makeitem(self, name, obj):
+0.13 /testbed/src/_pytest/python.py(385):     def _genfunctions(self, name, funcobj):
+0.13 /testbed/src/_pytest/python.py(429): class Module(nodes.File, PyCollector):
+0.13 /testbed/src/_pytest/python.py(429): class Module(nodes.File, PyCollector):
+0.13 /testbed/src/_pytest/python.py(430):     """ Collector for test classes and functions. """
+0.13 /testbed/src/_pytest/python.py(432):     def _getobj(self):
+0.13 /testbed/src/_pytest/python.py(435):     def collect(self):
+0.13 /testbed/src/_pytest/python.py(441):     def _inject_setup_module_fixture(self):
+0.13 /testbed/src/_pytest/python.py(468):     def _inject_setup_function_fixture(self):
+0.13 /testbed/src/_pytest/python.py(497):     def _importtestmodule(self):
+0.13 /testbed/src/_pytest/python.py(548): class Package(Module):
+0.13 /testbed/src/_pytest/python.py(548): class Package(Module):
+0.13 /testbed/src/_pytest/python.py(549):     def __init__(self, fspath, parent=None, config=None, session=None, nodeid=None):
+0.13 /testbed/src/_pytest/python.py(559):     def setup(self):
+0.13 /testbed/src/_pytest/python.py(575):     def _recurse(self, dirpath):
+0.13 /testbed/src/_pytest/python.py(588):     def gethookproxy(self, fspath):
+0.13 /testbed/src/_pytest/python.py(602):     def _collectfile(self, path, handle_dupes=True):
+0.13 /testbed/src/_pytest/python.py(627):     def isinitpath(self, path):
+0.13 /testbed/src/_pytest/python.py(630):     def collect(self):
+0.13 /testbed/src/_pytest/python.py(661): def _call_with_optional_argument(func, arg):
+0.13 /testbed/src/_pytest/python.py(673): def _get_first_non_fixture_func(obj, names):
+0.13 /testbed/src/_pytest/python.py(684): class Class(PyCollector):
+0.13 /testbed/src/_pytest/python.py(684): class Class(PyCollector):
+0.13 /testbed/src/_pytest/python.py(685):     """ Collector for test methods. """
+0.13 /testbed/src/_pytest/python.py(687):     def collect(self):
+0.13 /testbed/src/_pytest/python.py(714):     def _inject_setup_class_fixture(self):
+0.13 /testbed/src/_pytest/python.py(738):     def _inject_setup_method_fixture(self):
+0.13 /testbed/src/_pytest/python.py(764): class Instance(PyCollector):
+0.13 /testbed/src/_pytest/python.py(764): class Instance(PyCollector):
+0.13 /testbed/src/_pytest/python.py(765):     _ALLOW_MARKERS = False  # hack, destroy later
+0.13 /testbed/src/_pytest/python.py(770):     def _getobj(self):
+0.13 /testbed/src/_pytest/python.py(773):     def collect(self):
+0.13 /testbed/src/_pytest/python.py(777):     def newinstance(self):
+0.13 /testbed/src/_pytest/python.py(782): class FunctionMixin(PyobjMixin):
+0.13 /testbed/src/_pytest/python.py(782): class FunctionMixin(PyobjMixin):
+0.13 /testbed/src/_pytest/python.py(783):     """ mixin for the code common to Function and Generator.
+0.13 /testbed/src/_pytest/python.py(786):     def setup(self):
+0.13 /testbed/src/_pytest/python.py(792):     def _prunetraceback(self, excinfo):
+0.13 /testbed/src/_pytest/python.py(813):     def repr_failure(self, excinfo, outerr=None):
+0.13 /testbed/src/_pytest/python.py(821): def hasinit(obj):
+0.13 /testbed/src/_pytest/python.py(827): def hasnew(obj):
+0.13 /testbed/src/_pytest/python.py(833): class CallSpec2:
+0.13 /testbed/src/_pytest/python.py(833): class CallSpec2:
+0.13 /testbed/src/_pytest/python.py(834):     def __init__(self, metafunc):
+0.13 /testbed/src/_pytest/python.py(845):     def copy(self):
+0.13 /testbed/src/_pytest/python.py(857):     def _checkargnotcontained(self, arg):
+0.13 /testbed/src/_pytest/python.py(861):     def getparam(self, name):
+0.13 /testbed/src/_pytest/python.py(869):     @property
+0.13 /testbed/src/_pytest/python.py(870):     def id(self):
+0.13 /testbed/src/_pytest/python.py(873):     def setmulti2(self, valtypes, argnames, valset, id, marks, scopenum, param_index):
+0.13 /testbed/src/_pytest/python.py(884): class Metafunc(fixtures.FuncargnamesCompatAttr):
+0.13 /testbed/src/_pytest/python.py(884): class Metafunc(fixtures.FuncargnamesCompatAttr):
+0.13 /testbed/src/_pytest/python.py(885):     """
+0.13 /testbed/src/_pytest/python.py(892):     def __init__(self, definition, fixtureinfo, config, cls=None, module=None):
+0.13 /testbed/src/_pytest/python.py(918):     def parametrize(self, argnames, argvalues, indirect=False, ids=None, scope=None):
+0.13 /testbed/src/_pytest/python.py(1006):     def _resolve_arg_ids(self, argnames, ids, parameters, item):
+0.13 /testbed/src/_pytest/python.py(1038):     def _resolve_arg_value_types(self, argnames, indirect):
+0.13 /testbed/src/_pytest/python.py(1071):     def _validate_if_using_arg_names(self, argnames, indirect):
+0.13 /testbed/src/_pytest/python.py(1101): def _find_parametrized_scope(argnames, arg2fixturedefs, indirect):
+0.13 /testbed/src/_pytest/python.py(1134): def _ascii_escaped_by_config(val, config):
+0.13 /testbed/src/_pytest/python.py(1144): def _idval(val, argname, idx, idfn, item, config):
+0.13 /testbed/src/_pytest/python.py(1175): def _idvalset(idx, parameterset, argnames, idfn, ids, item, config):
+0.13 /testbed/src/_pytest/python.py(1188): def idmaker(argnames, parametersets, idfn=None, ids=None, config=None, item=None):
+0.13 /testbed/src/_pytest/python.py(1204): def show_fixtures_per_test(config):
+0.13 /testbed/src/_pytest/python.py(1210): def _show_fixtures_per_test(config, session):
+0.13 /testbed/src/_pytest/python.py(1262): def showfixtures(config):
+0.13 /testbed/src/_pytest/python.py(1268): def _showfixtures_main(config, session):
+0.13 /testbed/src/_pytest/python.py(1325): def write_docstring(tw, doc, indent="    "):
+0.13 /testbed/src/_pytest/python.py(1340): class Function(FunctionMixin, nodes.Item, fixtures.FuncargnamesCompatAttr):
+0.13 /testbed/src/_pytest/python.py(1340): class Function(FunctionMixin, nodes.Item, fixtures.FuncargnamesCompatAttr):
+0.13 /testbed/src/_pytest/python.py(1341):     """ a Function Item is responsible for setting up and executing a
+0.13 /testbed/src/_pytest/python.py(1346):     _ALLOW_MARKERS = False
+0.13 /testbed/src/_pytest/python.py(1352):         args=None,
+0.13 /testbed/src/_pytest/python.py(1353):         config=None,
+0.13 /testbed/src/_pytest/python.py(1354):         callspec=None,
+0.13 /testbed/src/_pytest/python.py(1355):         callobj=NOTSET,
+0.13 /testbed/src/_pytest/python.py(1356):         keywords=None,
+0.13 /testbed/src/_pytest/python.py(1357):         session=None,
+0.13 /testbed/src/_pytest/python.py(1358):         fixtureinfo=None,
+0.13 /testbed/src/_pytest/python.py(1359):         originalname=None,
+0.13 /testbed/src/_pytest/python.py(1348):     def __init__(
+0.13 /testbed/src/_pytest/python.py(1406):     def _initrequest(self):
+0.13 /testbed/src/_pytest/python.py(1410):     @property
+0.13 /testbed/src/_pytest/python.py(1411):     def function(self):
+0.13 /testbed/src/_pytest/python.py(1415):     def _getobj(self):
+0.13 /testbed/src/_pytest/python.py(1422):     @property
+0.13 /testbed/src/_pytest/python.py(1423):     def _pyfuncitem(self):
+0.13 /testbed/src/_pytest/python.py(1427):     def runtest(self):
+0.13 /testbed/src/_pytest/python.py(1431):     def setup(self):
+0.13 /testbed/src/_pytest/python.py(1436): class FunctionDefinition(Function):
+0.13 /testbed/src/_pytest/python.py(1436): class FunctionDefinition(Function):
+0.13 /testbed/src/_pytest/python.py(1437):     """
+0.13 /testbed/src/_pytest/python.py(1442):     def runtest(self):
+0.13 /testbed/src/_pytest/python.py(1445):     setup = runtest
+0.15 /testbed/src/_pytest/python.py(57):     group = parser.getgroup("general")
+0.15 /testbed/src/_pytest/python.py(58):     group.addoption(
+0.15 /testbed/src/_pytest/python.py(59):         "--fixtures",
+0.15 /testbed/src/_pytest/python.py(60):         "--funcargs",
+0.15 /testbed/src/_pytest/python.py(61):         action="store_true",
+0.15 /testbed/src/_pytest/python.py(62):         dest="showfixtures",
+0.15 /testbed/src/_pytest/python.py(63):         default=False,
+0.15 /testbed/src/_pytest/python.py(64):         help="show available fixtures, sorted by plugin appearance "
+0.15 /testbed/src/_pytest/python.py(58):     group.addoption(
+0.15 /testbed/src/_pytest/python.py(67):     group.addoption(
+0.15 /testbed/src/_pytest/python.py(68):         "--fixtures-per-test",
+0.15 /testbed/src/_pytest/python.py(69):         action="store_true",
+0.15 /testbed/src/_pytest/python.py(70):         dest="show_fixtures_per_test",
+0.15 /testbed/src/_pytest/python.py(71):         default=False,
+0.15 /testbed/src/_pytest/python.py(72):         help="show fixtures per test",
+0.15 /testbed/src/_pytest/python.py(67):     group.addoption(
+0.15 /testbed/src/_pytest/python.py(74):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(75):         "python_files",
+0.15 /testbed/src/_pytest/python.py(76):         type="args",
+0.15 /testbed/src/_pytest/python.py(78):         default=["test_*.py", "*_test.py"],
+0.15 /testbed/src/_pytest/python.py(79):         help="glob-style file patterns for Python test module discovery",
+0.15 /testbed/src/_pytest/python.py(74):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(81):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(82):         "python_classes",
+0.15 /testbed/src/_pytest/python.py(83):         type="args",
+0.15 /testbed/src/_pytest/python.py(84):         default=["Test"],
+0.15 /testbed/src/_pytest/python.py(85):         help="prefixes or glob names for Python test class discovery",
+0.15 /testbed/src/_pytest/python.py(81):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(87):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(88):         "python_functions",
+0.15 /testbed/src/_pytest/python.py(89):         type="args",
+0.15 /testbed/src/_pytest/python.py(90):         default=["test"],
+0.15 /testbed/src/_pytest/python.py(91):         help="prefixes or glob names for Python test function and method discovery",
+0.15 /testbed/src/_pytest/python.py(87):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(93):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(94):         "disable_test_id_escaping_and_forfeit_all_rights_to_community_support",
+0.15 /testbed/src/_pytest/python.py(95):         type="bool",
+0.15 /testbed/src/_pytest/python.py(96):         default=False,
+0.15 /testbed/src/_pytest/python.py(97):         help="disable string escape non-ascii characters, might cause unwanted "
+0.15 /testbed/src/_pytest/python.py(93):     parser.addini(
+0.15 /testbed/src/_pytest/python.py(101):     group.addoption(
+0.15 /testbed/src/_pytest/python.py(102):         "--import-mode",
+0.15 /testbed/src/_pytest/python.py(103):         default="prepend",
+0.15 /testbed/src/_pytest/python.py(104):         choices=["prepend", "append"],
+0.15 /testbed/src/_pytest/python.py(105):         dest="importmode",
+0.15 /testbed/src/_pytest/python.py(106):         help="prepend/append to sys.path when importing test modules, "
+0.15 /testbed/src/_pytest/python.py(101):     group.addoption(
+0.26 /testbed/src/_pytest/python.py(112):     if config.option.showfixtures:
+0.26 /testbed/src/_pytest/python.py(115):     if config.option.show_fixtures_per_test:
+0.26 /testbed/src/_pytest/python.py(133):     config.addinivalue_line(
+0.26 /testbed/src/_pytest/python.py(134):         "markers",
+0.26 /testbed/src/_pytest/python.py(135):         "parametrize(argnames, argvalues): call a test function multiple "
+0.26 /testbed/src/_pytest/python.py(133):     config.addinivalue_line(
+0.26 /testbed/src/_pytest/python.py(144):     config.addinivalue_line(
+0.26 /testbed/src/_pytest/python.py(145):         "markers",
+0.26 /testbed/src/_pytest/python.py(146):         "usefixtures(fixturename1, fixturename2, ...): mark tests as needing "
+0.26 /testbed/src/_pytest/python.py(144):     config.addinivalue_line(
+============================= test session starts ==============================
+platform linux -- Python 3.9.23, pytest-5.2.5.dev1+g3a668ea6f, py-1.11.0, pluggy-0.13.1
+rootdir: /testbed, inifile: tox.ini
+0.27 /testbed/src/_pytest/python.py(177):     ext = path.ext
+0.27 /testbed/src/_pytest/python.py(178):     if ext == ".py":
+0.27 /testbed/src/_pytest/python.py(179):         if not parent.session.isinitpath(path):
+0.27 /testbed/src/_pytest/python.py(184):         ihook = parent.session.gethookproxy(path)
+0.27 /testbed/src/_pytest/python.py(185):         return ihook.pytest_pycollect_makemodule(path=path, parent=parent)
+0.27 /testbed/src/_pytest/python.py(194):     if path.basename == "__init__.py":
+0.27 /testbed/src/_pytest/python.py(196):     return Module(path, parent)
+collected 1 item
+0.30 /testbed/src/_pytest/python.py(293):         obj = self.obj
+0.30 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.30 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.30 /testbed/src/_pytest/python.py(261):         return obj
+0.30 /testbed/src/_pytest/python.py(294):         compat_co_firstlineno = getattr(obj, "compat_co_firstlineno", None)
+0.30 /testbed/src/_pytest/python.py(295):         if isinstance(compat_co_firstlineno, int):
+0.30 /testbed/src/_pytest/python.py(302):             fspath, lineno = getfslineno(obj)
+0.30 /testbed/src/_pytest/python.py(303):         modpath = self.getmodpath()
+0.30 /testbed/src/_pytest/python.py(273):         chain = self.listchain()
+0.30 /testbed/src/_pytest/python.py(274):         chain.reverse()
+0.30 /testbed/src/_pytest/python.py(275):         parts = []
+0.30 /testbed/src/_pytest/python.py(276):         for node in chain:
+0.30 /testbed/src/_pytest/python.py(277):             if isinstance(node, Instance):
+0.30 /testbed/src/_pytest/python.py(279):             name = node.name
+0.30 /testbed/src/_pytest/python.py(280):             if isinstance(node, Module):
+0.30 /testbed/src/_pytest/python.py(286):             parts.append(name)
+0.30 /testbed/src/_pytest/python.py(276):         for node in chain:
+0.30 /testbed/src/_pytest/python.py(277):             if isinstance(node, Instance):
+0.30 /testbed/src/_pytest/python.py(279):             name = node.name
+0.30 /testbed/src/_pytest/python.py(280):             if isinstance(node, Module):
+0.30 /testbed/src/_pytest/python.py(281):                 name = os.path.splitext(name)[0]
+0.30 /testbed/src/_pytest/python.py(282):                 if stopatmodule:
+0.30 /testbed/src/_pytest/python.py(283):                     if includemodule:
+0.30 /testbed/src/_pytest/python.py(285):                     break
+0.30 /testbed/src/_pytest/python.py(287):         parts.reverse()
+0.30 /testbed/src/_pytest/python.py(288):         s = ".".join(parts)
+0.30 /testbed/src/_pytest/python.py(289):         return s.replace(".[", "[")
+0.30 /testbed/src/_pytest/python.py(304):         assert isinstance(lineno, int)
+0.30 /testbed/src/_pytest/python.py(305):         return fspath, lineno, modpath
+
+testing/test_coverup_pytest-dev__pytest-6202.py 0.30 /testbed/src/_pytest/python.py(814):         assert outerr is None, "XXX outerr usage is deprecated"
+0.30 /testbed/src/_pytest/python.py(815):         style = self.config.getoption("tbstyle", "auto")
+0.30 /testbed/src/_pytest/python.py(816):         if style == "auto":
+0.30 /testbed/src/_pytest/python.py(817):             style = "long"
+0.30 /testbed/src/_pytest/python.py(818):         return self._repr_failure_py(excinfo, style=style)
+0.30 /testbed/src/_pytest/python.py(793):         if hasattr(self, "_obj") and not self.config.getoption("fulltrace", False):
+0.30 /testbed/src/_pytest/python.py(794):             code = _pytest._code.Code(get_real_func(self.obj))
+0.30 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.30 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.30 /testbed/src/_pytest/python.py(261):         return obj
+0.30 /testbed/src/_pytest/python.py(795):             path, firstlineno = code.path, code.firstlineno
+0.30 /testbed/src/_pytest/python.py(796):             traceback = excinfo.traceback
+0.30 /testbed/src/_pytest/python.py(797):             ntraceback = traceback.cut(path=path, firstlineno=firstlineno)
+0.30 /testbed/src/_pytest/python.py(798):             if ntraceback == traceback:
+0.30 /testbed/src/_pytest/python.py(805):             excinfo.traceback = ntraceback.filter()
+0.30 /testbed/src/_pytest/python.py(808):             if self.config.getoption("tbstyle", "auto") == "auto":
+0.30 /testbed/src/_pytest/python.py(809):                 if len(excinfo.traceback) > 2:
+F                        [100%]
+
+=================================== FAILURES ===================================
+_________________________ test_report_headline_bug[.[] _________________________
+
+a = '..['
+
+    @pytest.mark.parametrize("a", ["..["])
+    def test_report_headline_bug(a):
+        # This test is designed to fail if the bug is present
+        # The bug causes '..[' to be replaced with '.[' in the report headline
+        # We will assert the correct behavior to ensure the test fails if the bug exists
+    
+        # Simulate the condition that triggers the bug
+        # The test will fail if the bug is present, as the assertion will not match the incorrect behavior
+>       assert a.replace("..[", ".[") == "..["  # Correct behavior: '..[' should remain unchanged
+E       AssertionError: assert '.[' == '..['
+E         - .[
+E         + ..[
+E         ? +
+
+testing/test_coverup_pytest-dev__pytest-6202.py:11: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+0.30 /testbed/src/_pytest/python.py(1432):         super().setup()
+0.30 /testbed/src/_pytest/python.py(788):         if isinstance(self.parent, Instance):
+0.30 /testbed/src/_pytest/python.py(1433):         fixtures.fillfixtures(self)
+0.30 /testbed/src/_pytest/python.py(862):         try:
+0.30 /testbed/src/_pytest/python.py(863):             return self.params[name]
+0.30 /testbed/src/_pytest/python.py(864):         except KeyError:
+0.30 /testbed/src/_pytest/python.py(865):             if self._globalparam is NOTSET:
+0.30 /testbed/src/_pytest/python.py(866):                 raise ValueError(name)
+0.30 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.30 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.30 /testbed/src/_pytest/python.py(261):         return obj
+0.30 /testbed/src/_pytest/python.py(862):         try:
+0.30 /testbed/src/_pytest/python.py(863):             return self.params[name]
+0.30 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.30 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.30 /testbed/src/_pytest/python.py(261):         return obj
+0.30 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.30 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.30 /testbed/src/_pytest/python.py(261):         return obj
+0.30 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.30 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.30 /testbed/src/_pytest/python.py(261):         return obj
+----------------------------- Captured stdout call -----------------------------
+0.30 /testbed/src/_pytest/python.py(1429):         self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+0.30 /testbed/src/_pytest/python.py(154):     def async_warn():
+0.30 /testbed/src/_pytest/python.py(163):     testfunction = pyfuncitem.obj
+0.30 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.30 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.30 /testbed/src/_pytest/python.py(261):         return obj
+0.30 /testbed/src/_pytest/python.py(164):     if iscoroutinefunction(testfunction) or (
+0.30 /testbed/src/_pytest/python.py(165):         sys.version_info >= (3, 6) and inspect.isasyncgenfunction(testfunction)
+0.30 /testbed/src/_pytest/python.py(164):     if iscoroutinefunction(testfunction) or (
+0.30 /testbed/src/_pytest/python.py(165):         sys.version_info >= (3, 6) and inspect.isasyncgenfunction(testfunction)
+0.30 /testbed/src/_pytest/python.py(164):     if iscoroutinefunction(testfunction) or (
+0.30 /testbed/src/_pytest/python.py(168):     funcargs = pyfuncitem.funcargs
+0.30 /testbed/src/_pytest/python.py(169):     testargs = {arg: funcargs[arg] for arg in pyfuncitem._fixtureinfo.argnames}
+0.30 /testbed/src/_pytest/python.py(169):     testargs = {arg: funcargs[arg] for arg in pyfuncitem._fixtureinfo.argnames}
+0.30 /testbed/src/_pytest/python.py(169):     testargs = {arg: funcargs[arg] for arg in pyfuncitem._fixtureinfo.argnames}
+0.30 /testbed/src/_pytest/python.py(170):     result = testfunction(**testargs)
+--------------------------- Captured stdout teardown ---------------------------
+0.34 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.34 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.34 /testbed/src/_pytest/python.py(261):         return obj
+0.34 /testbed/src/_pytest/python.py(254):         obj = getattr(self, "_obj", None)
+0.34 /testbed/src/_pytest/python.py(255):         if obj is None:
+0.34 /testbed/src/_pytest/python.py(261):         return obj
+=========================== short test summary info ============================
+FAILED testing/test_coverup_pytest-dev__pytest-6202.py::test_report_headline_bug[..[]
+============================== 1 failed in 0.07s ===============================
++ cat coverage.cover
+{"/testbed/src/_pytest/python.py": {"2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "13": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "44": 1, "56": 1, "111": 1, "120": 1, "132": 1, "152": 1, "153": 1, "176": 1, "188": 1, "193": 1, "199": 1, "200": 1, "238": 1, "242": 2, "248": 2, "308": 2, "429": 2, "548": 2, "661": 1, "673": 1, "684": 2, "764": 2, "782": 2, "821": 1, "827": 1, "833": 2, "884": 2, "1101": 1, "1134": 1, "1144": 1, "1175": 1, "1188": 1, "1204": 1, "1210": 1, "1262": 1, "1268": 1, "1325": 1, "1340": 2, "1436": 2, "45": 3, "50": 6, "51": 3, "53": 3, "46": 1, "47": 1, "48": 0, "57": 1, "58": 2, "59": 1, "60": 1, "61": 1, "62": 1, "63": 1, "64": 1, "67": 2, "68": 1, "69": 1, "70": 1, "71": 1, "72": 1, "74": 2, "75": 1, "76": 1, "78": 1, "79": 1, "81": 2, "82": 1, "83": 1, "84": 1, "85": 1, "87": 2, "88": 1, "89": 1, "90": 1, "91": 1, "93": 2, "94": 1, "95": 1, "96": 1, "97": 1, "101": 2, "102": 1, "103": 1, "104": 1, "105": 1, "106": 1, "112": 1, "113": 0, "114": 0, "115": 1, "116": 0, "117": 0, "123": 1, "124": 4, "125": 3, "126": 0, "127": 0, "128": 2, "129": 1, "133": 2, "134": 1, "135": 1, "144": 2, "145": 1, "146": 1, "154": 1, "163": 1, "164": 3, "165": 2, "167": 0, "168": 1, "169": 3, "170": 1, "171": 0, "172": 0, "173": 0, "155": 0, "156": 0, "157": 0, "158": 0, "159": 0, "160": 0, "161": 0, "177": 1, "178": 1, "179": 1, "180": 0, "181": 0, "183": 0, "184": 1, "185": 1, "190": 0, "194": 1, "195": 0, "196": 1, "201": 35, "202": 35, "203": 35, "204": 0, "206": 35, "207": 0, "208": 0, "209": 35, "211": 1, "215": 1, "216": 0, "217": 0, "218": 0, "219": 0, "221": 0, "222": 0, "223": 0, "225": 1, "226": 1, "227": 0, "228": 0, "229": 0, "231": 0, "232": 0, "234": 1, "235": 1, "239": 1, "243": 1, "244": 1, "245": 1, "249": 1, "251": 1, "252": 1, "263": 1, "264": 1, "267": 1, "271": 1, "291": 1, "254": 26, "255": 26, "256": 1, "259": 1, "260": 1, "261": 26, "265": 2, "269": 0, "273": 2, "274": 2, "275": 2, "276": 4, "277": 4, "278": 0, "279": 4, "280": 4, "281": 2, "282": 2, "283": 2, "284": 0, "285": 2, "286": 2, "287": 2, "288": 2, "289": 2, "293": 2, "294": 2, "295": 2, "297": 0, "298": 0, "299": 0, "300": 0, "302": 2, "303": 2, "304": 2, "305": 2, "309": 1, "312": 1, "321": 1, "324": 1, "336": 1, "339": 1, "356": 1, "381": 1, "385": 1, "310": 35, "319": 34, "322": 0, "325": 35, "326": 1, "328": 0, "330": 1, "331": 1, "329": 1, "334": 34, "337": 0, "344": 69, "345": 35, "346": 1, "350": 34, "351": 0, "353": 0, "354": 34, "357": 1, "358": 0, "362": 1, "363": 3, "364": 2, "365": 1, "366": 1, "367": 4, "368": 47, "369": 44, "370": 9, "371": 35, "372": 35, "373": 35, "374": 34, "375": 1, "376": 0, "377": 1, "378": 2, "379": 1, "383": 35, "386": 1, "387": 1, "388": 1, "389": 1, "391": 1, "392": 1, "394": 2, "395": 1, "397": 1, "398": 1, "399": 0, "400": 1, "401": 0, "403": 1, "405": 1, "406": 0, "409": 1, "414": 1, "416": 2, "417": 1, "418": 2, "419": 1, "420": 1, "421": 1, "422": 1, "423": 1, "424": 1, "425": 1, "432": 1, "435": 1, "441": 1, "468": 1, "497": 1, "433": 1, "436": 1, "437": 1, "438": 1, "439": 1, "448": 2, "449": 1, "451": 2, "452": 1, "455": 1, "456": 1, "458": 0, "459": 0, "466": 0, "460": 0, "461": 0, "462": 0, "463": 0, "464": 0, "475": 1, "476": 2, "477": 1, "479": 1, "480": 1, "482": 0, "483": 0, "495": 0, "484": 0, "487": 0, "488": 0, "489": 0, "490": 0, "491": 0, "492": 0, "493": 0, "499": 1, "500": 1, "501": 1, "502": 0, "503": 0, "504": 0, "506": 0, "507": 0, "508": 0, "509": 0, "515": 0, "517": 0, "518": 0, "520": 0, "521": 0, "522": 0, "525": 0, "524": 0, "526": 0, "523": 0, "528": 0, "529": 0, "530": 0, "533": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "544": 1, "545": 1, "549": 1, "559": 1, "575": 1, "588": 1, "602": 1, "627": 1, "630": 1, "550": 0, "551": 0, "552": 0, "554": 0, "555": 0, "556": 0, "557": 0, "562": 0, "563": 0, "565": 0, "566": 0, "568": 0, "569": 0, "571": 0, "572": 0, "573": 0, "576": 0, "577": 0, "578": 0, "579": 0, "580": 0, "581": 0, "582": 0, "583": 0, "584": 0, "585": 0, "586": 0, "591": 0, "592": 0, "593": 0, "594": 0, "596": 0, "599": 0, "600": 0, "604": 0, "603": 0, "605": 0, "606": 0, "608": 0, "609": 0, "610": 0, "611": 0, "613": 0, "614": 0, "615": 0, "616": 0, "617": 0, "618": 0, "620": 0, "622": 0, "623": 0, "625": 0, "628": 0, "631": 0, "632": 0, "633": 0, "634": 0, "636": 0, "637": 0, "638": 0, "640": 0, "641": 0, "642": 0, "643": 0, "645": 0, "646": 0, "648": 0, "650": 0, "652": 0, "653": 0, "654": 0, "656": 0, "657": 0, "658": 0, "647": 0, "664": 0, "665": 0, "666": 0, "667": 0, "668": 0, "670": 0, "678": 10, "679": 6, "680": 6, "681": 0, "687": 1, "714": 1, "738": 1, "688": 0, "689": 0, "690": 0, "691": 0, "692": 0, "693": 0, "695": 0, "698": 0, "699": 0, "700": 0, "701": 0, "702": 0, "704": 0, "707": 0, "709": 0, "710": 0, "712": 0, "721": 0, "722": 0, "723": 0, "724": 0, "726": 0, "727": 0, "736": 0, "728": 0, "729": 0, "730": 0, "731": 0, "732": 0, "733": 0, "734": 0, "745": 0, "746": 0, "747": 0, "748": 0, "750": 0, "751": 0, "761": 0, "752": 0, "753": 0, "754": 0, "755": 0, "756": 0, "757": 0, "758": 0, "759": 0, "765": 1, "770": 1, "773": 1, "777": 1, "771": 0, "774": 0, "775": 0, "778": 0, "779": 0, "786": 1, "792": 1, "813": 1, "788": 1, "789": 0, "790": 0, "793": 1, "794": 1, "795": 1, "796": 1, "797": 1, "798": 1, "799": 0, "800": 0, "801": 0, "802": 0, "803": 0, "805": 1, "808": 1, "809": 1, "810": 0, "811": 0, "814": 1, "815": 1, "816": 1, "817": 1, "818": 1, "822": 0, "823": 0, "824": 0, "828": 0, "829": 0, "830": 0, "834": 1, "845": 1, "857": 1, "861": 1, "869": 1, "870": 1, "873": 1, "835": 2, "836": 2, "837": 2, "838": 2, "839": 2, "840": 2, "841": 2, "842": 2, "843": 2, "846": 1, "847": 1, "848": 1, "849": 1, "850": 1, "851": 1, "852": 1, "853": 1, "854": 1, "855": 1, "858": 1, "859": 0, "862": 2, "863": 2, "864": 1, "865": 1, "866": 1, "867": 0, "871": 2, "874": 2, "875": 1, "876": 1, "877": 1, "878": 1, "879": 1, "880": 1, "881": 1, "892": 1, "918": 1, "1006": 1, "1038": 1, "1071": 1, "894": 1, "893": 1, "895": 0, "897": 1, "900": 1, "903": 1, "906": 1, "909": 1, "912": 1, "914": 1, "915": 1, "916": 1, "956": 1, "957": 1, "959": 2, "960": 1, "961": 1, "962": 1, "963": 1, "964": 1, "966": 1, "968": 1, "969": 0, "970": 0, "971": 0, "974": 1, "975": 1, "977": 1, "979": 1, "981": 1, "983": 2, "984": 1, "990": 1, "991": 2, "992": 2, "993": 1, "994": 2, "995": 1, "996": 1, "997": 1, "998": 1, "999": 1, "1000": 1, "1001": 1, "1003": 1, "1004": 1, "1017": 1, "1019": 1, "1020": 1, "1021": 0, "1022": 0, "1023": 1, "1024": 0, "1025": 0, "1026": 0, "1027": 0, "1028": 0, "1029": 0, "1030": 0, "1031": 0, "1032": 0, "1033": 0, "1035": 1, "1036": 1, "1049": 1, "1050": 1, "1051": 0, "1052": 0, "1053": 0, "1054": 0, "1055": 0, "1056": 0, "1057": 0, "1059": 0, "1061": 0, "1063": 0, "1064": 0, "1065": 0, "1067": 0, "1069": 1, "1079": 1, "1080": 1, "1081": 2, "1082": 1, "1083": 0, "1084": 0, "1085": 0, "1086": 0, "1088": 0, "1091": 0, "1092": 0, "1094": 0, "1095": 0, "1096": 0, "1097": 0, "1111": 1, "1113": 1, "1114": 0, "1116": 1, "1118": 1, "1119": 0, "1120": 0, "1122": 0, "1125": 0, "1127": 0, "1128": 0, "1129": 0, "1131": 1, "1123": 0, "1121": 0, "1135": 1, "1136": 0, "1138": 2, "1139": 1, "1141": 1, "1145": 1, "1146": 0, "1147": 0, "1148": 0, "1149": 0, "1150": 0, "1152": 0, "1153": 0, "1154": 0, "1155": 1, "1156": 2, "1157": 1, "1159": 1, "1160": 0, "1162": 1, "1163": 1, "1164": 0, "1165": 0, "1166": 0, "1167": 0, "1168": 0, "1169": 0, "1170": 0, "1171": 0, "1172": 0, "1176": 1, "1177": 0, "1178": 1, "1179": 4, "1181": 2, "1183": 1, "1185": 0, "1180": 1, "1189": 4, "1191": 2, "1193": 1, "1195": 0, "1196": 0, "1197": 0, "1198": 0, "1199": 0, "1200": 0, "1201": 1, "1190": 1, "1205": 0, "1207": 0, "1211": 0, "1213": 0, "1214": 0, "1215": 0, "1216": 0, "1218": 0, "1222": 0, "1238": 0, "1258": 0, "1259": 0, "1219": 0, "1220": 0, "1223": 0, "1224": 0, "1225": 0, "1226": 0, "1227": 0, "1228": 0, "1230": 0, "1231": 0, "1232": 0, "1233": 0, "1234": 0, "1236": 0, "1239": 0, "1240": 0, "1241": 0, "1243": 0, "1244": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1251": 0, "1252": 0, "1253": 0, "1254": 0, "1256": 0, "1263": 0, "1265": 0, "1269": 0, "1271": 0, "1272": 0, "1273": 0, "1274": 0, "1276": 0, "1278": 0, "1279": 0, "1281": 0, "1282": 0, "1283": 0, "1284": 0, "1285": 0, "1286": 0, "1287": 0, "1288": 0, "1289": 0, "1290": 0, "1292": 0, "1293": 0, "1294": 0, "1295": 0, "1296": 0, "1291": 0, "1300": 0, "1301": 0, "1302": 0, "1303": 0, "1304": 0, "1305": 0, "1306": 0, "1307": 0, "1308": 0, "1309": 0, "1310": 0, "1311": 0, "1312": 0, "1313": 0, "1314": 0, "1315": 0, "1316": 0, "1317": 0, "1318": 0, "1319": 0, "1321": 0, "1322": 0, "1326": 0, "1327": 0, "1328": 0, "1330": 0, "1332": 0, "1333": 0, "1335": 0, "1336": 0, "1337": 0, "1346": 1, "1352": 1, "1353": 1, "1354": 1, "1355": 1, "1356": 1, "1357": 1, "1358": 1, "1359": 1, "1348": 1, "1406": 1, "1410": 1, "1411": 1, "1415": 1, "1422": 1, "1423": 1, "1427": 1, "1431": 1, "1361": 2, "1362": 2, "1363": 2, "1364": 2, "1366": 2, "1367": 2, "1368": 2, "1369": 1, "1373": 1, "1376": 0, "1377": 1, "1378": 2, "1379": 1, "1384": 4, "1385": 8, "1387": 4, "1392": 2, "1393": 2, "1394": 1, "1396": 2, "1397": 2, "1398": 2, "1404": 2, "1388": 2, "1386": 2, "1407": 2, "1408": 2, "1413": 0, "1416": 0, "1417": 0, "1418": 0, "1419": 0, "1420": 0, "1425": 0, "1429": 1, "1432": 1, "1433": 1, "1442": 1, "1445": 1, "1443": 0}}
++ git checkout 3a668ea6ff24b0c8f00498c3144c63bac561d925
+Note: switching to '3a668ea6ff24b0c8f00498c3144c63bac561d925'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3a668ea6f Merge pull request #6198 from asottile/release-5.2.4
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,1126 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
+Merge: 6a43c8cd9 6718a2f02
+Author: Daniel Hahler <git@thequod.de>
+Date:   Tue May 14 23:57:09 2019 +0200
+
+    Merge pull request #5261 from blueyed/fix-py37-freeze-remove-no-use-pep517
+    
+    ci: tox: fix py37-freeze
+
++ git diff 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: py>=1.5.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (1.11.0)
+Requirement already satisfied: six>=1.10.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (1.16.0)
+Requirement already satisfied: setuptools in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (68.0.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (23.1.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (10.1.0)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (1.4.1)
+Requirement already satisfied: pluggy!=0.10,<1.0,>=0.9 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (0.11.0)
+Requirement already satisfied: wcwidth in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==4.5.1.dev3+g58e6a09db) (0.2.6)
+Building wheels for collected packages: pytest
+  Building editable for pytest (pyproject.toml): started
+  Building editable for pytest (pyproject.toml): finished with status 'done'
+  Created wheel for pytest: filename=pytest-4.5.1.dev3+g58e6a09db-0.editable-py2.py3-none-any.whl size=4863 sha256=d6d606e9ec7cdd559f695ce737c5da4151177b19096f55fffd5740748f5fb61b
+  Stored in directory: /tmp/pip-ephem-wheel-cache-53ow3f0a/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built pytest
+Installing collected packages: pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 4.5.1.dev3+g58e6a09db
+    Uninstalling pytest-4.5.1.dev3+g58e6a09db:
+      Successfully uninstalled pytest-4.5.1.dev3+g58e6a09db
+Successfully installed pytest-4.5.1.dev3+g58e6a09db
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch src/_pytest/capture.py...
+Applied patch src/_pytest/capture.py cleanly.
++ git apply -v -
+Checking patch testing/test_coverup_pytest-dev__pytest-5262.py...
+Applied patch testing/test_coverup_pytest-dev__pytest-5262.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(src/_pytest/capture\.py)' -m pytest -rA testing/test_coverup_pytest-dev__pytest-5262.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(src/_pytest/capture\\.py)']
+0.13 /testbed/src/_pytest/capture.py(1): """
+0.13 /testbed/src/_pytest/capture.py(5): from __future__ import absolute_import
+0.13 /testbed/src/_pytest/capture.py(6): from __future__ import division
+0.13 /testbed/src/_pytest/capture.py(7): from __future__ import print_function
+0.13 /testbed/src/_pytest/capture.py(9): import collections
+0.13 /testbed/src/_pytest/capture.py(10): import contextlib
+0.13 /testbed/src/_pytest/capture.py(11): import io
+0.13 /testbed/src/_pytest/capture.py(12): import os
+0.13 /testbed/src/_pytest/capture.py(13): import sys
+0.13 /testbed/src/_pytest/capture.py(14): from io import UnsupportedOperation
+0.13 /testbed/src/_pytest/capture.py(15): from tempfile import TemporaryFile
+0.13 /testbed/src/_pytest/capture.py(17): import six
+0.13 /testbed/src/_pytest/capture.py(19): import pytest
+0.13 /testbed/src/_pytest/capture.py(20): from _pytest.compat import _PY3
+0.13 /testbed/src/_pytest/capture.py(21): from _pytest.compat import CaptureIO
+0.13 /testbed/src/_pytest/capture.py(23): patchsysdict = {0: "stdin", 1: "stdout", 2: "stderr"}
+0.13 /testbed/src/_pytest/capture.py(26): def pytest_addoption(parser):
+0.13 /testbed/src/_pytest/capture.py(45): @pytest.hookimpl(hookwrapper=True)
+0.13 /testbed/src/_pytest/capture.py(46): def pytest_load_initial_conftests(early_config, parser, args):
+0.13 /testbed/src/_pytest/capture.py(69): class CaptureManager(object):
+0.13 /testbed/src/_pytest/capture.py(69): class CaptureManager(object):
+0.13 /testbed/src/_pytest/capture.py(70):     """
+0.13 /testbed/src/_pytest/capture.py(82):     def __init__(self, method):
+0.13 /testbed/src/_pytest/capture.py(87):     def __repr__(self):
+0.13 /testbed/src/_pytest/capture.py(94):     def _getcapture(self, method):
+0.13 /testbed/src/_pytest/capture.py(103):     def is_capturing(self):
+0.13 /testbed/src/_pytest/capture.py(115):     def is_globally_capturing(self):
+0.13 /testbed/src/_pytest/capture.py(118):     def start_global_capturing(self):
+0.13 /testbed/src/_pytest/capture.py(123):     def stop_global_capturing(self):
+0.13 /testbed/src/_pytest/capture.py(129):     def resume_global_capture(self):
+0.13 /testbed/src/_pytest/capture.py(135):     def suspend_global_capture(self, in_=False):
+0.13 /testbed/src/_pytest/capture.py(140):     def suspend(self, in_=False):
+0.13 /testbed/src/_pytest/capture.py(145):     def resume(self):
+0.13 /testbed/src/_pytest/capture.py(149):     def read_global_capture(self):
+0.13 /testbed/src/_pytest/capture.py(154):     def activate_fixture(self, item):
+0.13 /testbed/src/_pytest/capture.py(162):     def deactivate_fixture(self, item):
+0.13 /testbed/src/_pytest/capture.py(168):     def suspend_fixture(self, item):
+0.13 /testbed/src/_pytest/capture.py(173):     def resume_fixture(self, item):
+0.13 /testbed/src/_pytest/capture.py(180):     @contextlib.contextmanager
+0.13 /testbed/src/_pytest/capture.py(181):     def global_and_fixture_disabled(self):
+0.13 /testbed/src/_pytest/capture.py(189):     @contextlib.contextmanager
+0.13 /testbed/src/_pytest/capture.py(190):     def item_capture(self, when, item):
+0.13 /testbed/src/_pytest/capture.py(205):     @pytest.hookimpl(hookwrapper=True)
+0.13 /testbed/src/_pytest/capture.py(206):     def pytest_make_collect_report(self, collector):
+0.13 /testbed/src/_pytest/capture.py(220):     @pytest.hookimpl(hookwrapper=True)
+0.13 /testbed/src/_pytest/capture.py(221):     def pytest_runtest_protocol(self, item):
+0.13 /testbed/src/_pytest/capture.py(226):     @pytest.hookimpl(hookwrapper=True)
+0.13 /testbed/src/_pytest/capture.py(227):     def pytest_runtest_setup(self, item):
+0.13 /testbed/src/_pytest/capture.py(231):     @pytest.hookimpl(hookwrapper=True)
+0.13 /testbed/src/_pytest/capture.py(232):     def pytest_runtest_call(self, item):
+0.13 /testbed/src/_pytest/capture.py(236):     @pytest.hookimpl(hookwrapper=True)
+0.13 /testbed/src/_pytest/capture.py(237):     def pytest_runtest_teardown(self, item):
+0.13 /testbed/src/_pytest/capture.py(241):     @pytest.hookimpl(tryfirst=True)
+0.13 /testbed/src/_pytest/capture.py(242):     def pytest_keyboard_interrupt(self, excinfo):
+0.13 /testbed/src/_pytest/capture.py(245):     @pytest.hookimpl(tryfirst=True)
+0.13 /testbed/src/_pytest/capture.py(246):     def pytest_internalerror(self, excinfo):
+0.13 /testbed/src/_pytest/capture.py(250): capture_fixtures = {"capfd", "capfdbinary", "capsys", "capsysbinary"}
+0.13 /testbed/src/_pytest/capture.py(253): def _ensure_only_one_capture_fixture(request, name):
+0.13 /testbed/src/_pytest/capture.py(263): @pytest.fixture
+0.13 /testbed/src/_pytest/capture.py(264): def capsys(request):
+0.13 /testbed/src/_pytest/capture.py(276): @pytest.fixture
+0.13 /testbed/src/_pytest/capture.py(277): def capsysbinary(request):
+0.13 /testbed/src/_pytest/capture.py(293): @pytest.fixture
+0.13 /testbed/src/_pytest/capture.py(294): def capfd(request):
+0.13 /testbed/src/_pytest/capture.py(310): @pytest.fixture
+0.13 /testbed/src/_pytest/capture.py(311): def capfdbinary(request):
+0.13 /testbed/src/_pytest/capture.py(327): @contextlib.contextmanager
+0.13 /testbed/src/_pytest/capture.py(328): def _install_capture_fixture_on_item(request, capture_class):
+0.13 /testbed/src/_pytest/capture.py(347): class CaptureFixture(object):
+0.13 /testbed/src/_pytest/capture.py(347): class CaptureFixture(object):
+0.13 /testbed/src/_pytest/capture.py(348):     """
+0.13 /testbed/src/_pytest/capture.py(353):     def __init__(self, captureclass, request):
+0.13 /testbed/src/_pytest/capture.py(360):     def _start(self):
+0.13 /testbed/src/_pytest/capture.py(368):     def close(self):
+0.13 /testbed/src/_pytest/capture.py(376):     def readouterr(self):
+0.13 /testbed/src/_pytest/capture.py(390):     def _suspend(self):
+0.13 /testbed/src/_pytest/capture.py(394):     def _resume(self):
+0.13 /testbed/src/_pytest/capture.py(398):     @contextlib.contextmanager
+0.13 /testbed/src/_pytest/capture.py(399):     def disabled(self):
+0.13 /testbed/src/_pytest/capture.py(406): def safe_text_dupfile(f, mode, default_encoding="UTF8"):
+0.13 /testbed/src/_pytest/capture.py(425): class EncodedFile(object):
+0.13 /testbed/src/_pytest/capture.py(425): class EncodedFile(object):
+0.13 /testbed/src/_pytest/capture.py(426):     errors = "strict"  # possibly needed by py3 code (issue555)
+0.13 /testbed/src/_pytest/capture.py(428):     def __init__(self, buffer, encoding):
+0.13 /testbed/src/_pytest/capture.py(432):     def write(self, obj):
+0.13 /testbed/src/_pytest/capture.py(441):     def writelines(self, linelist):
+0.13 /testbed/src/_pytest/capture.py(445):     @property
+0.13 /testbed/src/_pytest/capture.py(446):     def name(self):
+0.13 /testbed/src/_pytest/capture.py(450):     @property
+0.13 /testbed/src/_pytest/capture.py(451):     def mode(self):
+0.13 /testbed/src/_pytest/capture.py(454):     def __getattr__(self, name):
+0.13 /testbed/src/_pytest/capture.py(458): CaptureResult = collections.namedtuple("CaptureResult", ["out", "err"])
+0.13 /testbed/src/_pytest/capture.py(461): class MultiCapture(object):
+0.13 /testbed/src/_pytest/capture.py(461): class MultiCapture(object):
+0.13 /testbed/src/_pytest/capture.py(462):     out = err = in_ = None
+0.13 /testbed/src/_pytest/capture.py(463):     _state = None
+0.13 /testbed/src/_pytest/capture.py(465):     def __init__(self, out=True, err=True, in_=True, Capture=None):
+0.13 /testbed/src/_pytest/capture.py(473):     def __repr__(self):
+0.13 /testbed/src/_pytest/capture.py(482):     def start_capturing(self):
+0.13 /testbed/src/_pytest/capture.py(491):     def pop_outerr_to_orig(self):
+0.13 /testbed/src/_pytest/capture.py(500):     def suspend_capturing(self, in_=False):
+0.13 /testbed/src/_pytest/capture.py(510):     def resume_capturing(self):
+0.13 /testbed/src/_pytest/capture.py(520):     def stop_capturing(self):
+0.13 /testbed/src/_pytest/capture.py(532):     def readouterr(self):
+0.13 /testbed/src/_pytest/capture.py(540): class NoCapture(object):
+0.13 /testbed/src/_pytest/capture.py(540): class NoCapture(object):
+0.13 /testbed/src/_pytest/capture.py(541):     EMPTY_BUFFER = None
+0.13 /testbed/src/_pytest/capture.py(542):     __init__ = start = done = suspend = resume = lambda *args: None
+0.13 /testbed/src/_pytest/capture.py(545): class FDCaptureBinary(object):
+0.13 /testbed/src/_pytest/capture.py(545): class FDCaptureBinary(object):
+0.13 /testbed/src/_pytest/capture.py(546):     """Capture IO to/from a given os-level filedescriptor.
+0.13 /testbed/src/_pytest/capture.py(551):     EMPTY_BUFFER = b""
+0.13 /testbed/src/_pytest/capture.py(552):     _state = None
+0.13 /testbed/src/_pytest/capture.py(554):     def __init__(self, targetfd, tmpfile=None):
+0.13 /testbed/src/_pytest/capture.py(578):     def __repr__(self):
+0.13 /testbed/src/_pytest/capture.py(585):     def start(self):
+0.13 /testbed/src/_pytest/capture.py(595):     def snap(self):
+0.13 /testbed/src/_pytest/capture.py(602):     def done(self):
+0.13 /testbed/src/_pytest/capture.py(612):     def suspend(self):
+0.13 /testbed/src/_pytest/capture.py(617):     def resume(self):
+0.13 /testbed/src/_pytest/capture.py(622):     def writeorg(self, data):
+0.13 /testbed/src/_pytest/capture.py(629): class FDCapture(FDCaptureBinary):
+0.13 /testbed/src/_pytest/capture.py(629): class FDCapture(FDCaptureBinary):
+0.13 /testbed/src/_pytest/capture.py(630):     """Capture IO to/from a given os-level filedescriptor.
+0.13 /testbed/src/_pytest/capture.py(635):     EMPTY_BUFFER = str()
+0.13 /testbed/src/_pytest/capture.py(637):     def snap(self):
+0.13 /testbed/src/_pytest/capture.py(645): class SysCapture(object):
+0.13 /testbed/src/_pytest/capture.py(645): class SysCapture(object):
+0.13 /testbed/src/_pytest/capture.py(647):     EMPTY_BUFFER = str()
+0.13 /testbed/src/_pytest/capture.py(648):     _state = None
+0.13 /testbed/src/_pytest/capture.py(650):     def __init__(self, fd, tmpfile=None):
+0.13 /testbed/src/_pytest/capture.py(661):     def __repr__(self):
+0.13 /testbed/src/_pytest/capture.py(669):     def start(self):
+0.13 /testbed/src/_pytest/capture.py(673):     def snap(self):
+0.13 /testbed/src/_pytest/capture.py(679):     def done(self):
+0.13 /testbed/src/_pytest/capture.py(685):     def suspend(self):
+0.13 /testbed/src/_pytest/capture.py(689):     def resume(self):
+0.13 /testbed/src/_pytest/capture.py(693):     def writeorg(self, data):
+0.13 /testbed/src/_pytest/capture.py(698): class SysCaptureBinary(SysCapture):
+0.13 /testbed/src/_pytest/capture.py(698): class SysCaptureBinary(SysCapture):
+0.13 /testbed/src/_pytest/capture.py(699):     EMPTY_BUFFER = b""
+0.13 /testbed/src/_pytest/capture.py(701):     def snap(self):
+0.13 /testbed/src/_pytest/capture.py(708): class DontReadFromInput(six.Iterator):
+0.13 /testbed/src/_pytest/capture.py(708): class DontReadFromInput(six.Iterator):
+0.13 /testbed/src/_pytest/capture.py(709):     """Temporary stub class.  Ideally when stdin is accessed, the
+0.13 /testbed/src/_pytest/capture.py(716):     encoding = None
+0.13 /testbed/src/_pytest/capture.py(718):     def read(self, *args):
+0.13 /testbed/src/_pytest/capture.py(721):     readline = read
+0.13 /testbed/src/_pytest/capture.py(722):     readlines = read
+0.13 /testbed/src/_pytest/capture.py(723):     __next__ = read
+0.13 /testbed/src/_pytest/capture.py(725):     def __iter__(self):
+0.13 /testbed/src/_pytest/capture.py(728):     def fileno(self):
+0.13 /testbed/src/_pytest/capture.py(731):     def isatty(self):
+0.13 /testbed/src/_pytest/capture.py(734):     def close(self):
+0.13 /testbed/src/_pytest/capture.py(737):     @property
+0.13 /testbed/src/_pytest/capture.py(738):     def buffer(self):
+0.13 /testbed/src/_pytest/capture.py(745): def _colorama_workaround():
+0.13 /testbed/src/_pytest/capture.py(761): def _readline_workaround():
+0.13 /testbed/src/_pytest/capture.py(786): def _py36_windowsconsoleio_workaround(stream):
+0.13 /testbed/src/_pytest/capture.py(840): def _attempt_to_close_capture_file(f):
+0.13 /testbed/src/_pytest/capture.py(27):     group = parser.getgroup("general")
+0.13 /testbed/src/_pytest/capture.py(28):     group._addoption(
+0.13 /testbed/src/_pytest/capture.py(29):         "--capture",
+0.13 /testbed/src/_pytest/capture.py(30):         action="store",
+0.13 /testbed/src/_pytest/capture.py(31):         default="fd" if hasattr(os, "dup") else "sys",
+0.13 /testbed/src/_pytest/capture.py(32):         metavar="method",
+0.13 /testbed/src/_pytest/capture.py(33):         choices=["fd", "sys", "no"],
+0.13 /testbed/src/_pytest/capture.py(34):         help="per-test capturing method: one of fd|sys|no.",
+0.13 /testbed/src/_pytest/capture.py(28):     group._addoption(
+0.13 /testbed/src/_pytest/capture.py(36):     group._addoption(
+0.13 /testbed/src/_pytest/capture.py(37):         "-s",
+0.13 /testbed/src/_pytest/capture.py(38):         action="store_const",
+0.13 /testbed/src/_pytest/capture.py(39):         const="no",
+0.13 /testbed/src/_pytest/capture.py(40):         dest="capture",
+0.13 /testbed/src/_pytest/capture.py(41):         help="shortcut for --capture=no.",
+0.13 /testbed/src/_pytest/capture.py(36):     group._addoption(
+0.28 /testbed/src/_pytest/capture.py(47):     ns = early_config.known_args_namespace
+0.28 /testbed/src/_pytest/capture.py(48):     if ns.capture == "fd":
+0.28 /testbed/src/_pytest/capture.py(49):         _py36_windowsconsoleio_workaround(sys.stdout)
+0.28 /testbed/src/_pytest/capture.py(808):     if not sys.platform.startswith("win32") or sys.version_info[:2] < (3, 6):
+0.28 /testbed/src/_pytest/capture.py(809):         return
+0.28 /testbed/src/_pytest/capture.py(50):     _colorama_workaround()
+0.28 /testbed/src/_pytest/capture.py(754):     if sys.platform.startswith("win32"):
+0.28 /testbed/src/_pytest/capture.py(51):     _readline_workaround()
+0.28 /testbed/src/_pytest/capture.py(779):     if sys.platform.startswith("win32"):
+0.28 /testbed/src/_pytest/capture.py(52):     pluginmanager = early_config.pluginmanager
+0.28 /testbed/src/_pytest/capture.py(53):     capman = CaptureManager(ns.capture)
+0.28 /testbed/src/_pytest/capture.py(83):         self._method = method
+0.28 /testbed/src/_pytest/capture.py(84):         self._global_capturing = None
+0.28 /testbed/src/_pytest/capture.py(85):         self._current_item = None
+0.28 /testbed/src/_pytest/capture.py(54):     pluginmanager.register(capman, "capturemanager")
+0.28 /testbed/src/_pytest/capture.py(57):     early_config.add_cleanup(capman.stop_global_capturing)
+0.28 /testbed/src/_pytest/capture.py(60):     capman.start_global_capturing()
+0.28 /testbed/src/_pytest/capture.py(119):         assert self._global_capturing is None
+0.28 /testbed/src/_pytest/capture.py(120):         self._global_capturing = self._getcapture(self._method)
+0.28 /testbed/src/_pytest/capture.py(95):         if method == "fd":
+0.28 /testbed/src/_pytest/capture.py(96):             return MultiCapture(out=True, err=True, Capture=FDCapture)
+0.28 /testbed/src/_pytest/capture.py(466):         if in_:
+0.28 /testbed/src/_pytest/capture.py(467):             self.in_ = Capture(0)
+0.28 /testbed/src/_pytest/capture.py(555):         self.targetfd = targetfd
+0.28 /testbed/src/_pytest/capture.py(556):         try:
+0.28 /testbed/src/_pytest/capture.py(557):             self.targetfd_save = os.dup(self.targetfd)
+0.28 /testbed/src/_pytest/capture.py(562):             if targetfd == 0:
+0.28 /testbed/src/_pytest/capture.py(563):                 assert not tmpfile, "cannot set tmpfile with stdin"
+0.28 /testbed/src/_pytest/capture.py(564):                 tmpfile = open(os.devnull, "r")
+0.28 /testbed/src/_pytest/capture.py(565):                 self.syscapture = SysCapture(targetfd)
+0.28 /testbed/src/_pytest/capture.py(651):         name = patchsysdict[fd]
+0.28 /testbed/src/_pytest/capture.py(652):         self._old = getattr(sys, name)
+0.28 /testbed/src/_pytest/capture.py(653):         self.name = name
+0.28 /testbed/src/_pytest/capture.py(654):         if tmpfile is None:
+0.28 /testbed/src/_pytest/capture.py(655):             if name == "stdin":
+0.28 /testbed/src/_pytest/capture.py(656):                 tmpfile = DontReadFromInput()
+0.28 /testbed/src/_pytest/capture.py(659):         self.tmpfile = tmpfile
+0.28 /testbed/src/_pytest/capture.py(575):             self.tmpfile = tmpfile
+0.28 /testbed/src/_pytest/capture.py(576):             self.tmpfile_fd = tmpfile.fileno()
+0.28 /testbed/src/_pytest/capture.py(468):         if out:
+0.28 /testbed/src/_pytest/capture.py(469):             self.out = Capture(1)
+0.28 /testbed/src/_pytest/capture.py(555):         self.targetfd = targetfd
+0.28 /testbed/src/_pytest/capture.py(556):         try:
+0.28 /testbed/src/_pytest/capture.py(557):             self.targetfd_save = os.dup(self.targetfd)
+0.28 /testbed/src/_pytest/capture.py(562):             if targetfd == 0:
+0.28 /testbed/src/_pytest/capture.py(567):                 if tmpfile is None:
+0.28 /testbed/src/_pytest/capture.py(568):                     f = TemporaryFile()
+0.28 /testbed/src/_pytest/capture.py(569):                     with f:
+0.28 /testbed/src/_pytest/capture.py(570):                         tmpfile = safe_text_dupfile(f, mode="wb+")
+0.28 /testbed/src/_pytest/capture.py(410):     encoding = getattr(f, "encoding", None)
+0.28 /testbed/src/_pytest/capture.py(411):     try:
+0.28 /testbed/src/_pytest/capture.py(412):         fd = f.fileno()
+0.28 /testbed/src/_pytest/capture.py(418):         newfd = os.dup(fd)
+0.28 /testbed/src/_pytest/capture.py(419):         if "b" not in mode:
+0.28 /testbed/src/_pytest/capture.py(421):         f = os.fdopen(newfd, mode, 0)  # no buffering
+0.28 /testbed/src/_pytest/capture.py(422):     return EncodedFile(f, encoding or default_encoding)
+0.28 /testbed/src/_pytest/capture.py(429):         self.buffer = buffer
+0.28 /testbed/src/_pytest/capture.py(430):         self.encoding = encoding
+0.28 /testbed/src/_pytest/capture.py(571):                 if targetfd in patchsysdict:
+0.28 /testbed/src/_pytest/capture.py(572):                     self.syscapture = SysCapture(targetfd, tmpfile)
+0.28 /testbed/src/_pytest/capture.py(651):         name = patchsysdict[fd]
+0.28 /testbed/src/_pytest/capture.py(652):         self._old = getattr(sys, name)
+0.28 /testbed/src/_pytest/capture.py(653):         self.name = name
+0.28 /testbed/src/_pytest/capture.py(654):         if tmpfile is None:
+0.28 /testbed/src/_pytest/capture.py(659):         self.tmpfile = tmpfile
+0.28 /testbed/src/_pytest/capture.py(575):             self.tmpfile = tmpfile
+0.28 /testbed/src/_pytest/capture.py(576):             self.tmpfile_fd = tmpfile.fileno()
+0.28 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.28 /testbed/src/_pytest/capture.py(470):         if err:
+0.28 /testbed/src/_pytest/capture.py(471):             self.err = Capture(2)
+0.28 /testbed/src/_pytest/capture.py(555):         self.targetfd = targetfd
+0.28 /testbed/src/_pytest/capture.py(556):         try:
+0.28 /testbed/src/_pytest/capture.py(557):             self.targetfd_save = os.dup(self.targetfd)
+0.28 /testbed/src/_pytest/capture.py(562):             if targetfd == 0:
+0.28 /testbed/src/_pytest/capture.py(567):                 if tmpfile is None:
+0.28 /testbed/src/_pytest/capture.py(568):                     f = TemporaryFile()
+0.28 /testbed/src/_pytest/capture.py(569):                     with f:
+0.28 /testbed/src/_pytest/capture.py(570):                         tmpfile = safe_text_dupfile(f, mode="wb+")
+0.28 /testbed/src/_pytest/capture.py(410):     encoding = getattr(f, "encoding", None)
+0.28 /testbed/src/_pytest/capture.py(411):     try:
+0.28 /testbed/src/_pytest/capture.py(412):         fd = f.fileno()
+0.28 /testbed/src/_pytest/capture.py(418):         newfd = os.dup(fd)
+0.28 /testbed/src/_pytest/capture.py(419):         if "b" not in mode:
+0.28 /testbed/src/_pytest/capture.py(421):         f = os.fdopen(newfd, mode, 0)  # no buffering
+0.28 /testbed/src/_pytest/capture.py(422):     return EncodedFile(f, encoding or default_encoding)
+0.28 /testbed/src/_pytest/capture.py(429):         self.buffer = buffer
+0.28 /testbed/src/_pytest/capture.py(430):         self.encoding = encoding
+0.28 /testbed/src/_pytest/capture.py(571):                 if targetfd in patchsysdict:
+0.28 /testbed/src/_pytest/capture.py(572):                     self.syscapture = SysCapture(targetfd, tmpfile)
+0.28 /testbed/src/_pytest/capture.py(651):         name = patchsysdict[fd]
+0.28 /testbed/src/_pytest/capture.py(652):         self._old = getattr(sys, name)
+0.28 /testbed/src/_pytest/capture.py(653):         self.name = name
+0.28 /testbed/src/_pytest/capture.py(654):         if tmpfile is None:
+0.28 /testbed/src/_pytest/capture.py(659):         self.tmpfile = tmpfile
+0.28 /testbed/src/_pytest/capture.py(575):             self.tmpfile = tmpfile
+0.28 /testbed/src/_pytest/capture.py(576):             self.tmpfile_fd = tmpfile.fileno()
+0.28 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.28 /testbed/src/_pytest/capture.py(121):         self._global_capturing.start_capturing()
+0.28 /testbed/src/_pytest/capture.py(483):         self._state = "started"
+0.28 /testbed/src/_pytest/capture.py(484):         if self.in_:
+0.28 /testbed/src/_pytest/capture.py(485):             self.in_.start()
+0.28 /testbed/src/_pytest/capture.py(587):         try:
+0.28 /testbed/src/_pytest/capture.py(588):             os.fstat(self.targetfd_save)
+0.28 /testbed/src/_pytest/capture.py(591):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.28 /testbed/src/_pytest/capture.py(592):         self.syscapture.start()
+0.28 /testbed/src/_pytest/capture.py(670):         setattr(sys, self.name, self.tmpfile)
+0.28 /testbed/src/_pytest/capture.py(671):         self._state = "started"
+0.28 /testbed/src/_pytest/capture.py(593):         self._state = "started"
+0.28 /testbed/src/_pytest/capture.py(486):         if self.out:
+0.28 /testbed/src/_pytest/capture.py(487):             self.out.start()
+0.28 /testbed/src/_pytest/capture.py(587):         try:
+0.28 /testbed/src/_pytest/capture.py(588):             os.fstat(self.targetfd_save)
+0.28 /testbed/src/_pytest/capture.py(591):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.28 /testbed/src/_pytest/capture.py(592):         self.syscapture.start()
+0.28 /testbed/src/_pytest/capture.py(670):         setattr(sys, self.name, self.tmpfile)
+0.28 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.28 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.28 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.28 /testbed/src/_pytest/capture.py(504):         if self.err:
+0.28 /testbed/src/_pytest/capture.py(505):             self.err.suspend()
+0.28 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.28 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+0.28 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.28 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.28 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.28 /testbed/src/_pytest/capture.py(506):         if in_ and self.in_:
+0.28 /testbed/src/_pytest/capture.py(63):     if outcome.excinfo is not None:
+============================= test session starts ==============================
+platform linux -- Python 3.9.23, pytest-4.5.1.dev3+g58e6a09db, py-1.11.0, pluggy-0.11.0
+rootdir: /testbed, inifile: tox.ini
+0.30 /testbed/src/_pytest/capture.py(207):         if isinstance(collector, pytest.File):
+0.30 /testbed/src/_pytest/capture.py(218):             yield
+0.30 /testbed/src/_pytest/capture.py(207):         if isinstance(collector, pytest.File):
+0.30 /testbed/src/_pytest/capture.py(208):             self.resume_global_capture()
+0.30 /testbed/src/_pytest/capture.py(132):         if self._global_capturing is not None:
+0.30 /testbed/src/_pytest/capture.py(133):             self._global_capturing.resume_capturing()
+0.30 /testbed/src/_pytest/capture.py(511):         self._state = "resumed"
+0.30 /testbed/src/_pytest/capture.py(512):         if self.out:
+0.30 /testbed/src/_pytest/capture.py(513):             self.out.resume()
+0.30 /testbed/src/_pytest/capture.py(618):         self.syscapture.resume()
+0.30 /testbed/src/_pytest/capture.py(690):         setattr(sys, self.name, self.tmpfile)
+0.30 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.30 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.30 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.30 /testbed/src/_pytest/capture.py(504):         if self.err:
+0.30 /testbed/src/_pytest/capture.py(505):             self.err.suspend()
+0.30 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.30 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+0.30 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.30 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.30 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.30 /testbed/src/_pytest/capture.py(506):         if in_ and self.in_:
+0.30 /testbed/src/_pytest/capture.py(211):             out, err = self.read_global_capture()
+0.30 /testbed/src/_pytest/capture.py(150):         return self._global_capturing.readouterr()
+0.30 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.30 /testbed/src/_pytest/capture.py(535):             self.out.snap() if self.out is not None else "",
+0.30 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.30 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(600):         return res
+0.30 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.30 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.30 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.30 /testbed/src/_pytest/capture.py(642):         return res
+0.30 /testbed/src/_pytest/capture.py(536):             self.err.snap() if self.err is not None else "",
+0.30 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.30 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.30 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.30 /testbed/src/_pytest/capture.py(600):         return res
+0.30 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.30 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.30 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.30 /testbed/src/_pytest/capture.py(642):         return res
+0.30 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.30 /testbed/src/_pytest/capture.py(212):             rep = outcome.get_result()
+0.30 /testbed/src/_pytest/capture.py(213):             if out:
+0.30 /testbed/src/_pytest/capture.py(214):                 rep.sections.append(("Captured stdout", out))
+0.30 /testbed/src/_pytest/capture.py(215):             if err:
+collected 1 item
+0.30 /testbed/src/_pytest/capture.py(222):         self._current_item = item
+0.30 /testbed/src/_pytest/capture.py(223):         yield
+
+testing/test_coverup_pytest-dev__pytest-5262.py 0.31 /testbed/src/_pytest/capture.py(228):         with self.item_capture("setup", item):
+0.31 /testbed/src/_pytest/capture.py(191):         self.resume_global_capture()
+0.31 /testbed/src/_pytest/capture.py(132):         if self._global_capturing is not None:
+0.31 /testbed/src/_pytest/capture.py(133):             self._global_capturing.resume_capturing()
+0.31 /testbed/src/_pytest/capture.py(511):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(512):         if self.out:
+0.31 /testbed/src/_pytest/capture.py(513):             self.out.resume()
+0.31 /testbed/src/_pytest/capture.py(618):         self.syscapture.resume()
+0.31 /testbed/src/_pytest/capture.py(690):         setattr(sys, self.name, self.tmpfile)
+0.31 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(504):         if self.err:
+0.31 /testbed/src/_pytest/capture.py(505):             self.err.suspend()
+0.31 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.31 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+0.31 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(506):         if in_ and self.in_:
+0.31 /testbed/src/_pytest/capture.py(199):         out, err = self.read_global_capture()
+0.31 /testbed/src/_pytest/capture.py(150):         return self._global_capturing.readouterr()
+0.31 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.31 /testbed/src/_pytest/capture.py(535):             self.out.snap() if self.out is not None else "",
+0.31 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.31 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(600):         return res
+0.31 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.31 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.31 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.31 /testbed/src/_pytest/capture.py(642):         return res
+0.31 /testbed/src/_pytest/capture.py(536):             self.err.snap() if self.err is not None else "",
+0.31 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.31 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(600):         return res
+0.31 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.31 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.31 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.31 /testbed/src/_pytest/capture.py(642):         return res
+0.31 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.31 /testbed/src/_pytest/capture.py(200):         item.add_report_section(when, "stdout", out)
+0.31 /testbed/src/_pytest/capture.py(201):         item.add_report_section(when, "stderr", err)
+0.31 /testbed/src/_pytest/capture.py(233):         with self.item_capture("call", item):
+0.31 /testbed/src/_pytest/capture.py(191):         self.resume_global_capture()
+0.31 /testbed/src/_pytest/capture.py(132):         if self._global_capturing is not None:
+0.31 /testbed/src/_pytest/capture.py(133):             self._global_capturing.resume_capturing()
+0.31 /testbed/src/_pytest/capture.py(511):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(512):         if self.out:
+0.31 /testbed/src/_pytest/capture.py(513):             self.out.resume()
+0.31 /testbed/src/_pytest/capture.py(618):         self.syscapture.resume()
+0.31 /testbed/src/_pytest/capture.py(690):         setattr(sys, self.name, self.tmpfile)
+0.31 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(504):         if self.err:
+0.31 /testbed/src/_pytest/capture.py(505):             self.err.suspend()
+0.31 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.31 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+0.31 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(506):         if in_ and self.in_:
+0.31 /testbed/src/_pytest/capture.py(199):         out, err = self.read_global_capture()
+0.31 /testbed/src/_pytest/capture.py(150):         return self._global_capturing.readouterr()
+0.31 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.31 /testbed/src/_pytest/capture.py(535):             self.out.snap() if self.out is not None else "",
+0.31 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.31 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(600):         return res
+0.31 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.31 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.31 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.31 /testbed/src/_pytest/capture.py(642):         return res
+0.31 /testbed/src/_pytest/capture.py(536):             self.err.snap() if self.err is not None else "",
+0.31 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.31 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.31 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.31 /testbed/src/_pytest/capture.py(600):         return res
+0.31 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.31 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.31 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.31 /testbed/src/_pytest/capture.py(642):         return res
+0.31 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.31 /testbed/src/_pytest/capture.py(200):         item.add_report_section(when, "stdout", out)
+0.31 /testbed/src/_pytest/capture.py(201):         item.add_report_section(when, "stderr", err)
+F0.35 /testbed/src/_pytest/capture.py(238):         with self.item_capture("teardown", item):
+0.35 /testbed/src/_pytest/capture.py(191):         self.resume_global_capture()
+0.35 /testbed/src/_pytest/capture.py(132):         if self._global_capturing is not None:
+0.35 /testbed/src/_pytest/capture.py(133):             self._global_capturing.resume_capturing()
+0.35 /testbed/src/_pytest/capture.py(511):         self._state = "resumed"
+0.35 /testbed/src/_pytest/capture.py(512):         if self.out:
+0.35 /testbed/src/_pytest/capture.py(513):             self.out.resume()
+0.35 /testbed/src/_pytest/capture.py(618):         self.syscapture.resume()
+0.35 /testbed/src/_pytest/capture.py(690):         setattr(sys, self.name, self.tmpfile)
+0.35 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.35 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.35 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.35 /testbed/src/_pytest/capture.py(504):         if self.err:
+0.35 /testbed/src/_pytest/capture.py(505):             self.err.suspend()
+0.35 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.35 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+0.35 /testbed/src/_pytest/capture.py(687):         self._state = "suspended"
+0.35 /testbed/src/_pytest/capture.py(614):         os.dup2(self.targetfd_save, self.targetfd)
+0.35 /testbed/src/_pytest/capture.py(615):         self._state = "suspended"
+0.35 /testbed/src/_pytest/capture.py(506):         if in_ and self.in_:
+0.35 /testbed/src/_pytest/capture.py(199):         out, err = self.read_global_capture()
+0.35 /testbed/src/_pytest/capture.py(150):         return self._global_capturing.readouterr()
+0.35 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.35 /testbed/src/_pytest/capture.py(535):             self.out.snap() if self.out is not None else "",
+0.35 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.35 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(600):         return res
+0.35 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.35 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.35 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.35 /testbed/src/_pytest/capture.py(642):         return res
+0.35 /testbed/src/_pytest/capture.py(536):             self.err.snap() if self.err is not None else "",
+0.35 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.35 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.35 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.35 /testbed/src/_pytest/capture.py(600):         return res
+0.35 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.35 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.35 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.35 /testbed/src/_pytest/capture.py(642):         return res
+0.35 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.35 /testbed/src/_pytest/capture.py(200):         item.add_report_section(when, "stdout", out)
+0.35 /testbed/src/_pytest/capture.py(201):         item.add_report_section(when, "stderr", err)
+                        [100%]0.36 /testbed/src/_pytest/capture.py(224):         self._current_item = None
+
+
+=================================== FAILURES ===================================
+________________________ test_encoded_file_write_bytes _________________________
+
+    def test_encoded_file_write_bytes():
+        # Create a mock buffer to simulate the file
+        class MockBuffer:
+            def write(self, obj):
+                # Simulate writing to a buffer
+                pass
+    
+        # Create an instance of EncodedFile with a mock buffer
+        buffer = MockBuffer()
+        encoded_file = EncodedFile(buffer, 'utf-8')
+    
+        # Attempt to write bytes to the EncodedFile
+        # This should raise an exception due to the bug
+        with pytest.raises(TypeError, match="write() argument must be str, not bytes"):
+>           encoded_file.write(b"test bytes")
+
+testing/test_coverup_pytest-dev__pytest-5262.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <_pytest.capture.EncodedFile object at 0x7fe8fbb88370>
+obj = b'test bytes'
+
+    def write(self, obj):
+        if isinstance(obj, six.text_type):
+            obj = obj.encode(self.encoding, "replace")
+        elif _PY3:
+>           raise TypeError(
+                "write() argument must be str, not {}".format(type(obj).__name__)
+            )
+E           TypeError: write() argument must be str, not bytes
+
+src/_pytest/capture.py:436: TypeError
+
+During handling of the above exception, another exception occurred:
+
+    def test_encoded_file_write_bytes():
+        # Create a mock buffer to simulate the file
+        class MockBuffer:
+            def write(self, obj):
+                # Simulate writing to a buffer
+                pass
+    
+        # Create an instance of EncodedFile with a mock buffer
+        buffer = MockBuffer()
+        encoded_file = EncodedFile(buffer, 'utf-8')
+    
+        # Attempt to write bytes to the EncodedFile
+        # This should raise an exception due to the bug
+        with pytest.raises(TypeError, match="write() argument must be str, not bytes"):
+>           encoded_file.write(b"test bytes")
+E           AssertionError: Pattern 'write() argument must be str, not bytes' not found in 'write() argument must be str, not bytes'
+
+testing/test_coverup_pytest-dev__pytest-5262.py:19: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+0.31 /testbed/src/_pytest/capture.py(691):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(619):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(620):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(514):         if self.err:
+0.31 /testbed/src/_pytest/capture.py(515):             self.err.resume()
+0.31 /testbed/src/_pytest/capture.py(618):         self.syscapture.resume()
+0.31 /testbed/src/_pytest/capture.py(690):         setattr(sys, self.name, self.tmpfile)
+0.31 /testbed/src/_pytest/capture.py(691):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(619):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(620):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(516):         if hasattr(self, "_in_suspended"):
+0.31 /testbed/src/_pytest/capture.py(192):         self.activate_fixture(item)
+0.31 /testbed/src/_pytest/capture.py(158):         fixture = getattr(item, "_capture_fixture", None)
+0.31 /testbed/src/_pytest/capture.py(159):         if fixture is not None:
+0.31 /testbed/src/_pytest/capture.py(193):         try:
+0.31 /testbed/src/_pytest/capture.py(194):             yield
+0.31 /testbed/src/_pytest/capture.py(229):             yield
+0.31 /testbed/src/_pytest/capture.py(196):             self.deactivate_fixture(item)
+0.31 /testbed/src/_pytest/capture.py(164):         fixture = getattr(item, "_capture_fixture", None)
+0.31 /testbed/src/_pytest/capture.py(165):         if fixture is not None:
+0.31 /testbed/src/_pytest/capture.py(197):             self.suspend_global_capture(in_=False)
+0.31 /testbed/src/_pytest/capture.py(136):         cap = getattr(self, "_global_capturing", None)
+0.31 /testbed/src/_pytest/capture.py(137):         if cap is not None:
+0.31 /testbed/src/_pytest/capture.py(138):             cap.suspend_capturing(in_=in_)
+0.31 /testbed/src/_pytest/capture.py(501):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(502):         if self.out:
+0.31 /testbed/src/_pytest/capture.py(503):             self.out.suspend()
+0.31 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.31 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+----------------------------- Captured stdout call -----------------------------
+0.31 /testbed/src/_pytest/capture.py(691):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(619):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(620):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(514):         if self.err:
+0.31 /testbed/src/_pytest/capture.py(515):             self.err.resume()
+0.31 /testbed/src/_pytest/capture.py(618):         self.syscapture.resume()
+0.31 /testbed/src/_pytest/capture.py(690):         setattr(sys, self.name, self.tmpfile)
+0.31 /testbed/src/_pytest/capture.py(691):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(619):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.31 /testbed/src/_pytest/capture.py(620):         self._state = "resumed"
+0.31 /testbed/src/_pytest/capture.py(516):         if hasattr(self, "_in_suspended"):
+0.31 /testbed/src/_pytest/capture.py(192):         self.activate_fixture(item)
+0.31 /testbed/src/_pytest/capture.py(158):         fixture = getattr(item, "_capture_fixture", None)
+0.31 /testbed/src/_pytest/capture.py(159):         if fixture is not None:
+0.31 /testbed/src/_pytest/capture.py(193):         try:
+0.31 /testbed/src/_pytest/capture.py(194):             yield
+0.31 /testbed/src/_pytest/capture.py(234):             yield
+0.31 /testbed/src/_pytest/capture.py(429):         self.buffer = buffer
+0.31 /testbed/src/_pytest/capture.py(430):         self.encoding = encoding
+0.31 /testbed/src/_pytest/capture.py(433):         if isinstance(obj, six.text_type):
+0.31 /testbed/src/_pytest/capture.py(435):         elif _PY3:
+0.31 /testbed/src/_pytest/capture.py(436):             raise TypeError(
+0.31 /testbed/src/_pytest/capture.py(437):                 "write() argument must be str, not {}".format(type(obj).__name__)
+0.31 /testbed/src/_pytest/capture.py(436):             raise TypeError(
+0.31 /testbed/src/_pytest/capture.py(196):             self.deactivate_fixture(item)
+0.31 /testbed/src/_pytest/capture.py(164):         fixture = getattr(item, "_capture_fixture", None)
+0.31 /testbed/src/_pytest/capture.py(165):         if fixture is not None:
+0.31 /testbed/src/_pytest/capture.py(197):             self.suspend_global_capture(in_=False)
+0.31 /testbed/src/_pytest/capture.py(136):         cap = getattr(self, "_global_capturing", None)
+0.31 /testbed/src/_pytest/capture.py(137):         if cap is not None:
+0.31 /testbed/src/_pytest/capture.py(138):             cap.suspend_capturing(in_=in_)
+0.31 /testbed/src/_pytest/capture.py(501):         self._state = "suspended"
+0.31 /testbed/src/_pytest/capture.py(502):         if self.out:
+0.31 /testbed/src/_pytest/capture.py(503):             self.out.suspend()
+0.31 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.31 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+--------------------------- Captured stdout teardown ---------------------------
+0.35 /testbed/src/_pytest/capture.py(691):         self._state = "resumed"
+0.35 /testbed/src/_pytest/capture.py(619):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.35 /testbed/src/_pytest/capture.py(620):         self._state = "resumed"
+0.35 /testbed/src/_pytest/capture.py(514):         if self.err:
+0.35 /testbed/src/_pytest/capture.py(515):             self.err.resume()
+0.35 /testbed/src/_pytest/capture.py(618):         self.syscapture.resume()
+0.35 /testbed/src/_pytest/capture.py(690):         setattr(sys, self.name, self.tmpfile)
+0.35 /testbed/src/_pytest/capture.py(691):         self._state = "resumed"
+0.35 /testbed/src/_pytest/capture.py(619):         os.dup2(self.tmpfile_fd, self.targetfd)
+0.35 /testbed/src/_pytest/capture.py(620):         self._state = "resumed"
+0.35 /testbed/src/_pytest/capture.py(516):         if hasattr(self, "_in_suspended"):
+0.35 /testbed/src/_pytest/capture.py(192):         self.activate_fixture(item)
+0.35 /testbed/src/_pytest/capture.py(158):         fixture = getattr(item, "_capture_fixture", None)
+0.35 /testbed/src/_pytest/capture.py(159):         if fixture is not None:
+0.35 /testbed/src/_pytest/capture.py(193):         try:
+0.35 /testbed/src/_pytest/capture.py(194):             yield
+0.35 /testbed/src/_pytest/capture.py(239):             yield
+0.35 /testbed/src/_pytest/capture.py(196):             self.deactivate_fixture(item)
+0.35 /testbed/src/_pytest/capture.py(164):         fixture = getattr(item, "_capture_fixture", None)
+0.35 /testbed/src/_pytest/capture.py(165):         if fixture is not None:
+0.35 /testbed/src/_pytest/capture.py(197):             self.suspend_global_capture(in_=False)
+0.35 /testbed/src/_pytest/capture.py(136):         cap = getattr(self, "_global_capturing", None)
+0.35 /testbed/src/_pytest/capture.py(137):         if cap is not None:
+0.35 /testbed/src/_pytest/capture.py(138):             cap.suspend_capturing(in_=in_)
+0.35 /testbed/src/_pytest/capture.py(501):         self._state = "suspended"
+0.35 /testbed/src/_pytest/capture.py(502):         if self.out:
+0.35 /testbed/src/_pytest/capture.py(503):             self.out.suspend()
+0.35 /testbed/src/_pytest/capture.py(613):         self.syscapture.suspend()
+0.35 /testbed/src/_pytest/capture.py(686):         setattr(sys, self.name, self._old)
+=========================== short test summary info ============================
+FAILED testing/test_coverup_pytest-dev__pytest-5262.py::test_encoded_file_write_bytes
+=========================== 1 failed in 0.06 seconds ===========================
+0.36 /testbed/src/_pytest/capture.py(124):         if self._global_capturing is not None:
+0.36 /testbed/src/_pytest/capture.py(125):             self._global_capturing.pop_outerr_to_orig()
+0.36 /testbed/src/_pytest/capture.py(493):         out, err = self.readouterr()
+0.36 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.36 /testbed/src/_pytest/capture.py(535):             self.out.snap() if self.out is not None else "",
+0.36 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.36 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(600):         return res
+0.36 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.36 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.36 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.36 /testbed/src/_pytest/capture.py(642):         return res
+0.36 /testbed/src/_pytest/capture.py(536):             self.err.snap() if self.err is not None else "",
+0.36 /testbed/src/_pytest/capture.py(638):         res = super(FDCapture, self).snap()
+0.36 /testbed/src/_pytest/capture.py(596):         self.tmpfile.seek(0)
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(597):         res = self.tmpfile.read()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(598):         self.tmpfile.seek(0)
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(599):         self.tmpfile.truncate()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(600):         return res
+0.36 /testbed/src/_pytest/capture.py(639):         enc = getattr(self.tmpfile, "encoding", None)
+0.36 /testbed/src/_pytest/capture.py(640):         if enc and isinstance(res, bytes):
+0.36 /testbed/src/_pytest/capture.py(641):             res = six.text_type(res, enc, "replace")
+0.36 /testbed/src/_pytest/capture.py(642):         return res
+0.36 /testbed/src/_pytest/capture.py(534):         return CaptureResult(
+0.36 /testbed/src/_pytest/capture.py(494):         if out:
+0.36 /testbed/src/_pytest/capture.py(496):         if err:
+0.36 /testbed/src/_pytest/capture.py(498):         return out, err
+0.36 /testbed/src/_pytest/capture.py(126):             self._global_capturing.stop_capturing()
+0.36 /testbed/src/_pytest/capture.py(522):         if self._state == "stopped":
+0.36 /testbed/src/_pytest/capture.py(524):         self._state = "stopped"
+0.36 /testbed/src/_pytest/capture.py(525):         if self.out:
+0.36 /testbed/src/_pytest/capture.py(526):             self.out.done()
+0.36 /testbed/src/_pytest/capture.py(605):         targetfd_save = self.__dict__.pop("targetfd_save")
+0.36 /testbed/src/_pytest/capture.py(606):         os.dup2(targetfd_save, self.targetfd)
+0.36 /testbed/src/_pytest/capture.py(607):         os.close(targetfd_save)
+0.36 /testbed/src/_pytest/capture.py(608):         self.syscapture.done()
+0.36 /testbed/src/_pytest/capture.py(680):         setattr(sys, self.name, self._old)
+0.36 /testbed/src/_pytest/capture.py(681):         del self._old
+0.36 /testbed/src/_pytest/capture.py(682):         _attempt_to_close_capture_file(self.tmpfile)
+0.36 /testbed/src/_pytest/capture.py(842):     if six.PY2:
+0.36 /testbed/src/_pytest/capture.py(848):         f.close()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(683):         self._state = "done"
+0.36 /testbed/src/_pytest/capture.py(609):         _attempt_to_close_capture_file(self.tmpfile)
+0.36 /testbed/src/_pytest/capture.py(842):     if six.PY2:
+0.36 /testbed/src/_pytest/capture.py(848):         f.close()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(610):         self._state = "done"
+0.36 /testbed/src/_pytest/capture.py(527):         if self.err:
+0.36 /testbed/src/_pytest/capture.py(528):             self.err.done()
+0.36 /testbed/src/_pytest/capture.py(605):         targetfd_save = self.__dict__.pop("targetfd_save")
+0.36 /testbed/src/_pytest/capture.py(606):         os.dup2(targetfd_save, self.targetfd)
+0.36 /testbed/src/_pytest/capture.py(607):         os.close(targetfd_save)
+0.36 /testbed/src/_pytest/capture.py(608):         self.syscapture.done()
+0.36 /testbed/src/_pytest/capture.py(680):         setattr(sys, self.name, self._old)
+0.36 /testbed/src/_pytest/capture.py(681):         del self._old
+0.36 /testbed/src/_pytest/capture.py(682):         _attempt_to_close_capture_file(self.tmpfile)
+0.36 /testbed/src/_pytest/capture.py(842):     if six.PY2:
+0.36 /testbed/src/_pytest/capture.py(848):         f.close()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(683):         self._state = "done"
+0.36 /testbed/src/_pytest/capture.py(609):         _attempt_to_close_capture_file(self.tmpfile)
+0.36 /testbed/src/_pytest/capture.py(842):     if six.PY2:
+0.36 /testbed/src/_pytest/capture.py(848):         f.close()
+0.36 /testbed/src/_pytest/capture.py(455):         return getattr(object.__getattribute__(self, "buffer"), name)
+0.36 /testbed/src/_pytest/capture.py(610):         self._state = "done"
+0.36 /testbed/src/_pytest/capture.py(529):         if self.in_:
+0.36 /testbed/src/_pytest/capture.py(530):             self.in_.done()
+0.36 /testbed/src/_pytest/capture.py(605):         targetfd_save = self.__dict__.pop("targetfd_save")
+0.36 /testbed/src/_pytest/capture.py(606):         os.dup2(targetfd_save, self.targetfd)
+0.36 /testbed/src/_pytest/capture.py(607):         os.close(targetfd_save)
+0.36 /testbed/src/_pytest/capture.py(608):         self.syscapture.done()
+0.36 /testbed/src/_pytest/capture.py(680):         setattr(sys, self.name, self._old)
+0.36 /testbed/src/_pytest/capture.py(681):         del self._old
+0.36 /testbed/src/_pytest/capture.py(682):         _attempt_to_close_capture_file(self.tmpfile)
+0.36 /testbed/src/_pytest/capture.py(842):     if six.PY2:
+0.36 /testbed/src/_pytest/capture.py(848):         f.close()
+0.36 /testbed/src/_pytest/capture.py(735):         pass
+0.36 /testbed/src/_pytest/capture.py(683):         self._state = "done"
+0.36 /testbed/src/_pytest/capture.py(609):         _attempt_to_close_capture_file(self.tmpfile)
+0.36 /testbed/src/_pytest/capture.py(842):     if six.PY2:
+0.36 /testbed/src/_pytest/capture.py(848):         f.close()
+0.36 /testbed/src/_pytest/capture.py(610):         self._state = "done"
+0.36 /testbed/src/_pytest/capture.py(127):             self._global_capturing = None
++ cat coverage.cover
+{"/testbed/src/_pytest/capture.py": {"5": 1, "6": 1, "7": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "17": 1, "19": 1, "20": 1, "21": 1, "23": 1, "26": 1, "45": 1, "46": 1, "69": 2, "250": 1, "253": 1, "263": 1, "264": 1, "276": 1, "277": 1, "293": 1, "294": 1, "310": 1, "311": 1, "327": 1, "328": 1, "347": 2, "406": 1, "425": 2, "458": 1, "461": 2, "540": 2, "545": 2, "629": 2, "645": 2, "698": 2, "708": 2, "745": 1, "761": 1, "786": 1, "840": 1, "27": 1, "28": 2, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "36": 2, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "47": 1, "48": 1, "49": 1, "50": 1, "51": 1, "52": 1, "53": 1, "54": 1, "57": 1, "60": 1, "61": 1, "62": 1, "63": 1, "64": 0, "65": 0, "66": 0, "82": 1, "87": 1, "94": 1, "103": 1, "115": 1, "118": 1, "123": 1, "129": 1, "135": 1, "140": 1, "145": 1, "149": 1, "154": 1, "162": 1, "168": 1, "173": 1, "180": 1, "181": 1, "189": 1, "190": 1, "205": 1, "206": 1, "220": 1, "221": 1, "226": 1, "227": 1, "231": 1, "232": 1, "236": 1, "237": 1, "241": 1, "242": 1, "245": 1, "246": 1, "83": 1, "84": 1, "85": 1, "88": 0, "89": 0, "90": 0, "91": 0, "95": 1, "96": 1, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "104": 0, "105": 0, "106": 0, "107": 0, "109": 0, "108": 0, "111": 0, "116": 0, "119": 1, "120": 1, "121": 1, "124": 1, "125": 1, "126": 1, "127": 1, "132": 4, "133": 4, "136": 5, "137": 5, "138": 5, "142": 0, "143": 0, "146": 0, "147": 0, "150": 4, "158": 3, "159": 3, "160": 0, "164": 3, "165": 3, "166": 0, "169": 0, "170": 0, "171": 0, "174": 0, "175": 0, "176": 0, "183": 0, "184": 0, "185": 0, "187": 0, "191": 3, "192": 3, "193": 3, "194": 3, "196": 3, "197": 3, "199": 3, "200": 3, "201": 3, "207": 2, "208": 1, "209": 1, "210": 1, "211": 1, "212": 1, "213": 1, "214": 1, "215": 1, "216": 0, "218": 1, "222": 1, "223": 1, "224": 1, "228": 1, "229": 1, "233": 1, "234": 1, "238": 1, "239": 1, "243": 0, "247": 0, "254": 0, "255": 0, "256": 0, "257": 0, "258": 0, "259": 0, "271": 0, "272": 0, "273": 0, "284": 0, "287": 0, "288": 0, "289": 0, "290": 0, "301": 0, "302": 0, "303": 0, "304": 0, "306": 0, "307": 0, "318": 0, "319": 0, "320": 0, "321": 0, "323": 0, "324": 0, "336": 0, "337": 0, "341": 0, "342": 0, "343": 0, "344": 0, "353": 1, "360": 1, "368": 1, "376": 1, "390": 1, "394": 1, "398": 1, "399": 1, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "362": 0, "363": 0, "364": 0, "366": 0, "369": 0, "370": 0, "371": 0, "372": 0, "373": 0, "374": 0, "381": 0, "382": 0, "383": 0, "384": 0, "385": 0, "386": 0, "387": 0, "388": 0, "392": 0, "396": 0, "401": 0, "402": 0, "403": 0, "410": 2, "411": 2, "412": 2, "413": 0, "414": 0, "416": 0, "418": 2, "419": 2, "420": 0, "421": 2, "422": 2, "426": 1, "428": 1, "432": 1, "441": 1, "445": 1, "446": 1, "450": 1, "451": 1, "454": 1, "429": 3, "430": 3, "433": 1, "434": 0, "435": 1, "436": 2, "437": 1, "439": 0, "442": 0, "443": 0, "448": 0, "452": 0, "455": 46, "462": 1, "463": 1, "465": 1, "473": 1, "482": 1, "491": 1, "500": 1, "510": 1, "520": 1, "532": 1, "466": 1, "467": 1, "468": 1, "469": 1, "470": 1, "471": 1, "474": 0, "475": 0, "476": 0, "477": 0, "478": 0, "479": 0, "483": 1, "484": 1, "485": 1, "486": 1, "487": 1, "488": 1, "489": 1, "493": 1, "494": 1, "495": 0, "496": 1, "497": 0, "498": 1, "501": 5, "502": 5, "503": 5, "504": 5, "505": 5, "506": 5, "507": 0, "508": 0, "511": 4, "512": 4, "513": 4, "514": 4, "515": 4, "516": 4, "517": 0, "518": 0, "522": 1, "523": 0, "524": 1, "525": 1, "526": 1, "527": 1, "528": 1, "529": 1, "530": 1, "534": 10, "535": 5, "536": 5, "541": 1, "542": 1, "551": 1, "552": 1, "554": 1, "578": 1, "585": 1, "595": 1, "602": 1, "612": 1, "617": 1, "622": 1, "555": 3, "556": 3, "557": 3, "558": 0, "559": 0, "560": 0, "562": 3, "563": 1, "564": 1, "565": 1, "567": 2, "568": 2, "569": 2, "570": 2, "571": 2, "572": 2, "574": 0, "575": 3, "576": 3, "579": 0, "580": 0, "581": 0, "582": 0, "587": 3, "588": 3, "589": 0, "590": 0, "591": 3, "592": 3, "593": 3, "596": 10, "597": 10, "598": 10, "599": 10, "600": 10, "605": 3, "606": 3, "607": 3, "608": 3, "609": 3, "610": 3, "613": 10, "614": 10, "615": 10, "618": 8, "619": 8, "620": 8, "624": 0, "625": 0, "626": 0, "635": 1, "637": 1, "638": 10, "639": 10, "640": 10, "641": 10, "642": 10, "647": 1, "648": 1, "650": 1, "661": 1, "669": 1, "673": 1, "679": 1, "685": 1, "689": 1, "693": 1, "651": 3, "652": 3, "653": 3, "654": 3, "655": 1, "656": 1, "658": 0, "659": 3, "662": 0, "663": 0, "664": 0, "665": 0, "666": 0, "670": 3, "671": 3, "674": 0, "675": 0, "676": 0, "677": 0, "680": 3, "681": 3, "682": 3, "683": 3, "686": 10, "687": 10, "690": 8, "691": 8, "694": 0, "695": 0, "699": 1, "701": 1, "702": 0, "703": 0, "704": 0, "705": 0, "716": 1, "718": 1, "721": 1, "722": 1, "723": 1, "725": 1, "728": 1, "731": 1, "734": 1, "737": 1, "738": 1, "719": 0, "726": 0, "729": 0, "732": 0, "735": 1, "739": 0, "740": 0, "742": 0, "754": 1, "755": 0, "756": 0, "757": 0, "758": 0, "779": 1, "780": 0, "781": 0, "782": 0, "783": 0, "808": 1, "809": 1, "812": 0, "813": 0, "815": 0, "816": 0, "818": 0, "819": 0, "821": 0, "835": 0, "836": 0, "837": 0, "822": 0, "823": 0, "825": 0, "827": 0, "828": 0, "829": 0, "830": 0, "831": 0, "832": 0, "842": 6, "843": 0, "844": 0, "845": 0, "846": 0, "848": 6}}
++ git checkout 58e6a09db49f34886ff13f3b7520dd0bcd7063cd
+Note: switching to '58e6a09db49f34886ff13f3b7520dd0bcd7063cd'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 58e6a09db Merge pull request #5261 from blueyed/fix-py37-freeze-remove-no-use-pep517
+M	src/_pytest/capture.py
++ git apply /root/pre_state.patch
+error: unrecognized input

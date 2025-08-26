@@ -1,0 +1,28 @@
+diff --git a/dev/null b/testing/test_coverup_pytest-dev__pytest-10051.py
+new file mode 100644
+index e69de29..00306f7 100644
+--- /dev/null
++++ b/testing/test_coverup_pytest-dev__pytest-10051.py
+@@ -0,0 +1,22 @@
++import logging
++import pytest
++
++def test_caplog_clear_bug(caplog):
++    def verify_consistency():
++        # Assert that caplog.get_records("call") and caplog.records are the same
++        assert caplog.get_records("call") == caplog.records
++
++    # Initial consistency check
++    verify_consistency()
++
++    # Log a message
++    logging.warning("test")
++
++    # Consistency check after logging
++    verify_consistency()
++
++    # Clear the logs
++    caplog.clear()
++
++    # Consistency check after clear
++    verify_consistency()

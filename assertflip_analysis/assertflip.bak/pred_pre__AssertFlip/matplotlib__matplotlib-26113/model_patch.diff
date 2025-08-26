@@ -1,0 +1,42 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-26113.py
+new file mode 100644
+index e69de29..3d613ea 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-26113.py
+@@ -0,0 +1,36 @@
++import pytest
++import numpy as np
++from matplotlib import pyplot as plt
++
++def test_hexbin_mincnt_with_C_bug():
++    # Set up the data and parameters
++    np.random.seed(42)
++    X, Y = np.random.multivariate_normal([0.0, 0.0], [[1.0, 0.1], [0.1, 1.0]], size=250).T
++    Z = np.ones_like(X)
++    extent = [-3., 3., -3., 3.]
++    gridsize = (7, 7)
++
++    # Create the hexbin plot with mincnt=1 and C=Z
++    fig, ax = plt.subplots(1, 1)
++    hb = ax.hexbin(
++        X, Y,
++        C=Z,
++        reduce_C_function=np.sum,
++        mincnt=1,
++        extent=extent,
++        gridsize=gridsize,
++        linewidth=0.0,
++        cmap='Blues',
++    )
++    ax.set_facecolor("green")
++
++    # Capture the number of gridpoints shown
++    offsets = hb.get_offsets()
++    num_gridpoints = len(offsets)
++
++    # Assert that the number of gridpoints is as expected
++    # Correct behavior should show gridpoints with at least one data point
++    assert num_gridpoints == 49  # Expect all gridpoints with at least one datum
++
++    plt.close(fig)  # Cleanup to avoid state pollution
++

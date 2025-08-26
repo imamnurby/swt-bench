@@ -1,0 +1,48 @@
+{
+    "django__django-16901": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": true,
+        "coverage_pred": 1.0,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.3333333333333333,
+        "coverage_delta_pred": 0.6666666666666666,
+        "coverage_delta_gold": 0.6666666666666666,
+        "added_f2p": 1,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_coverup_django__django-16901 (unittest.loader._FailedTest.test_coverup_django__django-16901)"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [
+                "test_xor_logic_with_multiple_arguments (test_coverup_django__django-16901.TestXORLogic.test_xor_logic_with_multiple_arguments)"
+            ],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "test_filter_negated (xor_lookups.tests.XorLookupsTests.test_filter_negated)",
+                "test_filter_multiple (xor_lookups.tests.XorLookupsTests.test_filter_multiple)"
+            ],
+            "PASS_TO_PASS": [
+                "test_pk_q (xor_lookups.tests.XorLookupsTests.test_pk_q)",
+                "test_filter (xor_lookups.tests.XorLookupsTests.test_filter)",
+                "test_exclude (xor_lookups.tests.XorLookupsTests.test_exclude)",
+                "test_empty_in (xor_lookups.tests.XorLookupsTests.test_empty_in)",
+                "test_stages (xor_lookups.tests.XorLookupsTests.test_stages)"
+            ],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

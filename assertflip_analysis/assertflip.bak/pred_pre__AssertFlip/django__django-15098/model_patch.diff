@@ -1,0 +1,51 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15098.py
+new file mode 100644
+index e69de29..6dfba50 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15098.py
+@@ -0,0 +1,45 @@
++from django.test import TestCase, Client
++from django.conf import settings
++from django.urls import path
++from django.conf.urls.i18n import i18n_patterns
++from django.http import HttpResponse
++from django.test.utils import override_settings
++
++def bangiah(request):
++    return HttpResponse('U!')
++
++urlpatterns = [
++    path('', lambda request: HttpResponse('Root')),
++]
++
++urlpatterns += i18n_patterns(
++    path('', bangiah),
++)
++
++@override_settings(
++    LANGUAGES=[
++        ('en-us', "English"),
++        ('en-latn-us', "Latin English"),
++        ('en-Latn-US', "BCP 47 case format"),
++    ],
++    LANGUAGE_CODE='en-us',
++    USE_I18N=True,
++    MIDDLEWARE=[
++        'django.middleware.locale.LocaleMiddleware',
++    ]
++)
++class InternationalisationTestCase(TestCase):
++    def setUp(self):
++        self.client = Client()
++
++    def test_en_us_locale(self):
++        response = self.client.get('/en-us/')
++        self.assertEqual(response.status_code, 200)
++
++    def test_en_latn_us_locale(self):
++        response = self.client.get('/en-latn-us/')
++        self.assertEqual(response.status_code, 200)
++
++    def test_en_Latn_US_locale(self):
++        response = self.client.get('/en-Latn-US/')
++        self.assertEqual(response.status_code, 200)

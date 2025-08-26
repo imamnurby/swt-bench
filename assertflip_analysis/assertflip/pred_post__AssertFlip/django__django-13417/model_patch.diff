@@ -1,0 +1,33 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-13417.py
+new file mode 100644
+index e69de29..50440cd 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-13417.py
+@@ -0,0 +1,27 @@
++from django.test import SimpleTestCase
++from django.db.models import Count, Model, CharField, UUIDField
++from django.apps import apps
++
++# Define the model within the test app
++class Foo(Model):
++    name = CharField(max_length=100)
++    uuid = UUIDField(primary_key=True)
++
++    class Meta:
++        app_label = 'test_app'
++        ordering = ['name']
++
++class QuerySetOrderedPropertyTests(SimpleTestCase):
++    def test_ordered_property_with_group_by(self):
++        """
++        Test that the ordered property is incorrectly True for a queryset with GROUP BY.
++        """
++        # Create a queryset with default ordering
++        qs = Foo.objects.all()
++        self.assertTrue(qs.ordered)
++
++        # Create a queryset with annotate and GROUP BY
++        qs2 = Foo.objects.annotate(Count("pk")).all()
++
++        # Check if the ordered property is False, which is correct for a GROUP BY query
++        self.assertFalse(qs2.ordered)  # This should be False once the bug is fixed

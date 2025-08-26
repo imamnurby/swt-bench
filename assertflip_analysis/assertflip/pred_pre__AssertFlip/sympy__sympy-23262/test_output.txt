@@ -1,0 +1,864 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD fdc707f73a65a429935c01532cd3970d3355eab6
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit fdc707f73a65a429935c01532cd3970d3355eab6
+Merge: 972cce013c ae0b8c2fff
+Author: Chris Smith <smichr@gmail.com>
+Date:   Sat Mar 19 09:07:37 2022 -0500
+
+    Merge pull request #23217 from oscarbenjamin/pr_unpickling_unyt
+    
+    fix: add __setstate__ to support old pickles
+
++ git diff fdc707f73a65a429935c01532cd3970d3355eab6
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.11.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.11.dev0
+    Uninstalling sympy-1.11.dev0:
+      Successfully uninstalled sympy-1.11.dev0
+  DEPRECATION: Legacy editable install of sympy==1.11.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:13: trailing whitespace.
+    
+<stdin>:16: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-23262.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-23262.py cleanly.
+warning: 2 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/utilities/lambdify\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-23262.p
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/utilities/lambdify\\.py)']
+0.08 /testbed/sympy/utilities/lambdify.py(1): """
+0.08 /testbed/sympy/utilities/lambdify.py(6): from typing import Any, Dict as tDict, Iterable, Union as tUnion, TYPE_CHECKING
+0.08 /testbed/sympy/utilities/lambdify.py(8): import builtins
+0.08 /testbed/sympy/utilities/lambdify.py(9): import inspect
+0.08 /testbed/sympy/utilities/lambdify.py(10): import keyword
+0.08 /testbed/sympy/utilities/lambdify.py(11): import textwrap
+0.08 /testbed/sympy/utilities/lambdify.py(12): import linecache
+0.08 /testbed/sympy/utilities/lambdify.py(15): from sympy.external import import_module # noqa:F401
+0.08 /testbed/sympy/utilities/lambdify.py(16): from sympy.utilities.exceptions import sympy_deprecation_warning
+0.08 /testbed/sympy/utilities/lambdify.py(17): from sympy.utilities.decorator import doctest_depends_on
+0.08 /testbed/sympy/utilities/lambdify.py(18): from sympy.utilities.iterables import (is_sequence, iterable,
+0.08 /testbed/sympy/utilities/lambdify.py(20): from sympy.utilities.misc import filldedent
+0.08 /testbed/sympy/utilities/lambdify.py(23): if TYPE_CHECKING:
+0.08 /testbed/sympy/utilities/lambdify.py(26): __doctest_requires__ = {('lambdify',): ['numpy', 'tensorflow']}
+0.08 /testbed/sympy/utilities/lambdify.py(30): MATH_DEFAULT = {}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(31): MPMATH_DEFAULT = {}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(32): NUMPY_DEFAULT = {"I": 1j}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(33): SCIPY_DEFAULT = {"I": 1j}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(34): CUPY_DEFAULT = {"I": 1j}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(35): TENSORFLOW_DEFAULT = {}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(36): SYMPY_DEFAULT = {}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(37): NUMEXPR_DEFAULT = {}  # type: tDict[str, Any]
+0.08 /testbed/sympy/utilities/lambdify.py(43): MATH = MATH_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(44): MPMATH = MPMATH_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(45): NUMPY = NUMPY_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(46): SCIPY = SCIPY_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(47): CUPY = CUPY_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(48): TENSORFLOW = TENSORFLOW_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(49): SYMPY = SYMPY_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(50): NUMEXPR = NUMEXPR_DEFAULT.copy()
+0.08 /testbed/sympy/utilities/lambdify.py(55):     "ceiling": "ceil",
+0.08 /testbed/sympy/utilities/lambdify.py(56):     "E": "e",
+0.08 /testbed/sympy/utilities/lambdify.py(57):     "ln": "log",
+0.08 /testbed/sympy/utilities/lambdify.py(54): MATH_TRANSLATIONS = {
+0.08 /testbed/sympy/utilities/lambdify.py(63):     "Abs": "fabs",
+0.08 /testbed/sympy/utilities/lambdify.py(64):     "elliptic_k": "ellipk",
+0.08 /testbed/sympy/utilities/lambdify.py(65):     "elliptic_f": "ellipf",
+0.08 /testbed/sympy/utilities/lambdify.py(66):     "elliptic_e": "ellipe",
+0.08 /testbed/sympy/utilities/lambdify.py(67):     "elliptic_pi": "ellippi",
+0.08 /testbed/sympy/utilities/lambdify.py(68):     "ceiling": "ceil",
+0.08 /testbed/sympy/utilities/lambdify.py(69):     "chebyshevt": "chebyt",
+0.08 /testbed/sympy/utilities/lambdify.py(70):     "chebyshevu": "chebyu",
+0.08 /testbed/sympy/utilities/lambdify.py(71):     "E": "e",
+0.08 /testbed/sympy/utilities/lambdify.py(72):     "I": "j",
+0.08 /testbed/sympy/utilities/lambdify.py(73):     "ln": "log",
+0.08 /testbed/sympy/utilities/lambdify.py(75):     "oo": "inf",
+0.08 /testbed/sympy/utilities/lambdify.py(77):     "LambertW": "lambertw",
+0.08 /testbed/sympy/utilities/lambdify.py(78):     "MutableDenseMatrix": "matrix",
+0.08 /testbed/sympy/utilities/lambdify.py(79):     "ImmutableDenseMatrix": "matrix",
+0.08 /testbed/sympy/utilities/lambdify.py(80):     "conjugate": "conj",
+0.08 /testbed/sympy/utilities/lambdify.py(81):     "dirichlet_eta": "altzeta",
+0.08 /testbed/sympy/utilities/lambdify.py(82):     "Ei": "ei",
+0.08 /testbed/sympy/utilities/lambdify.py(83):     "Shi": "shi",
+0.08 /testbed/sympy/utilities/lambdify.py(84):     "Chi": "chi",
+0.08 /testbed/sympy/utilities/lambdify.py(85):     "Si": "si",
+0.08 /testbed/sympy/utilities/lambdify.py(86):     "Ci": "ci",
+0.08 /testbed/sympy/utilities/lambdify.py(87):     "RisingFactorial": "rf",
+0.08 /testbed/sympy/utilities/lambdify.py(88):     "FallingFactorial": "ff",
+0.08 /testbed/sympy/utilities/lambdify.py(89):     "betainc_regularized": "betainc",
+0.08 /testbed/sympy/utilities/lambdify.py(62): MPMATH_TRANSLATIONS = {
+0.08 /testbed/sympy/utilities/lambdify.py(93):     "Heaviside": "heaviside",
+0.08 /testbed/sympy/utilities/lambdify.py(92): NUMPY_TRANSLATIONS = {
+0.08 /testbed/sympy/utilities/lambdify.py(95): SCIPY_TRANSLATIONS = {}  # type: tDict[str, str]
+0.08 /testbed/sympy/utilities/lambdify.py(96): CUPY_TRANSLATIONS = {}  # type: tDict[str, str]
+0.08 /testbed/sympy/utilities/lambdify.py(98): TENSORFLOW_TRANSLATIONS = {}  # type: tDict[str, str]
+0.08 /testbed/sympy/utilities/lambdify.py(100): NUMEXPR_TRANSLATIONS = {}  # type: tDict[str, str]
+0.08 /testbed/sympy/utilities/lambdify.py(104):     "math": (MATH, MATH_DEFAULT, MATH_TRANSLATIONS, ("from math import *",)),
+0.08 /testbed/sympy/utilities/lambdify.py(105):     "mpmath": (MPMATH, MPMATH_DEFAULT, MPMATH_TRANSLATIONS, ("from mpmath import *",)),
+0.08 /testbed/sympy/utilities/lambdify.py(106):     "numpy": (NUMPY, NUMPY_DEFAULT, NUMPY_TRANSLATIONS, ("import numpy; from numpy import *; from numpy.linalg import *",)),
+0.08 /testbed/sympy/utilities/lambdify.py(107):     "scipy": (SCIPY, SCIPY_DEFAULT, SCIPY_TRANSLATIONS, ("import numpy; import scipy; from scipy import *; from scipy.special import *",)),
+0.08 /testbed/sympy/utilities/lambdify.py(108):     "cupy": (CUPY, CUPY_DEFAULT, CUPY_TRANSLATIONS, ("import cupy",)),
+0.08 /testbed/sympy/utilities/lambdify.py(109):     "tensorflow": (TENSORFLOW, TENSORFLOW_DEFAULT, TENSORFLOW_TRANSLATIONS, ("import tensorflow",)),
+0.08 /testbed/sympy/utilities/lambdify.py(110):     "sympy": (SYMPY, SYMPY_DEFAULT, {}, (
+0.08 /testbed/sympy/utilities/lambdify.py(114):     "numexpr" : (NUMEXPR, NUMEXPR_DEFAULT, NUMEXPR_TRANSLATIONS,
+0.08 /testbed/sympy/utilities/lambdify.py(115):                  ("import_module('numexpr')", )),
+0.08 /testbed/sympy/utilities/lambdify.py(114):     "numexpr" : (NUMEXPR, NUMEXPR_DEFAULT, NUMEXPR_TRANSLATIONS,
+0.08 /testbed/sympy/utilities/lambdify.py(103): MODULES = {
+0.08 /testbed/sympy/utilities/lambdify.py(119): def _import(module, reload=False):
+0.08 /testbed/sympy/utilities/lambdify.py(178): _lambdify_generated_counter = 1
+0.08 /testbed/sympy/utilities/lambdify.py(181): @doctest_depends_on(modules=('numpy', 'scipy', 'tensorflow',), python_version=(3,))
+0.08 /testbed/sympy/utilities/lambdify.py(182): def lambdify(args: tUnion[Iterable, 'sympy.core.expr.Expr'], expr: 'sympy.core.expr.Expr', modules=None, printer=None, use_imps=True,
+0.08 /testbed/sympy/utilities/lambdify.py(925): def _module_present(modname, modlist):
+0.08 /testbed/sympy/utilities/lambdify.py(933): def _get_namespace(m):
+0.08 /testbed/sympy/utilities/lambdify.py(948): def _recursive_to_string(doprint, arg):
+0.08 /testbed/sympy/utilities/lambdify.py(971): def lambdastr(args, expr, printer=None, dummify=None):
+0.08 /testbed/sympy/utilities/lambdify.py(1088): class _EvaluatorPrinter:
+0.08 /testbed/sympy/utilities/lambdify.py(1088): class _EvaluatorPrinter:
+0.08 /testbed/sympy/utilities/lambdify.py(1089):     def __init__(self, printer=None, dummify=False):
+0.08 /testbed/sympy/utilities/lambdify.py(1115):     def doprint(self, funcname, args, expr, *, cses=()):
+0.08 /testbed/sympy/utilities/lambdify.py(1164):     @classmethod
+0.08 /testbed/sympy/utilities/lambdify.py(1165):     def _is_safe_ident(cls, ident):
+0.08 /testbed/sympy/utilities/lambdify.py(1169):     def _preprocess(self, args, expr):
+0.08 ['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/utilities/lambdify\\.py)']
+0.05 /testbed/sympy/utilities/lambdify.py(1): """
+0.05 /testbed/sympy/utilities/lambdify.py(6): from typing import Any, Dict as tDict, Iterable, Union as tUnion, TYPE_CHECKING
+0.05 /testbed/sympy/utilities/lambdify.py(8): import builtins
+0.05 /testbed/sympy/utilities/lambdify.py(9): import inspect
+0.05 /testbed/sympy/utilities/lambdify.py(10): import keyword
+0.05 /testbed/sympy/utilities/lambdify.py(11): import textwrap
+0.05 /testbed/sympy/utilities/lambdify.py(12): import linecache
+0.05 /testbed/sympy/utilities/lambdify.py(15): from sympy.external import import_module # noqa:F401
+0.05 /testbed/sympy/utilities/lambdify.py(16): from sympy.utilities.exceptions import sympy_deprecation_warning
+0.05 /testbed/sympy/utilities/lambdify.py(17): from sympy.utilities.decorator import doctest_depends_on
+0.05 /testbed/sympy/utilities/lambdify.py(18): from sympy.utilities.iterables import (is_sequence, iterable,
+0.05 /testbed/sympy/utilities/lambdify.py(20): from sympy.utilities.misc import filldedent
+0.05 /testbed/sympy/utilities/lambdify.py(23): if TYPE_CHECKING:
+0.05 /testbed/sympy/utilities/lambdify.py(26): __doctest_requires__ = {('lambdify',): ['numpy', 'tensorflow']}
+0.05 /testbed/sympy/utilities/lambdify.py(30): MATH_DEFAULT = {}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(31): MPMATH_DEFAULT = {}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(32): NUMPY_DEFAULT = {"I": 1j}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(33): SCIPY_DEFAULT = {"I": 1j}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(34): CUPY_DEFAULT = {"I": 1j}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(35): TENSORFLOW_DEFAULT = {}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(36): SYMPY_DEFAULT = {}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(37): NUMEXPR_DEFAULT = {}  # type: tDict[str, Any]
+0.05 /testbed/sympy/utilities/lambdify.py(43): MATH = MATH_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(44): MPMATH = MPMATH_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(45): NUMPY = NUMPY_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(46): SCIPY = SCIPY_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(47): CUPY = CUPY_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(48): TENSORFLOW = TENSORFLOW_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(49): SYMPY = SYMPY_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(50): NUMEXPR = NUMEXPR_DEFAULT.copy()
+0.05 /testbed/sympy/utilities/lambdify.py(55):     "ceiling": "ceil",
+0.05 /testbed/sympy/utilities/lambdify.py(56):     "E": "e",
+0.05 /testbed/sympy/utilities/lambdify.py(57):     "ln": "log",
+0.05 /testbed/sympy/utilities/lambdify.py(54): MATH_TRANSLATIONS = {
+0.05 /testbed/sympy/utilities/lambdify.py(63):     "Abs": "fabs",
+0.05 /testbed/sympy/utilities/lambdify.py(64):     "elliptic_k": "ellipk",
+0.05 /testbed/sympy/utilities/lambdify.py(65):     "elliptic_f": "ellipf",
+0.05 /testbed/sympy/utilities/lambdify.py(66):     "elliptic_e": "ellipe",
+0.05 /testbed/sympy/utilities/lambdify.py(67):     "elliptic_pi": "ellippi",
+0.05 /testbed/sympy/utilities/lambdify.py(68):     "ceiling": "ceil",
+0.05 /testbed/sympy/utilities/lambdify.py(69):     "chebyshevt": "chebyt",
+0.05 /testbed/sympy/utilities/lambdify.py(70):     "chebyshevu": "chebyu",
+0.05 /testbed/sympy/utilities/lambdify.py(71):     "E": "e",
+0.05 /testbed/sympy/utilities/lambdify.py(72):     "I": "j",
+0.05 /testbed/sympy/utilities/lambdify.py(73):     "ln": "log",
+0.05 /testbed/sympy/utilities/lambdify.py(75):     "oo": "inf",
+0.05 /testbed/sympy/utilities/lambdify.py(77):     "LambertW": "lambertw",
+0.05 /testbed/sympy/utilities/lambdify.py(78):     "MutableDenseMatrix": "matrix",
+0.05 /testbed/sympy/utilities/lambdify.py(79):     "ImmutableDenseMatrix": "matrix",
+0.05 /testbed/sympy/utilities/lambdify.py(80):     "conjugate": "conj",
+0.05 /testbed/sympy/utilities/lambdify.py(81):     "dirichlet_eta": "altzeta",
+0.05 /testbed/sympy/utilities/lambdify.py(82):     "Ei": "ei",
+0.05 /testbed/sympy/utilities/lambdify.py(83):     "Shi": "shi",
+0.05 /testbed/sympy/utilities/lambdify.py(84):     "Chi": "chi",
+0.05 /testbed/sympy/utilities/lambdify.py(85):     "Si": "si",
+0.05 /testbed/sympy/utilities/lambdify.py(86):     "Ci": "ci",
+0.05 /testbed/sympy/utilities/lambdify.py(87):     "RisingFactorial": "rf",
+0.05 /testbed/sympy/utilities/lambdify.py(88):     "FallingFactorial": "ff",
+0.05 /testbed/sympy/utilities/lambdify.py(89):     "betainc_regularized": "betainc",
+0.05 /testbed/sympy/utilities/lambdify.py(62): MPMATH_TRANSLATIONS = {
+0.05 /testbed/sympy/utilities/lambdify.py(93):     "Heaviside": "heaviside",
+0.05 /testbed/sympy/utilities/lambdify.py(92): NUMPY_TRANSLATIONS = {
+0.05 /testbed/sympy/utilities/lambdify.py(95): SCIPY_TRANSLATIONS = {}  # type: tDict[str, str]
+0.05 /testbed/sympy/utilities/lambdify.py(96): CUPY_TRANSLATIONS = {}  # type: tDict[str, str]
+0.05 /testbed/sympy/utilities/lambdify.py(98): TENSORFLOW_TRANSLATIONS = {}  # type: tDict[str, str]
+0.05 /testbed/sympy/utilities/lambdify.py(100): NUMEXPR_TRANSLATIONS = {}  # type: tDict[str, str]
+0.05 /testbed/sympy/utilities/lambdify.py(104):     "math": (MATH, MATH_DEFAULT, MATH_TRANSLATIONS, ("from math import *",)),
+0.05 /testbed/sympy/utilities/lambdify.py(105):     "mpmath": (MPMATH, MPMATH_DEFAULT, MPMATH_TRANSLATIONS, ("from mpmath import *",)),
+0.05 /testbed/sympy/utilities/lambdify.py(106):     "numpy": (NUMPY, NUMPY_DEFAULT, NUMPY_TRANSLATIONS, ("import numpy; from numpy import *; from numpy.linalg import *",)),
+0.05 /testbed/sympy/utilities/lambdify.py(107):     "scipy": (SCIPY, SCIPY_DEFAULT, SCIPY_TRANSLATIONS, ("import numpy; import scipy; from scipy import *; from scipy.special import *",)),
+0.05 /testbed/sympy/utilities/lambdify.py(108):     "cupy": (CUPY, CUPY_DEFAULT, CUPY_TRANSLATIONS, ("import cupy",)),
+0.05 /testbed/sympy/utilities/lambdify.py(109):     "tensorflow": (TENSORFLOW, TENSORFLOW_DEFAULT, TENSORFLOW_TRANSLATIONS, ("import tensorflow",)),
+0.05 /testbed/sympy/utilities/lambdify.py(110):     "sympy": (SYMPY, SYMPY_DEFAULT, {}, (
+0.05 /testbed/sympy/utilities/lambdify.py(114):     "numexpr" : (NUMEXPR, NUMEXPR_DEFAULT, NUMEXPR_TRANSLATIONS,
+0.05 /testbed/sympy/utilities/lambdify.py(115):                  ("import_module('numexpr')", )),
+0.05 /testbed/sympy/utilities/lambdify.py(114):     "numexpr" : (NUMEXPR, NUMEXPR_DEFAULT, NUMEXPR_TRANSLATIONS,
+0.05 /testbed/sympy/utilities/lambdify.py(103): MODULES = {
+0.05 /testbed/sympy/utilities/lambdify.py(119): def _import(module, reload=False):
+0.05 /testbed/sympy/utilities/lambdify.py(178): _lambdify_generated_counter = 1
+0.05 /testbed/sympy/utilities/lambdify.py(181): @doctest_depends_on(modules=('numpy', 'scipy', 'tensorflow',), python_version=(3,))
+0.05 /testbed/sympy/utilities/lambdify.py(182): def lambdify(args: tUnion[Iterable, 'sympy.core.expr.Expr'], expr: 'sympy.core.expr.Expr', modules=None, printer=None, use_imps=True,
+0.05 /testbed/sympy/utilities/lambdify.py(925): def _module_present(modname, modlist):
+0.05 /testbed/sympy/utilities/lambdify.py(933): def _get_namespace(m):
+0.05 /testbed/sympy/utilities/lambdify.py(948): def _recursive_to_string(doprint, arg):
+0.05 /testbed/sympy/utilities/lambdify.py(971): def lambdastr(args, expr, printer=None, dummify=None):
+0.05 /testbed/sympy/utilities/lambdify.py(1088): class _EvaluatorPrinter:
+0.05 /testbed/sympy/utilities/lambdify.py(1088): class _EvaluatorPrinter:
+0.05 /testbed/sympy/utilities/lambdify.py(1089):     def __init__(self, printer=None, dummify=False):
+0.05 /testbed/sympy/utilities/lambdify.py(1115):     def doprint(self, funcname, args, expr, *, cses=()):
+0.05 /testbed/sympy/utilities/lambdify.py(1164):     @classmethod
+0.05 /testbed/sympy/utilities/lambdify.py(1165):     def _is_safe_ident(cls, ident):
+0.05 /testbed/sympy/utilities/lambdify.py(1169):     def _preprocess(self, args, expr):
+0.05 /testbed/sympy/utilities/lambdify.py(1212):     def _subexpr(self, expr, dummies_dict):
+0.05 /testbed/sympy/utilities/lambdify.py(1233):     def _print_funcargwrapping(self, args):
+0.05 /testbed/sympy/utilities/lambdify.py(1243):     def _print_unpacking(self, unpackto, arg):
+0.05 /testbed/sympy/utilities/lambdify.py(1256): class _TensorflowEvaluatorPrinter(_EvaluatorPrinter):
+0.05 /testbed/sympy/utilities/lambdify.py(1256): class _TensorflowEvaluatorPrinter(_EvaluatorPrinter):
+0.05 /testbed/sympy/utilities/lambdify.py(1257):     def _print_unpacking(self, lvalues, rvalue):
+0.05 /testbed/sympy/utilities/lambdify.py(1281): def _imp_namespace(expr, namespace=None):
+0.05 /testbed/sympy/utilities/lambdify.py(1349): def implemented_function(symfunc, implementation):
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        77680579
+hash randomization: on (PYTHONHASHSEED=3840196305)
+
+sympy/polys/tests/test_coverup_sympy__sympy-23262.py[1] 
+test_single_element_tuple_bug 0.37 /testbed/sympy/utilities/lambdify.py(759):     from sympy.core.symbol import Symbol
+0.37 /testbed/sympy/utilities/lambdify.py(760):     from sympy.core.expr import Expr
+0.37 /testbed/sympy/utilities/lambdify.py(763):     if modules is None:
+0.37 /testbed/sympy/utilities/lambdify.py(764):         try:
+0.37 /testbed/sympy/utilities/lambdify.py(765):             _import("scipy")
+0.37 /testbed/sympy/utilities/lambdify.py(128):     try:
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(130):             module]
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(136):     if namespace != namespace_default:
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(145):         if import_command.startswith('import_module'):
+0.37 /testbed/sympy/utilities/lambdify.py(152):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(153):                 exec(import_command, {}, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(155):             except ImportError:
+0.37 /testbed/sympy/utilities/lambdify.py(156):                 pass
+0.37 /testbed/sympy/utilities/lambdify.py(158):         raise ImportError(
+0.37 /testbed/sympy/utilities/lambdify.py(159):             "Cannot import '%s' with '%s' command" % (module, import_command))
+0.37 /testbed/sympy/utilities/lambdify.py(158):         raise ImportError(
+0.37 /testbed/sympy/utilities/lambdify.py(766):         except ImportError:
+0.37 /testbed/sympy/utilities/lambdify.py(767):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(768):                 _import("numpy")
+0.37 /testbed/sympy/utilities/lambdify.py(128):     try:
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(130):             module]
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(136):     if namespace != namespace_default:
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(145):         if import_command.startswith('import_module'):
+0.37 /testbed/sympy/utilities/lambdify.py(152):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(153):                 exec(import_command, {}, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(155):             except ImportError:
+0.37 /testbed/sympy/utilities/lambdify.py(156):                 pass
+0.37 /testbed/sympy/utilities/lambdify.py(158):         raise ImportError(
+0.37 /testbed/sympy/utilities/lambdify.py(159):             "Cannot import '%s' with '%s' command" % (module, import_command))
+0.37 /testbed/sympy/utilities/lambdify.py(158):         raise ImportError(
+0.37 /testbed/sympy/utilities/lambdify.py(769):             except ImportError:
+0.37 /testbed/sympy/utilities/lambdify.py(773):                 modules = ["math", "mpmath", "sympy"]
+0.37 /testbed/sympy/utilities/lambdify.py(780):     namespaces = []
+0.37 /testbed/sympy/utilities/lambdify.py(782):     if use_imps:
+0.37 /testbed/sympy/utilities/lambdify.py(783):         namespaces.append(_imp_namespace(expr))
+0.37 /testbed/sympy/utilities/lambdify.py(1317):     from sympy.core.function import FunctionClass
+0.37 /testbed/sympy/utilities/lambdify.py(1318):     if namespace is None:
+0.37 /testbed/sympy/utilities/lambdify.py(1319):         namespace = {}
+0.37 /testbed/sympy/utilities/lambdify.py(1321):     if is_sequence(expr):
+0.37 /testbed/sympy/utilities/lambdify.py(1322):         for arg in expr:
+0.37 /testbed/sympy/utilities/lambdify.py(1323):             _imp_namespace(arg, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(1317):     from sympy.core.function import FunctionClass
+0.37 /testbed/sympy/utilities/lambdify.py(1318):     if namespace is None:
+0.37 /testbed/sympy/utilities/lambdify.py(1321):     if is_sequence(expr):
+0.37 /testbed/sympy/utilities/lambdify.py(1325):     elif isinstance(expr, dict):
+0.37 /testbed/sympy/utilities/lambdify.py(1332):     func = getattr(expr, 'func', None)
+0.37 /testbed/sympy/utilities/lambdify.py(1333):     if isinstance(func, FunctionClass):
+0.37 /testbed/sympy/utilities/lambdify.py(1343):     if hasattr(expr, 'args'):
+0.37 /testbed/sympy/utilities/lambdify.py(1346):     return namespace
+0.37 /testbed/sympy/utilities/lambdify.py(1322):         for arg in expr:
+0.37 /testbed/sympy/utilities/lambdify.py(1324):         return namespace
+0.37 /testbed/sympy/utilities/lambdify.py(785):     if isinstance(modules, (dict, str)) or not hasattr(modules, '__iter__'):
+0.37 /testbed/sympy/utilities/lambdify.py(789):         if _module_present('numexpr', modules) and len(modules) > 1:
+0.37 /testbed/sympy/utilities/lambdify.py(926):     if modname in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(929):         if hasattr(m, '__name__') and m.__name__ == modname:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(929):         if hasattr(m, '__name__') and m.__name__ == modname:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(929):         if hasattr(m, '__name__') and m.__name__ == modname:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(931):     return False
+0.37 /testbed/sympy/utilities/lambdify.py(791):         namespaces += list(modules)
+0.37 /testbed/sympy/utilities/lambdify.py(793):     namespace = {} # type: tDict[str, Any]
+0.37 /testbed/sympy/utilities/lambdify.py(794):     for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(795):         buf = _get_namespace(m)
+0.37 /testbed/sympy/utilities/lambdify.py(937):     if isinstance(m, str):
+0.37 /testbed/sympy/utilities/lambdify.py(938):         _import(m)
+0.37 /testbed/sympy/utilities/lambdify.py(128):     try:
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(130):             module]
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(136):     if namespace != namespace_default:
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(145):         if import_command.startswith('import_module'):
+0.37 /testbed/sympy/utilities/lambdify.py(152):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(153):                 exec(import_command, {}, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(154):                 continue
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(145):         if import_command.startswith('import_module'):
+0.37 /testbed/sympy/utilities/lambdify.py(152):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(153):                 exec(import_command, {}, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(154):                 continue
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(145):         if import_command.startswith('import_module'):
+0.37 /testbed/sympy/utilities/lambdify.py(152):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(153):                 exec(import_command, {}, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(154):                 continue
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(172):     if 'Abs' not in namespace:
+0.37 /testbed/sympy/utilities/lambdify.py(939):         return MODULES[m][0]
+0.37 /testbed/sympy/utilities/lambdify.py(796):         namespace.update(buf)
+0.37 /testbed/sympy/utilities/lambdify.py(794):     for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(795):         buf = _get_namespace(m)
+0.37 /testbed/sympy/utilities/lambdify.py(937):     if isinstance(m, str):
+0.37 /testbed/sympy/utilities/lambdify.py(938):         _import(m)
+0.37 /testbed/sympy/utilities/lambdify.py(128):     try:
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(130):             module]
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(136):     if namespace != namespace_default:
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(145):         if import_command.startswith('import_module'):
+0.37 /testbed/sympy/utilities/lambdify.py(152):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(153):                 exec(import_command, {}, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(154):                 continue
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(172):     if 'Abs' not in namespace:
+0.37 /testbed/sympy/utilities/lambdify.py(939):         return MODULES[m][0]
+0.37 /testbed/sympy/utilities/lambdify.py(796):         namespace.update(buf)
+0.37 /testbed/sympy/utilities/lambdify.py(794):     for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(795):         buf = _get_namespace(m)
+0.37 /testbed/sympy/utilities/lambdify.py(937):     if isinstance(m, str):
+0.37 /testbed/sympy/utilities/lambdify.py(938):         _import(m)
+0.37 /testbed/sympy/utilities/lambdify.py(128):     try:
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(130):             module]
+0.37 /testbed/sympy/utilities/lambdify.py(129):         namespace, namespace_default, translations, import_commands = MODULES[
+0.37 /testbed/sympy/utilities/lambdify.py(136):     if namespace != namespace_default:
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(145):         if import_command.startswith('import_module'):
+0.37 /testbed/sympy/utilities/lambdify.py(152):             try:
+0.37 /testbed/sympy/utilities/lambdify.py(153):                 exec(import_command, {}, namespace)
+0.37 /testbed/sympy/utilities/lambdify.py(154):                 continue
+0.37 /testbed/sympy/utilities/lambdify.py(144):     for import_command in import_commands:
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(163):         namespace[sympyname] = namespace[translation]
+0.37 /testbed/sympy/utilities/lambdify.py(162):     for sympyname, translation in translations.items():
+0.37 /testbed/sympy/utilities/lambdify.py(172):     if 'Abs' not in namespace:
+0.37 /testbed/sympy/utilities/lambdify.py(173):         namespace['Abs'] = abs
+0.37 /testbed/sympy/utilities/lambdify.py(939):         return MODULES[m][0]
+0.37 /testbed/sympy/utilities/lambdify.py(796):         namespace.update(buf)
+0.37 /testbed/sympy/utilities/lambdify.py(794):     for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(795):         buf = _get_namespace(m)
+0.37 /testbed/sympy/utilities/lambdify.py(937):     if isinstance(m, str):
+0.37 /testbed/sympy/utilities/lambdify.py(940):     elif isinstance(m, dict):
+0.37 /testbed/sympy/utilities/lambdify.py(941):         return m
+0.37 /testbed/sympy/utilities/lambdify.py(796):         namespace.update(buf)
+0.37 /testbed/sympy/utilities/lambdify.py(794):     for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(798):     if hasattr(expr, "atoms"):
+0.37 /testbed/sympy/utilities/lambdify.py(805):     if printer is None:
+0.37 /testbed/sympy/utilities/lambdify.py(806):         if _module_present('mpmath', namespaces):
+0.37 /testbed/sympy/utilities/lambdify.py(926):     if modname in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(927):         return True
+0.37 /testbed/sympy/utilities/lambdify.py(807):             from sympy.printing.pycode import MpmathPrinter as Printer # type: ignore
+0.37 /testbed/sympy/utilities/lambdify.py(822):         user_functions = {}
+0.37 /testbed/sympy/utilities/lambdify.py(823):         for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(824):             if isinstance(m, dict):
+0.37 /testbed/sympy/utilities/lambdify.py(823):         for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(824):             if isinstance(m, dict):
+0.37 /testbed/sympy/utilities/lambdify.py(823):         for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(824):             if isinstance(m, dict):
+0.37 /testbed/sympy/utilities/lambdify.py(823):         for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(824):             if isinstance(m, dict):
+0.37 /testbed/sympy/utilities/lambdify.py(825):                 for k in m:
+0.37 /testbed/sympy/utilities/lambdify.py(823):         for m in namespaces[::-1]:
+0.37 /testbed/sympy/utilities/lambdify.py(827):         printer = Printer({'fully_qualified_modules': False, 'inline': True,
+0.37 /testbed/sympy/utilities/lambdify.py(828):                            'allow_unknown_functions': True,
+0.37 /testbed/sympy/utilities/lambdify.py(829):                            'user_functions': user_functions})
+0.37 /testbed/sympy/utilities/lambdify.py(827):         printer = Printer({'fully_qualified_modules': False, 'inline': True,
+0.37 /testbed/sympy/utilities/lambdify.py(831):     if isinstance(args, set):
+0.37 /testbed/sympy/utilities/lambdify.py(843):     iterable_args: Iterable = (args,) if isinstance(args, Expr) else args
+0.37 /testbed/sympy/utilities/lambdify.py(844):     names = []
+0.37 /testbed/sympy/utilities/lambdify.py(847):     callers_local_vars = inspect.currentframe().f_back.f_locals.items() # type: ignore
+0.37 /testbed/sympy/utilities/lambdify.py(848):     for n, var in enumerate(iterable_args):
+0.37 /testbed/sympy/utilities/lambdify.py(862):     funcname = '_lambdifygenerated'
+0.37 /testbed/sympy/utilities/lambdify.py(863):     if _module_present('tensorflow', namespaces):
+0.37 /testbed/sympy/utilities/lambdify.py(926):     if modname in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(929):         if hasattr(m, '__name__') and m.__name__ == modname:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(929):         if hasattr(m, '__name__') and m.__name__ == modname:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(929):         if hasattr(m, '__name__') and m.__name__ == modname:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(929):         if hasattr(m, '__name__') and m.__name__ == modname:
+0.37 /testbed/sympy/utilities/lambdify.py(928):     for m in modlist:
+0.37 /testbed/sympy/utilities/lambdify.py(931):     return False
+0.37 /testbed/sympy/utilities/lambdify.py(866):         funcprinter = _EvaluatorPrinter(printer, dummify)
+0.37 /testbed/sympy/utilities/lambdify.py(1090):         self._dummify = dummify
+0.37 /testbed/sympy/utilities/lambdify.py(1093):         from sympy.printing.lambdarepr import LambdaPrinter
+0.37 /testbed/sympy/utilities/lambdify.py(1095):         if printer is None:
+0.37 /testbed/sympy/utilities/lambdify.py(1098):         if inspect.isfunction(printer):
+0.37 /testbed/sympy/utilities/lambdify.py(1101):             if inspect.isclass(printer):
+0.37 /testbed/sympy/utilities/lambdify.py(1104):             self._exprrepr = printer.doprint
+0.37 /testbed/sympy/utilities/lambdify.py(1113):         self._argrepr = LambdaPrinter().doprint
+0.37 /testbed/sympy/utilities/lambdify.py(868):     if cse == True:
+0.37 /testbed/sympy/utilities/lambdify.py(871):     elif callable(cse):
+0.37 /testbed/sympy/utilities/lambdify.py(874):         cses, _expr = (), expr
+0.37 /testbed/sympy/utilities/lambdify.py(875):     funcstr = funcprinter.doprint(funcname, iterable_args, _expr, cses=cses)
+0.37 /testbed/sympy/utilities/lambdify.py(1119):         from sympy.core.symbol import Dummy
+0.37 /testbed/sympy/utilities/lambdify.py(1121):         funcbody = []
+0.37 /testbed/sympy/utilities/lambdify.py(1123):         if not iterable(args):
+0.37 /testbed/sympy/utilities/lambdify.py(1126):         argstrs, expr = self._preprocess(args, expr)
+0.37 /testbed/sympy/utilities/lambdify.py(1175):         from sympy.core.basic import Basic
+0.37 /testbed/sympy/utilities/lambdify.py(1176):         from sympy.core.sorting import ordered
+0.37 /testbed/sympy/utilities/lambdify.py(1177):         from sympy.core.function import (Derivative, Function)
+0.37 /testbed/sympy/utilities/lambdify.py(1178):         from sympy.core.symbol import Dummy, uniquely_named_symbol
+0.37 /testbed/sympy/utilities/lambdify.py(1179):         from sympy.matrices import DeferredVector
+0.37 /testbed/sympy/utilities/lambdify.py(1180):         from sympy.core.expr import Expr
+0.37 /testbed/sympy/utilities/lambdify.py(1185):         dummify = self._dummify or any(
+0.37 /testbed/sympy/utilities/lambdify.py(1186):             isinstance(arg, Dummy) for arg in flatten(args))
+0.37 /testbed/sympy/utilities/lambdify.py(1185):         dummify = self._dummify or any(
+0.37 /testbed/sympy/utilities/lambdify.py(1185):         dummify = self._dummify or any(
+0.37 /testbed/sympy/utilities/lambdify.py(1188):         argstrs = [None]*len(args)
+0.37 /testbed/sympy/utilities/lambdify.py(1189):         for arg, i in reversed(list(ordered(zip(args, range(len(args)))))):
+0.37 /testbed/sympy/utilities/lambdify.py(1210):         return argstrs, expr
+0.37 /testbed/sympy/utilities/lambdify.py(1129):         funcargs = []
+0.37 /testbed/sympy/utilities/lambdify.py(1130):         unpackings = []
+0.37 /testbed/sympy/utilities/lambdify.py(1132):         for argstr in argstrs:
+0.37 /testbed/sympy/utilities/lambdify.py(1139):         funcsig = 'def {}({}):'.format(funcname, ', '.join(funcargs))
+0.37 /testbed/sympy/utilities/lambdify.py(1142):         funcbody.extend(self._print_funcargwrapping(funcargs))
+0.37 /testbed/sympy/utilities/lambdify.py(1241):         return []
+0.37 /testbed/sympy/utilities/lambdify.py(1144):         funcbody.extend(unpackings)
+0.37 /testbed/sympy/utilities/lambdify.py(1146):         for s, e in cses:
+0.37 /testbed/sympy/utilities/lambdify.py(1152):         str_expr = _recursive_to_string(self._exprrepr, expr)
+0.37 /testbed/sympy/utilities/lambdify.py(952):     from sympy.matrices.common import MatrixOperations
+0.37 /testbed/sympy/utilities/lambdify.py(953):     from sympy.core.basic import Basic
+0.37 /testbed/sympy/utilities/lambdify.py(955):     if isinstance(arg, (Basic, MatrixOperations)):
+0.37 /testbed/sympy/utilities/lambdify.py(957):     elif iterable(arg):
+0.37 /testbed/sympy/utilities/lambdify.py(958):         if isinstance(arg, list):
+0.37 /testbed/sympy/utilities/lambdify.py(960):         elif isinstance(arg, tuple):
+0.37 /testbed/sympy/utilities/lambdify.py(961):             left, right = "()"
+0.37 /testbed/sympy/utilities/lambdify.py(964):         return left +', '.join(_recursive_to_string(doprint, e) for e in arg) + right
+0.37 /testbed/sympy/utilities/lambdify.py(964):         return left +', '.join(_recursive_to_string(doprint, e) for e in arg) + right
+0.37 /testbed/sympy/utilities/lambdify.py(952):     from sympy.matrices.common import MatrixOperations
+0.37 /testbed/sympy/utilities/lambdify.py(953):     from sympy.core.basic import Basic
+0.37 /testbed/sympy/utilities/lambdify.py(955):     if isinstance(arg, (Basic, MatrixOperations)):
+0.37 /testbed/sympy/utilities/lambdify.py(957):     elif iterable(arg):
+0.37 /testbed/sympy/utilities/lambdify.py(965):     elif isinstance(arg, str):
+0.37 /testbed/sympy/utilities/lambdify.py(968):         return doprint(arg)
+0.39 /testbed/sympy/utilities/lambdify.py(964):         return left +', '.join(_recursive_to_string(doprint, e) for e in arg) + right
+0.39 /testbed/sympy/utilities/lambdify.py(1155):         if '\n' in str_expr:
+0.39 /testbed/sympy/utilities/lambdify.py(1157):         funcbody.append('return {}'.format(str_expr))
+0.39 /testbed/sympy/utilities/lambdify.py(1159):         funclines = [funcsig]
+0.39 /testbed/sympy/utilities/lambdify.py(1160):         funclines.extend(['    ' + line for line in funcbody])
+0.39 /testbed/sympy/utilities/lambdify.py(1160):         funclines.extend(['    ' + line for line in funcbody])
+0.39 /testbed/sympy/utilities/lambdify.py(1160):         funclines.extend(['    ' + line for line in funcbody])
+0.39 /testbed/sympy/utilities/lambdify.py(1162):         return '\n'.join(funclines) + '\n'
+0.39 /testbed/sympy/utilities/lambdify.py(878):     imp_mod_lines = []
+0.39 /testbed/sympy/utilities/lambdify.py(879):     for mod, keys in (getattr(printer, 'module_imports', None) or {}).items():
+0.39 /testbed/sympy/utilities/lambdify.py(894):     namespace.update({'builtins':builtins, 'range':range})
+0.39 /testbed/sympy/utilities/lambdify.py(896):     funclocals = {} # type: tDict[str, Any]
+0.39 /testbed/sympy/utilities/lambdify.py(898):     filename = '<lambdifygenerated-%s>' % _lambdify_generated_counter
+0.39 /testbed/sympy/utilities/lambdify.py(899):     _lambdify_generated_counter += 1
+0.39 /testbed/sympy/utilities/lambdify.py(900):     c = compile(funcstr, filename, 'exec')
+0.39 /testbed/sympy/utilities/lambdify.py(901):     exec(c, namespace, funclocals)
+0.39 /testbed/sympy/utilities/lambdify.py(903):     linecache.cache[filename] = (len(funcstr), None, funcstr.splitlines(True), filename) # type: ignore
+0.39 /testbed/sympy/utilities/lambdify.py(905):     func = funclocals[funcname]
+0.39 /testbed/sympy/utilities/lambdify.py(908):     sig = "func({})".format(", ".join(str(i) for i in names))
+0.39 /testbed/sympy/utilities/lambdify.py(908):     sig = "func({})".format(", ".join(str(i) for i in names))
+0.39 /testbed/sympy/utilities/lambdify.py(909):     sig = textwrap.fill(sig, subsequent_indent=' '*8)
+0.39 /testbed/sympy/utilities/lambdify.py(910):     expr_str = str(expr)
+0.39 /testbed/sympy/utilities/lambdify.py(911):     if len(expr_str) > 78:
+0.39 /testbed/sympy/utilities/lambdify.py(914):         "Created with lambdify. Signature:\n\n"
+0.39 /testbed/sympy/utilities/lambdify.py(913):     func.__doc__ = (
+0.39 /testbed/sympy/utilities/lambdify.py(922):         ).format(sig=sig, expr=expr_str, src=funcstr, imp_mods='\n'.join(imp_mod_lines))
+0.39 /testbed/sympy/utilities/lambdify.py(913):     func.__doc__ = (
+0.39 /testbed/sympy/utilities/lambdify.py(923):     return func
+F                                           [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-23262.py:test_single_element_tuple_bug 
+Traceback (most recent call last):
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-23262.py", line 12, in test_single_element_tuple_bug
+    assert "return (1,)" in source_code  # Correct behavior: the tuple should include a comma
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.02 seconds ==============
+DO *NOT* COMMIT!
+/testbed/sympy/utilities/lambdify.py(1212):     def _subexpr(self, expr, dummies_dict):
+0.09 /testbed/sympy/utilities/lambdify.py(1233):     def _print_funcargwrapping(self, args):
+0.09 /testbed/sympy/utilities/lambdify.py(1243):     def _print_unpacking(self, unpackto, arg):
+0.09 /testbed/sympy/utilities/lambdify.py(1256): class _TensorflowEvaluatorPrinter(_EvaluatorPrinter):
+0.09 /testbed/sympy/utilities/lambdify.py(1256): class _TensorflowEvaluatorPrinter(_EvaluatorPrinter):
+0.09 /testbed/sympy/utilities/lambdify.py(1257):     def _print_unpacking(self, lvalues, rvalue):
+0.09 /testbed/sympy/utilities/lambdify.py(1281): def _imp_namespace(expr, namespace=None):
+0.09 /testbed/sympy/utilities/lambdify.py(1349): def implemented_function(symfunc, implementation):
++ cat coverage.cover
+{"/testbed/sympy/utilities/lambdify.py": {"6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 1, "16": 1, "17": 1, "18": 1, "20": 1, "23": 1, "24": 0, "26": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "55": 1, "56": 1, "57": 1, "54": 1, "63": 1, "64": 1, "65": 1, "66": 1, "67": 1, "68": 1, "69": 1, "70": 1, "71": 1, "72": 1, "73": 1, "75": 1, "77": 1, "78": 1, "79": 1, "80": 1, "81": 1, "82": 1, "83": 1, "84": 1, "85": 1, "86": 1, "87": 1, "88": 1, "89": 1, "62": 1, "93": 1, "92": 1, "95": 1, "96": 1, "98": 1, "100": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "110": 1, "114": 2, "115": 1, "103": 1, "119": 1, "178": 1, "181": 1, "182": 1, "925": 1, "933": 1, "948": 1, "971": 1, "1088": 2, "1256": 2, "1281": 1, "1349": 1, "128": 5, "129": 10, "130": 5, "131": 0, "132": 0, "133": 0, "136": 5, "138": 0, "139": 0, "140": 0, "142": 0, "144": 10, "145": 7, "146": 0, "148": 0, "149": 0, "150": 0, "152": 7, "153": 7, "154": 5, "155": 2, "156": 2, "158": 4, "159": 2, "162": 31, "163": 28, "172": 3, "173": 1, "759": 1, "760": 1, "763": 1, "764": 1, "765": 1, "766": 1, "767": 1, "768": 1, "769": 1, "773": 1, "775": 0, "777": 0, "780": 1, "782": 1, "783": 1, "785": 1, "786": 0, "789": 1, "790": 0, "791": 1, "793": 1, "794": 5, "795": 4, "796": 4, "798": 1, "801": 0, "802": 0, "803": 0, "805": 1, "806": 1, "807": 1, "808": 0, "809": 0, "810": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "817": 0, "818": 0, "819": 0, "821": 0, "822": 1, "823": 5, "824": 4, "825": 1, "826": 0, "827": 2, "828": 1, "829": 1, "831": 1, "832": 0, "833": 0, "838": 0, "839": 0, "843": 1, "844": 1, "847": 1, "848": 1, "849": 0, "850": 0, "853": 0, "855": 0, "856": 0, "859": 0, "862": 1, "863": 1, "864": 0, "866": 1, "868": 1, "869": 0, "870": 0, "871": 1, "872": 0, "874": 1, "875": 1, "878": 1, "879": 1, "880": 0, "881": 0, "882": 0, "883": 0, "884": 0, "885": 0, "889": 0, "890": 0, "891": 0, "894": 1, "896": 1, "898": 1, "899": 1, "900": 1, "901": 1, "903": 1, "905": 1, "908": 2, "909": 1, "910": 1, "911": 1, "912": 0, "914": 1, "913": 2, "922": 1, "923": 1, "854": 0, "926": 3, "927": 1, "928": 9, "929": 7, "930": 0, "931": 2, "937": 4, "938": 3, "939": 3, "940": 1, "941": 1, "942": 0, "943": 0, "945": 0, "952": 2, "953": 2, "955": 2, "956": 0, "957": 2, "958": 1, "959": 0, "960": 1, "961": 1, "963": 0, "964": 3, "965": 1, "966": 0, "968": 1, "993": 0, "994": 0, "995": 0, "996": 0, "997": 0, "999": 0, "1000": 0, "1001": 0, "1003": 0, "1004": 0, "1006": 0, "1009": 0, "1011": 0, "1028": 0, "1039": 0, "1042": 0, "1054": 0, "1055": 0, "1057": 0, "1059": 0, "1060": 0, "1062": 0, "1064": 0, "1066": 0, "1068": 0, "1070": 0, "1071": 0, "1072": 0, "1074": 0, "1075": 0, "1076": 0, "1077": 0, "1080": 0, "1081": 0, "1082": 0, "1084": 0, "1085": 0, "1086": 0, "1012": 0, "1013": 0, "1014": 0, "1015": 0, "1016": 0, "1017": 0, "1018": 0, "1021": 0, "1022": 0, "1023": 0, "1024": 0, "1026": 0, "1029": 0, "1031": 0, "1032": 0, "1034": 0, "1035": 0, "1036": 0, "1040": 0, "1043": 0, "1045": 0, "1046": 0, "1047": 0, "1048": 0, "1050": 0, "1052": 0, "1056": 0, "1063": 0, "1089": 1, "1115": 1, "1164": 1, "1165": 1, "1169": 1, "1212": 1, "1233": 1, "1243": 1, "1090": 1, "1093": 1, "1095": 1, "1096": 0, "1098": 1, "1099": 0, "1101": 1, "1102": 0, "1104": 1, "1113": 1, "1119": 1, "1121": 1, "1123": 1, "1124": 0, "1126": 1, "1129": 1, "1130": 1, "1132": 1, "1133": 0, "1134": 0, "1135": 0, "1137": 0, "1139": 1, "1142": 1, "1144": 1, "1146": 1, "1147": 0, "1148": 0, "1150": 0, "1152": 1, "1155": 1, "1156": 0, "1157": 1, "1159": 1, "1160": 3, "1162": 1, "1166": 0, "1167": 0, "1175": 1, "1176": 1, "1177": 1, "1178": 1, "1179": 1, "1180": 1, "1185": 3, "1186": 1, "1188": 1, "1189": 1, "1190": 0, "1191": 0, "1192": 0, "1193": 0, "1194": 0, "1195": 0, "1196": 0, "1197": 0, "1198": 0, "1199": 0, "1200": 0, "1201": 0, "1202": 0, "1203": 0, "1204": 0, "1205": 0, "1206": 0, "1208": 0, "1209": 0, "1210": 1, "1213": 0, "1214": 0, "1216": 0, "1217": 0, "1218": 0, "1219": 0, "1221": 0, "1222": 0, "1223": 0, "1224": 0, "1225": 0, "1226": 0, "1227": 0, "1228": 0, "1229": 0, "1230": 0, "1231": 0, "1241": 1, "1250": 0, "1254": 0, "1251": 0, "1252": 0, "1257": 1, "1264": 0, "1276": 0, "1277": 0, "1279": 0, "1265": 0, "1267": 0, "1268": 0, "1269": 0, "1270": 0, "1272": 0, "1274": 0, "1317": 2, "1318": 2, "1319": 1, "1321": 2, "1322": 2, "1323": 1, "1324": 1, "1325": 1, "1326": 0, "1328": 0, "1329": 0, "1330": 0, "1332": 1, "1333": 1, "1334": 0, "1335": 0, "1336": 0, "1337": 0, "1338": 0, "1340": 0, "1341": 0, "1343": 1, "1344": 0, "1345": 0, "1346": 1, "1387": 0, "1389": 0, "1390": 0, "1391": 0, "1392": 0, "1393": 0, "1396": 0, "1397": 0, "1398": 0, "1399": 0, "1402": 0}}
+{"/testbed/sympy/utilities/lambdify.py": {"6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 1, "16": 1, "17": 1, "18": 1, "20": 1, "23": 1, "24": 0, "26": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "55": 1, "56": 1, "57": 1, "54": 1, "63": 1, "64": 1, "65": 1, "66": 1, "67": 1, "68": 1, "69": 1, "70": 1, "71": 1, "72": 1, "73": 1, "75": 1, "77": 1, "78": 1, "79": 1, "80": 1, "81": 1, "82": 1, "83": 1, "84": 1, "85": 1, "86": 1, "87": 1, "88": 1, "89": 1, "62": 1, "93": 1, "92": 1, "95": 1, "96": 1, "98": 1, "100": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "110": 1, "114": 2, "115": 1, "103": 1, "119": 1, "178": 1, "181": 1, "182": 1, "925": 1, "933": 1, "948": 1, "971": 1, "1088": 2, "1256": 2, "1281": 1, "1349": 1, "128": 0, "129": 0, "130": 0, "131": 0, "132": 0, "133": 0, "136": 0, "138": 0, "139": 0, "140": 0, "142": 0, "144": 0, "145": 0, "146": 0, "148": 0, "149": 0, "150": 0, "152": 0, "153": 0, "154": 0, "155": 0, "156": 0, "158": 0, "159": 0, "162": 0, "163": 0, "172": 0, "173": 0, "759": 0, "760": 0, "763": 0, "764": 0, "765": 0, "766": 0, "767": 0, "768": 0, "769": 0, "773": 0, "775": 0, "777": 0, "780": 0, "782": 0, "783": 0, "785": 0, "786": 0, "789": 0, "790": 0, "791": 0, "793": 0, "794": 0, "795": 0, "796": 0, "798": 0, "801": 0, "802": 0, "803": 0, "805": 0, "806": 0, "807": 0, "808": 0, "809": 0, "810": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "817": 0, "818": 0, "819": 0, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "826": 0, "827": 0, "828": 0, "829": 0, "831": 0, "832": 0, "833": 0, "838": 0, "839": 0, "843": 0, "844": 0, "847": 0, "848": 0, "849": 0, "850": 0, "853": 0, "855": 0, "856": 0, "859": 0, "862": 0, "863": 0, "864": 0, "866": 0, "868": 0, "869": 0, "870": 0, "871": 0, "872": 0, "874": 0, "875": 0, "878": 0, "879": 0, "880": 0, "881": 0, "882": 0, "883": 0, "884": 0, "885": 0, "889": 0, "890": 0, "891": 0, "894": 0, "896": 0, "898": 0, "899": 0, "900": 0, "901": 0, "903": 0, "905": 0, "908": 0, "909": 0, "910": 0, "911": 0, "912": 0, "914": 0, "913": 0, "922": 0, "923": 0, "854": 0, "926": 0, "927": 0, "928": 0, "929": 0, "930": 0, "931": 0, "937": 0, "938": 0, "939": 0, "940": 0, "941": 0, "942": 0, "943": 0, "945": 0, "952": 0, "953": 0, "955": 0, "956": 0, "957": 0, "958": 0, "959": 0, "960": 0, "961": 0, "963": 0, "964": 0, "965": 0, "966": 0, "968": 0, "993": 0, "994": 0, "995": 0, "996": 0, "997": 0, "999": 0, "1000": 0, "1001": 0, "1003": 0, "1004": 0, "1006": 0, "1009": 0, "1011": 0, "1028": 0, "1039": 0, "1042": 0, "1054": 0, "1055": 0, "1057": 0, "1059": 0, "1060": 0, "1062": 0, "1064": 0, "1066": 0, "1068": 0, "1070": 0, "1071": 0, "1072": 0, "1074": 0, "1075": 0, "1076": 0, "1077": 0, "1080": 0, "1081": 0, "1082": 0, "1084": 0, "1085": 0, "1086": 0, "1012": 0, "1013": 0, "1014": 0, "1015": 0, "1016": 0, "1017": 0, "1018": 0, "1021": 0, "1022": 0, "1023": 0, "1024": 0, "1026": 0, "1029": 0, "1031": 0, "1032": 0, "1034": 0, "1035": 0, "1036": 0, "1040": 0, "1043": 0, "1045": 0, "1046": 0, "1047": 0, "1048": 0, "1050": 0, "1052": 0, "1056": 0, "1063": 0, "1089": 1, "1115": 1, "1164": 1, "1165": 1, "1169": 1, "1212": 1, "1233": 1, "1243": 1, "1090": 0, "1093": 0, "1095": 0, "1096": 0, "1098": 0, "1099": 0, "1101": 0, "1102": 0, "1104": 0, "1113": 0, "1119": 0, "1121": 0, "1123": 0, "1124": 0, "1126": 0, "1129": 0, "1130": 0, "1132": 0, "1133": 0, "1134": 0, "1135": 0, "1137": 0, "1139": 0, "1142": 0, "1144": 0, "1146": 0, "1147": 0, "1148": 0, "1150": 0, "1152": 0, "1155": 0, "1156": 0, "1157": 0, "1159": 0, "1160": 0, "1162": 0, "1166": 0, "1167": 0, "1175": 0, "1176": 0, "1177": 0, "1178": 0, "1179": 0, "1180": 0, "1185": 0, "1186": 0, "1188": 0, "1189": 0, "1190": 0, "1191": 0, "1192": 0, "1193": 0, "1194": 0, "1195": 0, "1196": 0, "1197": 0, "1198": 0, "1199": 0, "1200": 0, "1201": 0, "1202": 0, "1203": 0, "1204": 0, "1205": 0, "1206": 0, "1208": 0, "1209": 0, "1210": 0, "1213": 0, "1214": 0, "1216": 0, "1217": 0, "1218": 0, "1219": 0, "1221": 0, "1222": 0, "1223": 0, "1224": 0, "1225": 0, "1226": 0, "1227": 0, "1228": 0, "1229": 0, "1230": 0, "1231": 0, "1241": 0, "1250": 0, "1254": 0, "1251": 0, "1252": 0, "1257": 1, "1264": 0, "1276": 0, "1277": 0, "1279": 0, "1265": 0, "1267": 0, "1268": 0, "1269": 0, "1270": 0, "1272": 0, "1274": 0, "1317": 0, "1318": 0, "1319": 0, "1321": 0, "1322": 0, "1323": 0, "1324": 0, "1325": 0, "1326": 0, "1328": 0, "1329": 0, "1330": 0, "1332": 0, "1333": 0, "1334": 0, "1335": 0, "1336": 0, "1337": 0, "1338": 0, "1340": 0, "1341": 0, "1343": 0, "1344": 0, "1345": 0, "1346": 0, "1387": 0, "1389": 0, "1390": 0, "1391": 0, "1392": 0, "1393": 0, "1396": 0, "1397": 0, "1398": 0, "1399": 0, "1402": 0}}
++ git checkout fdc707f73a65a429935c01532cd3970d3355eab6
+Note: switching to 'fdc707f73a65a429935c01532cd3970d3355eab6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at fdc707f73a Merge pull request #23217 from oscarbenjamin/pr_unpickling_unyt
++ git apply /root/pre_state.patch
+error: unrecognized input

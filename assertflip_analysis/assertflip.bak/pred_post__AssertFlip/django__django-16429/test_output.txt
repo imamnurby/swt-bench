@@ -1,0 +1,510 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 6c86495bcee22eac19d7fb040b2988b830707cbd
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 6c86495bcee22eac19d7fb040b2988b830707cbd
+Author: Nick Pope <nick@nickpope.me.uk>
+Date:   Wed Oct 12 20:27:20 2022 +0100
+
+    Simplified handling ambiguous/imaginary datetimes in django.utils.dateformat.
+    
+    Instead of the separate property, we can just not set self.timezone if
+    the datetime is ambiguous or imaginary. This ensures that this check
+    will only ever happen once as it's dependant on the datetime object and
+    not the format string characters.
+
+diff --git a/django/utils/dateformat.py b/django/utils/dateformat.py
+index 103bff7aae..f352c99f1a 100644
+--- a/django/utils/dateformat.py
++++ b/django/utils/dateformat.py
+@@ -56,20 +56,16 @@ class TimeFormat(Formatter):
+         self.data = obj
+         self.timezone = None
+ 
+-        # We only support timezone when formatting datetime objects,
+-        # not date objects (timezone information not appropriate),
+-        # or time objects (against established django policy).
+         if isinstance(obj, datetime):
++            # Timezone is only supported when formatting datetime objects, not
++            # date objects (timezone information not appropriate), or time
++            # objects (against established django policy).
+             if is_naive(obj):
+-                self.timezone = get_default_timezone()
++                timezone = get_default_timezone()
+             else:
+-                self.timezone = obj.tzinfo
+-
+-    @property
+-    def _no_timezone_or_datetime_is_ambiguous_or_imaginary(self):
+-        return not self.timezone or _datetime_ambiguous_or_imaginary(
+-            self.data, self.timezone
+-        )
++                timezone = obj.tzinfo
++            if not _datetime_ambiguous_or_imaginary(obj, timezone):
++                self.timezone = timezone
+ 
+     def a(self):
+         "'a.m.' or 'p.m.'"
+@@ -136,7 +132,7 @@ class TimeFormat(Formatter):
+ 
+         If timezone information is not available, return an empty string.
+         """
+-        if self._no_timezone_or_datetime_is_ambiguous_or_imaginary:
++        if self.timezone is None:
+             return ""
+ 
+         offset = self.timezone.utcoffset(self.data)
+@@ -168,7 +164,7 @@ class TimeFormat(Formatter):
+ 
+         If timezone information is not available, return an empty string.
+         """
+-        if self._no_timezone_or_datetime_is_ambiguous_or_imaginary:
++        if self.timezone is None:
+             return ""
+ 
+         return str(self.timezone.tzname(self.data))
+@@ -185,7 +181,7 @@ class TimeFormat(Formatter):
+ 
+         If timezone information is not available, return an empty string.
+         """
+-        if self._no_timezone_or_datetime_is_ambiguous_or_imaginary:
++        if self.timezone is None:
+             return ""
+ 
+         offset = self.timezone.utcoffset(self.data)
+@@ -227,7 +223,7 @@ class DateFormat(TimeFormat):
+ 
+     def I(self):  # NOQA: E743, E741
+         "'1' if daylight saving time, '0' otherwise."
+-        if self._no_timezone_or_datetime_is_ambiguous_or_imaginary:
++        if self.timezone is None:
+             return ""
+         return "1" if self.timezone.dst(self.data) else "0"
+ 
++ git diff 6c86495bcee22eac19d7fb040b2988b830707cbd
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.6.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.2.dev20230105115528) (3.9.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.2.dev20230105115528) (0.5.3)
+Requirement already satisfied: typing_extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from asgiref>=3.6.0->Django==4.2.dev20230105115528) (4.14.1)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.2.dev20230105115528-0.editable-py3-none-any.whl size=27412 sha256=ea6af6200c22c4e9ee96bbd86e771cc777790cd8fc6ea7814d723d92fad8c222
+  Stored in directory: /tmp/pip-ephem-wheel-cache-nbijx_k8/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.2.dev20230105115528
+    Uninstalling Django-4.2.dev20230105115528:
+      Successfully uninstalled Django-4.2.dev20230105115528
+Successfully installed Django-4.2.dev20230105115528
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch django/utils/timesince.py...
+Applied patch django/utils/timesince.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-16429.py...
+Applied patch tests/test_coverup_django__django-16429.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/utils/timesince\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16429
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/utils/timesince\\.py)']
+0.41 timesince.py(1): import datetime
+0.41 timesince.py(3): from django.utils.html import avoid_wrapping
+0.41 timesince.py(4): from django.utils.timezone import is_aware
+0.41 timesince.py(5): from django.utils.translation import gettext, ngettext_lazy
+0.41 timesince.py(8):     "year": ngettext_lazy("%(num)d year", "%(num)d years", "num"),
+0.41 timesince.py(9):     "month": ngettext_lazy("%(num)d month", "%(num)d months", "num"),
+0.41 timesince.py(10):     "week": ngettext_lazy("%(num)d week", "%(num)d weeks", "num"),
+0.41 timesince.py(11):     "day": ngettext_lazy("%(num)d day", "%(num)d days", "num"),
+0.41 timesince.py(12):     "hour": ngettext_lazy("%(num)d hour", "%(num)d hours", "num"),
+0.41 timesince.py(13):     "minute": ngettext_lazy("%(num)d minute", "%(num)d minutes", "num"),
+0.41 timesince.py(7): TIME_STRINGS = {
+0.41 timesince.py(16): TIME_STRINGS_KEYS = list(TIME_STRINGS.keys())
+0.41 timesince.py(18): TIME_CHUNKS = [
+0.41 timesince.py(25): MONTHS_DAYS = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+0.41 timesince.py(28): def timesince(d, now=None, reversed=False, time_strings=None, depth=2):
+0.41 timesince.py(134): def timeuntil(d, now=None, time_strings=None, depth=2):
+Testing against Django installed in '/testbed/django'
+Found 1 test(s).
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+System check identified no issues (0 silenced).
+test_timesince_with_long_interval_and_tz (test_coverup_django__django-16429.TimesinceTests)
+Test timesince with a datetime object that's one month (or more) in the past ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+0.78 timesince.py(56):     if time_strings is None:
+0.78 timesince.py(57):         time_strings = TIME_STRINGS
+0.78 timesince.py(58):     if depth <= 0:
+0.78 timesince.py(61):     if not isinstance(d, datetime.datetime):
+0.78 timesince.py(63):     if now and not isinstance(now, datetime.datetime):
+0.78 timesince.py(66):     now = now or datetime.datetime.now(datetime.timezone.utc if is_aware(d) else None)
+0.78 timesince.py(68):     if reversed:
+0.78 timesince.py(70):     delta = now - d
+0.78 timesince.py(73):     since = delta.days * 24 * 60 * 60 + delta.seconds
+0.78 timesince.py(74):     if since <= 0:
+0.78 timesince.py(79):     total_months = (now.year - d.year) * 12 + (now.month - d.month)
+0.78 timesince.py(80):     if d.day > now.day or (d.day == now.day and d.time() > now.time()):
+0.78 timesince.py(82):     years, months = divmod(total_months, 12)
+0.78 timesince.py(87):     if years or months:
+0.78 timesince.py(88):         pivot_year = d.year + years
+0.78 timesince.py(89):         pivot_month = d.month + months
+0.78 timesince.py(90):         if pivot_month > 12:
+0.78 timesince.py(93):         pivot = datetime.datetime(
+0.78 timesince.py(94):             pivot_year,
+0.78 timesince.py(95):             pivot_month,
+0.78 timesince.py(96):             min(MONTHS_DAYS[pivot_month - 1], d.day),
+0.78 timesince.py(97):             d.hour,
+0.78 timesince.py(98):             d.minute,
+0.78 timesince.py(99):             d.second,
+0.78 timesince.py(100):             tzinfo=d.tzinfo,
+0.78 timesince.py(93):         pivot = datetime.datetime(
+0.78 timesince.py(104):     remaining_time = (now - pivot).total_seconds()
+0.78 timesince.py(105):     partials = [years, months]
+0.78 timesince.py(106):     for chunk in TIME_CHUNKS:
+0.78 timesince.py(107):         count = remaining_time // chunk
+0.78 timesince.py(108):         partials.append(count)
+0.78 timesince.py(109):         remaining_time -= chunk * count
+0.78 timesince.py(106):     for chunk in TIME_CHUNKS:
+0.78 timesince.py(107):         count = remaining_time // chunk
+0.78 timesince.py(108):         partials.append(count)
+0.78 timesince.py(109):         remaining_time -= chunk * count
+0.78 timesince.py(106):     for chunk in TIME_CHUNKS:
+0.78 timesince.py(107):         count = remaining_time // chunk
+0.78 timesince.py(108):         partials.append(count)
+0.78 timesince.py(109):         remaining_time -= chunk * count
+0.78 timesince.py(106):     for chunk in TIME_CHUNKS:
+0.78 timesince.py(107):         count = remaining_time // chunk
+0.78 timesince.py(108):         partials.append(count)
+0.78 timesince.py(109):         remaining_time -= chunk * count
+0.78 timesince.py(106):     for chunk in TIME_CHUNKS:
+0.78 timesince.py(113):     i = 0
+0.78 timesince.py(114):     for i, value in enumerate(partials):
+0.78 timesince.py(115):         if value != 0:
+0.78 timesince.py(114):     for i, value in enumerate(partials):
+0.78 timesince.py(115):         if value != 0:
+0.78 timesince.py(116):             break
+0.78 timesince.py(120):     result = []
+0.78 timesince.py(121):     current_depth = 0
+0.78 timesince.py(122):     while i < len(TIME_STRINGS_KEYS) and current_depth < depth:
+0.78 timesince.py(123):         value = partials[i]
+0.78 timesince.py(124):         if value == 0:
+0.78 timesince.py(126):         name = TIME_STRINGS_KEYS[i]
+0.78 timesince.py(127):         result.append(avoid_wrapping(time_strings[name] % {"num": value}))
+0.78 timesince.py(128):         current_depth += 1
+0.78 timesince.py(129):         i += 1
+0.78 timesince.py(122):     while i < len(TIME_STRINGS_KEYS) and current_depth < depth:
+0.78 timesince.py(123):         value = partials[i]
+0.78 timesince.py(124):         if value == 0:
+0.78 timesince.py(125):             break
+0.78 timesince.py(131):     return gettext(", ").join(result)
++ cat coverage.cover
+{"/testbed/django/utils/timesince.py": {"1": 1, "3": 1, "4": 1, "5": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "13": 1, "7": 1, "16": 1, "18": 1, "25": 1, "28": 1, "134": 1, "56": 1, "57": 1, "58": 1, "59": 0, "61": 1, "62": 0, "63": 1, "64": 0, "66": 1, "68": 1, "69": 0, "70": 1, "73": 1, "74": 1, "76": 0, "79": 1, "80": 1, "81": 0, "82": 1, "87": 1, "88": 1, "89": 1, "90": 1, "91": 0, "92": 0, "93": 2, "94": 1, "95": 1, "96": 1, "97": 1, "98": 1, "99": 1, "100": 1, "103": 0, "104": 1, "105": 1, "106": 5, "107": 4, "108": 4, "109": 4, "113": 1, "114": 2, "115": 2, "116": 1, "118": 0, "120": 1, "121": 1, "122": 2, "123": 2, "124": 2, "125": 1, "126": 1, "127": 1, "128": 1, "129": 1, "131": 1, "138": 0}}
++ git checkout 6c86495bcee22eac19d7fb040b2988b830707cbd
+Note: switching to '6c86495bcee22eac19d7fb040b2988b830707cbd'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6c86495bce Simplified handling ambiguous/imaginary datetimes in django.utils.dateformat.
+M	django/utils/timesince.py
++ git apply /root/pre_state.patch
+error: unrecognized input

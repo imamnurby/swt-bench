@@ -1,0 +1,369 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e
+Author: Abhinav Vashisth <89785800+vashisthabhinav@users.noreply.github.com>
+Date:   Sun Dec 5 16:22:10 2021 +0530
+
+    Update README.md (#5998)
+
+diff --git a/README.md b/README.md
+index 0bc9379c..546871fa 100644
+--- a/README.md
++++ b/README.md
+@@ -19,7 +19,7 @@
+ 
+ Requests allows you to send HTTP/1.1 requests extremely easily. There’s no need to manually add query strings to your URLs, or to form-encode your `PUT` & `POST` data — but nowadays, just use the `json` method!
+ 
+-Requests is one of the most downloaded Python package today, pulling in around `30M downloads / week`— according to GitHub, Requests is currently [depended upon](https://github.com/psf/requests/network/dependents?package_id=UGFja2FnZS01NzA4OTExNg%3D%3D) by `500,000+` repositories. You may certainly put your trust in this code.
++Requests is one of the most downloaded Python packages today, pulling in around `30M downloads / week`— according to GitHub, Requests is currently [depended upon](https://github.com/psf/requests/network/dependents?package_id=UGFja2FnZS01NzA4OTExNg%3D%3D) by `500,000+` repositories. You may certainly put your trust in this code.
+ 
+ [![Downloads](https://pepy.tech/badge/requests/month)](https://pepy.tech/project/requests)
+ [![Supported Versions](https://img.shields.io/pypi/pyversions/requests.svg)](https://pypi.org/project/requests)
++ git diff 39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install .
+Processing /testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests==2.26.0) (1.26.20)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests==2.26.0) (2025.8.3)
+Requirement already satisfied: charset_normalizer~=2.0.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests==2.26.0) (2.0.12)
+Requirement already satisfied: idna<4,>=2.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from requests==2.26.0) (3.10)
+Building wheels for collected packages: requests
+  DEPRECATION: Building 'requests' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'requests'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+  Building wheel for requests (setup.py): started
+  Building wheel for requests (setup.py): finished with status 'done'
+  Created wheel for requests: filename=requests-2.26.0-py2.py3-none-any.whl size=63020 sha256=646ee2db752170d0260132ef442da1e942dffda8dbb33f00339900e2fba03ebe
+  Stored in directory: /tmp/pip-ephem-wheel-cache-sanpywvm/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built requests
+Installing collected packages: requests
+  Attempting uninstall: requests
+    Found existing installation: requests 2.26.0
+    Uninstalling requests-2.26.0:
+      Successfully uninstalled requests-2.26.0
+Successfully installed requests-2.26.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch requests/models.py...
+Applied patch requests/models.py cleanly.
++ git apply -v -
+<stdin>:14: trailing whitespace.
+    
+<stdin>:17: trailing whitespace.
+    
+Checking patch test_coverup_psf__requests-5414.py...
+Applied patch test_coverup_psf__requests-5414.py cleanly.
+warning: 2 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(requests/models\.py)' -m pytest --no-header -rA -p no:cacheprovider test_coverup_psf__requests-5414.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(requests/models\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+test_coverup_psf__requests-5414.py .                                     [100%]
+
+==================================== PASSES ====================================
+__________________ test_invalid_url_instead_of_unicode_error ___________________
+----------------------------- Captured stdout call -----------------------------
+0.23 models.py(297):         self.method = None
+0.23 models.py(299):         self.url = None
+0.23 models.py(301):         self.headers = None
+0.23 models.py(304):         self._cookies = None
+0.23 models.py(306):         self.body = None
+0.23 models.py(308):         self.hooks = default_hooks()
+0.23 models.py(310):         self._body_position = None
+0.23 models.py(367):         if isinstance(url, bytes):
+0.23 models.py(370):             url = unicode(url) if is_py2 else str(url)
+0.23 models.py(373):         url = url.lstrip()
+0.23 models.py(378):         if ':' in url and not url.lower().startswith('http'):
+0.23 models.py(383):         try:
+0.23 models.py(384):             scheme, auth, host, port, path, query, fragment = parse_url(url)
+0.23 models.py(388):         if not scheme:
+0.23 models.py(394):         if not host:
+0.23 models.py(401):         if not unicode_is_ascii(host):
+0.23 models.py(406):         elif host.startswith((u'*', u'.')):
+0.23 models.py(407):             raise InvalidURL('URL has an invalid label.')
+=========================== short test summary info ============================
+PASSED test_coverup_psf__requests-5414.py::test_invalid_url_instead_of_unicode_error
+============================== 1 passed in 0.13s ===============================
++ cat coverage.cover
+{"/testbed/requests/models.py": {"3": 1, "10": 1, "11": 1, "16": 1, "18": 1, "19": 1, "20": 1, "21": 1, "24": 1, "25": 1, "26": 1, "28": 1, "29": 1, "30": 1, "34": 1, "35": 1, "36": 1, "40": 1, "44": 1, "45": 1, "50": 1, "51": 1, "52": 1, "53": 1, "54": 1, "49": 1, "57": 1, "58": 1, "59": 1, "62": 2, "176": 2, "200": 2, "274": 2, "596": 2, "63": 1, "64": 1, "84": 1, "85": 1, "111": 1, "112": 1, "67": 0, "69": 0, "71": 0, "72": 0, "73": 0, "75": 0, "77": 0, "78": 0, "79": 0, "80": 0, "82": 0, "93": 0, "94": 0, "95": 0, "96": 0, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "102": 0, "103": 0, "104": 0, "105": 0, "106": 0, "107": 0, "109": 0, "121": 0, "122": 0, "123": 0, "124": 0, "126": 0, "127": 0, "128": 0, "130": 0, "131": 0, "132": 0, "133": 0, "134": 0, "136": 0, "137": 0, "139": 0, "140": 0, "141": 0, "143": 0, "145": 0, "146": 0, "147": 0, "148": 0, "149": 0, "150": 0, "151": 0, "153": 0, "155": 0, "156": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "165": 0, "167": 0, "168": 0, "169": 0, "171": 0, "173": 0, "177": 1, "188": 1, "180": 0, "181": 0, "183": 0, "184": 0, "185": 0, "186": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "228": 1, "253": 1, "256": 1, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "239": 0, "240": 0, "241": 0, "243": 0, "244": 0, "245": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "254": 0, "258": 0, "259": 0, "260": 0, "261": 0, "262": 0, "263": 0, "264": 0, "265": 0, "266": 0, "267": 0, "268": 0, "269": 0, "271": 0, "295": 1, "312": 1, "330": 1, "333": 1, "344": 1, "350": 1, "351": 1, "360": 1, "446": 1, "457": 1, "531": 1, "544": 1, "566": 1, "586": 1, "297": 1, "299": 1, "301": 1, "304": 1, "306": 1, "308": 1, "310": 1, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "328": 0, "331": 0, "334": 0, "335": 0, "336": 0, "337": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "346": 0, "347": 0, "348": 0, "352": 0, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "367": 1, "368": 0, "370": 1, "373": 1, "378": 1, "379": 0, "380": 0, "383": 1, "384": 1, "385": 0, "386": 0, "388": 1, "389": 0, "390": 0, "392": 0, "394": 1, "395": 0, "401": 1, "402": 0, "403": 0, "404": 0, "405": 0, "406": 1, "407": 1, "410": 0, "411": 0, "412": 0, "413": 0, "414": 0, "415": 0, "418": 0, "419": 0, "421": 0, "422": 0, "423": 0, "424": 0, "425": 0, "426": 0, "427": 0, "428": 0, "429": 0, "430": 0, "431": 0, "433": 0, "434": 0, "436": 0, "437": 0, "438": 0, "439": 0, "441": 0, "443": 0, "444": 0, "449": 0, "450": 0, "451": 0, "453": 0, "454": 0, "455": 0, "464": 0, "465": 0, "467": 0, "470": 0, "472": 0, "473": 0, "474": 0, "475": 0, "477": 0, "478": 0, "480": 0, "481": 0, "482": 0, "485": 0, "486": 0, "487": 0, "488": 0, "489": 0, "491": 0, "493": 0, "497": 0, "498": 0, "499": 0, "502": 0, "504": 0, "505": 0, "507": 0, "508": 0, "510": 0, "513": 0, "514": 0, "516": 0, "517": 0, "518": 0, "519": 0, "521": 0, "523": 0, "526": 0, "527": 0, "529": 0, "533": 0, "534": 0, "535": 0, "538": 0, "539": 0, "542": 0, "548": 0, "549": 0, "550": 0, "552": 0, "553": 0, "555": 0, "558": 0, "561": 0, "564": 0, "577": 0, "578": 0, "580": 0, "582": 0, "583": 0, "584": 0, "591": 0, "592": 0, "593": 0, "601": 1, "606": 1, "653": 1, "656": 1, "659": 1, "667": 1, "675": 1, "678": 1, "688": 1, "698": 1, "702": 1, "703": 1, "717": 1, "718": 1, "724": 1, "725": 1, "729": 1, "730": 1, "734": 1, "735": 1, "739": 1, "794": 1, "825": 1, "826": 1, "845": 1, "846": 1, "883": 1, "919": 1, "920": 1, "937": 1, "962": 1, "607": 0, "608": 0, "609": 0, "612": 0, "617": 0, "622": 0, "625": 0, "628": 0, "633": 0, "636": 0, "639": 0, "647": 0, "651": 0, "654": 0, "657": 0, "662": 0, "663": 0, "665": 0, "668": 0, "669": 0, "672": 0, "673": 0, "676": 0, "686": 0, "696": 0, "700": 0, "711": 0, "712": 0, "713": 0, "714": 0, "715": 0, "722": 0, "727": 0, "732": 0, "737": 0, "756": 0, "778": 0, "779": 0, "780": 0, "781": 0, "783": 0, "785": 0, "787": 0, "789": 0, "790": 0, "792": 0, "758": 0, "759": 0, "760": 0, "761": 0, "762": 0, "763": 0, "764": 0, "765": 0, "766": 0, "767": 0, "771": 0, "772": 0, "773": 0, "774": 0, "776": 0, "802": 0, "804": 0, "806": 0, "807": 0, "809": 0, "810": 0, "812": 0, "814": 0, "815": 0, "817": 0, "819": 0, "820": 0, "822": 0, "823": 0, "829": 0, "831": 0, "832": 0, "833": 0, "835": 0, "836": 0, "838": 0, "840": 0, "843": 0, "859": 0, "860": 0, "862": 0, "863": 0, "866": 0, "867": 0, "870": 0, "871": 0, "872": 0, "879": 0, "881": 0, "891": 0, "896": 0, "897": 0, "898": 0, "899": 0, "900": 0, "902": 0, "907": 0, "909": 0, "910": 0, "911": 0, "914": 0, "915": 0, "917": 0, "923": 0, "926": 0, "928": 0, "929": 0, "931": 0, "932": 0, "933": 0, "935": 0, "940": 0, "941": 0, "946": 0, "947": 0, "948": 0, "949": 0, "951": 0, "953": 0, "954": 0, "956": 0, "957": 0, "959": 0, "960": 0, "968": 0, "969": 0, "971": 0, "972": 0, "973": 0}}
++ git checkout 39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e
+M	requests/models.py
+Note: switching to '39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 39d0fdd9 Update README.md (#5998)
++ git apply /root/pre_state.patch
+error: unrecognized input

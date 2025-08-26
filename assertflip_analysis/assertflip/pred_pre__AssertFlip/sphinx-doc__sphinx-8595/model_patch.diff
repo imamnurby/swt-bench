@@ -1,0 +1,82 @@
+diff --git a/dev/null b/tests/test_coverup_sphinx-doc__sphinx-8595.py
+new file mode 100644
+index e69de29..1ae6518 100644
+--- /dev/null
++++ b/tests/test_coverup_sphinx-doc__sphinx-8595.py
+@@ -0,0 +1,76 @@
++import os
++import pytest
++from sphinx.application import Sphinx
++
++@pytest.fixture
++def setup_sphinx_environment(tmp_path):
++    # Create a temporary directory for the Sphinx project
++    docs_dir = tmp_path / "docs"
++    docs_dir.mkdir()
++
++    # Create a conf.py file
++    conf_py = docs_dir / "conf.py"
++    conf_py.write_text("""
++project = 'Example Project'
++extensions = ['sphinx.ext.autodoc']
++    """)
++
++    # Create an example.py module with an empty __all__
++    example_py = docs_dir / "example.py"
++    example_py.write_text("""
++__all__ = []
++
++def foo():
++    \"\"\"docstring\"\"\"
++
++def bar():
++    \"\"\"docstring\"\"\"
++
++def baz():
++    \"\"\"docstring\"\"\"
++    """)
++
++    # Create an index.rst file
++    index_rst = docs_dir / "index.rst"
++    index_rst.write_text("""
++.. automodule:: example
++   :members:
++    """)
++
++    return docs_dir
++
++def test_empty_all_attribute_exposes_bug(setup_sphinx_environment):
++    docs_dir = setup_sphinx_environment
++
++    # Run the Sphinx build process
++    app = Sphinx(
++        srcdir=str(docs_dir),
++        confdir=str(docs_dir),
++        outdir=str(docs_dir / "_build"),
++        doctreedir=str(docs_dir / "_doctrees"),
++        buildername="html",
++    )
++    app.build()
++
++    # Read the output HTML file
++    output_html = docs_dir / "_build" / "index.html"
++    output_content = output_html.read_text()
++
++    # Assert that no members are documented, which is the correct behavior
++    # We expect no members to be documented since __all__ is empty
++    assert not any(member in output_content for member in ["foo", "bar", "baz"])
++
++    # Cleanup: Remove the generated files to avoid state pollution
++    for item in docs_dir.iterdir():
++        if item.is_dir():
++            for sub_item in item.iterdir():
++                if sub_item.is_dir():
++                    for sub_sub_item in sub_item.iterdir():
++                        sub_sub_item.unlink()
++                    sub_item.rmdir()
++                else:
++                    sub_item.unlink()
++            item.rmdir()
++        else:
++            item.unlink()
++

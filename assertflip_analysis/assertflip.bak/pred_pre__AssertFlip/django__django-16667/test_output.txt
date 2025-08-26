@@ -1,0 +1,1096 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 02c356f2f3945b8075735d485c3cf48cad991011
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 02c356f2f3945b8075735d485c3cf48cad991011
+Author: Carlton Gibson <carlton.gibson@noumenal.es>
+Date:   Tue Mar 21 20:51:53 2023 +0100
+
+    Fixed #34428 -- Made ASGIStaticFilesHandler adapt response to async iterator.
+    
+    Bug in 0bd2c0c9015b53c41394a1c0989afbfd94dc2830.
+
+diff --git a/django/contrib/staticfiles/handlers.py b/django/contrib/staticfiles/handlers.py
+index cd1cde1fc6..7394eff818 100644
+--- a/django/contrib/staticfiles/handlers.py
++++ b/django/contrib/staticfiles/handlers.py
+@@ -103,4 +103,13 @@ class ASGIStaticFilesHandler(StaticFilesHandlerMixin, ASGIHandler):
+     async def get_response_async(self, request):
+         response = await super().get_response_async(request)
+         response._resource_closers.append(request.close)
++        # FileResponse is not async compatible.
++        if response.streaming and not response.is_async:
++            _iterator = response.streaming_content
++
++            async def awrapper():
++                for part in await sync_to_async(list)(_iterator):
++                    yield part
++
++            response.streaming_content = awrapper()
+         return response
+diff --git a/tests/asgi/tests.py b/tests/asgi/tests.py
+index 824f396e00..fc22a992a7 100644
+--- a/tests/asgi/tests.py
++++ b/tests/asgi/tests.py
+@@ -116,7 +116,6 @@ class ASGITest(SimpleTestCase):
+             "django.contrib.staticfiles.finders.FileSystemFinder",
+         ],
+     )
+-    @ignore_warnings(module="django.http.response")
+     async def test_static_file_response(self):
+         application = ASGIStaticFilesHandler(get_asgi_application())
+         # Construct HTTP request.
++ git diff 02c356f2f3945b8075735d485c3cf48cad991011
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.6.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230321195153) (3.9.1)
+Requirement already satisfied: sqlparse>=0.3.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230321195153) (0.5.3)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-5.0.dev20230321195153-0.editable-py3-none-any.whl size=27430 sha256=43790b3af42f43f772aa511ce62a40f469659ba2f44ddcbf0f457fcedfe048f6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-o6qfvqwq/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 5.0.dev20230321195153
+    Uninstalling Django-5.0.dev20230321195153:
+      Successfully uninstalled Django-5.0.dev20230321195153
+Successfully installed Django-5.0.dev20230321195153
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-16667.py...
+Applied patch tests/test_coverup_django__django-16667.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/forms/widgets\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-16667
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/forms/widgets\\.py)']
+0.18 widgets.py(1): """
+0.18 widgets.py(5): import copy
+0.18 widgets.py(6): import datetime
+0.18 widgets.py(7): import warnings
+0.18 widgets.py(8): from collections import defaultdict
+0.18 widgets.py(9): from graphlib import CycleError, TopologicalSorter
+0.18 widgets.py(10): from itertools import chain
+0.18 widgets.py(12): from django.forms.utils import to_current_timezone
+0.18 widgets.py(13): from django.templatetags.static import static
+0.18 widgets.py(14): from django.utils import formats
+0.18 widgets.py(15): from django.utils.dates import MONTHS
+0.18 widgets.py(16): from django.utils.formats import get_format
+0.18 widgets.py(17): from django.utils.html import format_html, html_safe
+0.18 widgets.py(18): from django.utils.regex_helper import _lazy_re_compile
+0.18 widgets.py(19): from django.utils.safestring import mark_safe
+0.18 widgets.py(20): from django.utils.translation import gettext_lazy as _
+0.18 widgets.py(22): from .renderers import get_default_renderer
+0.18 widgets.py(24): __all__ = (
+0.18 widgets.py(53): MEDIA_TYPES = ("css", "js")
+0.18 widgets.py(56): class MediaOrderConflictWarning(RuntimeWarning):
+0.18 widgets.py(56): class MediaOrderConflictWarning(RuntimeWarning):
+0.18 widgets.py(57):     pass
+0.18 widgets.py(60): @html_safe
+0.18 widgets.py(61): class Media:
+0.18 widgets.py(60): @html_safe
+0.18 widgets.py(62):     def __init__(self, media=None, css=None, js=None):
+0.18 widgets.py(74):     def __repr__(self):
+0.18 widgets.py(77):     def __str__(self):
+0.18 widgets.py(80):     @property
+0.18 widgets.py(81):     def _css(self):
+0.18 widgets.py(80):     @property
+0.18 widgets.py(81):     def _css(self):
+0.18 widgets.py(88):     @property
+0.18 widgets.py(89):     def _js(self):
+0.18 widgets.py(88):     @property
+0.18 widgets.py(89):     def _js(self):
+0.18 widgets.py(92):     def render(self):
+0.18 widgets.py(101):     def render_js(self):
+0.18 widgets.py(109):     def render_css(self):
+0.18 widgets.py(127):     def absolute_path(self, path):
+0.18 widgets.py(137):     def __getitem__(self, name):
+0.18 widgets.py(143):     @staticmethod
+0.18 widgets.py(144):     def merge(*lists):
+0.18 widgets.py(143):     @staticmethod
+0.18 widgets.py(144):     def merge(*lists):
+0.18 widgets.py(171):     def __add__(self, other):
+0.18 widgets.py(60): @html_safe
+0.18 widgets.py(61): class Media:
+0.18 widgets.py(184): def media_property(cls):
+0.18 widgets.py(211): class MediaDefiningClass(type):
+0.18 widgets.py(211): class MediaDefiningClass(type):
+0.18 widgets.py(212):     """
+0.18 widgets.py(216):     def __new__(mcs, name, bases, attrs):
+0.18 widgets.py(225): class Widget(metaclass=MediaDefiningClass):
+0.18 widgets.py(225): class Widget(metaclass=MediaDefiningClass):
+0.18 widgets.py(226):     needs_multipart_form = False  # Determines does this widget need multipart form
+0.18 widgets.py(227):     is_localized = False
+0.18 widgets.py(228):     is_required = False
+0.18 widgets.py(229):     supports_microseconds = True
+0.18 widgets.py(230):     use_fieldset = False
+0.18 widgets.py(232):     def __init__(self, attrs=None):
+0.18 widgets.py(235):     def __deepcopy__(self, memo):
+0.18 widgets.py(241):     @property
+0.18 widgets.py(242):     def is_hidden(self):
+0.18 widgets.py(241):     @property
+0.18 widgets.py(242):     def is_hidden(self):
+0.18 widgets.py(245):     def subwidgets(self, name, value, attrs=None):
+0.18 widgets.py(249):     def format_value(self, value):
+0.18 widgets.py(259):     def get_context(self, name, value, attrs):
+0.18 widgets.py(271):     def render(self, name, value, attrs=None, renderer=None):
+0.18 widgets.py(276):     def _render(self, template_name, context, renderer=None):
+0.18 widgets.py(281):     def build_attrs(self, base_attrs, extra_attrs=None):
+0.18 widgets.py(285):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(292):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(295):     def id_for_label(self, id_):
+0.18 widgets.py(307):     def use_required_attribute(self, initial):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(311): class Input(Widget):
+0.18 widgets.py(311): class Input(Widget):
+0.18 widgets.py(312):     """
+0.18 widgets.py(316):     input_type = None  # Subclasses must define this.
+0.18 widgets.py(317):     template_name = "django/forms/widgets/input.html"
+0.18 widgets.py(319):     def __init__(self, attrs=None):
+0.18 widgets.py(325):     def get_context(self, name, value, attrs):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(331): class TextInput(Input):
+0.18 widgets.py(331): class TextInput(Input):
+0.18 widgets.py(332):     input_type = "text"
+0.18 widgets.py(333):     template_name = "django/forms/widgets/text.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(336): class NumberInput(Input):
+0.18 widgets.py(336): class NumberInput(Input):
+0.18 widgets.py(337):     input_type = "number"
+0.18 widgets.py(338):     template_name = "django/forms/widgets/number.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(341): class EmailInput(Input):
+0.18 widgets.py(341): class EmailInput(Input):
+0.18 widgets.py(342):     input_type = "email"
+0.18 widgets.py(343):     template_name = "django/forms/widgets/email.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(346): class URLInput(Input):
+0.18 widgets.py(346): class URLInput(Input):
+0.18 widgets.py(347):     input_type = "url"
+0.18 widgets.py(348):     template_name = "django/forms/widgets/url.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(351): class PasswordInput(Input):
+0.18 widgets.py(351): class PasswordInput(Input):
+0.18 widgets.py(352):     input_type = "password"
+0.18 widgets.py(353):     template_name = "django/forms/widgets/password.html"
+0.18 widgets.py(355):     def __init__(self, attrs=None, render_value=False):
+0.18 widgets.py(359):     def get_context(self, name, value, attrs):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(365): class HiddenInput(Input):
+0.18 widgets.py(365): class HiddenInput(Input):
+0.18 widgets.py(366):     input_type = "hidden"
+0.18 widgets.py(367):     template_name = "django/forms/widgets/hidden.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(370): class MultipleHiddenInput(HiddenInput):
+0.18 widgets.py(370): class MultipleHiddenInput(HiddenInput):
+0.18 widgets.py(371):     """
+0.18 widgets.py(376):     template_name = "django/forms/widgets/multiple_hidden.html"
+0.18 widgets.py(378):     def get_context(self, name, value, attrs):
+0.18 widgets.py(397):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(404):     def format_value(self, value):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(408): class FileInput(Input):
+0.18 widgets.py(408): class FileInput(Input):
+0.18 widgets.py(409):     input_type = "file"
+0.18 widgets.py(410):     needs_multipart_form = True
+0.18 widgets.py(411):     template_name = "django/forms/widgets/file.html"
+0.18 widgets.py(413):     def format_value(self, value):
+0.18 widgets.py(417):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(421):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(424):     def use_required_attribute(self, initial):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(428): FILE_INPUT_CONTRADICTION = object()
+0.18 widgets.py(431): class ClearableFileInput(FileInput):
+0.18 widgets.py(431): class ClearableFileInput(FileInput):
+0.18 widgets.py(432):     clear_checkbox_label = _("Clear")
+0.18 widgets.py(433):     initial_text = _("Currently")
+0.18 widgets.py(434):     input_text = _("Change")
+0.18 widgets.py(435):     template_name = "django/forms/widgets/clearable_file_input.html"
+0.18 widgets.py(437):     def clear_checkbox_name(self, name):
+0.18 widgets.py(444):     def clear_checkbox_id(self, name):
+0.18 widgets.py(450):     def is_initial(self, value):
+0.18 widgets.py(456):     def format_value(self, value):
+0.18 widgets.py(463):     def get_context(self, name, value, attrs):
+0.18 widgets.py(480):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(494):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(501): class Textarea(Widget):
+0.18 widgets.py(501): class Textarea(Widget):
+0.18 widgets.py(502):     template_name = "django/forms/widgets/textarea.html"
+0.18 widgets.py(504):     def __init__(self, attrs=None):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(512): class DateTimeBaseInput(TextInput):
+0.18 widgets.py(512): class DateTimeBaseInput(TextInput):
+0.18 widgets.py(513):     format_key = ""
+0.18 widgets.py(514):     supports_microseconds = False
+0.18 widgets.py(516):     def __init__(self, attrs=None, format=None):
+0.18 widgets.py(520):     def format_value(self, value):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(526): class DateInput(DateTimeBaseInput):
+0.18 widgets.py(526): class DateInput(DateTimeBaseInput):
+0.18 widgets.py(527):     format_key = "DATE_INPUT_FORMATS"
+0.18 widgets.py(528):     template_name = "django/forms/widgets/date.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(531): class DateTimeInput(DateTimeBaseInput):
+0.18 widgets.py(531): class DateTimeInput(DateTimeBaseInput):
+0.18 widgets.py(532):     format_key = "DATETIME_INPUT_FORMATS"
+0.18 widgets.py(533):     template_name = "django/forms/widgets/datetime.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(536): class TimeInput(DateTimeBaseInput):
+0.18 widgets.py(536): class TimeInput(DateTimeBaseInput):
+0.18 widgets.py(537):     format_key = "TIME_INPUT_FORMATS"
+0.18 widgets.py(538):     template_name = "django/forms/widgets/time.html"
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(542): def boolean_check(v):
+0.18 widgets.py(546): class CheckboxInput(Input):
+0.18 widgets.py(546): class CheckboxInput(Input):
+0.18 widgets.py(547):     input_type = "checkbox"
+0.18 widgets.py(548):     template_name = "django/forms/widgets/checkbox.html"
+0.18 widgets.py(550):     def __init__(self, attrs=None, check_test=None):
+0.18 widgets.py(556):     def format_value(self, value):
+0.18 widgets.py(562):     def get_context(self, name, value, attrs):
+0.18 widgets.py(567):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(579):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(585): class ChoiceWidget(Widget):
+0.18 widgets.py(585): class ChoiceWidget(Widget):
+0.18 widgets.py(586):     allow_multiple_selected = False
+0.18 widgets.py(587):     input_type = None
+0.18 widgets.py(588):     template_name = None
+0.18 widgets.py(589):     option_template_name = None
+0.18 widgets.py(590):     add_id_index = True
+0.18 widgets.py(591):     checked_attribute = {"checked": True}
+0.18 widgets.py(592):     option_inherits_attrs = True
+0.18 widgets.py(594):     def __init__(self, attrs=None, choices=()):
+0.18 widgets.py(601):     def __deepcopy__(self, memo):
+0.18 widgets.py(608):     def subwidgets(self, name, value, attrs=None):
+0.18 widgets.py(616):     def options(self, name, value, attrs=None):
+0.18 widgets.py(621):     def optgroups(self, name, value, attrs=None):
+0.18 widgets.py(662):         self, name, value, label, selected, index, subindex=None, attrs=None
+0.18 widgets.py(661):     def create_option(
+0.18 widgets.py(684):     def get_context(self, name, value, attrs):
+0.18 widgets.py(691):     def id_for_label(self, id_, index="0"):
+0.18 widgets.py(700):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(709):     def format_value(self, value):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(718): class Select(ChoiceWidget):
+0.18 widgets.py(718): class Select(ChoiceWidget):
+0.18 widgets.py(719):     input_type = "select"
+0.18 widgets.py(720):     template_name = "django/forms/widgets/select.html"
+0.18 widgets.py(721):     option_template_name = "django/forms/widgets/select_option.html"
+0.18 widgets.py(722):     add_id_index = False
+0.18 widgets.py(723):     checked_attribute = {"selected": True}
+0.18 widgets.py(724):     option_inherits_attrs = False
+0.18 widgets.py(726):     def get_context(self, name, value, attrs):
+0.18 widgets.py(732):     @staticmethod
+0.18 widgets.py(733):     def _choice_has_empty_value(choice):
+0.18 widgets.py(732):     @staticmethod
+0.18 widgets.py(733):     def _choice_has_empty_value(choice):
+0.18 widgets.py(738):     def use_required_attribute(self, initial):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(756): class NullBooleanSelect(Select):
+0.18 widgets.py(756): class NullBooleanSelect(Select):
+0.18 widgets.py(757):     """
+0.18 widgets.py(761):     def __init__(self, attrs=None):
+0.18 widgets.py(769):     def format_value(self, value):
+0.18 widgets.py(783):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(798): class SelectMultiple(Select):
+0.18 widgets.py(798): class SelectMultiple(Select):
+0.18 widgets.py(799):     allow_multiple_selected = True
+0.18 widgets.py(801):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(808):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(814): class RadioSelect(ChoiceWidget):
+0.18 widgets.py(814): class RadioSelect(ChoiceWidget):
+0.18 widgets.py(815):     input_type = "radio"
+0.18 widgets.py(816):     template_name = "django/forms/widgets/radio.html"
+0.18 widgets.py(817):     option_template_name = "django/forms/widgets/radio_option.html"
+0.18 widgets.py(818):     use_fieldset = True
+0.18 widgets.py(820):     def id_for_label(self, id_, index=None):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(831): class CheckboxSelectMultiple(RadioSelect):
+0.18 widgets.py(831): class CheckboxSelectMultiple(RadioSelect):
+0.18 widgets.py(832):     allow_multiple_selected = True
+0.18 widgets.py(833):     input_type = "checkbox"
+0.18 widgets.py(834):     template_name = "django/forms/widgets/checkbox_select.html"
+0.18 widgets.py(835):     option_template_name = "django/forms/widgets/checkbox_option.html"
+0.18 widgets.py(837):     def use_required_attribute(self, initial):
+0.18 widgets.py(842):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(848): class MultiWidget(Widget):
+0.18 widgets.py(848): class MultiWidget(Widget):
+0.18 widgets.py(849):     """
+0.18 widgets.py(859):     template_name = "django/forms/widgets/multiwidget.html"
+0.18 widgets.py(860):     use_fieldset = True
+0.18 widgets.py(862):     def __init__(self, widgets, attrs=None):
+0.18 widgets.py(871):     @property
+0.18 widgets.py(872):     def is_hidden(self):
+0.18 widgets.py(871):     @property
+0.18 widgets.py(872):     def is_hidden(self):
+0.18 widgets.py(875):     def get_context(self, name, value, attrs):
+0.18 widgets.py(910):     def id_for_label(self, id_):
+0.18 widgets.py(913):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(919):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(925):     def decompress(self, value):
+0.18 widgets.py(933):     def _get_media(self):
+0.18 widgets.py(943):     media = property(_get_media)
+0.18 widgets.py(945):     def __deepcopy__(self, memo):
+0.18 widgets.py(950):     @property
+0.18 widgets.py(951):     def needs_multipart_form(self):
+0.18 widgets.py(950):     @property
+0.18 widgets.py(951):     def needs_multipart_form(self):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(955): class SplitDateTimeWidget(MultiWidget):
+0.18 widgets.py(955): class SplitDateTimeWidget(MultiWidget):
+0.18 widgets.py(956):     """
+0.18 widgets.py(960):     supports_microseconds = False
+0.18 widgets.py(961):     template_name = "django/forms/widgets/splitdatetime.html"
+0.18 widgets.py(965):         attrs=None,
+0.18 widgets.py(966):         date_format=None,
+0.18 widgets.py(967):         time_format=None,
+0.18 widgets.py(968):         date_attrs=None,
+0.18 widgets.py(969):         time_attrs=None,
+0.18 widgets.py(963):     def __init__(
+0.18 widgets.py(983):     def decompress(self, value):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(990): class SplitHiddenDateTimeWidget(SplitDateTimeWidget):
+0.18 widgets.py(990): class SplitHiddenDateTimeWidget(SplitDateTimeWidget):
+0.18 widgets.py(991):     """
+0.18 widgets.py(995):     template_name = "django/forms/widgets/splithiddendatetime.html"
+0.18 widgets.py(999):         attrs=None,
+0.18 widgets.py(1000):         date_format=None,
+0.18 widgets.py(1001):         time_format=None,
+0.18 widgets.py(1002):         date_attrs=None,
+0.18 widgets.py(1003):         time_attrs=None,
+0.18 widgets.py(997):     def __init__(
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.18 widgets.py(1010): class SelectDateWidget(Widget):
+0.18 widgets.py(1010): class SelectDateWidget(Widget):
+0.18 widgets.py(1011):     """
+0.18 widgets.py(1018):     none_value = ("", "---")
+0.18 widgets.py(1019):     month_field = "%s_month"
+0.18 widgets.py(1020):     day_field = "%s_day"
+0.18 widgets.py(1021):     year_field = "%s_year"
+0.18 widgets.py(1022):     template_name = "django/forms/widgets/select_date.html"
+0.18 widgets.py(1023):     input_type = "select"
+0.18 widgets.py(1024):     select_widget = Select
+0.18 widgets.py(1025):     date_re = _lazy_re_compile(r"(\d{4}|0)-(\d\d?)-(\d\d?)$")
+0.18 widgets.py(1026):     use_fieldset = True
+0.18 widgets.py(1028):     def __init__(self, attrs=None, years=None, months=None, empty_label=None):
+0.18 widgets.py(1060):     def get_context(self, name, value, attrs):
+0.18 widgets.py(1103):     def format_value(self, value):
+0.18 widgets.py(1128):     @staticmethod
+0.18 widgets.py(1129):     def _parse_date_fmt():
+0.18 widgets.py(1128):     @staticmethod
+0.18 widgets.py(1129):     def _parse_date_fmt():
+0.18 widgets.py(1144):     def id_for_label(self, id_):
+0.18 widgets.py(1149):     def value_from_datadict(self, data, files, name):
+0.18 widgets.py(1167):     def value_omitted_from_data(self, data, files, name):
+0.18 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.18 widgets.py(219):         if "media" not in attrs:
+0.18 widgets.py(220):             new_class.media = media_property(new_class)
+0.18 widgets.py(185):     def _media(self):
+0.18 widgets.py(208):     return property(_media)
+0.18 widgets.py(222):         return new_class
+0.20 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.20 widgets.py(219):         if "media" not in attrs:
+0.20 widgets.py(220):             new_class.media = media_property(new_class)
+0.20 widgets.py(185):     def _media(self):
+0.20 widgets.py(208):     return property(_media)
+0.20 widgets.py(222):         return new_class
+0.20 widgets.py(320):         if attrs is not None:
+0.20 widgets.py(323):         super().__init__(attrs)
+0.20 widgets.py(233):         self.attrs = {} if attrs is None else attrs.copy()
+0.20 widgets.py(320):         if attrs is not None:
+0.20 widgets.py(323):         super().__init__(attrs)
+0.20 widgets.py(233):         self.attrs = {} if attrs is None else attrs.copy()
+0.20 widgets.py(320):         if attrs is not None:
+0.20 widgets.py(323):         super().__init__(attrs)
+0.20 widgets.py(233):         self.attrs = {} if attrs is None else attrs.copy()
+0.20 widgets.py(320):         if attrs is not None:
+0.20 widgets.py(323):         super().__init__(attrs)
+0.20 widgets.py(233):         self.attrs = {} if attrs is None else attrs.copy()
+0.20 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.20 widgets.py(219):         if "media" not in attrs:
+0.20 widgets.py(220):             new_class.media = media_property(new_class)
+0.20 widgets.py(185):     def _media(self):
+0.20 widgets.py(208):     return property(_media)
+0.20 widgets.py(222):         return new_class
+0.21 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.21 widgets.py(219):         if "media" not in attrs:
+0.21 widgets.py(220):             new_class.media = media_property(new_class)
+0.21 widgets.py(185):     def _media(self):
+0.21 widgets.py(208):     return property(_media)
+0.21 widgets.py(222):         return new_class
+Testing against Django installed in '/testbed/django'
+0.52 widgets.py(595):         super().__init__(attrs)
+0.52 widgets.py(233):         self.attrs = {} if attrs is None else attrs.copy()
+0.52 widgets.py(599):         self.choices = list(choices)
+0.52 widgets.py(320):         if attrs is not None:
+0.52 widgets.py(321):             attrs = attrs.copy()
+0.52 widgets.py(322):             self.input_type = attrs.pop("type", self.input_type)
+0.52 widgets.py(323):         super().__init__(attrs)
+0.52 widgets.py(233):         self.attrs = {} if attrs is None else attrs.copy()
+0.52 widgets.py(236):         obj = copy.copy(self)
+0.52 widgets.py(237):         obj.attrs = self.attrs.copy()
+0.52 widgets.py(238):         memo[id(self)] = obj
+0.52 widgets.py(239):         return obj
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.52 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.52 widgets.py(219):         if "media" not in attrs:
+0.52 widgets.py(220):             new_class.media = media_property(new_class)
+0.52 widgets.py(185):     def _media(self):
+0.52 widgets.py(208):     return property(_media)
+0.52 widgets.py(222):         return new_class
+0.53 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.53 widgets.py(219):         if "media" not in attrs:
+0.53 widgets.py(220):             new_class.media = media_property(new_class)
+0.53 widgets.py(185):     def _media(self):
+0.53 widgets.py(208):     return property(_media)
+0.53 widgets.py(222):         return new_class
+0.53 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.53 widgets.py(219):         if "media" not in attrs:
+0.53 widgets.py(222):         return new_class
+0.53 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.53 widgets.py(219):         if "media" not in attrs:
+0.53 widgets.py(222):         return new_class
+0.53 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.53 widgets.py(219):         if "media" not in attrs:
+0.53 widgets.py(220):             new_class.media = media_property(new_class)
+0.53 widgets.py(185):     def _media(self):
+0.53 widgets.py(208):     return property(_media)
+0.53 widgets.py(222):         return new_class
+0.53 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.53 widgets.py(219):         if "media" not in attrs:
+0.53 widgets.py(220):             new_class.media = media_property(new_class)
+0.53 widgets.py(185):     def _media(self):
+0.53 widgets.py(208):     return property(_media)
+0.53 widgets.py(222):         return new_class
+0.62 widgets.py(1029):         self.attrs = attrs or {}
+0.62 widgets.py(1032):         if years:
+0.62 widgets.py(1035):             this_year = datetime.date.today().year
+0.62 widgets.py(1036):             self.years = range(this_year, this_year + 10)
+0.62 widgets.py(1039):         if months:
+0.62 widgets.py(1042):             self.months = MONTHS
+0.62 widgets.py(1045):         if isinstance(empty_label, (list, tuple)):
+0.62 widgets.py(1053):             if empty_label is not None:
+0.62 widgets.py(1056):             self.year_none_value = self.none_value
+0.62 widgets.py(1057):             self.month_none_value = self.none_value
+0.62 widgets.py(1058):             self.day_none_value = self.none_value
+0.62 widgets.py(236):         obj = copy.copy(self)
+0.62 widgets.py(237):         obj.attrs = self.attrs.copy()
+0.62 widgets.py(238):         memo[id(self)] = obj
+0.62 widgets.py(239):         return obj
+0.62 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.62 widgets.py(219):         if "media" not in attrs:
+0.62 widgets.py(220):             new_class.media = media_property(new_class)
+0.62 widgets.py(185):     def _media(self):
+0.62 widgets.py(208):     return property(_media)
+0.62 widgets.py(222):         return new_class
+Found 1 test(s).
+Skipping setup of unused database(s): default, other.
+0.64 widgets.py(217):         new_class = super().__new__(mcs, name, bases, attrs)
+0.64 widgets.py(219):         if "media" not in attrs:
+0.64 widgets.py(220):             new_class.media = media_property(new_class)
+0.64 widgets.py(185):     def _media(self):
+0.64 widgets.py(208):     return property(_media)
+0.64 widgets.py(222):         return new_class
+System check identified no issues (0 silenced).
+test_overflow_error_handling (test_coverup_django__django-16667.SelectDateWidgetTest.test_overflow_error_handling)
+Test that a large year value in SelectDateWidget does not crash the server. ... FAIL
+
+======================================================================
+FAIL: test_overflow_error_handling (test_coverup_django__django-16667.SelectDateWidgetTest.test_overflow_error_handling)
+Test that a large year value in SelectDateWidget does not crash the server.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-16667.py", line 32, in test_overflow_error_handling
+    response = self.client.get('/repro/', {
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/testbed/django/test/client.py", line 925, in get
+    response = super().get(path, data=data, secure=secure, headers=headers, **extra)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/testbed/django/test/client.py", line 455, in get
+    return self.generic(
+           ^^^^^^^^^^^^^
+  File "/testbed/django/test/client.py", line 607, in generic
+    return self.request(**r)
+           ^^^^^^^^^^^^^^^^^
+  File "/testbed/django/test/client.py", line 889, in request
+    self.check_exception(response)
+  File "/testbed/django/test/client.py", line 736, in check_exception
+    raise exc_value
+  File "/testbed/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/testbed/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/testbed/./tests/test_coverup_django__django-16667.py", line 13, in repro_view
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "/testbed/django/forms/forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "/testbed/django/forms/forms.py", line 192, in errors
+    self.full_clean()
+  File "/testbed/django/forms/forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "/testbed/django/forms/forms.py", line 334, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/testbed/django/forms/boundfield.py", line 135, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/testbed/django/forms/forms.py", line 216, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/testbed/django/forms/widgets.py", line 1159, in value_from_datadict
+    date_value = datetime.date(int(y), int(m), int(d))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: signed integer is greater than maximum
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-16667.py", line 41, in test_overflow_error_handling
+    self.fail("OverflowError was raised due to large year value")
+AssertionError: OverflowError was raised due to large year value
+
+----------------------------------------------------------------------
+Ran 1 test in 0.034s
+
+FAILED (failures=1)
+0.67 widgets.py(236):         obj = copy.copy(self)
+0.67 widgets.py(237):         obj.attrs = self.attrs.copy()
+0.67 widgets.py(238):         memo[id(self)] = obj
+0.67 widgets.py(239):         return obj
+0.67 widgets.py(1150):         y = data.get(self.year_field % name)
+0.67 widgets.py(1151):         m = data.get(self.month_field % name)
+0.67 widgets.py(1152):         d = data.get(self.day_field % name)
+0.67 widgets.py(1153):         if y == m == d == "":
+0.67 widgets.py(1155):         if y is not None and m is not None and d is not None:
+0.67 widgets.py(1156):             input_format = get_format("DATE_INPUT_FORMATS")[0]
+0.67 widgets.py(1157):             input_format = formats.sanitize_strftime_format(input_format)
+0.67 widgets.py(1158):             try:
+0.67 widgets.py(1159):                 date_value = datetime.date(int(y), int(m), int(d))
+0.67 widgets.py(1160):             except ValueError:
++ cat coverage.cover
+{"/testbed/django/forms/widgets.py": {"0": 0, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "22": 1, "24": 1, "53": 1, "56": 2, "60": 3, "61": 2, "184": 1, "211": 2, "225": 2, "311": 2, "331": 2, "336": 2, "341": 2, "346": 2, "351": 2, "365": 2, "370": 2, "408": 2, "428": 1, "431": 2, "501": 2, "512": 2, "526": 2, "531": 2, "536": 2, "542": 1, "546": 2, "585": 2, "718": 2, "756": 2, "798": 2, "814": 2, "831": 2, "848": 2, "955": 2, "990": 2, "1010": 2, "57": 1, "62": 1, "74": 1, "77": 1, "80": 2, "81": 2, "88": 2, "89": 2, "92": 1, "101": 1, "109": 1, "127": 1, "137": 1, "143": 2, "144": 2, "171": 1, "63": 0, "64": 0, "65": 0, "67": 0, "68": 0, "69": 0, "70": 0, "71": 0, "72": 0, "75": 0, "78": 0, "82": 0, "83": 0, "84": 0, "85": 0, "86": 0, "90": 0, "93": 0, "94": 0, "95": 0, "96": 0, "102": 0, "106": 0, "104": 0, "103": 0, "105": 0, "112": 0, "113": 0, "124": 0, "114": 0, "122": 0, "116": 0, "115": 0, "117": 0, "118": 0, "119": 0, "120": 0, "133": 0, "134": 0, "135": 0, "139": 0, "140": 0, "141": 0, "153": 0, "154": 0, "155": 0, "156": 0, "157": 0, "158": 0, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "167": 0, "169": 0, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "181": 0, "185": 52, "208": 52, "187": 0, "188": 0, "189": 0, "190": 0, "191": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "201": 0, "202": 0, "203": 0, "204": 0, "205": 0, "206": 0, "216": 1, "217": 56, "219": 56, "220": 52, "222": 56, "226": 1, "227": 1, "228": 1, "229": 1, "230": 1, "232": 1, "235": 1, "241": 2, "242": 2, "245": 1, "249": 1, "259": 1, "271": 1, "276": 1, "281": 1, "285": 1, "292": 1, "295": 1, "307": 1, "233": 6, "236": 3, "237": 3, "238": 3, "239": 3, "243": 0, "246": 0, "247": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "261": 0, "262": 0, "263": 0, "264": 0, "265": 0, "266": 0, "267": 0, "260": 0, "273": 0, "274": 0, "277": 0, "278": 0, "279": 0, "283": 0, "290": 0, "293": 0, "305": 0, "308": 0, "316": 1, "317": 1, "319": 1, "325": 1, "320": 5, "321": 1, "322": 1, "323": 5, "326": 0, "327": 0, "328": 0, "332": 1, "333": 1, "337": 1, "338": 1, "342": 1, "343": 1, "347": 1, "348": 1, "352": 1, "353": 1, "355": 1, "359": 1, "356": 0, "357": 0, "360": 0, "361": 0, "362": 0, "366": 1, "367": 1, "376": 1, "378": 1, "397": 1, "404": 1, "379": 0, "380": 0, "381": 0, "383": 0, "384": 0, "385": 0, "386": 0, "389": 0, "390": 0, "391": 0, "392": 0, "394": 0, "395": 0, "398": 0, "399": 0, "400": 0, "401": 0, "402": 0, "405": 0, "409": 1, "410": 1, "411": 1, "413": 1, "417": 1, "421": 1, "424": 1, "415": 0, "419": 0, "422": 0, "425": 0, "432": 1, "433": 1, "434": 1, "435": 1, "437": 1, "444": 1, "450": 1, "456": 1, "463": 1, "480": 1, "494": 1, "442": 0, "448": 0, "454": 0, "460": 0, "461": 0, "464": 0, "465": 0, "466": 0, "467": 0, "469": 0, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "468": 0, "477": 0, "478": 0, "481": 0, "482": 0, "483": 0, "485": 0, "489": 0, "491": 0, "492": 0, "496": 0, "497": 0, "495": 0, "502": 1, "504": 1, "506": 0, "507": 0, "508": 0, "509": 0, "513": 1, "514": 1, "516": 1, "520": 1, "517": 0, "518": 0, "521": 0, "522": 0, "527": 1, "528": 1, "532": 1, "533": 1, "537": 1, "538": 1, "543": 0, "547": 1, "548": 1, "550": 1, "556": 1, "562": 1, "567": 1, "579": 1, "551": 0, "554": 0, "558": 0, "559": 0, "560": 0, "563": 0, "564": 0, "565": 0, "568": 0, "571": 0, "572": 0, "574": 0, "575": 0, "576": 0, "577": 0, "582": 0, "586": 1, "587": 1, "588": 1, "589": 1, "590": 1, "591": 1, "592": 1, "594": 1, "601": 1, "608": 1, "616": 1, "621": 1, "662": 1, "661": 1, "684": 1, "691": 1, "700": 1, "709": 1, "595": 1, "599": 1, "602": 0, "603": 0, "604": 0, "605": 0, "606": 0, "613": 0, "614": 0, "618": 0, "619": 0, "623": 0, "624": 0, "626": 0, "627": 0, "628": 0, "630": 0, "631": 0, "632": 0, "633": 0, "634": 0, "636": 0, "637": 0, "638": 0, "639": 0, "641": 0, "642": 0, "643": 0, "644": 0, "645": 0, "646": 0, "647": 0, "648": 0, "649": 0, "650": 0, "651": 0, "652": 0, "653": 0, "654": 0, "657": 0, "658": 0, "659": 0, "664": 0, "666": 0, "665": 0, "668": 0, "669": 0, "670": 0, "671": 0, "673": 0, "674": 0, "675": 0, "676": 0, "677": 0, "678": 0, "679": 0, "680": 0, "681": 0, "672": 0, "685": 0, "686": 0, "687": 0, "689": 0, "696": 0, "697": 0, "698": 0, "701": 0, "702": 0, "703": 0, "704": 0, "705": 0, "706": 0, "707": 0, "711": 0, "712": 0, "713": 0, "714": 0, "715": 0, "719": 1, "720": 1, "721": 1, "722": 1, "723": 1, "724": 1, "726": 1, "732": 2, "733": 2, "738": 1, "727": 0, "728": 0, "729": 0, "730": 0, "735": 0, "736": 0, "743": 0, "745": 0, "746": 0, "748": 0, "750": 0, "751": 0, "752": 0, "749": 0, "761": 1, "769": 1, "783": 1, "763": 0, "764": 0, "765": 0, "762": 0, "767": 0, "770": 0, "772": 0, "773": 0, "774": 0, "775": 0, "777": 0, "778": 0, "771": 0, "779": 0, "780": 0, "781": 0, "784": 0, "786": 0, "787": 0, "788": 0, "789": 0, "790": 0, "791": 0, "793": 0, "794": 0, "785": 0, "795": 0, "799": 1, "801": 1, "808": 1, "802": 0, "803": 0, "804": 0, "805": 0, "806": 0, "811": 0, "815": 1, "816": 1, "817": 1, "818": 1, "820": 1, "826": 0, "827": 0, "828": 0, "832": 1, "833": 1, "834": 1, "835": 1, "837": 1, "842": 1, "840": 0, "845": 0, "859": 1, "860": 1, "862": 1, "871": 2, "872": 2, "875": 1, "910": 1, "913": 1, "919": 1, "925": 1, "933": 1, "943": 1, "945": 1, "950": 2, "951": 2, "863": 0, "864": 0, "865": 0, "867": 0, "868": 0, "869": 0, "873": 0, "876": 0, "877": 0, "878": 0, "879": 0, "882": 0, "883": 0, "885": 0, "886": 0, "887": 0, "888": 0, "889": 0, "890": 0, "892": 0, "893": 0, "894": 0, "895": 0, "896": 0, "897": 0, "898": 0, "899": 0, "900": 0, "901": 0, "903": 0, "904": 0, "905": 0, "907": 0, "908": 0, "911": 0, "914": 0, "916": 0, "915": 0, "920": 0, "922": 0, "921": 0, "931": 0, "938": 0, "939": 0, "940": 0, "941": 0, "946": 0, "947": 0, "948": 0, "952": 0, "960": 1, "961": 1, "965": 1, "966": 1, "967": 1, "968": 1, "969": 1, "963": 1, "983": 1, "972": 0, "973": 0, "974": 0, "976": 0, "977": 0, "978": 0, "971": 0, "981": 0, "984": 0, "985": 0, "986": 0, "987": 0, "995": 1, "999": 1, "1000": 1, "1001": 1, "1002": 1, "1003": 1, "997": 1, "1005": 0, "1006": 0, "1007": 0, "1018": 1, "1019": 1, "1020": 1, "1021": 1, "1022": 1, "1023": 1, "1024": 1, "1025": 1, "1026": 1, "1028": 1, "1060": 1, "1103": 1, "1128": 2, "1129": 2, "1144": 1, "1149": 1, "1167": 1, "1029": 1, "1032": 1, "1033": 0, "1035": 1, "1036": 1, "1039": 1, "1040": 0, "1042": 1, "1045": 1, "1046": 0, "1047": 0, "1049": 0, "1050": 0, "1051": 0, "1053": 1, "1054": 0, "1056": 1, "1057": 1, "1058": 1, "1061": 0, "1062": 0, "1063": 0, "1064": 0, "1065": 0, "1066": 0, "1067": 0, "1068": 0, "1069": 0, "1070": 0, "1071": 0, "1072": 0, "1074": 0, "1075": 0, "1076": 0, "1077": 0, "1078": 0, "1079": 0, "1080": 0, "1081": 0, "1082": 0, "1083": 0, "1085": 0, "1086": 0, "1087": 0, "1088": 0, "1089": 0, "1090": 0, "1091": 0, "1092": 0, "1093": 0, "1094": 0, "1095": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1101": 0, "1109": 0, "1110": 0, "1111": 0, "1112": 0, "1113": 0, "1114": 0, "1117": 0, "1119": 0, "1120": 0, "1121": 0, "1125": 0, "1122": 0, "1123": 0, "1126": 0, "1130": 0, "1131": 0, "1132": 0, "1133": 0, "1134": 0, "1135": 0, "1136": 0, "1137": 0, "1138": 0, "1139": 0, "1140": 0, "1141": 0, "1142": 0, "1145": 0, "1146": 0, "1147": 0, "1150": 1, "1151": 1, "1152": 1, "1153": 1, "1154": 0, "1155": 1, "1156": 1, "1157": 1, "1158": 1, "1159": 1, "1160": 1, "1163": 0, "1164": 0, "1165": 0, "1168": 0, "1170": 0, "1169": 0}}
++ git checkout 02c356f2f3945b8075735d485c3cf48cad991011
+Note: switching to '02c356f2f3945b8075735d485c3cf48cad991011'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 02c356f2f3 Fixed #34428 -- Made ASGIStaticFilesHandler adapt response to async iterator.
++ git apply /root/pre_state.patch
+error: unrecognized input

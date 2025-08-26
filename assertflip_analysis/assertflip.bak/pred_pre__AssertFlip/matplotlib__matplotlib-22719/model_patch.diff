@@ -1,0 +1,35 @@
+diff --git a/dev/null b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-22719.py
+new file mode 100644
+index e69de29..50c7170 100644
+--- /dev/null
++++ b/lib/matplotlib/tests/test_coverup_matplotlib__matplotlib-22719.py
+@@ -0,0 +1,29 @@
++import matplotlib.pyplot as plt
++import pytest
++import warnings
++from matplotlib import MatplotlibDeprecationWarning
++
++def test_deprecation_warning_on_empty_data():
++    # Create a figure and axes
++    fig, ax = plt.subplots()
++
++    # Update the x-axis units with a list of strings
++    ax.xaxis.update_units(["a", "b"])
++
++    # Capture warnings
++    with warnings.catch_warnings(record=True) as w:
++        warnings.simplefilter("always")
++
++        # Plot empty data
++        ax.plot([], [])
++
++        # Check that no MatplotlibDeprecationWarning was raised
++        assert not any(issubclass(warning.category, MatplotlibDeprecationWarning) for warning in w), \
++            "MatplotlibDeprecationWarning was unexpectedly raised."
++
++        # Ensure no specific deprecation warning message is present
++        assert not any("Support for passing numbers through unit converters is deprecated since 3.5" in str(warning.message) for warning in w), \
++            "Unexpected deprecation warning message was found."
++
++# Note: The test will fail if the MatplotlibDeprecationWarning is raised when empty data is passed to an axis with category units.
++# The test will pass once the bug is fixed, as the warning should no longer be issued for empty data.

@@ -1,0 +1,28 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-24443.py
+new file mode 100644
+index e69de29..98ee1b3 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-24443.py
+@@ -0,0 +1,22 @@
++from sympy.combinatorics import PermutationGroup, Permutation
++from sympy.combinatorics.homomorphisms import _check_homomorphism
++from sympy.combinatorics.named_groups import DihedralGroup
++
++def test_check_homomorphism_with_inverted_generators():
++    # Create a Dihedral group D3
++    D3 = DihedralGroup(3)
++    
++    # Define generators and their inverses
++    gens = D3.generators
++    inverses = [g**-1 for g in gens]
++    
++    # Create a homomorphism mapping each generator to itself
++    images = {g: g for g in gens}
++    
++    # Include inverses in the images
++    images.update({g**-1: g**-1 for g in gens})
++    
++    # Call _check_homomorphism and assert it returns True for valid homomorphisms
++    assert _check_homomorphism(D3, D3, images) is True
++
++# The test will fail if the bug is present by returning False for valid homomorphisms.

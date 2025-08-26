@@ -1,0 +1,69 @@
+{
+    "psf__requests-1142": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": true,
+        "coverage_pred": 0.6666666666666666,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.0,
+        "coverage_delta_pred": 0.6666666666666666,
+        "coverage_delta_gold": 1.0,
+        "added_f2p": 1,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "file"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [
+                "test_coverup_psf__requests-1142.py::test_get_request_does_not_include_content_length_header"
+            ],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "test_requests.py::RequestsTestCase::test_no_content_length"
+            ],
+            "PASS_TO_PASS": [
+                "test_requests.py::RequestsTestCase::test_path_is_not_double_encoded",
+                "test_requests.py::RequestsTestCase::test_invalid_url",
+                "test_requests.py::RequestsTestCase::test_basic_building",
+                "test_requests.py::RequestsTestCase::test_entry_points",
+                "test_requests.py::RequestsTestCase::test_params_are_added_before_fragment"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_requests.py::RequestsTestCase::test_different_encodings_dont_break_post",
+                "test_requests.py::RequestsTestCase::test_HTTP_200_OK_GET_ALTERNATIVE",
+                "test_requests.py::RequestsTestCase::test_HTTP_200_OK_GET_WITH_MIXED_PARAMS",
+                "test_requests.py::RequestsTestCase::test_decompress_gzip",
+                "test_requests.py::RequestsTestCase::test_HTTP_302_ALLOW_REDIRECT_GET",
+                "test_requests.py::RequestsTestCase::test_POSTBIN_GET_POST_FILES",
+                "test_requests.py::RequestsTestCase::test_custom_content_type",
+                "test_requests.py::RequestsTestCase::test_status_raising",
+                "test_requests.py::RequestsTestCase::test_BASICAUTH_TUPLE_HTTP_200_OK_GET",
+                "test_requests.py::RequestsTestCase::test_prepared_request_hook",
+                "test_requests.py::RequestsTestCase::test_HTTP_200_OK_GET_WITH_PARAMS",
+                "test_requests.py::RequestsTestCase::test_HTTP_200_OK_PUT",
+                "test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HTTP_401_GET",
+                "test_requests.py::RequestsTestCase::test_POSTBIN_GET_POST_FILES_WITH_DATA",
+                "test_requests.py::RequestsTestCase::test_unicode_get",
+                "test_requests.py::RequestsTestCase::test_HTTP_200_OK_HEAD",
+                "test_requests.py::RequestsTestCase::test_links",
+                "test_requests.py::RequestsTestCase::test_request_ok_set",
+                "test_requests.py::RequestsTestCase::test_urlencoded_get_query_multivalued_param",
+                "test_requests.py::RequestsTestCase::test_DIGEST_HTTP_200_OK_GET",
+                "test_requests.py::RequestsTestCase::test_user_agent_transfers"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

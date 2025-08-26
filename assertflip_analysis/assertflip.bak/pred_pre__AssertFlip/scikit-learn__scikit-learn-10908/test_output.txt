@@ -1,0 +1,636 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 67d06b18c68ee4452768f8a1e868565dd4354abf
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 67d06b18c68ee4452768f8a1e868565dd4354abf
+Author: pietruh <micp0@op.pl>
+Date:   Tue Apr 3 03:37:16 2018 +0200
+
+    DOC Mentioned that Calinski-Harabasz score is also known as Variance Rati… (#10893)
+
+diff --git a/doc/modules/clustering.rst b/doc/modules/clustering.rst
+index df2e890af9..80b6406213 100644
+--- a/doc/modules/clustering.rst
++++ b/doc/modules/clustering.rst
+@@ -1527,9 +1527,9 @@ Calinski-Harabaz Index
+ ----------------------
+ 
+ If the ground truth labels are not known, the Calinski-Harabaz index
+-(:func:`sklearn.metrics.calinski_harabaz_score`) can be used to evaluate the
+-model, where a higher Calinski-Harabaz score relates to a model with better
+-defined clusters.
++(:func:`sklearn.metrics.calinski_harabaz_score`) - also known as the Variance 
++Ratio Criterion - can be used to evaluate the model, where a higher 
++Calinski-Harabaz score relates to a model with better defined clusters.
+ 
+ For :math:`k` clusters, the Calinski-Harabaz score :math:`s` is given as the
+ ratio of the between-clusters dispersion mean and the within-cluster
+diff --git a/sklearn/metrics/cluster/unsupervised.py b/sklearn/metrics/cluster/unsupervised.py
+index f4da109f16..635aa42b0c 100644
+--- a/sklearn/metrics/cluster/unsupervised.py
++++ b/sklearn/metrics/cluster/unsupervised.py
+@@ -211,6 +211,8 @@ def silhouette_samples(X, labels, metric='euclidean', **kwds):
+ def calinski_harabaz_score(X, labels):
+     """Compute the Calinski and Harabaz score.
+ 
++    It is also known as the Variance Ratio Criterion.
++
+     The score is defined as ratio between the within-cluster dispersion and
+     the between-cluster dispersion.
+ 
++ git diff 67d06b18c68ee4452768f8a1e868565dd4354abf
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    adding license file 'AUTHORS.rst'
+    writing manifest file '/tmp/pip-pip-egg-info-q2zb0oop/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.8.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.20.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.13.3 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.20.dev0) (1.5.2)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.20.dev0
+    Uninstalling scikit-learn-0.20.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.20.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    blis_info:
+      libraries blis not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_info:
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    creating /tmp/tmpdsqiwpi3/tmp
+    creating /tmp/tmpdsqiwpi3/tmp/tmpdsqiwpi3
+    compile options: '-c'
+    gcc: /tmp/tmpdsqiwpi3/source.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ /tmp/tmpdsqiwpi3/tmp/tmpdsqiwpi3/source.o -L/opt/miniconda3/envs/testbed/lib -lopenblas -o /tmp/tmpdsqiwpi3/a.out
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn._isotonic" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    adding license file 'AUTHORS.rst'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    resetting extension 'sklearn.svm.liblinear' language from 'c' to 'c++'.
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.20.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed scikit-learn-0.20.dev0
++ git apply -v -
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-10908.py...
+<stdin>:46: new blank line at EOF.
++
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-10908.py cleanly.
+warning: 1 line adds whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/feature_extraction/text\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-10908.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/feature_extraction/text\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-10908.py F         [100%]
+
+=================================== FAILURES ===================================
+____ test_get_feature_names_with_vocabulary_does_not_raise_not_fitted_error ____
+
+    def test_get_feature_names_with_vocabulary_does_not_raise_not_fitted_error():
+        # Test to expose the bug where get_feature_names raises NotFittedError
+        # even when a vocabulary is provided during initialization.
+    
+        # Step 1: Prepare a sample corpus
+        corpus = [
+            'This is the first document.',
+            'This is the second second document.',
+            'And the third one.',
+            'Is this the first document?',
+        ]
+    
+        # Step 2: Define a vocabulary list
+        vocabulary = ['and', 'document', 'first', 'is', 'one', 'second', 'the', 'third', 'this']
+    
+        # Step 3: Initialize CountVectorizer with the vocabulary
+        vectorizer = CountVectorizer(vocabulary=vocabulary)
+    
+        # Step 4: Check that vocabulary_ is not set initially
+        assert not hasattr(vectorizer, "vocabulary_")
+    
+        # Step 3: Call get_feature_names and ensure no exceptions are raised
+        try:
+>           feature_names = vectorizer.get_feature_names()
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-10908.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='u...        tokenizer=None,
+        vocabulary=['and', 'document', 'first', 'is', 'one', 'second', 'the', 'third', 'this'])
+
+    def get_feature_names(self):
+        """Array mapping from feature integer indices to feature name"""
+>       self._check_vocabulary()
+
+sklearn/feature_extraction/text.py:996: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='u...        tokenizer=None,
+        vocabulary=['and', 'document', 'first', 'is', 'one', 'second', 'the', 'third', 'this'])
+
+    def _check_vocabulary(self):
+        """Check if vocabulary is empty or missing (not fit-ed)"""
+        msg = "%(name)s - Vocabulary wasn't fitted."
+>       check_is_fitted(self, 'vocabulary_', msg=msg),
+
+sklearn/feature_extraction/text.py:304: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+estimator = CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='u...        tokenizer=None,
+        vocabulary=['and', 'document', 'first', 'is', 'one', 'second', 'the', 'third', 'this'])
+attributes = ['vocabulary_'], msg = "%(name)s - Vocabulary wasn't fitted."
+all_or_any = <built-in function all>
+
+    def check_is_fitted(estimator, attributes, msg=None, all_or_any=all):
+        """Perform is_fitted validation for estimator.
+    
+        Checks if the estimator is fitted by verifying the presence of
+        "all_or_any" of the passed attributes and raises a NotFittedError with the
+        given message.
+    
+        Parameters
+        ----------
+        estimator : estimator instance.
+            estimator instance for which the check is performed.
+    
+        attributes : attribute name(s) given as string or a list/tuple of strings
+            Eg.:
+                ``["coef_", "estimator_", ...], "coef_"``
+    
+        msg : string
+            The default error message is, "This %(name)s instance is not fitted
+            yet. Call 'fit' with appropriate arguments before using this method."
+    
+            For custom messages if "%(name)s" is present in the message string,
+            it is substituted for the estimator name.
+    
+            Eg. : "Estimator, %(name)s, must be fitted before sparsifying".
+    
+        all_or_any : callable, {all, any}, default all
+            Specify whether all or any of the given attributes must exist.
+    
+        Returns
+        -------
+        None
+    
+        Raises
+        ------
+        NotFittedError
+            If the attributes are not found.
+        """
+        if msg is None:
+            msg = ("This %(name)s instance is not fitted yet. Call 'fit' with "
+                   "appropriate arguments before using this method.")
+    
+        if not hasattr(estimator, 'fit'):
+            raise TypeError("%s is not an estimator instance." % (estimator))
+    
+        if not isinstance(attributes, (list, tuple)):
+            attributes = [attributes]
+    
+        if not all_or_any([hasattr(estimator, attr) for attr in attributes]):
+>           raise NotFittedError(msg % {'name': type(estimator).__name__})
+E           sklearn.exceptions.NotFittedError: CountVectorizer - Vocabulary wasn't fitted.
+
+sklearn/utils/validation.py:860: NotFittedError
+
+During handling of the above exception, another exception occurred:
+
+    def test_get_feature_names_with_vocabulary_does_not_raise_not_fitted_error():
+        # Test to expose the bug where get_feature_names raises NotFittedError
+        # even when a vocabulary is provided during initialization.
+    
+        # Step 1: Prepare a sample corpus
+        corpus = [
+            'This is the first document.',
+            'This is the second second document.',
+            'And the third one.',
+            'Is this the first document?',
+        ]
+    
+        # Step 2: Define a vocabulary list
+        vocabulary = ['and', 'document', 'first', 'is', 'one', 'second', 'the', 'third', 'this']
+    
+        # Step 3: Initialize CountVectorizer with the vocabulary
+        vectorizer = CountVectorizer(vocabulary=vocabulary)
+    
+        # Step 4: Check that vocabulary_ is not set initially
+        assert not hasattr(vectorizer, "vocabulary_")
+    
+        # Step 3: Call get_feature_names and ensure no exceptions are raised
+        try:
+            feature_names = vectorizer.get_feature_names()
+            assert feature_names == vocabulary
+        except NotFittedError:
+>           pytest.fail("get_feature_names() raised NotFittedError unexpectedly!")
+E           Failed: get_feature_names() raised NotFittedError unexpectedly!
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-10908.py:31: Failed
+----------------------------- Captured stdout call -----------------------------
+0.64 text.py(716):         self.input = input
+0.64 text.py(717):         self.encoding = encoding
+0.64 text.py(718):         self.decode_error = decode_error
+0.64 text.py(719):         self.strip_accents = strip_accents
+0.64 text.py(720):         self.preprocessor = preprocessor
+0.64 text.py(721):         self.tokenizer = tokenizer
+0.64 text.py(722):         self.analyzer = analyzer
+0.64 text.py(723):         self.lowercase = lowercase
+0.64 text.py(724):         self.token_pattern = token_pattern
+0.64 text.py(725):         self.stop_words = stop_words
+0.64 text.py(726):         self.max_df = max_df
+0.64 text.py(727):         self.min_df = min_df
+0.64 text.py(728):         if max_df < 0 or min_df < 0:
+0.64 text.py(730):         self.max_features = max_features
+0.64 text.py(731):         if max_features is not None:
+0.64 text.py(737):         self.ngram_range = ngram_range
+0.64 text.py(738):         self.vocabulary = vocabulary
+0.64 text.py(739):         self.binary = binary
+0.64 text.py(740):         self.dtype = dtype
+0.64 text.py(996):         self._check_vocabulary()
+0.64 text.py(303):         msg = "%(name)s - Vocabulary wasn't fitted."
+0.64 text.py(304):         check_is_fitted(self, 'vocabulary_', msg=msg),
+=========================== short test summary info ============================
+FAILED sklearn/tests/test_coverup_scikit-learn__scikit-learn-10908.py::test_get_feature_names_with_vocabulary_does_not_raise_not_fitted_error
+============================== 1 failed in 0.65s ===============================
++ cat coverage.cover
+{"/testbed/sklearn/feature_extraction/text.py": {"13": 1, "14": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "23": 1, "24": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "44": 1, "64": 1, "79": 1, "88": 1, "99": 2, "319": 2, "551": 1, "559": 2, "1002": 1, "1007": 2, "1161": 2, "57": 0, "58": 0, "59": 0, "61": 0, "75": 0, "76": 0, "85": 0, "89": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "96": 0, "102": 1, "104": 1, "125": 1, "156": 1, "179": 1, "207": 1, "237": 1, "244": 1, "248": 1, "273": 1, "301": 1, "309": 1, "109": 0, "110": 0, "111": 0, "113": 0, "114": 0, "116": 0, "117": 0, "119": 0, "120": 0, "123": 0, "128": 0, "129": 0, "132": 0, "133": 0, "134": 0, "135": 0, "138": 0, "139": 0, "141": 0, "143": 0, "146": 0, "147": 0, "149": 0, "150": 0, "151": 0, "152": 0, "154": 0, "159": 0, "161": 0, "162": 0, "163": 0, "166": 0, "167": 0, "169": 0, "172": 0, "174": 0, "175": 0, "176": 0, "177": 0, "186": 0, "188": 0, "189": 0, "192": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "201": 0, "202": 0, "203": 0, "204": 0, "205": 0, "209": 0, "210": 0, "217": 0, "220": 0, "221": 0, "222": 0, "223": 0, "224": 0, "225": 0, "226": 0, "227": 0, "229": 0, "230": 0, "232": 0, "233": 0, "235": 0, "239": 0, "240": 0, "241": 0, "242": 0, "246": 0, "250": 0, "251": 0, "253": 0, "255": 0, "256": 0, "258": 0, "259": 0, "262": 0, "263": 0, "264": 0, "266": 0, "270": 0, "271": 0, "260": 0, "267": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "279": 0, "280": 0, "281": 0, "282": 0, "283": 0, "284": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "292": 0, "293": 0, "294": 0, "295": 0, "296": 0, "297": 0, "299": 0, "303": 1, "304": 1, "306": 0, "307": 0, "311": 0, "312": 0, "313": 0, "314": 0, "316": 0, "467": 1, "468": 1, "469": 1, "470": 1, "471": 1, "472": 1, "473": 1, "492": 1, "501": 1, "514": 1, "544": 1, "474": 0, "475": 0, "476": 0, "477": 0, "478": 0, "479": 0, "480": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "488": 0, "489": 0, "490": 0, "499": 0, "504": 0, "505": 0, "506": 0, "509": 0, "511": 0, "512": 0, "529": 0, "530": 0, "531": 0, "534": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "545": 0, "546": 0, "547": 0, "548": 0, "553": 0, "554": 0, "556": 0, "709": 1, "710": 1, "711": 1, "712": 1, "713": 1, "714": 1, "715": 1, "742": 1, "757": 1, "797": 1, "859": 1, "874": 1, "932": 1, "964": 1, "994": 1, "716": 1, "717": 1, "718": 1, "719": 1, "720": 1, "721": 1, "722": 1, "723": 1, "724": 1, "725": 1, "726": 1, "727": 1, "728": 1, "729": 0, "730": 1, "731": 1, "732": 0, "733": 0, "734": 0, "735": 0, "736": 0, "737": 1, "738": 1, "739": 1, "740": 1, "747": 0, "748": 0, "749": 0, "750": 0, "751": 0, "753": 0, "754": 0, "766": 0, "767": 0, "770": 0, "771": 0, "772": 0, "773": 0, "774": 0, "775": 0, "776": 0, "777": 0, "778": 0, "779": 0, "780": 0, "781": 0, "783": 0, "784": 0, "785": 0, "786": 0, "787": 0, "789": 0, "790": 0, "791": 0, "792": 0, "793": 0, "795": 0, "800": 0, "801": 0, "804": 0, "805": 0, "807": 0, "808": 0, "809": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "817": 0, "818": 0, "819": 0, "821": 0, "822": 0, "824": 0, "826": 0, "827": 0, "828": 0, "830": 0, "832": 0, "833": 0, "834": 0, "837": 0, "838": 0, "839": 0, "841": 0, "845": 0, "848": 0, "849": 0, "850": 0, "851": 0, "853": 0, "854": 0, "855": 0, "856": 0, "857": 0, "871": 0, "872": 0, "893": 0, "894": 0, "895": 0, "898": 0, "899": 0, "900": 0, "901": 0, "902": 0, "904": 0, "905": 0, "907": 0, "908": 0, "910": 0, "911": 0, "913": 0, "915": 0, "916": 0, "918": 0, "919": 0, "920": 0, "921": 0, "922": 0, "923": 0, "924": 0, "925": 0, "926": 0, "928": 0, "930": 0, "948": 0, "949": 0, "950": 0, "953": 0, "954": 0, "956": 0, "959": 0, "960": 0, "961": 0, "962": 0, "976": 0, "978": 0, "980": 0, "984": 0, "985": 0, "987": 0, "988": 0, "989": 0, "991": 0, "992": 0, "996": 1, "998": 0, "999": 0, "1004": 0, "1077": 1, "1083": 1, "1109": 1, "1154": 1, "1078": 0, "1079": 0, "1080": 0, "1081": 0, "1091": 0, "1092": 0, "1093": 0, "1094": 0, "1095": 0, "1098": 0, "1099": 0, "1103": 0, "1104": 0, "1105": 0, "1107": 0, "1125": 0, "1127": 0, "1130": 0, "1132": 0, "1134": 0, "1135": 0, "1136": 0, "1138": 0, "1139": 0, "1141": 0, "1142": 0, "1143": 0, "1145": 0, "1147": 0, "1149": 0, "1150": 0, "1152": 0, "1158": 0, "1328": 1, "1329": 1, "1330": 1, "1331": 1, "1332": 1, "1333": 1, "1334": 1, "1335": 1, "1353": 1, "1357": 1, "1361": 1, "1365": 1, "1369": 1, "1373": 1, "1377": 1, "1381": 1, "1385": 1, "1389": 1, "1405": 1, "1427": 1, "1337": 0, "1338": 0, "1339": 0, "1340": 0, "1341": 0, "1342": 0, "1343": 0, "1344": 0, "1346": 0, "1347": 0, "1348": 0, "1355": 0, "1359": 0, "1363": 0, "1367": 0, "1371": 0, "1375": 0, "1379": 0, "1383": 0, "1387": 0, "1401": 0, "1402": 0, "1403": 0, "1421": 0, "1422": 0, "1425": 0, "1447": 0, "1449": 0, "1450": 0}}
++ git checkout 67d06b18c68ee4452768f8a1e868565dd4354abf
+Note: switching to '67d06b18c68ee4452768f8a1e868565dd4354abf'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 67d06b18c6 DOC Mentioned that Calinski-Harabasz score is also known as Variance Rati… (#10893)
++ git apply /root/pre_state.patch
+error: unrecognized input

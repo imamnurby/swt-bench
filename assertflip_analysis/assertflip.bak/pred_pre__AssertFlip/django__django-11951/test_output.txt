@@ -1,0 +1,735 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 312049091288dbba2299de8d07ea3e3311ed7238
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 312049091288dbba2299de8d07ea3e3311ed7238
+Author: André Ericson <de.ericson@gmail.com>
+Date:   Fri Oct 18 21:00:34 2019 +0200
+
+    Fixed #30876 -- Moved classproperty() decorator to the django.utils.functional.
+
+diff --git a/django/db/migrations/recorder.py b/django/db/migrations/recorder.py
+index c3ed4148e7..20f5a7d85e 100644
+--- a/django/db/migrations/recorder.py
++++ b/django/db/migrations/recorder.py
+@@ -1,7 +1,7 @@
+ from django.apps.registry import Apps
+ from django.db import models
+ from django.db.utils import DatabaseError
+-from django.utils.decorators import classproperty
++from django.utils.functional import classproperty
+ from django.utils.timezone import now
+ 
+ from .exceptions import MigrationSchemaMissing
+diff --git a/django/test/selenium.py b/django/test/selenium.py
+index 8910faec98..a114f77d14 100644
+--- a/django/test/selenium.py
++++ b/django/test/selenium.py
+@@ -3,7 +3,7 @@ import unittest
+ from contextlib import contextmanager
+ 
+ from django.test import LiveServerTestCase, tag
+-from django.utils.decorators import classproperty
++from django.utils.functional import classproperty
+ from django.utils.module_loading import import_string
+ from django.utils.text import capfirst
+ 
+diff --git a/django/test/testcases.py b/django/test/testcases.py
+index ca5712ee8d..23459f22cd 100644
+--- a/django/test/testcases.py
++++ b/django/test/testcases.py
+@@ -37,7 +37,7 @@ from django.test.utils import (
+     CaptureQueriesContext, ContextList, compare_xml, modify_settings,
+     override_settings,
+ )
+-from django.utils.decorators import classproperty
++from django.utils.functional import classproperty
+ from django.views.static import serve
+ 
+ __all__ = ('TestCase', 'TransactionTestCase',
+diff --git a/django/utils/decorators.py b/django/utils/decorators.py
+index 8e274b61af..4dc6c18f45 100644
+--- a/django/utils/decorators.py
++++ b/django/utils/decorators.py
+@@ -150,15 +150,3 @@ def make_middleware_decorator(middleware_class):
+             return _wrapped_view
+         return _decorator
+     return _make_decorator
+-
+-
+-class classproperty:
+-    def __init__(self, method=None):
+-        self.fget = method
+-
+-    def __get__(self, instance, cls=None):
+-        return self.fget(cls)
+-
+-    def getter(self, method):
+-        self.fget = method
+-        return self
+diff --git a/django/utils/functional.py b/django/utils/functional.py
+index 1b81d414fa..bc3b65b709 100644
+--- a/django/utils/functional.py
++++ b/django/utils/functional.py
+@@ -49,6 +49,18 @@ class cached_property:
+         return res
+ 
+ 
++class classproperty:
++    def __init__(self, method=None):
++        self.fget = method
++
++    def __get__(self, instance, cls=None):
++        return self.fget(cls)
++
++    def getter(self, method):
++        self.fget = method
++        return self
++
++
+ class Promise:
+     """
+     Base class for the proxy class created in the closure of the lazy function.
+diff --git a/docs/releases/3.1.txt b/docs/releases/3.1.txt
+index 656649f914..300c7a2c26 100644
+--- a/docs/releases/3.1.txt
++++ b/docs/releases/3.1.txt
+@@ -263,6 +263,9 @@ Miscellaneous
+   ``ETag`` header to responses with an empty
+   :attr:`~django.http.HttpResponse.content`.
+ 
++* ``django.utils.decorators.classproperty()`` decorator is moved to
++  ``django.utils.functional.classproperty()``.
++
+ .. _deprecated-features-3.1:
+ 
+ Features deprecated in 3.1
+diff --git a/tests/utils_tests/test_decorators.py b/tests/utils_tests/test_decorators.py
+index fe5db876ef..367e78a4ad 100644
+--- a/tests/utils_tests/test_decorators.py
++++ b/tests/utils_tests/test_decorators.py
+@@ -2,7 +2,7 @@ from django.http import HttpResponse
+ from django.template import engines
+ from django.template.response import TemplateResponse
+ from django.test import RequestFactory, SimpleTestCase
+-from django.utils.decorators import classproperty, decorator_from_middleware
++from django.utils.decorators import decorator_from_middleware
+ 
+ 
+ class ProcessViewMiddleware:
+@@ -108,41 +108,3 @@ class DecoratorFromMiddlewareTests(SimpleTestCase):
+         self.assertTrue(getattr(request, 'process_response_reached', False))
+         # process_response saw the rendered content
+         self.assertEqual(request.process_response_content, b"Hello world")
+-
+-
+-class ClassPropertyTest(SimpleTestCase):
+-    def test_getter(self):
+-        class Foo:
+-            foo_attr = 123
+-
+-            def __init__(self):
+-                self.foo_attr = 456
+-
+-            @classproperty
+-            def foo(cls):
+-                return cls.foo_attr
+-
+-        class Bar:
+-            bar = classproperty()
+-
+-            @bar.getter
+-            def bar(cls):
+-                return 123
+-
+-        self.assertEqual(Foo.foo, 123)
+-        self.assertEqual(Foo().foo, 123)
+-        self.assertEqual(Bar.bar, 123)
+-        self.assertEqual(Bar().bar, 123)
+-
+-    def test_override_getter(self):
+-        class Foo:
+-            @classproperty
+-            def foo(cls):
+-                return 123
+-
+-            @foo.getter
+-            def foo(cls):
+-                return 456
+-
+-        self.assertEqual(Foo.foo, 456)
+-        self.assertEqual(Foo().foo, 456)
+diff --git a/tests/utils_tests/test_functional.py b/tests/utils_tests/test_functional.py
+index af4bd197a6..6e454cfef3 100644
+--- a/tests/utils_tests/test_functional.py
++++ b/tests/utils_tests/test_functional.py
+@@ -1,7 +1,7 @@
+ from unittest import mock
+ 
+ from django.test import SimpleTestCase
+-from django.utils.functional import cached_property, lazy
++from django.utils.functional import cached_property, classproperty, lazy
+ 
+ 
+ class FunctionalTests(SimpleTestCase):
+@@ -218,3 +218,39 @@ class FunctionalTests(SimpleTestCase):
+         with mock.patch.object(__proxy__, '__prepare_class__') as mocked:
+             lazified()
+             mocked.assert_not_called()
++
++    def test_classproperty_getter(self):
++        class Foo:
++            foo_attr = 123
++
++            def __init__(self):
++                self.foo_attr = 456
++
++            @classproperty
++            def foo(cls):
++                return cls.foo_attr
++
++        class Bar:
++            bar = classproperty()
++
++            @bar.getter
++            def bar(cls):
++                return 123
++
++        self.assertEqual(Foo.foo, 123)
++        self.assertEqual(Foo().foo, 123)
++        self.assertEqual(Bar.bar, 123)
++        self.assertEqual(Bar().bar, 123)
++
++    def test_classproperty_override_getter(self):
++        class Foo:
++            @classproperty
++            def foo(cls):
++                return 123
++
++            @foo.getter
++            def foo(cls):
++                return 456
++
++        self.assertEqual(Foo.foo, 456)
++        self.assertEqual(Foo().foo, 456)
++ git diff 312049091288dbba2299de8d07ea3e3311ed7238
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (0.4.4)
+Requirement already satisfied: asgiref in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (3.4.1)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref->Django==3.1) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.1
+    Uninstalling Django-3.1:
+      Successfully uninstalled Django-3.1
+  Running setup.py develop for Django
+Successfully installed Django-3.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch tests/test_coverup_django__django-11951.py...
+Applied patch tests/test_coverup_django__django-11951.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/models/query\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11951
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/models/query\\.py)']
+0.35 query.py(3): """
+0.35 query.py(5): import copy
+0.35 query.py(6): import operator
+0.35 query.py(7): import warnings
+0.35 query.py(8): from collections import namedtuple
+0.35 query.py(9): from functools import lru_cache
+0.35 query.py(10): from itertools import chain
+0.35 query.py(12): from django.conf import settings
+0.35 query.py(13): from django.core import exceptions
+0.35 query.py(14): from django.db import (
+0.35 query.py(18): from django.db.models import DateField, DateTimeField, sql
+0.35 query.py(19): from django.db.models.constants import LOOKUP_SEP
+0.35 query.py(20): from django.db.models.deletion import Collector
+0.35 query.py(21): from django.db.models.expressions import Case, Expression, F, Value, When
+0.35 query.py(22): from django.db.models.fields import AutoField
+0.35 query.py(23): from django.db.models.functions import Cast, Trunc
+0.35 query.py(24): from django.db.models.query_utils import FilteredRelation, InvalidQuery, Q
+0.35 query.py(25): from django.db.models.sql.constants import CURSOR, GET_ITERATOR_CHUNK_SIZE
+0.35 query.py(26): from django.db.utils import NotSupportedError
+0.35 query.py(27): from django.utils import timezone
+0.35 query.py(28): from django.utils.functional import cached_property, partition
+0.35 query.py(29): from django.utils.version import get_version
+0.35 query.py(32): MAX_GET_RESULTS = 21
+0.35 query.py(35): REPR_OUTPUT_SIZE = 20
+0.35 query.py(38): class BaseIterable:
+0.35 query.py(38): class BaseIterable:
+0.35 query.py(39):     def __init__(self, queryset, chunked_fetch=False, chunk_size=GET_ITERATOR_CHUNK_SIZE):
+0.35 query.py(45): class ModelIterable(BaseIterable):
+0.35 query.py(45): class ModelIterable(BaseIterable):
+0.35 query.py(46):     """Iterable that yields a model instance for each row."""
+0.35 query.py(48):     def __iter__(self):
+0.35 query.py(95): class ValuesIterable(BaseIterable):
+0.35 query.py(95): class ValuesIterable(BaseIterable):
+0.35 query.py(98):     """
+0.35 query.py(100):     def __iter__(self):
+0.35 query.py(116): class ValuesListIterable(BaseIterable):
+0.35 query.py(116): class ValuesListIterable(BaseIterable):
+0.35 query.py(120):     """
+0.35 query.py(122):     def __iter__(self):
+0.35 query.py(146): class NamedValuesListIterable(ValuesListIterable):
+0.35 query.py(146): class NamedValuesListIterable(ValuesListIterable):
+0.35 query.py(150):     """
+0.35 query.py(152):     @staticmethod
+0.35 query.py(153):     @lru_cache()
+0.35 query.py(159):     def __iter__(self):
+0.35 query.py(172): class FlatValuesListIterable(BaseIterable):
+0.35 query.py(172): class FlatValuesListIterable(BaseIterable):
+0.35 query.py(176):     """
+0.35 query.py(178):     def __iter__(self):
+0.35 query.py(185): class QuerySet:
+0.35 query.py(185): class QuerySet:
+0.35 query.py(186):     """Represent a lazy database lookup for a set of objects."""
+0.35 query.py(188):     def __init__(self, model=None, query=None, using=None, hints=None):
+0.35 query.py(202):     def as_manager(cls):
+0.35 query.py(208):     as_manager.queryset_only = True
+0.35 query.py(209):     as_manager = classmethod(as_manager)
+0.35 query.py(215):     def __deepcopy__(self, memo):
+0.35 query.py(225):     def __getstate__(self):
+0.35 query.py(230):     def __setstate__(self, state):
+0.35 query.py(248):     def __repr__(self):
+0.35 query.py(254):     def __len__(self):
+0.35 query.py(258):     def __iter__(self):
+0.35 query.py(276):     def __bool__(self):
+0.35 query.py(280):     def __getitem__(self, k):
+0.35 query.py(313):     def __and__(self, other):
+0.35 query.py(324):     def __or__(self, other):
+0.35 query.py(342):     def _iterator(self, use_chunked_fetch, chunk_size):
+0.35 query.py(345):     def iterator(self, chunk_size=2000):
+0.35 query.py(355):     def aggregate(self, *args, **kwargs):
+0.35 query.py(383):     def count(self):
+0.35 query.py(396):     def get(self, *args, **kwargs):
+0.35 query.py(423):     def create(self, **kwargs):
+0.35 query.py(433):     def _populate_pk_values(self, objs):
+0.35 query.py(438):     def bulk_create(self, objs, batch_size=None, ignore_conflicts=False):
+0.35 query.py(502):     def bulk_update(self, objs, fields, batch_size=None):
+0.35 query.py(544):     bulk_update.alters_data = True
+0.35 query.py(546):     def get_or_create(self, defaults=None, **kwargs):
+0.35 query.py(561):     def update_or_create(self, defaults=None, **kwargs):
+0.35 query.py(585):     def _create_object_from_params(self, lookup, params, lock=False):
+0.35 query.py(603):     def _extract_model_params(self, defaults, **kwargs):
+0.35 query.py(628):     def _earliest(self, *fields):
+0.35 query.py(653):     def earliest(self, *fields):
+0.35 query.py(656):     def latest(self, *fields):
+0.35 query.py(659):     def first(self):
+0.35 query.py(664):     def last(self):
+0.35 query.py(669):     def in_bulk(self, id_list=None, *, field_name='pk'):
+0.35 query.py(697):     def delete(self):
+0.35 query.py(725):     delete.alters_data = True
+0.35 query.py(726):     delete.queryset_only = True
+0.35 query.py(728):     def _raw_delete(self, using):
+0.35 query.py(734):     _raw_delete.alters_data = True
+0.35 query.py(736):     def update(self, **kwargs):
+0.35 query.py(752):     update.alters_data = True
+0.35 query.py(754):     def _update(self, values):
+0.35 query.py(769):     _update.alters_data = True
+0.35 query.py(770):     _update.queryset_only = False
+0.35 query.py(772):     def exists(self):
+0.35 query.py(777):     def _prefetch_related_objects(self):
+0.35 query.py(782):     def explain(self, *, format=None, **options):
+0.35 query.py(789):     def raw(self, raw_query, params=None, translations=None, using=None):
+0.35 query.py(796):     def _values(self, *fields, **expressions):
+0.35 query.py(804):     def values(self, *fields, **expressions):
+0.35 query.py(810):     def values_list(self, *fields, flat=False, named=False):
+0.35 query.py(841):     def dates(self, field_name, kind, order='ASC'):
+0.35 query.py(857):     def datetimes(self, field_name, kind, order='ASC', tzinfo=None):
+0.35 query.py(878):     def none(self):
+0.35 query.py(888):     def all(self):
+0.35 query.py(895):     def filter(self, *args, **kwargs):
+0.35 query.py(903):     def exclude(self, *args, **kwargs):
+0.35 query.py(911):     def _filter_or_exclude(self, negate, *args, **kwargs):
+0.35 query.py(923):     def complex_filter(self, filter_obj):
+0.35 query.py(940):     def _combinator_query(self, combinator, *other_qs, all=False):
+0.35 query.py(951):     def union(self, *other_qs, all=False):
+0.35 query.py(958):     def intersection(self, *other_qs):
+0.35 query.py(967):     def difference(self, *other_qs):
+0.35 query.py(973):     def select_for_update(self, nowait=False, skip_locked=False, of=()):
+0.35 query.py(988):     def select_related(self, *fields):
+0.35 query.py(1010):     def prefetch_related(self, *lookups):
+0.35 query.py(1033):     def annotate(self, *args, **kwargs):
+0.35 query.py(1080):     def order_by(self, *field_names):
+0.35 query.py(1089):     def distinct(self, *field_names):
+0.35 query.py(1100):               order_by=None, select_params=None):
+0.35 query.py(1109):     def reverse(self):
+0.35 query.py(1117):     def defer(self, *fields):
+0.35 query.py(1134):     def only(self, *fields):
+0.35 query.py(1155):     def using(self, alias):
+0.35 query.py(1165):     @property
+0.35 query.py(1180):     @property
+0.35 query.py(1191):     def _insert(self, objs, fields, returning_fields=None, raw=False, using=None, ignore_conflicts=False):
+0.35 query.py(1202):     _insert.alters_data = True
+0.35 query.py(1203):     _insert.queryset_only = False
+0.35 query.py(1205):     def _batched_insert(self, objs, fields, batch_size, ignore_conflicts=False):
+0.35 query.py(1230):     def _chain(self, **kwargs):
+0.35 query.py(1242):     def _clone(self):
+0.35 query.py(1256):     def _fetch_all(self):
+0.35 query.py(1262):     def _next_is_sticky(self):
+0.35 query.py(1276):     def _merge_sanity_check(self, other):
+0.35 query.py(1287):     def _merge_known_related_objects(self, other):
+0.35 query.py(1294):     def resolve_expression(self, *args, **kwargs):
+0.35 query.py(1302):     resolve_expression.queryset_only = True
+test_bulk_create_with_oversized_batch_size (test_coverup_django__django-11951.BulkCreateBatchSizeTest) ... FAIL
+
+======================================================================
+FAIL: test_bulk_create_with_oversized_batch_size (test_coverup_django__django-11951.BulkCreateBatchSizeTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11951.py", line 29, in test_bulk_create_with_oversized_batch_size
+    mock_batched_insert.assert_called_with(objs, [], max_compatible_batch_size, ignore_conflicts=False)
+  File "/opt/miniconda3/envs/testbed/lib/python3.6/unittest/mock.py", line 814, in assert_called_with
+    raise AssertionError(_error_message()) from cause
+AssertionError: Expected call: _batched_insert([<test_coverup_django__django-11951.MockModel object at 0x7f3e8caa86d8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8710>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8748>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8780>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa87b8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa87f0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8828>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8860>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8898>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa88d0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8908>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8940>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8978>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa89b0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa89e8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8a20>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8a58>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8a90>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8ac8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8b00>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8b38>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8b70>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8ba8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8be0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8c18>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8c50>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8c88>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8cc0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8cf8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8d30>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8d68>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8da0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8dd8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8e10>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8e48>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8e80>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8eb8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8ef0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8f28>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8f60>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8f98>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8fd0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51048>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51080>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb510b8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb510f0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51128>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51160>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51198>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb511d0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51208>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51240>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51278>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb512b0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb512e8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51320>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51358>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51390>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb513c8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51400>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51438>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51470>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb514a8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb514e0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51518>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51550>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51588>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb515c0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb515f8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51630>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51668>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb516a0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb516d8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51710>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51748>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51780>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb517b8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb517f0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51828>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51860>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51898>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb518d0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51908>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51940>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51978>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb519b0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb519e8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51a20>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51a58>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51a90>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51ac8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51b00>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51b38>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51b70>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51ba8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51be0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51c18>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51c50>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51c88>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51cc0>], [], 500, ignore_conflicts=False)
+Actual call: _batched_insert([<test_coverup_django__django-11951.MockModel object at 0x7f3e8caa86d8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8710>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8748>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8780>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa87b8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa87f0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8828>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8860>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8898>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa88d0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8908>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8940>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8978>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa89b0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa89e8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8a20>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8a58>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8a90>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8ac8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8b00>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8b38>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8b70>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8ba8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8be0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8c18>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8c50>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8c88>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8cc0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8cf8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8d30>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8d68>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8da0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8dd8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8e10>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8e48>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8e80>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8eb8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8ef0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8f28>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8f60>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8f98>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8caa8fd0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51048>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51080>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb510b8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb510f0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51128>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51160>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51198>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb511d0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51208>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51240>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51278>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb512b0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb512e8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51320>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51358>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51390>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb513c8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51400>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51438>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51470>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb514a8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb514e0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51518>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51550>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51588>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb515c0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb515f8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51630>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51668>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb516a0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb516d8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51710>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51748>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51780>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb517b8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb517f0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51828>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51860>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51898>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb518d0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51908>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51940>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51978>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb519b0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb519e8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51a20>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51a58>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51a90>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51ac8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51b00>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51b38>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51b70>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51ba8>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51be0>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51c18>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51c50>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51c88>, <test_coverup_django__django-11951.MockModel object at 0x7f3e8cb51cc0>], [], 1000, ignore_conflicts=False)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+0.35 query.py(1304):     def _add_hints(self, **hints):
+0.35 query.py(1311):     def _has_filters(self):
+0.35 query.py(1319):     @staticmethod
+0.35 query.py(1330):     def _not_support_combined_queries(self, operation_name):
+0.35 query.py(1338): class InstanceCheckMeta(type):
+0.35 query.py(1338): class InstanceCheckMeta(type):
+0.35 query.py(1339):     def __instancecheck__(self, instance):
+0.35 query.py(1343): class EmptyQuerySet(metaclass=InstanceCheckMeta):
+0.35 query.py(1343): class EmptyQuerySet(metaclass=InstanceCheckMeta):
+0.35 query.py(1347):     """
+0.35 query.py(1349):     def __init__(self, *args, **kwargs):
+0.35 query.py(1353): class RawQuerySet:
+0.35 query.py(1353): class RawQuerySet:
+0.35 query.py(1357):     """
+0.35 query.py(1359):                  translations=None, using=None, hints=None):
+0.35 query.py(1371):     def resolve_model_init_order(self):
+0.35 query.py(1381):     def prefetch_related(self, *lookups):
+0.35 query.py(1390):     def _prefetch_related_objects(self):
+0.35 query.py(1394):     def _clone(self):
+0.35 query.py(1403):     def _fetch_all(self):
+0.35 query.py(1409):     def __len__(self):
+0.35 query.py(1413):     def __bool__(self):
+0.35 query.py(1417):     def __iter__(self):
+0.35 query.py(1421):     def iterator(self):
+0.35 query.py(1454):     def __repr__(self):
+0.35 query.py(1457):     def __getitem__(self, k):
+0.35 query.py(1460):     @property
+0.35 query.py(1465):     def using(self, alias):
+0.35 query.py(1474):     @cached_property
+0.35 query.py(1492):     @cached_property
+0.35 query.py(1503): class Prefetch:
+0.35 query.py(1503): class Prefetch:
+0.35 query.py(1504):     def __init__(self, lookup, queryset=None, to_attr=None):
+0.35 query.py(1517):     def __getstate__(self):
+0.35 query.py(1527):     def add_prefix(self, prefix):
+0.35 query.py(1531):     def get_current_prefetch_to(self, level):
+0.35 query.py(1534):     def get_current_to_attr(self, level):
+0.35 query.py(1540):     def get_current_queryset(self, level):
+0.35 query.py(1545):     def __eq__(self, other):
+0.35 query.py(1550):     def __hash__(self):
+0.35 query.py(1554): def normalize_prefetch_lookups(lookups, prefix=None):
+0.35 query.py(1566): def prefetch_related_objects(model_instances, *related_lookups):
+0.35 query.py(1692): def get_prefetcher(instance, through_attr, to_attr):
+0.35 query.py(1739): def prefetch_one_level(instances, prefetcher, lookup, level):
+0.35 query.py(1839): class RelatedPopulator:
+0.35 query.py(1839): class RelatedPopulator:
+0.35 query.py(1853):     """
+0.35 query.py(1854):     def __init__(self, klass_info, select, db):
+0.35 query.py(1900):     def populate(self, row, from_obj):
+0.35 query.py(1916): def get_related_populators(klass_info, select, db):
+Testing against Django installed in '/testbed/django'
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
++ cat coverage.cover
+{"/testbed/django/db/models/query.py": {"5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "12": 1, "13": 1, "14": 1, "18": 1, "19": 1, "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1, "32": 1, "35": 1, "38": 2, "45": 2, "95": 2, "116": 2, "146": 2, "172": 2, "185": 2, "1338": 2, "1343": 2, "1353": 2, "1503": 2, "1554": 1, "1566": 1, "1692": 1, "1739": 1, "1839": 2, "1916": 1, "39": 1, "40": 0, "41": 0, "42": 0, "48": 1, "49": 0, "50": 0, "51": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 0, "61": 0, "62": 0, "64": 0, "69": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "80": 0, "82": 0, "83": 0, "84": 0, "85": 0, "86": 0, "87": 0, "88": 0, "90": 0, "92": 0, "65": 0, "68": 0, "100": 1, "101": 0, "102": 0, "103": 0, "107": 0, "108": 0, "109": 0, "111": 0, "112": 0, "113": 0, "122": 1, "123": 0, "124": 0, "125": 0, "127": 0, "130": 0, "131": 0, "132": 0, "134": 0, "135": 0, "137": 0, "138": 0, "139": 0, "140": 0, "141": 0, "143": 0, "152": 1, "153": 1, "159": 1, "157": 0, "160": 0, "161": 0, "162": 0, "164": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "178": 1, "179": 0, "180": 0, "181": 0, "182": 0, "188": 1, "202": 1, "208": 1, "209": 1, "215": 1, "225": 1, "230": 1, "248": 1, "254": 1, "258": 1, "276": 1, "280": 1, "313": 1, "324": 1, "342": 1, "345": 1, "355": 1, "383": 1, "396": 1, "423": 1, "433": 1, "438": 1, "502": 1, "544": 1, "546": 1, "561": 1, "585": 1, "603": 1, "628": 1, "653": 1, "656": 1, "659": 1, "664": 1, "669": 1, "697": 1, "725": 1, "726": 1, "728": 1, "734": 1, "736": 1, "752": 1, "754": 1, "769": 1, "770": 1, "772": 1, "777": 1, "782": 1, "789": 1, "796": 1, "804": 1, "810": 1, "841": 1, "857": 1, "878": 1, "888": 1, "895": 1, "903": 1, "911": 1, "923": 1, "940": 1, "951": 1, "958": 1, "967": 1, "973": 1, "988": 1, "1010": 1, "1033": 1, "1080": 1, "1089": 1, "1100": 1, "1109": 1, "1117": 1, "1134": 1, "1155": 1, "1165": 1, "1180": 1, "1191": 1, "1202": 1, "1203": 1, "1205": 1, "1230": 1, "1242": 1, "1256": 1, "1262": 1, "1276": 1, "1287": 1, "1294": 1, "1302": 1, "1304": 1, "1311": 1, "1319": 1, "1330": 1, "189": 0, "190": 0, "191": 0, "192": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "204": 0, "205": 0, "206": 0, "207": 0, "217": 0, "218": 0, "219": 0, "220": 0, "222": 0, "223": 0, "227": 0, "228": 0, "231": 0, "232": 0, "233": 0, "234": 0, "235": 0, "237": 0, "238": 0, "241": 0, "243": 0, "244": 0, "246": 0, "249": 0, "250": 0, "251": 0, "252": 0, "255": 0, "256": 0, "273": 0, "274": 0, "277": 0, "278": 0, "282": 0, "283": 0, "284": 0, "285": 0, "287": 0, "288": 0, "289": 0, "290": 0, "292": 0, "293": 0, "295": 0, "296": 0, "297": 0, "298": 0, "300": 0, "301": 0, "302": 0, "304": 0, "305": 0, "306": 0, "308": 0, "309": 0, "310": 0, "311": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "325": 0, "326": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "332": 0, "333": 0, "334": 0, "335": 0, "336": 0, "343": 0, "350": 0, "351": 0, "352": 0, "353": 0, "363": 0, "364": 0, "365": 0, "366": 0, "370": 0, "371": 0, "372": 0, "373": 0, "374": 0, "376": 0, "377": 0, "378": 0, "379": 0, "380": 0, "381": 0, "391": 0, "392": 0, "394": 0, "401": 0, "402": 0, "403": 0, "404": 0, "405": 0, "406": 0, "407": 0, "408": 0, "409": 0, "410": 0, "411": 0, "412": 0, "413": 0, "414": 0, "416": 0, "417": 0, "418": 0, "419": 0, "428": 0, "429": 0, "430": 0, "431": 0, "434": 0, "435": 0, "436": 0, "458": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "468": 0, "469": 0, "470": 0, "471": 0, "472": 0, "473": 0, "474": 0, "475": 0, "476": 0, "477": 0, "478": 0, "480": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "488": 0, "489": 0, "490": 0, "492": 0, "493": 0, "494": 0, "495": 0, "496": 0, "497": 0, "498": 0, "500": 0, "506": 0, "507": 0, "508": 0, "509": 0, "510": 0, "511": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "519": 0, "522": 0, "523": 0, "524": 0, "525": 0, "526": 0, "527": 0, "528": 0, "529": 0, "530": 0, "531": 0, "532": 0, "533": 0, "534": 0, "535": 0, "536": 0, "537": 0, "538": 0, "539": 0, "540": 0, "541": 0, "542": 0, "543": 0, "554": 0, "555": 0, "556": 0, "557": 0, "558": 0, "559": 0, "568": 0, "569": 0, "570": 0, "571": 0, "572": 0, "573": 0, "574": 0, "577": 0, "578": 0, "579": 0, "580": 0, "581": 0, "582": 0, "583": 0, "590": 0, "591": 0, "592": 0, "593": 0, "594": 0, "595": 0, "596": 0, "597": 0, "598": 0, "599": 0, "600": 0, "601": 0, "608": 0, "609": 0, "610": 0, "611": 0, "612": 0, "613": 0, "614": 0, "615": 0, "616": 0, "618": 0, "619": 0, "620": 0, "621": 0, "622": 0, "623": 0, "624": 0, "626": 0, "633": 0, "634": 0, "636": 0, "637": 0, "638": 0, "639": 0, "640": 0, "641": 0, "645": 0, "646": 0, "647": 0, "648": 0, "649": 0, "650": 0, "651": 0, "654": 0, "657": 0, "661": 0, "662": 0, "666": 0, "667": 0, "674": 0, "675": 0, "676": 0, "677": 0, "678": 0, "679": 0, "680": 0, "681": 0, "682": 0, "683": 0, "686": 0, "687": 0, "688": 0, "689": 0, "690": 0, "692": 0, "694": 0, "695": 0, "699": 0, "700": 0, "702": 0, "703": 0, "705": 0, "710": 0, "713": 0, "714": 0, "715": 0, "717": 0, "718": 0, "719": 0, "722": 0, "723": 0, "733": 0, "741": 0, "742": 0, "743": 0, "744": 0, "745": 0, "747": 0, "748": 0, "749": 0, "750": 0, "751": 0, "761": 0, "762": 0, "763": 0, "764": 0, "766": 0, "767": 0, "768": 0, "773": 0, "774": 0, "775": 0, "779": 0, "780": 0, "783": 0, "790": 0, "791": 0, "792": 0, "793": 0, "794": 0, "797": 0, "798": 0, "799": 0, "800": 0, "801": 0, "802": 0, "805": 0, "806": 0, "807": 0, "808": 0, "811": 0, "812": 0, "813": 0, "814": 0, "816": 0, "817": 0, "818": 0, "819": 0, "820": 0, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "826": 0, "827": 0, "828": 0, "829": 0, "831": 0, "833": 0, "835": 0, "836": 0, "837": 0, "839": 0, "846": 0, "847": 0, "848": 0, "849": 0, "850": 0, "851": 0, "852": 0, "854": 0, "855": 0, "862": 0, "863": 0, "864": 0, "865": 0, "866": 0, "867": 0, "868": 0, "870": 0, "871": 0, "872": 0, "873": 0, "875": 0, "876": 0, "880": 0, "881": 0, "882": 0, "893": 0, "900": 0, "901": 0, "908": 0, "909": 0, "912": 0, "913": 0, "914": 0, "916": 0, "917": 0, "918": 0, "920": 0, "921": 0, "933": 0, "934": 0, "935": 0, "936": 0, "938": 0, "942": 0, "944": 0, "945": 0, "946": 0, "947": 0, "948": 0, "949": 0, "953": 0, "954": 0, "955": 0, "956": 0, "960": 0, "961": 0, "962": 0, "963": 0, "964": 0, "965": 0, "969": 0, "970": 0, "971": 0, "978": 0, "979": 0, "980": 0, "981": 0, "982": 0, "983": 0, "984": 0, "985": 0, "986": 0, "997": 0, "998": 0, "999": 0, "1001": 0, "1002": 0, "1003": 0, "1004": 0, "1005": 0, "1007": 0, "1008": 0, "1019": 0, "1020": 0, "1021": 0, "1022": 0, "1024": 0, "1025": 0, "1026": 0, "1027": 0, "1028": 0, "1029": 0, "1030": 0, "1031": 0, "1038": 0, "1039": 0, "1040": 0, "1041": 0, "1043": 0, "1044": 0, "1045": 0, "1047": 0, "1048": 0, "1049": 0, "1050": 0, "1051": 0, "1053": 0, "1054": 0, "1055": 0, "1056": 0, "1057": 0, "1058": 0, "1061": 0, "1062": 0, "1063": 0, "1064": 0, "1065": 0, "1066": 0, "1068": 0, "1070": 0, "1071": 0, "1072": 0, "1073": 0, "1075": 0, "1076": 0, "1078": 0, "1082": 0, "1083": 0, "1084": 0, "1085": 0, "1086": 0, "1087": 0, "1093": 0, "1094": 0, "1095": 0, "1096": 0, "1097": 0, "1102": 0, "1103": 0, "1104": 0, "1105": 0, "1106": 0, "1107": 0, "1111": 0, "1112": 0, "1113": 0, "1114": 0, "1115": 0, "1124": 0, "1125": 0, "1126": 0, "1127": 0, "1128": 0, "1129": 0, "1131": 0, "1132": 0, "1140": 0, "1141": 0, "1142": 0, "1143": 0, "1146": 0, "1147": 0, "1148": 0, "1149": 0, "1150": 0, "1151": 0, "1152": 0, "1153": 0, "1157": 0, "1158": 0, "1159": 0, "1171": 0, "1172": 0, "1173": 0, "1174": 0, "1175": 0, "1176": 0, "1178": 0, "1183": 0, "1184": 0, "1185": 0, "1196": 0, "1197": 0, "1198": 0, "1199": 0, "1200": 0, "1201": 0, "1209": 0, "1210": 0, "1211": 0, "1212": 0, "1213": 0, "1214": 0, "1215": 0, "1216": 0, "1217": 0, "1218": 0, "1219": 0, "1220": 0, "1222": 0, "1223": 0, "1225": 0, "1227": 0, "1228": 0, "1235": 0, "1236": 0, "1237": 0, "1238": 0, "1239": 0, "1240": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1252": 0, "1253": 0, "1254": 0, "1257": 0, "1258": 0, "1259": 0, "1260": 0, "1273": 0, "1274": 0, "1278": 0, "1279": 0, "1280": 0, "1281": 0, "1282": 0, "1283": 0, "1284": 0, "1291": 0, "1292": 0, "1295": 0, "1298": 0, "1299": 0, "1300": 0, "1301": 0, "1309": 0, "1317": 0, "1321": 0, "1322": 0, "1323": 0, "1324": 0, "1325": 0, "1326": 0, "1331": 0, "1332": 0, "1333": 0, "1334": 0, "1339": 1, "1340": 0, "1349": 1, "1350": 0, "1359": 1, "1371": 1, "1381": 1, "1390": 1, "1394": 1, "1403": 1, "1409": 1, "1413": 1, "1417": 1, "1421": 1, "1454": 1, "1457": 1, "1460": 1, "1465": 1, "1474": 1, "1492": 1, "1360": 0, "1361": 0, "1362": 0, "1363": 0, "1364": 0, "1365": 0, "1366": 0, "1367": 0, "1368": 0, "1369": 0, "1373": 0, "1374": 0, "1375": 0, "1377": 0, "1378": 0, "1379": 0, "1376": 0, "1383": 0, "1384": 0, "1385": 0, "1387": 0, "1388": 0, "1391": 0, "1392": 0, "1396": 0, "1397": 0, "1398": 0, "1400": 0, "1401": 0, "1404": 0, "1405": 0, "1406": 0, "1407": 0, "1410": 0, "1411": 0, "1414": 0, "1415": 0, "1418": 0, "1419": 0, "1423": 0, "1424": 0, "1425": 0, "1428": 0, "1430": 0, "1431": 0, "1432": 0, "1433": 0, "1434": 0, "1435": 0, "1436": 0, "1437": 0, "1439": 0, "1440": 0, "1441": 0, "1443": 0, "1444": 0, "1445": 0, "1446": 0, "1447": 0, "1448": 0, "1451": 0, "1452": 0, "1455": 0, "1458": 0, "1463": 0, "1467": 0, "1468": 0, "1469": 0, "1470": 0, "1471": 0, "1480": 0, "1482": 0, "1484": 0, "1485": 0, "1486": 0, "1487": 0, "1489": 0, "1490": 0, "1495": 0, "1496": 0, "1497": 0, "1498": 0, "1499": 0, "1500": 0, "1504": 1, "1517": 1, "1527": 1, "1531": 1, "1534": 1, "1540": 1, "1545": 1, "1550": 1, "1506": 0, "1508": 0, "1509": 0, "1510": 0, "1511": 0, "1512": 0, "1514": 0, "1515": 0, "1518": 0, "1519": 0, "1521": 0, "1522": 0, "1523": 0, "1525": 0, "1528": 0, "1529": 0, "1532": 0, "1535": 0, "1536": 0, "1537": 0, "1538": 0, "1541": 0, "1542": 0, "1543": 0, "1546": 0, "1547": 0, "1548": 0, "1551": 0, "1556": 0, "1557": 0, "1558": 0, "1559": 0, "1560": 0, "1561": 0, "1562": 0, "1563": 0, "1571": 0, "1572": 0, "1577": 0, "1579": 0, "1580": 0, "1582": 0, "1583": 0, "1584": 0, "1585": 0, "1586": 0, "1587": 0, "1588": 0, "1590": 0, "1594": 0, "1596": 0, "1597": 0, "1599": 0, "1600": 0, "1602": 0, "1603": 0, "1605": 0, "1606": 0, "1609": 0, "1610": 0, "1614": 0, "1615": 0, "1616": 0, "1617": 0, "1623": 0, "1624": 0, "1625": 0, "1626": 0, "1632": 0, "1633": 0, "1634": 0, "1636": 0, "1637": 0, "1639": 0, "1641": 0, "1645": 0, "1647": 0, "1649": 0, "1650": 0, "1655": 0, "1656": 0, "1657": 0, "1658": 0, "1659": 0, "1660": 0, "1669": 0, "1670": 0, "1671": 0, "1674": 0, "1676": 0, "1677": 0, "1678": 0, "1679": 0, "1680": 0, "1681": 0, "1685": 0, "1686": 0, "1688": 0, "1689": 0, "1702": 0, "1703": 0, "1708": 0, "1709": 0, "1710": 0, "1712": 0, "1713": 0, "1716": 0, "1717": 0, "1718": 0, "1719": 0, "1724": 0, "1725": 0, "1726": 0, "1727": 0, "1730": 0, "1731": 0, "1733": 0, "1735": 0, "1736": 0, "1763": 0, "1771": 0, "1772": 0, "1774": 0, "1778": 0, "1780": 0, "1782": 0, "1783": 0, "1784": 0, "1785": 0, "1787": 0, "1789": 0, "1792": 0, "1793": 0, "1794": 0, "1795": 0, "1796": 0, "1798": 0, "1799": 0, "1802": 0, "1804": 0, "1805": 0, "1806": 0, "1808": 0, "1809": 0, "1810": 0, "1812": 0, "1813": 0, "1816": 0, "1821": 0, "1823": 0, "1824": 0, "1826": 0, "1827": 0, "1828": 0, "1830": 0, "1831": 0, "1834": 0, "1835": 0, "1836": 0, "1854": 1, "1900": 1, "1855": 0, "1879": 0, "1880": 0, "1881": 0, "1882": 0, "1883": 0, "1885": 0, "1887": 0, "1889": 0, "1890": 0, "1891": 0, "1892": 0, "1894": 0, "1895": 0, "1896": 0, "1897": 0, "1898": 0, "1901": 0, "1902": 0, "1904": 0, "1905": 0, "1906": 0, "1908": 0, "1909": 0, "1910": 0, "1911": 0, "1912": 0, "1913": 0, "1917": 0, "1918": 0, "1919": 0, "1920": 0, "1921": 0, "1922": 0}}
++ git checkout 312049091288dbba2299de8d07ea3e3311ed7238
+Note: switching to '312049091288dbba2299de8d07ea3e3311ed7238'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3120490912 Fixed #30876 -- Moved classproperty() decorator to the django.utils.functional.
++ git apply /root/pre_state.patch
+error: unrecognized input

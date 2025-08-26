@@ -1,0 +1,29 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11163.py
+new file mode 100644
+index e69de29..756a0d0 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11163.py
+@@ -0,0 +1,23 @@
++from django.test import SimpleTestCase
++from django.forms.models import model_to_dict
++from django.db import models
++
++# Define a mock model for testing
++class MockModel(models.Model):
++    field1 = models.CharField(max_length=100)
++    field2 = models.IntegerField()
++    field3 = models.BooleanField()
++
++    class Meta:
++        app_label = 'mock_app'
++
++class ModelToDictBugTest(SimpleTestCase):
++    def test_model_to_dict_with_empty_fields_list(self):
++        # Create a mock model instance
++        instance = MockModel(field1="test", field2=123, field3=True)
++
++        # Call model_to_dict with an empty fields list
++        result = model_to_dict(instance, fields=[])
++
++        # Assert that the returned dictionary is empty
++        self.assertEqual(result, {})

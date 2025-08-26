@@ -1,0 +1,23 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11728.py
+new file mode 100644
+index e69de29..0adfde3 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11728.py
+@@ -0,0 +1,17 @@
++from django.test import SimpleTestCase
++from django.urls.resolvers import _route_to_regex
++
++class SimplifyRegexpTest(SimpleTestCase):
++    def test_replace_named_groups_bug(self):
++        """
++        Test that the final named group is replaced when the URL pattern lacks a trailing slash.
++        This test fails if the bug is present, meaning the final named group is not replaced.
++        """
++        # URL pattern without a trailing slash
++        url_pattern = r'entries/(?P<pk>[^/.]+)/relationships/(?P<related_field>\w+)'
++        
++        # Call the function that processes the URL pattern
++        regex, converters = _route_to_regex(url_pattern)
++        
++        # Assert that the final named group is correctly replaced
++        self.assertNotIn('(?P<related_field>[^/]+)', regex)

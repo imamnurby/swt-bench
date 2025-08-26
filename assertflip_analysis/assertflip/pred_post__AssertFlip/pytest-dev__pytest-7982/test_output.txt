@@ -1,0 +1,772 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD a7e38c5c61928033a2dc1915cbee8caa8544a4d0
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit a7e38c5c61928033a2dc1915cbee8caa8544a4d0
+Author: Ariel Pillemer <63328798+pillemer@users.noreply.github.com>
+Date:   Sat Oct 31 20:08:11 2020 +0930
+
+    pytest-dev#7942 test_runner_xunit.py (#7964)
+
+diff --git a/AUTHORS b/AUTHORS
+index 35d220e00..f7e811544 100644
+--- a/AUTHORS
++++ b/AUTHORS
+@@ -32,6 +32,7 @@ Anthony Sottile
+ Anton Lodder
+ Antony Lee
+ Arel Cordero
++Ariel Pillemer
+ Armin Rigo
+ Aron Coyle
+ Aron Curzon
+diff --git a/testing/test_runner_xunit.py b/testing/test_runner_xunit.py
+index ef65a24cd..e90d761f6 100644
+--- a/testing/test_runner_xunit.py
++++ b/testing/test_runner_xunit.py
+@@ -2,10 +2,11 @@
+ from typing import List
+ 
+ import pytest
++from _pytest.pytester import Pytester
+ 
+ 
+-def test_module_and_function_setup(testdir):
+-    reprec = testdir.inline_runsource(
++def test_module_and_function_setup(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         modlevel = []
+         def setup_module(module):
+@@ -37,8 +38,8 @@ def test_module_and_function_setup(testdir):
+     assert rep.passed
+ 
+ 
+-def test_module_setup_failure_no_teardown(testdir):
+-    reprec = testdir.inline_runsource(
++def test_module_setup_failure_no_teardown(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         values = []
+         def setup_module(module):
+@@ -57,8 +58,8 @@ def test_module_setup_failure_no_teardown(testdir):
+     assert calls[0].item.module.values == [1]
+ 
+ 
+-def test_setup_function_failure_no_teardown(testdir):
+-    reprec = testdir.inline_runsource(
++def test_setup_function_failure_no_teardown(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         modlevel = []
+         def setup_function(function):
+@@ -76,8 +77,8 @@ def test_setup_function_failure_no_teardown(testdir):
+     assert calls[0].item.module.modlevel == [1]
+ 
+ 
+-def test_class_setup(testdir):
+-    reprec = testdir.inline_runsource(
++def test_class_setup(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         class TestSimpleClassSetup(object):
+             clslevel = []
+@@ -102,8 +103,8 @@ def test_class_setup(testdir):
+     reprec.assertoutcome(passed=1 + 2 + 1)
+ 
+ 
+-def test_class_setup_failure_no_teardown(testdir):
+-    reprec = testdir.inline_runsource(
++def test_class_setup_failure_no_teardown(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         class TestSimpleClassSetup(object):
+             clslevel = []
+@@ -123,8 +124,8 @@ def test_class_setup_failure_no_teardown(testdir):
+     reprec.assertoutcome(failed=1, passed=1)
+ 
+ 
+-def test_method_setup(testdir):
+-    reprec = testdir.inline_runsource(
++def test_method_setup(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         class TestSetupMethod(object):
+             def setup_method(self, meth):
+@@ -142,8 +143,8 @@ def test_method_setup(testdir):
+     reprec.assertoutcome(passed=2)
+ 
+ 
+-def test_method_setup_failure_no_teardown(testdir):
+-    reprec = testdir.inline_runsource(
++def test_method_setup_failure_no_teardown(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         class TestMethodSetup(object):
+             clslevel = []
+@@ -164,8 +165,8 @@ def test_method_setup_failure_no_teardown(testdir):
+     reprec.assertoutcome(failed=1, passed=1)
+ 
+ 
+-def test_method_setup_uses_fresh_instances(testdir):
+-    reprec = testdir.inline_runsource(
++def test_method_setup_uses_fresh_instances(pytester: Pytester) -> None:
++    reprec = pytester.inline_runsource(
+         """
+         class TestSelfState1(object):
+             memory = []
+@@ -179,8 +180,8 @@ def test_method_setup_uses_fresh_instances(testdir):
+     reprec.assertoutcome(passed=2, failed=0)
+ 
+ 
+-def test_setup_that_skips_calledagain(testdir):
+-    p = testdir.makepyfile(
++def test_setup_that_skips_calledagain(pytester: Pytester) -> None:
++    p = pytester.makepyfile(
+         """
+         import pytest
+         def setup_module(mod):
+@@ -191,12 +192,12 @@ def test_setup_that_skips_calledagain(testdir):
+             pass
+     """
+     )
+-    reprec = testdir.inline_run(p)
++    reprec = pytester.inline_run(p)
+     reprec.assertoutcome(skipped=2)
+ 
+ 
+-def test_setup_fails_again_on_all_tests(testdir):
+-    p = testdir.makepyfile(
++def test_setup_fails_again_on_all_tests(pytester: Pytester) -> None:
++    p = pytester.makepyfile(
+         """
+         import pytest
+         def setup_module(mod):
+@@ -207,12 +208,12 @@ def test_setup_fails_again_on_all_tests(testdir):
+             pass
+     """
+     )
+-    reprec = testdir.inline_run(p)
++    reprec = pytester.inline_run(p)
+     reprec.assertoutcome(failed=2)
+ 
+ 
+-def test_setup_funcarg_setup_when_outer_scope_fails(testdir):
+-    p = testdir.makepyfile(
++def test_setup_funcarg_setup_when_outer_scope_fails(pytester: Pytester) -> None:
++    p = pytester.makepyfile(
+         """
+         import pytest
+         def setup_module(mod):
+@@ -226,7 +227,7 @@ def test_setup_funcarg_setup_when_outer_scope_fails(testdir):
+             pass
+     """
+     )
+-    result = testdir.runpytest(p)
++    result = pytester.runpytest(p)
+     result.stdout.fnmatch_lines(
+         [
+             "*function1*",
+@@ -241,7 +242,7 @@ def test_setup_funcarg_setup_when_outer_scope_fails(testdir):
+ 
+ @pytest.mark.parametrize("arg", ["", "arg"])
+ def test_setup_teardown_function_level_with_optional_argument(
+-    testdir, monkeypatch, arg: str,
++    pytester: Pytester, monkeypatch, arg: str,
+ ) -> None:
+     """Parameter to setup/teardown xunit-style functions parameter is now optional (#1728)."""
+     import sys
+@@ -250,7 +251,7 @@ def test_setup_teardown_function_level_with_optional_argument(
+     monkeypatch.setattr(
+         sys, "trace_setups_teardowns", trace_setups_teardowns, raising=False
+     )
+-    p = testdir.makepyfile(
++    p = pytester.makepyfile(
+         """
+         import pytest
+         import sys
+@@ -276,7 +277,7 @@ def test_setup_teardown_function_level_with_optional_argument(
+             arg=arg
+         )
+     )
+-    result = testdir.inline_run(p)
++    result = pytester.inline_run(p)
+     result.assertoutcome(passed=4)
+ 
+     expected = [
++ git diff a7e38c5c61928033a2dc1915cbee8caa8544a4d0
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: attrs>=19.2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==6.2.0.dev154+ga7e38c5c6) (23.1.0)
+Requirement already satisfied: iniconfig in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==6.2.0.dev154+ga7e38c5c6) (2.0.0)
+Requirement already satisfied: packaging in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==6.2.0.dev154+ga7e38c5c6) (23.1)
+Requirement already satisfied: pluggy<1.0,>=0.12 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==6.2.0.dev154+ga7e38c5c6) (0.13.1)
+Requirement already satisfied: py>=1.8.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==6.2.0.dev154+ga7e38c5c6) (1.11.0)
+Requirement already satisfied: toml in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pytest==6.2.0.dev154+ga7e38c5c6) (0.10.2)
+Building wheels for collected packages: pytest
+  Building editable for pytest (pyproject.toml): started
+  Building editable for pytest (pyproject.toml): finished with status 'done'
+  Created wheel for pytest: filename=pytest-6.2.0.dev154+ga7e38c5c6-0.editable-py3-none-any.whl size=5083 sha256=2d7641789e3fa7006025ad0499c6a5c78d7ace7d6f59b2a643b76ebc6016bad1
+  Stored in directory: /tmp/pip-ephem-wheel-cache-d2f5gr36/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built pytest
+Installing collected packages: pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 6.2.0.dev154+ga7e38c5c6
+    Uninstalling pytest-6.2.0.dev154+ga7e38c5c6:
+      Successfully uninstalled pytest-6.2.0.dev154+ga7e38c5c6
+Successfully installed pytest-6.2.0.dev154+ga7e38c5c6
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch src/_pytest/pathlib.py...
+Applied patch src/_pytest/pathlib.py cleanly.
++ git apply -v -
+Checking patch testing/test_coverup_pytest-dev__pytest-7982.py...
+Applied patch testing/test_coverup_pytest-dev__pytest-7982.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(src/_pytest/pathlib\.py)' -m pytest -rA testing/test_coverup_pytest-dev__pytest-7982.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(src/_pytest/pathlib\\.py)']
+0.18 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.18 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.21 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.21 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.21 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.21 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.21 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.21 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.21 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.21 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.21 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.21 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.21 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.21 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.21 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.21 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.21 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.21 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.21 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.21 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.21 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.21 /testbed/src/_pytest/pathlib.py(400):         name = str(path)
+0.21 /testbed/src/_pytest/pathlib.py(401):         if path.is_absolute() and not os.path.isabs(pattern):
+0.21 /testbed/src/_pytest/pathlib.py(402):             pattern = f"*{os.sep}{pattern}"
+0.21 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.26 /testbed/src/_pytest/pathlib.py(362):     input = expanduser(input)
+0.26 /testbed/src/_pytest/pathlib.py(363):     input = expandvars(input)
+0.26 /testbed/src/_pytest/pathlib.py(364):     if isabs(input):
+0.26 /testbed/src/_pytest/pathlib.py(367):         return rootpath.joinpath(input)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(400):         name = str(path)
+0.27 /testbed/src/_pytest/pathlib.py(401):         if path.is_absolute() and not os.path.isabs(pattern):
+0.27 /testbed/src/_pytest/pathlib.py(402):             pattern = f"*{os.sep}{pattern}"
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(400):         name = str(path)
+0.27 /testbed/src/_pytest/pathlib.py(401):         if path.is_absolute() and not os.path.isabs(pattern):
+0.27 /testbed/src/_pytest/pathlib.py(402):             pattern = f"*{os.sep}{pattern}"
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(400):         name = str(path)
+0.27 /testbed/src/_pytest/pathlib.py(401):         if path.is_absolute() and not os.path.isabs(pattern):
+0.27 /testbed/src/_pytest/pathlib.py(402):             pattern = f"*{os.sep}{pattern}"
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(398):         name = path.name
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(388):     path = PurePath(path)
+0.27 /testbed/src/_pytest/pathlib.py(389):     iswin32 = sys.platform.startswith("win")
+0.27 /testbed/src/_pytest/pathlib.py(391):     if iswin32 and sep not in pattern and posix_sep in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(397):     if sep not in pattern:
+0.27 /testbed/src/_pytest/pathlib.py(400):         name = str(path)
+0.27 /testbed/src/_pytest/pathlib.py(401):         if path.is_absolute() and not os.path.isabs(pattern):
+0.27 /testbed/src/_pytest/pathlib.py(402):             pattern = f"*{os.sep}{pattern}"
+0.27 /testbed/src/_pytest/pathlib.py(403):     return fnmatch.fnmatch(name, pattern)
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.27 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+============================= test session starts ==============================
+platform linux -- Python 3.9.23, pytest-6.2.0.dev154+ga7e38c5c6, py-1.11.0, pluggy-0.13.1
+0.28 /testbed/src/_pytest/pathlib.py(594):     if dest == directory:
+0.28 /testbed/src/_pytest/pathlib.py(597):     base = commonpath(directory, dest)
+0.28 /testbed/src/_pytest/pathlib.py(580):     try:
+0.28 /testbed/src/_pytest/pathlib.py(581):         return Path(os.path.commonpath((str(path1), str(path2))))
+0.28 /testbed/src/_pytest/pathlib.py(601):     if not base:
+0.28 /testbed/src/_pytest/pathlib.py(603):     reldirectory = directory.relative_to(base)
+0.28 /testbed/src/_pytest/pathlib.py(604):     reldest = dest.relative_to(base)
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+0.28 /testbed/src/_pytest/pathlib.py(607):         *([os.pardir] * len(reldirectory.parts)),
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+0.28 /testbed/src/_pytest/pathlib.py(609):         *reldest.parts,
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+rootdir: /testbed, configfile: pyproject.toml
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+collected 1 item
+0.28 /testbed/src/_pytest/pathlib.py(571):     return Path(os.path.abspath(str(path)))
+0.28 /testbed/src/_pytest/pathlib.py(594):     if dest == directory:
+0.28 /testbed/src/_pytest/pathlib.py(597):     base = commonpath(directory, dest)
+0.28 /testbed/src/_pytest/pathlib.py(580):     try:
+0.28 /testbed/src/_pytest/pathlib.py(581):         return Path(os.path.commonpath((str(path1), str(path2))))
+0.28 /testbed/src/_pytest/pathlib.py(601):     if not base:
+0.28 /testbed/src/_pytest/pathlib.py(603):     reldirectory = directory.relative_to(base)
+0.28 /testbed/src/_pytest/pathlib.py(604):     reldest = dest.relative_to(base)
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+0.28 /testbed/src/_pytest/pathlib.py(607):         *([os.pardir] * len(reldirectory.parts)),
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+0.28 /testbed/src/_pytest/pathlib.py(609):         *reldest.parts,
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+0.28 /testbed/src/_pytest/pathlib.py(594):     if dest == directory:
+0.28 /testbed/src/_pytest/pathlib.py(597):     base = commonpath(directory, dest)
+0.28 /testbed/src/_pytest/pathlib.py(580):     try:
+0.28 /testbed/src/_pytest/pathlib.py(581):         return Path(os.path.commonpath((str(path1), str(path2))))
+0.28 /testbed/src/_pytest/pathlib.py(601):     if not base:
+0.28 /testbed/src/_pytest/pathlib.py(603):     reldirectory = directory.relative_to(base)
+0.28 /testbed/src/_pytest/pathlib.py(604):     reldest = dest.relative_to(base)
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+0.28 /testbed/src/_pytest/pathlib.py(607):         *([os.pardir] * len(reldirectory.parts)),
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+0.28 /testbed/src/_pytest/pathlib.py(609):         *reldest.parts,
+0.28 /testbed/src/_pytest/pathlib.py(605):     return os.path.join(
+
+testing/test_coverup_pytest-dev__pytest-7982.py .                        [100%]
+
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED testing/test_coverup_pytest-dev__pytest-7982.py::test_symlinked_directory_not_collected
+============================== 1 passed in 0.05s ===============================
++ cat coverage.cover
+{"/testbed/src/_pytest/pathlib.py": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0, "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "29": 0, "31": 0, "32": 0, "33": 0, "35": 0, "38": 0, "41": 0, "45": 0, "52": 0, "103": 0, "121": 0, "133": 0, "141": 0, "149": 0, "160": 0, "165": 0, "174": 0, "175": 0, "173": 0, "195": 0, "216": 0, "233": 0, "250": 0, "278": 0, "306": 0, "312": 0, "325": 0, "326": 0, "324": 0, "335": 0, "336": 0, "334": 0, "361": 0, "370": 0, "406": 0, "411": 0, "419": 0, "427": 0, "439": 0, "436": 0, "437": 0, "440": 0, "534": 0, "552": 0, "553": 0, "551": 0, "565": 0, "574": 0, "586": 0, "42": 0, "47": 0, "48": 0, "49": 0, "57": 0, "61": 0, "62": 0, "64": 0, "65": 0, "66": 0, "68": 0, "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "79": 0, "82": 0, "84": 0, "90": 0, "91": 0, "92": 0, "93": 0, "95": 0, "96": 0, "97": 0, "99": 0, "100": 0, "85": 0, "86": 0, "115": 0, "116": 0, "117": 0, "118": 0, "123": 0, "124": 0, "125": 0, "126": 0, "128": 0, "129": 0, "130": 0, "136": 0, "137": 0, "138": 0, "143": 0, "144": 0, "145": 0, "146": 0, "155": 0, "156": 0, "157": 0, "162": 0, "167": 0, "168": 0, "169": 0, "170": 0, "184": 0, "185": 0, "186": 0, "187": 0, "188": 0, "189": 0, "190": 0, "191": 0, "192": 0, "197": 0, "199": 0, "200": 0, "201": 0, "202": 0, "203": 0, "204": 0, "205": 0, "207": 0, "208": 0, "210": 0, "211": 0, "212": 0, "218": 0, "219": 0, "220": 0, "221": 0, "222": 0, "224": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "235": 0, "237": 0, "247": 0, "238": 0, "239": 0, "241": 0, "242": 0, "243": 0, "244": 0, "245": 0, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "259": 0, "260": 0, "261": 0, "262": 0, "267": 0, "271": 0, "272": 0, "273": 0, "274": 0, "275": 0, "280": 0, "281": 0, "282": 0, "283": 0, "284": 0, "285": 0, "286": 0, "289": 0, "290": 0, "291": 0, "292": 0, "293": 0, "295": 0, "300": 0, "301": 0, "302": 0, "303": 0, "308": 0, "309": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "328": 0, "329": 0, "330": 0, "331": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "343": 0, "344": 0, "345": 0, "347": 0, "349": 0, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "356": 0, "357": 0, "358": 0, "362": 2, "363": 2, "364": 2, "365": 0, "367": 2, "388": 54, "389": 54, "391": 54, "395": 0, "397": 54, "398": 46, "400": 8, "401": 8, "402": 8, "403": 54, "407": 0, "408": 0, "413": 0, "414": 0, "415": 0, "416": 0, "422": 0, "423": 0, "424": 0, "461": 4, "463": 4, "465": 4, "466": 0, "468": 4, "469": 0, "471": 0, "472": 0, "473": 0, "474": 0, "476": 0, "478": 0, "479": 0, "480": 0, "482": 0, "483": 0, "484": 0, "486": 4, "487": 4, "488": 0, "489": 0, "490": 0, "491": 0, "492": 0, "494": 4, "495": 4, "500": 4, "501": 0, "502": 0, "503": 4, "504": 4, "505": 3, "507": 0, "509": 4, "511": 4, "512": 4, "513": 0, "515": 4, "516": 4, "517": 4, "518": 4, "519": 0, "520": 4, "521": 0, "523": 4, "524": 4, "525": 0, "526": 0, "528": 4, "529": 0, "531": 4, "540": 4, "541": 8, "542": 8, "543": 4, "544": 4, "545": 0, "546": 0, "547": 0, "548": 4, "558": 7, "559": 3, "560": 7, "561": 4, "562": 2, "571": 65, "580": 4, "581": 4, "582": 0, "583": 0, "594": 3, "595": 0, "597": 3, "601": 3, "602": 0, "603": 3, "604": 3, "605": 9, "607": 3, "609": 3}}
++ git checkout a7e38c5c61928033a2dc1915cbee8caa8544a4d0
+Note: switching to 'a7e38c5c61928033a2dc1915cbee8caa8544a4d0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a7e38c5c6 pytest-dev#7942 test_runner_xunit.py (#7964)
+M	src/_pytest/pathlib.py
++ git apply /root/pre_state.patch
+error: unrecognized input

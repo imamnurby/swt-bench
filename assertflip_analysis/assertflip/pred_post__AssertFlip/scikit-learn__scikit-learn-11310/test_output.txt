@@ -1,0 +1,703 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 553b5fb8f84ba05c8397f26dd079deece2b05029
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 553b5fb8f84ba05c8397f26dd079deece2b05029
+Author: Alexandre Gramfort <alexandre.gramfort@inria.fr>
+Date:   Mon Jun 18 08:07:33 2018 +0200
+
+    BLD fix sphx gallery errors (#11307)
+
+diff --git a/examples/manifold/plot_compare_methods.py b/examples/manifold/plot_compare_methods.py
+index 34e161dfb0..3af18269ae 100644
+--- a/examples/manifold/plot_compare_methods.py
++++ b/examples/manifold/plot_compare_methods.py
+@@ -1,6 +1,6 @@
+ """
+ =========================================
+- Comparison of Manifold Learning methods
++Comparison of Manifold Learning methods
+ =========================================
+ 
+ An illustration of dimensionality reduction on the S-curve dataset
+diff --git a/examples/manifold/plot_t_sne_perplexity.py b/examples/manifold/plot_t_sne_perplexity.py
+index c1cbe0001d..0fbade5746 100644
+--- a/examples/manifold/plot_t_sne_perplexity.py
++++ b/examples/manifold/plot_t_sne_perplexity.py
+@@ -1,6 +1,6 @@
+ """
+ =============================================================================
+- t-SNE: The effect of various perplexity values on the shape
++t-SNE: The effect of various perplexity values on the shape
+ =============================================================================
+ 
+ An illustration of t-SNE on the two concentric circles and the S-curve
++ git diff 553b5fb8f84ba05c8397f26dd079deece2b05029
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    adding license file 'AUTHORS.rst'
+    writing manifest file '/tmp/pip-pip-egg-info-k8r9hkuu/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.8.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.20.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.13.3 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.20.dev0) (1.5.2)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.20.dev0
+    Uninstalling scikit-learn-0.20.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.20.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    blis_info:
+      libraries blis not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_info:
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    creating /tmp/tmppketnfjm/tmp
+    creating /tmp/tmppketnfjm/tmp/tmppketnfjm
+    compile options: '-c'
+    gcc: /tmp/tmppketnfjm/source.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ /tmp/tmppketnfjm/tmp/tmppketnfjm/source.o -L/opt/miniconda3/envs/testbed/lib -lopenblas -o /tmp/tmppketnfjm/a.out
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn._isotonic" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    adding license file 'AUTHORS.rst'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    resetting extension 'sklearn.svm.liblinear' language from 'c' to 'c++'.
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.20.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+Successfully installed scikit-learn-0.20.dev0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch sklearn/model_selection/_search.py...
+Applied patch sklearn/model_selection/_search.py cleanly.
++ git apply -v -
+<stdin>:15: trailing whitespace.
+    
+<stdin>:19: trailing whitespace.
+    
+<stdin>:22: trailing whitespace.
+    
+<stdin>:25: trailing whitespace.
+    
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-11310.py...
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-11310.py cleanly.
+warning: 4 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/model_selection/_search\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-11310.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/model_selection/_search\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-11310.py .         [100%]
+
+==================================== PASSES ====================================
+______________________ test_missing_refit_time_attribute _______________________
+----------------------------- Captured stdout call -----------------------------
+0.80 /testbed/sklearn/model_selection/_search.py(1120):         super(GridSearchCV, self).__init__(
+0.80 /testbed/sklearn/model_selection/_search.py(1121):             estimator=estimator, scoring=scoring, fit_params=fit_params,
+0.80 /testbed/sklearn/model_selection/_search.py(1122):             n_jobs=n_jobs, iid=iid, refit=refit, cv=cv, verbose=verbose,
+0.80 /testbed/sklearn/model_selection/_search.py(1123):             pre_dispatch=pre_dispatch, error_score=error_score,
+0.80 /testbed/sklearn/model_selection/_search.py(1124):             return_train_score=return_train_score)
+0.80 /testbed/sklearn/model_selection/_search.py(417):         self.scoring = scoring
+0.80 /testbed/sklearn/model_selection/_search.py(418):         self.estimator = estimator
+0.80 /testbed/sklearn/model_selection/_search.py(419):         self.n_jobs = n_jobs
+0.80 /testbed/sklearn/model_selection/_search.py(420):         self.fit_params = fit_params
+0.80 /testbed/sklearn/model_selection/_search.py(421):         self.iid = iid
+0.80 /testbed/sklearn/model_selection/_search.py(422):         self.refit = refit
+0.80 /testbed/sklearn/model_selection/_search.py(423):         self.cv = cv
+0.80 /testbed/sklearn/model_selection/_search.py(424):         self.verbose = verbose
+0.80 /testbed/sklearn/model_selection/_search.py(425):         self.pre_dispatch = pre_dispatch
+0.80 /testbed/sklearn/model_selection/_search.py(426):         self.error_score = error_score
+0.80 /testbed/sklearn/model_selection/_search.py(427):         self.return_train_score = return_train_score
+0.80 /testbed/sklearn/model_selection/_search.py(1125):         self.param_grid = param_grid
+0.80 /testbed/sklearn/model_selection/_search.py(1126):         _check_param_grid(param_grid)
+0.80 /testbed/sklearn/model_selection/_search.py(365):     if hasattr(param_grid, 'items'):
+0.80 /testbed/sklearn/model_selection/_search.py(366):         param_grid = [param_grid]
+0.80 /testbed/sklearn/model_selection/_search.py(368):     for p in param_grid:
+0.80 /testbed/sklearn/model_selection/_search.py(369):         for name, v in p.items():
+0.80 /testbed/sklearn/model_selection/_search.py(370):             if isinstance(v, np.ndarray) and v.ndim > 1:
+0.80 /testbed/sklearn/model_selection/_search.py(373):             if (isinstance(v, six.string_types) or
+0.80 /testbed/sklearn/model_selection/_search.py(374):                     not isinstance(v, (np.ndarray, Sequence))):
+0.80 /testbed/sklearn/model_selection/_search.py(379):             if len(v) == 0:
+0.80 /testbed/sklearn/model_selection/_search.py(369):         for name, v in p.items():
+0.80 /testbed/sklearn/model_selection/_search.py(368):     for p in param_grid:
+0.80 /testbed/sklearn/model_selection/_search.py(602):         if self.fit_params is not None:
+0.80 /testbed/sklearn/model_selection/_search.py(613):         estimator = self.estimator
+0.80 /testbed/sklearn/model_selection/_search.py(614):         cv = check_cv(self.cv, y, classifier=is_classifier(estimator))
+0.80 /testbed/sklearn/model_selection/_search.py(616):         scorers, self.multimetric_ = _check_multimetric_scoring(
+0.80 /testbed/sklearn/model_selection/_search.py(617):             self.estimator, scoring=self.scoring)
+0.80 /testbed/sklearn/model_selection/_search.py(619):         if self.multimetric_:
+0.80 /testbed/sklearn/model_selection/_search.py(635):             refit_metric = 'score'
+0.80 /testbed/sklearn/model_selection/_search.py(637):         X, y, groups = indexable(X, y, groups)
+0.80 /testbed/sklearn/model_selection/_search.py(638):         n_splits = cv.get_n_splits(X, y, groups)
+0.80 /testbed/sklearn/model_selection/_search.py(640):         candidate_params = list(self._get_param_iterator())
+0.80 /testbed/sklearn/model_selection/_search.py(1130):         return ParameterGrid(self.param_grid)
+0.80 /testbed/sklearn/model_selection/_search.py(94):         if not isinstance(param_grid, (Mapping, Iterable)):
+0.80 /testbed/sklearn/model_selection/_search.py(98):         if isinstance(param_grid, Mapping):
+0.80 /testbed/sklearn/model_selection/_search.py(101):             param_grid = [param_grid]
+0.80 /testbed/sklearn/model_selection/_search.py(104):         for grid in param_grid:
+0.80 /testbed/sklearn/model_selection/_search.py(105):             if not isinstance(grid, dict):
+0.80 /testbed/sklearn/model_selection/_search.py(108):             for key in grid:
+0.80 /testbed/sklearn/model_selection/_search.py(109):                 if not isinstance(grid[key], Iterable):
+0.80 /testbed/sklearn/model_selection/_search.py(108):             for key in grid:
+0.80 /testbed/sklearn/model_selection/_search.py(104):         for grid in param_grid:
+0.80 /testbed/sklearn/model_selection/_search.py(114):         self.param_grid = param_grid
+0.80 /testbed/sklearn/model_selection/_search.py(139):         product = partial(reduce, operator.mul)
+0.80 /testbed/sklearn/model_selection/_search.py(140):         return sum(product(len(v) for v in p.values()) if p else 1
+0.80 /testbed/sklearn/model_selection/_search.py(141):                    for p in self.param_grid)
+0.80 /testbed/sklearn/model_selection/_search.py(140):         return sum(product(len(v) for v in p.values()) if p else 1
+0.80 /testbed/sklearn/model_selection/_search.py(141):                    for p in self.param_grid)
+0.80 /testbed/sklearn/model_selection/_search.py(140):         return sum(product(len(v) for v in p.values()) if p else 1
+0.80 /testbed/sklearn/model_selection/_search.py(140):         return sum(product(len(v) for v in p.values()) if p else 1
+0.80 /testbed/sklearn/model_selection/_search.py(140):         return sum(product(len(v) for v in p.values()) if p else 1
+0.80 /testbed/sklearn/model_selection/_search.py(125):         for p in self.param_grid:
+0.80 /testbed/sklearn/model_selection/_search.py(127):             items = sorted(p.items())
+0.80 /testbed/sklearn/model_selection/_search.py(128):             if not items:
+0.80 /testbed/sklearn/model_selection/_search.py(131):                 keys, values = zip(*items)
+0.80 /testbed/sklearn/model_selection/_search.py(132):                 for v in product(*values):
+0.80 /testbed/sklearn/model_selection/_search.py(133):                     params = dict(zip(keys, v))
+0.80 /testbed/sklearn/model_selection/_search.py(134):                     yield params
+0.80 /testbed/sklearn/model_selection/_search.py(132):                 for v in product(*values):
+0.80 /testbed/sklearn/model_selection/_search.py(133):                     params = dict(zip(keys, v))
+0.80 /testbed/sklearn/model_selection/_search.py(134):                     yield params
+0.80 /testbed/sklearn/model_selection/_search.py(132):                 for v in product(*values):
+0.80 /testbed/sklearn/model_selection/_search.py(125):         for p in self.param_grid:
+0.80 /testbed/sklearn/model_selection/_search.py(641):         n_candidates = len(candidate_params)
+0.80 /testbed/sklearn/model_selection/_search.py(642):         if self.verbose > 0:
+0.80 /testbed/sklearn/model_selection/_search.py(647):         base_estimator = clone(self.estimator)
+0.80 /testbed/sklearn/model_selection/_search.py(648):         pre_dispatch = self.pre_dispatch
+0.80 /testbed/sklearn/model_selection/_search.py(650):         out = Parallel(
+0.80 /testbed/sklearn/model_selection/_search.py(651):             n_jobs=self.n_jobs, verbose=self.verbose,
+0.80 /testbed/sklearn/model_selection/_search.py(652):             pre_dispatch=pre_dispatch
+0.80 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.80 /testbed/sklearn/model_selection/_search.py(660):           for parameters, (train, test) in product(candidate_params,
+0.80 /testbed/sklearn/model_selection/_search.py(661):                                                    cv.split(X, y, groups)))
+0.80 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.80 /testbed/sklearn/model_selection/_search.py(660):           for parameters, (train, test) in product(candidate_params,
+0.80 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.80 /testbed/sklearn/model_selection/_search.py(660):           for parameters, (train, test) in product(candidate_params,
+0.81 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.81 /testbed/sklearn/model_selection/_search.py(660):           for parameters, (train, test) in product(candidate_params,
+0.81 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.81 /testbed/sklearn/model_selection/_search.py(660):           for parameters, (train, test) in product(candidate_params,
+0.82 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.82 /testbed/sklearn/model_selection/_search.py(660):           for parameters, (train, test) in product(candidate_params,
+0.82 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.82 /testbed/sklearn/model_selection/_search.py(660):           for parameters, (train, test) in product(candidate_params,
+0.83 /testbed/sklearn/model_selection/_search.py(653):         )(delayed(_fit_and_score)(clone(base_estimator), X, y, scorers, train,
+0.83 /testbed/sklearn/model_selection/_search.py(664):         if self.return_train_score:
+0.83 /testbed/sklearn/model_selection/_search.py(666):              score_time) = zip(*out)
+0.83 /testbed/sklearn/model_selection/_search.py(673):         test_scores = _aggregate_score_dicts(test_score_dicts)
+0.83 /testbed/sklearn/model_selection/_search.py(674):         if self.return_train_score:
+0.83 /testbed/sklearn/model_selection/_search.py(675):             train_scores = _aggregate_score_dicts(train_score_dicts)
+0.83 /testbed/sklearn/model_selection/_search.py(678):         results = (DeprecationDict() if self.return_train_score == 'warn'
+0.83 /testbed/sklearn/model_selection/_search.py(681):         def _store(key_name, array, weights=None, splits=False, rank=False):
+0.83 /testbed/sklearn/model_selection/_search.py(705):         _store('fit_time', fit_time)
+0.83 /testbed/sklearn/model_selection/_search.py(685):             array = np.array(array, dtype=np.float64).reshape(n_candidates,
+0.83 /testbed/sklearn/model_selection/_search.py(686):                                                               n_splits)
+0.83 /testbed/sklearn/model_selection/_search.py(687):             if splits:
+0.83 /testbed/sklearn/model_selection/_search.py(693):             array_means = np.average(array, axis=1, weights=weights)
+0.83 /testbed/sklearn/model_selection/_search.py(694):             results['mean_%s' % key_name] = array_means
+0.83 /testbed/sklearn/model_selection/_search.py(696):             array_stds = np.sqrt(np.average((array -
+0.83 /testbed/sklearn/model_selection/_search.py(697):                                              array_means[:, np.newaxis]) ** 2,
+0.83 /testbed/sklearn/model_selection/_search.py(698):                                             axis=1, weights=weights))
+0.83 /testbed/sklearn/model_selection/_search.py(699):             results['std_%s' % key_name] = array_stds
+0.83 /testbed/sklearn/model_selection/_search.py(701):             if rank:
+0.83 /testbed/sklearn/model_selection/_search.py(706):         _store('score_time', score_time)
+0.83 /testbed/sklearn/model_selection/_search.py(685):             array = np.array(array, dtype=np.float64).reshape(n_candidates,
+0.83 /testbed/sklearn/model_selection/_search.py(686):                                                               n_splits)
+0.83 /testbed/sklearn/model_selection/_search.py(687):             if splits:
+0.83 /testbed/sklearn/model_selection/_search.py(693):             array_means = np.average(array, axis=1, weights=weights)
+0.83 /testbed/sklearn/model_selection/_search.py(694):             results['mean_%s' % key_name] = array_means
+0.83 /testbed/sklearn/model_selection/_search.py(696):             array_stds = np.sqrt(np.average((array -
+0.83 /testbed/sklearn/model_selection/_search.py(697):                                              array_means[:, np.newaxis]) ** 2,
+0.83 /testbed/sklearn/model_selection/_search.py(698):                                             axis=1, weights=weights))
+0.83 /testbed/sklearn/model_selection/_search.py(699):             results['std_%s' % key_name] = array_stds
+0.83 /testbed/sklearn/model_selection/_search.py(701):             if rank:
+0.83 /testbed/sklearn/model_selection/_search.py(710):         param_results = defaultdict(partial(MaskedArray,
+0.83 /testbed/sklearn/model_selection/_search.py(711):                                             np.empty(n_candidates,),
+0.83 /testbed/sklearn/model_selection/_search.py(712):                                             mask=True,
+0.83 /testbed/sklearn/model_selection/_search.py(713):                                             dtype=object))
+0.83 /testbed/sklearn/model_selection/_search.py(714):         for cand_i, params in enumerate(candidate_params):
+0.83 /testbed/sklearn/model_selection/_search.py(715):             for name, value in params.items():
+0.83 /testbed/sklearn/model_selection/_search.py(719):                 param_results["param_%s" % name][cand_i] = value
+0.83 /testbed/sklearn/model_selection/_search.py(715):             for name, value in params.items():
+0.83 /testbed/sklearn/model_selection/_search.py(714):         for cand_i, params in enumerate(candidate_params):
+0.83 /testbed/sklearn/model_selection/_search.py(715):             for name, value in params.items():
+0.83 /testbed/sklearn/model_selection/_search.py(719):                 param_results["param_%s" % name][cand_i] = value
+0.83 /testbed/sklearn/model_selection/_search.py(715):             for name, value in params.items():
+0.83 /testbed/sklearn/model_selection/_search.py(714):         for cand_i, params in enumerate(candidate_params):
+0.83 /testbed/sklearn/model_selection/_search.py(721):         results.update(param_results)
+0.83 /testbed/sklearn/model_selection/_search.py(723):         results['params'] = candidate_params
+0.83 /testbed/sklearn/model_selection/_search.py(726):         test_sample_counts = np.array(test_sample_counts[:n_splits],
+0.83 /testbed/sklearn/model_selection/_search.py(727):                                       dtype=np.int)
+0.83 /testbed/sklearn/model_selection/_search.py(728):         iid = self.iid
+0.83 /testbed/sklearn/model_selection/_search.py(729):         if self.iid == 'warn':
+0.83 /testbed/sklearn/model_selection/_search.py(730):             if len(np.unique(test_sample_counts)) > 1:
+0.83 /testbed/sklearn/model_selection/_search.py(731):                 warnings.warn("The default of the `iid` parameter will change "
+0.83 /testbed/sklearn/model_selection/_search.py(735):                               DeprecationWarning)
+0.83 /testbed/sklearn/model_selection/_search.py(736):             iid = True
+0.83 /testbed/sklearn/model_selection/_search.py(738):         for scorer_name in scorers.keys():
+0.83 /testbed/sklearn/model_selection/_search.py(740):             _store('test_%s' % scorer_name, test_scores[scorer_name],
+0.83 /testbed/sklearn/model_selection/_search.py(741):                    splits=True, rank=True,
+0.83 /testbed/sklearn/model_selection/_search.py(742):                    weights=test_sample_counts if iid else None)
+0.83 /testbed/sklearn/model_selection/_search.py(685):             array = np.array(array, dtype=np.float64).reshape(n_candidates,
+0.83 /testbed/sklearn/model_selection/_search.py(686):                                                               n_splits)
+0.83 /testbed/sklearn/model_selection/_search.py(687):             if splits:
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(691):                             % (split_i, key_name)] = array[:, split_i]
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(691):                             % (split_i, key_name)] = array[:, split_i]
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(691):                             % (split_i, key_name)] = array[:, split_i]
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(693):             array_means = np.average(array, axis=1, weights=weights)
+0.83 /testbed/sklearn/model_selection/_search.py(694):             results['mean_%s' % key_name] = array_means
+0.83 /testbed/sklearn/model_selection/_search.py(696):             array_stds = np.sqrt(np.average((array -
+0.83 /testbed/sklearn/model_selection/_search.py(697):                                              array_means[:, np.newaxis]) ** 2,
+0.83 /testbed/sklearn/model_selection/_search.py(698):                                             axis=1, weights=weights))
+0.83 /testbed/sklearn/model_selection/_search.py(699):             results['std_%s' % key_name] = array_stds
+0.83 /testbed/sklearn/model_selection/_search.py(701):             if rank:
+0.83 /testbed/sklearn/model_selection/_search.py(702):                 results["rank_%s" % key_name] = np.asarray(
+0.83 /testbed/sklearn/model_selection/_search.py(703):                     rankdata(-array_means, method='min'), dtype=np.int32)
+0.83 /testbed/sklearn/model_selection/_search.py(743):             if self.return_train_score:
+0.83 /testbed/sklearn/model_selection/_search.py(744):                 prev_keys = set(results.keys())
+0.83 /testbed/sklearn/model_selection/_search.py(745):                 _store('train_%s' % scorer_name, train_scores[scorer_name],
+0.83 /testbed/sklearn/model_selection/_search.py(746):                        splits=True)
+0.83 /testbed/sklearn/model_selection/_search.py(685):             array = np.array(array, dtype=np.float64).reshape(n_candidates,
+0.83 /testbed/sklearn/model_selection/_search.py(686):                                                               n_splits)
+0.83 /testbed/sklearn/model_selection/_search.py(687):             if splits:
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(691):                             % (split_i, key_name)] = array[:, split_i]
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(691):                             % (split_i, key_name)] = array[:, split_i]
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(691):                             % (split_i, key_name)] = array[:, split_i]
+0.83 /testbed/sklearn/model_selection/_search.py(688):                 for split_i in range(n_splits):
+0.83 /testbed/sklearn/model_selection/_search.py(693):             array_means = np.average(array, axis=1, weights=weights)
+0.83 /testbed/sklearn/model_selection/_search.py(694):             results['mean_%s' % key_name] = array_means
+0.83 /testbed/sklearn/model_selection/_search.py(696):             array_stds = np.sqrt(np.average((array -
+0.83 /testbed/sklearn/model_selection/_search.py(697):                                              array_means[:, np.newaxis]) ** 2,
+0.83 /testbed/sklearn/model_selection/_search.py(698):                                             axis=1, weights=weights))
+0.83 /testbed/sklearn/model_selection/_search.py(699):             results['std_%s' % key_name] = array_stds
+0.83 /testbed/sklearn/model_selection/_search.py(701):             if rank:
+0.83 /testbed/sklearn/model_selection/_search.py(748):                 if self.return_train_score == 'warn':
+0.83 /testbed/sklearn/model_selection/_search.py(749):                     for key in set(results.keys()) - prev_keys:
+0.83 /testbed/sklearn/model_selection/_search.py(751):                             'You are accessing a training score ({!r}), '
+0.83 /testbed/sklearn/model_selection/_search.py(754):                             'please set return_train_score=True').format(key)
+0.83 /testbed/sklearn/model_selection/_search.py(756):                         results.add_warning(key, message, FutureWarning)
+0.83 /testbed/sklearn/model_selection/_search.py(749):                     for key in set(results.keys()) - prev_keys:
+0.83 /testbed/sklearn/model_selection/_search.py(751):                             'You are accessing a training score ({!r}), '
+0.83 /testbed/sklearn/model_selection/_search.py(754):                             'please set return_train_score=True').format(key)
+0.83 /testbed/sklearn/model_selection/_search.py(756):                         results.add_warning(key, message, FutureWarning)
+0.83 /testbed/sklearn/model_selection/_search.py(749):                     for key in set(results.keys()) - prev_keys:
+0.83 /testbed/sklearn/model_selection/_search.py(751):                             'You are accessing a training score ({!r}), '
+0.83 /testbed/sklearn/model_selection/_search.py(754):                             'please set return_train_score=True').format(key)
+0.83 /testbed/sklearn/model_selection/_search.py(756):                         results.add_warning(key, message, FutureWarning)
+0.83 /testbed/sklearn/model_selection/_search.py(749):                     for key in set(results.keys()) - prev_keys:
+0.83 /testbed/sklearn/model_selection/_search.py(751):                             'You are accessing a training score ({!r}), '
+0.83 /testbed/sklearn/model_selection/_search.py(754):                             'please set return_train_score=True').format(key)
+0.83 /testbed/sklearn/model_selection/_search.py(756):                         results.add_warning(key, message, FutureWarning)
+0.83 /testbed/sklearn/model_selection/_search.py(749):                     for key in set(results.keys()) - prev_keys:
+0.83 /testbed/sklearn/model_selection/_search.py(751):                             'You are accessing a training score ({!r}), '
+0.83 /testbed/sklearn/model_selection/_search.py(754):                             'please set return_train_score=True').format(key)
+0.83 /testbed/sklearn/model_selection/_search.py(756):                         results.add_warning(key, message, FutureWarning)
+0.83 /testbed/sklearn/model_selection/_search.py(749):                     for key in set(results.keys()) - prev_keys:
+0.83 /testbed/sklearn/model_selection/_search.py(738):         for scorer_name in scorers.keys():
+0.83 /testbed/sklearn/model_selection/_search.py(761):         if self.refit or not self.multimetric_:
+0.83 /testbed/sklearn/model_selection/_search.py(762):             self.best_index_ = results["rank_test_%s" % refit_metric].argmin()
+0.83 /testbed/sklearn/model_selection/_search.py(763):             self.best_params_ = candidate_params[self.best_index_]
+0.83 /testbed/sklearn/model_selection/_search.py(764):             self.best_score_ = results["mean_test_%s" % refit_metric][
+0.83 /testbed/sklearn/model_selection/_search.py(765):                 self.best_index_]
+0.83 /testbed/sklearn/model_selection/_search.py(767):         if self.refit:
+0.83 /testbed/sklearn/model_selection/_search.py(768):             self.best_estimator_ = clone(base_estimator).set_params(
+0.83 /testbed/sklearn/model_selection/_search.py(769):                 **self.best_params_)
+0.83 /testbed/sklearn/model_selection/_search.py(770):             refit_start_time = time.time()
+0.83 /testbed/sklearn/model_selection/_search.py(771):             if y is not None:
+0.83 /testbed/sklearn/model_selection/_search.py(772):                 self.best_estimator_.fit(X, y, **fit_params)
+0.84 /testbed/sklearn/model_selection/_search.py(775):             refit_end_time = time.time()
+0.84 /testbed/sklearn/model_selection/_search.py(776):             self.refit_time_ = refit_end_time - refit_start_time
+0.84 /testbed/sklearn/model_selection/_search.py(779):         self.scorer_ = scorers if self.multimetric_ else scorers['score']
+0.84 /testbed/sklearn/model_selection/_search.py(781):         self.cv_results_ = results
+0.84 /testbed/sklearn/model_selection/_search.py(782):         self.n_splits_ = n_splits
+0.84 /testbed/sklearn/model_selection/_search.py(784):         return self
+=========================== short test summary info ============================
+PASSED sklearn/tests/test_coverup_scikit-learn__scikit-learn-11310.py::test_missing_refit_time_attribute
+========================= 1 passed, 1 warning in 0.67s =========================
++ cat coverage.cover
+{"/testbed/sklearn/model_selection/_search.py": {"5": 1, "6": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "20": 1, "21": 1, "23": 1, "24": 1, "26": 1, "27": 1, "28": 1, "29": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "35": 1, "36": 1, "37": 1, "38": 1, "39": 1, "40": 1, "41": 1, "42": 1, "45": 1, "46": 1, "49": 2, "185": 2, "296": 1, "364": 1, "385": 2, "388": 1, "407": 2, "408": 1, "813": 2, "1133": 2, "93": 1, "116": 1, "136": 1, "143": 1, "94": 1, "95": 0, "96": 0, "98": 1, "101": 1, "104": 2, "105": 1, "106": 0, "107": 0, "108": 2, "109": 1, "110": 0, "112": 0, "114": 1, "125": 2, "127": 1, "128": 1, "129": 0, "131": 1, "132": 3, "133": 2, "134": 2, "139": 1, "140": 5, "141": 2, "158": 0, "160": 0, "161": 0, "162": 0, "164": 0, "165": 0, "168": 0, "169": 0, "170": 0, "172": 0, "174": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "182": 0, "246": 1, "251": 1, "290": 1, "247": 0, "248": 0, "249": 0, "254": 0, "255": 0, "256": 0, "258": 0, "260": 0, "261": 0, "262": 0, "264": 0, "265": 0, "266": 0, "269": 0, "270": 0, "271": 0, "272": 0, "273": 0, "277": 0, "278": 0, "279": 0, "280": 0, "281": 0, "282": 0, "283": 0, "285": 0, "287": 0, "288": 0, "292": 0, "354": 0, "355": 0, "356": 0, "357": 0, "358": 0, "359": 0, "360": 0, "361": 0, "365": 1, "366": 1, "368": 2, "369": 2, "370": 1, "371": 0, "373": 1, "374": 1, "375": 0, "377": 0, "379": 1, "380": 0, "381": 0, "397": 1, "399": 1, "401": 0, "402": 0, "403": 0, "404": 0, "411": 1, "415": 1, "429": 1, "433": 1, "461": 1, "473": 1, "490": 1, "507": 1, "524": 1, "541": 1, "558": 1, "575": 1, "580": 1, "786": 1, "417": 1, "418": 1, "419": 1, "420": 1, "421": 1, "422": 1, "423": 1, "424": 1, "425": 1, "426": 1, "427": 1, "431": 0, "453": 0, "454": 0, "455": 0, "457": 0, "458": 0, "459": 0, "462": 0, "463": 0, "469": 0, "471": 0, "487": 0, "488": 0, "504": 0, "505": 0, "521": 0, "522": 0, "538": 0, "539": 0, "555": 0, "556": 0, "572": 0, "573": 0, "577": 0, "578": 0, "602": 1, "603": 0, "606": 0, "607": 0, "608": 0, "610": 0, "612": 0, "613": 1, "614": 1, "616": 1, "617": 1, "619": 1, "620": 0, "621": 0, "623": 0, "624": 0, "631": 0, "633": 0, "635": 1, "637": 1, "638": 1, "640": 1, "641": 1, "642": 1, "643": 0, "644": 0, "645": 0, "647": 1, "648": 1, "650": 1, "651": 1, "652": 1, "653": 8, "660": 7, "661": 1, "664": 1, "666": 1, "669": 0, "673": 1, "674": 1, "675": 1, "678": 1, "679": 0, "681": 1, "705": 1, "706": 1, "710": 1, "711": 1, "712": 1, "713": 1, "714": 3, "715": 4, "719": 2, "721": 1, "723": 1, "726": 1, "727": 1, "728": 1, "729": 1, "730": 1, "731": 1, "735": 1, "736": 1, "738": 2, "740": 1, "741": 1, "742": 1, "743": 1, "744": 1, "745": 1, "746": 1, "748": 1, "749": 6, "751": 5, "754": 5, "756": 5, "761": 1, "762": 1, "763": 1, "764": 1, "765": 1, "767": 1, "768": 1, "769": 1, "770": 1, "771": 1, "772": 1, "774": 0, "775": 1, "776": 1, "779": 1, "781": 1, "782": 1, "784": 1, "685": 4, "686": 4, "687": 4, "688": 8, "691": 6, "693": 4, "694": 4, "696": 4, "697": 4, "698": 4, "699": 4, "701": 4, "702": 1, "703": 1, "788": 0, "789": 0, "790": 0, "792": 0, "793": 0, "796": 0, "798": 0, "800": 0, "801": 0, "802": 0, "803": 0, "804": 0, "806": 0, "807": 0, "808": 0, "810": 0, "1119": 1, "1128": 1, "1120": 1, "1121": 1, "1122": 1, "1123": 1, "1124": 1, "1125": 1, "1126": 1, "1130": 1, "1431": 1, "1441": 1, "1432": 0, "1433": 0, "1434": 0, "1435": 0, "1436": 0, "1437": 0, "1438": 0, "1439": 0, "1443": 0, "1444": 0, "1445": 0}}
++ git checkout 553b5fb8f84ba05c8397f26dd079deece2b05029
+Note: switching to '553b5fb8f84ba05c8397f26dd079deece2b05029'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 553b5fb8f8 BLD fix sphx gallery errors (#11307)
+M	sklearn/model_selection/_search.py
++ git apply /root/pre_state.patch
+error: unrecognized input

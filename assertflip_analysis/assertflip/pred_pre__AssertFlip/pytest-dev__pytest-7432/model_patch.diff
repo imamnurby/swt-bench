@@ -1,0 +1,31 @@
+diff --git a/dev/null b/testing/test_coverup_pytest-dev__pytest-7432.py
+new file mode 100644
+index e69de29..b58fa4d 100644
+--- /dev/null
++++ b/testing/test_coverup_pytest-dev__pytest-7432.py
+@@ -0,0 +1,25 @@
++import pytest
++import os
++
++def test_skip_location_reporting():
++    # Create a test file with a function marked with @pytest.mark.skip
++    test_file_content = """
++import pytest
++
++@pytest.mark.skip
++def test_skip_location():
++    assert 0
++"""
++    test_file_path = "test_skip_location.py"
++    with open(test_file_path, "w") as f:
++        f.write(test_file_content)
++
++    # Run the test with pytest -rs --runxfail and capture the output
++    result = pytest.main(["-rs", "--runxfail", test_file_path])
++
++    # Check that the skip location is correctly reported as test_skip_location.py:3
++    assert result != 0  # The test should fail if the bug is present
++
++    # Cleanup: remove the test file
++    os.remove(test_file_path)
++

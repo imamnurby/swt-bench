@@ -1,0 +1,31 @@
+diff --git a/dev/null b/test_coverup_psf__requests-6028.py
+new file mode 100644
+index e69de29..75d7278 100644
+--- /dev/null
++++ b/test_coverup_psf__requests-6028.py
+@@ -0,0 +1,25 @@
++import pytest
++from requests import Session
++from requests.auth import HTTPProxyAuth
++from unittest.mock import patch
++
++def test_proxy_authentication_bug():
++    # Setup: Mock the proxy server and request
++    proxies = {
++        'http': 'http://user:pass@proxy.example.com:8080',
++        'https': 'https://user:pass@proxy.example.com:8080',
++    }
++    auth = HTTPProxyAuth('user', 'pass')
++
++    # Mock the proxy_headers method to simulate the bug
++    with patch('requests.adapters.HTTPAdapter.proxy_headers', return_value={}):
++        with patch('requests.sessions.Session.send') as mock_send:
++            mock_response = mock_send.return_value
++            mock_response.status_code = 407  # Simulate the bug: Proxy Authentication Required
++
++            # Create a session and make a request
++            session = Session()
++            response = session.get('https://example.org/', proxies=proxies, auth=auth)
++
++            # Assert the correct behavior occurs
++            assert response.status_code == 200  # Expecting a status code of 200 when the bug is fixed

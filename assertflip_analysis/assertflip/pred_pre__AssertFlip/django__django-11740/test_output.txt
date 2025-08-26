@@ -1,0 +1,1425 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 003bb34b218adb23d1a7e67932a6ba9b3c4dcc81
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 003bb34b218adb23d1a7e67932a6ba9b3c4dcc81
+Author: Johannes Hoppe <info@johanneshoppe.com>
+Date:   Wed Jul 24 08:39:45 2019 +0200
+
+    Refs #29444 -- Made db.backends.oracle.utils.InsertVar use str as default.
+
+diff --git a/django/db/backends/oracle/utils.py b/django/db/backends/oracle/utils.py
+index 64e69136bf..ce2bf72d84 100644
+--- a/django/db/backends/oracle/utils.py
++++ b/django/db/backends/oracle/utils.py
+@@ -10,8 +10,15 @@ class InsertVar:
+     insert statement.
+     """
+     types = {
++        'AutoField': int,
++        'BigAutoField': int,
++        'SmallAutoField': int,
++        'IntegerField': int,
++        'BigIntegerField': int,
++        'SmallIntegerField': int,
++        'PositiveSmallIntegerField': int,
++        'PositiveIntegerField': int,
+         'FloatField': Database.NATIVE_FLOAT,
+-        'CharField': str,
+         'DateTimeField': Database.TIMESTAMP,
+         'DateField': Database.DATETIME,
+         'DecimalField': Database.NUMBER,
+@@ -19,7 +26,7 @@ class InsertVar:
+ 
+     def __init__(self, field):
+         internal_type = getattr(field, 'target_field', field).get_internal_type()
+-        self.db_type = self.types.get(internal_type, int)
++        self.db_type = self.types.get(internal_type, str)
+ 
+     def bind_parameter(self, cursor):
+         param = cursor.cursor.var(self.db_type)
++ git diff 003bb34b218adb23d1a7e67932a6ba9b3c4dcc81
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0) (0.4.4)
+Requirement already satisfied: asgiref in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0) (3.4.1)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref->Django==3.0) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.0
+    Uninstalling Django-3.0:
+      Successfully uninstalled Django-3.0
+  Running setup.py develop for Django
+Successfully installed Django-3.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch tests/test_coverup_django__django-11740.py...
+Applied patch tests/test_coverup_django__django-11740.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/migrations/autodetector\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11740
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+test_uuid_to_fk_migration_dependency (test_coverup_django__django-11740.MigrationTest) ... ['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/migrations/autodetector\\.py)']
+Testing against Django installed in '/testbed/django'
+0.59 /testbed/django/db/migrations/autodetector.py(1): import functools
+0.59 /testbed/django/db/migrations/autodetector.py(2): import re
+0.59 /testbed/django/db/migrations/autodetector.py(3): from itertools import chain
+0.59 /testbed/django/db/migrations/autodetector.py(5): from django.conf import settings
+0.59 /testbed/django/db/migrations/autodetector.py(6): from django.db import models
+0.59 /testbed/django/db/migrations/autodetector.py(7): from django.db.migrations import operations
+0.59 /testbed/django/db/migrations/autodetector.py(8): from django.db.migrations.migration import Migration
+0.59 /testbed/django/db/migrations/autodetector.py(9): from django.db.migrations.operations.models import AlterModelOptions
+0.59 /testbed/django/db/migrations/autodetector.py(10): from django.db.migrations.optimizer import MigrationOptimizer
+0.59 /testbed/django/db/migrations/autodetector.py(11): from django.db.migrations.questioner import MigrationQuestioner
+0.59 /testbed/django/db/migrations/autodetector.py(12): from django.db.migrations.utils import (
+0.59 /testbed/django/db/migrations/autodetector.py(15): from django.utils.topological_sort import stable_topological_sort
+0.59 /testbed/django/db/migrations/autodetector.py(18): class MigrationAutodetector:
+0.59 /testbed/django/db/migrations/autodetector.py(18): class MigrationAutodetector:
+0.59 /testbed/django/db/migrations/autodetector.py(29):     """
+0.59 /testbed/django/db/migrations/autodetector.py(31):     def __init__(self, from_state, to_state, questioner=None):
+0.59 /testbed/django/db/migrations/autodetector.py(37):     def changes(self, graph, trim_to_apps=None, convert_apps=None, migration_name=None):
+0.59 /testbed/django/db/migrations/autodetector.py(49):     def deep_deconstruct(self, obj):
+0.59 /testbed/django/db/migrations/autodetector.py(89):     def only_relation_agnostic_fields(self, fields):
+0.59 /testbed/django/db/migrations/autodetector.py(103):     def _detect_changes(self, convert_apps=None, graph=None):
+0.59 /testbed/django/db/migrations/autodetector.py(200):     def _prepare_field_lists(self):
+0.59 /testbed/django/db/migrations/autodetector.py(224):     def _generate_through_model_map(self):
+0.59 /testbed/django/db/migrations/autodetector.py(239):     @staticmethod
+0.59 /testbed/django/db/migrations/autodetector.py(250):     def _build_migration_list(self, graph=None):
+0.59 /testbed/django/db/migrations/autodetector.py(337):     def _sort_migrations(self):
+0.59 /testbed/django/db/migrations/autodetector.py(358):     def _optimize_migrations(self):
+0.59 /testbed/django/db/migrations/autodetector.py(374):     def check_dependency(self, operation, dependency):
+0.59 /testbed/django/db/migrations/autodetector.py(437):     def add_operation(self, app_label, operation, dependencies=None, beginning=False):
+0.59 /testbed/django/db/migrations/autodetector.py(445):     def swappable_first_key(self, item):
+0.59 /testbed/django/db/migrations/autodetector.py(465):     def generate_renamed_models(self):
+0.59 /testbed/django/db/migrations/autodetector.py(508):     def generate_created_models(self):
+0.59 /testbed/django/db/migrations/autodetector.py(673):     def generate_created_proxies(self):
+0.59 /testbed/django/db/migrations/autodetector.py(707):     def generate_deleted_models(self):
+0.59 /testbed/django/db/migrations/autodetector.py(796):     def generate_deleted_proxies(self):
+0.59 /testbed/django/db/migrations/autodetector.py(809):     def generate_renamed_fields(self):
+0.59 /testbed/django/db/migrations/autodetector.py(847):     def generate_added_fields(self):
+0.59 /testbed/django/db/migrations/autodetector.py(852):     def _generate_added_field(self, app_label, model_name, field_name):
+0.59 /testbed/django/db/migrations/autodetector.py(883):     def generate_removed_fields(self):
+0.59 /testbed/django/db/migrations/autodetector.py(888):     def _generate_removed_field(self, app_label, model_name, field_name):
+0.59 /testbed/django/db/migrations/autodetector.py(904):     def generate_altered_fields(self):
+0.59 /testbed/django/db/migrations/autodetector.py(980):     def create_altered_indexes(self):
+0.59 /testbed/django/db/migrations/autodetector.py(998):     def generate_added_indexes(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1009):     def generate_removed_indexes(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1020):     def create_altered_constraints(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1038):     def generate_added_constraints(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1049):     def generate_removed_constraints(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1060):     def _get_dependencies_for_foreign_key(self, field):
+0.59 /testbed/django/db/migrations/autodetector.py(1079):     def _generate_altered_foo_together(self, operation):
+0.59 /testbed/django/db/migrations/autodetector.py(1116):     def generate_altered_unique_together(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1119):     def generate_altered_index_together(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1122):     def generate_altered_db_table(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1139):     def generate_altered_options(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1175):     def generate_altered_order_with_respect_to(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1202):     def generate_altered_managers(self):
+0.59 /testbed/django/db/migrations/autodetector.py(1216):     def arrange_for_graph(self, changes, graph, migration_name=None):
+0.59 /testbed/django/db/migrations/autodetector.py(1265):     def _trim_to_apps(self, changes, app_labels):
+0.59 /testbed/django/db/migrations/autodetector.py(1290):     @classmethod
+0.59 /testbed/django/db/migrations/autodetector.py(1311):     @classmethod
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+System check identified no issues (0 silenced).
+0.79 /testbed/django/db/migrations/autodetector.py(32):         self.from_state = from_state
+0.79 /testbed/django/db/migrations/autodetector.py(33):         self.to_state = to_state
+0.79 /testbed/django/db/migrations/autodetector.py(34):         self.questioner = questioner or MigrationQuestioner()
+0.79 /testbed/django/db/migrations/autodetector.py(35):         self.existing_apps = {app for app, model in from_state.models}
+0.79 /testbed/django/db/migrations/autodetector.py(35):         self.existing_apps = {app for app, model in from_state.models}
+0.79 /testbed/django/db/migrations/autodetector.py(35):         self.existing_apps = {app for app, model in from_state.models}
+0.79 /testbed/django/db/migrations/autodetector.py(35):         self.existing_apps = {app for app, model in from_state.models}
+0.79 /testbed/django/db/migrations/autodetector.py(122):         self.generated_operations = {}
+0.79 /testbed/django/db/migrations/autodetector.py(123):         self.altered_indexes = {}
+0.79 /testbed/django/db/migrations/autodetector.py(124):         self.altered_constraints = {}
+0.79 /testbed/django/db/migrations/autodetector.py(128):         self.old_apps = self.from_state.concrete_apps
+0.79 /testbed/django/db/migrations/autodetector.py(129):         self.new_apps = self.to_state.apps
+0.79 /testbed/django/db/migrations/autodetector.py(130):         self.old_model_keys = set()
+0.79 /testbed/django/db/migrations/autodetector.py(131):         self.old_proxy_keys = set()
+0.79 /testbed/django/db/migrations/autodetector.py(132):         self.old_unmanaged_keys = set()
+0.79 /testbed/django/db/migrations/autodetector.py(133):         self.new_model_keys = set()
+0.79 /testbed/django/db/migrations/autodetector.py(134):         self.new_proxy_keys = set()
+0.79 /testbed/django/db/migrations/autodetector.py(135):         self.new_unmanaged_keys = set()
+0.79 /testbed/django/db/migrations/autodetector.py(136):         for al, mn in self.from_state.models:
+0.79 /testbed/django/db/migrations/autodetector.py(137):             model = self.old_apps.get_model(al, mn)
+0.79 /testbed/django/db/migrations/autodetector.py(138):             if not model._meta.managed:
+0.79 /testbed/django/db/migrations/autodetector.py(140):             elif al not in self.from_state.real_apps:
+0.79 /testbed/django/db/migrations/autodetector.py(141):                 if model._meta.proxy:
+0.79 /testbed/django/db/migrations/autodetector.py(144):                     self.old_model_keys.add((al, mn))
+0.79 /testbed/django/db/migrations/autodetector.py(136):         for al, mn in self.from_state.models:
+0.79 /testbed/django/db/migrations/autodetector.py(137):             model = self.old_apps.get_model(al, mn)
+0.79 /testbed/django/db/migrations/autodetector.py(138):             if not model._meta.managed:
+0.79 /testbed/django/db/migrations/autodetector.py(140):             elif al not in self.from_state.real_apps:
+0.79 /testbed/django/db/migrations/autodetector.py(141):                 if model._meta.proxy:
+0.79 /testbed/django/db/migrations/autodetector.py(144):                     self.old_model_keys.add((al, mn))
+0.79 /testbed/django/db/migrations/autodetector.py(136):         for al, mn in self.from_state.models:
+0.79 /testbed/django/db/migrations/autodetector.py(146):         for al, mn in self.to_state.models:
+0.79 /testbed/django/db/migrations/autodetector.py(147):             model = self.new_apps.get_model(al, mn)
+0.79 /testbed/django/db/migrations/autodetector.py(148):             if not model._meta.managed:
+0.79 /testbed/django/db/migrations/autodetector.py(151):                 al not in self.from_state.real_apps or
+0.79 /testbed/django/db/migrations/autodetector.py(154):                 if model._meta.proxy:
+0.79 /testbed/django/db/migrations/autodetector.py(157):                     self.new_model_keys.add((al, mn))
+0.79 /testbed/django/db/migrations/autodetector.py(146):         for al, mn in self.to_state.models:
+0.79 /testbed/django/db/migrations/autodetector.py(147):             model = self.new_apps.get_model(al, mn)
+0.79 /testbed/django/db/migrations/autodetector.py(148):             if not model._meta.managed:
+0.79 /testbed/django/db/migrations/autodetector.py(151):                 al not in self.from_state.real_apps or
+0.79 /testbed/django/db/migrations/autodetector.py(154):                 if model._meta.proxy:
+0.79 /testbed/django/db/migrations/autodetector.py(157):                     self.new_model_keys.add((al, mn))
+0.79 /testbed/django/db/migrations/autodetector.py(146):         for al, mn in self.to_state.models:
+0.79 /testbed/django/db/migrations/autodetector.py(160):         self.generate_renamed_models()
+0.79 /testbed/django/db/migrations/autodetector.py(471):         self.renamed_models = {}
+0.79 /testbed/django/db/migrations/autodetector.py(472):         self.renamed_models_rel = {}
+0.79 /testbed/django/db/migrations/autodetector.py(473):         added_models = self.new_model_keys - self.old_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(474):         for app_label, model_name in sorted(added_models):
+0.79 /testbed/django/db/migrations/autodetector.py(163):         self._prepare_field_lists()
+0.79 /testbed/django/db/migrations/autodetector.py(206):         self.kept_model_keys = self.old_model_keys & self.new_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(207):         self.kept_proxy_keys = self.old_proxy_keys & self.new_proxy_keys
+0.79 /testbed/django/db/migrations/autodetector.py(208):         self.kept_unmanaged_keys = self.old_unmanaged_keys & self.new_unmanaged_keys
+0.79 /testbed/django/db/migrations/autodetector.py(209):         self.through_users = {}
+0.79 /testbed/django/db/migrations/autodetector.py(210):         self.old_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(212):             for app_label, model_name in self.kept_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(210):         self.old_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(212):             for app_label, model_name in self.kept_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(213):             for x, y in self.from_state.models[
+0.79 /testbed/django/db/migrations/autodetector.py(214):                 app_label,
+0.79 /testbed/django/db/migrations/autodetector.py(215):                 self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(215):                 self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(215):                 self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(210):         self.old_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(212):             for app_label, model_name in self.kept_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(213):             for x, y in self.from_state.models[
+0.79 /testbed/django/db/migrations/autodetector.py(214):                 app_label,
+0.79 /testbed/django/db/migrations/autodetector.py(215):                 self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(215):                 self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(215):                 self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(215):                 self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(210):         self.old_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(218):         self.new_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(220):             for app_label, model_name in self.kept_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(218):         self.new_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(220):             for app_label, model_name in self.kept_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(221):             for x, y in self.to_state.models[app_label, model_name].fields
+0.79 /testbed/django/db/migrations/autodetector.py(221):             for x, y in self.to_state.models[app_label, model_name].fields
+0.79 /testbed/django/db/migrations/autodetector.py(221):             for x, y in self.to_state.models[app_label, model_name].fields
+0.79 /testbed/django/db/migrations/autodetector.py(218):         self.new_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(220):             for app_label, model_name in self.kept_model_keys
+0.79 /testbed/django/db/migrations/autodetector.py(221):             for x, y in self.to_state.models[app_label, model_name].fields
+0.79 /testbed/django/db/migrations/autodetector.py(221):             for x, y in self.to_state.models[app_label, model_name].fields
+0.79 /testbed/django/db/migrations/autodetector.py(221):             for x, y in self.to_state.models[app_label, model_name].fields
+0.79 /testbed/django/db/migrations/autodetector.py(221):             for x, y in self.to_state.models[app_label, model_name].fields
+0.79 /testbed/django/db/migrations/autodetector.py(218):         self.new_field_keys = {
+0.79 /testbed/django/db/migrations/autodetector.py(164):         self._generate_through_model_map()
+0.79 /testbed/django/db/migrations/autodetector.py(226):         for app_label, model_name in sorted(self.old_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(227):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(228):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(229):             for field_name, field in old_model_state.fields:
+0.79 /testbed/django/db/migrations/autodetector.py(230):                 old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(231):                 if (hasattr(old_field, "remote_field") and getattr(old_field.remote_field, "through", None) and
+0.79 /testbed/django/db/migrations/autodetector.py(229):             for field_name, field in old_model_state.fields:
+0.79 /testbed/django/db/migrations/autodetector.py(230):                 old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(231):                 if (hasattr(old_field, "remote_field") and getattr(old_field.remote_field, "through", None) and
+0.79 /testbed/django/db/migrations/autodetector.py(229):             for field_name, field in old_model_state.fields:
+0.79 /testbed/django/db/migrations/autodetector.py(230):                 old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(231):                 if (hasattr(old_field, "remote_field") and getattr(old_field.remote_field, "through", None) and
+0.79 /testbed/django/db/migrations/autodetector.py(229):             for field_name, field in old_model_state.fields:
+0.79 /testbed/django/db/migrations/autodetector.py(226):         for app_label, model_name in sorted(self.old_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(227):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(228):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(229):             for field_name, field in old_model_state.fields:
+0.79 /testbed/django/db/migrations/autodetector.py(230):                 old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(231):                 if (hasattr(old_field, "remote_field") and getattr(old_field.remote_field, "through", None) and
+0.79 /testbed/django/db/migrations/autodetector.py(229):             for field_name, field in old_model_state.fields:
+0.79 /testbed/django/db/migrations/autodetector.py(230):                 old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(231):                 if (hasattr(old_field, "remote_field") and getattr(old_field.remote_field, "through", None) and
+0.79 /testbed/django/db/migrations/autodetector.py(229):             for field_name, field in old_model_state.fields:
+0.79 /testbed/django/db/migrations/autodetector.py(226):         for app_label, model_name in sorted(self.old_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(167):         self.generate_deleted_models()
+0.79 /testbed/django/db/migrations/autodetector.py(717):         new_keys = self.new_model_keys | self.new_unmanaged_keys
+0.79 /testbed/django/db/migrations/autodetector.py(718):         deleted_models = self.old_model_keys - new_keys
+0.79 /testbed/django/db/migrations/autodetector.py(719):         deleted_unmanaged_models = self.old_unmanaged_keys - new_keys
+0.79 /testbed/django/db/migrations/autodetector.py(720):         all_deleted_models = chain(sorted(deleted_models), sorted(deleted_unmanaged_models))
+0.79 /testbed/django/db/migrations/autodetector.py(721):         for app_label, model_name in all_deleted_models:
+0.79 /testbed/django/db/migrations/autodetector.py(168):         self.generate_created_models()
+0.79 /testbed/django/db/migrations/autodetector.py(518):         old_keys = self.old_model_keys | self.old_unmanaged_keys
+0.79 /testbed/django/db/migrations/autodetector.py(519):         added_models = self.new_model_keys - old_keys
+0.79 /testbed/django/db/migrations/autodetector.py(520):         added_unmanaged_models = self.new_unmanaged_keys - old_keys
+0.79 /testbed/django/db/migrations/autodetector.py(521):         all_added_models = chain(
+0.79 /testbed/django/db/migrations/autodetector.py(522):             sorted(added_models, key=self.swappable_first_key, reverse=True),
+0.79 /testbed/django/db/migrations/autodetector.py(523):             sorted(added_unmanaged_models, key=self.swappable_first_key, reverse=True)
+0.79 /testbed/django/db/migrations/autodetector.py(525):         for app_label, model_name in all_added_models:
+0.79 /testbed/django/db/migrations/autodetector.py(169):         self.generate_deleted_proxies()
+0.79 /testbed/django/db/migrations/autodetector.py(798):         deleted = self.old_proxy_keys - self.new_proxy_keys
+0.79 /testbed/django/db/migrations/autodetector.py(799):         for app_label, model_name in sorted(deleted):
+0.79 /testbed/django/db/migrations/autodetector.py(170):         self.generate_created_proxies()
+0.79 /testbed/django/db/migrations/autodetector.py(680):         added = self.new_proxy_keys - self.old_proxy_keys
+0.79 /testbed/django/db/migrations/autodetector.py(681):         for app_label, model_name in sorted(added):
+0.79 /testbed/django/db/migrations/autodetector.py(171):         self.generate_altered_options()
+0.79 /testbed/django/db/migrations/autodetector.py(1145):         models_to_check = self.kept_model_keys.union(
+0.79 /testbed/django/db/migrations/autodetector.py(1146):             self.kept_proxy_keys,
+0.79 /testbed/django/db/migrations/autodetector.py(1147):             self.kept_unmanaged_keys,
+0.79 /testbed/django/db/migrations/autodetector.py(1149):             self.old_unmanaged_keys & self.new_model_keys,
+0.79 /testbed/django/db/migrations/autodetector.py(1151):             self.old_model_keys & self.new_unmanaged_keys,
+0.79 /testbed/django/db/migrations/autodetector.py(1154):         for app_label, model_name in sorted(models_to_check):
+0.79 /testbed/django/db/migrations/autodetector.py(1155):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(1156):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1157):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1159):                 key: value for key, value in old_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1159):                 key: value for key, value in old_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1160):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1159):                 key: value for key, value in old_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1160):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1163):                 key: value for key, value in new_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1163):                 key: value for key, value in new_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1164):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1163):                 key: value for key, value in new_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1164):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1166):             if old_options != new_options:
+0.79 /testbed/django/db/migrations/autodetector.py(1154):         for app_label, model_name in sorted(models_to_check):
+0.79 /testbed/django/db/migrations/autodetector.py(1155):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(1156):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1157):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1159):                 key: value for key, value in old_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1159):                 key: value for key, value in old_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1160):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1159):                 key: value for key, value in old_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1160):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1158):             old_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1163):                 key: value for key, value in new_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1163):                 key: value for key, value in new_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1164):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1163):                 key: value for key, value in new_model_state.options.items()
+0.79 /testbed/django/db/migrations/autodetector.py(1164):                 if key in AlterModelOptions.ALTER_OPTION_KEYS
+0.79 /testbed/django/db/migrations/autodetector.py(1162):             new_options = {
+0.79 /testbed/django/db/migrations/autodetector.py(1166):             if old_options != new_options:
+0.79 /testbed/django/db/migrations/autodetector.py(1154):         for app_label, model_name in sorted(models_to_check):
+0.79 /testbed/django/db/migrations/autodetector.py(172):         self.generate_altered_managers()
+0.79 /testbed/django/db/migrations/autodetector.py(1203):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(1204):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(1205):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1206):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1207):             if old_model_state.managers != new_model_state.managers:
+0.79 /testbed/django/db/migrations/autodetector.py(1203):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(1204):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(1205):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1206):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1207):             if old_model_state.managers != new_model_state.managers:
+0.79 /testbed/django/db/migrations/autodetector.py(1203):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(177):         self.create_altered_indexes()
+0.79 /testbed/django/db/migrations/autodetector.py(981):         option_name = operations.AddIndex.option_name
+0.79 /testbed/django/db/migrations/autodetector.py(982):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(983):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(984):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(985):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(987):             old_indexes = old_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(988):             new_indexes = new_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(989):             add_idx = [idx for idx in new_indexes if idx not in old_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(989):             add_idx = [idx for idx in new_indexes if idx not in old_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(990):             rem_idx = [idx for idx in old_indexes if idx not in new_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(990):             rem_idx = [idx for idx in old_indexes if idx not in new_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(992):             self.altered_indexes.update({
+0.79 /testbed/django/db/migrations/autodetector.py(993):                 (app_label, model_name): {
+0.79 /testbed/django/db/migrations/autodetector.py(994):                     'added_indexes': add_idx, 'removed_indexes': rem_idx,
+0.79 /testbed/django/db/migrations/autodetector.py(982):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(983):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(984):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(985):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(987):             old_indexes = old_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(988):             new_indexes = new_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(989):             add_idx = [idx for idx in new_indexes if idx not in old_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(989):             add_idx = [idx for idx in new_indexes if idx not in old_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(990):             rem_idx = [idx for idx in old_indexes if idx not in new_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(990):             rem_idx = [idx for idx in old_indexes if idx not in new_indexes]
+0.79 /testbed/django/db/migrations/autodetector.py(992):             self.altered_indexes.update({
+0.79 /testbed/django/db/migrations/autodetector.py(993):                 (app_label, model_name): {
+0.79 /testbed/django/db/migrations/autodetector.py(994):                     'added_indexes': add_idx, 'removed_indexes': rem_idx,
+0.79 /testbed/django/db/migrations/autodetector.py(982):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(178):         self.create_altered_constraints()
+0.79 /testbed/django/db/migrations/autodetector.py(1021):         option_name = operations.AddConstraint.option_name
+0.79 /testbed/django/db/migrations/autodetector.py(1022):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(1023):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(1024):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1025):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1027):             old_constraints = old_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1028):             new_constraints = new_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1029):             add_constraints = [c for c in new_constraints if c not in old_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1029):             add_constraints = [c for c in new_constraints if c not in old_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1030):             rem_constraints = [c for c in old_constraints if c not in new_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1030):             rem_constraints = [c for c in old_constraints if c not in new_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1032):             self.altered_constraints.update({
+0.79 /testbed/django/db/migrations/autodetector.py(1033):                 (app_label, model_name): {
+0.79 /testbed/django/db/migrations/autodetector.py(1034):                     'added_constraints': add_constraints, 'removed_constraints': rem_constraints,
+0.79 /testbed/django/db/migrations/autodetector.py(1022):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(1023):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(1024):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1025):             new_model_state = self.to_state.models[app_label, model_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1027):             old_constraints = old_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1028):             new_constraints = new_model_state.options[option_name]
+0.79 /testbed/django/db/migrations/autodetector.py(1029):             add_constraints = [c for c in new_constraints if c not in old_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1029):             add_constraints = [c for c in new_constraints if c not in old_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1030):             rem_constraints = [c for c in old_constraints if c not in new_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1030):             rem_constraints = [c for c in old_constraints if c not in new_constraints]
+0.79 /testbed/django/db/migrations/autodetector.py(1032):             self.altered_constraints.update({
+0.79 /testbed/django/db/migrations/autodetector.py(1033):                 (app_label, model_name): {
+0.79 /testbed/django/db/migrations/autodetector.py(1034):                     'added_constraints': add_constraints, 'removed_constraints': rem_constraints,
+0.79 /testbed/django/db/migrations/autodetector.py(1022):         for app_label, model_name in sorted(self.kept_model_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(180):         self.generate_removed_constraints()
+0.79 /testbed/django/db/migrations/autodetector.py(1050):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.79 /testbed/django/db/migrations/autodetector.py(1051):             for constraint in alt_constraints['removed_constraints']:
+0.79 /testbed/django/db/migrations/autodetector.py(1050):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.79 /testbed/django/db/migrations/autodetector.py(1051):             for constraint in alt_constraints['removed_constraints']:
+0.79 /testbed/django/db/migrations/autodetector.py(1050):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.79 /testbed/django/db/migrations/autodetector.py(181):         self.generate_removed_indexes()
+0.79 /testbed/django/db/migrations/autodetector.py(1010):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.79 /testbed/django/db/migrations/autodetector.py(1011):             for index in alt_indexes['removed_indexes']:
+0.79 /testbed/django/db/migrations/autodetector.py(1010):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.79 /testbed/django/db/migrations/autodetector.py(1011):             for index in alt_indexes['removed_indexes']:
+0.79 /testbed/django/db/migrations/autodetector.py(1010):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.79 /testbed/django/db/migrations/autodetector.py(183):         self.generate_renamed_fields()
+0.79 /testbed/django/db/migrations/autodetector.py(811):         self.renamed_fields = {}
+0.79 /testbed/django/db/migrations/autodetector.py(812):         for app_label, model_name, field_name in sorted(self.new_field_keys - self.old_field_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(184):         self.generate_removed_fields()
+0.79 /testbed/django/db/migrations/autodetector.py(885):         for app_label, model_name, field_name in sorted(self.old_field_keys - self.new_field_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(185):         self.generate_added_fields()
+0.79 /testbed/django/db/migrations/autodetector.py(849):         for app_label, model_name, field_name in sorted(self.new_field_keys - self.old_field_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(186):         self.generate_altered_fields()
+0.79 /testbed/django/db/migrations/autodetector.py(909):         for app_label, model_name, field_name in sorted(self.old_field_keys & self.new_field_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(911):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(912):             old_field_name = self.renamed_fields.get((app_label, model_name, field_name), field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(913):             old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(old_field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(914):             new_field = self.new_apps.get_model(app_label, model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(917):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "model", None):
+0.79 /testbed/django/db/migrations/autodetector.py(919):                     new_field.remote_field.model._meta.app_label,
+0.79 /testbed/django/db/migrations/autodetector.py(920):                     new_field.remote_field.model._meta.model_name,
+0.79 /testbed/django/db/migrations/autodetector.py(922):                 if rename_key in self.renamed_models:
+0.79 /testbed/django/db/migrations/autodetector.py(925):                 remote_field_name = getattr(new_field.remote_field, 'field_name', None)
+0.79 /testbed/django/db/migrations/autodetector.py(926):                 if remote_field_name:
+0.79 /testbed/django/db/migrations/autodetector.py(927):                     to_field_rename_key = rename_key + (remote_field_name,)
+0.79 /testbed/django/db/migrations/autodetector.py(928):                     if to_field_rename_key in self.renamed_fields:
+0.79 /testbed/django/db/migrations/autodetector.py(931):                 from_fields = getattr(new_field, 'from_fields', None)
+0.79 /testbed/django/db/migrations/autodetector.py(932):                 if from_fields:
+0.79 /testbed/django/db/migrations/autodetector.py(933):                     from_rename_key = (app_label, model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(934):                     new_field.from_fields = tuple([
+0.79 /testbed/django/db/migrations/autodetector.py(935):                         self.renamed_fields.get(from_rename_key + (from_field,), from_field)
+0.79 /testbed/django/db/migrations/autodetector.py(936):                         for from_field in from_fields
+0.79 /testbed/django/db/migrations/autodetector.py(935):                         self.renamed_fields.get(from_rename_key + (from_field,), from_field)
+0.79 /testbed/django/db/migrations/autodetector.py(936):                         for from_field in from_fields
+0.79 /testbed/django/db/migrations/autodetector.py(935):                         self.renamed_fields.get(from_rename_key + (from_field,), from_field)
+0.79 /testbed/django/db/migrations/autodetector.py(938):                     new_field.to_fields = tuple([
+0.79 /testbed/django/db/migrations/autodetector.py(939):                         self.renamed_fields.get(rename_key + (to_field,), to_field)
+0.79 /testbed/django/db/migrations/autodetector.py(940):                         for to_field in new_field.to_fields
+0.79 /testbed/django/db/migrations/autodetector.py(939):                         self.renamed_fields.get(rename_key + (to_field,), to_field)
+0.79 /testbed/django/db/migrations/autodetector.py(940):                         for to_field in new_field.to_fields
+0.79 /testbed/django/db/migrations/autodetector.py(939):                         self.renamed_fields.get(rename_key + (to_field,), to_field)
+0.79 /testbed/django/db/migrations/autodetector.py(942):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "through", None):
+0.79 /testbed/django/db/migrations/autodetector.py(949):             old_field_dec = self.deep_deconstruct(old_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(950):             new_field_dec = self.deep_deconstruct(new_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(951):             if old_field_dec != new_field_dec:
+0.79 /testbed/django/db/migrations/autodetector.py(952):                 both_m2m = old_field.many_to_many and new_field.many_to_many
+0.79 /testbed/django/db/migrations/autodetector.py(953):                 neither_m2m = not old_field.many_to_many and not new_field.many_to_many
+0.79 /testbed/django/db/migrations/autodetector.py(954):                 if both_m2m or neither_m2m:
+0.79 /testbed/django/db/migrations/autodetector.py(956):                     preserve_default = True
+0.79 /testbed/django/db/migrations/autodetector.py(957):                     if (old_field.null and not new_field.null and not new_field.has_default() and
+0.79 /testbed/django/db/migrations/autodetector.py(965):                         field = new_field
+0.79 /testbed/django/db/migrations/autodetector.py(966):                     self.add_operation(
+0.79 /testbed/django/db/migrations/autodetector.py(967):                         app_label,
+0.79 /testbed/django/db/migrations/autodetector.py(968):                         operations.AlterField(
+0.79 /testbed/django/db/migrations/autodetector.py(969):                             model_name=model_name,
+0.79 /testbed/django/db/migrations/autodetector.py(970):                             name=field_name,
+0.79 /testbed/django/db/migrations/autodetector.py(971):                             field=field,
+0.79 /testbed/django/db/migrations/autodetector.py(972):                             preserve_default=preserve_default,
+0.79 /testbed/django/db/migrations/autodetector.py(439):         operation._auto_deps = dependencies or []
+0.79 /testbed/django/db/migrations/autodetector.py(440):         if beginning:
+0.79 /testbed/django/db/migrations/autodetector.py(443):             self.generated_operations.setdefault(app_label, []).append(operation)
+0.79 /testbed/django/db/migrations/autodetector.py(909):         for app_label, model_name, field_name in sorted(self.old_field_keys & self.new_field_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(911):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(912):             old_field_name = self.renamed_fields.get((app_label, model_name, field_name), field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(913):             old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(old_field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(914):             new_field = self.new_apps.get_model(app_label, model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(917):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "model", None):
+0.79 /testbed/django/db/migrations/autodetector.py(942):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "through", None):
+0.79 /testbed/django/db/migrations/autodetector.py(949):             old_field_dec = self.deep_deconstruct(old_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(950):             new_field_dec = self.deep_deconstruct(new_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(951):             if old_field_dec != new_field_dec:
+0.79 /testbed/django/db/migrations/autodetector.py(909):         for app_label, model_name, field_name in sorted(self.old_field_keys & self.new_field_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(911):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(912):             old_field_name = self.renamed_fields.get((app_label, model_name, field_name), field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(913):             old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(old_field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(914):             new_field = self.new_apps.get_model(app_label, model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(917):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "model", None):
+0.79 /testbed/django/db/migrations/autodetector.py(942):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "through", None):
+0.79 /testbed/django/db/migrations/autodetector.py(949):             old_field_dec = self.deep_deconstruct(old_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(950):             new_field_dec = self.deep_deconstruct(new_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(951):             if old_field_dec != new_field_dec:
+0.79 /testbed/django/db/migrations/autodetector.py(909):         for app_label, model_name, field_name in sorted(self.old_field_keys & self.new_field_keys):
+0.79 /testbed/django/db/migrations/autodetector.py(911):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.79 /testbed/django/db/migrations/autodetector.py(912):             old_field_name = self.renamed_fields.get((app_label, model_name, field_name), field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(913):             old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(old_field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(914):             new_field = self.new_apps.get_model(app_label, model_name)._meta.get_field(field_name)
+0.79 /testbed/django/db/migrations/autodetector.py(917):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "model", None):
+0.79 /testbed/django/db/migrations/autodetector.py(942):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "through", None):
+0.79 /testbed/django/db/migrations/autodetector.py(949):             old_field_dec = self.deep_deconstruct(old_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(950):             new_field_dec = self.deep_deconstruct(new_field)
+0.79 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.79 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.79 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.79 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.79 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.79 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.79 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.79 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.79 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.79 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.79 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.79 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.79 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.79 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(951):             if old_field_dec != new_field_dec:
+0.80 /testbed/django/db/migrations/autodetector.py(909):         for app_label, model_name, field_name in sorted(self.old_field_keys & self.new_field_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(911):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(912):             old_field_name = self.renamed_fields.get((app_label, model_name, field_name), field_name)
+0.80 /testbed/django/db/migrations/autodetector.py(913):             old_field = self.old_apps.get_model(app_label, old_model_name)._meta.get_field(old_field_name)
+0.80 /testbed/django/db/migrations/autodetector.py(914):             new_field = self.new_apps.get_model(app_label, model_name)._meta.get_field(field_name)
+0.80 /testbed/django/db/migrations/autodetector.py(917):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "model", None):
+0.80 /testbed/django/db/migrations/autodetector.py(942):             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "through", None):
+0.80 /testbed/django/db/migrations/autodetector.py(949):             old_field_dec = self.deep_deconstruct(old_field)
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.80 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.80 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.80 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.80 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.80 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.80 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(950):             new_field_dec = self.deep_deconstruct(new_field)
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(73):             deconstructed = obj.deconstruct()
+0.80 /testbed/django/db/migrations/autodetector.py(74):             if isinstance(obj, models.Field):
+0.80 /testbed/django/db/migrations/autodetector.py(76):                 deconstructed = deconstructed[1:]
+0.80 /testbed/django/db/migrations/autodetector.py(77):             path, args, kwargs = deconstructed
+0.80 /testbed/django/db/migrations/autodetector.py(79):                 path,
+0.80 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.80 /testbed/django/db/migrations/autodetector.py(80):                 [self.deep_deconstruct(value) for value in args],
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(83):                     for key, value in kwargs.items()
+0.80 /testbed/django/db/migrations/autodetector.py(55):         if isinstance(obj, list):
+0.80 /testbed/django/db/migrations/autodetector.py(57):         elif isinstance(obj, tuple):
+0.80 /testbed/django/db/migrations/autodetector.py(59):         elif isinstance(obj, dict):
+0.80 /testbed/django/db/migrations/autodetector.py(64):         elif isinstance(obj, functools.partial):
+0.80 /testbed/django/db/migrations/autodetector.py(66):         elif isinstance(obj, COMPILED_REGEX_TYPE):
+0.80 /testbed/django/db/migrations/autodetector.py(68):         elif isinstance(obj, type):
+0.80 /testbed/django/db/migrations/autodetector.py(72):         elif hasattr(obj, 'deconstruct'):
+0.80 /testbed/django/db/migrations/autodetector.py(87):             return obj
+0.80 /testbed/django/db/migrations/autodetector.py(81):                 {
+0.80 /testbed/django/db/migrations/autodetector.py(951):             if old_field_dec != new_field_dec:
+0.80 /testbed/django/db/migrations/autodetector.py(909):         for app_label, model_name, field_name in sorted(self.old_field_keys & self.new_field_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(187):         self.generate_altered_unique_together()
+0.80 /testbed/django/db/migrations/autodetector.py(1117):         self._generate_altered_foo_together(operations.AlterUniqueTogether)
+0.80 /testbed/django/db/migrations/autodetector.py(1080):         option_name = operation.option_name
+0.80 /testbed/django/db/migrations/autodetector.py(1081):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(1082):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1083):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1084):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1087):             old_value = old_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1094):             } if old_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1096):             new_value = new_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1097):             new_value = set(new_value) if new_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1099):             if old_value != new_value:
+0.80 /testbed/django/db/migrations/autodetector.py(1081):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(1082):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1083):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1084):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1087):             old_value = old_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1094):             } if old_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1096):             new_value = new_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1097):             new_value = set(new_value) if new_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1099):             if old_value != new_value:
+0.80 /testbed/django/db/migrations/autodetector.py(1081):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(188):         self.generate_altered_index_together()
+0.80 /testbed/django/db/migrations/autodetector.py(1120):         self._generate_altered_foo_together(operations.AlterIndexTogether)
+0.80 /testbed/django/db/migrations/autodetector.py(1080):         option_name = operation.option_name
+0.80 /testbed/django/db/migrations/autodetector.py(1081):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(1082):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1083):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1084):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1087):             old_value = old_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1094):             } if old_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1096):             new_value = new_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1097):             new_value = set(new_value) if new_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1099):             if old_value != new_value:
+0.80 /testbed/django/db/migrations/autodetector.py(1081):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(1082):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1083):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1084):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1087):             old_value = old_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1094):             } if old_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1096):             new_value = new_model_state.options.get(option_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1097):             new_value = set(new_value) if new_value else set()
+0.80 /testbed/django/db/migrations/autodetector.py(1099):             if old_value != new_value:
+0.80 /testbed/django/db/migrations/autodetector.py(1081):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(189):         self.generate_added_indexes()
+0.80 /testbed/django/db/migrations/autodetector.py(999):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.80 /testbed/django/db/migrations/autodetector.py(1000):             for index in alt_indexes['added_indexes']:
+0.80 /testbed/django/db/migrations/autodetector.py(999):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.80 /testbed/django/db/migrations/autodetector.py(1000):             for index in alt_indexes['added_indexes']:
+0.80 /testbed/django/db/migrations/autodetector.py(999):         for (app_label, model_name), alt_indexes in self.altered_indexes.items():
+0.80 /testbed/django/db/migrations/autodetector.py(190):         self.generate_added_constraints()
+0.80 /testbed/django/db/migrations/autodetector.py(1039):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.80 /testbed/django/db/migrations/autodetector.py(1040):             for constraint in alt_constraints['added_constraints']:
+0.80 /testbed/django/db/migrations/autodetector.py(1039):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.80 /testbed/django/db/migrations/autodetector.py(1040):             for constraint in alt_constraints['added_constraints']:
+0.80 /testbed/django/db/migrations/autodetector.py(1039):         for (app_label, model_name), alt_constraints in self.altered_constraints.items():
+0.80 /testbed/django/db/migrations/autodetector.py(191):         self.generate_altered_db_table()
+0.80 /testbed/django/db/migrations/autodetector.py(1123):         models_to_check = self.kept_model_keys.union(self.kept_proxy_keys, self.kept_unmanaged_keys)
+0.80 /testbed/django/db/migrations/autodetector.py(1124):         for app_label, model_name in sorted(models_to_check):
+0.80 /testbed/django/db/migrations/autodetector.py(1125):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1126):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1127):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1128):             old_db_table_name = old_model_state.options.get('db_table')
+0.80 /testbed/django/db/migrations/autodetector.py(1129):             new_db_table_name = new_model_state.options.get('db_table')
+0.80 /testbed/django/db/migrations/autodetector.py(1130):             if old_db_table_name != new_db_table_name:
+0.80 /testbed/django/db/migrations/autodetector.py(1124):         for app_label, model_name in sorted(models_to_check):
+0.80 /testbed/django/db/migrations/autodetector.py(1125):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1126):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1127):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1128):             old_db_table_name = old_model_state.options.get('db_table')
+0.80 /testbed/django/db/migrations/autodetector.py(1129):             new_db_table_name = new_model_state.options.get('db_table')
+0.80 /testbed/django/db/migrations/autodetector.py(1130):             if old_db_table_name != new_db_table_name:
+0.80 /testbed/django/db/migrations/autodetector.py(1124):         for app_label, model_name in sorted(models_to_check):
+0.80 /testbed/django/db/migrations/autodetector.py(192):         self.generate_altered_order_with_respect_to()
+0.80 /testbed/django/db/migrations/autodetector.py(1176):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(1177):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1178):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1179):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1180):             if (old_model_state.options.get("order_with_respect_to") !=
+0.80 /testbed/django/db/migrations/autodetector.py(1181):                     new_model_state.options.get("order_with_respect_to")):
+0.80 /testbed/django/db/migrations/autodetector.py(1176):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(1177):             old_model_name = self.renamed_models.get((app_label, model_name), model_name)
+0.80 /testbed/django/db/migrations/autodetector.py(1178):             old_model_state = self.from_state.models[app_label, old_model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1179):             new_model_state = self.to_state.models[app_label, model_name]
+0.80 /testbed/django/db/migrations/autodetector.py(1180):             if (old_model_state.options.get("order_with_respect_to") !=
+0.80 /testbed/django/db/migrations/autodetector.py(1181):                     new_model_state.options.get("order_with_respect_to")):
+0.80 /testbed/django/db/migrations/autodetector.py(1176):         for app_label, model_name in sorted(self.kept_model_keys):
+0.80 /testbed/django/db/migrations/autodetector.py(194):         self._sort_migrations()
+FAIL
+
+======================================================================
+FAIL: test_uuid_to_fk_migration_dependency (test_coverup_django__django-11740.MigrationTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11740.py", line 50, in test_uuid_to_fk_migration_dependency
+    self.assertTrue(has_dependency)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+FAILED (failures=1)
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+0.80 /testbed/django/db/migrations/autodetector.py(342):         for app_label, ops in sorted(self.generated_operations.items()):
+0.80 /testbed/django/db/migrations/autodetector.py(344):             dependency_graph = {op: set() for op in ops}
+0.80 /testbed/django/db/migrations/autodetector.py(344):             dependency_graph = {op: set() for op in ops}
+0.80 /testbed/django/db/migrations/autodetector.py(344):             dependency_graph = {op: set() for op in ops}
+0.80 /testbed/django/db/migrations/autodetector.py(345):             for op in ops:
+0.80 /testbed/django/db/migrations/autodetector.py(346):                 for dep in op._auto_deps:
+0.80 /testbed/django/db/migrations/autodetector.py(345):             for op in ops:
+0.80 /testbed/django/db/migrations/autodetector.py(356):             self.generated_operations[app_label] = stable_topological_sort(ops, dependency_graph)
+0.80 /testbed/django/db/migrations/autodetector.py(342):         for app_label, ops in sorted(self.generated_operations.items()):
+0.80 /testbed/django/db/migrations/autodetector.py(195):         self._build_migration_list(graph)
+0.80 /testbed/django/db/migrations/autodetector.py(261):         self.migrations = {}
+0.80 /testbed/django/db/migrations/autodetector.py(262):         num_ops = sum(len(x) for x in self.generated_operations.values())
+0.80 /testbed/django/db/migrations/autodetector.py(262):         num_ops = sum(len(x) for x in self.generated_operations.values())
+0.80 /testbed/django/db/migrations/autodetector.py(262):         num_ops = sum(len(x) for x in self.generated_operations.values())
+0.80 /testbed/django/db/migrations/autodetector.py(263):         chop_mode = False
+0.80 /testbed/django/db/migrations/autodetector.py(264):         while num_ops:
+0.80 /testbed/django/db/migrations/autodetector.py(271):             for app_label in sorted(self.generated_operations):
+0.80 /testbed/django/db/migrations/autodetector.py(272):                 chopped = []
+0.80 /testbed/django/db/migrations/autodetector.py(273):                 dependencies = set()
+0.80 /testbed/django/db/migrations/autodetector.py(274):                 for operation in list(self.generated_operations[app_label]):
+0.80 /testbed/django/db/migrations/autodetector.py(275):                     deps_satisfied = True
+0.80 /testbed/django/db/migrations/autodetector.py(276):                     operation_dependencies = set()
+0.80 /testbed/django/db/migrations/autodetector.py(277):                     for dep in operation._auto_deps:
+0.80 /testbed/django/db/migrations/autodetector.py(311):                     if deps_satisfied:
+0.80 /testbed/django/db/migrations/autodetector.py(312):                         chopped.append(operation)
+0.80 /testbed/django/db/migrations/autodetector.py(313):                         dependencies.update(operation_dependencies)
+0.80 /testbed/django/db/migrations/autodetector.py(314):                         del self.generated_operations[app_label][0]
+0.80 /testbed/django/db/migrations/autodetector.py(274):                 for operation in list(self.generated_operations[app_label]):
+0.80 /testbed/django/db/migrations/autodetector.py(318):                 if dependencies or chopped:
+0.80 /testbed/django/db/migrations/autodetector.py(319):                     if not self.generated_operations[app_label] or chop_mode:
+0.80 /testbed/django/db/migrations/autodetector.py(320):                         subclass = type("Migration", (Migration,), {"operations": [], "dependencies": []})
+0.80 /testbed/django/db/migrations/autodetector.py(321):                         instance = subclass("auto_%i" % (len(self.migrations.get(app_label, [])) + 1), app_label)
+0.80 /testbed/django/db/migrations/autodetector.py(322):                         instance.dependencies = list(dependencies)
+0.80 /testbed/django/db/migrations/autodetector.py(323):                         instance.operations = chopped
+0.80 /testbed/django/db/migrations/autodetector.py(324):                         instance.initial = app_label not in self.existing_apps
+0.80 /testbed/django/db/migrations/autodetector.py(325):                         self.migrations.setdefault(app_label, []).append(instance)
+0.80 /testbed/django/db/migrations/autodetector.py(326):                         chop_mode = False
+0.80 /testbed/django/db/migrations/autodetector.py(271):             for app_label in sorted(self.generated_operations):
+0.80 /testbed/django/db/migrations/autodetector.py(329):             new_num_ops = sum(len(x) for x in self.generated_operations.values())
+0.80 /testbed/django/db/migrations/autodetector.py(329):             new_num_ops = sum(len(x) for x in self.generated_operations.values())
+0.80 /testbed/django/db/migrations/autodetector.py(329):             new_num_ops = sum(len(x) for x in self.generated_operations.values())
+0.80 /testbed/django/db/migrations/autodetector.py(330):             if new_num_ops == num_ops:
+0.80 /testbed/django/db/migrations/autodetector.py(335):             num_ops = new_num_ops
+0.80 /testbed/django/db/migrations/autodetector.py(264):         while num_ops:
+0.80 /testbed/django/db/migrations/autodetector.py(196):         self._optimize_migrations()
+0.80 /testbed/django/db/migrations/autodetector.py(360):         for app_label, migrations in self.migrations.items():
+0.80 /testbed/django/db/migrations/autodetector.py(361):             for m1, m2 in zip(migrations, migrations[1:]):
+0.80 /testbed/django/db/migrations/autodetector.py(360):         for app_label, migrations in self.migrations.items():
+0.80 /testbed/django/db/migrations/autodetector.py(365):         for migrations in self.migrations.values():
+0.80 /testbed/django/db/migrations/autodetector.py(366):             for migration in migrations:
+0.80 /testbed/django/db/migrations/autodetector.py(367):                 migration.dependencies = list(set(migration.dependencies))
+0.80 /testbed/django/db/migrations/autodetector.py(366):             for migration in migrations:
+0.80 /testbed/django/db/migrations/autodetector.py(365):         for migrations in self.migrations.values():
+0.80 /testbed/django/db/migrations/autodetector.py(370):         for app_label, migrations in self.migrations.items():
+0.80 /testbed/django/db/migrations/autodetector.py(371):             for migration in migrations:
+0.80 /testbed/django/db/migrations/autodetector.py(372):                 migration.operations = MigrationOptimizer().optimize(migration.operations, app_label=app_label)
+0.80 /testbed/django/db/migrations/autodetector.py(371):             for migration in migrations:
+0.80 /testbed/django/db/migrations/autodetector.py(370):         for app_label, migrations in self.migrations.items():
+0.80 /testbed/django/db/migrations/autodetector.py(198):         return self.migrations
++ cat coverage.cover
+{"/testbed/django/db/migrations/autodetector.py": {"1": 1, "2": 1, "3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 1, "18": 2, "31": 1, "37": 1, "49": 1, "89": 1, "103": 1, "200": 1, "224": 1, "239": 1, "250": 1, "337": 1, "358": 1, "374": 1, "437": 1, "445": 1, "465": 1, "508": 1, "673": 1, "707": 1, "796": 1, "809": 1, "847": 1, "852": 1, "883": 1, "888": 1, "904": 1, "980": 1, "998": 1, "1009": 1, "1020": 1, "1038": 1, "1049": 1, "1060": 1, "1079": 1, "1116": 1, "1119": 1, "1122": 1, "1139": 1, "1175": 1, "1202": 1, "1216": 1, "1265": 1, "1290": 1, "1311": 1, "32": 1, "33": 1, "34": 1, "35": 4, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "55": 40, "56": 0, "57": 40, "58": 0, "59": 40, "60": 0, "62": 0, "64": 40, "65": 0, "66": 40, "67": 0, "68": 40, "71": 0, "72": 40, "73": 10, "74": 10, "76": 10, "77": 10, "79": 10, "80": 20, "81": 50, "83": 40, "87": 30, "95": 0, "96": 0, "97": 0, "98": 0, "99": 0, "100": 0, "101": 0, "122": 1, "123": 1, "124": 1, "128": 1, "129": 1, "130": 1, "131": 1, "132": 1, "133": 1, "134": 1, "135": 1, "136": 3, "137": 2, "138": 2, "139": 0, "140": 2, "141": 2, "142": 0, "144": 2, "146": 3, "147": 2, "148": 2, "149": 0, "151": 2, "152": 0, "154": 2, "155": 0, "157": 2, "160": 1, "163": 1, "164": 1, "167": 1, "168": 1, "169": 1, "170": 1, "171": 1, "172": 1, "177": 1, "178": 1, "180": 1, "181": 1, "183": 1, "184": 1, "185": 1, "186": 1, "187": 1, "188": 1, "189": 1, "190": 1, "191": 1, "192": 1, "194": 1, "195": 1, "196": 1, "198": 1, "206": 1, "207": 1, "208": 1, "209": 1, "210": 4, "212": 3, "218": 4, "220": 3, "213": 2, "214": 2, "215": 7, "221": 7, "226": 3, "227": 2, "228": 2, "229": 7, "230": 5, "231": 5, "232": 0, "234": 0, "235": 0, "237": 0, "245": 0, "246": 0, "247": 0, "248": 0, "261": 1, "262": 3, "263": 1, "264": 2, "271": 2, "272": 1, "273": 1, "274": 2, "275": 1, "276": 1, "277": 1, "282": 0, "283": 0, "284": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "292": 0, "294": 0, "295": 0, "296": 0, "297": 0, "301": 0, "305": 0, "306": 0, "308": 0, "310": 0, "311": 1, "312": 1, "313": 1, "314": 1, "316": 0, "318": 1, "319": 1, "320": 1, "321": 1, "322": 1, "323": 1, "324": 1, "325": 1, "326": 1, "328": 0, "329": 3, "330": 1, "331": 0, "332": 0, "334": 0, "335": 1, "342": 2, "344": 3, "345": 2, "346": 1, "349": 0, "350": 0, "351": 0, "352": 0, "353": 0, "356": 1, "360": 2, "361": 1, "362": 0, "365": 2, "366": 2, "367": 1, "370": 2, "371": 2, "372": 1, "380": 0, "382": 0, "383": 0, "386": 0, "389": 0, "390": 0, "391": 0, "394": 0, "395": 0, "396": 0, "400": 0, "402": 0, "403": 0, "404": 0, "407": 0, "409": 0, "410": 0, "413": 0, "415": 0, "416": 0, "417": 0, "420": 0, "422": 0, "423": 0, "424": 0, "427": 0, "429": 0, "430": 0, "431": 0, "435": 0, "439": 1, "440": 1, "441": 0, "443": 1, "450": 0, "451": 0, "452": 0, "453": 0, "455": 0, "456": 0, "457": 0, "458": 0, "460": 0, "461": 0, "462": 0, "463": 0, "471": 1, "472": 1, "473": 1, "474": 1, "475": 0, "476": 0, "478": 0, "479": 0, "480": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "486": 0, "487": 0, "488": 0, "489": 0, "490": 0, "491": 0, "492": 0, "493": 0, "494": 0, "496": 0, "498": 0, "499": 0, "500": 0, "501": 0, "502": 0, "504": 0, "505": 0, "506": 0, "518": 1, "519": 1, "520": 1, "521": 1, "522": 1, "523": 1, "525": 1, "526": 0, "527": 0, "529": 0, "530": 0, "531": 0, "532": 0, "533": 0, "534": 0, "535": 0, "536": 0, "537": 0, "540": 0, "541": 0, "542": 0, "543": 0, "544": 0, "545": 0, "546": 0, "547": 0, "549": 0, "550": 0, "551": 0, "552": 0, "553": 0, "556": 0, "559": 0, "560": 0, "561": 0, "562": 0, "564": 0, "565": 0, "566": 0, "567": 0, "568": 0, "569": 0, "572": 0, "573": 0, "574": 0, "575": 0, "576": 0, "577": 0, "578": 0, "579": 0, "581": 0, "582": 0, "586": 0, "587": 0, "590": 0, "591": 0, "593": 0, "595": 0, "596": 0, "597": 0, "598": 0, "599": 0, "600": 0, "602": 0, "606": 0, "607": 0, "609": 0, "610": 0, "611": 0, "612": 0, "613": 0, "614": 0, "615": 0, "617": 0, "619": 0, "620": 0, "621": 0, "622": 0, "623": 0, "624": 0, "626": 0, "628": 0, "629": 0, "630": 0, "631": 0, "632": 0, "633": 0, "635": 0, "637": 0, "638": 0, "639": 0, "640": 0, "641": 0, "642": 0, "644": 0, "646": 0, "647": 0, "648": 0, "649": 0, "650": 0, "651": 0, "654": 0, "655": 0, "661": 0, "662": 0, "663": 0, "664": 0, "665": 0, "666": 0, "667": 0, "668": 0, "670": 0, "680": 1, "681": 1, "682": 0, "683": 0, "686": 0, "689": 0, "690": 0, "691": 0, "692": 0, "694": 0, "695": 0, "696": 0, "697": 0, "698": 0, "699": 0, "700": 0, "701": 0, "704": 0, "717": 1, "718": 1, "719": 1, "720": 1, "721": 1, "722": 0, "723": 0, "725": 0, "726": 0, "727": 0, "728": 0, "729": 0, "732": 0, "733": 0, "734": 0, "735": 0, "736": 0, "737": 0, "738": 0, "739": 0, "741": 0, "742": 0, "743": 0, "744": 0, "745": 0, "746": 0, "747": 0, "748": 0, "751": 0, "752": 0, "753": 0, "754": 0, "755": 0, "756": 0, "760": 0, "761": 0, "762": 0, "763": 0, "764": 0, "765": 0, "772": 0, "773": 0, "774": 0, "775": 0, "776": 0, "777": 0, "778": 0, "779": 0, "781": 0, "782": 0, "784": 0, "785": 0, "786": 0, "788": 0, "789": 0, "790": 0, "791": 0, "793": 0, "798": 1, "799": 1, "800": 0, "801": 0, "802": 0, "803": 0, "804": 0, "805": 0, "811": 1, "812": 1, "813": 0, "814": 0, "815": 0, "817": 0, "818": 0, "819": 0, "820": 0, "821": 0, "822": 0, "823": 0, "824": 0, "825": 0, "826": 0, "827": 0, "828": 0, "831": 0, "832": 0, "833": 0, "834": 0, "835": 0, "836": 0, "837": 0, "838": 0, "839": 0, "842": 0, "843": 0, "844": 0, "845": 0, "849": 1, "850": 0, "853": 0, "855": 0, "856": 0, "857": 0, "860": 0, "862": 0, "863": 0, "864": 0, "866": 0, "867": 0, "868": 0, "869": 0, "871": 0, "872": 0, "873": 0, "874": 0, "875": 0, "876": 0, "877": 0, "878": 0, "880": 0, "885": 1, "886": 0, "889": 0, "890": 0, "891": 0, "892": 0, "893": 0, "899": 0, "900": 0, "909": 6, "911": 5, "912": 5, "913": 5, "914": 5, "917": 5, "919": 1, "920": 1, "922": 1, "923": 0, "925": 1, "926": 1, "927": 1, "928": 1, "929": 0, "931": 1, "932": 1, "933": 1, "934": 1, "935": 3, "936": 2, "938": 1, "939": 3, "940": 2, "942": 5, "944": 0, "945": 0, "947": 0, "948": 0, "949": 5, "950": 5, "951": 5, "952": 1, "953": 1, "954": 1, "956": 1, "957": 1, "958": 0, "959": 0, "960": 0, "961": 0, "962": 0, "963": 0, "965": 1, "966": 1, "967": 1, "968": 1, "969": 1, "970": 1, "971": 1, "972": 1, "977": 0, "978": 0, "981": 1, "982": 3, "983": 2, "984": 2, "985": 2, "987": 2, "988": 2, "989": 4, "990": 4, "992": 2, "993": 2, "994": 2, "999": 3, "1000": 2, "1001": 0, "1002": 0, "1003": 0, "1004": 0, "1005": 0, "1010": 3, "1011": 2, "1012": 0, "1013": 0, "1014": 0, "1015": 0, "1016": 0, "1021": 1, "1022": 3, "1023": 2, "1024": 2, "1025": 2, "1027": 2, "1028": 2, "1029": 4, "1030": 4, "1032": 2, "1033": 2, "1034": 2, "1039": 3, "1040": 2, "1041": 0, "1042": 0, "1043": 0, "1044": 0, "1045": 0, "1050": 3, "1051": 2, "1052": 0, "1053": 0, "1054": 0, "1055": 0, "1056": 0, "1062": 0, "1063": 0, "1064": 0, "1065": 0, "1067": 0, "1068": 0, "1069": 0, "1070": 0, "1071": 0, "1072": 0, "1073": 0, "1074": 0, "1075": 0, "1077": 0, "1080": 2, "1081": 6, "1082": 4, "1083": 4, "1084": 4, "1087": 4, "1094": 4, "1096": 4, "1097": 4, "1099": 4, "1100": 0, "1101": 0, "1102": 0, "1103": 0, "1104": 0, "1105": 0, "1107": 0, "1108": 0, "1109": 0, "1110": 0, "1111": 0, "1113": 0, "1088": 0, "1093": 0, "1090": 0, "1091": 0, "1117": 1, "1120": 1, "1123": 1, "1124": 3, "1125": 2, "1126": 2, "1127": 2, "1128": 2, "1129": 2, "1130": 2, "1131": 0, "1132": 0, "1133": 0, "1134": 0, "1135": 0, "1145": 1, "1146": 1, "1147": 1, "1149": 1, "1151": 1, "1154": 3, "1155": 2, "1156": 2, "1157": 2, "1158": 8, "1159": 6, "1162": 8, "1163": 6, "1166": 2, "1167": 0, "1168": 0, "1169": 0, "1170": 0, "1171": 0, "1160": 4, "1164": 4, "1176": 3, "1177": 2, "1178": 2, "1179": 2, "1180": 2, "1181": 2, "1184": 0, "1185": 0, "1186": 0, "1187": 0, "1188": 0, "1189": 0, "1190": 0, "1193": 0, "1194": 0, "1195": 0, "1196": 0, "1197": 0, "1199": 0, "1203": 3, "1204": 2, "1205": 2, "1206": 2, "1207": 2, "1208": 0, "1209": 0, "1210": 0, "1211": 0, "1212": 0, "1222": 0, "1223": 0, "1224": 0, "1225": 0, "1226": 0, "1228": 0, "1229": 0, "1230": 0, "1231": 0, "1232": 0, "1234": 0, "1236": 0, "1237": 0, "1238": 0, "1239": 0, "1241": 0, "1242": 0, "1244": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1252": 0, "1253": 0, "1254": 0, "1256": 0, "1257": 0, "1258": 0, "1260": 0, "1261": 0, "1262": 0, "1263": 0, "1273": 0, "1274": 0, "1275": 0, "1276": 0, "1277": 0, "1278": 0, "1280": 0, "1281": 0, "1282": 0, "1283": 0, "1285": 0, "1286": 0, "1287": 0, "1288": 0, "1297": 0, "1298": 0, "1299": 0, "1300": 0, "1301": 0, "1302": 0, "1303": 0, "1304": 0, "1305": 0, "1306": 0, "1307": 0, "1308": 0, "1309": 0, "1317": 0, "1318": 0, "1319": 0, "1320": 0}}
++ git checkout 003bb34b218adb23d1a7e67932a6ba9b3c4dcc81
+Note: switching to '003bb34b218adb23d1a7e67932a6ba9b3c4dcc81'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 003bb34b21 Refs #29444 -- Made db.backends.oracle.utils.InsertVar use str as default.
++ git apply /root/pre_state.patch
+error: unrecognized input

@@ -1,0 +1,34 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-14017.py
+new file mode 100644
+index e69de29..eff0191 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14017.py
+@@ -0,0 +1,28 @@
++from django.test import SimpleTestCase
++from django.db.models import Exists, Q
++from django.contrib.auth.models import User  # Using User model for testing
++
++class QExistsCommutativeTest(SimpleTestCase):
++    def test_q_exists_commutative(self):
++        """
++        Test the commutative property of the & operator between Q and Exists.
++        """
++        # Create a Q object
++        q_object = Q()
++
++        # Create an Exists object using the User model
++        exists_object = Exists(User.objects.all())
++
++        # Test Exists & Q - should not raise an error
++        try:
++            result = exists_object & q_object
++            self.assertIsInstance(result, Q)
++        except TypeError:
++            self.fail("Exists & Q raised TypeError unexpectedly")
++
++        # Test Q & Exists - should not raise a TypeError
++        try:
++            result = q_object & exists_object
++            self.assertIsInstance(result, Q)
++        except TypeError:
++            self.fail("Q & Exists raised TypeError unexpectedly")

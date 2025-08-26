@@ -1,0 +1,696 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 21b1d239125f1228e579b1ce8d94d4d5feadd2a6
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 21b1d239125f1228e579b1ce8d94d4d5feadd2a6
+Author: Nick Pope <nick.pope@flightdataservices.com>
+Date:   Mon Jun 3 20:17:39 2019 +0100
+
+    Added CVE-2019-12308 to the security release archive.
+
+diff --git a/docs/releases/security.txt b/docs/releases/security.txt
+index e318c62bf7..d26669d63a 100644
+--- a/docs/releases/security.txt
++++ b/docs/releases/security.txt
+@@ -948,3 +948,16 @@ Versions affected
+ 
+ * Django 2.2 :commit:`(patch) <baaf187a4e354bf3976c51e2c83a0d2f8ee6e6ad>`
+ * Django 2.1 :commit:`(patch) <95649bc08547a878cebfa1d019edec8cb1b80829>`
++
++June 3, 2019 - :cve:`2019-12308`
++--------------------------------
++
++XSS via "Current URL" link generated by ``AdminURLFieldWidget``. `Full
++description <https://www.djangoproject.com/weblog/2019/jun/03/security-releases/>`__
++
++Versions affected
++~~~~~~~~~~~~~~~~~
++
++* Django 2.2 :commit:`(patch) <afddabf8428ddc89a332f7a78d0d21eaf2b5a673>`
++* Django 2.1 :commit:`(patch) <09186a13d975de6d049f8b3e05484f66b01ece62>`
++* Django 1.11 :commit:`(patch) <c238701859a52d584f349cce15d56c8e8137c52b>`
++ git diff 21b1d239125f1228e579b1ce8d94d4d5feadd2a6
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190603194455) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190603194455) (0.4.4)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.0.dev20190603194455
+    Uninstalling Django-3.0.dev20190603194455:
+      Successfully uninstalled Django-3.0.dev20190603194455
+  Running setup.py develop for Django
+Successfully installed Django-3.0.dev20190603194455
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch django/forms/models.py...
+Applied patch django/forms/models.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-11433.py...
+Applied patch tests/test_coverup_django__django-11433.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/forms/models\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11433
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/forms/models\\.py)']
+0.29 /testbed/django/forms/models.py(4): """
+0.29 /testbed/django/forms/models.py(6): from itertools import chain
+0.29 /testbed/django/forms/models.py(8): from django.core.exceptions import (
+0.29 /testbed/django/forms/models.py(11): from django.forms.fields import ChoiceField, Field
+0.29 /testbed/django/forms/models.py(12): from django.forms.forms import BaseForm, DeclarativeFieldsMetaclass
+0.29 /testbed/django/forms/models.py(13): from django.forms.formsets import BaseFormSet, formset_factory
+0.29 /testbed/django/forms/models.py(14): from django.forms.utils import ErrorList
+0.29 /testbed/django/forms/models.py(15): from django.forms.widgets import (
+0.29 /testbed/django/forms/models.py(18): from django.utils.text import capfirst, get_text_list
+0.29 /testbed/django/forms/models.py(19): from django.utils.translation import gettext, gettext_lazy as _
+0.29 /testbed/django/forms/models.py(25):     'inlineformset_factory', 'modelform_factory',
+0.29 /testbed/django/forms/models.py(28): ALL_FIELDS = '__all__'
+0.29 /testbed/django/forms/models.py(31): def construct_instance(form, instance, fields=None, exclude=None):
+0.29 /testbed/django/forms/models.py(72): def model_to_dict(instance, fields=None, exclude=None):
+0.29 /testbed/django/forms/models.py(97): def apply_limit_choices_to_to_formfield(formfield):
+0.29 /testbed/django/forms/models.py(108):                      field_classes=None, *, apply_limit_choices_to=True):
+0.29 /testbed/django/forms/models.py(194): class ModelFormOptions:
+0.29 /testbed/django/forms/models.py(194): class ModelFormOptions:
+0.29 /testbed/django/forms/models.py(195):     def __init__(self, options=None):
+0.29 /testbed/django/forms/models.py(207): class ModelFormMetaclass(DeclarativeFieldsMetaclass):
+0.29 /testbed/django/forms/models.py(207): class ModelFormMetaclass(DeclarativeFieldsMetaclass):
+0.29 /testbed/django/forms/models.py(208):     def __new__(mcs, name, bases, attrs):
+0.29 /testbed/django/forms/models.py(279): class BaseModelForm(BaseForm):
+0.29 /testbed/django/forms/models.py(279): class BaseModelForm(BaseForm):
+0.29 /testbed/django/forms/models.py(280):     def __init__(self, data=None, files=None, auto_id='id_%s', prefix=None,
+0.29 /testbed/django/forms/models.py(281):                  initial=None, error_class=ErrorList, label_suffix=None,
+0.29 /testbed/django/forms/models.py(282):                  empty_permitted=False, instance=None, use_required_attribute=None,
+0.29 /testbed/django/forms/models.py(283):                  renderer=None):
+0.29 /testbed/django/forms/models.py(309):     def _get_validation_exclusions(self):
+0.29 /testbed/django/forms/models.py(350):     def clean(self):
+0.29 /testbed/django/forms/models.py(354):     def _update_errors(self, errors):
+0.29 /testbed/django/forms/models.py(382):     def _post_clean(self):
+0.29 /testbed/django/forms/models.py(412):     def validate_unique(self):
+0.29 /testbed/django/forms/models.py(423):     def _save_m2m(self):
+0.29 /testbed/django/forms/models.py(444):     def save(self, commit=True):
+0.29 /testbed/django/forms/models.py(467):     save.alters_data = True
+0.29 /testbed/django/forms/models.py(470): class ModelForm(BaseModelForm, metaclass=ModelFormMetaclass):
+0.29 /testbed/django/forms/models.py(470): class ModelForm(BaseModelForm, metaclass=ModelFormMetaclass):
+0.29 /testbed/django/forms/models.py(471):     pass
+0.29 /testbed/django/forms/models.py(209):         base_formfield_callback = None
+0.29 /testbed/django/forms/models.py(210):         for b in bases:
+0.29 /testbed/django/forms/models.py(211):             if hasattr(b, 'Meta') and hasattr(b.Meta, 'formfield_callback'):
+0.29 /testbed/django/forms/models.py(210):         for b in bases:
+0.29 /testbed/django/forms/models.py(215):         formfield_callback = attrs.pop('formfield_callback', base_formfield_callback)
+0.29 /testbed/django/forms/models.py(217):         new_class = super(ModelFormMetaclass, mcs).__new__(mcs, name, bases, attrs)
+0.29 /testbed/django/forms/models.py(219):         if bases == (BaseModelForm,):
+0.29 /testbed/django/forms/models.py(220):             return new_class
+0.29 /testbed/django/forms/models.py(474): def modelform_factory(model, form=ModelForm, fields=None, exclude=None,
+0.29 /testbed/django/forms/models.py(475):                       formfield_callback=None, widgets=None, localized_fields=None,
+0.29 /testbed/django/forms/models.py(476):                       labels=None, help_texts=None, error_messages=None,
+0.29 /testbed/django/forms/models.py(477):                       field_classes=None):
+0.29 /testbed/django/forms/models.py(557): class BaseModelFormSet(BaseFormSet):
+0.29 /testbed/django/forms/models.py(557): class BaseModelFormSet(BaseFormSet):
+0.29 /testbed/django/forms/models.py(560):     """
+0.29 /testbed/django/forms/models.py(561):     model = None
+0.29 /testbed/django/forms/models.py(564):     unique_fields = set()
+0.29 /testbed/django/forms/models.py(567):                  queryset=None, *, initial=None, **kwargs):
+0.29 /testbed/django/forms/models.py(572):     def initial_form_count(self):
+0.29 /testbed/django/forms/models.py(578):     def _existing_object(self, pk):
+0.29 /testbed/django/forms/models.py(583):     def _get_to_python(self, field):
+0.29 /testbed/django/forms/models.py(592):     def _construct_form(self, i, **kwargs):
+0.29 /testbed/django/forms/models.py(626):     def get_queryset(self):
+0.29 /testbed/django/forms/models.py(645):     def save_new(self, form, commit=True):
+0.29 /testbed/django/forms/models.py(649):     def save_existing(self, form, instance, commit=True):
+0.29 /testbed/django/forms/models.py(653):     def delete_existing(self, obj, commit=True):
+0.29 /testbed/django/forms/models.py(658):     def save(self, commit=True):
+0.29 /testbed/django/forms/models.py(672):     save.alters_data = True
+0.29 /testbed/django/forms/models.py(674):     def clean(self):
+0.29 /testbed/django/forms/models.py(677):     def validate_unique(self):
+0.29 /testbed/django/forms/models.py(750):     def get_unique_error_message(self, unique_check):
+0.29 /testbed/django/forms/models.py(760):     def get_date_error_message(self, date_check):
+0.29 /testbed/django/forms/models.py(770):     def get_form_error(self):
+0.29 /testbed/django/forms/models.py(773):     def save_existing_objects(self, commit=True):
+0.29 /testbed/django/forms/models.py(799):     def save_new_objects(self, commit=True):
+0.29 /testbed/django/forms/models.py(813):     def add_fields(self, form, index):
+0.29 /testbed/django/forms/models.py(857): def modelformset_factory(model, form=ModelForm, formfield_callback=None,
+0.29 /testbed/django/forms/models.py(858):                          formset=BaseModelFormSet, extra=1, can_delete=False,
+0.29 /testbed/django/forms/models.py(859):                          can_order=False, max_num=None, fields=None, exclude=None,
+0.29 /testbed/django/forms/models.py(860):                          widgets=None, validate_max=False, localized_fields=None,
+0.29 /testbed/django/forms/models.py(861):                          labels=None, help_texts=None, error_messages=None,
+0.29 /testbed/django/forms/models.py(862):                          min_num=None, validate_min=False, field_classes=None):
+0.29 /testbed/django/forms/models.py(886): class BaseInlineFormSet(BaseModelFormSet):
+0.29 /testbed/django/forms/models.py(886): class BaseInlineFormSet(BaseModelFormSet):
+0.29 /testbed/django/forms/models.py(887):     """A formset for child objects related to a parent."""
+0.29 /testbed/django/forms/models.py(889):                  save_as_new=False, prefix=None, queryset=None, **kwargs):
+0.29 /testbed/django/forms/models.py(911):     def initial_form_count(self):
+0.29 /testbed/django/forms/models.py(916):     def _construct_form(self, i, **kwargs):
+0.29 /testbed/django/forms/models.py(939):     @classmethod
+0.29 /testbed/django/forms/models.py(943):     def save_new(self, form, commit=True):
+0.29 /testbed/django/forms/models.py(950):     def add_fields(self, form, index):
+0.29 /testbed/django/forms/models.py(981):     def get_unique_error_message(self, unique_check):
+0.29 /testbed/django/forms/models.py(986): def _get_foreign_key(parent_model, model, fk_name=None, can_fail=False):
+0.29 /testbed/django/forms/models.py(1041): def inlineformset_factory(parent_model, model, form=ModelForm,
+0.29 /testbed/django/forms/models.py(1042):                           formset=BaseInlineFormSet, fk_name=None,
+0.29 /testbed/django/forms/models.py(1043):                           fields=None, exclude=None, extra=3, can_order=False,
+0.29 /testbed/django/forms/models.py(1044):                           can_delete=True, max_num=None, formfield_callback=None,
+0.29 /testbed/django/forms/models.py(1045):                           widgets=None, validate_max=False, localized_fields=None,
+0.29 /testbed/django/forms/models.py(1046):                           labels=None, help_texts=None, error_messages=None,
+0.29 /testbed/django/forms/models.py(1047):                           min_num=None, validate_min=False, field_classes=None):
+0.29 /testbed/django/forms/models.py(1085): class InlineForeignKeyField(Field):
+0.29 /testbed/django/forms/models.py(1085): class InlineForeignKeyField(Field):
+0.29 /testbed/django/forms/models.py(1089):     """
+0.29 /testbed/django/forms/models.py(1090):     widget = HiddenInput
+0.29 /testbed/django/forms/models.py(1092):         'invalid_choice': _('The inline value did not match the parent instance.'),
+0.29 /testbed/django/forms/models.py(1095):     def __init__(self, parent_instance, *args, pk_field=False, to_field=None, **kwargs):
+0.29 /testbed/django/forms/models.py(1107):     def clean(self, value):
+0.29 /testbed/django/forms/models.py(1122):     def has_changed(self, initial, data):
+0.29 /testbed/django/forms/models.py(1126): class ModelChoiceIterator:
+0.29 /testbed/django/forms/models.py(1126): class ModelChoiceIterator:
+0.29 /testbed/django/forms/models.py(1127):     def __init__(self, field):
+0.29 /testbed/django/forms/models.py(1131):     def __iter__(self):
+0.29 /testbed/django/forms/models.py(1141):     def __len__(self):
+0.29 /testbed/django/forms/models.py(1147):     def __bool__(self):
+0.29 /testbed/django/forms/models.py(1150):     def choice(self, obj):
+0.29 /testbed/django/forms/models.py(1154): class ModelChoiceField(ChoiceField):
+0.29 /testbed/django/forms/models.py(1154): class ModelChoiceField(ChoiceField):
+0.29 /testbed/django/forms/models.py(1155):     """A ChoiceField whose choices are a model QuerySet."""
+0.29 /testbed/django/forms/models.py(1159):         'invalid_choice': _('Select a valid choice. That choice is not one of'
+0.29 /testbed/django/forms/models.py(1162):     iterator = ModelChoiceIterator
+0.29 /testbed/django/forms/models.py(1164):     def __init__(self, queryset, *, empty_label="---------",
+0.29 /testbed/django/forms/models.py(1165):                  required=True, widget=None, label=None, initial=None,
+0.29 /testbed/django/forms/models.py(1166):                  help_text='', to_field_name=None, limit_choices_to=None,
+0.29 /testbed/django/forms/models.py(1183):     def get_limit_choices_to(self):
+0.29 /testbed/django/forms/models.py(1193):     def __deepcopy__(self, memo):
+0.29 /testbed/django/forms/models.py(1200):     def _get_queryset(self):
+0.29 /testbed/django/forms/models.py(1203):     def _set_queryset(self, queryset):
+0.29 /testbed/django/forms/models.py(1207):     queryset = property(_get_queryset, _set_queryset)
+0.29 /testbed/django/forms/models.py(1211):     def label_from_instance(self, obj):
+0.29 /testbed/django/forms/models.py(1219):     def _get_choices(self):
+0.29 /testbed/django/forms/models.py(1234):     choices = property(_get_choices, ChoiceField._set_choices)
+0.29 /testbed/django/forms/models.py(1236):     def prepare_value(self, value):
+0.29 /testbed/django/forms/models.py(1244):     def to_python(self, value):
+0.29 /testbed/django/forms/models.py(1254):     def validate(self, value):
+0.29 /testbed/django/forms/models.py(1257):     def has_changed(self, initial, data):
+0.29 /testbed/django/forms/models.py(1265): class ModelMultipleChoiceField(ModelChoiceField):
+0.29 /testbed/django/forms/models.py(1265): class ModelMultipleChoiceField(ModelChoiceField):
+0.29 /testbed/django/forms/models.py(1266):     """A MultipleChoiceField whose choices are a model QuerySet."""
+0.29 /testbed/django/forms/models.py(1267):     widget = SelectMultiple
+0.29 /testbed/django/forms/models.py(1268):     hidden_widget = MultipleHiddenInput
+0.29 /testbed/django/forms/models.py(1270):         'list': _('Enter a list of values.'),
+0.29 /testbed/django/forms/models.py(1271):         'invalid_choice': _('Select a valid choice. %(value)s is not one of the'
+0.29 /testbed/django/forms/models.py(1273):         'invalid_pk_value': _('"%(pk)s" is not a valid value.')
+0.29 /testbed/django/forms/models.py(1276):     def __init__(self, queryset, **kwargs):
+0.29 /testbed/django/forms/models.py(1279):     def to_python(self, value):
+0.29 /testbed/django/forms/models.py(1284):     def clean(self, value):
+0.29 /testbed/django/forms/models.py(1298):     def _check_values(self, value):
+0.29 /testbed/django/forms/models.py(1335):     def prepare_value(self, value):
+0.29 /testbed/django/forms/models.py(1343):     def has_changed(self, initial, data):
+0.29 /testbed/django/forms/models.py(1357): def modelform_defines_fields(form_class):
+Testing against Django installed in '/testbed/django'
+0.61 /testbed/django/forms/models.py(209):         base_formfield_callback = None
+0.61 /testbed/django/forms/models.py(210):         for b in bases:
+0.61 /testbed/django/forms/models.py(211):             if hasattr(b, 'Meta') and hasattr(b.Meta, 'formfield_callback'):
+0.61 /testbed/django/forms/models.py(210):         for b in bases:
+0.61 /testbed/django/forms/models.py(215):         formfield_callback = attrs.pop('formfield_callback', base_formfield_callback)
+0.61 /testbed/django/forms/models.py(217):         new_class = super(ModelFormMetaclass, mcs).__new__(mcs, name, bases, attrs)
+0.61 /testbed/django/forms/models.py(219):         if bases == (BaseModelForm,):
+0.61 /testbed/django/forms/models.py(222):         opts = new_class._meta = ModelFormOptions(getattr(new_class, 'Meta', None))
+0.61 /testbed/django/forms/models.py(196):         self.model = getattr(options, 'model', None)
+0.61 /testbed/django/forms/models.py(197):         self.fields = getattr(options, 'fields', None)
+0.61 /testbed/django/forms/models.py(198):         self.exclude = getattr(options, 'exclude', None)
+0.61 /testbed/django/forms/models.py(199):         self.widgets = getattr(options, 'widgets', None)
+0.61 /testbed/django/forms/models.py(200):         self.localized_fields = getattr(options, 'localized_fields', None)
+0.61 /testbed/django/forms/models.py(201):         self.labels = getattr(options, 'labels', None)
+0.61 /testbed/django/forms/models.py(202):         self.help_texts = getattr(options, 'help_texts', None)
+0.61 /testbed/django/forms/models.py(203):         self.error_messages = getattr(options, 'error_messages', None)
+0.61 /testbed/django/forms/models.py(204):         self.field_classes = getattr(options, 'field_classes', None)
+0.61 /testbed/django/forms/models.py(227):         for opt in ['fields', 'exclude', 'localized_fields']:
+0.61 /testbed/django/forms/models.py(228):             value = getattr(opts, opt)
+0.61 /testbed/django/forms/models.py(229):             if isinstance(value, str) and value != ALL_FIELDS:
+0.61 /testbed/django/forms/models.py(227):         for opt in ['fields', 'exclude', 'localized_fields']:
+0.61 /testbed/django/forms/models.py(228):             value = getattr(opts, opt)
+0.61 /testbed/django/forms/models.py(229):             if isinstance(value, str) and value != ALL_FIELDS:
+0.61 /testbed/django/forms/models.py(227):         for opt in ['fields', 'exclude', 'localized_fields']:
+0.61 /testbed/django/forms/models.py(228):             value = getattr(opts, opt)
+0.61 /testbed/django/forms/models.py(229):             if isinstance(value, str) and value != ALL_FIELDS:
+0.61 /testbed/django/forms/models.py(227):         for opt in ['fields', 'exclude', 'localized_fields']:
+0.61 /testbed/django/forms/models.py(238):         if opts.model:
+0.61 /testbed/django/forms/models.py(240):             if opts.fields is None and opts.exclude is None:
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+test_cleaned_data_overwrites_default (test_coverup_django__django-11433.TestModelFormTest) ... 0.61 /testbed/django/forms/models.py(247):             if opts.fields == ALL_FIELDS:
+0.61 /testbed/django/forms/models.py(252):             fields = fields_for_model(
+0.61 /testbed/django/forms/models.py(253):                 opts.model, opts.fields, opts.exclude, opts.widgets,
+0.61 /testbed/django/forms/models.py(254):                 formfield_callback, opts.localized_fields, opts.labels,
+0.61 /testbed/django/forms/models.py(255):                 opts.help_texts, opts.error_messages, opts.field_classes,
+0.61 /testbed/django/forms/models.py(257):                 apply_limit_choices_to=False,
+0.61 /testbed/django/forms/models.py(139):     field_dict = {}
+0.61 /testbed/django/forms/models.py(140):     ignored = []
+0.61 /testbed/django/forms/models.py(141):     opts = model._meta
+0.61 /testbed/django/forms/models.py(143):     from django.db.models.fields import Field as ModelField
+0.61 /testbed/django/forms/models.py(144):     sortable_private_fields = [f for f in opts.private_fields if isinstance(f, ModelField)]
+0.61 /testbed/django/forms/models.py(144):     sortable_private_fields = [f for f in opts.private_fields if isinstance(f, ModelField)]
+0.61 /testbed/django/forms/models.py(145):     for f in sorted(chain(opts.concrete_fields, sortable_private_fields, opts.many_to_many)):
+0.61 /testbed/django/forms/models.py(146):         if not getattr(f, 'editable', False):
+0.61 /testbed/django/forms/models.py(154):         if fields is not None and f.name not in fields:
+0.61 /testbed/django/forms/models.py(155):             continue
+0.61 /testbed/django/forms/models.py(145):     for f in sorted(chain(opts.concrete_fields, sortable_private_fields, opts.many_to_many)):
+0.61 /testbed/django/forms/models.py(146):         if not getattr(f, 'editable', False):
+0.61 /testbed/django/forms/models.py(154):         if fields is not None and f.name not in fields:
+0.61 /testbed/django/forms/models.py(156):         if exclude and f.name in exclude:
+0.61 /testbed/django/forms/models.py(159):         kwargs = {}
+0.61 /testbed/django/forms/models.py(160):         if widgets and f.name in widgets:
+0.61 /testbed/django/forms/models.py(162):         if localized_fields == ALL_FIELDS or (localized_fields and f.name in localized_fields):
+0.61 /testbed/django/forms/models.py(164):         if labels and f.name in labels:
+0.61 /testbed/django/forms/models.py(166):         if help_texts and f.name in help_texts:
+0.61 /testbed/django/forms/models.py(168):         if error_messages and f.name in error_messages:
+0.61 /testbed/django/forms/models.py(170):         if field_classes and f.name in field_classes:
+0.61 /testbed/django/forms/models.py(173):         if formfield_callback is None:
+0.61 /testbed/django/forms/models.py(174):             formfield = f.formfield(**kwargs)
+0.61 /testbed/django/forms/models.py(180):         if formfield:
+0.61 /testbed/django/forms/models.py(181):             if apply_limit_choices_to:
+0.61 /testbed/django/forms/models.py(183):             field_dict[f.name] = formfield
+0.61 /testbed/django/forms/models.py(145):     for f in sorted(chain(opts.concrete_fields, sortable_private_fields, opts.many_to_many)):
+0.61 /testbed/django/forms/models.py(186):     if fields:
+0.61 /testbed/django/forms/models.py(187):         field_dict = {
+0.61 /testbed/django/forms/models.py(188):             f: field_dict.get(f) for f in fields
+0.61 /testbed/django/forms/models.py(187):         field_dict = {
+0.61 /testbed/django/forms/models.py(188):             f: field_dict.get(f) for f in fields
+0.61 /testbed/django/forms/models.py(189):             if (not exclude or f not in exclude) and f not in ignored
+0.61 /testbed/django/forms/models.py(187):         field_dict = {
+0.61 /testbed/django/forms/models.py(191):     return field_dict
+0.61 /testbed/django/forms/models.py(261):             none_model_fields = {k for k, v in fields.items() if not v}
+0.61 /testbed/django/forms/models.py(261):             none_model_fields = {k for k, v in fields.items() if not v}
+0.61 /testbed/django/forms/models.py(261):             none_model_fields = {k for k, v in fields.items() if not v}
+0.61 /testbed/django/forms/models.py(262):             missing_fields = none_model_fields.difference(new_class.declared_fields)
+0.61 /testbed/django/forms/models.py(263):             if missing_fields:
+0.61 /testbed/django/forms/models.py(270):             fields.update(new_class.declared_fields)
+0.61 /testbed/django/forms/models.py(274):         new_class.base_fields = fields
+0.61 /testbed/django/forms/models.py(276):         return new_class
+Skipping setup of unused database(s): other.
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sites.0001_initial... OK
+  Applying sites.0002_alter_domain_unique... OK
+System check identified no issues (0 silenced).
+0.79 /testbed/django/forms/models.py(284):         opts = self._meta
+0.79 /testbed/django/forms/models.py(285):         if opts.model is None:
+0.79 /testbed/django/forms/models.py(287):         if instance is None:
+0.79 /testbed/django/forms/models.py(289):             self.instance = opts.model()
+0.79 /testbed/django/forms/models.py(290):             object_data = {}
+0.79 /testbed/django/forms/models.py(295):         if initial is not None:
+0.79 /testbed/django/forms/models.py(300):         self._validate_unique = False
+0.79 /testbed/django/forms/models.py(301):         super().__init__(
+0.79 /testbed/django/forms/models.py(302):             data, files, auto_id, prefix, object_data, error_class,
+0.79 /testbed/django/forms/models.py(303):             label_suffix, empty_permitted, use_required_attribute=use_required_attribute,
+0.79 /testbed/django/forms/models.py(304):             renderer=renderer,
+0.79 /testbed/django/forms/models.py(306):         for formfield in self.fields.values():
+0.79 /testbed/django/forms/models.py(307):             apply_limit_choices_to_to_formfield(formfield)
+0.79 /testbed/django/forms/models.py(99):     if hasattr(formfield, 'queryset') and hasattr(formfield, 'get_limit_choices_to'):
+0.79 /testbed/django/forms/models.py(306):         for formfield in self.fields.values():
+0.79 /testbed/django/forms/models.py(351):         self._validate_unique = True
+0.79 /testbed/django/forms/models.py(352):         return self.cleaned_data
+0.79 /testbed/django/forms/models.py(383):         opts = self._meta
+0.79 /testbed/django/forms/models.py(385):         exclude = self._get_validation_exclusions()
+0.79 /testbed/django/forms/models.py(314):         exclude = []
+0.79 /testbed/django/forms/models.py(317):         for f in self.instance._meta.fields:
+0.79 /testbed/django/forms/models.py(318):             field = f.name
+0.79 /testbed/django/forms/models.py(321):             if field not in self.fields:
+0.79 /testbed/django/forms/models.py(322):                 exclude.append(f.name)
+0.79 /testbed/django/forms/models.py(317):         for f in self.instance._meta.fields:
+0.79 /testbed/django/forms/models.py(318):             field = f.name
+0.79 /testbed/django/forms/models.py(321):             if field not in self.fields:
+0.79 /testbed/django/forms/models.py(327):             elif self._meta.fields and field not in self._meta.fields:
+0.79 /testbed/django/forms/models.py(329):             elif self._meta.exclude and field in self._meta.exclude:
+0.79 /testbed/django/forms/models.py(334):             elif field in self._errors:
+0.79 /testbed/django/forms/models.py(335):                 exclude.append(f.name)
+0.79 /testbed/django/forms/models.py(317):         for f in self.instance._meta.fields:
+0.79 /testbed/django/forms/models.py(348):         return exclude
+0.79 /testbed/django/forms/models.py(394):         for name, field in self.fields.items():
+0.79 /testbed/django/forms/models.py(395):             if isinstance(field, InlineForeignKeyField):
+0.79 /testbed/django/forms/models.py(394):         for name, field in self.fields.items():
+0.79 /testbed/django/forms/models.py(398):         try:
+0.79 /testbed/django/forms/models.py(399):             self.instance = construct_instance(self, self.instance, opts.fields, opts.exclude)
+0.79 /testbed/django/forms/models.py(36):     from django.db import models
+0.79 /testbed/django/forms/models.py(37):     opts = instance._meta
+0.79 /testbed/django/forms/models.py(39):     cleaned_data = form.cleaned_data
+0.79 /testbed/django/forms/models.py(40):     file_field_list = []
+0.79 /testbed/django/forms/models.py(41):     for f in opts.fields:
+0.79 /testbed/django/forms/models.py(42):         if not f.editable or isinstance(f, models.AutoField) \
+0.79 /testbed/django/forms/models.py(41):     for f in opts.fields:
+0.79 /testbed/django/forms/models.py(42):         if not f.editable or isinstance(f, models.AutoField) \
+0.79 /testbed/django/forms/models.py(43):                 or f.name not in cleaned_data:
+0.79 /testbed/django/forms/models.py(45):         if fields is not None and f.name not in fields:
+0.79 /testbed/django/forms/models.py(47):         if exclude and f.name in exclude:
+0.79 /testbed/django/forms/models.py(52):             f.has_default() and
+0.79 /testbed/django/forms/models.py(53):             form[f.name].field.widget.value_omitted_from_data(form.data, form.files, form.add_prefix(f.name)) and
+0.79 /testbed/django/forms/models.py(54):             cleaned_data.get(f.name) in form[f.name].field.empty_values
+0.79 /testbed/django/forms/models.py(59):         if isinstance(f, models.FileField):
+0.79 /testbed/django/forms/models.py(62):             f.save_form_data(instance, cleaned_data[f.name])
+0.79 /testbed/django/forms/models.py(41):     for f in opts.fields:
+0.79 /testbed/django/forms/models.py(64):     for f in file_field_list:
+0.79 /testbed/django/forms/models.py(67):     return instance
+0.79 /testbed/django/forms/models.py(403):         try:
+0.79 /testbed/django/forms/models.py(404):             self.instance.full_clean(exclude=exclude, validate_unique=False)
+0.79 /testbed/django/forms/models.py(409):         if self._validate_unique:
+0.79 /testbed/django/forms/models.py(410):             self.validate_unique()
+0.79 /testbed/django/forms/models.py(417):         exclude = self._get_validation_exclusions()
+0.79 /testbed/django/forms/models.py(314):         exclude = []
+0.79 /testbed/django/forms/models.py(317):         for f in self.instance._meta.fields:
+0.79 /testbed/django/forms/models.py(318):             field = f.name
+0.79 /testbed/django/forms/models.py(321):             if field not in self.fields:
+0.79 /testbed/django/forms/models.py(322):                 exclude.append(f.name)
+0.79 /testbed/django/forms/models.py(317):         for f in self.instance._meta.fields:
+0.79 /testbed/django/forms/models.py(318):             field = f.name
+0.79 /testbed/django/forms/models.py(321):             if field not in self.fields:
+0.79 /testbed/django/forms/models.py(327):             elif self._meta.fields and field not in self._meta.fields:
+0.79 /testbed/django/forms/models.py(329):             elif self._meta.exclude and field in self._meta.exclude:
+0.79 /testbed/django/forms/models.py(334):             elif field in self._errors:
+0.79 /testbed/django/forms/models.py(335):                 exclude.append(f.name)
+0.79 /testbed/django/forms/models.py(317):         for f in self.instance._meta.fields:
+0.79 /testbed/django/forms/models.py(348):         return exclude
+0.79 /testbed/django/forms/models.py(418):         try:
+0.79 /testbed/django/forms/models.py(419):             self.instance.validate_unique(exclude=exclude)
+0.79 /testbed/django/forms/models.py(36):     from django.db import models
+0.79 /testbed/django/forms/models.py(37):     opts = instance._meta
+0.79 /testbed/django/forms/models.py(39):     cleaned_data = form.cleaned_data
+0.79 /testbed/django/forms/models.py(40):     file_field_list = []
+0.79 /testbed/django/forms/models.py(41):     for f in opts.fields:
+0.79 /testbed/django/forms/models.py(42):         if not f.editable or isinstance(f, models.AutoField) \
+0.79 /testbed/django/forms/models.py(41):     for f in opts.fields:
+0.79 /testbed/django/forms/models.py(42):         if not f.editable or isinstance(f, models.AutoField) \
+0.79 /testbed/django/forms/models.py(43):                 or f.name not in cleaned_data:
+0.79 /testbed/django/forms/models.py(45):         if fields is not None and f.name not in fields:
+0.79 /testbed/django/forms/models.py(47):         if exclude and f.name in exclude:
+0.79 /testbed/django/forms/models.py(52):             f.has_default() and
+0.79 /testbed/django/forms/models.py(53):             form[f.name].field.widget.value_omitted_from_data(form.data, form.files, form.add_prefix(f.name)) and
+0.79 /testbed/django/forms/models.py(54):             cleaned_data.get(f.name) in form[f.name].field.empty_values
+0.79 /testbed/django/forms/models.py(59):         if isinstance(f, models.FileField):
+0.79 /testbed/django/forms/models.py(62):             f.save_form_data(instance, cleaned_data[f.name])
+0.79 /testbed/django/forms/models.py(41):     for f in opts.fields:
+0.79 /testbed/django/forms/models.py(64):     for f in file_field_list:
+0.79 /testbed/django/forms/models.py(67):     return instance
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
++ cat coverage.cover
+{"/testbed/django/forms/models.py": {"6": 1, "8": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "18": 1, "19": 1, "25": 1, "28": 1, "31": 1, "72": 1, "97": 1, "108": 1, "194": 2, "207": 2, "279": 2, "470": 2, "474": 1, "475": 1, "476": 1, "477": 1, "557": 2, "857": 1, "858": 1, "859": 1, "860": 1, "861": 1, "862": 1, "886": 2, "986": 1, "1041": 1, "1042": 1, "1043": 1, "1044": 1, "1045": 1, "1046": 1, "1047": 1, "1085": 2, "1126": 2, "1154": 2, "1265": 2, "1357": 1, "36": 2, "37": 2, "39": 2, "40": 2, "41": 6, "42": 4, "43": 2, "44": 0, "45": 2, "46": 0, "47": 2, "48": 0, "52": 2, "53": 2, "54": 2, "56": 0, "59": 2, "60": 0, "62": 2, "64": 2, "65": 0, "67": 2, "84": 0, "85": 0, "86": 0, "87": 0, "88": 0, "89": 0, "90": 0, "91": 0, "92": 0, "93": 0, "94": 0, "99": 1, "100": 0, "101": 0, "102": 0, "139": 1, "140": 1, "141": 1, "143": 1, "144": 2, "145": 3, "146": 2, "147": 0, "148": 0, "149": 0, "150": 0, "151": 0, "153": 0, "154": 2, "155": 1, "156": 1, "157": 0, "159": 1, "160": 1, "161": 0, "162": 1, "163": 0, "164": 1, "165": 0, "166": 1, "167": 0, "168": 1, "169": 0, "170": 1, "171": 0, "173": 1, "174": 1, "175": 0, "176": 0, "178": 0, "180": 1, "181": 1, "182": 0, "183": 1, "185": 0, "186": 1, "187": 3, "188": 2, "191": 1, "189": 1, "195": 1, "196": 1, "197": 1, "198": 1, "199": 1, "200": 1, "201": 1, "202": 1, "203": 1, "204": 1, "208": 1, "209": 2, "210": 4, "211": 2, "212": 0, "213": 0, "215": 2, "217": 2, "219": 2, "220": 1, "222": 1, "227": 4, "228": 3, "229": 3, "230": 0, "232": 0, "233": 0, "234": 0, "236": 0, "238": 1, "240": 1, "241": 0, "242": 0, "244": 0, "247": 1, "250": 0, "252": 1, "253": 1, "254": 1, "255": 1, "257": 1, "261": 3, "262": 1, "263": 1, "264": 0, "265": 0, "266": 0, "267": 0, "270": 1, "272": 0, "274": 1, "276": 1, "280": 1, "281": 1, "282": 1, "283": 1, "309": 1, "350": 1, "354": 1, "382": 1, "412": 1, "423": 1, "444": 1, "467": 1, "284": 1, "285": 1, "286": 0, "287": 1, "289": 1, "290": 1, "292": 0, "293": 0, "295": 1, "296": 0, "300": 1, "301": 1, "302": 1, "303": 1, "304": 1, "306": 2, "307": 1, "314": 2, "317": 6, "318": 4, "321": 4, "322": 2, "327": 2, "328": 0, "329": 2, "330": 0, "334": 2, "335": 2, "344": 0, "345": 0, "346": 0, "347": 0, "348": 2, "351": 1, "352": 1, "357": 0, "361": 0, "362": 0, "364": 0, "366": 0, "367": 0, "368": 0, "369": 0, "370": 0, "371": 0, "373": 0, "375": 0, "376": 0, "377": 0, "378": 0, "380": 0, "383": 1, "385": 1, "394": 2, "395": 1, "396": 0, "398": 1, "399": 1, "400": 0, "401": 0, "403": 1, "404": 1, "405": 0, "406": 0, "409": 1, "410": 1, "417": 1, "418": 1, "419": 1, "420": 0, "421": 0, "427": 0, "428": 0, "429": 0, "430": 0, "434": 0, "435": 0, "436": 0, "437": 0, "438": 0, "439": 0, "440": 0, "441": 0, "442": 0, "450": 0, "451": 0, "452": 0, "453": 0, "454": 0, "457": 0, "459": 0, "460": 0, "464": 0, "465": 0, "471": 1, "511": 0, "512": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "518": 0, "519": 0, "520": 0, "521": 0, "522": 0, "523": 0, "524": 0, "525": 0, "526": 0, "527": 0, "531": 0, "532": 0, "533": 0, "534": 0, "536": 0, "540": 0, "541": 0, "544": 0, "545": 0, "546": 0, "547": 0, "552": 0, "561": 1, "564": 1, "567": 1, "572": 1, "578": 1, "583": 1, "592": 1, "626": 1, "645": 1, "649": 1, "653": 1, "658": 1, "672": 1, "674": 1, "677": 1, "750": 1, "760": 1, "770": 1, "773": 1, "799": 1, "813": 1, "568": 0, "569": 0, "570": 0, "574": 0, "575": 0, "576": 0, "579": 0, "580": 0, "581": 0, "588": 0, "589": 0, "590": 0, "593": 0, "594": 0, "595": 0, "596": 0, "597": 0, "598": 0, "599": 0, "602": 0, "604": 0, "605": 0, "606": 0, "607": 0, "610": 0, "612": 0, "614": 0, "615": 0, "617": 0, "618": 0, "619": 0, "620": 0, "621": 0, "622": 0, "623": 0, "624": 0, "627": 0, "628": 0, "629": 0, "631": 0, "636": 0, "637": 0, "642": 0, "643": 0, "647": 0, "651": 0, "655": 0, "656": 0, "663": 0, "664": 0, "666": 0, "669": 0, "670": 0, "667": 0, "668": 0, "675": 0, "679": 0, "680": 0, "681": 0, "682": 0, "683": 0, "684": 0, "685": 0, "686": 0, "687": 0, "689": 0, "691": 0, "692": 0, "693": 0, "696": 0, "697": 0, "700": 0, "701": 0, "704": 0, "706": 0, "708": 0, "711": 0, "712": 0, "714": 0, "715": 0, "716": 0, "718": 0, "720": 0, "721": 0, "722": 0, "723": 0, "725": 0, "726": 0, "728": 0, "729": 0, "730": 0, "734": 0, "735": 0, "737": 0, "740": 0, "741": 0, "743": 0, "745": 0, "747": 0, "748": 0, "751": 0, "752": 0, "753": 0, "756": 0, "757": 0, "761": 0, "762": 0, "765": 0, "766": 0, "767": 0, "771": 0, "774": 0, "775": 0, "776": 0, "777": 0, "779": 0, "780": 0, "781": 0, "782": 0, "787": 0, "788": 0, "789": 0, "790": 0, "791": 0, "792": 0, "793": 0, "794": 0, "795": 0, "796": 0, "797": 0, "800": 0, "801": 0, "802": 0, "803": 0, "806": 0, "807": 0, "808": 0, "809": 0, "810": 0, "811": 0, "815": 0, "816": 0, "823": 0, "830": 0, "831": 0, "835": 0, "837": 0, "838": 0, "839": 0, "841": 0, "842": 0, "843": 0, "844": 0, "845": 0, "847": 0, "848": 0, "849": 0, "850": 0, "852": 0, "853": 0, "854": 0, "825": 0, "826": 0, "827": 0, "864": 0, "865": 0, "866": 0, "867": 0, "868": 0, "872": 0, "873": 0, "874": 0, "875": 0, "876": 0, "877": 0, "878": 0, "879": 0, "880": 0, "881": 0, "889": 1, "911": 1, "916": 1, "939": 1, "943": 1, "950": 1, "981": 1, "890": 0, "891": 0, "893": 0, "894": 0, "895": 0, "896": 0, "897": 0, "898": 0, "900": 0, "901": 0, "902": 0, "906": 0, "907": 0, "908": 0, "909": 0, "912": 0, "913": 0, "914": 0, "917": 0, "918": 0, "919": 0, "921": 0, "922": 0, "925": 0, "927": 0, "928": 0, "929": 0, "932": 0, "933": 0, "934": 0, "935": 0, "936": 0, "937": 0, "941": 0, "947": 0, "948": 0, "951": 0, "952": 0, "953": 0, "954": 0, "958": 0, "960": 0, "966": 0, "967": 0, "971": 0, "972": 0, "973": 0, "975": 0, "976": 0, "977": 0, "979": 0, "982": 0, "983": 0, "995": 0, "996": 0, "997": 0, "998": 0, "999": 0, "1000": 0, "1001": 0, "1002": 0, "1003": 0, "1004": 0, "1005": 0, "1007": 0, "1008": 0, "1009": 0, "1014": 0, "1020": 0, "1021": 0, "1022": 0, "1023": 0, "1024": 0, "1025": 0, "1026": 0, "1027": 0, "1028": 0, "1032": 0, "1033": 0, "1034": 0, "1035": 0, "1038": 0, "1015": 0, "1016": 0, "1017": 0, "1054": 0, "1056": 0, "1057": 0, "1059": 0, "1060": 0, "1061": 0, "1062": 0, "1063": 0, "1064": 0, "1065": 0, "1066": 0, "1067": 0, "1068": 0, "1069": 0, "1070": 0, "1071": 0, "1072": 0, "1073": 0, "1074": 0, "1075": 0, "1076": 0, "1078": 0, "1079": 0, "1080": 0, "1090": 1, "1092": 1, "1095": 1, "1107": 1, "1122": 1, "1096": 0, "1097": 0, "1098": 0, "1099": 0, "1100": 0, "1101": 0, "1103": 0, "1104": 0, "1105": 0, "1108": 0, "1109": 0, "1110": 0, "1112": 0, "1114": 0, "1115": 0, "1117": 0, "1118": 0, "1119": 0, "1120": 0, "1123": 0, "1127": 1, "1131": 1, "1141": 1, "1147": 1, "1150": 1, "1128": 0, "1129": 0, "1132": 0, "1133": 0, "1134": 0, "1136": 0, "1137": 0, "1138": 0, "1139": 0, "1145": 0, "1148": 0, "1151": 0, "1159": 1, "1162": 1, "1164": 1, "1165": 1, "1166": 1, "1183": 1, "1193": 1, "1200": 1, "1203": 1, "1207": 1, "1211": 1, "1219": 1, "1234": 1, "1236": 1, "1244": 1, "1254": 1, "1257": 1, "1168": 0, "1169": 0, "1171": 0, "1175": 0, "1176": 0, "1177": 0, "1179": 0, "1180": 0, "1181": 0, "1189": 0, "1190": 0, "1191": 0, "1194": 0, "1196": 0, "1197": 0, "1198": 0, "1201": 0, "1204": 0, "1205": 0, "1217": 0, "1222": 0, "1223": 0, "1232": 0, "1237": 0, "1238": 0, "1239": 0, "1241": 0, "1242": 0, "1245": 0, "1246": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1252": 0, "1255": 0, "1258": 0, "1259": 0, "1260": 0, "1261": 0, "1262": 0, "1267": 1, "1268": 1, "1270": 1, "1271": 1, "1273": 1, "1276": 1, "1279": 1, "1284": 1, "1298": 1, "1335": 1, "1343": 1, "1277": 0, "1280": 0, "1281": 0, "1282": 0, "1285": 0, "1286": 0, "1287": 0, "1288": 0, "1289": 0, "1290": 0, "1291": 0, "1292": 0, "1295": 0, "1296": 0, "1304": 0, "1307": 0, "1308": 0, "1309": 0, "1311": 0, "1312": 0, "1313": 0, "1315": 0, "1316": 0, "1317": 0, "1318": 0, "1319": 0, "1320": 0, "1321": 0, "1322": 0, "1324": 0, "1325": 0, "1326": 0, "1327": 0, "1328": 0, "1329": 0, "1330": 0, "1331": 0, "1333": 0, "1336": 0, "1337": 0, "1338": 0, "1339": 0, "1340": 0, "1341": 0, "1344": 0, "1345": 0, "1346": 0, "1347": 0, "1348": 0, "1349": 0, "1350": 0, "1351": 0, "1352": 0, "1353": 0, "1354": 0, "1358": 0, "1359": 0, "1360": 0}}
++ git checkout 21b1d239125f1228e579b1ce8d94d4d5feadd2a6
+Note: switching to '21b1d239125f1228e579b1ce8d94d4d5feadd2a6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 21b1d23912 Added CVE-2019-12308 to the security release archive.
+M	django/forms/models.py
++ git apply /root/pre_state.patch
+error: unrecognized input

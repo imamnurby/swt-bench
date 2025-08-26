@@ -1,0 +1,49 @@
+{
+    "pylint-dev__pylint-6386": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.5555555555555556,
+        "coverage_gold": 1.0,
+        "coverage_base": 0.5555555555555556,
+        "coverage_delta_pred": 0.0,
+        "coverage_delta_gold": 0.8888888888888888,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "file"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "tests/test_coverup_pylint-dev__pylint-6386.py::test_verbose_short_option_expects_argument"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "tests/config/test_config.py::test_short_verbose"
+            ],
+            "PASS_TO_PASS": [
+                "tests/config/test_config.py::test_unknown_py_version",
+                "tests/config/test_config.py::test_can_read_toml_env_variable",
+                "tests/config/test_config.py::test_unknown_yes_no",
+                "tests/config/test_config.py::test_unknown_short_option_name",
+                "tests/config/test_config.py::test_unknown_option_name",
+                "tests/config/test_config.py::test_unknown_confidence",
+                "tests/config/test_config.py::test_unknown_message_id"
+            ],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

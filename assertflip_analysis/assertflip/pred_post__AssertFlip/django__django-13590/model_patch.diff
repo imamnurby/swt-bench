@@ -1,0 +1,30 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-13590.py
+new file mode 100644
+index e69de29..3d83f03 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-13590.py
+@@ -0,0 +1,24 @@
++from django.test import SimpleTestCase
++from collections import namedtuple
++from django.db.models.sql.query import Query
++from django.db import models
++
++class DummyModel(models.Model):
++    class Meta:
++        app_label = 'test'
++
++class ResolveLookupValueTest(SimpleTestCase):
++    def test_named_tuple_causes_type_error(self):
++        # Define a named tuple with two elements
++        Point = namedtuple('Point', ['x', 'far'])
++        point_instance = Point(1, 2)
++
++        # Create a Query instance with a dummy model
++        query_instance = Query(DummyModel)
++
++        # Attempt to resolve the named tuple using resolve_lookup_value
++        try:
++            query_instance.resolve_lookup_value(point_instance, can_reuse=None, allow_joins=True)
++        except TypeError as e:
++            # Fail the test if a TypeError is raised
++            self.fail(f"TypeError was raised: {e}")

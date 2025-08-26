@@ -1,0 +1,41 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-13933.py
+new file mode 100644
+index e69de29..bb31c5c 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-13933.py
+@@ -0,0 +1,35 @@
++from django.test import SimpleTestCase
++from django.core.exceptions import ValidationError
++from django.forms import ModelChoiceField
++from django.db import models
++
++# Define a simple model for testing
++class TestModel(models.Model):
++    name = models.CharField(max_length=100)
++
++    class Meta:
++        app_label = 'test'
++
++class ModelChoiceFieldTest(SimpleTestCase):
++    def setUp(self):
++        # Create a queryset with a single valid choice
++        self.queryset = TestModel.objects.all()
++
++    def test_invalid_choice_includes_value_in_error_message(self):
++        # Initialize ModelChoiceField with the queryset
++        field = ModelChoiceField(queryset=self.queryset)
++
++        # Invalid choice value
++        invalid_choice = 'invalid_choice_value'
++
++        # Attempt to convert the invalid choice to a Python object
++        with self.assertRaises(ValidationError) as cm:
++            field.to_python(invalid_choice)
++
++        # Capture the ValidationError
++        e = cm.exception
++
++        # Assert that the ValidationError is raised
++        self.assertEqual(e.code, 'invalid_choice')
++        # Assert that the error message includes the invalid choice value
++        self.assertIn(invalid_choice, e.message % {'value': invalid_choice})

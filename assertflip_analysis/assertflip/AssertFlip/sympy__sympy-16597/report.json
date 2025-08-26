@@ -1,0 +1,48 @@
+{
+    "sympy__sympy-16597": {
+        "patch_is_None": false,
+        "patch_exists": true,
+        "patch_successfully_applied": true,
+        "resolved": false,
+        "coverage_pred": 0.03636363636363636,
+        "coverage_gold": 0.09090909090909091,
+        "coverage_base": 0.03636363636363636,
+        "coverage_delta_pred": 0.0,
+        "coverage_delta_gold": 0.05454545454545454,
+        "added_f2p": 0,
+        "tests_base": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_pred": {
+            "FAIL_TO_PASS": [],
+            "PASS_TO_PASS": [],
+            "FAIL_TO_FAIL": [
+                "test_even_symbol_is_finite"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        },
+        "tests_gold": {
+            "FAIL_TO_PASS": [
+                "test_neg_infinity",
+                "test_infinity"
+            ],
+            "PASS_TO_PASS": [
+                "test_E",
+                "test_pi",
+                "test_I",
+                "test_zero",
+                "test_zoo"
+            ],
+            "FAIL_TO_FAIL": [
+                "test_other_symbol"
+            ],
+            "PASS_TO_FAIL": [],
+            "UNMATCHED": []
+        }
+    }
+}

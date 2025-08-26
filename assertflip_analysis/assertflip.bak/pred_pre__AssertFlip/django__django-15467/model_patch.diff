@@ -1,0 +1,39 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-15467.py
+new file mode 100644
+index e69de29..b4cf350 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-15467.py
+@@ -0,0 +1,33 @@
++from django.test import SimpleTestCase
++from django.contrib.admin import ModelAdmin
++from django.db import models
++from django.contrib import admin
++from django.contrib.contenttypes.models import ContentType
++from django.contrib.auth.models import Permission
++
++# Mock model to simulate the foreign key field
++class MockModel(models.Model):
++    myfield = models.ForeignKey('self', on_delete=models.CASCADE, blank=True, null=True)
++
++    class Meta:
++        app_label = 'myapp'
++
++# Mock ModelAdmin to override formfield_for_foreignkey
++class MockModelAdmin(ModelAdmin):
++    radio_fields = {'myfield': None}
++
++    def formfield_for_foreignkey(self, db_field, request, **kwargs):
++        if db_field.name == 'myfield':
++            kwargs['empty_label'] = "I WANT TO SET MY OWN EMPTY LABEL"
++        return super().formfield_for_foreignkey(db_field, request, **kwargs)
++
++class TestModelAdminEmptyLabel(SimpleTestCase):
++    def test_empty_label_override(self):
++        model_admin = MockModelAdmin(MockModel, admin.site)
++        mock_field = MockModel._meta.get_field('myfield')
++
++        # Simulate calling formfield_for_foreignkey
++        formfield = model_admin.formfield_for_foreignkey(mock_field, None)
++
++        # Check if the empty_label is overridden
++        self.assertEqual(formfield.empty_label, "I WANT TO SET MY OWN EMPTY LABEL")

@@ -1,0 +1,25 @@
+diff --git a/dev/null b/astropy/tests/test_coverup_astropy__astropy-13033.py
+new file mode 100644
+index e69de29..933cf7c 100644
+--- /dev/null
++++ b/astropy/tests/test_coverup_astropy__astropy-13033.py
+@@ -0,0 +1,19 @@
++import pytest
++from astropy.time import Time
++from astropy.timeseries import TimeSeries
++import numpy as np
++
++def test_misleading_exception_message():
++    # Create a TimeSeries object with required columns 'time' and 'flux'
++    time = Time(np.arange(100000, 100003), format='jd')
++    ts = TimeSeries(time=time, data={"flux": [99.9, 99.8, 99.7]})
++    ts._required_columns = ["time", "flux"]
++
++    # Temporarily disable required column checks to remove 'flux'
++    ts._required_columns_enabled = False
++    ts.remove_column("flux")
++    ts._required_columns_enabled = True
++
++    # Access the TimeSeries object to trigger the column check
++    with pytest.raises(ValueError, match="required columns are missing"):
++        ts._check_required_columns()

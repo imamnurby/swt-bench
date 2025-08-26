@@ -1,0 +1,580 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 879cc3da6249e920b8d54518a0ae06de835d7373
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 879cc3da6249e920b8d54518a0ae06de835d7373
+Author: Tim Graham <timograham@gmail.com>
+Date:   Thu Mar 28 20:47:51 2019 -0400
+
+    Moved extlinks in docs config to allow using 'version' variable.
+    
+    After a stable branch is created, 'master' will change to
+    'stable/' + version + '.x'.
+
+diff --git a/docs/conf.py b/docs/conf.py
+index 625c383965..b51c8c03e2 100644
+--- a/docs/conf.py
++++ b/docs/conf.py
+@@ -43,14 +43,6 @@ extensions = [
+     "sphinx.ext.viewcode",
+ ]
+ 
+-extlinks = {
+-    'commit': ('https://github.com/django/django/commit/%s', ''),
+-    'cve': ('https://nvd.nist.gov/view/vuln/detail?vulnId=%s', 'CVE-'),
+-    # A file or directory. GitHub redirects from blob to tree if needed.
+-    'source': ('https://github.com/django/django/blob/master/%s', ''),
+-    'ticket': ('https://code.djangoproject.com/ticket/%s', '#'),
+-}
+-
+ # Spelling check needs an additional module that is not installed by default.
+ # Add it only if spelling check is requested so docs can be generated without it.
+ if 'spelling' in sys.argv:
+@@ -102,6 +94,14 @@ else:
+ # The "development version" of Django
+ django_next_version = '3.0'
+ 
++extlinks = {
++    'commit': ('https://github.com/django/django/commit/%s', ''),
++    'cve': ('https://nvd.nist.gov/view/vuln/detail?vulnId=%s', 'CVE-'),
++    # A file or directory. GitHub redirects from blob to tree if needed.
++    'source': ('https://github.com/django/django/blob/master/%s', ''),
++    'ticket': ('https://code.djangoproject.com/ticket/%s', '#'),
++}
++
+ # The language for content autogenerated by Sphinx. Refer to documentation
+ # for a list of supported languages.
+ # language = None
+diff --git a/docs/ref/settings.txt b/docs/ref/settings.txt
+index 0eb5bed1fc..9a7de08941 100644
+--- a/docs/ref/settings.txt
++++ b/docs/ref/settings.txt
+@@ -1839,11 +1839,7 @@ Here's a sample settings file::
+ 
+ Default: A list of all language codes from the :setting:`LANGUAGES` setting
+ that are written right-to-left. You can see the current list of these languages
+-by looking in ``django/conf/global_settings.py`` (or view the `online
+-source`_).
+-
+-.. _online source: https://github.com/django/django/blob/master/django/conf/global_settings.py
+-
++by looking in :source:`django/conf/global_settings.py`.
+ 
+ The list contains :term:`language codes<language code>` for languages that are
+ written right-to-left.
++ git diff 879cc3da6249e920b8d54518a0ae06de835d7373
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190329004751) (2025.2)
+Requirement already satisfied: sqlparse in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.0.dev20190329004751) (0.4.4)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.0.dev20190329004751
+    Uninstalling Django-3.0.dev20190329004751:
+      Successfully uninstalled Django-3.0.dev20190329004751
+  Running setup.py develop for Django
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed Django-3.0.dev20190329004751
++ git apply -v -
+<stdin>:14: trailing whitespace.
+        
+<stdin>:17: trailing whitespace.
+        
+<stdin>:20: trailing whitespace.
+        
+Checking patch tests/test_coverup_django__django-11133.py...
+Applied patch tests/test_coverup_django__django-11133.py cleanly.
+warning: 3 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/http/response\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-11133
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/http/response\\.py)']
+0.11 /testbed/django/http/response.py(1): import datetime
+0.11 /testbed/django/http/response.py(2): import json
+0.11 /testbed/django/http/response.py(3): import mimetypes
+0.11 /testbed/django/http/response.py(4): import os
+0.11 /testbed/django/http/response.py(5): import re
+0.11 /testbed/django/http/response.py(6): import sys
+0.11 /testbed/django/http/response.py(7): import time
+0.11 /testbed/django/http/response.py(8): from email.header import Header
+0.11 /testbed/django/http/response.py(9): from http.client import responses
+0.12 /testbed/django/http/response.py(10): from urllib.parse import quote, urlparse
+0.12 /testbed/django/http/response.py(12): from django.conf import settings
+0.12 /testbed/django/http/response.py(13): from django.core import signals, signing
+0.12 /testbed/django/http/response.py(14): from django.core.exceptions import DisallowedRedirect
+0.12 /testbed/django/http/response.py(15): from django.core.serializers.json import DjangoJSONEncoder
+0.35 /testbed/django/http/response.py(16): from django.http.cookie import SimpleCookie
+0.35 /testbed/django/http/response.py(17): from django.utils import timezone
+0.35 /testbed/django/http/response.py(18): from django.utils.encoding import iri_to_uri
+0.35 /testbed/django/http/response.py(19): from django.utils.http import http_date
+0.35 /testbed/django/http/response.py(21): _charset_from_content_type_re = re.compile(r';\s*charset=(?P<charset>[^\s;]+)', re.I)
+0.35 /testbed/django/http/response.py(24): class BadHeaderError(ValueError):
+0.35 /testbed/django/http/response.py(24): class BadHeaderError(ValueError):
+0.35 /testbed/django/http/response.py(25):     pass
+0.35 /testbed/django/http/response.py(28): class HttpResponseBase:
+0.35 /testbed/django/http/response.py(28): class HttpResponseBase:
+0.35 /testbed/django/http/response.py(34):     """
+0.35 /testbed/django/http/response.py(36):     status_code = 200
+0.35 /testbed/django/http/response.py(38):     def __init__(self, content_type=None, status=None, reason=None, charset=None):
+0.35 /testbed/django/http/response.py(63):     @property
+0.35 /testbed/django/http/response.py(71):     @reason_phrase.setter
+0.35 /testbed/django/http/response.py(75):     @property
+0.35 /testbed/django/http/response.py(86):     @charset.setter
+0.35 /testbed/django/http/response.py(90):     def serialize_headers(self):
+0.35 /testbed/django/http/response.py(101):     __bytes__ = serialize_headers
+0.35 /testbed/django/http/response.py(103):     @property
+0.35 /testbed/django/http/response.py(107):     def _convert_to_charset(self, value, charset, mime_encode=False):
+0.35 /testbed/django/http/response.py(134):     def __setitem__(self, header, value):
+0.35 /testbed/django/http/response.py(139):     def __delitem__(self, header):
+0.35 /testbed/django/http/response.py(142):     def __getitem__(self, header):
+0.35 /testbed/django/http/response.py(145):     def has_header(self, header):
+0.35 /testbed/django/http/response.py(149):     __contains__ = has_header
+0.35 /testbed/django/http/response.py(151):     def items(self):
+0.35 /testbed/django/http/response.py(154):     def get(self, header, alternate=None):
+0.35 /testbed/django/http/response.py(158):                    domain=None, secure=False, httponly=False, samesite=None):
+0.35 /testbed/django/http/response.py(203):     def setdefault(self, key, value):
+0.35 /testbed/django/http/response.py(208):     def set_signed_cookie(self, key, value, salt='', **kwargs):
+0.35 /testbed/django/http/response.py(212):     def delete_cookie(self, key, path='/', domain=None):
+0.35 /testbed/django/http/response.py(223):     def make_bytes(self, value):
+0.35 /testbed/django/http/response.py(244):     def close(self):
+0.35 /testbed/django/http/response.py(253):     def write(self, content):
+0.35 /testbed/django/http/response.py(256):     def flush(self):
+0.35 /testbed/django/http/response.py(259):     def tell(self):
+0.35 /testbed/django/http/response.py(265):     def readable(self):
+0.35 /testbed/django/http/response.py(268):     def seekable(self):
+0.35 /testbed/django/http/response.py(271):     def writable(self):
+0.35 /testbed/django/http/response.py(274):     def writelines(self, lines):
+0.35 /testbed/django/http/response.py(278): class HttpResponse(HttpResponseBase):
+0.35 /testbed/django/http/response.py(278): class HttpResponse(HttpResponseBase):
+0.35 /testbed/django/http/response.py(283):     """
+0.35 /testbed/django/http/response.py(285):     streaming = False
+0.35 /testbed/django/http/response.py(287):     def __init__(self, content=b'', *args, **kwargs):
+0.35 /testbed/django/http/response.py(292):     def __repr__(self):
+0.35 /testbed/django/http/response.py(299):     def serialize(self):
+0.35 /testbed/django/http/response.py(303):     __bytes__ = serialize
+0.35 /testbed/django/http/response.py(305):     @property
+0.35 /testbed/django/http/response.py(309):     @content.setter
+0.35 /testbed/django/http/response.py(324):     def __iter__(self):
+0.35 /testbed/django/http/response.py(327):     def write(self, content):
+0.35 /testbed/django/http/response.py(330):     def tell(self):
+0.35 /testbed/django/http/response.py(333):     def getvalue(self):
+0.35 /testbed/django/http/response.py(336):     def writable(self):
+0.35 /testbed/django/http/response.py(339):     def writelines(self, lines):
+0.35 /testbed/django/http/response.py(344): class StreamingHttpResponse(HttpResponseBase):
+0.35 /testbed/django/http/response.py(344): class StreamingHttpResponse(HttpResponseBase):
+0.35 /testbed/django/http/response.py(351):     """
+0.35 /testbed/django/http/response.py(353):     streaming = True
+0.35 /testbed/django/http/response.py(355):     def __init__(self, streaming_content=(), *args, **kwargs):
+0.35 /testbed/django/http/response.py(361):     @property
+0.35 /testbed/django/http/response.py(368):     @property
+0.35 /testbed/django/http/response.py(372):     @streaming_content.setter
+0.35 /testbed/django/http/response.py(376):     def _set_streaming_content(self, value):
+0.35 /testbed/django/http/response.py(382):     def __iter__(self):
+0.35 /testbed/django/http/response.py(385):     def getvalue(self):
+0.35 /testbed/django/http/response.py(389): class FileResponse(StreamingHttpResponse):
+0.35 /testbed/django/http/response.py(389): class FileResponse(StreamingHttpResponse):
+0.35 /testbed/django/http/response.py(392):     """
+0.35 /testbed/django/http/response.py(393):     block_size = 4096
+0.35 /testbed/django/http/response.py(395):     def __init__(self, *args, as_attachment=False, filename='', **kwargs):
+0.35 /testbed/django/http/response.py(400):     def _set_streaming_content(self, value):
+0.35 /testbed/django/http/response.py(412):     def set_headers(self, filelike):
+0.35 /testbed/django/http/response.py(450): class HttpResponseRedirectBase(HttpResponse):
+0.35 /testbed/django/http/response.py(450): class HttpResponseRedirectBase(HttpResponse):
+0.35 /testbed/django/http/response.py(451):     allowed_schemes = ['http', 'https', 'ftp']
+0.35 /testbed/django/http/response.py(453):     def __init__(self, redirect_to, *args, **kwargs):
+0.35 /testbed/django/http/response.py(460):     url = property(lambda self: self['Location'])
+0.35 /testbed/django/http/response.py(462):     def __repr__(self):
+0.35 /testbed/django/http/response.py(471): class HttpResponseRedirect(HttpResponseRedirectBase):
+0.35 /testbed/django/http/response.py(471): class HttpResponseRedirect(HttpResponseRedirectBase):
+0.35 /testbed/django/http/response.py(472):     status_code = 302
+0.35 /testbed/django/http/response.py(475): class HttpResponsePermanentRedirect(HttpResponseRedirectBase):
+0.35 /testbed/django/http/response.py(475): class HttpResponsePermanentRedirect(HttpResponseRedirectBase):
+0.35 /testbed/django/http/response.py(476):     status_code = 301
+0.35 /testbed/django/http/response.py(479): class HttpResponseNotModified(HttpResponse):
+0.35 /testbed/django/http/response.py(479): class HttpResponseNotModified(HttpResponse):
+0.35 /testbed/django/http/response.py(480):     status_code = 304
+0.35 /testbed/django/http/response.py(482):     def __init__(self, *args, **kwargs):
+test_memoryview_content (test_coverup_django__django-11133.HttpResponseMemoryViewTest) ... FAIL
+
+======================================================================
+FAIL: test_memoryview_content (test_coverup_django__django-11133.HttpResponseMemoryViewTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-11133.py", line 16, in test_memoryview_content
+    self.assertEqual(content, b'My Content', "Content is not correctly represented as the original byte string")
+AssertionError: b'<memory at 0x7ff4848d6648>' != b'My Content' : Content is not correctly represented as the original byte string
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+0.35 /testbed/django/http/response.py(486):     @HttpResponse.content.setter
+0.35 /testbed/django/http/response.py(493): class HttpResponseBadRequest(HttpResponse):
+0.35 /testbed/django/http/response.py(493): class HttpResponseBadRequest(HttpResponse):
+0.35 /testbed/django/http/response.py(494):     status_code = 400
+0.35 /testbed/django/http/response.py(497): class HttpResponseNotFound(HttpResponse):
+0.35 /testbed/django/http/response.py(497): class HttpResponseNotFound(HttpResponse):
+0.35 /testbed/django/http/response.py(498):     status_code = 404
+0.35 /testbed/django/http/response.py(501): class HttpResponseForbidden(HttpResponse):
+0.35 /testbed/django/http/response.py(501): class HttpResponseForbidden(HttpResponse):
+0.35 /testbed/django/http/response.py(502):     status_code = 403
+0.35 /testbed/django/http/response.py(505): class HttpResponseNotAllowed(HttpResponse):
+0.35 /testbed/django/http/response.py(505): class HttpResponseNotAllowed(HttpResponse):
+0.35 /testbed/django/http/response.py(506):     status_code = 405
+0.35 /testbed/django/http/response.py(508):     def __init__(self, permitted_methods, *args, **kwargs):
+0.35 /testbed/django/http/response.py(512):     def __repr__(self):
+0.35 /testbed/django/http/response.py(521): class HttpResponseGone(HttpResponse):
+0.35 /testbed/django/http/response.py(521): class HttpResponseGone(HttpResponse):
+0.35 /testbed/django/http/response.py(522):     status_code = 410
+0.35 /testbed/django/http/response.py(525): class HttpResponseServerError(HttpResponse):
+0.35 /testbed/django/http/response.py(525): class HttpResponseServerError(HttpResponse):
+0.35 /testbed/django/http/response.py(526):     status_code = 500
+0.35 /testbed/django/http/response.py(529): class Http404(Exception):
+0.35 /testbed/django/http/response.py(529): class Http404(Exception):
+0.35 /testbed/django/http/response.py(530):     pass
+0.35 /testbed/django/http/response.py(533): class JsonResponse(HttpResponse):
+0.35 /testbed/django/http/response.py(533): class JsonResponse(HttpResponse):
+0.35 /testbed/django/http/response.py(545):     """
+0.35 /testbed/django/http/response.py(547):     def __init__(self, data, encoder=DjangoJSONEncoder, safe=True,
+0.35 /testbed/django/http/response.py(548):                  json_dumps_params=None, **kwargs):
+Testing against Django installed in '/testbed/django'
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+0.62 /testbed/django/http/response.py(288):         super().__init__(*args, **kwargs)
+0.62 /testbed/django/http/response.py(42):         self._headers = {}
+0.62 /testbed/django/http/response.py(43):         self._closable_objects = []
+0.62 /testbed/django/http/response.py(46):         self._handler_class = None
+0.62 /testbed/django/http/response.py(47):         self.cookies = SimpleCookie()
+0.62 /testbed/django/http/response.py(48):         self.closed = False
+0.62 /testbed/django/http/response.py(49):         if status is not None:
+0.62 /testbed/django/http/response.py(57):         self._reason_phrase = reason
+0.62 /testbed/django/http/response.py(58):         self._charset = charset
+0.62 /testbed/django/http/response.py(59):         if content_type is None:
+0.62 /testbed/django/http/response.py(60):             content_type = 'text/html; charset=%s' % self.charset
+0.62 /testbed/django/http/response.py(77):         if self._charset is not None:
+0.62 /testbed/django/http/response.py(79):         content_type = self.get('Content-Type', '')
+0.62 /testbed/django/http/response.py(155):         return self._headers.get(header.lower(), (None, alternate))[1]
+0.62 /testbed/django/http/response.py(80):         matched = _charset_from_content_type_re.search(content_type)
+0.62 /testbed/django/http/response.py(81):         if matched:
+0.62 /testbed/django/http/response.py(84):         return settings.DEFAULT_CHARSET
+0.62 /testbed/django/http/response.py(61):         self['Content-Type'] = content_type
+0.62 /testbed/django/http/response.py(135):         header = self._convert_to_charset(header, 'ascii')
+0.62 /testbed/django/http/response.py(114):         if not isinstance(value, (bytes, str)):
+0.62 /testbed/django/http/response.py(116):         if ((isinstance(value, bytes) and (b'\n' in value or b'\r' in value)) or
+0.62 /testbed/django/http/response.py(117):                 isinstance(value, str) and ('\n' in value or '\r' in value)):
+0.62 /testbed/django/http/response.py(119):         try:
+0.62 /testbed/django/http/response.py(120):             if isinstance(value, str):
+0.62 /testbed/django/http/response.py(122):                 value.encode(charset)
+0.62 /testbed/django/http/response.py(132):         return value
+0.62 /testbed/django/http/response.py(136):         value = self._convert_to_charset(value, 'latin-1', mime_encode=True)
+0.62 /testbed/django/http/response.py(114):         if not isinstance(value, (bytes, str)):
+0.62 /testbed/django/http/response.py(116):         if ((isinstance(value, bytes) and (b'\n' in value or b'\r' in value)) or
+0.62 /testbed/django/http/response.py(117):                 isinstance(value, str) and ('\n' in value or '\r' in value)):
+0.62 /testbed/django/http/response.py(119):         try:
+0.62 /testbed/django/http/response.py(120):             if isinstance(value, str):
+0.62 /testbed/django/http/response.py(122):                 value.encode(charset)
+0.62 /testbed/django/http/response.py(132):         return value
+0.62 /testbed/django/http/response.py(137):         self._headers[header.lower()] = (header, value)
+0.62 /testbed/django/http/response.py(290):         self.content = content
+0.62 /testbed/django/http/response.py(312):         if hasattr(value, '__iter__') and not isinstance(value, (bytes, str)):
+0.62 /testbed/django/http/response.py(320):             content = self.make_bytes(value)
+0.62 /testbed/django/http/response.py(232):         if isinstance(value, bytes):
+0.62 /testbed/django/http/response.py(234):         if isinstance(value, str):
+0.62 /testbed/django/http/response.py(237):         return str(value).encode(self.charset)
+0.62 /testbed/django/http/response.py(77):         if self._charset is not None:
+0.62 /testbed/django/http/response.py(79):         content_type = self.get('Content-Type', '')
+0.62 /testbed/django/http/response.py(155):         return self._headers.get(header.lower(), (None, alternate))[1]
+0.62 /testbed/django/http/response.py(80):         matched = _charset_from_content_type_re.search(content_type)
+0.62 /testbed/django/http/response.py(81):         if matched:
+0.62 /testbed/django/http/response.py(83):             return matched.group('charset').replace('"', '')
+0.62 /testbed/django/http/response.py(322):         self._container = [content]
+0.62 /testbed/django/http/response.py(307):         return b''.join(self._container)
++ cat coverage.cover
+{"/testbed/django/http/response.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1, "10": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1, "21": 1, "24": 2, "28": 2, "278": 2, "344": 2, "389": 2, "450": 2, "471": 2, "475": 2, "479": 2, "493": 2, "497": 2, "501": 2, "505": 2, "521": 2, "525": 2, "529": 2, "533": 2, "25": 1, "36": 1, "38": 1, "63": 1, "71": 1, "75": 1, "86": 1, "90": 1, "101": 1, "103": 1, "107": 1, "134": 1, "139": 1, "142": 1, "145": 1, "149": 1, "151": 1, "154": 1, "158": 1, "203": 1, "208": 1, "212": 1, "223": 1, "244": 1, "253": 1, "256": 1, "259": 1, "265": 1, "268": 1, "271": 1, "274": 1, "42": 1, "43": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 0, "51": 0, "52": 0, "53": 0, "55": 0, "56": 0, "57": 1, "58": 1, "59": 1, "60": 1, "61": 1, "65": 0, "66": 0, "69": 0, "73": 0, "77": 2, "78": 0, "79": 2, "80": 2, "81": 2, "83": 1, "84": 1, "88": 0, "92": 0, "96": 0, "97": 0, "99": 0, "93": 0, "105": 0, "114": 2, "115": 0, "116": 2, "117": 2, "118": 0, "119": 2, "120": 2, "122": 2, "125": 0, "126": 0, "127": 0, "128": 0, "130": 0, "131": 0, "132": 2, "135": 1, "136": 1, "137": 1, "140": 0, "143": 0, "147": 0, "152": 0, "155": 2, "168": 0, "169": 0, "170": 0, "171": 0, "172": 0, "173": 0, "177": 0, "179": 0, "180": 0, "182": 0, "184": 0, "185": 0, "186": 0, "188": 0, "189": 0, "190": 0, "191": 0, "192": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "201": 0, "205": 0, "206": 0, "209": 0, "210": 0, "215": 0, "216": 0, "217": 0, "218": 0, "232": 1, "233": 0, "234": 1, "235": 0, "237": 1, "245": 0, "246": 0, "247": 0, "248": 0, "249": 0, "250": 0, "251": 0, "254": 0, "257": 0, "260": 0, "266": 0, "269": 0, "272": 0, "275": 0, "285": 1, "287": 1, "292": 1, "299": 1, "303": 1, "305": 1, "309": 1, "324": 1, "327": 1, "330": 1, "333": 1, "336": 1, "339": 1, "288": 1, "290": 1, "293": 0, "294": 0, "295": 0, "296": 0, "301": 0, "307": 1, "312": 1, "313": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "320": 1, "322": 1, "325": 0, "328": 0, "331": 0, "334": 0, "337": 0, "340": 0, "341": 0, "353": 1, "355": 1, "361": 1, "368": 1, "372": 1, "376": 1, "382": 1, "385": 1, "356": 0, "359": 0, "363": 0, "364": 0, "365": 0, "370": 0, "374": 0, "378": 0, "379": 0, "380": 0, "383": 0, "386": 0, "393": 1, "395": 1, "400": 1, "412": 1, "396": 0, "397": 0, "398": 0, "401": 0, "402": 0, "403": 0, "405": 0, "406": 0, "407": 0, "408": 0, "409": 0, "410": 0, "418": 0, "419": 0, "420": 0, "422": 0, "423": 0, "424": 0, "425": 0, "426": 0, "427": 0, "429": 0, "430": 0, "431": 0, "434": 0, "435": 0, "437": 0, "439": 0, "440": 0, "441": 0, "442": 0, "443": 0, "444": 0, "445": 0, "446": 0, "447": 0, "451": 1, "453": 1, "460": 1, "462": 1, "454": 0, "455": 0, "456": 0, "457": 0, "458": 0, "463": 0, "464": 0, "465": 0, "466": 0, "467": 0, "472": 1, "476": 1, "480": 1, "482": 1, "486": 1, "483": 0, "484": 0, "488": 0, "489": 0, "490": 0, "494": 1, "498": 1, "502": 1, "506": 1, "508": 1, "512": 1, "509": 0, "510": 0, "513": 0, "514": 0, "515": 0, "516": 0, "517": 0, "522": 1, "526": 1, "530": 1, "547": 1, "548": 1, "549": 0, "550": 0, "551": 0, "554": 0, "555": 0, "556": 0, "557": 0, "558": 0}}
++ git checkout 879cc3da6249e920b8d54518a0ae06de835d7373
+Note: switching to '879cc3da6249e920b8d54518a0ae06de835d7373'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 879cc3da62 Moved extlinks in docs config to allow using 'version' variable.
++ git apply /root/pre_state.patch
+error: unrecognized input

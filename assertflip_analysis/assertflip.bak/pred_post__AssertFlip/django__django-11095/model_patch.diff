@@ -1,0 +1,50 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11095.py
+new file mode 100644
+index e69de29..e5337ef 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11095.py
+@@ -0,0 +1,44 @@
++from django.test import SimpleTestCase, RequestFactory
++from django.contrib.admin import ModelAdmin
++from django.contrib.auth.models import User
++from django.contrib import admin
++from django.db import models
++
++# Mock model to use with ModelAdmin
++class MockModel(models.Model):
++    name = models.CharField(max_length=100)
++
++    class Meta:
++        app_label = 'test_app'
++
++# Mock inline class
++class MockInline(admin.TabularInline):
++    model = MockModel
++
++    def has_view_or_change_permission(self, request, obj=None):
++        return True
++
++    def has_add_permission(self, request, obj=None):
++        return True
++
++    def has_delete_permission(self, request, obj=None):
++        return True
++
++# Mock ModelAdmin without a custom get_inlines method
++class MockModelAdmin(ModelAdmin):
++    inlines = [MockInline]
++
++class TestModelAdmin(SimpleTestCase):
++    def setUp(self):
++        self.factory = RequestFactory()
++        self.request = self.factory.get('/admin/')
++        self.admin_site = admin.sites.AdminSite()
++        self.model = MockModel
++
++    def test_get_inline_instances_without_get_inlines(self):
++        admin_instance = MockModelAdmin(self.model, self.admin_site)
++        inline_instances = admin_instance.get_inline_instances(self.request)
++
++        # Assert that the inlines returned by get_inline_instances are dynamically set
++        # This test should fail until the get_inlines method is implemented
++        self.assertNotEqual(len(inline_instances), 1)

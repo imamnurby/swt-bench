@@ -1,0 +1,26 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-21930.py
+new file mode 100644
+index e69de29..1fb618f 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-21930.py
+@@ -0,0 +1,20 @@
++from sympy import Symbol
++from sympy.physics.secondquant import B, Bd, Commutator
++from sympy import init_printing
++from sympy.printing.latex import latex
++
++def test_latex_rendering_issue():
++    # Initialize Latex printing
++    init_printing()
++
++    # Create a symbol
++    a = Symbol('0')
++
++    # Construct the commutator expression
++    expr = Commutator(Bd(a)**2, B(a))
++
++    # Capture the Latex output using the latex function
++    latex_output = latex(expr)
++
++    # Assert that the correct format is present
++    assert "{b^\\dagger_{0}}^{2}" in latex_output

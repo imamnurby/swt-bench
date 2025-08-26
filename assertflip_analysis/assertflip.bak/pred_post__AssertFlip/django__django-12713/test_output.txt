@@ -1,0 +1,967 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 5b884d45ac5b76234eca614d90c83b347294c332
++ sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen
++ locale-gen
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
++ export LANG=en_US.UTF-8
++ LANG=en_US.UTF-8
++ export LANGUAGE=en_US:en
++ LANGUAGE=en_US:en
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 5b884d45ac5b76234eca614d90c83b347294c332
+Author: Adam Johnson <me@adamj.eu>
+Date:   Tue Apr 14 08:56:40 2020 +0100
+
+    Fixed #29501 -- Allowed dbshell to pass options to underlying tool.
+
+diff --git a/django/core/management/commands/dbshell.py b/django/core/management/commands/dbshell.py
+index 6782ef48f3..fb3caed12a 100644
+--- a/django/core/management/commands/dbshell.py
++++ b/django/core/management/commands/dbshell.py
+@@ -1,3 +1,5 @@
++import subprocess
++
+ from django.core.management.base import BaseCommand, CommandError
+ from django.db import DEFAULT_DB_ALIAS, connections
+ 
+@@ -15,11 +17,13 @@ class Command(BaseCommand):
+             '--database', default=DEFAULT_DB_ALIAS,
+             help='Nominates a database onto which to open a shell. Defaults to the "default" database.',
+         )
++        parameters = parser.add_argument_group('parameters', prefix_chars='--')
++        parameters.add_argument('parameters', nargs='*')
+ 
+     def handle(self, **options):
+         connection = connections[options['database']]
+         try:
+-            connection.client.runshell()
++            connection.client.runshell(options['parameters'])
+         except FileNotFoundError:
+             # Note that we're assuming the FileNotFoundError relates to the
+             # command missing. It could be raised for some other reason, in
+@@ -29,3 +33,11 @@ class Command(BaseCommand):
+                 'You appear not to have the %r program installed or on your path.' %
+                 connection.client.executable_name
+             )
++        except subprocess.CalledProcessError as e:
++            raise CommandError(
++                '"%s" returned non-zero exit status %s.' % (
++                    ' '.join(e.cmd),
++                    e.returncode,
++                ),
++                returncode=e.returncode,
++            )
+diff --git a/django/db/backends/base/client.py b/django/db/backends/base/client.py
+index f6a0cda35d..32901764aa 100644
+--- a/django/db/backends/base/client.py
++++ b/django/db/backends/base/client.py
+@@ -8,5 +8,5 @@ class BaseDatabaseClient:
+         # connection is an instance of BaseDatabaseWrapper.
+         self.connection = connection
+ 
+-    def runshell(self):
++    def runshell(self, parameters):
+         raise NotImplementedError('subclasses of BaseDatabaseClient must provide a runshell() method')
+diff --git a/django/db/backends/mysql/client.py b/django/db/backends/mysql/client.py
+index a596a650b3..e5b6a59fb2 100644
+--- a/django/db/backends/mysql/client.py
++++ b/django/db/backends/mysql/client.py
+@@ -7,7 +7,7 @@ class DatabaseClient(BaseDatabaseClient):
+     executable_name = 'mysql'
+ 
+     @classmethod
+-    def settings_to_cmd_args(cls, settings_dict):
++    def settings_to_cmd_args(cls, settings_dict, parameters):
+         args = [cls.executable_name]
+         db = settings_dict['OPTIONS'].get('db', settings_dict['NAME'])
+         user = settings_dict['OPTIONS'].get('user', settings_dict['USER'])
+@@ -41,8 +41,9 @@ class DatabaseClient(BaseDatabaseClient):
+             args += ["--ssl-key=%s" % client_key]
+         if db:
+             args += [db]
++        args.extend(parameters)
+         return args
+ 
+-    def runshell(self):
+-        args = DatabaseClient.settings_to_cmd_args(self.connection.settings_dict)
++    def runshell(self, parameters):
++        args = DatabaseClient.settings_to_cmd_args(self.connection.settings_dict, parameters)
+         subprocess.run(args, check=True)
+diff --git a/django/db/backends/mysql/creation.py b/django/db/backends/mysql/creation.py
+index 79d2959d5f..99372fd7ee 100644
+--- a/django/db/backends/mysql/creation.py
++++ b/django/db/backends/mysql/creation.py
+@@ -55,9 +55,9 @@ class DatabaseCreation(BaseDatabaseCreation):
+         self._clone_db(source_database_name, target_database_name)
+ 
+     def _clone_db(self, source_database_name, target_database_name):
+-        dump_args = DatabaseClient.settings_to_cmd_args(self.connection.settings_dict)[1:]
++        dump_args = DatabaseClient.settings_to_cmd_args(self.connection.settings_dict, [])[1:]
+         dump_cmd = ['mysqldump', *dump_args[:-1], '--routines', '--events', source_database_name]
+-        load_cmd = DatabaseClient.settings_to_cmd_args(self.connection.settings_dict)
++        load_cmd = DatabaseClient.settings_to_cmd_args(self.connection.settings_dict, [])
+         load_cmd[-1] = target_database_name
+ 
+         with subprocess.Popen(dump_cmd, stdout=subprocess.PIPE) as dump_proc:
+diff --git a/django/db/backends/oracle/client.py b/django/db/backends/oracle/client.py
+index 243c018d03..434481ba81 100644
+--- a/django/db/backends/oracle/client.py
++++ b/django/db/backends/oracle/client.py
+@@ -8,10 +8,11 @@ class DatabaseClient(BaseDatabaseClient):
+     executable_name = 'sqlplus'
+     wrapper_name = 'rlwrap'
+ 
+-    def runshell(self):
++    def runshell(self, parameters):
+         conn_string = self.connection._connect_string()
+         args = [self.executable_name, "-L", conn_string]
+         wrapper_path = shutil.which(self.wrapper_name)
+         if wrapper_path:
+             args = [wrapper_path, *args]
++        args.extend(parameters)
+         subprocess.run(args, check=True)
+diff --git a/django/db/backends/postgresql/client.py b/django/db/backends/postgresql/client.py
+index 0efe0d47f0..9d390b3807 100644
+--- a/django/db/backends/postgresql/client.py
++++ b/django/db/backends/postgresql/client.py
+@@ -9,7 +9,7 @@ class DatabaseClient(BaseDatabaseClient):
+     executable_name = 'psql'
+ 
+     @classmethod
+-    def runshell_db(cls, conn_params):
++    def runshell_db(cls, conn_params, parameters):
+         args = [cls.executable_name]
+ 
+         host = conn_params.get('host', '')
+@@ -29,6 +29,7 @@ class DatabaseClient(BaseDatabaseClient):
+         if port:
+             args += ['-p', str(port)]
+         args += [dbname]
++        args.extend(parameters)
+ 
+         sigint_handler = signal.getsignal(signal.SIGINT)
+         subprocess_env = os.environ.copy()
+@@ -50,5 +51,5 @@ class DatabaseClient(BaseDatabaseClient):
+             # Restore the original SIGINT handler.
+             signal.signal(signal.SIGINT, sigint_handler)
+ 
+-    def runshell(self):
+-        DatabaseClient.runshell_db(self.connection.get_connection_params())
++    def runshell(self, parameters):
++        self.runshell_db(self.connection.get_connection_params(), parameters)
+diff --git a/django/db/backends/sqlite3/client.py b/django/db/backends/sqlite3/client.py
+index f6b7077a0c..a71005fd5b 100644
+--- a/django/db/backends/sqlite3/client.py
++++ b/django/db/backends/sqlite3/client.py
+@@ -6,9 +6,10 @@ from django.db.backends.base.client import BaseDatabaseClient
+ class DatabaseClient(BaseDatabaseClient):
+     executable_name = 'sqlite3'
+ 
+-    def runshell(self):
++    def runshell(self, parameters):
+         # TODO: Remove str() when dropping support for PY37.
+         # args parameter accepts path-like objects on Windows since Python 3.8.
+         args = [self.executable_name,
+                 str(self.connection.settings_dict['NAME'])]
++        args.extend(parameters)
+         subprocess.run(args, check=True)
+diff --git a/docs/ref/django-admin.txt b/docs/ref/django-admin.txt
+index 4011da32fc..eb151193ae 100644
+--- a/docs/ref/django-admin.txt
++++ b/docs/ref/django-admin.txt
+@@ -226,6 +226,33 @@ program manually.
+ 
+ Specifies the database onto which to open a shell. Defaults to ``default``.
+ 
++.. django-admin-option:: -- ARGUMENTS
++
++.. versionadded:: 3.1
++
++Any arguments following a ``--`` divider will be passed on to the underlying
++command-line client. For example, with PostgreSQL you can use the ``psql``
++command's ``-c`` flag to execute a raw SQL query directly:
++
++.. console::
++
++    $ django-admin dbshell -- -c 'select current_user'
++     current_user
++    --------------
++     postgres
++    (1 row)
++
++On MySQL/MariaDB, you can do this with the ``mysql`` command's ``-e`` flag:
++
++.. console::
++
++    $ django-admin dbshell -- -e "select user()"
++    +----------------------+
++    | user()               |
++    +----------------------+
++    | djangonaut@localhost |
++    +----------------------+
++
+ .. note::
+ 
+     Be aware that not all options set in the :setting:`OPTIONS` part of your
+diff --git a/docs/releases/3.1.txt b/docs/releases/3.1.txt
+index dbf599fb48..384fa43dfb 100644
+--- a/docs/releases/3.1.txt
++++ b/docs/releases/3.1.txt
+@@ -317,6 +317,9 @@ Management Commands
+   :attr:`~django.core.management.CommandError` allows customizing the exit
+   status for management commands.
+ 
++* The new :option:`dbshell -- ARGUMENTS <dbshell -->` option allows passing
++  extra arguments to the command-line client for the database.
++
+ Migrations
+ ~~~~~~~~~~
+ 
+@@ -505,6 +508,9 @@ backends.
+   yields a cursor and automatically closes the cursor and connection upon
+   exiting the ``with`` statement.
+ 
++* ``DatabaseClient.runshell()`` now requires an additional ``parameters``
++  argument as a list of extra arguments to pass on to the command-line client.
++
+ Dropped support for MariaDB 10.1
+ --------------------------------
+ 
+diff --git a/tests/dbshell/test_mysql.py b/tests/dbshell/test_mysql.py
+index 6b60e2722e..91c1a6cd50 100644
+--- a/tests/dbshell/test_mysql.py
++++ b/tests/dbshell/test_mysql.py
+@@ -76,5 +76,23 @@ class MySqlDbshellCommandTestCase(SimpleTestCase):
+                 },
+             }))
+ 
+-    def get_command_line_arguments(self, connection_settings):
+-        return DatabaseClient.settings_to_cmd_args(connection_settings)
++    def test_parameters(self):
++        self.assertEqual(
++            ['mysql', 'somedbname', '--help'],
++            self.get_command_line_arguments(
++                {
++                    'NAME': 'somedbname',
++                    'USER': None,
++                    'PASSWORD': None,
++                    'HOST': None,
++                    'PORT': None,
++                    'OPTIONS': {},
++                },
++                ['--help'],
++            ),
++        )
++
++    def get_command_line_arguments(self, connection_settings, parameters=None):
++        if parameters is None:
++            parameters = []
++        return DatabaseClient.settings_to_cmd_args(connection_settings, parameters)
+diff --git a/tests/dbshell/test_oracle.py b/tests/dbshell/test_oracle.py
+index 431134e3ac..41fbc07455 100644
+--- a/tests/dbshell/test_oracle.py
++++ b/tests/dbshell/test_oracle.py
+@@ -8,17 +8,19 @@ from django.test import SimpleTestCase
+ 
+ @skipUnless(connection.vendor == 'oracle', 'Oracle tests')
+ class OracleDbshellTests(SimpleTestCase):
+-    def _run_dbshell(self, rlwrap=False):
++    def _run_dbshell(self, rlwrap=False, parameters=None):
+         """Run runshell command and capture its arguments."""
+         def _mock_subprocess_run(*args, **kwargs):
+             self.subprocess_args = list(*args)
+             return CompletedProcess(self.subprocess_args, 0)
+ 
++        if parameters is None:
++            parameters = []
+         client = DatabaseClient(connection)
+         self.subprocess_args = None
+         with mock.patch('subprocess.run', new=_mock_subprocess_run):
+             with mock.patch('shutil.which', return_value='/usr/bin/rlwrap' if rlwrap else None):
+-                client.runshell()
++                client.runshell(parameters)
+         return self.subprocess_args
+ 
+     def test_without_rlwrap(self):
+@@ -32,3 +34,9 @@ class OracleDbshellTests(SimpleTestCase):
+             self._run_dbshell(rlwrap=True),
+             ['/usr/bin/rlwrap', 'sqlplus', '-L', connection._connect_string()],
+         )
++
++    def test_parameters(self):
++        self.assertEqual(
++            self._run_dbshell(parameters=['-HELP']),
++            ['sqlplus', '-L', connection._connect_string(), '-HELP'],
++        )
+diff --git a/tests/dbshell/test_postgresql.py b/tests/dbshell/test_postgresql.py
+index 7047283bb3..6de60eaef2 100644
+--- a/tests/dbshell/test_postgresql.py
++++ b/tests/dbshell/test_postgresql.py
+@@ -9,7 +9,7 @@ from django.test import SimpleTestCase
+ 
+ class PostgreSqlDbshellCommandTestCase(SimpleTestCase):
+ 
+-    def _run_it(self, dbinfo):
++    def _run_it(self, dbinfo, parameters=None):
+         """
+         That function invokes the runshell command, while mocking
+         subprocess.run(). It returns a 2-tuple with:
+@@ -21,8 +21,11 @@ class PostgreSqlDbshellCommandTestCase(SimpleTestCase):
+             # PostgreSQL environment variables.
+             self.pg_env = {key: env[key] for key in env if key.startswith('PG')}
+             return subprocess.CompletedProcess(self.subprocess_args, 0)
++
++        if parameters is None:
++            parameters = []
+         with mock.patch('subprocess.run', new=_mock_subprocess_run):
+-            DatabaseClient.runshell_db(dbinfo)
++            DatabaseClient.runshell_db(dbinfo, parameters)
+         return self.subprocess_args, self.pg_env
+ 
+     def test_basic(self):
+@@ -104,6 +107,12 @@ class PostgreSqlDbshellCommandTestCase(SimpleTestCase):
+             )
+         )
+ 
++    def test_parameters(self):
++        self.assertEqual(
++            self._run_it({'database': 'dbname'}, ['--help']),
++            (['psql', 'dbname', '--help'], {}),
++        )
++
+     def test_sigint_handler(self):
+         """SIGINT is ignored in Python and passed to psql to abort queries."""
+         def _mock_subprocess_run(*args, **kwargs):
+@@ -114,6 +123,6 @@ class PostgreSqlDbshellCommandTestCase(SimpleTestCase):
+         # The default handler isn't SIG_IGN.
+         self.assertNotEqual(sigint_handler, signal.SIG_IGN)
+         with mock.patch('subprocess.run', new=_mock_subprocess_run):
+-            DatabaseClient.runshell_db({})
++            DatabaseClient.runshell_db({}, [])
+         # dbshell restores the original handler.
+         self.assertEqual(sigint_handler, signal.getsignal(signal.SIGINT))
+diff --git a/tests/dbshell/test_sqlite.py b/tests/dbshell/test_sqlite.py
+index 46d09895c8..c3b2b1e28d 100644
+--- a/tests/dbshell/test_sqlite.py
++++ b/tests/dbshell/test_sqlite.py
+@@ -9,15 +9,17 @@ from django.test import SimpleTestCase
+ 
+ @skipUnless(connection.vendor == 'sqlite', 'SQLite tests.')
+ class SqliteDbshellCommandTestCase(SimpleTestCase):
+-    def _run_dbshell(self):
++    def _run_dbshell(self, parameters=None):
+         """Run runshell command and capture its arguments."""
+         def _mock_subprocess_run(*args, **kwargs):
+             self.subprocess_args = list(*args)
+             return CompletedProcess(self.subprocess_args, 0)
+ 
++        if parameters is None:
++            parameters = []
+         client = DatabaseClient(connection)
+         with mock.patch('subprocess.run', new=_mock_subprocess_run):
+-            client.runshell()
++            client.runshell(parameters)
+         return self.subprocess_args
+ 
+     def test_path_name(self):
+@@ -29,3 +31,13 @@ class SqliteDbshellCommandTestCase(SimpleTestCase):
+                 self._run_dbshell(),
+                 ['sqlite3', 'test.db.sqlite3'],
+             )
++
++    def test_parameters(self):
++        with mock.patch.dict(
++            connection.settings_dict,
++            {'NAME': Path('test.db.sqlite3')},
++        ):
++            self.assertEqual(
++                self._run_dbshell(['-help']),
++                ['sqlite3', 'test.db.sqlite3', '-help'],
++            )
++ git diff 5b884d45ac5b76234eca614d90c83b347294c332
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+Requirement already satisfied: asgiref>=3.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (3.4.1)
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (2025.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from Django==3.1) (0.4.4)
+Requirement already satisfied: typing-extensions in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from asgiref>=3.2->Django==3.1) (4.1.1)
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 3.1
+    Uninstalling Django-3.1:
+      Successfully uninstalled Django-3.1
+  Running setup.py develop for Django
+Successfully installed Django-3.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git apply -v -
+Checking patch django/contrib/admin/options.py...
+Applied patch django/contrib/admin/options.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-12713.py...
+Applied patch tests/test_coverup_django__django-12713.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/contrib/admin/options\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-12713
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/contrib/admin/options\\.py)']
+Testing against Django installed in '/testbed/django'
+0.54 options.py(1): import copy
+0.54 options.py(2): import json
+0.54 options.py(3): import operator
+0.54 options.py(4): import re
+0.54 options.py(5): from functools import partial, reduce, update_wrapper
+0.54 options.py(6): from urllib.parse import quote as urlquote
+0.54 options.py(8): from django import forms
+0.54 options.py(9): from django.conf import settings
+0.54 options.py(10): from django.contrib import messages
+0.54 options.py(11): from django.contrib.admin import helpers, widgets
+0.55 options.py(12): from django.contrib.admin.checks import (
+0.55 options.py(15): from django.contrib.admin.exceptions import DisallowedModelAdminToField
+0.55 options.py(16): from django.contrib.admin.templatetags.admin_urls import add_preserved_filters
+0.55 options.py(17): from django.contrib.admin.utils import (
+0.55 options.py(22): from django.contrib.admin.views.autocomplete import AutocompleteJsonView
+0.55 options.py(23): from django.contrib.admin.widgets import (
+0.55 options.py(26): from django.contrib.auth import get_permission_codename
+0.55 options.py(27): from django.core.exceptions import (
+0.55 options.py(30): from django.core.paginator import Paginator
+0.55 options.py(31): from django.db import models, router, transaction
+0.55 options.py(32): from django.db.models.constants import LOOKUP_SEP
+0.55 options.py(33): from django.forms.formsets import DELETION_FIELD_NAME, all_valid
+0.55 options.py(34): from django.forms.models import (
+0.55 options.py(38): from django.forms.widgets import CheckboxSelectMultiple, SelectMultiple
+0.55 options.py(39): from django.http import HttpResponseRedirect
+0.55 options.py(40): from django.http.response import HttpResponseBase
+0.55 options.py(41): from django.template.response import SimpleTemplateResponse, TemplateResponse
+0.55 options.py(42): from django.urls import reverse
+0.55 options.py(43): from django.utils.decorators import method_decorator
+0.55 options.py(44): from django.utils.html import format_html
+0.55 options.py(45): from django.utils.http import urlencode
+0.55 options.py(46): from django.utils.safestring import mark_safe
+0.55 options.py(47): from django.utils.text import capfirst, format_lazy, get_text_list
+0.55 options.py(48): from django.utils.translation import gettext as _, ngettext
+0.55 options.py(49): from django.views.decorators.csrf import csrf_protect
+0.55 options.py(50): from django.views.generic import RedirectView
+0.55 options.py(52): IS_POPUP_VAR = '_popup'
+0.55 options.py(53): TO_FIELD_VAR = '_to_field'
+0.55 options.py(56): HORIZONTAL, VERTICAL = 1, 2
+0.55 options.py(59): def get_content_type_for_model(obj):
+0.55 options.py(66): def get_ul_class(radio_style):
+0.55 options.py(70): class IncorrectLookupParameters(Exception):
+0.55 options.py(70): class IncorrectLookupParameters(Exception):
+0.55 options.py(71):     pass
+0.55 options.py(78):     models.DateTimeField: {
+0.55 options.py(79):         'form_class': forms.SplitDateTimeField,
+0.55 options.py(80):         'widget': widgets.AdminSplitDateTime
+0.55 options.py(82):     models.DateField: {'widget': widgets.AdminDateWidget},
+0.55 options.py(83):     models.TimeField: {'widget': widgets.AdminTimeWidget},
+0.55 options.py(84):     models.TextField: {'widget': widgets.AdminTextareaWidget},
+0.55 options.py(85):     models.URLField: {'widget': widgets.AdminURLFieldWidget},
+0.55 options.py(86):     models.IntegerField: {'widget': widgets.AdminIntegerFieldWidget},
+0.55 options.py(87):     models.BigIntegerField: {'widget': widgets.AdminBigIntegerFieldWidget},
+0.55 options.py(88):     models.CharField: {'widget': widgets.AdminTextInputWidget},
+0.55 options.py(89):     models.ImageField: {'widget': widgets.AdminFileWidget},
+0.55 options.py(90):     models.FileField: {'widget': widgets.AdminFileWidget},
+0.55 options.py(91):     models.EmailField: {'widget': widgets.AdminEmailInputWidget},
+0.55 options.py(92):     models.UUIDField: {'widget': widgets.AdminUUIDInputWidget},
+0.55 options.py(95): csrf_protect_m = method_decorator(csrf_protect)
+0.55 options.py(98): class BaseModelAdmin(metaclass=forms.MediaDefiningClass):
+0.55 options.py(98): class BaseModelAdmin(metaclass=forms.MediaDefiningClass):
+0.55 options.py(99):     """Functionality common to both ModelAdmin and InlineAdmin."""
+0.55 options.py(101):     autocomplete_fields = ()
+0.55 options.py(102):     raw_id_fields = ()
+0.55 options.py(103):     fields = None
+0.55 options.py(104):     exclude = None
+0.55 options.py(105):     fieldsets = None
+0.55 options.py(106):     form = forms.ModelForm
+0.55 options.py(107):     filter_vertical = ()
+0.55 options.py(108):     filter_horizontal = ()
+0.55 options.py(109):     radio_fields = {}
+0.55 options.py(110):     prepopulated_fields = {}
+0.55 options.py(111):     formfield_overrides = {}
+0.55 options.py(112):     readonly_fields = ()
+0.55 options.py(113):     ordering = None
+0.55 options.py(114):     sortable_by = None
+0.55 options.py(115):     view_on_site = True
+0.55 options.py(116):     show_full_result_count = True
+0.55 options.py(117):     checks_class = BaseModelAdminChecks
+0.55 options.py(119):     def check(self, **kwargs):
+0.55 options.py(122):     def __init__(self):
+0.55 options.py(130):     def formfield_for_dbfield(self, db_field, request, **kwargs):
+0.55 options.py(187):     def formfield_for_choice_field(self, db_field, request, **kwargs):
+0.55 options.py(205):     def get_field_queryset(self, db, db_field, request):
+0.55 options.py(218):     def formfield_for_foreignkey(self, db_field, request, **kwargs):
+0.55 options.py(242):     def formfield_for_manytomany(self, db_field, request, **kwargs):
+0.55 options.py(284):     def get_autocomplete_fields(self, request):
+0.55 options.py(291):     def get_view_on_site_url(self, obj=None):
+0.55 options.py(304):     def get_empty_value_display(self):
+0.55 options.py(313):     def get_exclude(self, request, obj=None):
+0.55 options.py(319):     def get_fields(self, request, obj=None):
+0.55 options.py(329):     def get_fieldsets(self, request, obj=None):
+0.55 options.py(337):     def get_inlines(self, request, obj):
+0.55 options.py(341):     def get_ordering(self, request):
+0.55 options.py(347):     def get_readonly_fields(self, request, obj=None):
+0.55 options.py(353):     def get_prepopulated_fields(self, request, obj=None):
+0.55 options.py(359):     def get_queryset(self, request):
+0.55 options.py(371):     def get_sortable_by(self, request):
+0.55 options.py(375):     def lookup_allowed(self, lookup, value):
+0.55 options.py(429):     def to_field_allowed(self, request, to_field):
+0.55 options.py(474):     def has_add_permission(self, request):
+0.55 options.py(483):     def has_change_permission(self, request, obj=None):
+0.55 options.py(498):     def has_delete_permission(self, request, obj=None):
+0.55 options.py(513):     def has_view_permission(self, request, obj=None):
+0.55 options.py(532):     def has_view_or_change_permission(self, request, obj=None):
+0.55 options.py(535):     def has_module_permission(self, request):
+0.55 options.py(549): class ModelAdmin(BaseModelAdmin):
+0.55 options.py(549): class ModelAdmin(BaseModelAdmin):
+0.55 options.py(550):     """Encapsulate all admin options and functionality for a given model."""
+0.55 options.py(552):     list_display = ('__str__',)
+0.55 options.py(553):     list_display_links = ()
+0.55 options.py(554):     list_filter = ()
+0.55 options.py(555):     list_select_related = False
+0.55 options.py(556):     list_per_page = 100
+0.55 options.py(557):     list_max_show_all = 200
+0.55 options.py(558):     list_editable = ()
+0.55 options.py(559):     search_fields = ()
+0.55 options.py(560):     date_hierarchy = None
+0.55 options.py(561):     save_as = False
+0.55 options.py(562):     save_as_continue = True
+0.55 options.py(563):     save_on_top = False
+0.55 options.py(564):     paginator = Paginator
+0.55 options.py(565):     preserve_filters = True
+0.55 options.py(566):     inlines = []
+0.55 options.py(569):     add_form_template = None
+0.55 options.py(570):     change_form_template = None
+0.55 options.py(571):     change_list_template = None
+0.55 options.py(572):     delete_confirmation_template = None
+0.55 options.py(573):     delete_selected_confirmation_template = None
+0.55 options.py(574):     object_history_template = None
+0.55 options.py(575):     popup_response_template = None
+0.55 options.py(578):     actions = []
+0.55 options.py(579):     action_form = helpers.ActionForm
+0.55 options.py(580):     actions_on_top = True
+0.55 options.py(581):     actions_on_bottom = False
+0.55 options.py(582):     actions_selection_counter = True
+0.55 options.py(583):     checks_class = ModelAdminChecks
+0.55 options.py(585):     def __init__(self, model, admin_site):
+0.55 options.py(591):     def __str__(self):
+0.55 options.py(594):     def get_inline_instances(self, request, obj=None):
+0.55 options.py(609):     def get_urls(self):
+0.55 options.py(633):     @property
+0.55 options.py(637):     @property
+0.55 options.py(652):     def get_model_perms(self, request):
+0.55 options.py(665):     def _get_form_for_get_fields(self, request, obj):
+0.55 options.py(668):     def get_form(self, request, obj=None, change=False, **kwargs):
+0.55 options.py(716):     def get_changelist(self, request, **kwargs):
+0.55 options.py(723):     def get_changelist_instance(self, request):
+0.55 options.py(751):     def get_object(self, request, object_id, from_field=None):
+0.55 options.py(766):     def get_changelist_form(self, request, **kwargs):
+0.55 options.py(779):     def get_changelist_formset(self, request, **kwargs):
+0.55 options.py(793):     def get_formsets_with_inlines(self, request, obj=None):
+0.55 options.py(800):     def get_paginator(self, request, queryset, per_page, orphans=0, allow_empty_first_page=True):
+0.55 options.py(803):     def log_addition(self, request, object, message):
+0.55 options.py(819):     def log_change(self, request, object, message):
+0.55 options.py(835):     def log_deletion(self, request, object, object_repr):
+0.55 options.py(851):     def action_checkbox(self, obj):
+0.55 options.py(856):     action_checkbox.short_description = mark_safe('<input type="checkbox" id="action-toggle">')
+0.55 options.py(858):     def _get_base_actions(self):
+0.55 options.py(871):     def _filter_actions_by_permissions(self, request, actions):
+0.55 options.py(887):     def get_actions(self, request):
+0.55 options.py(899):     def get_action_choices(self, request, default_choices=models.BLANK_CHOICE_DASH):
+0.55 options.py(910):     def get_action(self, action):
+0.55 options.py(940):     def get_list_display(self, request):
+0.55 options.py(947):     def get_list_display_links(self, request, list_display):
+0.55 options.py(959):     def get_list_filter(self, request):
+0.55 options.py(966):     def get_list_select_related(self, request):
+0.55 options.py(973):     def get_search_fields(self, request):
+0.55 options.py(980):     def get_search_results(self, request, queryset, search_term):
+0.55 options.py(1028):     def get_preserved_filters(self, request):
+0.55 options.py(1046):     def construct_change_message(self, request, form, formsets, add=False):
+0.55 options.py(1052):     def message_user(self, request, message, level=messages.INFO, extra_tags='',
+0.55 options.py(1053):                      fail_silently=False):
+0.55 options.py(1077):     def save_form(self, request, form, change):
+0.55 options.py(1084):     def save_model(self, request, obj, form, change):
+0.55 options.py(1090):     def delete_model(self, request, obj):
+0.55 options.py(1096):     def delete_queryset(self, request, queryset):
+0.55 options.py(1100):     def save_formset(self, request, form, formset, change):
+0.55 options.py(1106):     def save_related(self, request, form, formsets, change):
+0.55 options.py(1118):     def render_change_form(self, request, context, add=False, change=False, form_url='', obj=None):
+0.55 options.py(1165):     def response_add(self, request, obj, post_url_continue=None):
+0.55 options.py(1242):     def response_change(self, request, obj):
+0.55 options.py(1317):     def _response_post_save(self, request, obj):
+0.55 options.py(1330):     def response_post_save_add(self, request, obj):
+0.55 options.py(1337):     def response_post_save_change(self, request, obj):
+0.55 options.py(1344):     def response_action(self, request, queryset):
+0.55 options.py(1411):     def response_delete(self, request, obj_display, obj_id):
+0.55 options.py(1452):     def render_delete_form(self, request, context):
+0.55 options.py(1473):     def get_inline_formsets(self, request, formsets, inline_instances, obj=None):
+0.55 options.py(1498):     def get_changeform_initial_data(self, request):
+0.55 options.py(1513):     def _get_obj_does_not_exist_redirect(self, request, opts, object_id):
+0.55 options.py(1526):     @csrf_protect_m
+0.55 options.py(1527):     def changeform_view(self, request, object_id=None, form_url='', extra_context=None):
+0.55 options.py(1531):     def _changeform_view(self, request, object_id, form_url, extra_context):
+0.55 options.py(1644):     def autocomplete_view(self, request):
+0.55 options.py(1647):     def add_view(self, request, form_url='', extra_context=None):
+0.55 options.py(1650):     def change_view(self, request, object_id, form_url='', extra_context=None):
+0.55 options.py(1653):     def _get_edited_object_pks(self, request, prefix):
+0.55 options.py(1660):     def _get_list_editable_queryset(self, request, prefix):
+0.55 options.py(1676):     @csrf_protect_m
+0.55 options.py(1677):     def changelist_view(self, request, extra_context=None):
+0.55 options.py(1831):     def get_deleted_objects(self, objs, request):
+0.55 options.py(1838):     @csrf_protect_m
+0.55 options.py(1839):     def delete_view(self, request, object_id, extra_context=None):
+0.55 options.py(1843):     def _delete_view(self, request, object_id, extra_context):
+0.55 options.py(1901):     def history_view(self, request, object_id, extra_context=None):
+0.55 options.py(1940):     def _create_formsets(self, request, obj, change):
+0.55 options.py(1986): class InlineModelAdmin(BaseModelAdmin):
+0.55 options.py(1986): class InlineModelAdmin(BaseModelAdmin):
+0.55 options.py(1993):     """
+0.55 options.py(1994):     model = None
+0.55 options.py(1995):     fk_name = None
+0.55 options.py(1996):     formset = BaseInlineFormSet
+0.55 options.py(1997):     extra = 3
+0.55 options.py(1998):     min_num = None
+0.55 options.py(1999):     max_num = None
+0.55 options.py(2000):     template = None
+0.55 options.py(2001):     verbose_name = None
+0.55 options.py(2002):     verbose_name_plural = None
+0.55 options.py(2003):     can_delete = True
+0.55 options.py(2004):     show_change_link = False
+0.55 options.py(2005):     checks_class = InlineModelAdminChecks
+0.55 options.py(2006):     classes = None
+0.55 options.py(2008):     def __init__(self, parent_model, admin_site):
+0.55 options.py(2019):     @property
+0.55 options.py(2030):     def get_extra(self, request, obj=None, **kwargs):
+0.55 options.py(2034):     def get_min_num(self, request, obj=None, **kwargs):
+0.55 options.py(2038):     def get_max_num(self, request, obj=None, **kwargs):
+0.55 options.py(2042):     def get_formset(self, request, obj=None, **kwargs):
+0.55 options.py(2131):     def _get_form_for_get_fields(self, request, obj=None):
+0.55 options.py(2134):     def get_queryset(self, request):
+0.55 options.py(2140):     def _has_any_perms_for_target_model(self, request, perms):
+0.55 options.py(2158):     def has_add_permission(self, request, obj):
+0.55 options.py(2167):     def has_change_permission(self, request, obj=None):
+0.55 options.py(2173):     def has_delete_permission(self, request, obj=None):
+0.55 options.py(2179):     def has_view_permission(self, request, obj=None):
+0.55 options.py(2187): class StackedInline(InlineModelAdmin):
+0.55 options.py(2187): class StackedInline(InlineModelAdmin):
+0.55 options.py(2188):     template = 'admin/edit_inline/stacked.html'
+0.55 options.py(2191): class TabularInline(InlineModelAdmin):
+0.55 options.py(2191): class TabularInline(InlineModelAdmin):
+0.55 options.py(2192):     template = 'admin/edit_inline/tabular.html'
+Skipping setup of unused database(s): default, other.
+System check identified no issues (0 silenced).
+test_custom_widget_used (test_coverup_django__django-12713.FormFieldForManyToManyTests) ... 0.67 options.py(586):         self.model = model
+0.67 options.py(587):         self.opts = model._meta
+0.67 options.py(588):         self.admin_site = admin_site
+0.67 options.py(589):         super().__init__()
+0.67 options.py(125):         overrides = copy.deepcopy(FORMFIELD_FOR_DBFIELD_DEFAULTS)
+0.67 options.py(126):         for k, v in self.formfield_overrides.items():
+0.67 options.py(128):         self.formfield_overrides = overrides
+0.67 options.py(248):         if not db_field.remote_field.through._meta.auto_created:
+0.67 options.py(250):         db = kwargs.get('using')
+0.67 options.py(252):         if 'widget' not in kwargs:
+0.67 options.py(271):         if 'queryset' not in kwargs:
+0.67 options.py(272):             queryset = self.get_field_queryset(db, db_field, request)
+0.67 options.py(211):         related_admin = self.admin_site._registry.get(db_field.remote_field.model)
+0.67 options.py(212):         if related_admin is not None:
+0.67 options.py(216):         return None
+0.67 options.py(273):             if queryset is not None:
+0.67 options.py(276):         form_field = db_field.formfield(**kwargs)
+0.67 options.py(277):         if (isinstance(form_field.widget, SelectMultiple) and
+0.67 options.py(282):         return form_field
+FAIL
+
+======================================================================
+FAIL: test_custom_widget_used (test_coverup_django__django-12713.FormFieldForManyToManyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_coverup_django__django-12713.py", line 38, in test_custom_widget_used
+    self.assertEqual(form_field.widget, custom_widget)
+AssertionError: <test_coverup_django__django-12713.CustomWidget object at 0x7fe8e7dcd160> != <test_coverup_django__django-12713.CustomWidget object at 0x7fe8e7eb7eb8>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
++ cat coverage.cover
+{"/testbed/django/contrib/admin/options.py": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, "15": 1, "16": 1, "17": 1, "22": 1, "23": 1, "26": 1, "27": 1, "30": 1, "31": 1, "32": 1, "33": 1, "34": 1, "38": 1, "39": 1, "40": 1, "41": 1, "42": 1, "43": 1, "44": 1, "45": 1, "46": 1, "47": 1, "48": 1, "49": 1, "50": 1, "52": 1, "53": 1, "56": 1, "59": 1, "66": 1, "70": 2, "78": 1, "79": 1, "80": 1, "82": 1, "83": 1, "84": 1, "85": 1, "86": 1, "87": 1, "88": 1, "89": 1, "90": 1, "91": 1, "92": 1, "95": 1, "98": 2, "549": 2, "1986": 2, "2187": 2, "2191": 2, "62": 0, "63": 0, "67": 0, "71": 1, "101": 1, "102": 1, "103": 1, "104": 1, "105": 1, "106": 1, "107": 1, "108": 1, "109": 1, "110": 1, "111": 1, "112": 1, "113": 1, "114": 1, "115": 1, "116": 1, "117": 1, "119": 1, "122": 1, "130": 1, "187": 1, "205": 1, "218": 1, "242": 1, "284": 1, "291": 1, "304": 1, "313": 1, "319": 1, "329": 1, "337": 1, "341": 1, "347": 1, "353": 1, "359": 1, "371": 1, "375": 1, "429": 1, "474": 1, "483": 1, "498": 1, "513": 1, "532": 1, "535": 1, "120": 0, "125": 1, "126": 1, "127": 0, "128": 1, "139": 0, "140": 0, "143": 0, "148": 0, "149": 0, "152": 0, "153": 0, "154": 0, "155": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "166": 0, "167": 0, "168": 0, "169": 0, "171": 0, "172": 0, "175": 0, "179": 0, "180": 0, "181": 0, "182": 0, "185": 0, "192": 0, "194": 0, "195": 0, "196": 0, "198": 0, "199": 0, "200": 0, "201": 0, "203": 0, "211": 1, "212": 1, "213": 0, "214": 0, "215": 0, "216": 1, "222": 0, "224": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "230": 0, "231": 0, "233": 0, "235": 0, "236": 0, "237": 0, "238": 0, "240": 0, "248": 1, "249": 0, "250": 1, "252": 1, "253": 0, "254": 0, "255": 0, "256": 0, "257": 0, "258": 0, "260": 0, "261": 0, "262": 0, "263": 0, "264": 0, "266": 0, "267": 0, "268": 0, "269": 0, "271": 1, "272": 1, "273": 1, "274": 0, "276": 1, "277": 1, "278": 0, "279": 0, "280": 0, "281": 0, "282": 1, "289": 0, "292": 0, "293": 0, "295": 0, "296": 0, "297": 0, "299": 0, "300": 0, "301": 0, "308": 0, "309": 0, "310": 0, "311": 0, "317": 0, "323": 0, "324": 0, "326": 0, "327": 0, "333": 0, "334": 0, "335": 0, "339": 0, "345": 0, "351": 0, "357": 0, "364": 0, "366": 0, "367": 0, "368": 0, "369": 0, "373": 0, "376": 0, "378": 0, "382": 0, "384": 0, "385": 0, "386": 0, "387": 0, "389": 0, "390": 0, "391": 0, "392": 0, "393": 0, "394": 0, "397": 0, "401": 0, "402": 0, "403": 0, "404": 0, "407": 0, "408": 0, "409": 0, "411": 0, "413": 0, "414": 0, "415": 0, "416": 0, "417": 0, "418": 0, "419": 0, "421": 0, "425": 0, "426": 0, "427": 0, "434": 0, "436": 0, "437": 0, "438": 0, "439": 0, "443": 0, "444": 0, "448": 0, "449": 0, "450": 0, "454": 0, "455": 0, "456": 0, "457": 0, "458": 0, "461": 0, "464": 0, "465": 0, "466": 0, "467": 0, "468": 0, "469": 0, "470": 0, "472": 0, "462": 0, "479": 0, "480": 0, "481": 0, "494": 0, "495": 0, "496": 0, "509": 0, "510": 0, "511": 0, "524": 0, "525": 0, "526": 0, "528": 0, "529": 0, "533": 0, "546": 0, "552": 1, "553": 1, "554": 1, "555": 1, "556": 1, "557": 1, "558": 1, "559": 1, "560": 1, "561": 1, "562": 1, "563": 1, "564": 1, "565": 1, "566": 1, "569": 1, "570": 1, "571": 1, "572": 1, "573": 1, "574": 1, "575": 1, "578": 1, "579": 1, "580": 1, "581": 1, "582": 1, "583": 1, "585": 1, "591": 1, "594": 1, "609": 1, "633": 1, "637": 1, "652": 1, "665": 1, "668": 1, "716": 1, "723": 1, "751": 1, "766": 1, "779": 1, "793": 1, "800": 1, "803": 1, "819": 1, "835": 1, "851": 1, "856": 1, "858": 1, "871": 1, "887": 1, "899": 1, "910": 1, "940": 1, "947": 1, "959": 1, "966": 1, "973": 1, "980": 1, "1028": 1, "1046": 1, "1052": 1, "1053": 1, "1077": 1, "1084": 1, "1090": 1, "1096": 1, "1100": 1, "1106": 1, "1118": 1, "1165": 1, "1242": 1, "1317": 1, "1330": 1, "1337": 1, "1344": 1, "1411": 1, "1452": 1, "1473": 1, "1498": 1, "1513": 1, "1526": 1, "1527": 1, "1531": 1, "1644": 1, "1647": 1, "1650": 1, "1653": 1, "1660": 1, "1676": 1, "1677": 1, "1831": 1, "1838": 1, "1839": 1, "1843": 1, "1901": 1, "1940": 1, "586": 1, "587": 1, "588": 1, "589": 1, "592": 0, "595": 0, "596": 0, "597": 0, "598": 0, "599": 0, "600": 0, "601": 0, "602": 0, "603": 0, "604": 0, "605": 0, "607": 0, "610": 0, "612": 0, "618": 0, "621": 0, "622": 0, "623": 0, "624": 0, "625": 0, "626": 0, "628": 0, "629": 0, "613": 0, "615": 0, "616": 0, "614": 0, "635": 0, "639": 0, "641": 0, "642": 0, "643": 0, "644": 0, "645": 0, "646": 0, "647": 0, "648": 0, "650": 0, "659": 0, "660": 0, "661": 0, "662": 0, "666": 0, "673": 0, "674": 0, "676": 0, "677": 0, "678": 0, "679": 0, "680": 0, "683": 0, "684": 0, "685": 0, "688": 0, "691": 0, "694": 0, "695": 0, "698": 0, "699": 0, "700": 0, "701": 0, "702": 0, "705": 0, "706": 0, "708": 0, "709": 0, "710": 0, "711": 0, "712": 0, "713": 0, "720": 0, "721": 0, "728": 0, "729": 0, "731": 0, "732": 0, "733": 0, "734": 0, "735": 0, "736": 0, "737": 0, "738": 0, "739": 0, "740": 0, "741": 0, "742": 0, "743": 0, "744": 0, "745": 0, "746": 0, "747": 0, "748": 0, "757": 0, "758": 0, "759": 0, "760": 0, "761": 0, "762": 0, "763": 0, "764": 0, "771": 0, "772": 0, "774": 0, "775": 0, "777": 0, "785": 0, "786": 0, "788": 0, "789": 0, "790": 0, "797": 0, "798": 0, "801": 0, "809": 0, "810": 0, "811": 0, "812": 0, "813": 0, "814": 0, "815": 0, "816": 0, "825": 0, "826": 0, "827": 0, "828": 0, "829": 0, "830": 0, "831": 0, "832": 0, "842": 0, "843": 0, "844": 0, "845": 0, "846": 0, "847": 0, "848": 0, "855": 0, "860": 0, "863": 0, "864": 0, "865": 0, "867": 0, "869": 0, "873": 0, "874": 0, "875": 0, "876": 0, "877": 0, "878": 0, "880": 0, "881": 0, "883": 0, "884": 0, "885": 0, "894": 0, "895": 0, "896": 0, "897": 0, "904": 0, "905": 0, "906": 0, "907": 0, "908": 0, "917": 0, "918": 0, "919": 0, "924": 0, "925": 0, "929": 0, "930": 0, "931": 0, "932": 0, "934": 0, "935": 0, "937": 0, "938": 0, "945": 0, "953": 0, "954": 0, "957": 0, "964": 0, "971": 0, "978": 0, "986": 0, "1015": 0, "1016": 0, "1017": 0, "1018": 0, "1019": 0, "1020": 0, "1021": 0, "1022": 0, "1023": 0, "1024": 0, "1026": 0, "987": 0, "988": 0, "989": 0, "990": 0, "991": 0, "992": 0, "994": 0, "995": 0, "997": 0, "998": 0, "999": 0, "1000": 0, "1001": 0, "1002": 0, "1003": 0, "1005": 0, "1006": 0, "1008": 0, "1009": 0, "1011": 0, "1013": 0, "1032": 0, "1033": 0, "1034": 0, "1035": 0, "1036": 0, "1037": 0, "1038": 0, "1040": 0, "1042": 0, "1043": 0, "1044": 0, "1050": 0, "1063": 0, "1065": 0, "1066": 0, "1067": 0, "1068": 0, "1069": 0, "1070": 0, "1071": 0, "1072": 0, "1075": 0, "1082": 0, "1088": 0, "1094": 0, "1098": 0, "1104": 0, "1114": 0, "1115": 0, "1116": 0, "1119": 0, "1120": 0, "1121": 0, "1122": 0, "1123": 0, "1124": 0, "1125": 0, "1126": 0, "1127": 0, "1128": 0, "1129": 0, "1130": 0, "1131": 0, "1132": 0, "1133": 0, "1134": 0, "1135": 0, "1136": 0, "1137": 0, "1138": 0, "1139": 0, "1141": 0, "1142": 0, "1143": 0, "1144": 0, "1145": 0, "1146": 0, "1147": 0, "1148": 0, "1149": 0, "1150": 0, "1152": 0, "1153": 0, "1155": 0, "1157": 0, "1159": 0, "1160": 0, "1161": 0, "1162": 0, "1163": 0, "1169": 0, "1170": 0, "1171": 0, "1172": 0, "1173": 0, "1174": 0, "1177": 0, "1178": 0, "1180": 0, "1182": 0, "1183": 0, "1188": 0, "1189": 0, "1190": 0, "1191": 0, "1193": 0, "1194": 0, "1195": 0, "1196": 0, "1197": 0, "1199": 0, "1200": 0, "1201": 0, "1202": 0, "1204": 0, "1207": 0, "1209": 0, "1210": 0, "1212": 0, "1213": 0, "1214": 0, "1215": 0, "1216": 0, "1217": 0, "1218": 0, "1219": 0, "1220": 0, "1222": 0, "1224": 0, "1225": 0, "1226": 0, "1227": 0, "1229": 0, "1230": 0, "1231": 0, "1232": 0, "1235": 0, "1236": 0, "1237": 0, "1239": 0, "1240": 0, "1247": 0, "1248": 0, "1249": 0, "1250": 0, "1251": 0, "1252": 0, "1253": 0, "1254": 0, "1255": 0, "1256": 0, "1257": 0, "1259": 0, "1260": 0, "1261": 0, "1262": 0, "1264": 0, "1267": 0, "1268": 0, "1271": 0, "1272": 0, "1274": 0, "1275": 0, "1276": 0, "1277": 0, "1279": 0, "1280": 0, "1281": 0, "1282": 0, "1284": 0, "1285": 0, "1286": 0, "1287": 0, "1289": 0, "1290": 0, "1291": 0, "1292": 0, "1293": 0, "1294": 0, "1295": 0, "1297": 0, "1298": 0, "1299": 0, "1300": 0, "1302": 0, "1303": 0, "1304": 0, "1305": 0, "1306": 0, "1307": 0, "1310": 0, "1311": 0, "1312": 0, "1314": 0, "1315": 0, "1318": 0, "1319": 0, "1320": 0, "1321": 0, "1322": 0, "1323": 0, "1324": 0, "1326": 0, "1327": 0, "1328": 0, "1335": 0, "1342": 0, "1354": 0, "1355": 0, "1356": 0, "1357": 0, "1360": 0, "1361": 0, "1362": 0, "1365": 0, "1366": 0, "1367": 0, "1371": 0, "1373": 0, "1374": 0, "1377": 0, "1378": 0, "1379": 0, "1380": 0, "1385": 0, "1386": 0, "1388": 0, "1390": 0, "1391": 0, "1393": 0, "1395": 0, "1397": 0, "1402": 0, "1403": 0, "1405": 0, "1407": 0, "1408": 0, "1409": 0, "1415": 0, "1417": 0, "1418": 0, "1419": 0, "1420": 0, "1422": 0, "1423": 0, "1424": 0, "1425": 0, "1427": 0, "1430": 0, "1431": 0, "1432": 0, "1433": 0, "1434": 0, "1436": 0, "1439": 0, "1440": 0, "1441": 0, "1442": 0, "1444": 0, "1445": 0, "1446": 0, "1449": 0, "1450": 0, "1453": 0, "1454": 0, "1456": 0, "1457": 0, "1458": 0, "1459": 0, "1460": 0, "1463": 0, "1464": 0, "1465": 0, "1466": 0, "1467": 0, "1468": 0, "1470": 0, "1475": 0, "1476": 0, "1477": 0, "1478": 0, "1479": 0, "1480": 0, "1481": 0, "1482": 0, "1483": 0, "1486": 0, "1487": 0, "1488": 0, "1489": 0, "1490": 0, "1491": 0, "1492": 0, "1493": 0, "1495": 0, "1496": 0, "1502": 0, "1503": 0, "1504": 0, "1505": 0, "1506": 0, "1507": 0, "1509": 0, "1510": 0, "1511": 0, "1518": 0, "1519": 0, "1520": 0, "1522": 0, "1523": 0, "1524": 0, "1528": 0, "1529": 0, "1532": 0, "1533": 0, "1534": 0, "1536": 0, "1537": 0, "1539": 0, "1540": 0, "1542": 0, "1544": 0, "1545": 0, "1546": 0, "1547": 0, "1550": 0, "1552": 0, "1553": 0, "1554": 0, "1556": 0, "1557": 0, "1559": 0, "1560": 0, "1562": 0, "1563": 0, "1564": 0, "1566": 0, "1567": 0, "1568": 0, "1569": 0, "1570": 0, "1572": 0, "1573": 0, "1574": 0, "1575": 0, "1576": 0, "1577": 0, "1578": 0, "1579": 0, "1580": 0, "1582": 0, "1583": 0, "1585": 0, "1587": 0, "1588": 0, "1589": 0, "1590": 0, "1592": 0, "1593": 0, "1595": 0, "1596": 0, "1598": 0, "1599": 0, "1600": 0, "1601": 0, "1603": 0, "1604": 0, "1605": 0, "1606": 0, "1608": 0, "1609": 0, "1610": 0, "1612": 0, "1613": 0, "1614": 0, "1615": 0, "1617": 0, "1619": 0, "1620": 0, "1621": 0, "1622": 0, "1623": 0, "1624": 0, "1625": 0, "1626": 0, "1627": 0, "1628": 0, "1629": 0, "1634": 0, "1635": 0, "1636": 0, "1638": 0, "1640": 0, "1642": 0, "1645": 0, "1648": 0, "1651": 0, "1655": 0, "1656": 0, "1658": 0, "1665": 0, "1666": 0, "1667": 0, "1668": 0, "1669": 0, "1670": 0, "1671": 0, "1673": 0, "1674": 0, "1681": 0, "1682": 0, "1683": 0, "1684": 0, "1685": 0, "1687": 0, "1688": 0, "1689": 0, "1696": 0, "1697": 0, "1698": 0, "1700": 0, "1706": 0, "1707": 0, "1709": 0, "1711": 0, "1712": 0, "1713": 0, "1714": 0, "1715": 0, "1716": 0, "1718": 0, "1720": 0, "1722": 0, "1723": 0, "1726": 0, "1727": 0, "1728": 0, "1729": 0, "1730": 0, "1731": 0, "1732": 0, "1734": 0, "1736": 0, "1740": 0, "1745": 0, "1748": 0, "1749": 0, "1750": 0, "1751": 0, "1752": 0, "1753": 0, "1754": 0, "1755": 0, "1756": 0, "1757": 0, "1758": 0, "1759": 0, "1760": 0, "1761": 0, "1762": 0, "1763": 0, "1765": 0, "1766": 0, "1767": 0, "1768": 0, "1769": 0, "1771": 0, "1772": 0, "1774": 0, "1776": 0, "1779": 0, "1780": 0, "1781": 0, "1784": 0, "1785": 0, "1787": 0, "1790": 0, "1791": 0, "1792": 0, "1793": 0, "1795": 0, "1797": 0, "1798": 0, "1799": 0, "1800": 0, "1804": 0, "1805": 0, "1806": 0, "1807": 0, "1808": 0, "1809": 0, "1810": 0, "1811": 0, "1812": 0, "1813": 0, "1814": 0, "1815": 0, "1816": 0, "1817": 0, "1818": 0, "1819": 0, "1820": 0, "1823": 0, "1825": 0, "1826": 0, "1827": 0, "1828": 0, "1829": 0, "1836": 0, "1840": 0, "1841": 0, "1845": 0, "1846": 0, "1848": 0, "1849": 0, "1850": 0, "1852": 0, "1854": 0, "1855": 0, "1857": 0, "1858": 0, "1862": 0, "1864": 0, "1865": 0, "1866": 0, "1867": 0, "1868": 0, "1869": 0, "1870": 0, "1871": 0, "1873": 0, "1875": 0, "1877": 0, "1878": 0, "1880": 0, "1883": 0, "1884": 0, "1885": 0, "1886": 0, "1887": 0, "1888": 0, "1889": 0, "1890": 0, "1891": 0, "1892": 0, "1893": 0, "1894": 0, "1895": 0, "1896": 0, "1899": 0, "1903": 0, "1905": 0, "1906": 0, "1907": 0, "1908": 0, "1910": 0, "1911": 0, "1914": 0, "1915": 0, "1916": 0, "1917": 0, "1918": 0, "1919": 0, "1922": 0, "1923": 0, "1924": 0, "1925": 0, "1926": 0, "1927": 0, "1928": 0, "1929": 0, "1932": 0, "1934": 0, "1935": 0, "1936": 0, "1937": 0, "1938": 0, "1942": 0, "1943": 0, "1944": 0, "1945": 0, "1946": 0, "1947": 0, "1948": 0, "1949": 0, "1950": 0, "1951": 0, "1952": 0, "1954": 0, "1955": 0, "1956": 0, "1958": 0, "1959": 0, "1960": 0, "1961": 0, "1962": 0, "1964": 0, "1966": 0, "1975": 0, "1976": 0, "1977": 0, "1978": 0, "1979": 0, "1980": 0, "1981": 0, "1982": 0, "1983": 0, "1969": 0, "1970": 0, "1994": 1, "1995": 1, "1996": 1, "1997": 1, "1998": 1, "1999": 1, "2000": 1, "2001": 1, "2002": 1, "2003": 1, "2004": 1, "2005": 1, "2006": 1, "2008": 1, "2019": 1, "2030": 1, "2034": 1, "2038": 1, "2042": 1, "2131": 1, "2134": 1, "2140": 1, "2158": 1, "2167": 1, "2173": 1, "2179": 1, "2009": 0, "2010": 0, "2011": 0, "2012": 0, "2013": 0, "2014": 0, "2015": 0, "2016": 0, "2017": 0, "2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0, "2027": 0, "2028": 0, "2032": 0, "2036": 0, "2040": 0, "2044": 0, "2045": 0, "2047": 0, "2048": 0, "2049": 0, "2050": 0, "2051": 0, "2054": 0, "2057": 0, "2058": 0, "2060": 0, "2061": 0, "2062": 0, "2063": 0, "2064": 0, "2065": 0, "2066": 0, "2067": 0, "2068": 0, "2069": 0, "2070": 0, "2073": 0, "2074": 0, "2075": 0, "2077": 0, "2124": 0, "2126": 0, "2127": 0, "2129": 0, "2079": 0, "2111": 0, "2116": 0, "2085": 0, "2086": 0, "2087": 0, "2088": 0, "2089": 0, "2090": 0, "2091": 0, "2092": 0, "2093": 0, "2094": 0, "2097": 0, "2098": 0, "2099": 0, "2102": 0, "2103": 0, "2104": 0, "2106": 0, "2109": 0, "2112": 0, "2113": 0, "2114": 0, "2118": 0, "2119": 0, "2120": 0, "2121": 0, "2122": 0, "2132": 0, "2135": 0, "2136": 0, "2137": 0, "2138": 0, "2147": 0, "2149": 0, "2150": 0, "2151": 0, "2152": 0, "2153": 0, "2154": 0, "2155": 0, "2159": 0, "2164": 0, "2165": 0, "2168": 0, "2170": 0, "2171": 0, "2174": 0, "2176": 0, "2177": 0, "2180": 0, "2183": 0, "2184": 0, "2188": 1, "2192": 1}}
++ git checkout 5b884d45ac5b76234eca614d90c83b347294c332
+Note: switching to '5b884d45ac5b76234eca614d90c83b347294c332'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5b884d45ac Fixed #29501 -- Allowed dbshell to pass options to underlying tool.
+M	django/contrib/admin/options.py
++ git apply /root/pre_state.patch
+error: unrecognized input

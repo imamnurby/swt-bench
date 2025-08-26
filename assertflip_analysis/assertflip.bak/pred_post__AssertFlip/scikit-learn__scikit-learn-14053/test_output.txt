@@ -1,0 +1,1742 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 6ab8c86c383dd847a1be7103ad115f174fe23ffd
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 6ab8c86c383dd847a1be7103ad115f174fe23ffd
+Author: Greg Mogavero <vgmd93@gmail.com>
+Date:   Sun Jun 16 05:40:05 2019 -0700
+
+    [MRG] DOC DOC sklearn.manifold.t_sne.trustworthiness added to classes.rst (#9747)
+
+diff --git a/doc/modules/classes.rst b/doc/modules/classes.rst
+index 2dcf582a6a..7ad1268035 100644
+--- a/doc/modules/classes.rst
++++ b/doc/modules/classes.rst
+@@ -799,7 +799,8 @@ Kernels:
+     manifold.locally_linear_embedding
+     manifold.smacof
+     manifold.spectral_embedding
+-
++    manifold.t_sne.trustworthiness
++	
+ 
+ .. _metrics_ref:
+ 
++ git diff 6ab8c86c383dd847a1be7103ad115f174fe23ffd
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e .
+Using pip 21.2.2 from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/pip (python 3.6)
+Obtaining file:///testbed
+    Running command python setup.py egg_info
+    running egg_info
+    creating /tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info
+    writing /tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info/dependency_links.txt
+    writing requirements to /tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info/requires.txt
+    writing top-level names to /tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest file '/tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file '/tmp/pip-pip-egg-info-v51313ov/scikit_learn.egg-info/SOURCES.txt'
+    Partial import of sklearn during the build process.
+Requirement already satisfied: numpy>=1.11.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.19.2)
+Requirement already satisfied: scipy>=0.17.0 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.5.2)
+Requirement already satisfied: joblib>=0.11 in /opt/miniconda3/envs/testbed/lib/python3.6/site-packages (from scikit-learn==0.22.dev0) (1.1.1)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.22.dev0
+    Uninstalling scikit-learn-0.22.dev0:
+      Removing file or directory /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link
+      Removing pth entries from /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /testbed
+      Successfully uninstalled scikit-learn-0.22.dev0
+  Running setup.py develop for scikit-learn
+    Running command /opt/miniconda3/envs/testbed/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/testbed/setup.py'"'"'; __file__='"'"'/testbed/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    blis_info:
+      libraries blis not found in ['/opt/miniconda3/envs/testbed/lib', '/usr/local/lib', '/usr/lib64', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_info:
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    creating /tmp/tmp0fc0f1nq/tmp
+    creating /tmp/tmp0fc0f1nq/tmp/tmp0fc0f1nq
+    compile options: '-c'
+    gcc: /tmp/tmp0fc0f1nq/source.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ /tmp/tmp0fc0f1nq/tmp/tmp0fc0f1nq/source.o -L/opt/miniconda3/envs/testbed/lib -lopenblas -o /tmp/tmp0fc0f1nq/a.out
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+      FOUND:
+        libraries = ['openblas', 'openblas']
+        library_dirs = ['/opt/miniconda3/envs/testbed/lib']
+        language = c
+        define_macros = [('HAVE_CBLAS', None)]
+
+    C compiler: gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC
+
+    compile options: '-c'
+    extra options: '-fopenmp'
+    gcc: test_openmp.c
+    gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wl,--sysroot=/ objects/test_openmp.o -o test_openmp -fopenmp
+    running develop
+    running build_scripts
+    running egg_info
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.preprocessing._csr_polynomial_expansion" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._gradient_boosting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.histogram" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.splitting" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._binning" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._predictor" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting._loss" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.types" sources
+    building extension "sklearn.ensemble._hist_gradient_boosting.utils" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils._cython_blas" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn._isotonic" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    writing scikit_learn.egg-info/PKG-INFO
+    writing dependency_links to scikit_learn.egg-info/dependency_links.txt
+    writing requirements to scikit_learn.egg-info/requires.txt
+    writing top-level names to scikit_learn.egg-info/top_level.txt
+    reading manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    adding license file 'COPYING'
+    writing manifest file 'scikit_learn.egg-info/SOURCES.txt'
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext_subclass
+    Creating /opt/miniconda3/envs/testbed/lib/python3.6/site-packages/scikit-learn.egg-link (link to .)
+    Adding scikit-learn 0.22.dev0 to easy-install.pth file
+
+    Installed /testbed
+    Partial import of sklearn during the build process.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed scikit-learn-0.22.dev0
++ git apply -v -
+Checking patch sklearn/tree/export.py...
+Applied patch sklearn/tree/export.py cleanly.
++ git apply -v -
+<stdin>:17: trailing whitespace.
+    
+<stdin>:21: trailing whitespace.
+    
+Checking patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-14053.py...
+Applied patch sklearn/tests/test_coverup_scikit-learn__scikit-learn-14053.py cleanly.
+warning: 2 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sklearn/tree/export\.py)' -m pytest --no-header -rA -p no:cacheprovider sklearn/tests/test_coverup_scikit-learn__scikit-learn-14053.py
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sklearn/tree/export\\.py)']
+============================= test session starts ==============================
+collected 1 item
+
+sklearn/tests/test_coverup_scikit-learn__scikit-learn-14053.py .         [100%]
+
+==================================== PASSES ====================================
+________________ test_export_text_single_feature_no_index_error ________________
+----------------------------- Captured stdout call -----------------------------
+0.76 export.py(863):     check_is_fitted(decision_tree, 'tree_')
+0.76 export.py(864):     tree_ = decision_tree.tree_
+0.76 export.py(865):     class_names = decision_tree.classes_
+0.76 export.py(866):     right_child_fmt = "{} {} <= {}\n"
+0.76 export.py(867):     left_child_fmt = "{} {} >  {}\n"
+0.76 export.py(868):     truncation_fmt = "{} {}\n"
+0.76 export.py(870):     if max_depth < 0:
+0.76 export.py(873):     if (feature_names is not None and
+0.76 export.py(874):             len(feature_names) != tree_.n_features):
+0.76 export.py(879):     if spacing <= 0:
+0.76 export.py(882):     if decimals < 0:
+0.76 export.py(885):     if isinstance(decision_tree, DecisionTreeClassifier):
+0.76 export.py(886):         value_fmt = "{}{} weights: {}\n"
+0.76 export.py(887):         if not show_weights:
+0.76 export.py(888):             value_fmt = "{}{}{}\n"
+0.76 export.py(892):     if feature_names:
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(894):                           else None for i in tree_.feature]
+0.76 export.py(893):         feature_names_ = [feature_names[i] if i != _tree.TREE_UNDEFINED
+0.76 export.py(898):     export_text.report = ""
+0.76 export.py(900):     def _add_leaf(value, class_name, indent):
+0.76 export.py(911):     def print_tree_recurse(node, depth):
+0.76 export.py(957):     print_tree_recurse(0, 1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(947):                 _add_leaf(value, class_name, indent)
+0.76 export.py(901):         val = ''
+0.76 export.py(902):         is_classification = isinstance(decision_tree,
+0.76 export.py(903):                                        DecisionTreeClassifier)
+0.76 export.py(904):         if show_weights or not is_classification:
+0.76 export.py(907):         if is_classification:
+0.76 export.py(908):             val += ' class: ' + str(class_name)
+0.76 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.76 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.76 export.py(942):                                                             name,
+0.76 export.py(943):                                                             threshold)
+0.76 export.py(944):                 export_text.report += info_fmt_right
+0.76 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(947):                 _add_leaf(value, class_name, indent)
+0.76 export.py(901):         val = ''
+0.76 export.py(902):         is_classification = isinstance(decision_tree,
+0.76 export.py(903):                                        DecisionTreeClassifier)
+0.76 export.py(904):         if show_weights or not is_classification:
+0.76 export.py(907):         if is_classification:
+0.76 export.py(908):             val += ' class: ' + str(class_name)
+0.76 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.76 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.76 export.py(942):                                                             name,
+0.76 export.py(943):                                                             threshold)
+0.76 export.py(944):                 export_text.report += info_fmt_right
+0.76 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(947):                 _add_leaf(value, class_name, indent)
+0.76 export.py(901):         val = ''
+0.76 export.py(902):         is_classification = isinstance(decision_tree,
+0.76 export.py(903):                                        DecisionTreeClassifier)
+0.76 export.py(904):         if show_weights or not is_classification:
+0.76 export.py(907):         if is_classification:
+0.76 export.py(908):             val += ' class: ' + str(class_name)
+0.76 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.76 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.76 export.py(942):                                                             name,
+0.76 export.py(943):                                                             threshold)
+0.76 export.py(944):                 export_text.report += info_fmt_right
+0.76 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(947):                 _add_leaf(value, class_name, indent)
+0.76 export.py(901):         val = ''
+0.76 export.py(902):         is_classification = isinstance(decision_tree,
+0.76 export.py(903):                                        DecisionTreeClassifier)
+0.76 export.py(904):         if show_weights or not is_classification:
+0.76 export.py(907):         if is_classification:
+0.76 export.py(908):             val += ' class: ' + str(class_name)
+0.76 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.76 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.76 export.py(942):                                                             name,
+0.76 export.py(943):                                                             threshold)
+0.76 export.py(944):                 export_text.report += info_fmt_right
+0.76 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(947):                 _add_leaf(value, class_name, indent)
+0.76 export.py(901):         val = ''
+0.76 export.py(902):         is_classification = isinstance(decision_tree,
+0.76 export.py(903):                                        DecisionTreeClassifier)
+0.76 export.py(904):         if show_weights or not is_classification:
+0.76 export.py(907):         if is_classification:
+0.76 export.py(908):             val += ' class: ' + str(class_name)
+0.76 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.76 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.76 export.py(942):                                                             name,
+0.76 export.py(943):                                                             threshold)
+0.76 export.py(944):                 export_text.report += info_fmt_right
+0.76 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(947):                 _add_leaf(value, class_name, indent)
+0.76 export.py(901):         val = ''
+0.76 export.py(902):         is_classification = isinstance(decision_tree,
+0.76 export.py(903):                                        DecisionTreeClassifier)
+0.76 export.py(904):         if show_weights or not is_classification:
+0.76 export.py(907):         if is_classification:
+0.76 export.py(908):             val += ' class: ' + str(class_name)
+0.76 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.76 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.76 export.py(942):                                                             name,
+0.76 export.py(943):                                                             threshold)
+0.76 export.py(944):                 export_text.report += info_fmt_right
+0.76 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(947):                 _add_leaf(value, class_name, indent)
+0.76 export.py(901):         val = ''
+0.76 export.py(902):         is_classification = isinstance(decision_tree,
+0.76 export.py(903):                                        DecisionTreeClassifier)
+0.76 export.py(904):         if show_weights or not is_classification:
+0.76 export.py(907):         if is_classification:
+0.76 export.py(908):             val += ' class: ' + str(class_name)
+0.76 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.76 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.76 export.py(942):                                                             name,
+0.76 export.py(943):                                                             threshold)
+0.76 export.py(944):                 export_text.report += info_fmt_right
+0.76 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.76 export.py(920):         class_name = np.argmax(value)
+0.76 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.76 export.py(923):                 tree_.n_outputs == 1):
+0.76 export.py(924):             class_name = class_names[class_name]
+0.76 export.py(926):         if depth <= max_depth+1:
+0.76 export.py(927):             info_fmt = ""
+0.76 export.py(928):             info_fmt_left = info_fmt
+0.76 export.py(929):             info_fmt_right = info_fmt
+0.76 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.76 export.py(932):                 name = feature_names_[node]
+0.76 export.py(933):                 threshold = tree_.threshold[node]
+0.76 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.76 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.76 export.py(936):                                                              name,
+0.76 export.py(937):                                                              threshold)
+0.76 export.py(938):                 export_text.report += info_fmt_left
+0.76 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.76 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.76 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.76 export.py(915):         value = None
+0.76 export.py(916):         if tree_.n_outputs == 1:
+0.76 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(932):                 name = feature_names_[node]
+0.77 export.py(933):                 threshold = tree_.threshold[node]
+0.77 export.py(934):                 threshold = "{1:.{0}f}".format(decimals, threshold)
+0.77 export.py(935):                 export_text.report += right_child_fmt.format(indent,
+0.77 export.py(936):                                                              name,
+0.77 export.py(937):                                                              threshold)
+0.77 export.py(938):                 export_text.report += info_fmt_left
+0.77 export.py(939):                 print_tree_recurse(tree_.children_left[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.77 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.77 export.py(915):         value = None
+0.77 export.py(916):         if tree_.n_outputs == 1:
+0.77 export.py(917):             value = tree_.value[node][0]
+0.77 export.py(920):         class_name = np.argmax(value)
+0.77 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.77 export.py(923):                 tree_.n_outputs == 1):
+0.77 export.py(924):             class_name = class_names[class_name]
+0.77 export.py(926):         if depth <= max_depth+1:
+0.77 export.py(927):             info_fmt = ""
+0.77 export.py(928):             info_fmt_left = info_fmt
+0.77 export.py(929):             info_fmt_right = info_fmt
+0.77 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.77 export.py(947):                 _add_leaf(value, class_name, indent)
+0.77 export.py(901):         val = ''
+0.77 export.py(902):         is_classification = isinstance(decision_tree,
+0.77 export.py(903):                                        DecisionTreeClassifier)
+0.77 export.py(904):         if show_weights or not is_classification:
+0.77 export.py(907):         if is_classification:
+0.77 export.py(908):             val += ' class: ' + str(class_name)
+0.77 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.77 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.77 export.py(942):                                                             name,
+0.77 export.py(943):                                                             threshold)
+0.77 export.py(944):                 export_text.report += info_fmt_right
+0.77 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.77 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.78 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.78 export.py(915):         value = None
+0.78 export.py(916):         if tree_.n_outputs == 1:
+0.78 export.py(917):             value = tree_.value[node][0]
+0.78 export.py(920):         class_name = np.argmax(value)
+0.78 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.78 export.py(923):                 tree_.n_outputs == 1):
+0.78 export.py(924):             class_name = class_names[class_name]
+0.78 export.py(926):         if depth <= max_depth+1:
+0.78 export.py(927):             info_fmt = ""
+0.78 export.py(928):             info_fmt_left = info_fmt
+0.78 export.py(929):             info_fmt_right = info_fmt
+0.78 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.78 export.py(947):                 _add_leaf(value, class_name, indent)
+0.78 export.py(901):         val = ''
+0.78 export.py(902):         is_classification = isinstance(decision_tree,
+0.78 export.py(903):                                        DecisionTreeClassifier)
+0.78 export.py(904):         if show_weights or not is_classification:
+0.78 export.py(907):         if is_classification:
+0.78 export.py(908):             val += ' class: ' + str(class_name)
+0.78 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.78 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.78 export.py(942):                                                             name,
+0.78 export.py(943):                                                             threshold)
+0.78 export.py(944):                 export_text.report += info_fmt_right
+0.78 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.78 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.78 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.78 export.py(915):         value = None
+0.78 export.py(916):         if tree_.n_outputs == 1:
+0.78 export.py(917):             value = tree_.value[node][0]
+0.78 export.py(920):         class_name = np.argmax(value)
+0.78 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.78 export.py(923):                 tree_.n_outputs == 1):
+0.78 export.py(924):             class_name = class_names[class_name]
+0.78 export.py(926):         if depth <= max_depth+1:
+0.78 export.py(927):             info_fmt = ""
+0.78 export.py(928):             info_fmt_left = info_fmt
+0.78 export.py(929):             info_fmt_right = info_fmt
+0.78 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.78 export.py(947):                 _add_leaf(value, class_name, indent)
+0.78 export.py(901):         val = ''
+0.78 export.py(902):         is_classification = isinstance(decision_tree,
+0.78 export.py(903):                                        DecisionTreeClassifier)
+0.78 export.py(904):         if show_weights or not is_classification:
+0.78 export.py(907):         if is_classification:
+0.78 export.py(908):             val += ' class: ' + str(class_name)
+0.78 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.78 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.78 export.py(942):                                                             name,
+0.78 export.py(943):                                                             threshold)
+0.78 export.py(944):                 export_text.report += info_fmt_right
+0.78 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.78 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.78 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.78 export.py(915):         value = None
+0.78 export.py(916):         if tree_.n_outputs == 1:
+0.78 export.py(917):             value = tree_.value[node][0]
+0.78 export.py(920):         class_name = np.argmax(value)
+0.78 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.78 export.py(923):                 tree_.n_outputs == 1):
+0.78 export.py(924):             class_name = class_names[class_name]
+0.78 export.py(926):         if depth <= max_depth+1:
+0.78 export.py(927):             info_fmt = ""
+0.78 export.py(928):             info_fmt_left = info_fmt
+0.78 export.py(929):             info_fmt_right = info_fmt
+0.78 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.78 export.py(947):                 _add_leaf(value, class_name, indent)
+0.78 export.py(901):         val = ''
+0.78 export.py(902):         is_classification = isinstance(decision_tree,
+0.78 export.py(903):                                        DecisionTreeClassifier)
+0.78 export.py(904):         if show_weights or not is_classification:
+0.78 export.py(907):         if is_classification:
+0.78 export.py(908):             val += ' class: ' + str(class_name)
+0.78 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.78 export.py(941):                 export_text.report += left_child_fmt.format(indent,
+0.78 export.py(942):                                                             name,
+0.78 export.py(943):                                                             threshold)
+0.78 export.py(944):                 export_text.report += info_fmt_right
+0.78 export.py(945):                 print_tree_recurse(tree_.children_right[node], depth+1)
+0.78 export.py(912):         indent = ("|" + (" " * spacing)) * depth
+0.78 export.py(913):         indent = indent[:-spacing] + "-" * spacing
+0.78 export.py(915):         value = None
+0.78 export.py(916):         if tree_.n_outputs == 1:
+0.78 export.py(917):             value = tree_.value[node][0]
+0.78 export.py(920):         class_name = np.argmax(value)
+0.78 export.py(922):         if (tree_.n_classes[0] != 1 and
+0.78 export.py(923):                 tree_.n_outputs == 1):
+0.78 export.py(924):             class_name = class_names[class_name]
+0.78 export.py(926):         if depth <= max_depth+1:
+0.78 export.py(927):             info_fmt = ""
+0.78 export.py(928):             info_fmt_left = info_fmt
+0.78 export.py(929):             info_fmt_right = info_fmt
+0.78 export.py(931):             if tree_.feature[node] != _tree.TREE_UNDEFINED:
+0.78 export.py(947):                 _add_leaf(value, class_name, indent)
+0.78 export.py(901):         val = ''
+0.78 export.py(902):         is_classification = isinstance(decision_tree,
+0.78 export.py(903):                                        DecisionTreeClassifier)
+0.78 export.py(904):         if show_weights or not is_classification:
+0.78 export.py(907):         if is_classification:
+0.78 export.py(908):             val += ' class: ' + str(class_name)
+0.78 export.py(909):         export_text.report += value_fmt.format(indent, '', val)
+0.78 export.py(958):     return export_text.report
+=========================== short test summary info ============================
+PASSED sklearn/tests/test_coverup_scikit-learn__scikit-learn-14053.py::test_export_text_single_feature_no_index_error
+========================= 1 passed, 1 warning in 0.39s =========================
++ cat coverage.cover
+{"/testbed/sklearn/tree/export.py": {"14": 1, "15": 1, "17": 1, "19": 1, "21": 1, "23": 1, "24": 1, "25": 1, "26": 1, "29": 1, "71": 2, "76": 1, "83": 1, "181": 2, "353": 2, "511": 2, "659": 1, "786": 1, "807": 1, "42": 0, "45": 0, "46": 0, "47": 0, "49": 0, "51": 0, "52": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 0, "61": 0, "63": 0, "64": 0, "65": 0, "66": 0, "68": 0, "72": 1, "73": 0, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "177": 0, "178": 0, "186": 1, "200": 1, "223": 1, "248": 1, "187": 0, "188": 0, "189": 0, "190": 0, "191": 0, "192": 0, "193": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "202": 0, "204": 0, "205": 0, "206": 0, "207": 0, "209": 0, "210": 0, "213": 0, "214": 0, "215": 0, "217": 0, "219": 0, "221": 0, "225": 0, "227": 0, "228": 0, "230": 0, "231": 0, "232": 0, "233": 0, "235": 0, "236": 0, "237": 0, "238": 0, "239": 0, "240": 0, "242": 0, "245": 0, "246": 0, "250": 0, "251": 0, "253": 0, "256": 0, "258": 0, "259": 0, "262": 0, "263": 0, "264": 0, "265": 0, "268": 0, "270": 0, "271": 0, "273": 0, "274": 0, "275": 0, "276": 0, "277": 0, "278": 0, "279": 0, "280": 0, "283": 0, "284": 0, "285": 0, "286": 0, "287": 0, "288": 0, "289": 0, "290": 0, "291": 0, "294": 0, "295": 0, "296": 0, "297": 0, "298": 0, "299": 0, "300": 0, "302": 0, "303": 0, "306": 0, "308": 0, "309": 0, "310": 0, "311": 0, "313": 0, "314": 0, "316": 0, "317": 0, "319": 0, "322": 0, "324": 0, "325": 0, "326": 0, "327": 0, "328": 0, "329": 0, "332": 0, "333": 0, "334": 0, "336": 0, "337": 0, "338": 0, "339": 0, "341": 0, "342": 0, "343": 0, "344": 0, "347": 0, "348": 0, "350": 0, "354": 1, "355": 1, "356": 1, "357": 1, "358": 1, "392": 1, "413": 1, "422": 1, "449": 1, "360": 0, "361": 0, "362": 0, "363": 0, "364": 0, "365": 0, "366": 0, "367": 0, "368": 0, "369": 0, "372": 0, "373": 0, "374": 0, "376": 0, "379": 0, "380": 0, "381": 0, "382": 0, "384": 0, "385": 0, "388": 0, "390": 0, "396": 0, "397": 0, "398": 0, "400": 0, "401": 0, "403": 0, "405": 0, "406": 0, "408": 0, "409": 0, "411": 0, "415": 0, "416": 0, "417": 0, "419": 0, "420": 0, "423": 0, "426": 0, "427": 0, "428": 0, "429": 0, "430": 0, "431": 0, "432": 0, "433": 0, "434": 0, "435": 0, "436": 0, "437": 0, "438": 0, "441": 0, "442": 0, "443": 0, "444": 0, "445": 0, "446": 0, "447": 0, "450": 0, "451": 0, "453": 0, "454": 0, "457": 0, "460": 0, "461": 0, "462": 0, "463": 0, "465": 0, "467": 0, "468": 0, "469": 0, "471": 0, "472": 0, "473": 0, "474": 0, "476": 0, "478": 0, "479": 0, "481": 0, "482": 0, "483": 0, "484": 0, "485": 0, "487": 0, "488": 0, "489": 0, "491": 0, "492": 0, "493": 0, "494": 0, "495": 0, "498": 0, "500": 0, "501": 0, "503": 0, "504": 0, "506": 0, "508": 0, "516": 1, "550": 1, "564": 1, "620": 1, "518": 0, "519": 0, "520": 0, "521": 0, "522": 0, "523": 0, "526": 0, "527": 0, "528": 0, "529": 0, "531": 0, "532": 0, "535": 0, "537": 0, "539": 0, "541": 0, "542": 0, "543": 0, "546": 0, "548": 0, "553": 0, "554": 0, "555": 0, "556": 0, "557": 0, "558": 0, "559": 0, "561": 0, "562": 0, "565": 0, "566": 0, "567": 0, "568": 0, "569": 0, "570": 0, "571": 0, "572": 0, "573": 0, "579": 0, "580": 0, "581": 0, "583": 0, "584": 0, "586": 0, "587": 0, "589": 0, "593": 0, "595": 0, "596": 0, "598": 0, "602": 0, "603": 0, "604": 0, "605": 0, "606": 0, "608": 0, "609": 0, "610": 0, "611": 0, "612": 0, "614": 0, "618": 0, "590": 0, "622": 0, "623": 0, "625": 0, "626": 0, "629": 0, "631": 0, "632": 0, "633": 0, "634": 0, "635": 0, "637": 0, "639": 0, "640": 0, "641": 0, "642": 0, "643": 0, "644": 0, "645": 0, "648": 0, "649": 0, "650": 0, "651": 0, "652": 0, "757": 0, "758": 0, "759": 0, "760": 0, "761": 0, "762": 0, "763": 0, "765": 0, "766": 0, "767": 0, "769": 0, "770": 0, "771": 0, "772": 0, "773": 0, "774": 0, "775": 0, "776": 0, "778": 0, "779": 0, "782": 0, "783": 0, "790": 0, "801": 0, "802": 0, "803": 0, "792": 0, "793": 0, "794": 0, "795": 0, "796": 0, "797": 0, "798": 0, "799": 0, "863": 1, "864": 1, "865": 1, "866": 1, "867": 1, "868": 1, "870": 1, "871": 0, "873": 1, "874": 1, "875": 0, "876": 0, "877": 0, "879": 1, "880": 0, "882": 1, "883": 0, "885": 1, "886": 1, "887": 1, "888": 1, "890": 0, "892": 1, "893": 49, "894": 48, "896": 0, "898": 1, "900": 1, "911": 1, "957": 1, "958": 1, "901": 24, "902": 24, "903": 24, "904": 24, "905": 0, "906": 0, "907": 24, "908": 24, "909": 24, "912": 47, "913": 47, "915": 47, "916": 47, "917": 47, "919": 0, "920": 47, "922": 47, "923": 47, "924": 47, "926": 47, "927": 47, "928": 47, "929": 47, "931": 47, "932": 23, "933": 23, "934": 23, "935": 23, "936": 23, "937": 23, "938": 23, "939": 23, "941": 23, "942": 23, "943": 23, "944": 23, "945": 23, "947": 24, "949": 0, "950": 0, "951": 0, "953": 0, "954": 0, "955": 0}}
++ git checkout 6ab8c86c383dd847a1be7103ad115f174fe23ffd
+Note: switching to '6ab8c86c383dd847a1be7103ad115f174fe23ffd'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6ab8c86c38 [MRG] DOC DOC sklearn.manifold.t_sne.trustworthiness added to classes.rst (#9747)
+M	sklearn/tree/export.py
++ git apply /root/pre_state.patch
+error: unrecognized input

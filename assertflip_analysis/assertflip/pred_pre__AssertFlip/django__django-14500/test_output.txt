@@ -1,0 +1,958 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 8c3bd0b708b488a1f6e8bd8cc6b96569904605be
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 8c3bd0b708b488a1f6e8bd8cc6b96569904605be
+Author: Sanskar Jaiswal <jaiswalsanskar078@gmail.com>
+Date:   Sat Oct 17 00:47:13 2020 +0530
+
+    Fixed #31653 -- Added AddConstraintNotValid()/ValidateConstraint() operations for PostgreSQL.
+
+diff --git a/django/contrib/postgres/operations.py b/django/contrib/postgres/operations.py
+index e5f2b9e92f..037bb4ec22 100644
+--- a/django/contrib/postgres/operations.py
++++ b/django/contrib/postgres/operations.py
+@@ -2,8 +2,9 @@ from django.contrib.postgres.signals import (
+     get_citext_oids, get_hstore_oids, register_type_handlers,
+ )
+ from django.db import NotSupportedError, router
+-from django.db.migrations import AddIndex, RemoveIndex
++from django.db.migrations import AddConstraint, AddIndex, RemoveIndex
+ from django.db.migrations.operations.base import Operation
++from django.db.models.constraints import CheckConstraint
+ 
+ 
+ class CreateExtension(Operation):
+@@ -256,3 +257,73 @@ class RemoveCollation(CollationOperation):
+     @property
+     def migration_name_fragment(self):
+         return 'remove_collation_%s' % self.name.lower()
++
++
++class AddConstraintNotValid(AddConstraint):
++    """
++    Add a table constraint without enforcing validation, using PostgreSQL's
++    NOT VALID syntax.
++    """
++
++    def __init__(self, model_name, constraint):
++        if not isinstance(constraint, CheckConstraint):
++            raise TypeError(
++                'AddConstraintNotValid.constraint must be a check constraint.'
++            )
++        super().__init__(model_name, constraint)
++
++    def describe(self):
++        return 'Create not valid constraint %s on model %s' % (
++            self.constraint.name,
++            self.model_name,
++        )
++
++    def database_forwards(self, app_label, schema_editor, from_state, to_state):
++        model = from_state.apps.get_model(app_label, self.model_name)
++        if self.allow_migrate_model(schema_editor.connection.alias, model):
++            constraint_sql = self.constraint.create_sql(model, schema_editor)
++            if constraint_sql:
++                # Constraint.create_sql returns interpolated SQL which makes
++                # params=None a necessity to avoid escaping attempts on
++                # execution.
++                schema_editor.execute(str(constraint_sql) + ' NOT VALID', params=None)
++
++    @property
++    def migration_name_fragment(self):
++        return super().migration_name_fragment + '_not_valid'
++
++
++class ValidateConstraint(Operation):
++    """Validate a table NOT VALID constraint."""
++
++    def __init__(self, model_name, name):
++        self.model_name = model_name
++        self.name = name
++
++    def describe(self):
++        return 'Validate constraint %s on model %s' % (self.name, self.model_name)
++
++    def database_forwards(self, app_label, schema_editor, from_state, to_state):
++        model = from_state.apps.get_model(app_label, self.model_name)
++        if self.allow_migrate_model(schema_editor.connection.alias, model):
++            schema_editor.execute('ALTER TABLE %s VALIDATE CONSTRAINT %s' % (
++                schema_editor.quote_name(model._meta.db_table),
++                schema_editor.quote_name(self.name),
++            ))
++
++    def database_backwards(self, app_label, schema_editor, from_state, to_state):
++        # PostgreSQL does not provide a way to make a constraint invalid.
++        pass
++
++    def state_forwards(self, app_label, state):
++        pass
++
++    @property
++    def migration_name_fragment(self):
++        return '%s_validate_%s' % (self.model_name.lower(), self.name.lower())
++
++    def deconstruct(self):
++        return self.__class__.__name__, [], {
++            'model_name': self.model_name,
++            'name': self.name,
++        }
+diff --git a/docs/ref/contrib/postgres/operations.txt b/docs/ref/contrib/postgres/operations.txt
+index dc9faebcdb..4a0ef7a6b8 100644
+--- a/docs/ref/contrib/postgres/operations.txt
++++ b/docs/ref/contrib/postgres/operations.txt
+@@ -188,3 +188,39 @@ database.
+ 
+     The ``CONCURRENTLY`` option is not supported inside a transaction (see
+     :ref:`non-atomic migration <non-atomic-migrations>`).
++
++Adding constraints without enforcing validation
++===============================================
++
++.. versionadded:: 4.0
++
++PostgreSQL supports the ``NOT VALID`` option with the ``ADD CONSTRAINT``
++statement to add check constraints without enforcing validation on existing
++rows. This option is useful if you want to skip the potentially lengthy scan of
++the table to verify that all existing rows satisfy the constraint.
++
++To validate check constraints created with the ``NOT VALID`` option at a later
++point of time, use the
++:class:`~django.contrib.postgres.operations.ValidateConstraint` operation.
++
++See `the PostgreSQL documentation <https://www.postgresql.org/docs/current/
++sql-altertable.html#SQL-ALTERTABLE-NOTES>`__ for more details.
++
++.. class:: AddConstraintNotValid(model_name, constraint)
++
++    Like :class:`~django.db.migrations.operations.AddConstraint`, but avoids
++    validating the constraint on existing rows.
++
++.. class:: ValidateConstraint(model_name, name)
++
++    Scans through the table and validates the given check constraint on
++    existing rows.
++
++.. note::
++
++    ``AddConstraintNotValid`` and ``ValidateConstraint`` operations should be
++    performed in two separate migrations. Performing both operations in the
++    same atomic migration has the same effect as
++    :class:`~django.db.migrations.operations.AddConstraint`, whereas performing
++    them in a single non-atomic migration, may leave your database in an
++    inconsistent state if the ``ValidateConstraint`` operation fails.
+diff --git a/docs/releases/4.0.txt b/docs/releases/4.0.txt
+index 60c449bc88..2bdb76ef3d 100644
+--- a/docs/releases/4.0.txt
++++ b/docs/releases/4.0.txt
+@@ -122,6 +122,15 @@ Minor features
+ * The PostgreSQL backend now supports connecting by a service name. See
+   :ref:`postgresql-connection-settings` for more details.
+ 
++* The new :class:`~django.contrib.postgres.operations.AddConstraintNotValid`
++  operation allows creating check constraints on PostgreSQL without verifying
++  that all existing rows satisfy the new constraint.
++
++* The new :class:`~django.contrib.postgres.operations.ValidateConstraint`
++  operation allows validating check constraints which were created using
++  :class:`~django.contrib.postgres.operations.AddConstraintNotValid` on
++  PostgreSQL.
++
+ :mod:`django.contrib.redirects`
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+diff --git a/tests/postgres_tests/test_operations.py b/tests/postgres_tests/test_operations.py
+index 9faf938c55..1464f3177e 100644
+--- a/tests/postgres_tests/test_operations.py
++++ b/tests/postgres_tests/test_operations.py
+@@ -3,9 +3,11 @@ from unittest import mock
+ 
+ from migrations.test_base import OperationTestBase
+ 
+-from django.db import NotSupportedError, connection
++from django.db import (
++    IntegrityError, NotSupportedError, connection, transaction,
++)
+ from django.db.migrations.state import ProjectState
+-from django.db.models import Index
++from django.db.models import CheckConstraint, Index, Q, UniqueConstraint
+ from django.db.utils import ProgrammingError
+ from django.test import modify_settings, override_settings, skipUnlessDBFeature
+ from django.test.utils import CaptureQueriesContext
+@@ -15,8 +17,9 @@ from . import PostgreSQLTestCase
+ try:
+     from django.contrib.postgres.indexes import BrinIndex, BTreeIndex
+     from django.contrib.postgres.operations import (
+-        AddIndexConcurrently, BloomExtension, CreateCollation, CreateExtension,
+-        RemoveCollation, RemoveIndexConcurrently,
++        AddConstraintNotValid, AddIndexConcurrently, BloomExtension,
++        CreateCollation, CreateExtension, RemoveCollation,
++        RemoveIndexConcurrently, ValidateConstraint,
+     )
+ except ImportError:
+     pass
+@@ -392,3 +395,102 @@ class RemoveCollationTests(PostgreSQLTestCase):
+         self.assertEqual(name, 'RemoveCollation')
+         self.assertEqual(args, [])
+         self.assertEqual(kwargs, {'name': 'C_test', 'locale': 'C'})
++
++
++@unittest.skipUnless(connection.vendor == 'postgresql', 'PostgreSQL specific tests.')
++@modify_settings(INSTALLED_APPS={'append': 'migrations'})
++class AddConstraintNotValidTests(OperationTestBase):
++    app_label = 'test_add_constraint_not_valid'
++
++    def test_non_check_constraint_not_supported(self):
++        constraint = UniqueConstraint(fields=['pink'], name='pony_pink_uniq')
++        msg = 'AddConstraintNotValid.constraint must be a check constraint.'
++        with self.assertRaisesMessage(TypeError, msg):
++            AddConstraintNotValid(model_name='pony', constraint=constraint)
++
++    def test_add(self):
++        table_name = f'{self.app_label}_pony'
++        constraint_name = 'pony_pink_gte_check'
++        constraint = CheckConstraint(check=Q(pink__gte=4), name=constraint_name)
++        operation = AddConstraintNotValid('Pony', constraint=constraint)
++        project_state, new_state = self.make_test_state(self.app_label, operation)
++        self.assertEqual(
++            operation.describe(),
++            f'Create not valid constraint {constraint_name} on model Pony',
++        )
++        self.assertEqual(
++            operation.migration_name_fragment,
++            f'pony_{constraint_name}_not_valid',
++        )
++        self.assertEqual(
++            len(new_state.models[self.app_label, 'pony'].options['constraints']),
++            1,
++        )
++        self.assertConstraintNotExists(table_name, constraint_name)
++        Pony = new_state.apps.get_model(self.app_label, 'Pony')
++        self.assertEqual(len(Pony._meta.constraints), 1)
++        Pony.objects.create(pink=2, weight=1.0)
++        # Add constraint.
++        with connection.schema_editor(atomic=True) as editor:
++            operation.database_forwards(self.app_label, editor, project_state, new_state)
++        msg = f'check constraint "{constraint_name}"'
++        with self.assertRaisesMessage(IntegrityError, msg), transaction.atomic():
++            Pony.objects.create(pink=3, weight=1.0)
++        self.assertConstraintExists(table_name, constraint_name)
++        # Reversal.
++        with connection.schema_editor(atomic=True) as editor:
++            operation.database_backwards(self.app_label, editor, project_state, new_state)
++        self.assertConstraintNotExists(table_name, constraint_name)
++        Pony.objects.create(pink=3, weight=1.0)
++        # Deconstruction.
++        name, args, kwargs = operation.deconstruct()
++        self.assertEqual(name, 'AddConstraintNotValid')
++        self.assertEqual(args, [])
++        self.assertEqual(kwargs, {'model_name': 'Pony', 'constraint': constraint})
++
++
++@unittest.skipUnless(connection.vendor == 'postgresql', 'PostgreSQL specific tests.')
++@modify_settings(INSTALLED_APPS={'append': 'migrations'})
++class ValidateConstraintTests(OperationTestBase):
++    app_label = 'test_validate_constraint'
++
++    def test_validate(self):
++        constraint_name = 'pony_pink_gte_check'
++        constraint = CheckConstraint(check=Q(pink__gte=4), name=constraint_name)
++        operation = AddConstraintNotValid('Pony', constraint=constraint)
++        project_state, new_state = self.make_test_state(self.app_label, operation)
++        Pony = new_state.apps.get_model(self.app_label, 'Pony')
++        obj = Pony.objects.create(pink=2, weight=1.0)
++        # Add constraint.
++        with connection.schema_editor(atomic=True) as editor:
++            operation.database_forwards(self.app_label, editor, project_state, new_state)
++        project_state = new_state
++        new_state = new_state.clone()
++        operation = ValidateConstraint('Pony', name=constraint_name)
++        operation.state_forwards(self.app_label, new_state)
++        self.assertEqual(
++            operation.describe(),
++            f'Validate constraint {constraint_name} on model Pony',
++        )
++        self.assertEqual(
++            operation.migration_name_fragment,
++            f'pony_validate_{constraint_name}',
++        )
++        # Validate constraint.
++        with connection.schema_editor(atomic=True) as editor:
++            msg = f'check constraint "{constraint_name}"'
++            with self.assertRaisesMessage(IntegrityError, msg):
++                operation.database_forwards(self.app_label, editor, project_state, new_state)
++        obj.pink = 5
++        obj.save()
++        with connection.schema_editor(atomic=True) as editor:
++            operation.database_forwards(self.app_label, editor, project_state, new_state)
++        # Reversal is a noop.
++        with connection.schema_editor() as editor:
++            with self.assertNumQueries(0):
++                operation.database_backwards(self.app_label, editor, new_state, project_state)
++        # Deconstruction.
++        name, args, kwargs = operation.deconstruct()
++        self.assertEqual(name, 'ValidateConstraint')
++        self.assertEqual(args, [])
++        self.assertEqual(kwargs, {'model_name': 'Pony', 'name': constraint_name})
++ git diff 8c3bd0b708b488a1f6e8bd8cc6b96569904605be
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.3.2 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210608054651) (3.8.1)
+Requirement already satisfied: pytz in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210608054651) (2025.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from Django==4.0.dev20210608054651) (0.5.3)
+Requirement already satisfied: typing-extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.8/site-packages (from asgiref>=3.3.2->Django==4.0.dev20210608054651) (4.13.2)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.0.dev20210608054651-0.editable-py3-none-any.whl size=26170 sha256=8388a9e924b11231fd1ab5ef8d19723c1d656b7a39c542c8aaf713bcee868a09
+  Stored in directory: /tmp/pip-ephem-wheel-cache-5z_9ubhs/wheels/b2/50/f1/218f2e9962a80d01a4b1297698978f9fb3b60056aa24343f24
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.0.dev20210608054651
+    Uninstalling Django-4.0.dev20210608054651:
+      Successfully uninstalled Django-4.0.dev20210608054651
+Successfully installed Django-4.0.dev20210608054651
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+<stdin>:18: trailing whitespace.
+        
+<stdin>:24: trailing whitespace.
+        
+<stdin>:28: trailing whitespace.
+        
+<stdin>:35: trailing whitespace.
+        
+<stdin>:38: trailing whitespace.
+        
+Checking patch tests/test_coverup_django__django-14500.py...
+Applied patch tests/test_coverup_django__django-14500.py cleanly.
+warning: squelched 1 whitespace error
+warning: 6 lines add whitespace errors.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/db/migrations/executor\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-14500
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/db/migrations/executor\\.py)']
+Testing against Django installed in '/testbed/django'
+0.55 /testbed/django/db/migrations/executor.py(1): from django.apps.registry import apps as global_apps
+0.55 /testbed/django/db/migrations/executor.py(2): from django.db import migrations, router
+0.55 /testbed/django/db/migrations/executor.py(4): from .exceptions import InvalidMigrationPlan
+0.55 /testbed/django/db/migrations/executor.py(5): from .loader import MigrationLoader
+0.55 /testbed/django/db/migrations/executor.py(6): from .recorder import MigrationRecorder
+0.55 /testbed/django/db/migrations/executor.py(7): from .state import ProjectState
+0.55 /testbed/django/db/migrations/executor.py(10): class MigrationExecutor:
+0.55 /testbed/django/db/migrations/executor.py(10): class MigrationExecutor:
+0.55 /testbed/django/db/migrations/executor.py(11):     """
+0.55 /testbed/django/db/migrations/executor.py(16):     def __init__(self, connection, progress_callback=None):
+0.55 /testbed/django/db/migrations/executor.py(22):     def migration_plan(self, targets, clean_start=False):
+0.55 /testbed/django/db/migrations/executor.py(64):     def _create_project_state(self, with_applied_migrations=False):
+0.55 /testbed/django/db/migrations/executor.py(82):     def migrate(self, targets, plan=None, state=None, fake=False, fake_initial=False):
+0.55 /testbed/django/db/migrations/executor.py(127):     def _migrate_all_forwards(self, state, plan, full_plan, fake, fake_initial):
+0.55 /testbed/django/db/migrations/executor.py(152):     def _migrate_all_backwards(self, plan, full_plan, fake):
+0.55 /testbed/django/db/migrations/executor.py(213):     def apply_migration(self, state, migration, fake=False, fake_initial=False):
+0.55 /testbed/django/db/migrations/executor.py(238):     def record_migration(self, migration):
+0.55 /testbed/django/db/migrations/executor.py(246):     def unapply_migration(self, state, migration, fake=False):
+0.55 /testbed/django/db/migrations/executor.py(264):     def check_replacements(self):
+0.55 /testbed/django/db/migrations/executor.py(281):     def detect_soft_applied(self, project_state, migration):
+Found 1 test(s).
+Skipping setup of unused database(s): other.
+0.56 /testbed/django/db/migrations/executor.py(17):         self.connection = connection
+0.56 /testbed/django/db/migrations/executor.py(18):         self.loader = MigrationLoader(self.connection)
+0.57 /testbed/django/db/migrations/executor.py(19):         self.recorder = MigrationRecorder(self.connection)
+0.57 /testbed/django/db/migrations/executor.py(20):         self.progress_callback = progress_callback
+0.57 /testbed/django/db/migrations/executor.py(26):         plan = []
+0.57 /testbed/django/db/migrations/executor.py(27):         if clean_start:
+0.57 /testbed/django/db/migrations/executor.py(30):             applied = dict(self.loader.applied_migrations)
+0.57 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.57 /testbed/django/db/migrations/executor.py(33):             if target[1] is None:
+0.57 /testbed/django/db/migrations/executor.py(42):             elif target in applied:
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.57 /testbed/django/db/migrations/executor.py(33):             if target[1] is None:
+0.57 /testbed/django/db/migrations/executor.py(42):             elif target in applied:
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.57 /testbed/django/db/migrations/executor.py(62):         return plan
+Operations to perform:
+  Synchronize unmigrated apps: auth, contenttypes, messages, sessions, staticfiles
+  Apply all migrations: admin, sites
+0.57 /testbed/django/db/migrations/executor.py(69):         state = ProjectState(real_apps=list(self.loader.unmigrated_apps))
+0.57 /testbed/django/db/migrations/executor.py(70):         if with_applied_migrations:
+0.57 /testbed/django/db/migrations/executor.py(72):             full_plan = self.migration_plan(self.loader.graph.leaf_nodes(), clean_start=True)
+0.57 /testbed/django/db/migrations/executor.py(26):         plan = []
+0.57 /testbed/django/db/migrations/executor.py(27):         if clean_start:
+0.57 /testbed/django/db/migrations/executor.py(28):             applied = {}
+0.57 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.57 /testbed/django/db/migrations/executor.py(33):             if target[1] is None:
+0.57 /testbed/django/db/migrations/executor.py(42):             elif target in applied:
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.57 /testbed/django/db/migrations/executor.py(33):             if target[1] is None:
+0.57 /testbed/django/db/migrations/executor.py(42):             elif target in applied:
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.57 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.57 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.57 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.57 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.57 /testbed/django/db/migrations/executor.py(62):         return plan
+0.57 /testbed/django/db/migrations/executor.py(73):             applied_migrations = {
+0.57 /testbed/django/db/migrations/executor.py(74):                 self.loader.graph.nodes[key] for key in self.loader.applied_migrations
+0.57 /testbed/django/db/migrations/executor.py(73):             applied_migrations = {
+0.57 /testbed/django/db/migrations/executor.py(73):             applied_migrations = {
+0.57 /testbed/django/db/migrations/executor.py(77):             for migration, _ in full_plan:
+0.57 /testbed/django/db/migrations/executor.py(78):                 if migration in applied_migrations:
+0.57 /testbed/django/db/migrations/executor.py(77):             for migration, _ in full_plan:
+0.57 /testbed/django/db/migrations/executor.py(78):                 if migration in applied_migrations:
+0.57 /testbed/django/db/migrations/executor.py(77):             for migration, _ in full_plan:
+0.57 /testbed/django/db/migrations/executor.py(78):                 if migration in applied_migrations:
+0.57 /testbed/django/db/migrations/executor.py(77):             for migration, _ in full_plan:
+0.57 /testbed/django/db/migrations/executor.py(78):                 if migration in applied_migrations:
+0.57 /testbed/django/db/migrations/executor.py(77):             for migration, _ in full_plan:
+0.57 /testbed/django/db/migrations/executor.py(78):                 if migration in applied_migrations:
+0.57 /testbed/django/db/migrations/executor.py(77):             for migration, _ in full_plan:
+0.57 /testbed/django/db/migrations/executor.py(80):         return state
+Synchronizing apps without migrations:
+  Creating tables...
+    Creating table django_content_type
+    Creating table auth_permission
+    Creating table auth_group
+    Creating table auth_user
+    Creating table django_session
+    Running deferred SQL...
+Running migrations:
+0.58 /testbed/django/db/migrations/executor.py(91):         self.recorder.ensure_schema()
+0.58 /testbed/django/db/migrations/executor.py(93):         if plan is None:
+0.58 /testbed/django/db/migrations/executor.py(96):         full_plan = self.migration_plan(self.loader.graph.leaf_nodes(), clean_start=True)
+0.58 /testbed/django/db/migrations/executor.py(26):         plan = []
+0.58 /testbed/django/db/migrations/executor.py(27):         if clean_start:
+0.58 /testbed/django/db/migrations/executor.py(28):             applied = {}
+0.58 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.58 /testbed/django/db/migrations/executor.py(33):             if target[1] is None:
+0.58 /testbed/django/db/migrations/executor.py(42):             elif target in applied:
+0.58 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.58 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.58 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.58 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.58 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.58 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.58 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.58 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.58 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.58 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.58 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.58 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.58 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.58 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.58 /testbed/django/db/migrations/executor.py(33):             if target[1] is None:
+0.58 /testbed/django/db/migrations/executor.py(42):             elif target in applied:
+0.58 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.58 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.58 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.58 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.58 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.58 /testbed/django/db/migrations/executor.py(59):                     if migration not in applied:
+0.58 /testbed/django/db/migrations/executor.py(60):                         plan.append((self.loader.graph.nodes[migration], False))
+0.58 /testbed/django/db/migrations/executor.py(61):                         applied[migration] = self.loader.graph.nodes[migration]
+0.58 /testbed/django/db/migrations/executor.py(58):                 for migration in self.loader.graph.forwards_plan(target):
+0.58 /testbed/django/db/migrations/executor.py(31):         for target in targets:
+0.58 /testbed/django/db/migrations/executor.py(62):         return plan
+0.58 /testbed/django/db/migrations/executor.py(98):         all_forwards = all(not backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(98):         all_forwards = all(not backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(98):         all_forwards = all(not backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(98):         all_forwards = all(not backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(98):         all_forwards = all(not backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(98):         all_forwards = all(not backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(98):         all_forwards = all(not backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(99):         all_backwards = all(backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(99):         all_backwards = all(backwards for mig, backwards in plan)
+0.58 /testbed/django/db/migrations/executor.py(101):         if not plan:
+0.58 /testbed/django/db/migrations/executor.py(105):         elif all_forwards == all_backwards:
+0.58 /testbed/django/db/migrations/executor.py(113):         elif all_forwards:
+0.58 /testbed/django/db/migrations/executor.py(114):             if state is None:
+0.58 /testbed/django/db/migrations/executor.py(117):             state = self._migrate_all_forwards(state, plan, full_plan, fake=fake, fake_initial=fake_initial)
+0.58 /testbed/django/db/migrations/executor.py(132):         migrations_to_run = {m[0] for m in plan}
+0.58 /testbed/django/db/migrations/executor.py(132):         migrations_to_run = {m[0] for m in plan}
+0.58 /testbed/django/db/migrations/executor.py(132):         migrations_to_run = {m[0] for m in plan}
+0.58 /testbed/django/db/migrations/executor.py(132):         migrations_to_run = {m[0] for m in plan}
+0.58 /testbed/django/db/migrations/executor.py(132):         migrations_to_run = {m[0] for m in plan}
+0.58 /testbed/django/db/migrations/executor.py(132):         migrations_to_run = {m[0] for m in plan}
+0.58 /testbed/django/db/migrations/executor.py(132):         migrations_to_run = {m[0] for m in plan}
+0.58 /testbed/django/db/migrations/executor.py(133):         for migration, _ in full_plan:
+0.58 /testbed/django/db/migrations/executor.py(134):             if not migrations_to_run:
+0.58 /testbed/django/db/migrations/executor.py(140):             if migration in migrations_to_run:
+0.58 /testbed/django/db/migrations/executor.py(141):                 if 'apps' not in state.__dict__:
+0.58 /testbed/django/db/migrations/executor.py(147):                 state = self.apply_migration(state, migration, fake=fake, fake_initial=fake_initial)
+0.58 /testbed/django/db/migrations/executor.py(215):         migration_recorded = False
+0.58 /testbed/django/db/migrations/executor.py(216):         if self.progress_callback:
+0.58 /testbed/django/db/migrations/executor.py(217):             self.progress_callback("apply_start", migration, fake)
+  Applying admin.0001_initial...0.58 /testbed/django/db/migrations/executor.py(218):         if not fake:
+0.58 /testbed/django/db/migrations/executor.py(219):             if fake_initial:
+0.58 /testbed/django/db/migrations/executor.py(224):             if not fake:
+0.58 /testbed/django/db/migrations/executor.py(226):                 with self.connection.schema_editor(atomic=migration.atomic) as schema_editor:
+0.58 /testbed/django/db/migrations/executor.py(227):                     state = migration.apply(state, schema_editor)
+0.59 /testbed/django/db/migrations/executor.py(228):                     if not schema_editor.deferred_sql:
+0.59 /testbed/django/db/migrations/executor.py(231):         if not migration_recorded:
+0.59 /testbed/django/db/migrations/executor.py(232):             self.record_migration(migration)
+0.59 /testbed/django/db/migrations/executor.py(240):         if migration.replaces:
+0.59 /testbed/django/db/migrations/executor.py(244):             self.recorder.record_applied(migration.app_label, migration.name)
+0.59 /testbed/django/db/migrations/executor.py(234):         if self.progress_callback:
+0.59 /testbed/django/db/migrations/executor.py(235):             self.progress_callback("apply_success", migration, fake)
+ OK
+0.59 /testbed/django/db/migrations/executor.py(236):         return state
+0.59 /testbed/django/db/migrations/executor.py(148):                 migrations_to_run.remove(migration)
+0.59 /testbed/django/db/migrations/executor.py(133):         for migration, _ in full_plan:
+0.59 /testbed/django/db/migrations/executor.py(134):             if not migrations_to_run:
+0.59 /testbed/django/db/migrations/executor.py(140):             if migration in migrations_to_run:
+0.59 /testbed/django/db/migrations/executor.py(141):                 if 'apps' not in state.__dict__:
+0.59 /testbed/django/db/migrations/executor.py(147):                 state = self.apply_migration(state, migration, fake=fake, fake_initial=fake_initial)
+0.59 /testbed/django/db/migrations/executor.py(215):         migration_recorded = False
+0.59 /testbed/django/db/migrations/executor.py(216):         if self.progress_callback:
+0.59 /testbed/django/db/migrations/executor.py(217):             self.progress_callback("apply_start", migration, fake)
+  Applying admin.0002_logentry_remove_auto_add...0.59 /testbed/django/db/migrations/executor.py(218):         if not fake:
+0.59 /testbed/django/db/migrations/executor.py(219):             if fake_initial:
+0.59 /testbed/django/db/migrations/executor.py(224):             if not fake:
+0.59 /testbed/django/db/migrations/executor.py(226):                 with self.connection.schema_editor(atomic=migration.atomic) as schema_editor:
+0.59 /testbed/django/db/migrations/executor.py(227):                     state = migration.apply(state, schema_editor)
+0.60 /testbed/django/db/migrations/executor.py(228):                     if not schema_editor.deferred_sql:
+0.60 /testbed/django/db/migrations/executor.py(229):                         self.record_migration(migration)
+0.60 /testbed/django/db/migrations/executor.py(240):         if migration.replaces:
+0.60 /testbed/django/db/migrations/executor.py(244):             self.recorder.record_applied(migration.app_label, migration.name)
+0.60 /testbed/django/db/migrations/executor.py(230):                         migration_recorded = True
+0.60 /testbed/django/db/migrations/executor.py(231):         if not migration_recorded:
+0.60 /testbed/django/db/migrations/executor.py(234):         if self.progress_callback:
+0.60 /testbed/django/db/migrations/executor.py(235):             self.progress_callback("apply_success", migration, fake)
+ OK
+0.60 /testbed/django/db/migrations/executor.py(236):         return state
+0.60 /testbed/django/db/migrations/executor.py(148):                 migrations_to_run.remove(migration)
+0.60 /testbed/django/db/migrations/executor.py(133):         for migration, _ in full_plan:
+0.60 /testbed/django/db/migrations/executor.py(134):             if not migrations_to_run:
+0.60 /testbed/django/db/migrations/executor.py(140):             if migration in migrations_to_run:
+0.60 /testbed/django/db/migrations/executor.py(141):                 if 'apps' not in state.__dict__:
+0.60 /testbed/django/db/migrations/executor.py(147):                 state = self.apply_migration(state, migration, fake=fake, fake_initial=fake_initial)
+0.60 /testbed/django/db/migrations/executor.py(215):         migration_recorded = False
+0.60 /testbed/django/db/migrations/executor.py(216):         if self.progress_callback:
+0.60 /testbed/django/db/migrations/executor.py(217):             self.progress_callback("apply_start", migration, fake)
+  Applying admin.0003_logentry_add_action_flag_choices...0.60 /testbed/django/db/migrations/executor.py(218):         if not fake:
+0.60 /testbed/django/db/migrations/executor.py(219):             if fake_initial:
+0.60 /testbed/django/db/migrations/executor.py(224):             if not fake:
+0.60 /testbed/django/db/migrations/executor.py(226):                 with self.connection.schema_editor(atomic=migration.atomic) as schema_editor:
+0.60 /testbed/django/db/migrations/executor.py(227):                     state = migration.apply(state, schema_editor)
+0.60 /testbed/django/db/migrations/executor.py(228):                     if not schema_editor.deferred_sql:
+0.60 /testbed/django/db/migrations/executor.py(229):                         self.record_migration(migration)
+0.60 /testbed/django/db/migrations/executor.py(240):         if migration.replaces:
+0.60 /testbed/django/db/migrations/executor.py(244):             self.recorder.record_applied(migration.app_label, migration.name)
+0.60 /testbed/django/db/migrations/executor.py(230):                         migration_recorded = True
+0.60 /testbed/django/db/migrations/executor.py(231):         if not migration_recorded:
+0.60 /testbed/django/db/migrations/executor.py(234):         if self.progress_callback:
+0.60 /testbed/django/db/migrations/executor.py(235):             self.progress_callback("apply_success", migration, fake)
+ OK
+0.60 /testbed/django/db/migrations/executor.py(236):         return state
+0.60 /testbed/django/db/migrations/executor.py(148):                 migrations_to_run.remove(migration)
+0.60 /testbed/django/db/migrations/executor.py(133):         for migration, _ in full_plan:
+0.60 /testbed/django/db/migrations/executor.py(134):             if not migrations_to_run:
+0.60 /testbed/django/db/migrations/executor.py(140):             if migration in migrations_to_run:
+0.60 /testbed/django/db/migrations/executor.py(141):                 if 'apps' not in state.__dict__:
+0.60 /testbed/django/db/migrations/executor.py(147):                 state = self.apply_migration(state, migration, fake=fake, fake_initial=fake_initial)
+0.60 /testbed/django/db/migrations/executor.py(215):         migration_recorded = False
+0.60 /testbed/django/db/migrations/executor.py(216):         if self.progress_callback:
+0.60 /testbed/django/db/migrations/executor.py(217):             self.progress_callback("apply_start", migration, fake)
+  Applying sites.0001_initial...0.60 /testbed/django/db/migrations/executor.py(218):         if not fake:
+0.60 /testbed/django/db/migrations/executor.py(219):             if fake_initial:
+0.60 /testbed/django/db/migrations/executor.py(224):             if not fake:
+0.60 /testbed/django/db/migrations/executor.py(226):                 with self.connection.schema_editor(atomic=migration.atomic) as schema_editor:
+0.60 /testbed/django/db/migrations/executor.py(227):                     state = migration.apply(state, schema_editor)
+0.61 /testbed/django/db/migrations/executor.py(228):                     if not schema_editor.deferred_sql:
+0.61 /testbed/django/db/migrations/executor.py(229):                         self.record_migration(migration)
+0.61 /testbed/django/db/migrations/executor.py(240):         if migration.replaces:
+0.61 /testbed/django/db/migrations/executor.py(244):             self.recorder.record_applied(migration.app_label, migration.name)
+0.61 /testbed/django/db/migrations/executor.py(230):                         migration_recorded = True
+0.61 /testbed/django/db/migrations/executor.py(231):         if not migration_recorded:
+0.61 /testbed/django/db/migrations/executor.py(234):         if self.progress_callback:
+0.61 /testbed/django/db/migrations/executor.py(235):             self.progress_callback("apply_success", migration, fake)
+ OK
+0.61 /testbed/django/db/migrations/executor.py(236):         return state
+0.61 /testbed/django/db/migrations/executor.py(148):                 migrations_to_run.remove(migration)
+0.61 /testbed/django/db/migrations/executor.py(133):         for migration, _ in full_plan:
+0.61 /testbed/django/db/migrations/executor.py(134):             if not migrations_to_run:
+0.61 /testbed/django/db/migrations/executor.py(140):             if migration in migrations_to_run:
+0.61 /testbed/django/db/migrations/executor.py(141):                 if 'apps' not in state.__dict__:
+0.61 /testbed/django/db/migrations/executor.py(147):                 state = self.apply_migration(state, migration, fake=fake, fake_initial=fake_initial)
+0.61 /testbed/django/db/migrations/executor.py(215):         migration_recorded = False
+0.61 /testbed/django/db/migrations/executor.py(216):         if self.progress_callback:
+0.61 /testbed/django/db/migrations/executor.py(217):             self.progress_callback("apply_start", migration, fake)
+  Applying sites.0002_alter_domain_unique...Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+0.61 /testbed/django/db/migrations/executor.py(218):         if not fake:
+0.61 /testbed/django/db/migrations/executor.py(219):             if fake_initial:
+0.61 /testbed/django/db/migrations/executor.py(224):             if not fake:
+0.61 /testbed/django/db/migrations/executor.py(226):                 with self.connection.schema_editor(atomic=migration.atomic) as schema_editor:
+0.61 /testbed/django/db/migrations/executor.py(227):                     state = migration.apply(state, schema_editor)
+0.61 /testbed/django/db/migrations/executor.py(228):                     if not schema_editor.deferred_sql:
+0.61 /testbed/django/db/migrations/executor.py(229):                         self.record_migration(migration)
+0.61 /testbed/django/db/migrations/executor.py(240):         if migration.replaces:
+0.61 /testbed/django/db/migrations/executor.py(244):             self.recorder.record_applied(migration.app_label, migration.name)
+0.61 /testbed/django/db/migrations/executor.py(230):                         migration_recorded = True
+0.61 /testbed/django/db/migrations/executor.py(231):         if not migration_recorded:
+0.61 /testbed/django/db/migrations/executor.py(234):         if self.progress_callback:
+0.61 /testbed/django/db/migrations/executor.py(235):             self.progress_callback("apply_success", migration, fake)
+ OK
+0.61 /testbed/django/db/migrations/executor.py(236):         return state
+0.61 /testbed/django/db/migrations/executor.py(148):                 migrations_to_run.remove(migration)
+0.61 /testbed/django/db/migrations/executor.py(133):         for migration, _ in full_plan:
+0.61 /testbed/django/db/migrations/executor.py(150):         return state
+0.61 /testbed/django/db/migrations/executor.py(123):         self.check_replacements()
+0.61 /testbed/django/db/migrations/executor.py(275):         applied = self.recorder.applied_migrations()
+0.61 /testbed/django/db/migrations/executor.py(276):         for key, migration in self.loader.replacements.items():
+0.61 /testbed/django/db/migrations/executor.py(125):         return state
+System check identified no issues (0 silenced).
+test_unapply_squashed_migration_with_replaced_present (test_coverup_django__django-14500.SquashedMigrationUnapplyTest) ... 0.70 /testbed/django/db/migrations/executor.py(17):         self.connection = connection
+0.70 /testbed/django/db/migrations/executor.py(18):         self.loader = MigrationLoader(self.connection)
+0.70 /testbed/django/db/migrations/executor.py(19):         self.recorder = MigrationRecorder(self.connection)
+0.70 /testbed/django/db/migrations/executor.py(20):         self.progress_callback = progress_callback
+0.70 /testbed/django/db/migrations/executor.py(248):         if self.progress_callback:
+0.70 /testbed/django/db/migrations/executor.py(250):         if not fake:
+0.70 /testbed/django/db/migrations/executor.py(254):         if migration.replaces:
+0.70 /testbed/django/db/migrations/executor.py(255):             for app_label, name in migration.replaces:
+0.70 /testbed/django/db/migrations/executor.py(256):                 self.recorder.record_unapplied(app_label, name)
+0.70 /testbed/django/db/migrations/executor.py(255):             for app_label, name in migration.replaces:
+0.70 /testbed/django/db/migrations/executor.py(256):                 self.recorder.record_unapplied(app_label, name)
+0.70 /testbed/django/db/migrations/executor.py(255):             for app_label, name in migration.replaces:
+0.70 /testbed/django/db/migrations/executor.py(260):         if self.progress_callback:
+0.70 /testbed/django/db/migrations/executor.py(262):         return state
+FAIL
+
+======================================================================
+FAIL: test_unapply_squashed_migration_with_replaced_present (test_coverup_django__django-14500.SquashedMigrationUnapplyTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-14500.py", line 34, in test_unapply_squashed_migration_with_replaced_present
+    self.assertNotIn((self.squashed_migration.app_label, self.squashed_migration.name), unapplied_migrations)
+AssertionError: ('app', '0002_squashed') unexpectedly found in {('admin', '0001_initial'): <Migration: Migration 0001_initial for admin>, ('admin', '0002_logentry_remove_auto_add'): <Migration: Migration 0002_logentry_remove_auto_add for admin>, ('admin', '0003_logentry_add_action_flag_choices'): <Migration: Migration 0003_logentry_add_action_flag_choices for admin>, ('sites', '0001_initial'): <Migration: Migration 0001_initial for sites>, ('sites', '0002_alter_domain_unique'): <Migration: Migration 0002_alter_domain_unique for sites>, ('app', '0002_squashed'): <Migration: Migration 0002_squashed for app>}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (failures=1)
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
++ cat coverage.cover
+{"/testbed/django/db/migrations/executor.py": {"1": 1, "2": 1, "4": 1, "5": 1, "6": 1, "7": 1, "10": 2, "16": 1, "22": 1, "64": 1, "82": 1, "127": 1, "152": 1, "213": 1, "238": 1, "246": 1, "264": 1, "281": 1, "17": 2, "18": 2, "19": 2, "20": 2, "26": 3, "27": 3, "28": 2, "30": 1, "31": 9, "33": 6, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0, "42": 6, "47": 0, "49": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "58": 21, "59": 15, "60": 15, "61": 15, "62": 3, "48": 0, "50": 0, "69": 1, "70": 1, "72": 1, "73": 3, "74": 1, "77": 6, "78": 5, "79": 0, "80": 1, "75": 0, "91": 1, "93": 1, "94": 0, "96": 1, "98": 7, "99": 2, "101": 1, "102": 0, "104": 0, "105": 1, "107": 0, "108": 0, "111": 0, "113": 1, "114": 1, "116": 0, "117": 1, "121": 0, "123": 1, "125": 1, "132": 7, "133": 6, "134": 5, "139": 0, "140": 5, "141": 5, "142": 0, "143": 0, "144": 0, "145": 0, "146": 0, "147": 5, "148": 5, "150": 1, "162": 0, "164": 0, "165": 0, "166": 0, "167": 0, "170": 0, "171": 0, "172": 0, "173": 0, "178": 0, "179": 0, "180": 0, "181": 0, "183": 0, "185": 0, "186": 0, "187": 0, "191": 0, "192": 0, "193": 0, "195": 0, "196": 0, "197": 0, "202": 0, "203": 0, "204": 0, "205": 0, "206": 0, "207": 0, "208": 0, "209": 0, "211": 0, "168": 0, "215": 5, "216": 5, "217": 5, "218": 5, "219": 5, "221": 0, "222": 0, "223": 0, "224": 5, "226": 5, "227": 5, "228": 5, "229": 4, "230": 4, "231": 5, "232": 1, "234": 5, "235": 5, "236": 5, "240": 5, "241": 0, "242": 0, "244": 5, "248": 1, "249": 0, "250": 1, "251": 0, "252": 0, "254": 1, "255": 3, "256": 2, "258": 0, "260": 1, "261": 0, "262": 1, "275": 1, "276": 1, "277": 0, "278": 0, "279": 0, "287": 0, "300": 0, "302": 0, "303": 0, "304": 0, "306": 0, "308": 0, "309": 0, "311": 0, "312": 0, "313": 0, "314": 0, "315": 0, "316": 0, "317": 0, "318": 0, "319": 0, "321": 0, "322": 0, "323": 0, "324": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "332": 0, "333": 0, "334": 0, "335": 0, "336": 0, "337": 0, "338": 0, "341": 0, "342": 0, "343": 0, "345": 0, "346": 0, "349": 0, "350": 0, "351": 0, "352": 0, "353": 0, "354": 0, "356": 0, "357": 0, "358": 0, "359": 0, "360": 0, "361": 0, "362": 0, "363": 0, "364": 0, "365": 0, "366": 0, "367": 0, "368": 0, "370": 0, "373": 0, "293": 0, "294": 0, "295": 0, "296": 0, "292": 0}}
++ git checkout 8c3bd0b708b488a1f6e8bd8cc6b96569904605be
+Note: switching to '8c3bd0b708b488a1f6e8bd8cc6b96569904605be'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 8c3bd0b708 Fixed #31653 -- Added AddConstraintNotValid()/ValidateConstraint() operations for PostgreSQL.
++ git apply /root/pre_state.patch
+error: unrecognized input

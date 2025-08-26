@@ -1,0 +1,1964 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 953f29f700a60fc09b08b2c2270c12c447490c6a
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 953f29f700a60fc09b08b2c2270c12c447490c6a
+Author: Mariusz Felisiak <felisiak.mariusz@gmail.com>
+Date:   Fri Jun 30 06:03:08 2023 +0200
+
+    Fixed #34572 -- Added support for GDAL 3.7.
+    
+    Co-authored-by: Michael Howitz <mh@gocept.com>
+
+diff --git a/django/contrib/gis/gdal/libgdal.py b/django/contrib/gis/gdal/libgdal.py
+index fe510ac142..30cba0f14f 100644
+--- a/django/contrib/gis/gdal/libgdal.py
++++ b/django/contrib/gis/gdal/libgdal.py
+@@ -22,6 +22,7 @@ if lib_path:
+ elif os.name == "nt":
+     # Windows NT shared libraries
+     lib_names = [
++        "gdal307",
+         "gdal306",
+         "gdal305",
+         "gdal304",
+@@ -36,6 +37,7 @@ elif os.name == "posix":
+     lib_names = [
+         "gdal",
+         "GDAL",
++        "gdal3.7.0",
+         "gdal3.6.0",
+         "gdal3.5.0",
+         "gdal3.4.0",
+diff --git a/docs/ref/contrib/gis/gdal.txt b/docs/ref/contrib/gis/gdal.txt
+index f46f0978fe..fbe2752e44 100644
+--- a/docs/ref/contrib/gis/gdal.txt
++++ b/docs/ref/contrib/gis/gdal.txt
+@@ -1844,8 +1844,8 @@ Key               Default  Usage
+     converted to the correct string format upon creation.
+ 
+     The following example uses some of the options available for the
+-    `GTiff driver`__. The result is a compressed signed byte raster with an
+-    internal tiling scheme. The internal tiles have a block size of 23 by 23:
++    `GTiff driver`__. The result is a compressed raster with an internal tiling
++    scheme. The internal tiles have a block size of 23 by 23:
+ 
+     .. code-block:: pycon
+ 
+@@ -1859,7 +1859,6 @@ Key               Default  Usage
+         ...         "nr_of_bands": 1,
+         ...         "papsz_options": {
+         ...             "compress": "packbits",
+-        ...             "pixeltype": "signedbyte",
+         ...             "tiled": "yes",
+         ...             "blockxsize": 23,
+         ...             "blockysize": 23,
+diff --git a/docs/ref/contrib/gis/install/geolibs.txt b/docs/ref/contrib/gis/install/geolibs.txt
+index 1475d512b0..3615e50fdc 100644
+--- a/docs/ref/contrib/gis/install/geolibs.txt
++++ b/docs/ref/contrib/gis/install/geolibs.txt
+@@ -5,16 +5,16 @@ Installing Geospatial libraries
+ GeoDjango uses and/or provides interfaces for the following open source
+ geospatial libraries:
+ 
+-========================  ====================================  ================================  ======================================
++========================  ====================================  ================================  ===========================================
+ Program                   Description                           Required                          Supported Versions
+-========================  ====================================  ================================  ======================================
++========================  ====================================  ================================  ===========================================
+ :doc:`GEOS <../geos>`     Geometry Engine Open Source           Yes                               3.11, 3.10, 3.9, 3.8
+ `PROJ`_                   Cartographic Projections library      Yes (PostgreSQL and SQLite only)  9.x, 8.x, 7.x, 6.x, 5.x
+-:doc:`GDAL <../gdal>`     Geospatial Data Abstraction Library   Yes                               3.6, 3.5, 3.4, 3.3, 3.2, 3.1, 3.0, 2.4
++:doc:`GDAL <../gdal>`     Geospatial Data Abstraction Library   Yes                               3.7, 3.6, 3.5, 3.4, 3.3, 3.2, 3.1, 3.0, 2.4
+ :doc:`GeoIP <../geoip2>`  IP-based geolocation library          No                                2
+ `PostGIS`__               Spatial extensions for PostgreSQL     Yes (PostgreSQL only)             3.3, 3.2, 3.1, 3.0, 2.5
+ `SpatiaLite`__            Spatial extensions for SQLite         Yes (SQLite only)                 5.0, 4.3
+-========================  ====================================  ================================  ======================================
++========================  ====================================  ================================  ===========================================
+ 
+ Note that older or more recent versions of these libraries *may* also work
+ totally fine with GeoDjango. Your mileage may vary.
+@@ -33,6 +33,7 @@ totally fine with GeoDjango. Your mileage may vary.
+     GDAL 3.4.0 2021-11-04
+     GDAL 3.5.0 2022-05-13
+     GDAL 3.6.0 2022-11-03
++    GDAL 3.7.0 2023-05-10
+     PostGIS 2.5.0 2018-09-23
+     PostGIS 3.0.0 2019-10-20
+     PostGIS 3.1.0 2020-12-18
+diff --git a/docs/releases/5.0.txt b/docs/releases/5.0.txt
+index f5f4ecd668..a2a04c6060 100644
+--- a/docs/releases/5.0.txt
++++ b/docs/releases/5.0.txt
+@@ -179,6 +179,8 @@ Minor features
+ * :ref:`GIS aggregates <gis-aggregation-functions>` now support the ``filter``
+   argument.
+ 
++* Added support for GDAL 3.7.
++
+ :mod:`django.contrib.messages`
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+diff --git a/tests/gis_tests/gdal_tests/test_raster.py b/tests/gis_tests/gdal_tests/test_raster.py
+index c662366bef..67108cbb32 100644
+--- a/tests/gis_tests/gdal_tests/test_raster.py
++++ b/tests/gis_tests/gdal_tests/test_raster.py
+@@ -6,7 +6,7 @@ import zipfile
+ from pathlib import Path
+ from unittest import mock
+ 
+-from django.contrib.gis.gdal import GDALRaster, SpatialReference
++from django.contrib.gis.gdal import GDAL_VERSION, GDALRaster, SpatialReference
+ from django.contrib.gis.gdal.error import GDALException
+ from django.contrib.gis.gdal.raster.band import GDALBand
+ from django.contrib.gis.shortcuts import numpy
+@@ -415,9 +415,19 @@ class GDALRasterTests(SimpleTestCase):
+         # Check physically if compression worked.
+         self.assertLess(os.path.getsize(compressed.name), os.path.getsize(self.rs.name))
+         # Create file-based raster with options from scratch.
++        papsz_options = {
++            "compress": "packbits",
++            "blockxsize": 23,
++            "blockysize": 23,
++        }
++        if GDAL_VERSION < (3, 7):
++            datatype = 1
++            papsz_options["pixeltype"] = "signedbyte"
++        else:
++            datatype = 14
+         compressed = GDALRaster(
+             {
+-                "datatype": 1,
++                "datatype": datatype,
+                 "driver": "tif",
+                 "name": rstfile.name,
+                 "width": 40,
+@@ -432,12 +442,7 @@ class GDALRasterTests(SimpleTestCase):
+                         "nodata_value": 255,
+                     }
+                 ],
+-                "papsz_options": {
+-                    "compress": "packbits",
+-                    "pixeltype": "signedbyte",
+-                    "blockxsize": 23,
+-                    "blockysize": 23,
+-                },
++                "papsz_options": papsz_options,
+             }
+         )
+         # Check if options used on creation are stored in metadata.
+@@ -448,9 +453,12 @@ class GDALRasterTests(SimpleTestCase):
+             compressed.metadata["IMAGE_STRUCTURE"]["COMPRESSION"],
+             "PACKBITS",
+         )
+-        self.assertEqual(
+-            compressed.bands[0].metadata["IMAGE_STRUCTURE"]["PIXELTYPE"], "SIGNEDBYTE"
+-        )
++        self.assertEqual(compressed.bands[0].datatype(), datatype)
++        if GDAL_VERSION < (3, 7):
++            self.assertEqual(
++                compressed.bands[0].metadata["IMAGE_STRUCTURE"]["PIXELTYPE"],
++                "SIGNEDBYTE",
++            )
+         self.assertIn("Block=40x23", compressed.info)
+ 
+     def test_raster_warp(self):
++ git diff 953f29f700a60fc09b08b2c2270c12c447490c6a
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.7.0 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230630040308) (3.9.1)
+Requirement already satisfied: sqlparse>=0.3.1 in /opt/miniconda3/envs/testbed/lib/python3.11/site-packages (from Django==5.0.dev20230630040308) (0.5.3)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-5.0.dev20230630040308-0.editable-py3-none-any.whl size=27603 sha256=98c24a4111a2d13dbd71c285e113b037ede4cad979c2e41a13ccbffd0a669a9d
+  Stored in directory: /tmp/pip-ephem-wheel-cache-w366eprf/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 5.0.dev20230630040308
+    Uninstalling Django-5.0.dev20230630040308:
+      Successfully uninstalled Django-5.0.dev20230630040308
+Successfully installed Django-5.0.dev20230630040308
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch django/apps/registry.py...
+Applied patch django/apps/registry.py cleanly.
++ git apply -v -
+Checking patch tests/test_coverup_django__django-17029.py...
+Applied patch tests/test_coverup_django__django-17029.py cleanly.
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/apps/registry\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-17029
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(django/apps/registry\\.py)']
+0.03 registry.py(1): import functools
+0.03 registry.py(2): import sys
+0.03 registry.py(3): import threading
+0.03 registry.py(4): import warnings
+0.03 registry.py(5): from collections import Counter, defaultdict
+0.03 registry.py(6): from functools import partial
+0.03 registry.py(8): from django.core.exceptions import AppRegistryNotReady, ImproperlyConfigured
+0.03 registry.py(10): from .config import AppConfig
+0.03 registry.py(13): class Apps:
+0.03 registry.py(13): class Apps:
+0.03 registry.py(14):     """
+0.03 registry.py(20):     def __init__(self, installed_apps=()):
+0.03 registry.py(61):     def populate(self, installed_apps=None):
+0.03 registry.py(129):     def check_apps_ready(self):
+0.03 registry.py(140):     def check_models_ready(self):
+0.03 registry.py(145):     def get_app_configs(self):
+0.03 registry.py(150):     def get_app_config(self, app_label):
+0.03 registry.py(168):     @functools.cache
+0.03 registry.py(169):     def get_models(self, include_auto_created=False, include_swapped=False):
+0.03 registry.py(168):     @functools.cache
+0.03 registry.py(169):     def get_models(self, include_auto_created=False, include_swapped=False):
+0.03 registry.py(188):     def get_model(self, app_label, model_name=None, require_ready=True):
+0.03 registry.py(215):     def register_model(self, app_label, model):
+0.03 registry.py(242):     def is_installed(self, app_name):
+0.03 registry.py(251):     def get_containing_app_config(self, object_name):
+0.03 registry.py(270):     def get_registered_model(self, app_label, model_name):
+0.03 registry.py(283):     @functools.cache
+0.03 registry.py(284):     def get_swappable_settings_name(self, to_string):
+0.03 registry.py(283):     @functools.cache
+0.03 registry.py(284):     def get_swappable_settings_name(self, to_string):
+0.03 registry.py(306):     def set_available_apps(self, available):
+0.03 registry.py(334):     def unset_available_apps(self):
+0.03 registry.py(339):     def set_installed_apps(self, installed):
+0.03 registry.py(364):     def unset_installed_apps(self):
+0.03 registry.py(370):     def clear_cache(self):
+0.03 registry.py(387):     def lazy_model_operation(self, function, *model_keys):
+0.03 registry.py(427):     def do_pending_operations(self, model):
+0.03 registry.py(437): apps = Apps(installed_apps=None)
+0.03 registry.py(24):         if installed_apps is None and hasattr(sys.modules[__name__], "apps"):
+0.03 registry.py(34):         self.all_models = defaultdict(dict)
+0.03 registry.py(37):         self.app_configs = {}
+0.03 registry.py(41):         self.stored_app_configs = []
+0.03 registry.py(44):         self.apps_ready = self.models_ready = self.ready = False
+0.03 registry.py(46):         self.ready_event = threading.Event()
+0.03 registry.py(49):         self._lock = threading.RLock()
+0.03 registry.py(50):         self.loading = False
+0.03 registry.py(55):         self._pending_operations = defaultdict(list)
+0.03 registry.py(58):         if installed_apps is not None:
+Testing against Django installed in '/testbed/django'
+0.43 registry.py(69):         if self.ready:
+0.43 registry.py(74):         with self._lock:
+0.43 registry.py(75):             if self.ready:
+0.43 registry.py(80):             if self.loading:
+0.43 registry.py(84):             self.loading = True
+0.43 registry.py(87):             for entry in installed_apps:
+0.43 registry.py(88):                 if isinstance(entry, AppConfig):
+0.43 registry.py(91):                     app_config = AppConfig.create(entry)
+0.44 registry.py(92):                 if app_config.label in self.app_configs:
+0.44 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.44 registry.py(99):                 app_config.apps = self
+0.44 registry.py(87):             for entry in installed_apps:
+0.44 registry.py(88):                 if isinstance(entry, AppConfig):
+0.44 registry.py(91):                     app_config = AppConfig.create(entry)
+0.46 registry.py(92):                 if app_config.label in self.app_configs:
+0.46 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.46 registry.py(99):                 app_config.apps = self
+0.46 registry.py(87):             for entry in installed_apps:
+0.46 registry.py(88):                 if isinstance(entry, AppConfig):
+0.46 registry.py(91):                     app_config = AppConfig.create(entry)
+0.46 registry.py(92):                 if app_config.label in self.app_configs:
+0.46 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.46 registry.py(99):                 app_config.apps = self
+0.46 registry.py(87):             for entry in installed_apps:
+0.46 registry.py(88):                 if isinstance(entry, AppConfig):
+0.46 registry.py(91):                     app_config = AppConfig.create(entry)
+0.46 registry.py(92):                 if app_config.label in self.app_configs:
+0.46 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.46 registry.py(99):                 app_config.apps = self
+0.46 registry.py(87):             for entry in installed_apps:
+0.46 registry.py(88):                 if isinstance(entry, AppConfig):
+0.46 registry.py(91):                     app_config = AppConfig.create(entry)
+0.46 registry.py(92):                 if app_config.label in self.app_configs:
+0.46 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.46 registry.py(99):                 app_config.apps = self
+0.46 registry.py(87):             for entry in installed_apps:
+0.46 registry.py(88):                 if isinstance(entry, AppConfig):
+0.46 registry.py(91):                     app_config = AppConfig.create(entry)
+0.49 registry.py(92):                 if app_config.label in self.app_configs:
+0.49 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.49 registry.py(99):                 app_config.apps = self
+0.49 registry.py(87):             for entry in installed_apps:
+0.49 registry.py(88):                 if isinstance(entry, AppConfig):
+0.49 registry.py(91):                     app_config = AppConfig.create(entry)
+0.50 registry.py(92):                 if app_config.label in self.app_configs:
+0.50 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.50 registry.py(99):                 app_config.apps = self
+0.50 registry.py(87):             for entry in installed_apps:
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(102):             counts = Counter(
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.50 registry.py(106):             if duplicates:
+0.50 registry.py(112):             self.apps_ready = True
+0.50 registry.py(115):             for app_config in self.app_configs.values():
+0.50 registry.py(116):                 app_config.import_models()
+0.50 registry.py(260):         self.check_apps_ready()
+0.50 registry.py(131):         if not self.apps_ready:
+0.50 registry.py(261):         candidates = []
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.50 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.50 registry.py(266):                     candidates.append(app_config)
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(267):         if candidates:
+0.50 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.50 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.50 registry.py(219):         model_name = model._meta.model_name
+0.50 registry.py(220):         app_models = self.all_models[app_label]
+0.50 registry.py(221):         if model_name in app_models:
+0.50 registry.py(238):         app_models[model_name] = model
+0.50 registry.py(239):         self.do_pending_operations(model)
+0.50 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.50 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.50 registry.py(240):         self.clear_cache()
+0.50 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.50 registry.py(379):         self.get_models.cache_clear()
+0.50 registry.py(380):         if self.ready:
+0.50 registry.py(115):             for app_config in self.app_configs.values():
+0.50 registry.py(116):                 app_config.import_models()
+0.50 registry.py(260):         self.check_apps_ready()
+0.50 registry.py(131):         if not self.apps_ready:
+0.50 registry.py(261):         candidates = []
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.50 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.50 registry.py(266):                     candidates.append(app_config)
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(263):             if object_name.startswith(app_config.name):
+0.50 registry.py(262):         for app_config in self.app_configs.values():
+0.50 registry.py(267):         if candidates:
+0.50 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.50 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.53 registry.py(260):         self.check_apps_ready()
+0.53 registry.py(131):         if not self.apps_ready:
+0.53 registry.py(261):         candidates = []
+0.53 registry.py(262):         for app_config in self.app_configs.values():
+0.53 registry.py(263):             if object_name.startswith(app_config.name):
+0.53 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(147):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(148):         return self.app_configs.values()
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(115):             for app_config in self.app_configs.values():
+0.54 registry.py(116):                 app_config.import_models()
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(115):             for app_config in self.app_configs.values():
+0.54 registry.py(116):                 app_config.import_models()
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(115):             for app_config in self.app_configs.values():
+0.54 registry.py(116):                 app_config.import_models()
+0.54 registry.py(115):             for app_config in self.app_configs.values():
+0.54 registry.py(116):                 app_config.import_models()
+0.54 registry.py(260):         self.check_apps_ready()
+0.54 registry.py(131):         if not self.apps_ready:
+0.54 registry.py(261):         candidates = []
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(264):                 subpath = object_name.removeprefix(app_config.name)
+0.54 registry.py(265):                 if subpath == "" or subpath[0] == ".":
+0.54 registry.py(266):                     candidates.append(app_config)
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(263):             if object_name.startswith(app_config.name):
+0.54 registry.py(262):         for app_config in self.app_configs.values():
+0.54 registry.py(267):         if candidates:
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(268):             return sorted(candidates, key=lambda ac: -len(ac.name))[0]
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(280):             raise LookupError("Model '%s.%s' not registered." % (app_label, model_name))
+0.54 registry.py(422):             except LookupError:
+0.54 registry.py(423):                 self._pending_operations[next_model].append(apply_next_model)
+0.54 registry.py(219):         model_name = model._meta.model_name
+0.54 registry.py(220):         app_models = self.all_models[app_label]
+0.54 registry.py(221):         if model_name in app_models:
+0.54 registry.py(238):         app_models[model_name] = model
+0.54 registry.py(239):         self.do_pending_operations(model)
+0.54 registry.py(432):         key = model._meta.app_label, model._meta.model_name
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(434):             function(model)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(405):             next_model, *more_models = model_keys
+0.54 registry.py(410):             def apply_next_model(model):
+0.54 registry.py(414):             apply_next_model.func = function
+0.54 registry.py(420):             try:
+0.54 registry.py(421):                 model_class = self.get_registered_model(*next_model)
+0.54 registry.py(278):         model = self.all_models[app_label].get(model_name.lower())
+0.54 registry.py(279):         if model is None:
+0.54 registry.py(281):         return model
+0.54 registry.py(425):                 apply_next_model(model_class)
+0.54 registry.py(411):                 next_function = partial(apply_next_model.func, model)
+0.54 registry.py(412):                 self.lazy_model_operation(next_function, *more_models)
+0.54 registry.py(397):         if not model_keys:
+0.54 registry.py(398):             function()
+0.54 registry.py(433):         for function in self._pending_operations.pop(key, []):
+0.54 registry.py(240):         self.clear_cache()
+0.54 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.54 registry.py(379):         self.get_models.cache_clear()
+0.54 registry.py(380):         if self.ready:
+0.54 registry.py(115):             for app_config in self.app_configs.values():
+0.54 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(118):             self.clear_cache()
+0.55 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.55 registry.py(379):         self.get_models.cache_clear()
+0.55 registry.py(380):         if self.ready:
+0.55 registry.py(120):             self.models_ready = True
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(147):         self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(148):         return self.app_configs.values()
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(200):         if require_ready:
+0.55 registry.py(203):             self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(205):         if model_name is None:
+0.55 registry.py(206):             app_label, model_name = app_label.split(".")
+0.55 registry.py(208):         app_config = self.get_app_config(app_label)
+0.55 registry.py(156):         self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(157):         try:
+0.55 registry.py(158):             return self.app_configs[app_label]
+0.55 registry.py(210):         if not require_ready and app_config.models is None:
+0.55 registry.py(213):         return app_config.get_model(model_name, require_ready=require_ready)
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(126):             self.ready = True
+0.55 registry.py(127):             self.ready_event.set()
+0.55 registry.py(74):         with self._lock:
+0.55 registry.py(147):         self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(148):         return self.app_configs.values()
+0.55 registry.py(356):         if not self.ready:
+0.55 registry.py(358):         self.stored_app_configs.append(self.app_configs)
+0.55 registry.py(359):         self.app_configs = {}
+0.55 registry.py(360):         self.apps_ready = self.models_ready = self.loading = self.ready = False
+0.55 registry.py(361):         self.clear_cache()
+0.55 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.55 registry.py(379):         self.get_models.cache_clear()
+0.55 registry.py(380):         if self.ready:
+0.55 registry.py(362):         self.populate(installed)
+0.55 registry.py(69):         if self.ready:
+0.55 registry.py(74):         with self._lock:
+0.55 registry.py(75):             if self.ready:
+0.55 registry.py(80):             if self.loading:
+0.55 registry.py(84):             self.loading = True
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(88):                 if isinstance(entry, AppConfig):
+0.55 registry.py(91):                     app_config = AppConfig.create(entry)
+0.55 registry.py(92):                 if app_config.label in self.app_configs:
+0.55 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.55 registry.py(99):                 app_config.apps = self
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(88):                 if isinstance(entry, AppConfig):
+0.55 registry.py(91):                     app_config = AppConfig.create(entry)
+0.55 registry.py(92):                 if app_config.label in self.app_configs:
+0.55 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.55 registry.py(99):                 app_config.apps = self
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(88):                 if isinstance(entry, AppConfig):
+0.55 registry.py(91):                     app_config = AppConfig.create(entry)
+0.55 registry.py(92):                 if app_config.label in self.app_configs:
+0.55 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.55 registry.py(99):                 app_config.apps = self
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(88):                 if isinstance(entry, AppConfig):
+0.55 registry.py(91):                     app_config = AppConfig.create(entry)
+0.55 registry.py(92):                 if app_config.label in self.app_configs:
+0.55 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.55 registry.py(99):                 app_config.apps = self
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(88):                 if isinstance(entry, AppConfig):
+0.55 registry.py(91):                     app_config = AppConfig.create(entry)
+0.55 registry.py(92):                 if app_config.label in self.app_configs:
+0.55 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.55 registry.py(99):                 app_config.apps = self
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(88):                 if isinstance(entry, AppConfig):
+0.55 registry.py(91):                     app_config = AppConfig.create(entry)
+0.55 registry.py(92):                 if app_config.label in self.app_configs:
+0.55 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.55 registry.py(99):                 app_config.apps = self
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(88):                 if isinstance(entry, AppConfig):
+0.55 registry.py(91):                     app_config = AppConfig.create(entry)
+0.55 registry.py(92):                 if app_config.label in self.app_configs:
+0.55 registry.py(98):                 self.app_configs[app_config.label] = app_config
+0.55 registry.py(99):                 app_config.apps = self
+0.55 registry.py(87):             for entry in installed_apps:
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(102):             counts = Counter(
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.55 registry.py(106):             if duplicates:
+0.55 registry.py(112):             self.apps_ready = True
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(116):                 app_config.import_models()
+0.55 registry.py(115):             for app_config in self.app_configs.values():
+0.55 registry.py(118):             self.clear_cache()
+0.55 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.55 registry.py(379):         self.get_models.cache_clear()
+0.55 registry.py(380):         if self.ready:
+0.55 registry.py(120):             self.models_ready = True
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(147):         self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(148):         return self.app_configs.values()
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(200):         if require_ready:
+0.55 registry.py(203):             self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(205):         if model_name is None:
+0.55 registry.py(206):             app_label, model_name = app_label.split(".")
+0.55 registry.py(208):         app_config = self.get_app_config(app_label)
+0.55 registry.py(156):         self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(157):         try:
+0.55 registry.py(158):             return self.app_configs[app_label]
+0.55 registry.py(210):         if not require_ready and app_config.models is None:
+0.55 registry.py(213):         return app_config.get_model(model_name, require_ready=require_ready)
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(124):                 app_config.ready()
+0.55 registry.py(123):             for app_config in self.get_app_configs():
+0.55 registry.py(126):             self.ready = True
+0.55 registry.py(127):             self.ready_event.set()
+0.55 registry.py(74):         with self._lock:
+Found 1 test(s).
+Skipping setup of unused database(s): default, other.
+0.55 registry.py(147):         self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(148):         return self.app_configs.values()
+0.55 registry.py(181):         self.check_models_ready()
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(183):         result = []
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(184):         for app_config in self.app_configs.values():
+0.55 registry.py(186):         return result
+0.55 registry.py(200):         if require_ready:
+0.55 registry.py(201):             self.check_models_ready()
+0.55 registry.py(142):         if not self.models_ready:
+0.55 registry.py(205):         if model_name is None:
+0.55 registry.py(206):             app_label, model_name = app_label.split(".")
+0.55 registry.py(208):         app_config = self.get_app_config(app_label)
+0.55 registry.py(156):         self.check_apps_ready()
+0.55 registry.py(131):         if not self.apps_ready:
+0.55 registry.py(157):         try:
+0.55 registry.py(158):             return self.app_configs[app_label]
+0.55 registry.py(210):         if not require_ready and app_config.models is None:
+0.55 registry.py(213):         return app_config.get_model(model_name, require_ready=require_ready)
+0.55 registry.py(142):         if not self.models_ready:
+0.56 registry.py(181):         self.check_models_ready()
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(183):         result = []
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(185):             result.extend(app_config.get_models(include_auto_created, include_swapped))
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(184):         for app_config in self.app_configs.values():
+0.56 registry.py(186):         return result
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(142):         if not self.models_ready:
+0.56 registry.py(147):         self.check_apps_ready()
+0.56 registry.py(131):         if not self.apps_ready:
+0.56 registry.py(148):         return self.app_configs.values()
+0.57 registry.py(200):         if require_ready:
+0.57 registry.py(201):             self.check_models_ready()
+0.57 registry.py(142):         if not self.models_ready:
+0.57 registry.py(205):         if model_name is None:
+0.57 registry.py(208):         app_config = self.get_app_config(app_label)
+0.57 registry.py(156):         self.check_apps_ready()
+0.57 registry.py(131):         if not self.apps_ready:
+0.57 registry.py(157):         try:
+0.57 registry.py(158):             return self.app_configs[app_label]
+0.57 registry.py(210):         if not require_ready and app_config.models is None:
+0.57 registry.py(213):         return app_config.get_model(model_name, require_ready=require_ready)
+0.57 registry.py(142):         if not self.models_ready:
+0.57 registry.py(147):         self.check_apps_ready()
+0.57 registry.py(131):         if not self.apps_ready:
+0.57 registry.py(148):         return self.app_configs.values()
+0.58 registry.py(147):         self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(148):         return self.app_configs.values()
+0.58 registry.py(248):         self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(248):         self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(248):         self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(248):         self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(249):         return any(ac.name == app_name for ac in self.app_configs.values())
+0.58 registry.py(147):         self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(148):         return self.app_configs.values()
+0.58 registry.py(200):         if require_ready:
+0.58 registry.py(203):             self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(205):         if model_name is None:
+0.58 registry.py(206):             app_label, model_name = app_label.split(".")
+0.58 registry.py(208):         app_config = self.get_app_config(app_label)
+0.58 registry.py(156):         self.check_apps_ready()
+0.58 registry.py(131):         if not self.apps_ready:
+0.58 registry.py(157):         try:
+0.58 registry.py(158):             return self.app_configs[app_label]
+0.58 registry.py(210):         if not require_ready and app_config.models is None:
+0.58 registry.py(213):         return app_config.get_model(model_name, require_ready=require_ready)
+0.58 registry.py(131):         if not self.apps_ready:
+System check identified no issues (0 silenced).
+test_clear_cache_does_not_clear_get_swappable_settings_name (test_coverup_django__django-17029.ClearCacheTest.test_clear_cache_does_not_clear_get_swappable_settings_name) ... FAIL
+
+======================================================================
+FAIL: test_clear_cache_does_not_clear_get_swappable_settings_name (test_coverup_django__django-17029.ClearCacheTest.test_clear_cache_does_not_clear_get_swappable_settings_name)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/testbed/./tests/test_coverup_django__django-17029.py", line 26, in test_clear_cache_does_not_clear_get_swappable_settings_name
+    self.assertEqual(mocked_method.call_count, 1)
+AssertionError: 2 != 1
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+0.59 registry.py(24):         if installed_apps is None and hasattr(sys.modules[__name__], "apps"):
+0.59 registry.py(34):         self.all_models = defaultdict(dict)
+0.59 registry.py(37):         self.app_configs = {}
+0.59 registry.py(41):         self.stored_app_configs = []
+0.59 registry.py(44):         self.apps_ready = self.models_ready = self.ready = False
+0.59 registry.py(46):         self.ready_event = threading.Event()
+0.59 registry.py(49):         self._lock = threading.RLock()
+0.59 registry.py(50):         self.loading = False
+0.59 registry.py(55):         self._pending_operations = defaultdict(list)
+0.59 registry.py(58):         if installed_apps is not None:
+0.59 registry.py(59):             self.populate(installed_apps)
+0.59 registry.py(69):         if self.ready:
+0.59 registry.py(74):         with self._lock:
+0.59 registry.py(75):             if self.ready:
+0.59 registry.py(80):             if self.loading:
+0.59 registry.py(84):             self.loading = True
+0.59 registry.py(87):             for entry in installed_apps:
+0.59 registry.py(102):             counts = Counter(
+0.59 registry.py(103):                 app_config.name for app_config in self.app_configs.values()
+0.59 registry.py(102):             counts = Counter(
+0.59 registry.py(102):             counts = Counter(
+0.59 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.59 registry.py(105):             duplicates = [name for name, count in counts.most_common() if count > 1]
+0.59 registry.py(106):             if duplicates:
+0.59 registry.py(112):             self.apps_ready = True
+0.59 registry.py(115):             for app_config in self.app_configs.values():
+0.59 registry.py(118):             self.clear_cache()
+0.59 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.59 registry.py(379):         self.get_models.cache_clear()
+0.59 registry.py(380):         if self.ready:
+0.59 registry.py(120):             self.models_ready = True
+0.59 registry.py(123):             for app_config in self.get_app_configs():
+0.59 registry.py(147):         self.check_apps_ready()
+0.59 registry.py(131):         if not self.apps_ready:
+0.59 registry.py(148):         return self.app_configs.values()
+0.59 registry.py(126):             self.ready = True
+0.59 registry.py(127):             self.ready_event.set()
+0.59 registry.py(74):         with self._lock:
+0.59 registry.py(295):         to_string = to_string.lower()
+0.59 registry.py(296):         for model in self.get_models(include_swapped=True):
+0.59 registry.py(181):         self.check_models_ready()
+0.59 registry.py(142):         if not self.models_ready:
+0.59 registry.py(183):         result = []
+0.59 registry.py(184):         for app_config in self.app_configs.values():
+0.59 registry.py(186):         return result
+0.59 registry.py(304):         return None
+0.59 registry.py(376):         self.get_swappable_settings_name.cache_clear()
+0.59 registry.py(379):         self.get_models.cache_clear()
+0.59 registry.py(380):         if self.ready:
+0.59 registry.py(383):             for app_config in self.app_configs.values():
+0.59 registry.py(295):         to_string = to_string.lower()
+0.59 registry.py(296):         for model in self.get_models(include_swapped=True):
+0.59 registry.py(181):         self.check_models_ready()
+0.59 registry.py(142):         if not self.models_ready:
+0.59 registry.py(183):         result = []
+0.59 registry.py(184):         for app_config in self.app_configs.values():
+0.59 registry.py(186):         return result
+0.59 registry.py(304):         return None
++ cat coverage.cover
+{"/testbed/django/apps/registry.py": {"0": 0, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "8": 1, "10": 1, "13": 2, "437": 1, "20": 1, "61": 1, "129": 1, "140": 1, "145": 1, "150": 1, "168": 2, "169": 2, "188": 1, "215": 1, "242": 1, "251": 1, "270": 1, "283": 2, "284": 2, "306": 1, "334": 1, "339": 1, "364": 1, "370": 1, "387": 1, "427": 1, "24": 2, "25": 0, "34": 2, "37": 2, "41": 2, "44": 2, "46": 2, "49": 2, "50": 2, "55": 2, "58": 2, "59": 1, "69": 3, "70": 0, "74": 6, "75": 3, "76": 0, "80": 3, "83": 0, "84": 3, "87": 17, "88": 14, "89": 0, "91": 14, "92": 14, "93": 0, "94": 0, "95": 0, "98": 14, "99": 14, "102": 37, "103": 17, "105": 20, "106": 3, "107": 0, "108": 0, "109": 0, "112": 3, "115": 17, "116": 14, "118": 3, "120": 3, "123": 17, "124": 14, "126": 3, "127": 3, "131": 39, "132": 0, "137": 0, "138": 0, "142": 34, "143": 0, "147": 10, "148": 10, "156": 5, "157": 5, "158": 5, "159": 0, "160": 0, "161": 0, "162": 0, "163": 0, "164": 0, "165": 0, "181": 4, "183": 4, "184": 18, "185": 14, "186": 4, "200": 5, "201": 2, "203": 3, "205": 5, "206": 4, "208": 5, "210": 5, "211": 0, "213": 5, "219": 10, "220": 10, "221": 10, "223": 0, "224": 0, "226": 0, "229": 0, "227": 0, "230": 0, "231": 0, "234": 0, "236": 0, "235": 0, "238": 10, "239": 10, "240": 10, "248": 4, "249": 18, "260": 14, "261": 14, "262": 112, "263": 98, "264": 14, "265": 14, "266": 14, "267": 14, "268": 28, "278": 33, "279": 33, "280": 18, "281": 15, "295": 2, "296": 2, "297": 0, "299": 0, "300": 0, "302": 0, "303": 0, "304": 2, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "323": 0, "326": 0, "327": 0, "329": 0, "332": 0, "330": 0, "328": 0, "336": 0, "337": 0, "356": 1, "357": 0, "358": 1, "359": 1, "360": 1, "361": 1, "362": 1, "366": 0, "367": 0, "368": 0, "376": 15, "379": 15, "380": 15, "383": 1, "384": 0, "385": 0, "397": 48, "398": 15, "405": 33, "410": 33, "414": 33, "420": 33, "421": 33, "425": 15, "422": 18, "423": 18, "411": 33, "412": 33, "432": 10, "433": 28, "434": 18}}
++ git checkout 953f29f700a60fc09b08b2c2270c12c447490c6a
+M	django/apps/registry.py
+Note: switching to '953f29f700a60fc09b08b2c2270c12c447490c6a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 953f29f700 Fixed #34572 -- Added support for GDAL 3.7.
++ git apply /root/pre_state.patch
+error: unrecognized input

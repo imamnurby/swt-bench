@@ -1,0 +1,580 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git diff HEAD 84c125972ad535b2dfb245f8d311d347b45e5b8a
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch master
+nothing to commit, working tree clean
++ git show
+commit 84c125972ad535b2dfb245f8d311d347b45e5b8a
+Merge: a514e1acc5 53126426f2
+Author: Kalevi Suominen <jksuom@gmail.com>
+Date:   Sat Jan 20 09:20:33 2018 +0200
+
+    Merge pull request #13965 from normalhuman/unpolarify_polylog
+    
+    Polylogarithm is unbranched over the unit disk
+
++ git diff 84c125972ad535b2dfb245f8d311d347b45e5b8a
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: mpmath>=0.19 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from sympy==1.1.2.dev0) (1.3.0)
+Installing collected packages: sympy
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.1.2.dev0
+    Uninstalling sympy-1.1.2.dev0:
+      Successfully uninstalled sympy-1.1.2.dev0
+  DEPRECATION: Legacy editable install of sympy==1.1.2.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.3 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for sympy
+Successfully installed sympy
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git apply -v -
+Checking patch sympy/physics/quantum/tensorproduct.py...
+Applied patch sympy/physics/quantum/tensorproduct.py cleanly.
++ git apply -v -
+<stdin>:14: trailing whitespace.
+    
+<stdin>:18: trailing whitespace.
+    
+<stdin>:24: trailing whitespace.
+    
+Checking patch sympy/polys/tests/test_coverup_sympy__sympy-13974.py...
+Applied patch sympy/polys/tests/test_coverup_sympy__sympy-13974.py cleanly.
+warning: 3 lines add whitespace errors.
++ PYTHONWARNINGS=ignore::UserWarning,ignore::SyntaxWarning
++ python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(sympy/physics/quantum/tensorproduct\.py)' bin/test -C --verbose sympy/polys/tests/test_coverup_sympy__sympy-13974.p
+/testbed/sympy/core/basic.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, defaultdict
+/testbed/sympy/core/containers.py:271: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  class OrderedSet(collections.MutableSet):
+/testbed/sympy/plotting/plot.py:28: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Callable
+/testbed/sympy/core/basic.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, defaultdict
+/testbed/sympy/core/containers.py:271: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  class OrderedSet(collections.MutableSet):
+/testbed/sympy/plotting/plot.py:28: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Callable
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/physics/quantum/tensorproduct\\.py)']
+============================= test process starts ==============================
+executable:         /opt/miniconda3/envs/testbed/bin/python3  (3.9.23-final-0) [CPython]
+architecture:       64-bit
+cache:              no
+ground types:       python 
+numpy:              None
+random seed:        36795599
+hash randomization: on (PYTHONHASHSEED=2255500812)
+
+1.14 tensorproduct.py(1): """Abstract tensor product."""
+1.14 tensorproduct.py(3): from __future__ import print_function, division
+1.14 tensorproduct.py(5): from sympy import Expr, Add, Mul, Matrix, Pow, sympify
+1.14 tensorproduct.py(6): from sympy.core.compatibility import range
+1.14 tensorproduct.py(7): from sympy.core.trace import Tr
+1.14 tensorproduct.py(8): from sympy.printing.pretty.stringpict import prettyForm
+1.14 tensorproduct.py(10): from sympy.physics.quantum.qexpr import QuantumError
+1.14 tensorproduct.py(11): from sympy.physics.quantum.dagger import Dagger
+1.14 tensorproduct.py(12): from sympy.physics.quantum.commutator import Commutator
+1.14 tensorproduct.py(13): from sympy.physics.quantum.anticommutator import AntiCommutator
+1.14 tensorproduct.py(14): from sympy.physics.quantum.state import Ket, Bra
+1.14 tensorproduct.py(15): from sympy.physics.quantum.matrixutils import (
+1.14 tensorproduct.py(23):     'TensorProduct',
+1.14 tensorproduct.py(24):     'tensor_product_simp'
+1.14 tensorproduct.py(22): __all__ = [
+1.14 tensorproduct.py(31): _combined_printing = False
+1.14 tensorproduct.py(34): def combined_tensor_printing(combined):
+1.14 tensorproduct.py(50): class TensorProduct(Expr):
+1.14 tensorproduct.py(50): class TensorProduct(Expr):
+1.14 tensorproduct.py(51):     """The tensor product of two or more arguments.
+1.14 tensorproduct.py(118):     is_commutative = False
+1.14 tensorproduct.py(120):     def __new__(cls, *args):
+1.14 tensorproduct.py(133):     @classmethod
+1.14 tensorproduct.py(134):     def flatten(cls, args):
+1.14 tensorproduct.py(144):     def _eval_adjoint(self):
+1.14 tensorproduct.py(147):     def _eval_rewrite(self, pattern, rule, **hints):
+1.14 tensorproduct.py(152):     def _sympystr(self, printer, *args):
+1.14 tensorproduct.py(166):     def _pretty(self, printer, *args):
+1.14 tensorproduct.py(210):     def _latex(self, printer, *args):
+1.14 tensorproduct.py(239):     def doit(self, **hints):
+1.14 tensorproduct.py(242):     def _eval_expand_tensorproduct(self, **hints):
+1.14 tensorproduct.py(261):     def _eval_trace(self, **kwargs):
+1.14 tensorproduct.py(272): def tensor_product_simp_Mul(e):
+1.14 tensorproduct.py(364): def tensor_product_simp_Pow(e):
+1.14 tensorproduct.py(374): def tensor_product_simp(e, **hints):
+sympy/polys/tests/test_coverup_sympy__sympy-13974.py[1] 
+test_tensor_product_power_simplification 1.18 tensorproduct.py(121):         if isinstance(args[0], (Matrix, numpy_ndarray, scipy_sparse_matrix)):
+1.18 tensorproduct.py(123):         c_part, new_args = cls.flatten(sympify(args))
+1.18 tensorproduct.py(136):         c_part = []
+1.18 tensorproduct.py(137):         nc_parts = []
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(142):         return c_part, nc_parts
+1.18 tensorproduct.py(124):         c_part = Mul(*c_part)
+1.18 tensorproduct.py(125):         if len(new_args) == 0:
+1.18 tensorproduct.py(127):         elif len(new_args) == 1:
+1.18 tensorproduct.py(130):             tp = Expr.__new__(cls, *new_args)
+1.18 tensorproduct.py(131):             return c_part * tp
+1.18 tensorproduct.py(121):         if isinstance(args[0], (Matrix, numpy_ndarray, scipy_sparse_matrix)):
+1.18 tensorproduct.py(123):         c_part, new_args = cls.flatten(sympify(args))
+1.18 tensorproduct.py(136):         c_part = []
+1.18 tensorproduct.py(137):         nc_parts = []
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(142):         return c_part, nc_parts
+1.18 tensorproduct.py(124):         c_part = Mul(*c_part)
+1.18 tensorproduct.py(125):         if len(new_args) == 0:
+1.18 tensorproduct.py(127):         elif len(new_args) == 1:
+1.18 tensorproduct.py(130):             tp = Expr.__new__(cls, *new_args)
+1.18 tensorproduct.py(131):             return c_part * tp
+1.18 tensorproduct.py(121):         if isinstance(args[0], (Matrix, numpy_ndarray, scipy_sparse_matrix)):
+1.18 tensorproduct.py(123):         c_part, new_args = cls.flatten(sympify(args))
+1.18 tensorproduct.py(136):         c_part = []
+1.18 tensorproduct.py(137):         nc_parts = []
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(142):         return c_part, nc_parts
+1.18 tensorproduct.py(124):         c_part = Mul(*c_part)
+1.18 tensorproduct.py(125):         if len(new_args) == 0:
+1.18 tensorproduct.py(127):         elif len(new_args) == 1:
+1.18 tensorproduct.py(130):             tp = Expr.__new__(cls, *new_args)
+1.18 tensorproduct.py(131):             return c_part * tp
+1.18 tensorproduct.py(121):         if isinstance(args[0], (Matrix, numpy_ndarray, scipy_sparse_matrix)):
+1.18 tensorproduct.py(123):         c_part, new_args = cls.flatten(sympify(args))
+1.18 tensorproduct.py(136):         c_part = []
+1.18 tensorproduct.py(137):         nc_parts = []
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(142):         return c_part, nc_parts
+1.18 tensorproduct.py(124):         c_part = Mul(*c_part)
+1.18 tensorproduct.py(125):         if len(new_args) == 0:
+1.18 tensorproduct.py(127):         elif len(new_args) == 1:
+1.18 tensorproduct.py(130):             tp = Expr.__new__(cls, *new_args)
+1.18 tensorproduct.py(131):             return c_part * tp
+1.18 tensorproduct.py(408):     if isinstance(e, Add):
+1.18 tensorproduct.py(410):     elif isinstance(e, Pow):
+1.18 tensorproduct.py(411):         if isinstance(e.base, TensorProduct):
+1.18 tensorproduct.py(412):             return tensor_product_simp_Pow(e)
+1.18 tensorproduct.py(366):     if not isinstance(e, Pow):
+1.18 tensorproduct.py(369):     if isinstance(e.base, TensorProduct):
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(121):         if isinstance(args[0], (Matrix, numpy_ndarray, scipy_sparse_matrix)):
+1.18 tensorproduct.py(123):         c_part, new_args = cls.flatten(sympify(args))
+1.18 tensorproduct.py(136):         c_part = []
+1.18 tensorproduct.py(137):         nc_parts = []
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(142):         return c_part, nc_parts
+1.18 tensorproduct.py(124):         c_part = Mul(*c_part)
+1.18 tensorproduct.py(125):         if len(new_args) == 0:
+1.18 tensorproduct.py(127):         elif len(new_args) == 1:
+1.18 tensorproduct.py(130):             tp = Expr.__new__(cls, *new_args)
+1.18 tensorproduct.py(131):             return c_part * tp
+1.18 tensorproduct.py(244):         args = self.args
+1.18 tensorproduct.py(245):         add_args = []
+1.18 tensorproduct.py(246):         stop = False
+1.18 tensorproduct.py(247):         for i in range(len(args)):
+1.18 tensorproduct.py(248):             if isinstance(args[i], Add):
+1.18 tensorproduct.py(247):         for i in range(len(args)):
+1.18 tensorproduct.py(248):             if isinstance(args[i], Add):
+1.18 tensorproduct.py(247):         for i in range(len(args)):
+1.18 tensorproduct.py(256):         if add_args:
+1.18 tensorproduct.py(259):             return self
+1.18 tensorproduct.py(408):     if isinstance(e, Add):
+1.18 tensorproduct.py(410):     elif isinstance(e, Pow):
+1.18 tensorproduct.py(411):         if isinstance(e.base, TensorProduct):
+1.18 tensorproduct.py(412):             return tensor_product_simp_Pow(e)
+1.18 tensorproduct.py(366):     if not isinstance(e, Pow):
+1.18 tensorproduct.py(369):     if isinstance(e.base, TensorProduct):
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(370):         return TensorProduct(*[ b**e.exp for b in e.base.args])
+1.18 tensorproduct.py(121):         if isinstance(args[0], (Matrix, numpy_ndarray, scipy_sparse_matrix)):
+1.18 tensorproduct.py(123):         c_part, new_args = cls.flatten(sympify(args))
+1.18 tensorproduct.py(136):         c_part = []
+1.18 tensorproduct.py(137):         nc_parts = []
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(139):             cp, ncp = arg.args_cnc()
+1.18 tensorproduct.py(140):             c_part.extend(list(cp))
+1.18 tensorproduct.py(141):             nc_parts.append(Mul._from_args(ncp))
+1.18 tensorproduct.py(138):         for arg in args:
+1.18 tensorproduct.py(142):         return c_part, nc_parts
+1.18 tensorproduct.py(124):         c_part = Mul(*c_part)
+1.18 tensorproduct.py(125):         if len(new_args) == 0:
+1.18 tensorproduct.py(127):         elif len(new_args) == 1:
+1.18 tensorproduct.py(130):             tp = Expr.__new__(cls, *new_args)
+1.18 tensorproduct.py(131):             return c_part * tp
+1.18 tensorproduct.py(244):         args = self.args
+1.18 tensorproduct.py(245):         add_args = []
+1.18 tensorproduct.py(246):         stop = False
+1.18 tensorproduct.py(247):         for i in range(len(args)):
+1.18 tensorproduct.py(248):             if isinstance(args[i], Add):
+1.18 tensorproduct.py(247):         for i in range(len(args)):
+1.18 tensorproduct.py(248):             if isinstance(args[i], Add):
+1.18 tensorproduct.py(247):         for i in range(len(args)):
+1.18 tensorproduct.py(256):         if add_args:
+1.18 tensorproduct.py(259):             return self
+1.18 tensorproduct.py(153):         from sympy.printing.str import sstr
+1.18 tensorproduct.py(154):         length = len(self.args)
+1.18 tensorproduct.py(155):         s = ''
+1.18 tensorproduct.py(156):         for i in range(length):
+1.18 tensorproduct.py(157):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(159):             s = s + sstr(self.args[i])
+1.18 tensorproduct.py(160):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(162):             if i != length - 1:
+1.18 tensorproduct.py(163):                 s = s + 'x'
+1.18 tensorproduct.py(156):         for i in range(length):
+1.18 tensorproduct.py(157):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(159):             s = s + sstr(self.args[i])
+1.18 tensorproduct.py(160):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(162):             if i != length - 1:
+1.18 tensorproduct.py(156):         for i in range(length):
+1.18 tensorproduct.py(164):         return s
+1.18 tensorproduct.py(153):         from sympy.printing.str import sstr
+1.18 tensorproduct.py(154):         length = len(self.args)
+1.18 tensorproduct.py(155):         s = ''
+1.18 tensorproduct.py(156):         for i in range(length):
+1.18 tensorproduct.py(157):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(159):             s = s + sstr(self.args[i])
+1.18 tensorproduct.py(160):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(162):             if i != length - 1:
+1.18 tensorproduct.py(163):                 s = s + 'x'
+1.18 tensorproduct.py(156):         for i in range(length):
+1.18 tensorproduct.py(157):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(159):             s = s + sstr(self.args[i])
+1.18 tensorproduct.py(160):             if isinstance(self.args[i], (Add, Pow, Mul)):
+1.18 tensorproduct.py(162):             if i != length - 1:
+1.18 tensorproduct.py(156):         for i in range(length):
+1.18 tensorproduct.py(164):         return s
+F                                [FAIL]
+
+
+________________________________________________________________________________
+ sympy/polys/tests/test_coverup_sympy__sympy-13974.py:test_tensor_product_power_simplification 
+  File "/testbed/sympy/polys/tests/test_coverup_sympy__sympy-13974.py", line 21, in test_tensor_product_power_simplification
+    assert str(t1_expanded) == "1x1"  # Correct behavior expected after bug fix
+AssertionError
+
+============= tests finished: 0 passed, 1 failed, in 0.79 seconds ==============
+DO *NOT* COMMIT!
+['--timing', '--trace', '--count', '-C', 'coverage.cover', '--include-pattern', '/testbed/(sympy/physics/quantum/tensorproduct\\.py)']
++ cat coverage.cover
+{"/testbed/sympy/physics/quantum/tensorproduct.py": {"3": 1, "5": 1, "6": 1, "7": 1, "8": 1, "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "23": 1, "24": 1, "22": 1, "31": 1, "34": 1, "50": 2, "272": 1, "364": 1, "374": 1, "47": 0, "118": 1, "120": 1, "133": 1, "134": 1, "144": 1, "147": 1, "152": 1, "166": 1, "210": 1, "239": 1, "242": 1, "261": 1, "121": 6, "122": 0, "123": 6, "124": 6, "125": 6, "126": 0, "127": 6, "128": 0, "130": 6, "131": 6, "136": 6, "137": 6, "138": 18, "139": 12, "140": 12, "141": 12, "142": 6, "145": 0, "148": 0, "149": 0, "150": 0, "153": 2, "154": 2, "155": 2, "156": 6, "157": 4, "158": 0, "159": 4, "160": 4, "161": 0, "162": 4, "163": 2, "164": 2, "168": 0, "169": 0, "170": 0, "172": 0, "173": 0, "174": 0, "175": 0, "176": 0, "177": 0, "178": 0, "179": 0, "180": 0, "181": 0, "183": 0, "184": 0, "185": 0, "186": 0, "187": 0, "188": 0, "190": 0, "191": 0, "192": 0, "194": 0, "195": 0, "196": 0, "197": 0, "198": 0, "199": 0, "200": 0, "202": 0, "203": 0, "204": 0, "205": 0, "207": 0, "208": 0, "212": 0, "213": 0, "214": 0, "216": 0, "219": 0, "220": 0, "222": 0, "223": 0, "225": 0, "226": 0, "227": 0, "228": 0, "229": 0, "232": 0, "233": 0, "234": 0, "235": 0, "236": 0, "237": 0, "217": 0, "240": 0, "244": 2, "245": 2, "246": 2, "247": 6, "248": 4, "249": 0, "250": 0, "251": 0, "252": 0, "253": 0, "254": 0, "256": 2, "257": 0, "259": 2, "262": 0, "263": 0, "265": 0, "266": 0, "268": 0, "269": 0, "316": 0, "317": 0, "318": 0, "319": 0, "320": 0, "321": 0, "322": 0, "323": 0, "324": 0, "325": 0, "326": 0, "327": 0, "328": 0, "329": 0, "330": 0, "331": 0, "333": 0, "334": 0, "335": 0, "336": 0, "338": 0, "339": 0, "340": 0, "341": 0, "342": 0, "344": 0, "345": 0, "347": 0, "348": 0, "349": 0, "350": 0, "351": 0, "353": 0, "355": 0, "356": 0, "357": 0, "358": 0, "359": 0, "360": 0, "362": 0, "366": 2, "367": 0, "369": 2, "370": 8, "372": 0, "408": 2, "409": 0, "410": 2, "411": 2, "412": 2, "414": 0, "415": 0, "416": 0, "417": 0, "418": 0, "419": 0, "420": 0, "422": 0}}
++ git checkout 84c125972ad535b2dfb245f8d311d347b45e5b8a
+Note: switching to '84c125972ad535b2dfb245f8d311d347b45e5b8a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 84c125972a Merge pull request #13965 from normalhuman/unpolarify_polylog
+M	sympy/physics/quantum/tensorproduct.py
++ git apply /root/pre_state.patch
+error: unrecognized input

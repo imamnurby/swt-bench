@@ -1,0 +1,44 @@
+diff --git a/dev/null b/tests/test_coverup_django__django-11239.py
+new file mode 100644
+index e69de29..fae4ffc 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-11239.py
+@@ -0,0 +1,38 @@
++from django.test import TestCase
++from django.db import connections
++from unittest.mock import patch
++import subprocess
++
++class DbShellSSLTest(TestCase):
++    def test_dbshell_missing_ssl_params(self):
++        """
++        Test that dbshell correctly passes SSL parameters.
++        """
++        # Mock the connection parameters to include SSL options
++        ssl_options = {
++            'sslmode': 'verify-ca',
++            'sslrootcert': 'path/to/ca.crt',
++            'sslcert': 'path/to/client_cert_chain.crt',
++            'sslkey': 'path/to/client_key.key',
++        }
++        
++        with patch.dict('os.environ', {'PGPASSWORD': 'fakepassword'}):
++            with patch.object(connections['default'], 'get_connection_params', return_value={
++                'database': 'test_db',
++                'user': 'test_user',
++                'host': 'localhost',
++                'port': '5432',
++                **ssl_options,
++            }):
++                with patch('subprocess.run') as mock_run:
++                    # Set the mock to simulate a successful result
++                    mock_run.return_value = subprocess.CompletedProcess(args=[], returncode=0)
++                    
++                    # Attempt to run dbshell
++                    connections['default'].client.runshell()
++                    
++                    # Check that SSL parameters are passed to the subprocess
++                    called_args = mock_run.call_args[0][0] if mock_run.call_args else []
++                    self.assertIn('--sslrootcert=path/to/ca.crt', called_args)
++                    self.assertIn('--sslcert=path/to/client_cert_chain.crt', called_args)
++                    self.assertIn('--sslkey=path/to/client_key.key', called_args)

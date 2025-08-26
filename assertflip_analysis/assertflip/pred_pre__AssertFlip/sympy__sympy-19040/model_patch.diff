@@ -1,0 +1,18 @@
+diff --git a/dev/null b/sympy/polys/tests/test_coverup_sympy__sympy-19040.py
+new file mode 100644
+index e69de29..69d35fd 100644
+--- /dev/null
++++ b/sympy/polys/tests/test_coverup_sympy__sympy-19040.py
+@@ -0,0 +1,12 @@
++from sympy import factor, expand, I
++from sympy.abc import x, y
++
++def test_factor_with_extension_bug():
++    # Define the polynomial z
++    z = expand((x - 1) * (y - 1))
++    
++    # Factor the polynomial with extension=[I]
++    result = factor(z, extension=[I])
++    
++    # Assert that the result is equal to the expected correct factorization
++    assert result == (x - 1) * (y - 1)

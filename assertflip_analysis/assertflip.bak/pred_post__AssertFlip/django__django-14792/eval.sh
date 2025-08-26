@@ -1,0 +1,85 @@
+#!/bin/bash
+set -uxo pipefail
+source /opt/miniconda3/bin/activate
+conda activate testbed
+cd /testbed
+git diff HEAD d89f976bddb49fb168334960acc8979c3de991fa >> /root/pre_state.patch
+git config --global --add safe.directory /testbed
+cd /testbed
+git status
+git show
+git diff d89f976bddb49fb168334960acc8979c3de991fa
+source /opt/miniconda3/bin/activate
+conda activate testbed
+python -m pip install -e .
+git apply -v - <<'EOF_114329324912'
+diff --git a/django/utils/timezone.py b/django/utils/timezone.py
+--- a/django/utils/timezone.py
++++ b/django/utils/timezone.py
+@@ -72,8 +72,11 @@ def get_current_timezone_name():
+ 
+ 
+ def _get_timezone_name(timezone):
+-    """Return the name of ``timezone``."""
+-    return str(timezone)
++    """
++    Return the offset for fixed offset timezones, or the name of timezone if
++    not set.
++    """
++    return timezone.tzname(None) or str(timezone)
+ 
+ # Timezone selection functions.
+ 
+
+EOF_114329324912
+git apply -v - <<'EOF_114329324912'
+diff --git a/dev/null b/tests/test_coverup_django__django-14792.py
+new file mode 100644
+index e69de29..7803aaa 100644
+--- /dev/null
++++ b/tests/test_coverup_django__django-14792.py
+@@ -0,0 +1,38 @@
++from django.test import TestCase
++from django.db import connection, models
++from django.db.models.functions import Trunc
++from django.utils import timezone
++from unittest.mock import patch
++
++# Define a mock model to use in the test
++class MyModel(models.Model):
++    start_at = models.DateTimeField()
++
++    class Meta:
++        app_label = 'tests'  # Ensure the model is associated with a test app
++
++class TruncTimezoneTest(TestCase):
++    databases = {'default'}
++
++    @classmethod
++    def setUpTestData(cls):
++        # Create the table for MyModel
++        with connection.cursor() as cursor:
++            cursor.execute('CREATE TABLE tests_mymodel (id serial PRIMARY KEY, start_at timestamp with time zone);')
++
++    def test_trunc_timezone_conversion(self):
++        """
++        Test that Trunc with 'Etc/GMT-10' timezone correctly converts to '-10' in the SQL query.
++        """
++        # Mock the timezone to simulate the bug
++        with patch('django.utils.timezone._get_timezone_name', return_value='Etc/GMT-10'):
++            # Create a test instance of the model
++            MyModel.objects.create(start_at=timezone.now())
++
++            # Use the Trunc function to simulate the SQL generation
++            queryset = MyModel.objects.annotate(truncated_date=Trunc('start_at', 'day', tzinfo=timezone.get_current_timezone()))
++            sql, params = queryset.query.sql_with_params()
++
++            # Check if the correct timezone conversion is present in the query
++            # We expect the correct conversion to '-10'
++            self.assertIn("AT TIME ZONE '-10'", sql)
+
+EOF_114329324912
+python3 /root/trace.py --timing --trace --count -C coverage.cover --include-pattern '/testbed/(django/utils/timezone\.py)' ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 test_coverup_django__django-14792
+cat coverage.cover
+git checkout d89f976bddb49fb168334960acc8979c3de991fa
+git apply /root/pre_state.patch
