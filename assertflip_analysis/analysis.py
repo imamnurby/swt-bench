@@ -1,5 +1,15 @@
 import json
+import orjson
 from collections.abc import Iterable
+from functools import partial
+from itertools import repeat
+from typing import TypeVar
+from os.path import join
+from os import makedirs
+from typing import Self
+from typing import Any
+import traceback
+from collections.abc import Callable
 from collections import ChainMap
 from tqdm import tqdm
 import base64
@@ -18,12 +28,57 @@ from more_itertools import peekable
 from icecream import ic
 import click
 
+T = TypeVar("T")
+R = TypeVar("R")
+
 ic.disable()
 
 
 @click.group()
 def cli():
     pass
+
+
+@dataclass
+class Error:
+    exc_type: str
+    traceback: str
+    value: Any
+
+    @classmethod
+    def from_exception(cls, e: Exception, value: Any) -> Self:
+        return cls(
+            exc_type=e.__class__.__name__, traceback=traceback.format_exc(), value=value
+        )
+
+
+def safe_gen(
+    func: Callable[[T], R]
+) -> Callable[[Iterable[T | Error]], Iterable[R | Error]]:
+    @wraps(func)
+    def wrapped(iterable: Iterable[T | Error]) -> Iterable[R | Error]:
+        for x in iterable:
+            if isinstance(x, Error):
+                yield x
+                continue
+
+            try:
+                yield func(x)
+            except Exception as e:
+                yield Error.from_exception(e, x)
+
+    return wrapped
+
+
+def safe(func: Callable[[T], R]) -> Callable[[T], R | Error]:
+    @wraps(func)
+    def wrapped(x: T) -> R | Error:
+        try:
+            return func(x)
+        except Exception as e:
+            return Error.from_exception(e, x)
+
+    return wrapped
 
 
 def extract_cov(lines: Iterable[str]) -> dict:
@@ -40,13 +95,17 @@ def extract_cov(lines: Iterable[str]) -> dict:
     raise RuntimeError
 
 
-def open_files(files: Iterable[Path]) -> Iterable[TextIOBase | None]:
+def open_files(files: Iterable[Path | Error]) -> Iterable[TextIOBase | Error]:
     for file in files:
+        if isinstance(file, Error):
+            yield file
+            continue
+
         try:
             with open(file) as f:
                 yield f
-        except Exception:
-            yield None
+        except Exception as e:
+            yield Error.from_exception(e, file)
 
 
 @cli.command()
@@ -368,7 +427,7 @@ class Func(NamedTuple):
     func: str
 
     def __repr__(self):
-        return f"{self.module}:{self.func}"
+        return f"{self.file}:{self.func}"
 
     def __eq__(self, other):
         return self.file == other.file and self.func == other.func
@@ -404,7 +463,7 @@ class ReconstructCallstacks:
                 full_stack.append(last_callee)
                 yield full_stack
 
-                while depth < depths[-1]:
+                while depths and depth < depths[-1]:
                     stack.pop()
                     depths.pop()
                 assert (not depths) or (depth == depths[-1] and caller == stack[-1])
@@ -421,35 +480,85 @@ class ReconstructCallstacks:
             stack.append(last_callee)
             yield stack
 
+
 def encode_object(obj):
-    json_str = json.dumps(obj, separators=(",", ":"))
+    # json_str = json.dumps(obj, separators=(",", ":"))
+    json_str = orjson.dumps(obj).decode()
     compressed = zlib.compress(json_str.encode("utf-8"))
     b64_str = base64.b64encode(compressed).decode("ascii")
     return b64_str
+
+
 def decode_object(b64_str: str):
     compressed = base64.b64decode(b64_str)
     json_str = zlib.decompress(compressed).decode("utf-8")
-    obj = json.loads(json_str)
+    # obj = json.loads(json_str)
+    obj = orjson.loads(json_str)
     return obj
 
 
 @cli.command()
-@click.option("--stacks-file", "-s", type=str)
+@click.option("--stacks-dir", "-s", type=str)
 @click.option("--dev-locs-file", "-d", type=str)
 def main_select_stacks(stacks_dir: str, dev_locs_file: str) -> None:
-    stacks_files = Path(stacks_dir).glob("*.b64")
-    stacks_map = ChainMap(*(decode_object(f.read_text()) for f in stacks_files))
+    stacks_files = sorted(Path(stacks_dir).glob("*.b64"))
+    # stacks_files = [Path(stacks_dir) / "astropy__astropy-12907.b64"]
+    with Pool(64) as pool:
+        texts = pool.map(Path.read_text, tqdm(stacks_files, desc="read files"))
+        stacks = pool.map(
+            decode_object_safe,
+            tqdm(texts, total=len(stacks_files), desc="decode objects"),
+        )
+    stacks_map = ChainMap(*(s for s in stacks if not isinstance(s, Error)))
+
     stacks_map = {
         k: [[Func(*x) for x in stack] for stack in stacks]
         for k, stacks in stacks_map.items()
     }
-    stacks_map = {k: clean_stacks(v) for k, v in stacks_map}
+    stacks_map = {k: list(clean_stacks(v)) for k, v in stacks_map.items()}
+
+    with open("bar2.json", "w") as f:
+        x = {
+            k: [list(map(tuple, stack)) for stack in stacks]
+            for k, stacks in stacks_map.items()
+        }
+        f.write(orjson.dumps(x, option=orjson.OPT_INDENT_2).decode())
+
+        relevant_dir = "assertflip_analysis/clean_stacks"
+        makedirs(relevant_dir, exist_ok=True)
+        try:
+            dicts = (dict([item]) for item in x.items())
+            out_files = (Path(relevant_dir, f"{k}.b64") for k in x)
+            with Pool(64) as pool:
+                contents = pool.map(
+                    encode_object,
+                    tqdm(dicts, total=len(stacks_files), desc="encode clean stack"),
+                )
+                pool.starmap(
+                    Path.write_text,
+                    tqdm(
+                        zip(out_files, contents),
+                        total=len(stacks_files),
+                        desc="dump clean stack",
+                    ),
+                )
+
+            # for k, v in x.items():
+            #     with open(join(clean_dir, f"{k}.b64"), "w") as f:
+            #         f.write(encode_object({k: v}))
+        except Exception:
+            import traceback
+
+            traceback.print_exc()
+        # json.dump(dict(stacks_map.items()), f, indent=4)
 
     with open(dev_locs_file) as f:
         dev_locs_map = ChainMap(*map(json.loads, f))
 
     def dev_loc_to_func(dev_loc: dict) -> Func:
-        if dev_loc["class_name"]:
+        if dev_loc["start"] is None:
+            func_name = "<module>"
+        elif dev_loc["class_name"]:
             func_name = f"{dev_loc['class_name']}.{dev_loc['method_name']}"
         else:
             func_name = dev_loc["method_name"]
@@ -457,29 +566,137 @@ def main_select_stacks(stacks_dir: str, dev_locs_file: str) -> None:
 
     dev_funcs_map = {k: set(map(dev_loc_to_func, v)) for k, v in dev_locs_map.items()}
 
+    print(dev_funcs_map)
+
     relevant_stacks_map = {
-        k: select_stacks(stacks_map[k], dev_funcs_map[k]) for k in stacks_map
+        k: list(select_stacks(stacks_map[k], dev_funcs_map[k]))
+        for k in tqdm(stacks_map, total=len(stacks_files), desc="select stacks")
+        if k in dev_funcs_map
     }
 
     with open("assertflip_analysis/relevant_stacks.json", "w") as f:
-        json.dump(relevant_stacks_map, f, indent=4)
+        x = {
+            k: [list(map(tuple, stack)) for stack in stacks]
+            for k, stacks in relevant_stacks_map.items()
+        }
+        f.write(orjson.dumps(x, option=orjson.OPT_INDENT_2).decode())
+        # json.dump(x, f, indent=4)
+
+        relevant_dir = "assertflip_analysis/relevant_stacks"
+        makedirs(relevant_dir, exist_ok=True)
+        try:
+            # for k, v in x.items():
+            #     with open(join(relevant_dir, f"{k}.json"), "w") as f:
+            #         f.write(orjson.dumps({k: v}, option=orjson.OPT_INDENT_2).decode())
+
+            dicts = (dict([item]) for item in x.items())
+            out_files = (Path(relevant_dir, f"{k}.json") for k in x)
+            with Pool(64) as pool:
+                contents = pool.map(
+                    partial(orjson.dumps, option=orjson.OPT_INDENT_2),
+                    tqdm(dicts, total=len(stacks_files), desc="dump relevant"),
+                )
+                pool.starmap(Path.write_bytes, zip(out_files, contents))
+        except Exception:
+            import traceback
+
+            traceback.print_exc()
 
 
 def select_stacks(
     stacks: Iterable[Sequence[Func]], dev_funcs: set[Func]
 ) -> Iterable[Sequence[Func]]:
     for stack in stacks:
-        for func in stack:
-            if func in dev_funcs:
-                yield stack
-                continue
+        if any(func in stack for func in dev_funcs):
+            yield stack
 
 
 def clean_stacks(stacks: Iterable[Sequence[Func]]) -> Iterable[Sequence[Func]]:
     def filter_stack(stack: Iterable[Func]) -> list[Func]:
-        return [f for f in stack if "/tests/" not in f.file]
+        return [
+            Func(f.file.removeprefix("/testbed/"), f.module, f.func)
+            for f in stack
+            if "/tests/" not in f.file
+            and "/site-packages/" not in f.file
+            and "miniconda" not in f.file
+            and "/root/trace.py" not in f.file
+            and "<frozen importlib" not in f.file
+        ]
 
     yield from filter(None, map(filter_stack, stacks))
+
+
+def _write_call(task_dir: Path, call_b64: str | Error, out_dir: str) -> None:
+    if isinstance(call_b64, str):
+        with open(join(out_dir, f"{task_dir.name}.b64"), "w") as f:
+            f.write(encode_object({task_dir.name: decode_object(call_b64)}))
+
+
+@cli.command()
+@click.option("--swt-logs-dir", "-i", type=str)
+@click.option("--output-dir", "-o", type=str)
+def main_extract_calls(swt_logs_dir: str, output_dir: str) -> None:
+    task_dirs = list(Path(swt_logs_dir).glob("*/"))
+
+    @safe_gen
+    def _extract_calls(iterable: Iterable[str]) -> str:
+        it = iter(iterable)
+        for line in it:
+            if line.startswith("Call stacks json base64:"):
+                try:
+                    return next(it).strip()
+                except StopIteration as e:
+                    raise RuntimeError("calls not found") from e
+        raise RuntimeError("calls not found")
+
+    fds = open_files(d / "test_output.txt" for d in task_dirs)
+    calls = _extract_calls(fds)
+    out_dir = Path(output_dir)
+    out_dir.mkdir(parents=True)
+
+    from multiprocessing.pool import Pool
+
+    with Pool(12) as pool:
+        pool.starmap(
+            _write_call,
+            tqdm(zip(task_dirs, calls, repeat(output_dir)), total=len(task_dirs)),
+        )
+
+
+def _write_stack(task_id: str, trace: list[Edge], stacks_dir: str) -> None:
+    stacks = list(map(list, ReconstructCallstacks.run(trace)))
+    data = {task_id: stacks}
+
+    with open(join(stacks_dir, f"{task_id}.b64"), "w") as f:
+        f.write(encode_object(data))
+
+
+def decode_object_safe(s: str):
+    return safe(decode_object)(s)
+
+
+@cli.command()
+@click.option("--calls-dir", "-i", type=str)
+@click.option("--stacks-dir", "-o", type=str)
+def main_reconstruct_callstacks(calls_dir: str, stacks_dir: str) -> None:
+    calls_files = list(Path(calls_dir).glob("*"))
+    # texts = (f.read_text() for f in calls_files)
+    # texts = (Path.read_text(f) for f in calls_files)
+    # calls = map(safe(decode_object), texts)
+    with Pool(12) as pool:
+        texts = pool.map(Path.read_text, tqdm(calls_files, desc="read files"))
+    with Pool(128) as pool:
+        calls = pool.map(
+            decode_object_safe, tqdm(texts, total=len(calls_files), desc="decode calls")
+        )
+    calls = (x for x in calls if not isinstance(x, Error))
+    calls_map = ChainMap(*calls)
+
+    makedirs(stacks_dir, exist_ok=True)
+
+    with Pool(128) as pool:
+        args = ((*item, stacks_dir) for item in calls_map.items())
+        pool.starmap(_write_stack, tqdm(args, total=len(calls_map)))
 
 
 # ____________________________________ TESTS __________________________________________
