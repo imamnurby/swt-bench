@@ -44,18 +44,20 @@ def copy_to_container(container: Container, src: Path, dst: Path):
             f"Destination path parent directory cannot be empty!, dst: {dst}"
         )
 
-    with open(src, "rb") as f:
-        compressed = gzip.compress(f.read())
-
-    compressed_obj_base64 = base64.b64encode(compressed).decode()
+    # with open(src, "rb") as f:
+    #     compressed = gzip.compress(f.read())
+    #
+    # compressed_obj_base64 = base64.b64encode(compressed).decode()
 
     # Make directory if necessary
     checked_exec_run(container, f"mkdir -p {dst.parent}")
+    import subprocess
+    subprocess.run(["docker", "cp", str(src), f"{container.id}:{dst!s}"], check=True)
 
     # Send tar file to container and extract
-    write_to_container(container, compressed_obj_base64, pathlib.Path(f"{dst}.b64"))
-    checked_exec_run(container, f"/bin/bash -c \"base64 -d {dst}.b64 | gunzip -c - | tee {dst}\"")
-    checked_exec_run(container, f"rm {dst}.b64")
+    # write_to_container(container, compressed_obj_base64, pathlib.Path(f"{dst}.b64"))
+    # checked_exec_run(container, f"/bin/bash -c \"base64 -d {dst}.b64 | gunzip -c - | tee {dst}\"")
+    # checked_exec_run(container, f"rm {dst}.b64")
 
 
 
